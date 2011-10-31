@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/demographics">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<zipcode xmlns="http://smartplatforms.org/terms#">74066</zipcode>
+	<gender xmlns="http://xmlns.com/foaf/0.1/">male</gender>
+	<birthday xmlns="http://smartplatforms.org/terms#">1995-08-27</birthday>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">Richard</givenName>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">Reed</familyName>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/8b0b19e8-2da5-458d-add6-4d8f010e48e5">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">4 gtt in ear bid x7 day</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2006-09-25</startDate>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1709"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1709">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/404630"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/404630">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">404630</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/8b0b19e8-2da5-458d-add6-4d8f010e48e5">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1707"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1707">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">[drp]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/8b0b19e8-2da5-458d-add6-4d8f010e48e5">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1708"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1708">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/1ecbe250-5e25-4ab5-b4d8-83f96967d263">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 gtt in eyes tid x7 days</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2005-07-20</startDate>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1664"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1664">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">moxifloxacin 5 MG/ML Ophthalmic Solution [Vigamox]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/404473"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/404473">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">404473</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/1ecbe250-5e25-4ab5-b4d8-83f96967d263">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1662"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1662">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">[drp]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/1ecbe250-5e25-4ab5-b4d8-83f96967d263">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1663"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1663">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/6d2b548f-f19b-4c97-9a62-aac86014b1d2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">2 puffs qid prn SOB</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2004-11-14</startDate>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1670"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1670">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/745679"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745679">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">745679</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/6d2b548f-f19b-4c97-9a62-aac86014b1d2">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1668"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1668">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{puff}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/6d2b548f-f19b-4c97-9a62-aac86014b1d2">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1669"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1669">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2007-07-17</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/ca793c88-b8b1-45da-a530-412ef5b8acfd"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/ca793c88-b8b1-45da-a530-412ef5b8acfd">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-11-21</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1696"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1696">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">atomoxetine 18 MG Oral Capsule [Strattera]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/352318"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/352318">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">352318</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1694"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1694">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1695"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1695">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/b5fa8fa6-c574-44a7-8310-fb1b3623c376"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/b5fa8fa6-c574-44a7-8310-fb1b3623c376">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-10-19</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/eb6b93c3-002f-4df2-af2a-ca617bf754e6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/eb6b93c3-002f-4df2-af2a-ca617bf754e6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-09-16</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/f349b6f1-9538-4b68-b344-ed02960ba47f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/b76f56e2-4acf-4089-ba31-099fdc51cdb0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/b76f56e2-4acf-4089-ba31-099fdc51cdb0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-07-17</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2006-01-07</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/13a951fb-35ef-49c2-ba56-cac5633cdfe9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/13a951fb-35ef-49c2-ba56-cac5633cdfe9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-11-08</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1658"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1658">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/284429"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/284429">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">284429</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1656"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1656">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1657"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1657">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/4e897472-02ef-4a2b-a6e6-dd29453968e4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/4e897472-02ef-4a2b-a6e6-dd29453968e4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-09-10</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/a343b950-4d02-47c1-8248-1505ce109d40"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/a343b950-4d02-47c1-8248-1505ce109d40">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-02-08</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/721e1fb7-1c40-463c-a5e4-50725aef827f"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/721e1fb7-1c40-463c-a5e4-50725aef827f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-08-14</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/85e666eb-72bd-46c5-bc32-5ac4ebd1e759"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/85e666eb-72bd-46c5-bc32-5ac4ebd1e759">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-01-07</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/456db93a-fddf-4a3a-9150-a25026c62384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/456db93a-fddf-4a3a-9150-a25026c62384">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-06-02</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/aa2d557a-5c95-441b-b691-cd9173de4f36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/aa2d557a-5c95-441b-b691-cd9173de4f36">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-05-01</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/3d134a84-bedd-48d1-baf7-1cc8094a73c1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/3d134a84-bedd-48d1-baf7-1cc8094a73c1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-10-17</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/98b8ba0c-ab0c-4989-bc75-d17a2badeb2f"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/98b8ba0c-ab0c-4989-bc75-d17a2badeb2f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-01-07</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/31170fce-78dd-47e1-b6ad-8d3772545439"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/31170fce-78dd-47e1-b6ad-8d3772545439">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2007-02-19</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/5ac3a7ff-1e39-4382-af99-90690ea1e2af">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/8b3ad3ec-d5cf-4c83-b3af-0de6f6bbc6d7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/8b3ad3ec-d5cf-4c83-b3af-0de6f6bbc6d7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2006-07-13</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/3be3badc-8325-4c5e-936c-df6a982a01c7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">2 puffs qid prn SOB</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-05-21</startDate>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1678"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1678">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/745752"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745752">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">745752</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/3be3badc-8325-4c5e-936c-df6a982a01c7">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1676"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1676">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{puff}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/3be3badc-8325-4c5e-936c-df6a982a01c7">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1677"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1677">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-01-13</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/9a72a73c-688c-4c2f-8a9f-9d432e39dd4a"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/9a72a73c-688c-4c2f-8a9f-9d432e39dd4a">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-07-20</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1688"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1688">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">atomoxetine 25 MG Oral Capsule [Strattera]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/352319"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/352319">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">352319</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1686"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1686">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1687"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1687">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/797f2e0d-f270-4dc1-8acd-587602fce0a4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/797f2e0d-f270-4dc1-8acd-587602fce0a4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-01-13</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/8fa4288a-5bf8-4b23-9d6a-653ae8d76511"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/8fa4288a-5bf8-4b23-9d6a-653ae8d76511">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-06-23</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/11eff417-6d4b-4c1f-b33b-3846c24938ee"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/11eff417-6d4b-4c1f-b33b-3846c24938ee">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-05-21</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/0fe033f6-697c-49f3-978d-322108433604"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/0fe033f6-697c-49f3-978d-322108433604">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-02-17</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/medications/ecfbb814-e5c2-4d9e-97c5-7780477cd934">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/a317e917-d0c0-4963-8cfb-37d8081574bd"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/fulfillments/a317e917-d0c0-4963-8cfb-37d8081574bd">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">30</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-04-25</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/8e894a6f-988b-4e28-8c8a-8dc2875a65c6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-02-10</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1698"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1698">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Abnormal involuntary movement</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/26079004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/26079004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26079004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/bb7a9e01-0381-47cf-aa58-05cf1302cf2b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-09-25</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1704"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1704">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Acute upper respiratory infection</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/54150009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/54150009">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">54150009</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/ecaf1334-0de0-490b-b222-66bc91d44d8b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-10-16</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1643"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1643">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Constipation</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/14760008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/14760008">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">14760008</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/4185238a-3e8a-4931-bd92-b9b6c20c8bef">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-09-25</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1674"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1674">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Otalgia</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/16001004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/16001004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">16001004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/ff49f2a6-a641-4be9-bed5-290d06234be0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-11-23</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1672"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1672">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Cough</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/49727002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/49727002">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">49727002</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/3af97d2b-1607-49dc-920e-30351daedfa2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2004-12-31</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1700"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1700">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Acute atopic conjunctivitis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/67678004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/67678004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">67678004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/071ad660-a0a9-4452-8dab-e6dfa2304174">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-12-19</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1660"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1660">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Tic disorder</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/568005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/568005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">568005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/ff1d9708-1543-47de-8ed4-9203eb8247f4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-01-18</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1666"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1666">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Attention deficit hyperactivity disorder</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/406506008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/406506008">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">406506008</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/5b1de3d9-5b17-465e-8bad-95fa3f8af061">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2004-12-31</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1639"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1639">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Accidental burning caused by caustic and corrosive substance</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/242489002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/242489002">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">242489002</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/45c87262-4d59-44a2-8d4c-e65d5c2d6d80">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-11-23</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1711"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1711">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Asthma</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/195967001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/195967001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">195967001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1186747/problems/7d7f8489-e4ae-42ff-b568-8a5d493b8f1f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2006-11-23</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1641"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1641">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Hemoptysis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/66857006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/66857006">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">66857006</identifier>
+</rdf:Description>
+
+
+
+</rdf:RDF>

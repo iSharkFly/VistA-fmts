@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/demographics">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<zipcode xmlns="http://smartplatforms.org/terms#">74014</zipcode>
+	<gender xmlns="http://xmlns.com/foaf/0.1/">female</gender>
+	<birthday xmlns="http://smartplatforms.org/terms#">1932-05-25</birthday>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">Sandra</givenName>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">West</familyName>
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/f149e063-0aef-4229-bf54-1292bf96d721">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-11-19</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2666"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2666">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Abnormal weight loss</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/267024001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/267024001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">267024001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/8134a732-b6c3-4bbe-9e25-1111f28b4b22">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-04-18</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2657"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2657">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">H/O: artificial eye lens</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/309523001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/309523001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">309523001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/e41404f9-1314-4e66-a31e-64694ed1bf98">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-02-07</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2651"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2651">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Senile nuclear sclerosis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/193589009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/193589009">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">193589009</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/51c0e32a-0200-4122-9bf7-e4e3bcee3741">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-12-20</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2653"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2653">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Ovarian failure</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/16041008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/16041008">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">16041008</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/7cbddf84-9bdb-4613-8670-2ebdb5147728">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-06-19</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2655"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2655">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Carcinoma in situ of breast</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/189336000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/189336000">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">189336000</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/3f35c58e-0329-427c-b6ed-be0930dcd3d8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-06-05</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2670"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2670">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Breast lump</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/89164003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/89164003">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">89164003</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/2631c3fc-80d7-4dd1-ae5d-ccd1d6a1ecac">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-07-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2668"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2668">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Needs influenza immunization</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/185903001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/185903001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">185903001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/00d4fcca-92e3-4efa-9491-9fb369684a8a">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-02-28</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2664"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2664">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Postprocedural state finding</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/213299007"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/213299007">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">213299007</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/bd1a3b3f-9bde-465e-a1a1-4a7c4d6000b6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-12-20</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2672"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2672">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Asymptomatic postmenopausal status (age-related) (natural)</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/76498008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/76498008">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">76498008</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/9f62531b-ecfc-408b-aa3c-08a7c082b375">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-02-28</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2662"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2662">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Neoplasm of breast</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/126926005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/126926005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">126926005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/53fa2a91-d0cb-479a-9795-7839c3a844f2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-06-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2676"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2676">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Essential hypertension</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/38341003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/38341003">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">38341003</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/346107e7-b9e1-4b0d-b9da-7be6a9ce6b82">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-06-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2649"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2649">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Hyperlipidemia</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/55822004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/55822004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">55822004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1291938/problems/ce5d7945-cace-427b-8b78-100a0c2de7b2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-05-23</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2660"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2660">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Primary malignant neoplasm of female breast</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/254837009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/254837009">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">254837009</identifier>
+</rdf:Description>
+
+
+
+</rdf:RDF>

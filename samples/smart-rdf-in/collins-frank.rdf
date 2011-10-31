@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/demographics">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<zipcode xmlns="http://smartplatforms.org/terms#">74108</zipcode>
+	<gender xmlns="http://xmlns.com/foaf/0.1/">male</gender>
+	<birthday xmlns="http://smartplatforms.org/terms#">1965-12-09</birthday>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">Frank</givenName>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">Collins</familyName>
+</rdf:Description>
+
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/45102885-7c24-48f4-9525-58d7bb6cec61">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-15</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1715"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1715">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Lymphadenitis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/19471005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/19471005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">19471005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/edcf6865-b43f-4dfb-9877-19e41f14a7b7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-06-25</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1730"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1730">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Cellulitis and abscess of face</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/200645004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/200645004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">200645004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/54de95c0-572f-4a05-85da-2877423bec4b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-11</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1721"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1721">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Unspecified local infection of skin and subcutaneous tissue</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/108365000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/108365000">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">108365000</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/d7dc93d2-1ae1-48c0-882f-61d7def8728a">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-13</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1727"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1727">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Cellulitis and abscess of leg</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/267782008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/267782008">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">267782008</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/8e17d85d-b275-4a92-8f4d-0eecc32f98c5">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-13</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1732"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1732">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Benign essential hypertension</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/1201005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/1201005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1201005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/2133371b-a3f3-4b9c-9443-23e78b17d26d">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-15</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1723"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1723">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Joint effusion of the lower leg</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/202381003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/202381003">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">202381003</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/5b7f934d-a6fb-43bd-81fb-227e1acde0a3">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-02-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1734"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1734">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Spasm</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/90392009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/90392009">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">90392009</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/d6b524e1-94a0-42a2-af11-19e8dba7a81c">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-13</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1736"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1736">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Gastro-esophageal reflux disease with esophagitis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/57643001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/57643001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">57643001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/2801a23a-df76-4265-87c8-13c55cb138dd">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-02-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1717"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1717">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Neck pain</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/81680005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/81680005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">81680005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1213208/problems/bc476953-ddbb-458a-953f-30cdbd75d2eb">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2009-05-15</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW1725"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW1725">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Abdominal pain</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/30473006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/30473006">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">30473006</identifier>
+</rdf:Description>
+
+
+
+
+</rdf:RDF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:sp="http://smartplatforms.org/terms#">
+  <sp:Allergy rdf:about="http://sandbox-api.smartplatforms.org/records/1551992/allergies/86a2218e-6216-46a6-b8c9-1ba3b5514911">
+    <sp:category>
+      <sp:CodedValue>
+        <dcterms:title>Drug Allergy</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/416098002"/>
+      </sp:CodedValue>
+    </sp:category>
+    <sp:class>
+      <sp:CodedValue>
+        <dcterms:title>Sulfonamide Antibacterial</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id=N0000175503"/>
+      </sp:CodedValue>
+    </sp:class>
+    <sp:reaction>
+      <sp:CodedValue>
+        <dcterms:title>Skin Rash</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/271807003"/>
+      </sp:CodedValue>
+    </sp:reaction>
+    <sp:severity>
+      <sp:CodedValue>
+        <dcterms:title>Mild</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/255604002"/>
+      </sp:CodedValue>
+    </sp:severity>
+  </sp:Allergy>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/271807003">
+    <dcterms:identifier>271807003</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/255604002">
+    <dcterms:identifier>255604002</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/416098002">
+    <dcterms:identifier>416098002</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id=N0000175503">
+    <dcterms:identifier>N0000175503</dcterms:identifier>
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id="/>
+  </sp:Code>
+</rdf:RDF>

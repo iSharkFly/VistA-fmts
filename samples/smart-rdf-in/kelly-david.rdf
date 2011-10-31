@@ -1,0 +1,3651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/demographics">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<zipcode xmlns="http://smartplatforms.org/terms#">74066</zipcode>
+	<gender xmlns="http://xmlns.com/foaf/0.1/">male</gender>
+	<birthday xmlns="http://smartplatforms.org/terms#">1925-02-09</birthday>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">David</givenName>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">Kelly</familyName>
+</rdf:Description>
+
+
+
+
+  <sp:Allergy rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/allergies/32663ad1-26b9-4a06-b985-4b291c35bffc">
+    <sp:category>
+      <sp:CodedValue>
+        <dcterms:title>Drug Allergy</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/416098002"/>
+      </sp:CodedValue>
+    </sp:category>
+    <sp:reaction>
+      <sp:CodedValue>
+        <dcterms:title>Skin Rash</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/271807003"/>
+      </sp:CodedValue>
+    </sp:reaction>
+    <sp:class>
+      <sp:CodedValue>
+        <dcterms:title>Sulfonamide Antibacterial</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id=N0000175503"/>
+      </sp:CodedValue>
+    </sp:class>
+    <sp:severity>
+      <sp:CodedValue>
+        <dcterms:title>Mild</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/255604002"/>
+      </sp:CodedValue>
+    </sp:severity>
+  </sp:Allergy>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/255604002">
+    <dcterms:identifier>255604002</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id=N0000175503">
+    <dcterms:identifier>N0000175503</dcterms:identifier>
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&amp;id="/>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/416098002">
+    <dcterms:identifier>416098002</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/271807003">
+    <dcterms:identifier>271807003</dcterms:identifier>
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+  </sp:Code>
+
+
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/923a3ed4-e183-4b86-ab8f-9e113bbbacfa">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A763707062</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2554"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2554">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/923a3ed4-e183-4b86-ab8f-9e113bbbacfa">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2556"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2556">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2560"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2560">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">33</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2556">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2557"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2557">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2559"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2559">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">29</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2557">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2558"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2558">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">22</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/923a3ed4-e183-4b86-ab8f-9e113bbbacfa">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2555"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2555">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">CO2 SerPl-sCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2028-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2028-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2028-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/adf8bbc0-54ce-4c07-93a7-1039ff7e7785">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A485115506</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2227"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2227">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/adf8bbc0-54ce-4c07-93a7-1039ff7e7785">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2229"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2229">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2233"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2233">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.8</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2229">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2230"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2230">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2232"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2232">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2230">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2231"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2231">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/adf8bbc0-54ce-4c07-93a7-1039ff7e7785">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2228"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2228">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Bilirub SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/1975-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/1975-2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1975-2</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/888a34e9-df84-49b0-8a2a-a98cb373a9d7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A268824974</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2530"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2530">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/888a34e9-df84-49b0-8a2a-a98cb373a9d7">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2532"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2532">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2536"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2536">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">160</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2532">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2533"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2533">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2535"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2535">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">200</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2533">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2534"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2534">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/888a34e9-df84-49b0-8a2a-a98cb373a9d7">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2531"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2531">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Cholest SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2093-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2093-3">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2093-3</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/61b76859-da31-475a-92a5-bbe93f063782">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A827016777</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2613"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2613">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/61b76859-da31-475a-92a5-bbe93f063782">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2615"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2615">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2619"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2619">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2615">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2616"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2616">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2618"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2618">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2616">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2617"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2617">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/61b76859-da31-475a-92a5-bbe93f063782">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2614"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2614">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Albumin SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/1751-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/1751-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1751-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/358d7f50-51b1-49f7-b5af-80f2a1125190">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A286990011</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2238"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2238">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/358d7f50-51b1-49f7-b5af-80f2a1125190">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2240"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2240">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2244"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2244">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">58</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2240">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2241"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2241">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2243"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2243">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">125</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2241">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2242"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2242">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">25</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/358d7f50-51b1-49f7-b5af-80f2a1125190">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2239"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2239">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">ALP SerPl-cCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/6768-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/6768-6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">6768-6</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/71dd47a3-bc64-421b-b2b6-0cbceac389c0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A986612172</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2398"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2398">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/71dd47a3-bc64-421b-b2b6-0cbceac389c0">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2400"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2400">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2404"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2404">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#"></unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.022</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2400">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2401"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2401">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2403"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2403">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#"></unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.03</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2401">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2402"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2402">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#"></unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.003</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/71dd47a3-bc64-421b-b2b6-0cbceac389c0">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2399"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2399">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Sp Gr Ur Strip</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5811-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5811-5">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5811-5</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2f9e83c8-910b-42ca-a65a-7f5399d34a08">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A304248508</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2309"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2309">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2f9e83c8-910b-42ca-a65a-7f5399d34a08">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2311"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2311">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2315"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2315">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">13</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2311">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2312"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2312">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2314"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2314">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">45</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2312">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2313"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2313">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2f9e83c8-910b-42ca-a65a-7f5399d34a08">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2310"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2310">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">ALT SerPl-cCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/1742-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/1742-6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1742-6</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/4207c1c6-0b5c-43e3-a9cb-ee4eff9cf77b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A249571573</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2605"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2605">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/4207c1c6-0b5c-43e3-a9cb-ee4eff9cf77b">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2607"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2607">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2611"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2611">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">11</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2607">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2608"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2608">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2610"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2610">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">11</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2608">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2609"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2609">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/4207c1c6-0b5c-43e3-a9cb-ee4eff9cf77b">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2606"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2606">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Monocytes NFr Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/26485-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/26485-3">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26485-3</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/95659314-ad7d-4bba-a77f-bffeecba3c98">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A112178845</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2356"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2356">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/95659314-ad7d-4bba-a77f-bffeecba3c98">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2358"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2358">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2362"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2362">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">74</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2358">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2359"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2359">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2361"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2361">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">94</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2359">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2360"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2360">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">80</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/95659314-ad7d-4bba-a77f-bffeecba3c98">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2357"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2357">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">MCV RBC</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/30428-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/30428-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">30428-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/6d44acb6-1f8a-4bdd-af25-71646306416a">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A368282192</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2562"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2562">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/6d44acb6-1f8a-4bdd-af25-71646306416a">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2564"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2564">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2568"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2568">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2564">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2565"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2565">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2567"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2567">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2565">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2566"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2566">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/6d44acb6-1f8a-4bdd-af25-71646306416a">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2563"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2563">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Eosinophil NFr Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/26450-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/26450-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26450-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/25ce8a08-54e7-433b-b8b1-b10de4805c7e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A711580556</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2579"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2579">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/25ce8a08-54e7-433b-b8b1-b10de4805c7e">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2581"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2581">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2585"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2585">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">12.8</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2581">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2582"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2582">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2584"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2584">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">18</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2582">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2583"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2583">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">14</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/25ce8a08-54e7-433b-b8b1-b10de4805c7e">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2580"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2580">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Hgb Bld-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/718-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/718-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">718-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0fae763b-b174-40f1-998f-63a9c20424a6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A347339072</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2301"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2301">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0fae763b-b174-40f1-998f-63a9c20424a6">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2303"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2303">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2307"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2307">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">190</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2303">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2304"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2304">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2306"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2306">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">450</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2304">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2305"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2305">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">150</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0fae763b-b174-40f1-998f-63a9c20424a6">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2302"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2302">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Platelet # Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/26515-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/26515-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26515-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/dcde94a0-6c8a-4146-8b31-f89645db8876">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A185045366</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2265"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2265">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/dcde94a0-6c8a-4146-8b31-f89645db8876">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2267"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2267">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2271"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2271">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">14.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2267">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2268"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2268">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2270"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2270">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">14.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2268">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2269"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2269">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">11.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/dcde94a0-6c8a-4146-8b31-f89645db8876">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2266"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2266">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">RDW RBC-Rto</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/30385-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/30385-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">30385-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/03f3c9dd-9100-4086-8943-186c98f6ceca">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A245586721</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2449"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2449">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/03f3c9dd-9100-4086-8943-186c98f6ceca">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2451"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2451">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2455"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2455">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">28</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2451">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2452"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2452">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2454"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2454">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">42</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2452">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2453"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2453">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">18</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/03f3c9dd-9100-4086-8943-186c98f6ceca">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2450"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2450">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Lymphocytes NFr Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/26478-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/26478-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26478-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9bafaa89-2337-4d5e-a800-8e5e0a361b49">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A662082986</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2390"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2390">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9bafaa89-2337-4d5e-a800-8e5e0a361b49">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2392"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2392">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2396"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2396">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2392">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2393"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2393">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2395"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2395">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2393">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2394"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2394">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9bafaa89-2337-4d5e-a800-8e5e0a361b49">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2391"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2391">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Basophils NFr Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/30180-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/30180-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">30180-4</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/19fc7f7e-a26e-48d3-ae64-bf6d140a38b8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A822547702</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2246"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2246">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/19fc7f7e-a26e-48d3-ae64-bf6d140a38b8">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2248"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2248">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2252"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2252">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">pg</unit>
+	<value xmlns="http://smartplatforms.org/terms#">24.1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2248">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2249"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2249">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2251"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2251">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">pg</unit>
+	<value xmlns="http://smartplatforms.org/terms#">32</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2249">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2250"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2250">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">pg</unit>
+	<value xmlns="http://smartplatforms.org/terms#">26</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/19fc7f7e-a26e-48d3-ae64-bf6d140a38b8">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2247"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2247">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">MCH RBC Qn Auto</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/785-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/785-6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">785-6</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f539f71e-dc17-4f96-89d3-f2b2618e5508">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A112494073</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2623"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2623">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f539f71e-dc17-4f96-89d3-f2b2618e5508">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2625"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2625">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2629"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2629">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">9.7</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2625">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2626"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2626">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2628"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2628">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">9.6</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2626">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2627"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2627">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">fL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">6.3</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f539f71e-dc17-4f96-89d3-f2b2618e5508">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2624"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2624">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">PMV Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/28542-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/28542-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">28542-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8bbbb1fd-8a43-41e8-bf97-1048d1adf5df">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A882037185</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2273"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2273">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8bbbb1fd-8a43-41e8-bf97-1048d1adf5df">
+	<qualitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2275"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2275">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QualitativeResult"/>
+	<value xmlns="http://smartplatforms.org/terms#">Occasional</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8bbbb1fd-8a43-41e8-bf97-1048d1adf5df">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2274"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2274">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Mucous Threads UrnS Ql Micro</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/8247-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/8247-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">8247-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f3e2d293-6bd8-4c0f-b494-94370c688eb7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A183347067</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2348"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2348">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f3e2d293-6bd8-4c0f-b494-94370c688eb7">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2350"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2350">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2354"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2354">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">7.1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2350">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2351"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2351">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2353"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2353">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">8.6</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2351">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2352"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2352">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">6.7</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f3e2d293-6bd8-4c0f-b494-94370c688eb7">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2349"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2349">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Prot SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2885-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2885-2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2885-2</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cd4a6703-df7a-40e4-89f9-d792d1574ac8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A196625271</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2420"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2420">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cd4a6703-df7a-40e4-89f9-d792d1574ac8">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2422"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2422">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2426"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2426">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3.9</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2422">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2423"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2423">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2425"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2425">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">11.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2423">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2424"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2424">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*3/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cd4a6703-df7a-40e4-89f9-d792d1574ac8">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2421"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2421">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">WBC # Bld</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/26464-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/26464-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26464-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/5d0f684d-1431-473c-a9a0-e0aab3e870dc">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A727956471</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2522"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2522">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/5d0f684d-1431-473c-a9a0-e0aab3e870dc">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2524"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2524">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2528"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2528">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">9.2</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2524">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2525"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2525">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2527"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2527">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">10.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2525">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2526"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2526">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">8.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/5d0f684d-1431-473c-a9a0-e0aab3e870dc">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2523"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2523">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Calcium SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/17861-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/17861-6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">17861-6</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b5270ca3-5de0-4161-ae30-a5ea05870a20">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A309114247</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2497"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2497">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b5270ca3-5de0-4161-ae30-a5ea05870a20">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2499"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2499">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2503"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2503">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2499">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2500"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2500">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2502"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2502">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2500">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2501"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2501">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0.8</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b5270ca3-5de0-4161-ae30-a5ea05870a20">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2498"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2498">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Creat SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2160-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2160-0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2160-0</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1e13b63c-014d-45c1-8760-978ff694f9f5">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A481457576</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2382"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2382">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1e13b63c-014d-45c1-8760-978ff694f9f5">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2384">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2388"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2388">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">10</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2384">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2385"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2385">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2387"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2387">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2385">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2386"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2386">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1e13b63c-014d-45c1-8760-978ff694f9f5">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2383"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2383">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Prot Ur Strip-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5804-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5804-0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5804-0</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1f95faf3-5ff3-4080-af61-0265b973885e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A932591833</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2374"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2374">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1f95faf3-5ff3-4080-af61-0265b973885e">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2376"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2376">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2380"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2380">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2376">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2377"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2377">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2379"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2379">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2377">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2378"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2378">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/1f95faf3-5ff3-4080-af61-0265b973885e">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2375"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2375">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">RBC #/area UrnS HPF</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/13945-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/13945-1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">13945-1</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/de68207e-1fd7-4227-81a2-46a9ea43f3f3">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A862994566</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2481"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2481">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/de68207e-1fd7-4227-81a2-46a9ea43f3f3">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2483"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2483">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2487"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2487">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*6/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5.32</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2483">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2484"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2484">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2486"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2486">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*6/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">6</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2484">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2485"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2485">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">10*6/uL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4.6</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/de68207e-1fd7-4227-81a2-46a9ea43f3f3">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2482"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2482">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">RBC # Bld Auto</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/789-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/789-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">789-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2b067600-bd5a-4833-a22c-49d11eb3fbb4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A663307303</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2546"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2546">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2b067600-bd5a-4833-a22c-49d11eb3fbb4">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2548"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2548">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2552"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2552">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">59</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2548">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2549"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2549">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2551"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2551">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">75</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2549">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2550"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2550">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">%</unit>
+	<value xmlns="http://smartplatforms.org/terms#">50</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/2b067600-bd5a-4833-a22c-49d11eb3fbb4">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2547"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2547">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Neutrophils NFr Bld Auto</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/770-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/770-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">770-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/578ea4d5-f2e4-47ad-9901-100c3fd0e17d">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A552147241</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2587"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2587">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/578ea4d5-f2e4-47ad-9901-100c3fd0e17d">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2589"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2589">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2593"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2593">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">62</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2589">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2590"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2590">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2592"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2592">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">150</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2590">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2591"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2591">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/578ea4d5-f2e4-47ad-9901-100c3fd0e17d">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2588"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2588">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Trigl SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2571-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2571-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2571-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7cb2f7a1-8cf2-447a-988a-60266e574fc2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A184544231</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2285"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2285">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7cb2f7a1-8cf2-447a-988a-60266e574fc2">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2287"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2287">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2291"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2291">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">[pH]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">6</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2287">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2288"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2288">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2290"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2290">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">[pH]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">8</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2288">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2289"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2289">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">[pH]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7cb2f7a1-8cf2-447a-988a-60266e574fc2">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2286"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2286">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">pH Ur Strip</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5803-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5803-2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5803-2</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3578c361-07cb-466c-897c-e5e021d1ee66">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A845916013</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2465"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2465">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3578c361-07cb-466c-897c-e5e021d1ee66">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2467"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2467">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2471"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2471">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">98</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2467">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2468"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2468">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2470"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2470">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">108</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2468">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2469"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2469">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">98</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3578c361-07cb-466c-897c-e5e021d1ee66">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2466"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2466">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Chloride SerPl-sCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2075-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2075-0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2075-0</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b05ca1a8-8562-438c-a4a0-22bd16cd1449">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A402437527</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2340"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2340">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b05ca1a8-8562-438c-a4a0-22bd16cd1449">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2342"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2342">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2346"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2346">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">89</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2342">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2343"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2343">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2345"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2345">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">100</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2343">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2344"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2344">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b05ca1a8-8562-438c-a4a0-22bd16cd1449">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2341"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2341">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">LDLc SerPl Calc-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/13457-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/13457-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">13457-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cfaeaf7f-4959-413f-a6c7-1db847a75408">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A715401068</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2336"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2336">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cfaeaf7f-4959-413f-a6c7-1db847a75408">
+	<qualitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2338"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2338">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QualitativeResult"/>
+	<value xmlns="http://smartplatforms.org/terms#">None</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cfaeaf7f-4959-413f-a6c7-1db847a75408">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2337"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2337">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Squamous UrnS Ql HPF</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/12258-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/12258-0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">12258-0</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9369b096-60f4-471e-b41a-8eb42d140ad9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A637235564</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2489"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2489">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9369b096-60f4-471e-b41a-8eb42d140ad9">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2491"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2491">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2495"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2495">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">8</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2491">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2492"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2492">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2494"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2494">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2492">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2493"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2493">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/9369b096-60f4-471e-b41a-8eb42d140ad9">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2490"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2490">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Anion Gap3 SerPl-sCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/10466-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/10466-1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">10466-1</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7b3ac8fe-ff10-4426-abcc-942b2ab24e4f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A742990780</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2277"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2277">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7b3ac8fe-ff10-4426-abcc-942b2ab24e4f">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2279"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2279">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2283"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2283">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">32.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2279">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2280"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2280">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2282"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2282">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">36</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2280">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2281"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2281">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">g/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">32</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/7b3ac8fe-ff10-4426-abcc-942b2ab24e4f">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2278"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2278">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">MCHC RBC Auto-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/786-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/786-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">786-4</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/09cec30b-3c05-444d-8066-85e7908e5178">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A235887378</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2406"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2406">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/09cec30b-3c05-444d-8066-85e7908e5178">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2408"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2408">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2412"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2412">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">139</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2408">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2409"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2409">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2411"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2411">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">145</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2409">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2410"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2410">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">135</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/09cec30b-3c05-444d-8066-85e7908e5178">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2407"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2407">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Sodium SerPl-sCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2951-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2951-2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2951-2</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f8a08abd-4518-46cc-a5b5-2fe67a7d0679">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A296916740</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2639"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2639">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f8a08abd-4518-46cc-a5b5-2fe67a7d0679">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2641"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2641">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2645"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2645">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mcU/mL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2.229</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2641">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2642"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2642">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2644"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2644">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mcU/mL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4.2</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2642">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2643"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2643">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mcU/mL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/f8a08abd-4518-46cc-a5b5-2fe67a7d0679">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2640"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2640">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">TSH SerPl DL&lt;=0.005 mU/L-aCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/11580-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/11580-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">11580-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/01b0bd36-2d78-4967-b637-4022e77e4c9b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A867958140</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2326"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2326">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/01b0bd36-2d78-4967-b637-4022e77e4c9b">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2328"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2328">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2332"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2332">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">4.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2328">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2329"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2329">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2331"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2331">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2329">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2330"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2330">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/01b0bd36-2d78-4967-b637-4022e77e4c9b">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2327"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2327">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">CRP SerPl HS-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/30522-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/30522-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">30522-7</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/08170c4c-3764-41bd-aca4-b7f75fcbce28">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A839589331</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2235"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2235">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/08170c4c-3764-41bd-aca4-b7f75fcbce28">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2236"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2236">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Appearance Ur</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5767-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5767-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5767-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b52e159a-1234-408d-9cd1-8b3066dc9c1b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A150837216</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2433"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2433">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b52e159a-1234-408d-9cd1-8b3066dc9c1b">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2435"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2435">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2439"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2439">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">20</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2435">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2436"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2436">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2438"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2438">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">41</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2436">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2437"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2437">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">U/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">15</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/b52e159a-1234-408d-9cd1-8b3066dc9c1b">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2434"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2434">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">AST SerPl-cCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/1920-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/1920-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1920-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8433e1ce-f977-43f0-b9de-8612462621e1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A226156674</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2254"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2254">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8433e1ce-f977-43f0-b9de-8612462621e1">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2256"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2256">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2260"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2260">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mm</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2256">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2257"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2257">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2259"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2259">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mm</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1.3</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2257">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2258"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2258">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mm</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0.1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/8433e1ce-f977-43f0-b9de-8612462621e1">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2255"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2255">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">TB Wheal 3D p 5 TU Diam</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/1648-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/1648-5">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1648-5</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/245249aa-5cc7-4aeb-a875-a832408f8e7e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A893779692</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2416"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2416">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/245249aa-5cc7-4aeb-a875-a832408f8e7e">
+	<qualitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2418"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2418">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QualitativeResult"/>
+	<value xmlns="http://smartplatforms.org/terms#">Negative</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/245249aa-5cc7-4aeb-a875-a832408f8e7e">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2417"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2417">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Nitrite Ur Ql Strip</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5802-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5802-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5802-4</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/ee4397e7-52c9-40b2-84d3-87072d571671">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A321711741</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2514"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2514">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/ee4397e7-52c9-40b2-84d3-87072d571671">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2516"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2516">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2520"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2520">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2516">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2517"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2517">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2519"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2519">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2517">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2518"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2518">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[HPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/ee4397e7-52c9-40b2-84d3-87072d571671">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2515"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2515">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">WBC #/area UrnS HPF</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5821-4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5821-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5821-4</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/be412b4c-c2ec-4ca8-8b45-40abca7e62a1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A471679749</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2473"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2473">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/be412b4c-c2ec-4ca8-8b45-40abca7e62a1">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2475"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2475">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2479"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2479">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3.4</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2475">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2476"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2476">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2478"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2478">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2476">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2477"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2477">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mmol/L</unit>
+	<value xmlns="http://smartplatforms.org/terms#">3.5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/be412b4c-c2ec-4ca8-8b45-40abca7e62a1">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2474"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2474">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Potassium SerPl-sCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2823-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2823-3">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2823-3</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cbb36481-7c23-4d65-9f2c-7e44df663554">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A490048567</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2631"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2631">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cbb36481-7c23-4d65-9f2c-7e44df663554">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2633"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2633">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2637"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2637">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">14</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2633">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2634"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2634">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2636"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2636">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">20</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2634">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2635"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2635">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">5</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/cbb36481-7c23-4d65-9f2c-7e44df663554">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2632"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2632">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">BUN SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/3094-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/3094-0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">3094-0</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0ec43714-0265-425e-bca6-ddc265c4970c">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A384963435</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2457"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2457">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0ec43714-0265-425e-bca6-ddc265c4970c">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2459"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2459">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2463"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2463">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">59</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2459">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2460"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2460">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2462"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2462">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2460">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2461"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2461">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/0ec43714-0265-425e-bca6-ddc265c4970c">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2458"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2458">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">HDLc SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2085-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2085-9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2085-9</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3c61e630-b81d-40ed-9042-145eb89a0c8c">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A505569781</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2538"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2538">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3c61e630-b81d-40ed-9042-145eb89a0c8c">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2540"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2540">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2544"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2544">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[LPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">9</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2540">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2541"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2541">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2543"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2543">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[LPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2541">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2542"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2542">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/[LPF]</unit>
+	<value xmlns="http://smartplatforms.org/terms#">0</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/3c61e630-b81d-40ed-9042-145eb89a0c8c">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2539"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2539">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Hyaline Casts #/area UrnS LPF</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/5796-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/5796-8">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">5796-8</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/df8ea8b0-5df5-4fb9-88bc-d68093cefe0d">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<externalID xmlns="http://smartplatforms.org/terms#">A224167627</externalID>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2364"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2364">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startTime xmlns="http://smartplatforms.org/terms#">2008-07-10</startTime>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/df8ea8b0-5df5-4fb9-88bc-d68093cefe0d">
+	<quantitativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2366"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2366">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#QuantitativeResult"/>
+	<valueAndUnit xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2370"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2370">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">99</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2366">
+	<normalRange xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2367"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2367">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ResultRange"/>
+	<maximum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2369"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2369">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">109</value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2367">
+	<minimum xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2368"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2368">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">mg/dL</unit>
+	<value xmlns="http://smartplatforms.org/terms#">70</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/lab_results/df8ea8b0-5df5-4fb9-88bc-d68093cefe0d">
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2365"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2365">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Glucose SerPl-mCnc</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/2345-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://loinc.org/codes/2345-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">2345-7</identifier>
+</rdf:Description>
+
+
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-09-30</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/c85d6f49-01e9-4f19-bcdc-e7c3fa1f9794"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/c85d6f49-01e9-4f19-bcdc-e7c3fa1f9794">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">200</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-09-30</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2294"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2294">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">potassium citrate 10 MEQ Extended Release Tablet</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/199381"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/199381">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">199381</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2293"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2293">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2295"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2295">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/44e8771a-697f-4ae8-9350-d97155779658"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/44e8771a-697f-4ae8-9350-d97155779658">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">200</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-04-28</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/4a322563-1526-4fcd-b519-4feef755e4e1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/4a322563-1526-4fcd-b519-4feef755e4e1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">200</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-01-03</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/3f7b3543-4963-4994-ab6f-7e95f31bc50b">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/81b82087-f5bb-4d03-93e6-21b2e1cfd845"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/81b82087-f5bb-4d03-93e6-21b2e1cfd845">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">200</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-07-06</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 bid</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-08-13</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/cb3f4818-e57a-4263-a5ae-61f9ca6a4528"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/cb3f4818-e57a-4263-a5ae-61f9ca6a4528">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">180</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-08-13</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2442"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2442">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Memantine 10 MG Oral Tablet [Namenda]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/404673"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/404673">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">404673</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2441"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2441">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2443"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2443">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/03d48000-68ae-4ac1-952f-55a8884e1f8e"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/03d48000-68ae-4ac1-952f-55a8884e1f8e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">180</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-07-06</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/98b61dd2-ae8b-4920-8d15-5f4fdefcaa64"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/98b61dd2-ae8b-4920-8d15-5f4fdefcaa64">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">180</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-04-28</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/b14a06db-ea6c-4520-8090-f132662e1c06">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/4f7bd9e8-0f01-4518-8f25-537f64fb61f2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/4f7bd9e8-0f01-4518-8f25-537f64fb61f2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">180</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-11-01</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-08-13</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/aaab55ff-0847-44fa-9af8-3157e1744308"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/aaab55ff-0847-44fa-9af8-3157e1744308">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-07-06</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2318"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2318">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Lisinopril 20 MG Oral Tablet</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/314077"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/314077">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">314077</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2317"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2317">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2319"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2319">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/0348cd3c-c7f4-4074-a96a-f487005260f2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/0348cd3c-c7f4-4074-a96a-f487005260f2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-01-17</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/f30d6807-426b-4e22-8310-304eb2c3bc72"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/f30d6807-426b-4e22-8310-304eb2c3bc72">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-10-19</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/365778f0-6e58-46ff-8c6a-89e0bfdae67e"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/365778f0-6e58-46ff-8c6a-89e0bfdae67e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-08-13</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/761a73b2-94fd-4e18-b7f9-bf2bfaa65583">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/b9cc5a8a-ca03-4359-97fe-60e1a1690fd0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/b9cc5a8a-ca03-4359-97fe-60e1a1690fd0">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-04-28</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 qhs</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-08-14</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/fa7b2050-7b22-4153-9025-5cfd39b4e193"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/fa7b2050-7b22-4153-9025-5cfd39b4e193">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-01-18</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2506"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2506">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">donepezil 10 MG Oral Tablet [Aricept]</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/153357"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/153357">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">153357</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2505"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2505">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2507"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2507">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/ee9fac7c-9c13-457f-b579-eb0d211c1a50"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/ee9fac7c-9c13-457f-b579-eb0d211c1a50">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-10-20</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/77ce6812-f236-421e-a6d2-f579c896faa9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/77ce6812-f236-421e-a6d2-f579c896faa9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-07-07</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/682c835a-3f88-4231-ade8-8ca27ecf4f72"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/682c835a-3f88-4231-ade8-8ca27ecf4f72">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-08-14</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/d2b95cab-0af6-42bd-82eb-9121639ca15f">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/c94680b1-b150-440c-a4a1-2f5d6a80a1c2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/c94680b1-b150-440c-a4a1-2f5d6a80a1c2">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-04-28</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-08-14</startDate>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/5315209e-5c9e-431e-acc4-f64f9a666f55"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/5315209e-5c9e-431e-acc4-f64f9a666f55">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-01-18</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2571"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2571">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Hydrochlorothiazide 50 MG Oral Tablet</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/197770"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/197770">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">197770</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2570"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2570">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2572"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2572">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/76520c89-0600-4b9a-865c-255c62d9dba9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/76520c89-0600-4b9a-865c-255c62d9dba9">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-08-14</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/832b615a-2dcd-41f3-a051-a72329cea679"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/832b615a-2dcd-41f3-a051-a72329cea679">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-07-07</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/e7d551e5-b433-4f0d-9056-06a04ba18409"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/e7d551e5-b433-4f0d-9056-06a04ba18409">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2008-11-09</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/medications/ddf87ab4-8e59-40fc-81d3-3c1ef55fa403">
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/2974d3ad-df93-46a8-8294-3a7c3a188fc6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/fulfillments/2974d3ad-df93-46a8-8294-3a7c3a188fc6">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<dispenseQuantity xmlns="http://smartplatforms.org/terms#">90</dispenseQuantity>
+	<date xmlns="http://purl.org/dc/elements/1.1/">2009-04-28</date>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">90</dispenseDaysSupply>
+</rdf:Description>
+
+
+
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/0aa3a8fe-2650-4166-bdb1-249457eefcdf">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-08-08</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2263"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2263">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Alzheimer's disease</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/26929004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/26929004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">26929004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/8d19d48b-603e-4967-be8a-45ac58e0b638">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-08-08</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2621"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2621">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Dementia associated with another disease</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/191519005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/191519005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">191519005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/3b8b4f45-3518-4092-b779-4108ee8b375c">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-07-11</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2372"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2372">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Osteoarthritis</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/396275006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/396275006">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">396275006</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/320b2303-3b26-4f9f-816d-facb3396d0cc">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-04-20</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2597"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2597">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Essential hypertension</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/38341003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/38341003">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">38341003</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/bed0f5c6-a15a-46cf-ae13-fa57f8b39133">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-09-15</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2601"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2601">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Other persistent mental disorders due to conditions classified elsewhere</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/52448006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/52448006">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">52448006</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/4e0ac2c4-adc0-4cd5-a067-067e44788c76">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-07-10</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2414"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2414">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Disorder of lung</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/427359005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/427359005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">427359005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/3fded627-3cdf-4e0b-8d72-9a935aad321f">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2008-08-08</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2334"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2334">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Needs influenza immunization</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/185903001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/185903001">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">185903001</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/80a25a76-7478-484d-992f-cf1c6cb8fe7e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-11-17</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2603"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2603">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Vascular dementia, uncomplicated</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/429998004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/429998004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">429998004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/c6d59678-6806-40e8-bcac-645584c7adc4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2007-07-11</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2599"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2599">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Benign essential hypertension</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/1201005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/1201005">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">1201005</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/1288992/problems/da661f46-37a3-4381-81cc-c160464a978e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Problem"/>
+	<onset xmlns="http://smartplatforms.org/terms#">2005-05-22</onset>
+	<problemName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="zLkSudEW2595"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="zLkSudEW2595">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<title xmlns="http://purl.org/dc/terms/">Amnesia</title>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/48167000"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/48167000">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<system xmlns="http://smartplatforms.org/terms#" rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+	<identifier xmlns="http://purl.org/dc/terms/">48167000</identifier>
+</rdf:Description>
+
+
+
+
+</rdf:RDF>
