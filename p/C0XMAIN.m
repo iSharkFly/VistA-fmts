@@ -76,6 +76,7 @@ WGET(ZURL,FARY) ; GET FROM THE INTERNET AN RDF FILE AND INSERT IT
  ;N ZLOC,ZTMP
  K ZTMP
  S ZLOC=$NA(^TMP("C0X","WGET",$J))
+ K @ZLOC
  S C0XSTART=$$NOW^XLFDT
  W !,"STARTED: ",C0XSTART
  W !,"DOWNLOADING: ",ZURL
@@ -102,7 +103,7 @@ INSRDF(ZRDF,ZNAME,FARY) ; INSERT AN RDF FILE INTO THE STORE AND PROCESS
  K C0XCNT ;RESET FOR NEXT TIME
  D STORETXT(ZRDF,ZTXTNM,FARY)
  W !,"ADDED: ",ZGRAPH," ",ZSUBJECT," fmts:rdfSource ",ZTXTNM
- D PROCESS(.G,ZRDF,ZNAME,ZGRAPH,FARY) ; PARSE AND INSERT THE RDF
+ D PROCESS2(.G,ZRDF,ZNAME,ZGRAPH,FARY) ; PARSE AND INSERT THE RDF
  Q
  ;
 STORETXT(ZTXT,ZNAME,FARY) ; STORE TEXT IN THE TRIPLESTORE AT ZNAME
@@ -257,6 +258,111 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  W !," APPROXIMATELY ",$P(C0XCNT/C0XDIFF,".")," TRIPLES PER SECOND"
  Q
  ;
+PROCESS2(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
+ ; ZRTN IS PASS BY REFERENCE AND RETURNS MESSAGES ABOUT THE PROCESSING
+ ; ZRDF IS PASSED BY NAME AND IS THE GLOBAL CONTAINING THE RDF FILE
+ ; ZGRF IS THE NAME OF THE GRAPH TO USE IN THE TRIPLE STORE FOR RESULTS
+ ; ZMETA IS OPTIONAL AND IS THE NAME OF THE GRAPH TO STORE METADATA
+ ;
+ I '$D(FARY) D  ;
+ . D INITFARY("C0XFARY")
+ . S FARY="C0XFARY"
+ D USEFARY(FARY)
+ ;N BATCNT
+ ;N BATMAX
+ S BATCNT=0 ; BATCH COUNTER
+ S BATMAX=10000 ; TRY BATCHES OF THIS SIZE
+ ; -- first parse the rdf file with the MXML parser
+ ;S C0XDOCID=$$PARSE^C0CNHIN(ZRDF,"C0XARRAY") ; PARSE WITH MXML
+ S C0XDOCID=$$EN^MXMLDOM(ZRDF,"W")
+ ; -- assign the MXLM dom global name to ZDOM
+ S ZDOM=$NA(^TMP("MXMLDOM",$J,C0XDOCID))
+ W !,$O(@ZDOM@(""),-1)," XML NODES PARSED"
+ ; -- populate the metagraph to point to the graph with status unfinished
+ S METAS=$$ANONS ; GET AN ANONOMOUS RANDOM SUBJECT
+ I '$D(ZMETA) S ZMETA="_:G"_$$LKY9 ; RANDOM GRAPH NAME FOR METAGRAPH
+ D ADD(ZMETA,METAS,"fmts:about",ZGRF,FARY) ; POINT THE META TO THE GRAPH
+ D ADD(ZMETA,METAS,"fmts:status","unfinished",FARY) ; mark as unfinished
+ ;S C0XDATE=$$FMDTOUTC^C0CUTIL($$NOW^XLFDT,"DT")
+ S C0XDATE=$$NOW^XLFDT
+ D ADD(ZMETA,METAS,"fmts:dateTime",C0XDATE,FARY)
+ D UPDIE(.C0XFDA) ; commit the metagraph changes to the triple store
+ ; -- 
+ ; -- pull out the vocabularies in the RDF statement. marked with xmlns:
+ ; -- put them in a local variable for quick reference
+ ; -- TODO: create a graph for vocabularies and validate incoming against it
+ ;
+ S C0XVOC=""
+ N ZI,ZJ,ZK S ZI=""
+ F  S ZI=$O(@ZDOM@(1,"A",ZI)) Q:ZI=""  D  ; FOR EACH xmlns
+ . S ZVOC=$P(ZI,"xmlns:",2)
+ . I ZVOC'="" S C0XVOC(ZVOC)=$G(@ZDOM@(1,"A",ZI))
+ ;W !,"VOCABS:" ZWR C0XVOC
+ ;
+ ; -- look for children called rdf:Description. quit if none. not an rdf file
+ ;
+ S ZI=$O(@ZDOM@(1,"C",""))
+ I $G(@ZDOM@(1,"C",ZI))'="rdf:Description" D  Q  ; not an rdf file
+ . W !,"Error. Not an RDF file. Cannot process."
+ ;
+ ; -- now process the rdf description children
+ ;
+ S ZI=""
+ S (C0XSUB,C0XPRE,C0XOBJ)="" ; INITIALIZE subject, object and predicate
+ F  S ZI=$O(@ZDOM@(1,"C",ZI)) Q:ZI=""  D  ;
+ . ; -- we are skipping any child that is not rdf:Description
+ . ; -- TODO: check to see if this is right in general
+ . ;
+ . IF $G(@ZDOM@(1,"C",ZI))'="rdf:Description" D  Q  ;
+ . . W !,"SKIPPING NODE: ",ZI
+ . ; -- now looking for the subject for the triples
+ . S ZX=$G(@ZDOM@(ZI,"A","rdf:about"))
+ . I ZX'="" D  ; we have the subject
+ . . ;W " about: ",ZX
+ . . S C0XSUB=ZX
+ . E  D  ;
+ . . S ZX=$G(@ZDOM@(ZI,"A","rdf:nodeID")) ; node id is another style of subject
+ . . I ZX'="" D  ;
+ . . . S C0XSUB=ZX
+ . I C0XSUB="" S C0XSUB=$$ANONS ; DEFAULT TO BLANK SUBJECT
+ . ; 
+ . ; -- we now have the subject. the children of this node have the rest
+ . ;
+ . S ZJ="" ; for the children of the rdf:Description nodes
+ . F  S ZJ=$O(@ZDOM@(ZI,"C",ZJ)) Q:ZJ=""  D  ; for each child
+ . . S C0XPRE=@ZDOM@(ZJ) ; the predicate without a prefix
+ . . S ZX=$G(@ZDOM@(ZJ,"A","xmlns")) ; name space
+ . . I ZX'="" S C0XPRE=ZX_C0XPRE ; add the namespace prefix
+ . . I C0XPRE[":" D  ; expand using vocabulary
+ . . . N ZB,ZA
+ . . . S ZB=$P(C0XPRE,":",1)
+ . . . S ZA=$P(C0XPRE,":",2)
+ . . . I $G(C0XVOC(ZB))'="" D  ;
+ . . . . S C0XPRE=C0XVOC(ZB)_ZA ; expanded 
+ . . S ZY=$G(@ZDOM@(ZJ,"A","rdf:resource")) ; potential object
+ . . I ZY'="" D  Q ; 
+ . . . S C0XOBJ=ZY ; object
+ . . . D ADD2(ZGRF,C0XSUB,C0XPRE,C0XOBJ) ; finally. our first real triple
+ . . ; -- this is an else because of the quit above
+ . . S ZX=$G(@ZDOM@(ZJ,"A","rdf:nodeID")) ; fishing for nodeId object
+ . . I ZX'="" D  Q  ; got one
+ . . . S C0XOBJ=ZX ; we are using the incoming nodeIDs as object/subject 
+ . . . ; without change... this could be foolish .. look at it again later
+ . . . D ADD2(ZGRF,C0XSUB,C0XPRE,C0XOBJ) ; go for it and add a node
+ . . S C0XOBJ=$G(@ZDOM@(ZJ,"T",1)) ; hopefully an object is here
+ . . I C0XOBJ="" D  Q  ; not a happy situation
+ . . . W !,"ERROR, NO OBJECT FOUND FOR NODE: ",ZJ
+ . . D ADD2(ZGRF,C0XSUB,C0XPRE,C0XOBJ) ; go for it and add a node
+ W !,"INSERTING ",C0XCNT," TRIPLES"
+ I $D(C0XFDA) D UPDIE(.C0XFDA) ; commit the updates to the file
+ ; next, mark the graph as finished
+ S C0XEND=$$NOW^XLFDT
+ W !," ENDED AT: ",C0XEND
+ S C0XDIFF=$$FMDIFF^XLFDT(C0XEND,C0XSTART,2)
+ W !," ELAPSED TIME: ",C0XDIFF," SECONDS"
+ W !," APPROXIMATELY ",$P(C0XCNT/C0XDIFF,".")," TRIPLES PER SECOND"
+ Q
+ ;
 SHOW(ZN) ;
  ZWR ^TMP("MXMLDOM",$J,1,ZN,*)
  Q
@@ -297,6 +403,40 @@ ADD(ZG,ZS,ZP,ZO,FARY) ; ADD A TRIPLE TO THE TRIPLESTORE. ALL VALUES ARE TEXT
  S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.03)=$O(ZIENS("IEN","ZS",""))
  S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.04)=$O(ZIENS("IEN","ZP",""))
  S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.05)=$O(ZIENS("IEN","ZO",""))
+ ; REMEMBER TO CALL UPDIE WHEN YOU'RE DONE
+ Q
+ ;
+ADD2(ZG,ZS,ZP,ZO,FARY) ; ADD A TRIPLE TO THE TRIPLESTORE. ALL VALUES ARE TEXT
+ ; THE FDA IS SET UP BUT THE FILES ARE NOT UPDATED. CALL UPDIE TO COMPLETE
+ I '$D(FARY) D  ;
+ . D INITFARY("C0XFARY")
+ . S FARY="C0XFARY"
+ D USEFARY(FARY)
+ I '$D(C0XCNT) S C0XCNT=0
+ N ZNODE
+ S ZNODE="N"_$$LKY17
+ N ZNARY ; GET READY TO CALL IENOFA
+ S ZNARY("ZG",ZG)=""
+ S ZNARY("ZS",ZS)=""
+ S ZNARY("ZP",ZP)=""
+ S ZNARY("ZO",ZO)=""
+ D IENOFA(.ZIENS,.ZNARY,FARY) ; RESOLVE/ADD STRINGS
+ ;S ZGIEN=$$IENOF(ZG) ; LAYGO TO GET IEN
+ ;S ZSIEN=$$IENOF(ZS)
+ ;S ZPIEN=$$IENOF(ZP)
+ ;S ZOIEN=$$IENOF(ZO)
+ ;I $D(C0XFDA) D UPDIE ; ADD THE STRINGS IF NEEDED
+ S C0XCNT=C0XCNT+1
+ S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.01)=ZNODE
+ S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.02)=$O(ZIENS("IEN","ZG",""))
+ S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.03)=$O(ZIENS("IEN","ZS",""))
+ S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.04)=$O(ZIENS("IEN","ZP",""))
+ S C0XFDA(C0XTFN,"?+"_C0XCNT_",",.05)=$O(ZIENS("IEN","ZO",""))
+ S BATCNT=BATCNT+1
+ I BATCNT=BATMAX D  ; BATCH IS DONE
+ . D UPDIE(.C0XFDA)
+ . K C0XFDA
+ . S BATCNT=0 ; RESET COUNTER
  ; REMEMBER TO CALL UPDIE WHEN YOU'RE DONE
  Q
  ;
