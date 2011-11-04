@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_1637">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1637</qds:QDS_id>
+<qds:standard_concept>Allergy to eggs</qds:standard_concept>
+<qds:standard_category>Substance</qds:standard_category>
+<qds:QDS_data_type>substance allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c510</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c206</qds:standard_code_list>
+<qds:standard_code_list>A_c208</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1682">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1682</qds:QDS_id>
+<qds:standard_concept>Allergy to eggs</qds:standard_concept>
+<qds:standard_category>Substance</qds:standard_category>
+<qds:QDS_data_type>substance allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c206</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V15.03</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1681">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1681</qds:QDS_id>
+<qds:standard_concept>Allergy to eggs</qds:standard_concept>
+<qds:standard_category>Substance</qds:standard_category>
+<qds:QDS_data_type>substance allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c208</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>1484830012</qds:standard_code_list>
+<qds:standard_code_list>213020009</qds:standard_code_list>
+<qds:standard_code_list>292098007</qds:standard_code_list>
+<qds:standard_code_list>293104008</qds:standard_code_list>
+<qds:standard_code_list>293112000</qds:standard_code_list>
+<qds:standard_code_list>293113005</qds:standard_code_list>
+<qds:standard_code_list>420113004</qds:standard_code_list>
+<qds:standard_code_list>91930004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_202">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_202</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1538">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1538</qds:QDS_id>
+<qds:standard_concept>Encounter Influenza</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c457</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c106</qds:standard_code_list>
+<qds:standard_code_list>A_c107</qds:standard_code_list>
+<qds:standard_code_list>A_c108</qds:standard_code_list>
+<qds:standard_code_list>A_c109</qds:standard_code_list>
+<qds:standard_code_list>A_c26</qds:standard_code_list>
+<qds:standard_code_list>A_c28</qds:standard_code_list>
+<qds:standard_code_list>A_c454</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1539">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1539</qds:QDS_id>
+<qds:standard_concept>Encounter Influenza</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c457</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c106</qds:standard_code_list>
+<qds:standard_code_list>A_c107</qds:standard_code_list>
+<qds:standard_code_list>A_c108</qds:standard_code_list>
+<qds:standard_code_list>A_c109</qds:standard_code_list>
+<qds:standard_code_list>A_c26</qds:standard_code_list>
+<qds:standard_code_list>A_c28</qds:standard_code_list>
+<qds:standard_code_list>A_c454</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1449">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1449</qds:QDS_id>
+<qds:standard_concept>Encounter Nursing Discharge</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c454</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99315</qds:standard_code_list>
+<qds:standard_code_list>99316</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1448">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1448</qds:QDS_id>
+<qds:standard_concept>Encounter Nursing Facility</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_293">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_293</qds:QDS_id>
+<qds:standard_concept>Encounter Outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_264">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_264</qds:QDS_id>
+<qds:standard_concept>Encounter Prev Med 40 and Older</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c109</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_265">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_265</qds:QDS_id>
+<qds:standard_concept>Encounter Prev Med Group Counseling</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c107</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_267">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_267</qds:QDS_id>
+<qds:standard_concept>Encounter Prev Med Other Services</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c108</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_266">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_266</qds:QDS_id>
+<qds:standard_concept>Encounter Prev Med-Individual counseling</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c106</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_541">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_541</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>A_c204</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>857924 </qds:standard_code_list>
+<qds:standard_code_list>857942 </qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_550">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_550</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication intolerance</qds:QDS_data_type>
+<qds:standard_concept_id>A_c204</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>857924 </qds:standard_code_list>
+<qds:standard_code_list>857942 </qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_551">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_551</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication adverse event</qds:QDS_data_type>
+<qds:standard_concept_id>A_c204</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>857924 </qds:standard_code_list>
+<qds:standard_code_list>857942 </qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_553">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_553</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c204</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>857924 </qds:standard_code_list>
+<qds:standard_code_list>857942 </qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1673">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1673</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Contraindicated</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c460</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>390796006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1484">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1484</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1485">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1485</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1486">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1486</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1487">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1487</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1488">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1488</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1489">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1489</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1490">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1490</qds:QDS_id>
+<qds:standard_concept>Influenza Immunization Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>315640000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_346">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_346</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_347">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_347</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1068">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1068</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1069">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1069</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1070">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1070</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1072">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1072</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1073">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1073</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1074">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1074</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1187">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1187</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1188">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1188</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1189">
+<qds:NQF_id>0041</qds:NQF_id>
+<qds:measure_name>Preventive Care and Screening: Influenza Immunization for Patients ? 50 Years Old</qds:measure_name>
+<qds:QDS_id>A_1189</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

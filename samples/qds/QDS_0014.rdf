@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_397">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_397</qds:QDS_id>
+<qds:standard_concept>Anti-D Immune Globulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>A_c161</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>205066 </qds:standard_code_list>
+<qds:standard_code_list>247769 </qds:standard_code_list>
+<qds:standard_code_list>351100</qds:standard_code_list>
+<qds:standard_code_list>406388 </qds:standard_code_list>
+<qds:standard_code_list>562566 </qds:standard_code_list>
+<qds:standard_code_list>616759 </qds:standard_code_list>
+<qds:standard_code_list>731378 </qds:standard_code_list>
+<qds:standard_code_list>731381</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1500">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1500</qds:QDS_id>
+<qds:standard_concept>Anti-D Immune Globulin Declined</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c479</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>408786004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_395">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_395</qds:QDS_id>
+<qds:standard_concept>D(Rh) Negative</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c536</qds:standard_code_list>
+<qds:standard_code_list>A_c537</qds:standard_code_list>
+<qds:standard_code_list>A_c538</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7032">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7032</qds:QDS_id>
+<qds:standard_concept>D(Rh) Negative</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c537</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>036.0130</qds:standard_code_list>
+<qds:standard_code_list>036.0131</qds:standard_code_list>
+<qds:standard_code_list>036.0132</qds:standard_code_list>
+<qds:standard_code_list>036.0133</qds:standard_code_list>
+<qds:standard_code_list>036.0134</qds:standard_code_list>
+<qds:standard_code_list>036.0135</qds:standard_code_list>
+<qds:standard_code_list>036.0139</qds:standard_code_list>
+<qds:standard_code_list>O36.0120</qds:standard_code_list>
+<qds:standard_code_list>O36.0121</qds:standard_code_list>
+<qds:standard_code_list>O36.0122</qds:standard_code_list>
+<qds:standard_code_list>O36.0123</qds:standard_code_list>
+<qds:standard_code_list>O36.0124</qds:standard_code_list>
+<qds:standard_code_list>O36.0125</qds:standard_code_list>
+<qds:standard_code_list>O36.0129</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7079">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7079</qds:QDS_id>
+<qds:standard_concept>D(Rh) Negative</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c538</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>656.10</qds:standard_code_list>
+<qds:standard_code_list>656.11</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7046">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7046</qds:QDS_id>
+<qds:standard_concept>D(Rh) Negative</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c536</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>165746003</qds:standard_code_list>
+<qds:standard_code_list>278148006</qds:standard_code_list>
+<qds:standard_code_list>278152006</qds:standard_code_list>
+<qds:standard_code_list>278153001</qds:standard_code_list>
+<qds:standard_code_list>278154007</qds:standard_code_list>
+<qds:standard_code_list>428309004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1327">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1327</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c394</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c442</qds:standard_code_list>
+<qds:standard_code_list>A_c87</qds:standard_code_list>
+<qds:standard_code_list>A_c88</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_216">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_216</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c88</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E07</qds:standard_code_list>
+<qds:standard_code_list>F10</qds:standard_code_list>
+<qds:standard_code_list>I10</qds:standard_code_list>
+<qds:standard_code_list>N96</qds:standard_code_list>
+<qds:standard_code_list>O10.2</qds:standard_code_list>
+<qds:standard_code_list>O10.21</qds:standard_code_list>
+<qds:standard_code_list>O10.211</qds:standard_code_list>
+<qds:standard_code_list>O10.212</qds:standard_code_list>
+<qds:standard_code_list>O10.213</qds:standard_code_list>
+<qds:standard_code_list>O10.219</qds:standard_code_list>
+<qds:standard_code_list>O10.41</qds:standard_code_list>
+<qds:standard_code_list>O10.412</qds:standard_code_list>
+<qds:standard_code_list>O10.413</qds:standard_code_list>
+<qds:standard_code_list>O10.419</qds:standard_code_list>
+<qds:standard_code_list>O13</qds:standard_code_list>
+<qds:standard_code_list>O14</qds:standard_code_list>
+<qds:standard_code_list>O14.00</qds:standard_code_list>
+<qds:standard_code_list>O14.02</qds:standard_code_list>
+<qds:standard_code_list>O14.03</qds:standard_code_list>
+<qds:standard_code_list>O15</qds:standard_code_list>
+<qds:standard_code_list>O15.0</qds:standard_code_list>
+<qds:standard_code_list>O15.00</qds:standard_code_list>
+<qds:standard_code_list>O15.02</qds:standard_code_list>
+<qds:standard_code_list>O15.03</qds:standard_code_list>
+<qds:standard_code_list>O16</qds:standard_code_list>
+<qds:standard_code_list>O16.1</qds:standard_code_list>
+<qds:standard_code_list>O16.2</qds:standard_code_list>
+<qds:standard_code_list>O16.3</qds:standard_code_list>
+<qds:standard_code_list>O16.9</qds:standard_code_list>
+<qds:standard_code_list>O21.2</qds:standard_code_list>
+<qds:standard_code_list>O21.8</qds:standard_code_list>
+<qds:standard_code_list>O24</qds:standard_code_list>
+<qds:standard_code_list>O26</qds:standard_code_list>
+<qds:standard_code_list>O26.0</qds:standard_code_list>
+<qds:standard_code_list>O26.5</qds:standard_code_list>
+<qds:standard_code_list>O26.6</qds:standard_code_list>
+<qds:standard_code_list>O26.82</qds:standard_code_list>
+<qds:standard_code_list>O26.83</qds:standard_code_list>
+<qds:standard_code_list>O26.84</qds:standard_code_list>
+<qds:standard_code_list>O26.85</qds:standard_code_list>
+<qds:standard_code_list>O30</qds:standard_code_list>
+<qds:standard_code_list>O30.0</qds:standard_code_list>
+<qds:standard_code_list>O30.1</qds:standard_code_list>
+<qds:standard_code_list>O30.2</qds:standard_code_list>
+<qds:standard_code_list>O30.9</qds:standard_code_list>
+<qds:standard_code_list>O31.0</qds:standard_code_list>
+<qds:standard_code_list>O31.2</qds:standard_code_list>
+<qds:standard_code_list>O31.20</qds:standard_code_list>
+<qds:standard_code_list>O31.3</qds:standard_code_list>
+<qds:standard_code_list>O32</qds:standard_code_list>
+<qds:standard_code_list>O32.1</qds:standard_code_list>
+<qds:standard_code_list>O32.2</qds:standard_code_list>
+<qds:standard_code_list>O32.3</qds:standard_code_list>
+<qds:standard_code_list>O32.4</qds:standard_code_list>
+<qds:standard_code_list>O33</qds:standard_code_list>
+<qds:standard_code_list>O33.0</qds:standard_code_list>
+<qds:standard_code_list>O33.1</qds:standard_code_list>
+<qds:standard_code_list>O33.2</qds:standard_code_list>
+<qds:standard_code_list>O33.4</qds:standard_code_list>
+<qds:standard_code_list>O33.5</qds:standard_code_list>
+<qds:standard_code_list>O33.6</qds:standard_code_list>
+<qds:standard_code_list>O33.7</qds:standard_code_list>
+<qds:standard_code_list>O33.8</qds:standard_code_list>
+<qds:standard_code_list>O33.9</qds:standard_code_list>
+<qds:standard_code_list>O34.0</qds:standard_code_list>
+<qds:standard_code_list>O34.1</qds:standard_code_list>
+<qds:standard_code_list>O34.3</qds:standard_code_list>
+<qds:standard_code_list>O34.4</qds:standard_code_list>
+<qds:standard_code_list>O34.5</qds:standard_code_list>
+<qds:standard_code_list>O34.52</qds:standard_code_list>
+<qds:standard_code_list>O34.59</qds:standard_code_list>
+<qds:standard_code_list>O34.6</qds:standard_code_list>
+<qds:standard_code_list>O34.7</qds:standard_code_list>
+<qds:standard_code_list>O34.8</qds:standard_code_list>
+<qds:standard_code_list>O35</qds:standard_code_list>
+<qds:standard_code_list>O35.1</qds:standard_code_list>
+<qds:standard_code_list>O35.2</qds:standard_code_list>
+<qds:standard_code_list>O35.3</qds:standard_code_list>
+<qds:standard_code_list>O35.5</qds:standard_code_list>
+<qds:standard_code_list>O35.6</qds:standard_code_list>
+<qds:standard_code_list>O35.8</qds:standard_code_list>
+<qds:standard_code_list>O36.0</qds:standard_code_list>
+<qds:standard_code_list>O36.1</qds:standard_code_list>
+<qds:standard_code_list>O36.5</qds:standard_code_list>
+<qds:standard_code_list>O36.6</qds:standard_code_list>
+<qds:standard_code_list>O36.81</qds:standard_code_list>
+<qds:standard_code_list>O41</qds:standard_code_list>
+<qds:standard_code_list>O43.1</qds:standard_code_list>
+<qds:standard_code_list>O43.8</qds:standard_code_list>
+<qds:standard_code_list>O44</qds:standard_code_list>
+<qds:standard_code_list>O44.1</qds:standard_code_list>
+<qds:standard_code_list>O45</qds:standard_code_list>
+<qds:standard_code_list>O45.01</qds:standard_code_list>
+<qds:standard_code_list>O45.011</qds:standard_code_list>
+<qds:standard_code_list>O45.012</qds:standard_code_list>
+<qds:standard_code_list>O45.013</qds:standard_code_list>
+<qds:standard_code_list>O46</qds:standard_code_list>
+<qds:standard_code_list>O48.0</qds:standard_code_list>
+<qds:standard_code_list>O48.1</qds:standard_code_list>
+<qds:standard_code_list>O60.10</qds:standard_code_list>
+<qds:standard_code_list>O61</qds:standard_code_list>
+<qds:standard_code_list>O61.1</qds:standard_code_list>
+<qds:standard_code_list>O61.8</qds:standard_code_list>
+<qds:standard_code_list>O61.9</qds:standard_code_list>
+<qds:standard_code_list>O62.0</qds:standard_code_list>
+<qds:standard_code_list>O62.1</qds:standard_code_list>
+<qds:standard_code_list>O62.2</qds:standard_code_list>
+<qds:standard_code_list>O62.3</qds:standard_code_list>
+<qds:standard_code_list>O62.4</qds:standard_code_list>
+<qds:standard_code_list>O62.9</qds:standard_code_list>
+<qds:standard_code_list>O63.0</qds:standard_code_list>
+<qds:standard_code_list>O63.1</qds:standard_code_list>
+<qds:standard_code_list>O63.2</qds:standard_code_list>
+<qds:standard_code_list>O63.9</qds:standard_code_list>
+<qds:standard_code_list>O64.0</qds:standard_code_list>
+<qds:standard_code_list>O64.4</qds:standard_code_list>
+<qds:standard_code_list>O64.9</qds:standard_code_list>
+<qds:standard_code_list>O65</qds:standard_code_list>
+<qds:standard_code_list>O65.8</qds:standard_code_list>
+<qds:standard_code_list>O66.0</qds:standard_code_list>
+<qds:standard_code_list>O66.1</qds:standard_code_list>
+<qds:standard_code_list>O66.4</qds:standard_code_list>
+<qds:standard_code_list>O66.5</qds:standard_code_list>
+<qds:standard_code_list>O66.8</qds:standard_code_list>
+<qds:standard_code_list>O66.9</qds:standard_code_list>
+<qds:standard_code_list>O69.0</qds:standard_code_list>
+<qds:standard_code_list>O69.1</qds:standard_code_list>
+<qds:standard_code_list>O69.2</qds:standard_code_list>
+<qds:standard_code_list>O69.3</qds:standard_code_list>
+<qds:standard_code_list>O69.4</qds:standard_code_list>
+<qds:standard_code_list>O69.5</qds:standard_code_list>
+<qds:standard_code_list>O69.8</qds:standard_code_list>
+<qds:standard_code_list>O69.9</qds:standard_code_list>
+<qds:standard_code_list>O70.0</qds:standard_code_list>
+<qds:standard_code_list>O70.1</qds:standard_code_list>
+<qds:standard_code_list>O70.2</qds:standard_code_list>
+<qds:standard_code_list>O70.3</qds:standard_code_list>
+<qds:standard_code_list>O70.9</qds:standard_code_list>
+<qds:standard_code_list>O71</qds:standard_code_list>
+<qds:standard_code_list>O71.1</qds:standard_code_list>
+<qds:standard_code_list>O71.3</qds:standard_code_list>
+<qds:standard_code_list>O71.4</qds:standard_code_list>
+<qds:standard_code_list>O71.5</qds:standard_code_list>
+<qds:standard_code_list>O71.7</qds:standard_code_list>
+<qds:standard_code_list>O71.8</qds:standard_code_list>
+<qds:standard_code_list>O71.9</qds:standard_code_list>
+<qds:standard_code_list>O72.0</qds:standard_code_list>
+<qds:standard_code_list>O72.1</qds:standard_code_list>
+<qds:standard_code_list>O72.2</qds:standard_code_list>
+<qds:standard_code_list>O72.3</qds:standard_code_list>
+<qds:standard_code_list>O73</qds:standard_code_list>
+<qds:standard_code_list>O73.1</qds:standard_code_list>
+<qds:standard_code_list>O74</qds:standard_code_list>
+<qds:standard_code_list>O74.1</qds:standard_code_list>
+<qds:standard_code_list>O74.2</qds:standard_code_list>
+<qds:standard_code_list>O74.3</qds:standard_code_list>
+<qds:standard_code_list>O74.8</qds:standard_code_list>
+<qds:standard_code_list>O74.9</qds:standard_code_list>
+<qds:standard_code_list>O75.0</qds:standard_code_list>
+<qds:standard_code_list>O75.1</qds:standard_code_list>
+<qds:standard_code_list>O75.2</qds:standard_code_list>
+<qds:standard_code_list>O75.3</qds:standard_code_list>
+<qds:standard_code_list>O75.5</qds:standard_code_list>
+<qds:standard_code_list>O77</qds:standard_code_list>
+<qds:standard_code_list>O90.4</qds:standard_code_list>
+<qds:standard_code_list>O90.8</qds:standard_code_list>
+<qds:standard_code_list>O90.89</qds:standard_code_list>
+<qds:standard_code_list>O98</qds:standard_code_list>
+<qds:standard_code_list>O98.01</qds:standard_code_list>
+<qds:standard_code_list>O98.1</qds:standard_code_list>
+<qds:standard_code_list>O98.2</qds:standard_code_list>
+<qds:standard_code_list>O98.211</qds:standard_code_list>
+<qds:standard_code_list>O98.212</qds:standard_code_list>
+<qds:standard_code_list>O98.213</qds:standard_code_list>
+<qds:standard_code_list>O98.219</qds:standard_code_list>
+<qds:standard_code_list>O98.3</qds:standard_code_list>
+<qds:standard_code_list>O98.31</qds:standard_code_list>
+<qds:standard_code_list>O98.8</qds:standard_code_list>
+<qds:standard_code_list>O99</qds:standard_code_list>
+<qds:standard_code_list>O99.32</qds:standard_code_list>
+<qds:standard_code_list>O99.33</qds:standard_code_list>
+<qds:standard_code_list>O99.4</qds:standard_code_list>
+<qds:standard_code_list>O99.81</qds:standard_code_list>
+<qds:standard_code_list>O99.810</qds:standard_code_list>
+<qds:standard_code_list>O99.814</qds:standard_code_list>
+<qds:standard_code_list>O99.815</qds:standard_code_list>
+<qds:standard_code_list>P01.1</qds:standard_code_list>
+<qds:standard_code_list>P01.2</qds:standard_code_list>
+<qds:standard_code_list>P01.3</qds:standard_code_list>
+<qds:standard_code_list>P02.1</qds:standard_code_list>
+<qds:standard_code_list>P03.2</qds:standard_code_list>
+<qds:standard_code_list>P03.3</qds:standard_code_list>
+<qds:standard_code_list>P03.4</qds:standard_code_list>
+<qds:standard_code_list>P03.9</qds:standard_code_list>
+<qds:standard_code_list>P29</qds:standard_code_list>
+<qds:standard_code_list>P29.8</qds:standard_code_list>
+<qds:standard_code_list>P39.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_215">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_215</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c87</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>DATETIME</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>641.01</qds:standard_code_list>
+<qds:standard_code_list>641.11</qds:standard_code_list>
+<qds:standard_code_list>641.21</qds:standard_code_list>
+<qds:standard_code_list>641.31</qds:standard_code_list>
+<qds:standard_code_list>641.81</qds:standard_code_list>
+<qds:standard_code_list>641.91</qds:standard_code_list>
+<qds:standard_code_list>642.01</qds:standard_code_list>
+<qds:standard_code_list>642.02</qds:standard_code_list>
+<qds:standard_code_list>642.11</qds:standard_code_list>
+<qds:standard_code_list>642.12</qds:standard_code_list>
+<qds:standard_code_list>642.21</qds:standard_code_list>
+<qds:standard_code_list>642.22</qds:standard_code_list>
+<qds:standard_code_list>642.31</qds:standard_code_list>
+<qds:standard_code_list>642.32</qds:standard_code_list>
+<qds:standard_code_list>642.41</qds:standard_code_list>
+<qds:standard_code_list>642.42</qds:standard_code_list>
+<qds:standard_code_list>642.51</qds:standard_code_list>
+<qds:standard_code_list>642.52</qds:standard_code_list>
+<qds:standard_code_list>642.61</qds:standard_code_list>
+<qds:standard_code_list>642.62</qds:standard_code_list>
+<qds:standard_code_list>642.71</qds:standard_code_list>
+<qds:standard_code_list>642.72</qds:standard_code_list>
+<qds:standard_code_list>642.91</qds:standard_code_list>
+<qds:standard_code_list>642.92</qds:standard_code_list>
+<qds:standard_code_list>643.21</qds:standard_code_list>
+<qds:standard_code_list>643.81</qds:standard_code_list>
+<qds:standard_code_list>644.21</qds:standard_code_list>
+<qds:standard_code_list>645.11</qds:standard_code_list>
+<qds:standard_code_list>645.21</qds:standard_code_list>
+<qds:standard_code_list>646.01</qds:standard_code_list>
+<qds:standard_code_list>646.11</qds:standard_code_list>
+<qds:standard_code_list>646.12</qds:standard_code_list>
+<qds:standard_code_list>646.21</qds:standard_code_list>
+<qds:standard_code_list>646.22</qds:standard_code_list>
+<qds:standard_code_list>646.31</qds:standard_code_list>
+<qds:standard_code_list>646.41</qds:standard_code_list>
+<qds:standard_code_list>646.42</qds:standard_code_list>
+<qds:standard_code_list>646.71</qds:standard_code_list>
+<qds:standard_code_list>646.91</qds:standard_code_list>
+<qds:standard_code_list>647.01</qds:standard_code_list>
+<qds:standard_code_list>647.02</qds:standard_code_list>
+<qds:standard_code_list>647.11</qds:standard_code_list>
+<qds:standard_code_list>647.12</qds:standard_code_list>
+<qds:standard_code_list>647.21</qds:standard_code_list>
+<qds:standard_code_list>647.22</qds:standard_code_list>
+<qds:standard_code_list>647.31</qds:standard_code_list>
+<qds:standard_code_list>647.32</qds:standard_code_list>
+<qds:standard_code_list>647.41</qds:standard_code_list>
+<qds:standard_code_list>647.42</qds:standard_code_list>
+<qds:standard_code_list>647.51</qds:standard_code_list>
+<qds:standard_code_list>647.52</qds:standard_code_list>
+<qds:standard_code_list>647.61</qds:standard_code_list>
+<qds:standard_code_list>647.62</qds:standard_code_list>
+<qds:standard_code_list>647.81</qds:standard_code_list>
+<qds:standard_code_list>647.82</qds:standard_code_list>
+<qds:standard_code_list>647.91</qds:standard_code_list>
+<qds:standard_code_list>647.92</qds:standard_code_list>
+<qds:standard_code_list>648.01</qds:standard_code_list>
+<qds:standard_code_list>648.02</qds:standard_code_list>
+<qds:standard_code_list>648.11</qds:standard_code_list>
+<qds:standard_code_list>648.12</qds:standard_code_list>
+<qds:standard_code_list>648.21</qds:standard_code_list>
+<qds:standard_code_list>648.22</qds:standard_code_list>
+<qds:standard_code_list>648.31</qds:standard_code_list>
+<qds:standard_code_list>648.32</qds:standard_code_list>
+<qds:standard_code_list>648.41</qds:standard_code_list>
+<qds:standard_code_list>648.42</qds:standard_code_list>
+<qds:standard_code_list>648.51</qds:standard_code_list>
+<qds:standard_code_list>648.52</qds:standard_code_list>
+<qds:standard_code_list>648.61</qds:standard_code_list>
+<qds:standard_code_list>648.62</qds:standard_code_list>
+<qds:standard_code_list>648.71</qds:standard_code_list>
+<qds:standard_code_list>648.72</qds:standard_code_list>
+<qds:standard_code_list>648.81</qds:standard_code_list>
+<qds:standard_code_list>648.82</qds:standard_code_list>
+<qds:standard_code_list>648.91</qds:standard_code_list>
+<qds:standard_code_list>648.92</qds:standard_code_list>
+<qds:standard_code_list>649.01</qds:standard_code_list>
+<qds:standard_code_list>649.02</qds:standard_code_list>
+<qds:standard_code_list>649.11</qds:standard_code_list>
+<qds:standard_code_list>649.12</qds:standard_code_list>
+<qds:standard_code_list>649.21</qds:standard_code_list>
+<qds:standard_code_list>649.22</qds:standard_code_list>
+<qds:standard_code_list>649.31</qds:standard_code_list>
+<qds:standard_code_list>649.32</qds:standard_code_list>
+<qds:standard_code_list>649.41</qds:standard_code_list>
+<qds:standard_code_list>649.42</qds:standard_code_list>
+<qds:standard_code_list>649.51</qds:standard_code_list>
+<qds:standard_code_list>649.61</qds:standard_code_list>
+<qds:standard_code_list>649.62</qds:standard_code_list>
+<qds:standard_code_list>65.621</qds:standard_code_list>
+<qds:standard_code_list>651.01</qds:standard_code_list>
+<qds:standard_code_list>651.11</qds:standard_code_list>
+<qds:standard_code_list>651.21</qds:standard_code_list>
+<qds:standard_code_list>651.31</qds:standard_code_list>
+<qds:standard_code_list>651.41</qds:standard_code_list>
+<qds:standard_code_list>651.51</qds:standard_code_list>
+<qds:standard_code_list>651.61</qds:standard_code_list>
+<qds:standard_code_list>651.71</qds:standard_code_list>
+<qds:standard_code_list>651.81</qds:standard_code_list>
+<qds:standard_code_list>651.91</qds:standard_code_list>
+<qds:standard_code_list>652.01</qds:standard_code_list>
+<qds:standard_code_list>652.11</qds:standard_code_list>
+<qds:standard_code_list>652.21</qds:standard_code_list>
+<qds:standard_code_list>652.31</qds:standard_code_list>
+<qds:standard_code_list>652.41</qds:standard_code_list>
+<qds:standard_code_list>652.51</qds:standard_code_list>
+<qds:standard_code_list>652.61</qds:standard_code_list>
+<qds:standard_code_list>652.71</qds:standard_code_list>
+<qds:standard_code_list>652.81</qds:standard_code_list>
+<qds:standard_code_list>652.91</qds:standard_code_list>
+<qds:standard_code_list>653.01</qds:standard_code_list>
+<qds:standard_code_list>653.11</qds:standard_code_list>
+<qds:standard_code_list>653.21</qds:standard_code_list>
+<qds:standard_code_list>653.31</qds:standard_code_list>
+<qds:standard_code_list>653.41</qds:standard_code_list>
+<qds:standard_code_list>653.51</qds:standard_code_list>
+<qds:standard_code_list>653.61</qds:standard_code_list>
+<qds:standard_code_list>653.71</qds:standard_code_list>
+<qds:standard_code_list>653.81</qds:standard_code_list>
+<qds:standard_code_list>653.91</qds:standard_code_list>
+<qds:standard_code_list>654.01</qds:standard_code_list>
+<qds:standard_code_list>654.02</qds:standard_code_list>
+<qds:standard_code_list>654.11</qds:standard_code_list>
+<qds:standard_code_list>654.12</qds:standard_code_list>
+<qds:standard_code_list>654.31</qds:standard_code_list>
+<qds:standard_code_list>654.32</qds:standard_code_list>
+<qds:standard_code_list>654.41</qds:standard_code_list>
+<qds:standard_code_list>654.42</qds:standard_code_list>
+<qds:standard_code_list>654.51</qds:standard_code_list>
+<qds:standard_code_list>654.52</qds:standard_code_list>
+<qds:standard_code_list>654.61</qds:standard_code_list>
+<qds:standard_code_list>654.62</qds:standard_code_list>
+<qds:standard_code_list>654.71</qds:standard_code_list>
+<qds:standard_code_list>654.72</qds:standard_code_list>
+<qds:standard_code_list>654.81</qds:standard_code_list>
+<qds:standard_code_list>654.82</qds:standard_code_list>
+<qds:standard_code_list>654.91</qds:standard_code_list>
+<qds:standard_code_list>654.92</qds:standard_code_list>
+<qds:standard_code_list>655.01</qds:standard_code_list>
+<qds:standard_code_list>655.11</qds:standard_code_list>
+<qds:standard_code_list>655.21</qds:standard_code_list>
+<qds:standard_code_list>655.31</qds:standard_code_list>
+<qds:standard_code_list>655.41</qds:standard_code_list>
+<qds:standard_code_list>655.51</qds:standard_code_list>
+<qds:standard_code_list>655.61</qds:standard_code_list>
+<qds:standard_code_list>655.71</qds:standard_code_list>
+<qds:standard_code_list>655.81</qds:standard_code_list>
+<qds:standard_code_list>655.91</qds:standard_code_list>
+<qds:standard_code_list>656.01</qds:standard_code_list>
+<qds:standard_code_list>656.11</qds:standard_code_list>
+<qds:standard_code_list>656.31</qds:standard_code_list>
+<qds:standard_code_list>656.51</qds:standard_code_list>
+<qds:standard_code_list>656.61</qds:standard_code_list>
+<qds:standard_code_list>656.71</qds:standard_code_list>
+<qds:standard_code_list>656.81</qds:standard_code_list>
+<qds:standard_code_list>656.91</qds:standard_code_list>
+<qds:standard_code_list>657.01</qds:standard_code_list>
+<qds:standard_code_list>658.01</qds:standard_code_list>
+<qds:standard_code_list>658.11</qds:standard_code_list>
+<qds:standard_code_list>658.21</qds:standard_code_list>
+<qds:standard_code_list>658.31</qds:standard_code_list>
+<qds:standard_code_list>658.41</qds:standard_code_list>
+<qds:standard_code_list>658.81</qds:standard_code_list>
+<qds:standard_code_list>658.91</qds:standard_code_list>
+<qds:standard_code_list>659.01</qds:standard_code_list>
+<qds:standard_code_list>659.11</qds:standard_code_list>
+<qds:standard_code_list>659.21</qds:standard_code_list>
+<qds:standard_code_list>659.31</qds:standard_code_list>
+<qds:standard_code_list>659.41</qds:standard_code_list>
+<qds:standard_code_list>659.51</qds:standard_code_list>
+<qds:standard_code_list>659.61</qds:standard_code_list>
+<qds:standard_code_list>659.71</qds:standard_code_list>
+<qds:standard_code_list>659.81</qds:standard_code_list>
+<qds:standard_code_list>659.91</qds:standard_code_list>
+<qds:standard_code_list>660.01</qds:standard_code_list>
+<qds:standard_code_list>660.11</qds:standard_code_list>
+<qds:standard_code_list>660.21</qds:standard_code_list>
+<qds:standard_code_list>660.31</qds:standard_code_list>
+<qds:standard_code_list>660.41</qds:standard_code_list>
+<qds:standard_code_list>660.51</qds:standard_code_list>
+<qds:standard_code_list>660.61</qds:standard_code_list>
+<qds:standard_code_list>660.71</qds:standard_code_list>
+<qds:standard_code_list>660.81</qds:standard_code_list>
+<qds:standard_code_list>660.91</qds:standard_code_list>
+<qds:standard_code_list>661.01</qds:standard_code_list>
+<qds:standard_code_list>661.11</qds:standard_code_list>
+<qds:standard_code_list>661.21</qds:standard_code_list>
+<qds:standard_code_list>661.31</qds:standard_code_list>
+<qds:standard_code_list>661.41</qds:standard_code_list>
+<qds:standard_code_list>661.91</qds:standard_code_list>
+<qds:standard_code_list>662.01</qds:standard_code_list>
+<qds:standard_code_list>662.11</qds:standard_code_list>
+<qds:standard_code_list>662.21</qds:standard_code_list>
+<qds:standard_code_list>662.31</qds:standard_code_list>
+<qds:standard_code_list>663.01</qds:standard_code_list>
+<qds:standard_code_list>663.11</qds:standard_code_list>
+<qds:standard_code_list>663.21</qds:standard_code_list>
+<qds:standard_code_list>663.31</qds:standard_code_list>
+<qds:standard_code_list>663.41</qds:standard_code_list>
+<qds:standard_code_list>663.51</qds:standard_code_list>
+<qds:standard_code_list>663.61</qds:standard_code_list>
+<qds:standard_code_list>663.81</qds:standard_code_list>
+<qds:standard_code_list>663.91</qds:standard_code_list>
+<qds:standard_code_list>664.01</qds:standard_code_list>
+<qds:standard_code_list>664.11</qds:standard_code_list>
+<qds:standard_code_list>664.21</qds:standard_code_list>
+<qds:standard_code_list>664.31</qds:standard_code_list>
+<qds:standard_code_list>664.41</qds:standard_code_list>
+<qds:standard_code_list>664.51</qds:standard_code_list>
+<qds:standard_code_list>664.61</qds:standard_code_list>
+<qds:standard_code_list>664.81</qds:standard_code_list>
+<qds:standard_code_list>664.91</qds:standard_code_list>
+<qds:standard_code_list>665.01</qds:standard_code_list>
+<qds:standard_code_list>665.11</qds:standard_code_list>
+<qds:standard_code_list>665.31</qds:standard_code_list>
+<qds:standard_code_list>665.41</qds:standard_code_list>
+<qds:standard_code_list>665.51</qds:standard_code_list>
+<qds:standard_code_list>665.61</qds:standard_code_list>
+<qds:standard_code_list>665.71</qds:standard_code_list>
+<qds:standard_code_list>665.72</qds:standard_code_list>
+<qds:standard_code_list>665.81</qds:standard_code_list>
+<qds:standard_code_list>665.91</qds:standard_code_list>
+<qds:standard_code_list>665.92</qds:standard_code_list>
+<qds:standard_code_list>666.02</qds:standard_code_list>
+<qds:standard_code_list>666.12</qds:standard_code_list>
+<qds:standard_code_list>666.22</qds:standard_code_list>
+<qds:standard_code_list>666.32</qds:standard_code_list>
+<qds:standard_code_list>667.02</qds:standard_code_list>
+<qds:standard_code_list>667.12</qds:standard_code_list>
+<qds:standard_code_list>668.01</qds:standard_code_list>
+<qds:standard_code_list>668.02</qds:standard_code_list>
+<qds:standard_code_list>668.11</qds:standard_code_list>
+<qds:standard_code_list>668.12</qds:standard_code_list>
+<qds:standard_code_list>668.21</qds:standard_code_list>
+<qds:standard_code_list>668.22</qds:standard_code_list>
+<qds:standard_code_list>668.81</qds:standard_code_list>
+<qds:standard_code_list>668.82</qds:standard_code_list>
+<qds:standard_code_list>668.91</qds:standard_code_list>
+<qds:standard_code_list>668.92</qds:standard_code_list>
+<qds:standard_code_list>669.01</qds:standard_code_list>
+<qds:standard_code_list>669.02</qds:standard_code_list>
+<qds:standard_code_list>669.11</qds:standard_code_list>
+<qds:standard_code_list>669.12</qds:standard_code_list>
+<qds:standard_code_list>669.21</qds:standard_code_list>
+<qds:standard_code_list>669.22</qds:standard_code_list>
+<qds:standard_code_list>669.32</qds:standard_code_list>
+<qds:standard_code_list>669.41</qds:standard_code_list>
+<qds:standard_code_list>669.42</qds:standard_code_list>
+<qds:standard_code_list>669.51</qds:standard_code_list>
+<qds:standard_code_list>669.61</qds:standard_code_list>
+<qds:standard_code_list>669.71</qds:standard_code_list>
+<qds:standard_code_list>669.81</qds:standard_code_list>
+<qds:standard_code_list>669.82</qds:standard_code_list>
+<qds:standard_code_list>669.91</qds:standard_code_list>
+<qds:standard_code_list>669.92</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7005">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7005</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c442</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>102500002</qds:standard_code_list>
+<qds:standard_code_list>102501003</qds:standard_code_list>
+<qds:standard_code_list>102502005</qds:standard_code_list>
+<qds:standard_code_list>102503000</qds:standard_code_list>
+<qds:standard_code_list>102879009</qds:standard_code_list>
+<qds:standard_code_list>112071002</qds:standard_code_list>
+<qds:standard_code_list>112075006</qds:standard_code_list>
+<qds:standard_code_list>118185001</qds:standard_code_list>
+<qds:standard_code_list>118215003</qds:standard_code_list>
+<qds:standard_code_list>118216002</qds:standard_code_list>
+<qds:standard_code_list>13859001</qds:standard_code_list>
+<qds:standard_code_list>15898009</qds:standard_code_list>
+<qds:standard_code_list>169826009</qds:standard_code_list>
+<qds:standard_code_list>169828005</qds:standard_code_list>
+<qds:standard_code_list>169831006</qds:standard_code_list>
+<qds:standard_code_list>169836001</qds:standard_code_list>
+<qds:standard_code_list>169961004</qds:standard_code_list>
+<qds:standard_code_list>17333005</qds:standard_code_list>
+<qds:standard_code_list>199314001</qds:standard_code_list>
+<qds:standard_code_list>199317008</qds:standard_code_list>
+<qds:standard_code_list>199321001</qds:standard_code_list>
+<qds:standard_code_list>199325005</qds:standard_code_list>
+<qds:standard_code_list>199329004</qds:standard_code_list>
+<qds:standard_code_list>199330009</qds:standard_code_list>
+<qds:standard_code_list>199331008</qds:standard_code_list>
+<qds:standard_code_list>199334000</qds:standard_code_list>
+<qds:standard_code_list>199714004</qds:standard_code_list>
+<qds:standard_code_list>199718001</qds:standard_code_list>
+<qds:standard_code_list>200129000</qds:standard_code_list>
+<qds:standard_code_list>200130005</qds:standard_code_list>
+<qds:standard_code_list>200133007</qds:standard_code_list>
+<qds:standard_code_list>200134001</qds:standard_code_list>
+<qds:standard_code_list>200138003</qds:standard_code_list>
+<qds:standard_code_list>200141007</qds:standard_code_list>
+<qds:standard_code_list>200142000</qds:standard_code_list>
+<qds:standard_code_list>200144004</qds:standard_code_list>
+<qds:standard_code_list>200145003</qds:standard_code_list>
+<qds:standard_code_list>200146002</qds:standard_code_list>
+<qds:standard_code_list>200147006</qds:standard_code_list>
+<qds:standard_code_list>200148001</qds:standard_code_list>
+<qds:standard_code_list>200149009</qds:standard_code_list>
+<qds:standard_code_list>200150009</qds:standard_code_list>
+<qds:standard_code_list>200151008</qds:standard_code_list>
+<qds:standard_code_list>200154000</qds:standard_code_list>
+<qds:standard_code_list>20236002</qds:standard_code_list>
+<qds:standard_code_list>20272009</qds:standard_code_list>
+<qds:standard_code_list>21127004</qds:standard_code_list>
+<qds:standard_code_list>21243004</qds:standard_code_list>
+<qds:standard_code_list>23667007</qds:standard_code_list>
+<qds:standard_code_list>237313003</qds:standard_code_list>
+<qds:standard_code_list>24146004</qds:standard_code_list>
+<qds:standard_code_list>249032005</qds:standard_code_list>
+<qds:standard_code_list>249037004</qds:standard_code_list>
+<qds:standard_code_list>249141002</qds:standard_code_list>
+<qds:standard_code_list>249145006</qds:standard_code_list>
+<qds:standard_code_list>249161008</qds:standard_code_list>
+<qds:standard_code_list>249162001</qds:standard_code_list>
+<qds:standard_code_list>249195007</qds:standard_code_list>
+<qds:standard_code_list>267278005</qds:standard_code_list>
+<qds:standard_code_list>271368004</qds:standard_code_list>
+<qds:standard_code_list>271369007</qds:standard_code_list>
+<qds:standard_code_list>271370008</qds:standard_code_list>
+<qds:standard_code_list>271373005</qds:standard_code_list>
+<qds:standard_code_list>273984003</qds:standard_code_list>
+<qds:standard_code_list>274124007</qds:standard_code_list>
+<qds:standard_code_list>274125008</qds:standard_code_list>
+<qds:standard_code_list>274127000</qds:standard_code_list>
+<qds:standard_code_list>274128005</qds:standard_code_list>
+<qds:standard_code_list>274129002</qds:standard_code_list>
+<qds:standard_code_list>278094007</qds:standard_code_list>
+<qds:standard_code_list>278095008</qds:standard_code_list>
+<qds:standard_code_list>278096009</qds:standard_code_list>
+<qds:standard_code_list>28030000</qds:standard_code_list>
+<qds:standard_code_list>281050002</qds:standard_code_list>
+<qds:standard_code_list>281052005</qds:standard_code_list>
+<qds:standard_code_list>282020008</qds:standard_code_list>
+<qds:standard_code_list>288209009</qds:standard_code_list>
+<qds:standard_code_list>288210004</qds:standard_code_list>
+<qds:standard_code_list>288265000</qds:standard_code_list>
+<qds:standard_code_list>288266004</qds:standard_code_list>
+<qds:standard_code_list>289210008</qds:standard_code_list>
+<qds:standard_code_list>289216002</qds:standard_code_list>
+<qds:standard_code_list>289217006</qds:standard_code_list>
+<qds:standard_code_list>289218001</qds:standard_code_list>
+<qds:standard_code_list>289222006</qds:standard_code_list>
+<qds:standard_code_list>289223001</qds:standard_code_list>
+<qds:standard_code_list>289224007</qds:standard_code_list>
+<qds:standard_code_list>289226009</qds:standard_code_list>
+<qds:standard_code_list>289227000</qds:standard_code_list>
+<qds:standard_code_list>289228005</qds:standard_code_list>
+<qds:standard_code_list>289229002</qds:standard_code_list>
+<qds:standard_code_list>289230007</qds:standard_code_list>
+<qds:standard_code_list>289231006</qds:standard_code_list>
+<qds:standard_code_list>289232004</qds:standard_code_list>
+<qds:standard_code_list>289233009</qds:standard_code_list>
+<qds:standard_code_list>289234003</qds:standard_code_list>
+<qds:standard_code_list>289235002</qds:standard_code_list>
+<qds:standard_code_list>289236001</qds:standard_code_list>
+<qds:standard_code_list>289237005</qds:standard_code_list>
+<qds:standard_code_list>289238000</qds:standard_code_list>
+<qds:standard_code_list>289242002</qds:standard_code_list>
+<qds:standard_code_list>289247008</qds:standard_code_list>
+<qds:standard_code_list>289253008</qds:standard_code_list>
+<qds:standard_code_list>289256000</qds:standard_code_list>
+<qds:standard_code_list>289257009</qds:standard_code_list>
+<qds:standard_code_list>289258004</qds:standard_code_list>
+<qds:standard_code_list>289259007</qds:standard_code_list>
+<qds:standard_code_list>289261003</qds:standard_code_list>
+<qds:standard_code_list>289574008</qds:standard_code_list>
+<qds:standard_code_list>289699001</qds:standard_code_list>
+<qds:standard_code_list>289740006</qds:standard_code_list>
+<qds:standard_code_list>289762006</qds:standard_code_list>
+<qds:standard_code_list>289763001</qds:standard_code_list>
+<qds:standard_code_list>29997008</qds:standard_code_list>
+<qds:standard_code_list>302080006</qds:standard_code_list>
+<qds:standard_code_list>302253005</qds:standard_code_list>
+<qds:standard_code_list>302254004</qds:standard_code_list>
+<qds:standard_code_list>309469004</qds:standard_code_list>
+<qds:standard_code_list>35874009</qds:standard_code_list>
+<qds:standard_code_list>364738009</qds:standard_code_list>
+<qds:standard_code_list>366327005</qds:standard_code_list>
+<qds:standard_code_list>366328000</qds:standard_code_list>
+<qds:standard_code_list>366329008</qds:standard_code_list>
+<qds:standard_code_list>38250004</qds:standard_code_list>
+<qds:standard_code_list>390959009</qds:standard_code_list>
+<qds:standard_code_list>42783002</qds:standard_code_list>
+<qds:standard_code_list>42857002</qds:standard_code_list>
+<qds:standard_code_list>45384004</qds:standard_code_list>
+<qds:standard_code_list>45757002</qds:standard_code_list>
+<qds:standard_code_list>47574003</qds:standard_code_list>
+<qds:standard_code_list>48782003</qds:standard_code_list>
+<qds:standard_code_list>4886009</qds:standard_code_list>
+<qds:standard_code_list>49550006</qds:standard_code_list>
+<qds:standard_code_list>50758004</qds:standard_code_list>
+<qds:standard_code_list>52483005</qds:standard_code_list>
+<qds:standard_code_list>55466006</qds:standard_code_list>
+<qds:standard_code_list>58289000</qds:standard_code_list>
+<qds:standard_code_list>59403008</qds:standard_code_list>
+<qds:standard_code_list>6383007</qds:standard_code_list>
+<qds:standard_code_list>6893006</qds:standard_code_list>
+<qds:standard_code_list>71096001</qds:standard_code_list>
+<qds:standard_code_list>7888004</qds:standard_code_list>
+<qds:standard_code_list>8333008</qds:standard_code_list>
+<qds:standard_code_list>86803008</qds:standard_code_list>
+<qds:standard_code_list>90306000</qds:standard_code_list>
+<qds:standard_code_list>9343003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_280">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_280</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Procedure</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c112</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>59400</qds:standard_code_list>
+<qds:standard_code_list>59409</qds:standard_code_list>
+<qds:standard_code_list>59410</qds:standard_code_list>
+<qds:standard_code_list>59425</qds:standard_code_list>
+<qds:standard_code_list>59426</qds:standard_code_list>
+<qds:standard_code_list>59510</qds:standard_code_list>
+<qds:standard_code_list>59514</qds:standard_code_list>
+<qds:standard_code_list>59515</qds:standard_code_list>
+<qds:standard_code_list>59610</qds:standard_code_list>
+<qds:standard_code_list>59612</qds:standard_code_list>
+<qds:standard_code_list>59614</qds:standard_code_list>
+<qds:standard_code_list>59618</qds:standard_code_list>
+<qds:standard_code_list>59620</qds:standard_code_list>
+<qds:standard_code_list>59622</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1326">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1326</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Procedure</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c393</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c112</qds:standard_code_list>
+<qds:standard_code_list>A_c89</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_391">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_391</qds:QDS_id>
+<qds:standard_concept>Delivery Live Births-Procedure</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c89</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>7/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10745001</qds:standard_code_list>
+<qds:standard_code_list>14119008</qds:standard_code_list>
+<qds:standard_code_list>15413009</qds:standard_code_list>
+<qds:standard_code_list>164817009</qds:standard_code_list>
+<qds:standard_code_list>169224002</qds:standard_code_list>
+<qds:standard_code_list>169225001</qds:standard_code_list>
+<qds:standard_code_list>169228004</qds:standard_code_list>
+<qds:standard_code_list>169229007</qds:standard_code_list>
+<qds:standard_code_list>169230002</qds:standard_code_list>
+<qds:standard_code_list>169235007</qds:standard_code_list>
+<qds:standard_code_list>169668007</qds:standard_code_list>
+<qds:standard_code_list>169669004</qds:standard_code_list>
+<qds:standard_code_list>169670003</qds:standard_code_list>
+<qds:standard_code_list>177152009</qds:standard_code_list>
+<qds:standard_code_list>177154005</qds:standard_code_list>
+<qds:standard_code_list>177157003</qds:standard_code_list>
+<qds:standard_code_list>177158008</qds:standard_code_list>
+<qds:standard_code_list>177161009</qds:standard_code_list>
+<qds:standard_code_list>177162002</qds:standard_code_list>
+<qds:standard_code_list>177164001</qds:standard_code_list>
+<qds:standard_code_list>177167008</qds:standard_code_list>
+<qds:standard_code_list>177168003</qds:standard_code_list>
+<qds:standard_code_list>177170007</qds:standard_code_list>
+<qds:standard_code_list>177171006</qds:standard_code_list>
+<qds:standard_code_list>177173009</qds:standard_code_list>
+<qds:standard_code_list>177174003</qds:standard_code_list>
+<qds:standard_code_list>177175002</qds:standard_code_list>
+<qds:standard_code_list>177176001</qds:standard_code_list>
+<qds:standard_code_list>177177005</qds:standard_code_list>
+<qds:standard_code_list>177179008</qds:standard_code_list>
+<qds:standard_code_list>177180006</qds:standard_code_list>
+<qds:standard_code_list>177181005</qds:standard_code_list>
+<qds:standard_code_list>177184002</qds:standard_code_list>
+<qds:standard_code_list>177185001</qds:standard_code_list>
+<qds:standard_code_list>177188004</qds:standard_code_list>
+<qds:standard_code_list>177203002</qds:standard_code_list>
+<qds:standard_code_list>177204008</qds:standard_code_list>
+<qds:standard_code_list>177205009</qds:standard_code_list>
+<qds:standard_code_list>177212000</qds:standard_code_list>
+<qds:standard_code_list>17860005</qds:standard_code_list>
+<qds:standard_code_list>1807002</qds:standard_code_list>
+<qds:standard_code_list>182619004</qds:standard_code_list>
+<qds:standard_code_list>18489003</qds:standard_code_list>
+<qds:standard_code_list>18625004</qds:standard_code_list>
+<qds:standard_code_list>19390001</qds:standard_code_list>
+<qds:standard_code_list>21623001</qds:standard_code_list>
+<qds:standard_code_list>22633006</qds:standard_code_list>
+<qds:standard_code_list>2321005</qds:standard_code_list>
+<qds:standard_code_list>236973005</qds:standard_code_list>
+<qds:standard_code_list>236974004</qds:standard_code_list>
+<qds:standard_code_list>236975003</qds:standard_code_list>
+<qds:standard_code_list>236976002</qds:standard_code_list>
+<qds:standard_code_list>236978001</qds:standard_code_list>
+<qds:standard_code_list>236980007</qds:standard_code_list>
+<qds:standard_code_list>236981006</qds:standard_code_list>
+<qds:standard_code_list>236982004</qds:standard_code_list>
+<qds:standard_code_list>236983009</qds:standard_code_list>
+<qds:standard_code_list>236984003</qds:standard_code_list>
+<qds:standard_code_list>236991000</qds:standard_code_list>
+<qds:standard_code_list>236992007</qds:standard_code_list>
+<qds:standard_code_list>236994008</qds:standard_code_list>
+<qds:standard_code_list>237311001</qds:standard_code_list>
+<qds:standard_code_list>241491007</qds:standard_code_list>
+<qds:standard_code_list>241493005</qds:standard_code_list>
+<qds:standard_code_list>241494004</qds:standard_code_list>
+<qds:standard_code_list>25296001</qds:standard_code_list>
+<qds:standard_code_list>25828002</qds:standard_code_list>
+<qds:standard_code_list>26313002</qds:standard_code_list>
+<qds:standard_code_list>265639000</qds:standard_code_list>
+<qds:standard_code_list>268445003</qds:standard_code_list>
+<qds:standard_code_list>271442007</qds:standard_code_list>
+<qds:standard_code_list>275168001</qds:standard_code_list>
+<qds:standard_code_list>275169009</qds:standard_code_list>
+<qds:standard_code_list>28542003</qds:standard_code_list>
+<qds:standard_code_list>287976008</qds:standard_code_list>
+<qds:standard_code_list>287977004</qds:standard_code_list>
+<qds:standard_code_list>288193006</qds:standard_code_list>
+<qds:standard_code_list>288194000</qds:standard_code_list>
+<qds:standard_code_list>28860009</qds:standard_code_list>
+<qds:standard_code_list>29613008</qds:standard_code_list>
+<qds:standard_code_list>302382009</qds:standard_code_list>
+<qds:standard_code_list>302383004</qds:standard_code_list>
+<qds:standard_code_list>302384005</qds:standard_code_list>
+<qds:standard_code_list>30476003</qds:standard_code_list>
+<qds:standard_code_list>306727001</qds:standard_code_list>
+<qds:standard_code_list>307813007</qds:standard_code_list>
+<qds:standard_code_list>315308008</qds:standard_code_list>
+<qds:standard_code_list>31998007</qds:standard_code_list>
+<qds:standard_code_list>33807004</qds:standard_code_list>
+<qds:standard_code_list>359940006</qds:standard_code_list>
+<qds:standard_code_list>359943008</qds:standard_code_list>
+<qds:standard_code_list>384729004</qds:standard_code_list>
+<qds:standard_code_list>38479009</qds:standard_code_list>
+<qds:standard_code_list>386622003</qds:standard_code_list>
+<qds:standard_code_list>386637004</qds:standard_code_list>
+<qds:standard_code_list>387711001</qds:standard_code_list>
+<qds:standard_code_list>40219000</qds:standard_code_list>
+<qds:standard_code_list>40704000</qds:standard_code_list>
+<qds:standard_code_list>40792007</qds:standard_code_list>
+<qds:standard_code_list>408814002</qds:standard_code_list>
+<qds:standard_code_list>408815001</qds:standard_code_list>
+<qds:standard_code_list>408819007</qds:standard_code_list>
+<qds:standard_code_list>414880004</qds:standard_code_list>
+<qds:standard_code_list>416055001</qds:standard_code_list>
+<qds:standard_code_list>417121007</qds:standard_code_list>
+<qds:standard_code_list>418090003</qds:standard_code_list>
+<qds:standard_code_list>425551008</qds:standard_code_list>
+<qds:standard_code_list>426295007</qds:standard_code_list>
+<qds:standard_code_list>426840007</qds:standard_code_list>
+<qds:standard_code_list>427623005</qds:standard_code_list>
+<qds:standard_code_list>430063002</qds:standard_code_list>
+<qds:standard_code_list>430064008</qds:standard_code_list>
+<qds:standard_code_list>432246004</qds:standard_code_list>
+<qds:standard_code_list>433153009</qds:standard_code_list>
+<qds:standard_code_list>4504004</qds:standard_code_list>
+<qds:standard_code_list>45718005</qds:standard_code_list>
+<qds:standard_code_list>46972000</qds:standard_code_list>
+<qds:standard_code_list>48204000</qds:standard_code_list>
+<qds:standard_code_list>5191001</qds:standard_code_list>
+<qds:standard_code_list>54973000</qds:standard_code_list>
+<qds:standard_code_list>55052008</qds:standard_code_list>
+<qds:standard_code_list>5556001</qds:standard_code_list>
+<qds:standard_code_list>56620000</qds:standard_code_list>
+<qds:standard_code_list>58705005</qds:standard_code_list>
+<qds:standard_code_list>61027002</qds:standard_code_list>
+<qds:standard_code_list>61586001</qds:standard_code_list>
+<qds:standard_code_list>62508004</qds:standard_code_list>
+<qds:standard_code_list>62688006</qds:standard_code_list>
+<qds:standard_code_list>63407004</qds:standard_code_list>
+<qds:standard_code_list>65243006</qds:standard_code_list>
+<qds:standard_code_list>66201006</qds:standard_code_list>
+<qds:standard_code_list>69162008</qds:standard_code_list>
+<qds:standard_code_list>69422002</qds:standard_code_list>
+<qds:standard_code_list>69621003</qds:standard_code_list>
+<qds:standard_code_list>71166009</qds:standard_code_list>
+<qds:standard_code_list>72492007</qds:standard_code_list>
+<qds:standard_code_list>75928003</qds:standard_code_list>
+<qds:standard_code_list>79966006</qds:standard_code_list>
+<qds:standard_code_list>85403009</qds:standard_code_list>
+<qds:standard_code_list>85548006</qds:standard_code_list>
+<qds:standard_code_list>86599005</qds:standard_code_list>
+<qds:standard_code_list>89346004</qds:standard_code_list>
+<qds:standard_code_list>89849000</qds:standard_code_list>
+<qds:standard_code_list>90438006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1599">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1599</qds:QDS_id>
+<qds:standard_concept>Estimated date of conception</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c517</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>248986005</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_340">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_340</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_341">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_341</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_957">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_957</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1154">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1154</qds:QDS_id>
+<qds:standard_concept>Multigravida</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c335</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>102876002</qds:standard_code_list>
+<qds:standard_code_list>127365008</qds:standard_code_list>
+<qds:standard_code_list>127366009</qds:standard_code_list>
+<qds:standard_code_list>127367000</qds:standard_code_list>
+<qds:standard_code_list>127368005</qds:standard_code_list>
+<qds:standard_code_list>127369002</qds:standard_code_list>
+<qds:standard_code_list>127370001</qds:standard_code_list>
+<qds:standard_code_list>127371002</qds:standard_code_list>
+<qds:standard_code_list>127372009</qds:standard_code_list>
+<qds:standard_code_list>127373004</qds:standard_code_list>
+<qds:standard_code_list>127374005</qds:standard_code_list>
+<qds:standard_code_list>17618008</qds:standard_code_list>
+<qds:standard_code_list>443460007</qds:standard_code_list>
+<qds:standard_code_list>6867004</qds:standard_code_list>
+<qds:standard_code_list>80856001</qds:standard_code_list>
+<qds:standard_code_list>82634006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_955">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_955</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1670">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1670</qds:QDS_id>
+<qds:standard_concept>Prenatal Visit</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c396</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c328</qds:standard_code_list>
+<qds:standard_code_list>A_c338</qds:standard_code_list>
+<qds:standard_code_list>A_c466</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7062">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7062</qds:QDS_id>
+<qds:standard_concept>Prenatal Visit</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c328</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z34  </qds:standard_code_list>
+<qds:standard_code_list>Z34.0  </qds:standard_code_list>
+<qds:standard_code_list>Z34.8  </qds:standard_code_list>
+<qds:standard_code_list>Z34.9  </qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7075">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7075</qds:QDS_id>
+<qds:standard_concept>Prenatal Visit</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c466</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V22.0</qds:standard_code_list>
+<qds:standard_code_list>V22.1</qds:standard_code_list>
+<qds:standard_code_list>V22.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7073">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_7073</qds:QDS_id>
+<qds:standard_concept>Prenatal Visit</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c338</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>424441002</qds:standard_code_list>
+<qds:standard_code_list>424619006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1153">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1153</qds:QDS_id>
+<qds:standard_concept>Primigravida</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c334</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2008-01-31</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>127364007</qds:standard_code_list>
+<qds:standard_code_list>199719009</qds:standard_code_list>
+<qds:standard_code_list>29399001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1156">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1156</qds:QDS_id>
+<qds:standard_concept>Rh Status BABY</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c337</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10331-7</qds:standard_code_list>
+<qds:standard_code_list>1314-4</qds:standard_code_list>
+<qds:standard_code_list>14906-2</qds:standard_code_list>
+<qds:standard_code_list>14907-0</qds:standard_code_list>
+<qds:standard_code_list>14908-8</qds:standard_code_list>
+<qds:standard_code_list>17531-5</qds:standard_code_list>
+<qds:standard_code_list>34961-3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1155">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_1155</qds:QDS_id>
+<qds:standard_concept>Rh Status Mother</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c336</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10331-7</qds:standard_code_list>
+<qds:standard_code_list>1314-4</qds:standard_code_list>
+<qds:standard_code_list>14906-2</qds:standard_code_list>
+<qds:standard_code_list>14907-0</qds:standard_code_list>
+<qds:standard_code_list>14908-8</qds:standard_code_list>
+<qds:standard_code_list>17531-5</qds:standard_code_list>
+<qds:standard_code_list>34961-3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_959">
+<qds:NQF_id>0014</qds:NQF_id>
+<qds:measure_name>Prenatal Care:  Anti-D Immune Globulin</qds:measure_name>
+<qds:QDS_id>A_959</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

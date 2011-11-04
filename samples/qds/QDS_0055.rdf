@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_2166">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2166</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_609">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_609</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_610">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_610</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2167">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2167</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_611">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_611</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_612">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_612</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1137">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1137</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2168">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2168</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_617">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_617</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2169">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2169</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_764">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_764</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_765">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_765</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1603">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1603</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1604">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1604</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2170">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2170</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_604">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_604</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_605">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_605</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1454">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1454</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c469</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c47</qds:standard_code_list>
+<qds:standard_code_list>N_c48</qds:standard_code_list>
+<qds:standard_code_list>N_c49</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_606">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_606</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c48</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>31</qds:standard_code_list>
+<qds:standard_code_list>E10.36</qds:standard_code_list>
+<qds:standard_code_list>E11.36</qds:standard_code_list>
+<qds:standard_code_list>E11.9</qds:standard_code_list>
+<qds:standard_code_list>E13</qds:standard_code_list>
+<qds:standard_code_list>E13.32</qds:standard_code_list>
+<qds:standard_code_list>E13.33</qds:standard_code_list>
+<qds:standard_code_list>E13.34</qds:standard_code_list>
+<qds:standard_code_list>E13.35</qds:standard_code_list>
+<qds:standard_code_list>E13.43</qds:standard_code_list>
+<qds:standard_code_list>O24.42</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_607">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_607</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c47</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>250</qds:standard_code_list>
+<qds:standard_code_list>250.0</qds:standard_code_list>
+<qds:standard_code_list>250.00</qds:standard_code_list>
+<qds:standard_code_list>250.01</qds:standard_code_list>
+<qds:standard_code_list>250.02</qds:standard_code_list>
+<qds:standard_code_list>250.03</qds:standard_code_list>
+<qds:standard_code_list>250.10</qds:standard_code_list>
+<qds:standard_code_list>250.11</qds:standard_code_list>
+<qds:standard_code_list>250.12</qds:standard_code_list>
+<qds:standard_code_list>250.13</qds:standard_code_list>
+<qds:standard_code_list>250.20</qds:standard_code_list>
+<qds:standard_code_list>250.21</qds:standard_code_list>
+<qds:standard_code_list>250.22</qds:standard_code_list>
+<qds:standard_code_list>250.23</qds:standard_code_list>
+<qds:standard_code_list>250.30</qds:standard_code_list>
+<qds:standard_code_list>250.31</qds:standard_code_list>
+<qds:standard_code_list>250.32</qds:standard_code_list>
+<qds:standard_code_list>250.33</qds:standard_code_list>
+<qds:standard_code_list>250.4</qds:standard_code_list>
+<qds:standard_code_list>250.40</qds:standard_code_list>
+<qds:standard_code_list>250.41</qds:standard_code_list>
+<qds:standard_code_list>250.42</qds:standard_code_list>
+<qds:standard_code_list>250.43</qds:standard_code_list>
+<qds:standard_code_list>250.50</qds:standard_code_list>
+<qds:standard_code_list>250.51</qds:standard_code_list>
+<qds:standard_code_list>250.52</qds:standard_code_list>
+<qds:standard_code_list>250.53</qds:standard_code_list>
+<qds:standard_code_list>250.60</qds:standard_code_list>
+<qds:standard_code_list>250.61</qds:standard_code_list>
+<qds:standard_code_list>250.62</qds:standard_code_list>
+<qds:standard_code_list>250.63</qds:standard_code_list>
+<qds:standard_code_list>250.7</qds:standard_code_list>
+<qds:standard_code_list>250.70</qds:standard_code_list>
+<qds:standard_code_list>250.71</qds:standard_code_list>
+<qds:standard_code_list>250.72</qds:standard_code_list>
+<qds:standard_code_list>250.73</qds:standard_code_list>
+<qds:standard_code_list>250.8</qds:standard_code_list>
+<qds:standard_code_list>250.80</qds:standard_code_list>
+<qds:standard_code_list>250.81</qds:standard_code_list>
+<qds:standard_code_list>250.82</qds:standard_code_list>
+<qds:standard_code_list>250.83</qds:standard_code_list>
+<qds:standard_code_list>250.9</qds:standard_code_list>
+<qds:standard_code_list>250.90</qds:standard_code_list>
+<qds:standard_code_list>250.91</qds:standard_code_list>
+<qds:standard_code_list>250.92</qds:standard_code_list>
+<qds:standard_code_list>250.93</qds:standard_code_list>
+<qds:standard_code_list>357.2</qds:standard_code_list>
+<qds:standard_code_list>362.0</qds:standard_code_list>
+<qds:standard_code_list>362.01</qds:standard_code_list>
+<qds:standard_code_list>362.02</qds:standard_code_list>
+<qds:standard_code_list>362.03</qds:standard_code_list>
+<qds:standard_code_list>362.04</qds:standard_code_list>
+<qds:standard_code_list>362.05</qds:standard_code_list>
+<qds:standard_code_list>362.06</qds:standard_code_list>
+<qds:standard_code_list>362.07</qds:standard_code_list>
+<qds:standard_code_list>366.41</qds:standard_code_list>
+<qds:standard_code_list>648.0</qds:standard_code_list>
+<qds:standard_code_list>648.00</qds:standard_code_list>
+<qds:standard_code_list>648.01</qds:standard_code_list>
+<qds:standard_code_list>648.02</qds:standard_code_list>
+<qds:standard_code_list>648.03</qds:standard_code_list>
+<qds:standard_code_list>648.04</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_608">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_608</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c49</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111552007</qds:standard_code_list>
+<qds:standard_code_list>111558006</qds:standard_code_list>
+<qds:standard_code_list>11530004</qds:standard_code_list>
+<qds:standard_code_list>123763000</qds:standard_code_list>
+<qds:standard_code_list>127013003</qds:standard_code_list>
+<qds:standard_code_list>127014009</qds:standard_code_list>
+<qds:standard_code_list>190321005</qds:standard_code_list>
+<qds:standard_code_list>190328004</qds:standard_code_list>
+<qds:standard_code_list>190330002</qds:standard_code_list>
+<qds:standard_code_list>190331003</qds:standard_code_list>
+<qds:standard_code_list>190336008</qds:standard_code_list>
+<qds:standard_code_list>190353001</qds:standard_code_list>
+<qds:standard_code_list>190361006</qds:standard_code_list>
+<qds:standard_code_list>190368000</qds:standard_code_list>
+<qds:standard_code_list>190369008</qds:standard_code_list>
+<qds:standard_code_list>190371008</qds:standard_code_list>
+<qds:standard_code_list>190372001</qds:standard_code_list>
+<qds:standard_code_list>190383005</qds:standard_code_list>
+<qds:standard_code_list>190389009</qds:standard_code_list>
+<qds:standard_code_list>190390000</qds:standard_code_list>
+<qds:standard_code_list>190392008</qds:standard_code_list>
+<qds:standard_code_list>190406000</qds:standard_code_list>
+<qds:standard_code_list>190407009</qds:standard_code_list>
+<qds:standard_code_list>190410002</qds:standard_code_list>
+<qds:standard_code_list>190411003</qds:standard_code_list>
+<qds:standard_code_list>190412005</qds:standard_code_list>
+<qds:standard_code_list>190416001</qds:standard_code_list>
+<qds:standard_code_list>190417004</qds:standard_code_list>
+<qds:standard_code_list>190418009</qds:standard_code_list>
+<qds:standard_code_list>190419001</qds:standard_code_list>
+<qds:standard_code_list>190422004</qds:standard_code_list>
+<qds:standard_code_list>193184006</qds:standard_code_list>
+<qds:standard_code_list>197605007</qds:standard_code_list>
+<qds:standard_code_list>198609003</qds:standard_code_list>
+<qds:standard_code_list>199223000</qds:standard_code_list>
+<qds:standard_code_list>199227004</qds:standard_code_list>
+<qds:standard_code_list>199229001</qds:standard_code_list>
+<qds:standard_code_list>199230006</qds:standard_code_list>
+<qds:standard_code_list>199231005</qds:standard_code_list>
+<qds:standard_code_list>199234002</qds:standard_code_list>
+<qds:standard_code_list>201250006</qds:standard_code_list>
+<qds:standard_code_list>201251005</qds:standard_code_list>
+<qds:standard_code_list>201252003</qds:standard_code_list>
+<qds:standard_code_list>23045005</qds:standard_code_list>
+<qds:standard_code_list>230572002</qds:standard_code_list>
+<qds:standard_code_list>230577008</qds:standard_code_list>
+<qds:standard_code_list>237599002</qds:standard_code_list>
+<qds:standard_code_list>237600004</qds:standard_code_list>
+<qds:standard_code_list>237601000</qds:standard_code_list>
+<qds:standard_code_list>237604008</qds:standard_code_list>
+<qds:standard_code_list>237613005</qds:standard_code_list>
+<qds:standard_code_list>237618001</qds:standard_code_list>
+<qds:standard_code_list>237619009</qds:standard_code_list>
+<qds:standard_code_list>237627000</qds:standard_code_list>
+<qds:standard_code_list>25907005</qds:standard_code_list>
+<qds:standard_code_list>26298008</qds:standard_code_list>
+<qds:standard_code_list>267379000</qds:standard_code_list>
+<qds:standard_code_list>267380002</qds:standard_code_list>
+<qds:standard_code_list>2751001</qds:standard_code_list>
+<qds:standard_code_list>275918005</qds:standard_code_list>
+<qds:standard_code_list>28032008</qds:standard_code_list>
+<qds:standard_code_list>28453007</qds:standard_code_list>
+<qds:standard_code_list>290002008</qds:standard_code_list>
+<qds:standard_code_list>309426007</qds:standard_code_list>
+<qds:standard_code_list>310387003</qds:standard_code_list>
+<qds:standard_code_list>311366001</qds:standard_code_list>
+<qds:standard_code_list>312912001</qds:standard_code_list>
+<qds:standard_code_list>313435000</qds:standard_code_list>
+<qds:standard_code_list>313436004</qds:standard_code_list>
+<qds:standard_code_list>314537004</qds:standard_code_list>
+<qds:standard_code_list>314771006</qds:standard_code_list>
+<qds:standard_code_list>314772004</qds:standard_code_list>
+<qds:standard_code_list>314893005</qds:standard_code_list>
+<qds:standard_code_list>314902007</qds:standard_code_list>
+<qds:standard_code_list>314903002</qds:standard_code_list>
+<qds:standard_code_list>33559001</qds:standard_code_list>
+<qds:standard_code_list>34140002</qds:standard_code_list>
+<qds:standard_code_list>359611005</qds:standard_code_list>
+<qds:standard_code_list>359638003</qds:standard_code_list>
+<qds:standard_code_list>359642000</qds:standard_code_list>
+<qds:standard_code_list>360546002</qds:standard_code_list>
+<qds:standard_code_list>371087003</qds:standard_code_list>
+<qds:standard_code_list>38542009</qds:standard_code_list>
+<qds:standard_code_list>39058009</qds:standard_code_list>
+<qds:standard_code_list>39181008</qds:standard_code_list>
+<qds:standard_code_list>408539000</qds:standard_code_list>
+<qds:standard_code_list>408540003</qds:standard_code_list>
+<qds:standard_code_list>413183008</qds:standard_code_list>
+<qds:standard_code_list>414890007</qds:standard_code_list>
+<qds:standard_code_list>414906009</qds:standard_code_list>
+<qds:standard_code_list>420414003</qds:standard_code_list>
+<qds:standard_code_list>420422005</qds:standard_code_list>
+<qds:standard_code_list>421750000</qds:standard_code_list>
+<qds:standard_code_list>421847006</qds:standard_code_list>
+<qds:standard_code_list>421895002</qds:standard_code_list>
+<qds:standard_code_list>422183001</qds:standard_code_list>
+<qds:standard_code_list>422228004</qds:standard_code_list>
+<qds:standard_code_list>422275004</qds:standard_code_list>
+<qds:standard_code_list>423263001</qds:standard_code_list>
+<qds:standard_code_list>424736006</qds:standard_code_list>
+<qds:standard_code_list>424989000</qds:standard_code_list>
+<qds:standard_code_list>425159004</qds:standard_code_list>
+<qds:standard_code_list>425442003</qds:standard_code_list>
+<qds:standard_code_list>426705001</qds:standard_code_list>
+<qds:standard_code_list>426875007</qds:standard_code_list>
+<qds:standard_code_list>427089005</qds:standard_code_list>
+<qds:standard_code_list>428896009</qds:standard_code_list>
+<qds:standard_code_list>42954008</qds:standard_code_list>
+<qds:standard_code_list>44054006</qds:standard_code_list>
+<qds:standard_code_list>4627003</qds:standard_code_list>
+<qds:standard_code_list>46635009</qds:standard_code_list>
+<qds:standard_code_list>50620007</qds:standard_code_list>
+<qds:standard_code_list>51002006</qds:standard_code_list>
+<qds:standard_code_list>5368009</qds:standard_code_list>
+<qds:standard_code_list>54181000</qds:standard_code_list>
+<qds:standard_code_list>57886004</qds:standard_code_list>
+<qds:standard_code_list>59079001</qds:standard_code_list>
+<qds:standard_code_list>5969009</qds:standard_code_list>
+<qds:standard_code_list>70694009</qds:standard_code_list>
+<qds:standard_code_list>73211009</qds:standard_code_list>
+<qds:standard_code_list>74263009</qds:standard_code_list>
+<qds:standard_code_list>75524006</qds:standard_code_list>
+<qds:standard_code_list>75682002</qds:standard_code_list>
+<qds:standard_code_list>76751001</qds:standard_code_list>
+<qds:standard_code_list>81531005</qds:standard_code_list>
+<qds:standard_code_list>81830002</qds:standard_code_list>
+<qds:standard_code_list>8801005</qds:standard_code_list>
+<qds:standard_code_list>91352004</qds:standard_code_list>
+<qds:standard_code_list>9859006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7015">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_7015</qds:QDS_id>
+<qds:standard_concept>Diabetic Retinopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c547</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E10.3</qds:standard_code_list>
+<qds:standard_code_list>E10.31</qds:standard_code_list>
+<qds:standard_code_list>E10.311</qds:standard_code_list>
+<qds:standard_code_list>E10.319</qds:standard_code_list>
+<qds:standard_code_list>E11.31</qds:standard_code_list>
+<qds:standard_code_list>E11.311</qds:standard_code_list>
+<qds:standard_code_list>E11.319</qds:standard_code_list>
+<qds:standard_code_list>E11.32</qds:standard_code_list>
+<qds:standard_code_list>E11.321</qds:standard_code_list>
+<qds:standard_code_list>E11.329</qds:standard_code_list>
+<qds:standard_code_list>E11.33</qds:standard_code_list>
+<qds:standard_code_list>E11.331</qds:standard_code_list>
+<qds:standard_code_list>E11.339</qds:standard_code_list>
+<qds:standard_code_list>E11.34</qds:standard_code_list>
+<qds:standard_code_list>E11.341</qds:standard_code_list>
+<qds:standard_code_list>E11.349</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7016">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_7016</qds:QDS_id>
+<qds:standard_concept>Diabetic Retinopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c545</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>193349004</qds:standard_code_list>
+<qds:standard_code_list>193350004</qds:standard_code_list>
+<qds:standard_code_list>232020009</qds:standard_code_list>
+<qds:standard_code_list>232021008</qds:standard_code_list>
+<qds:standard_code_list>232022001</qds:standard_code_list>
+<qds:standard_code_list>232023006</qds:standard_code_list>
+<qds:standard_code_list>25093002</qds:standard_code_list>
+<qds:standard_code_list>25412000</qds:standard_code_list>
+<qds:standard_code_list>311782002</qds:standard_code_list>
+<qds:standard_code_list>312903003</qds:standard_code_list>
+<qds:standard_code_list>312904009</qds:standard_code_list>
+<qds:standard_code_list>312905005</qds:standard_code_list>
+<qds:standard_code_list>312906006</qds:standard_code_list>
+<qds:standard_code_list>312907002</qds:standard_code_list>
+<qds:standard_code_list>312908007</qds:standard_code_list>
+<qds:standard_code_list>312909004</qds:standard_code_list>
+<qds:standard_code_list>312912001</qds:standard_code_list>
+<qds:standard_code_list>314010006</qds:standard_code_list>
+<qds:standard_code_list>314011005</qds:standard_code_list>
+<qds:standard_code_list>314014002</qds:standard_code_list>
+<qds:standard_code_list>314015001</qds:standard_code_list>
+<qds:standard_code_list>390834004</qds:standard_code_list>
+<qds:standard_code_list>399625000</qds:standard_code_list>
+<qds:standard_code_list>399862001</qds:standard_code_list>
+<qds:standard_code_list>399863006</qds:standard_code_list>
+<qds:standard_code_list>399864000</qds:standard_code_list>
+<qds:standard_code_list>399865004</qds:standard_code_list>
+<qds:standard_code_list>399866003</qds:standard_code_list>
+<qds:standard_code_list>399868002</qds:standard_code_list>
+<qds:standard_code_list>399869005</qds:standard_code_list>
+<qds:standard_code_list>399870006</qds:standard_code_list>
+<qds:standard_code_list>399871005</qds:standard_code_list>
+<qds:standard_code_list>399872003</qds:standard_code_list>
+<qds:standard_code_list>399873008</qds:standard_code_list>
+<qds:standard_code_list>399874002</qds:standard_code_list>
+<qds:standard_code_list>399875001</qds:standard_code_list>
+<qds:standard_code_list>399876000</qds:standard_code_list>
+<qds:standard_code_list>399877009</qds:standard_code_list>
+<qds:standard_code_list>408409007</qds:standard_code_list>
+<qds:standard_code_list>408410002</qds:standard_code_list>
+<qds:standard_code_list>408411003</qds:standard_code_list>
+<qds:standard_code_list>408412005</qds:standard_code_list>
+<qds:standard_code_list>408413000</qds:standard_code_list>
+<qds:standard_code_list>408414006</qds:standard_code_list>
+<qds:standard_code_list>408415007</qds:standard_code_list>
+<qds:standard_code_list>408416008</qds:standard_code_list>
+<qds:standard_code_list>414892004</qds:standard_code_list>
+<qds:standard_code_list>414894003</qds:standard_code_list>
+<qds:standard_code_list>414908005</qds:standard_code_list>
+<qds:standard_code_list>414910007</qds:standard_code_list>
+<qds:standard_code_list>417677008</qds:standard_code_list>
+<qds:standard_code_list>420486006</qds:standard_code_list>
+<qds:standard_code_list>420789003</qds:standard_code_list>
+<qds:standard_code_list>421779007</qds:standard_code_list>
+<qds:standard_code_list>422034002</qds:standard_code_list>
+<qds:standard_code_list>4855003</qds:standard_code_list>
+<qds:standard_code_list>59276001</qds:standard_code_list>
+<qds:standard_code_list>62585004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7017">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_7017</qds:QDS_id>
+<qds:standard_concept>Diabetic Retinopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c546</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>362.01</qds:standard_code_list>
+<qds:standard_code_list>362.02</qds:standard_code_list>
+<qds:standard_code_list>362.03</qds:standard_code_list>
+<qds:standard_code_list>362.04</qds:standard_code_list>
+<qds:standard_code_list>362.05</qds:standard_code_list>
+<qds:standard_code_list>362.06</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_710">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_710</qds:QDS_id>
+<qds:standard_concept>Diabetic Retinopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c306</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c545</qds:standard_code_list>
+<qds:standard_code_list>N_c546</qds:standard_code_list>
+<qds:standard_code_list>N_c547</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1769">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1769</qds:QDS_id>
+<qds:standard_concept>Encounter acute inpatient or ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c536</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c26</qds:standard_code_list>
+<qds:standard_code_list>N_c60</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_625">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_625</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_627">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_627</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_629">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_629</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+<qds:standard_code_list>99315</qds:standard_code_list>
+<qds:standard_code_list>99316</qds:standard_code_list>
+<qds:standard_code_list>99318</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1770">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1770</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient, outpatient, or ophthalmology</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c537</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c155</qds:standard_code_list>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+<qds:standard_code_list>N_c28</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_631">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_631</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_632">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_632</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_634">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_634</qds:QDS_id>
+<qds:standard_concept>encounter outpatient - opthamological services</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c155</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>92002</qds:standard_code_list>
+<qds:standard_code_list>92003</qds:standard_code_list>
+<qds:standard_code_list>92004</qds:standard_code_list>
+<qds:standard_code_list>92005</qds:standard_code_list>
+<qds:standard_code_list>92006</qds:standard_code_list>
+<qds:standard_code_list>92007</qds:standard_code_list>
+<qds:standard_code_list>92008</qds:standard_code_list>
+<qds:standard_code_list>92009</qds:standard_code_list>
+<qds:standard_code_list>92010</qds:standard_code_list>
+<qds:standard_code_list>92011</qds:standard_code_list>
+<qds:standard_code_list>92012</qds:standard_code_list>
+<qds:standard_code_list>92013</qds:standard_code_list>
+<qds:standard_code_list>92014</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1165">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1165</qds:QDS_id>
+<qds:standard_concept>eye exam</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c393</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>67028</qds:standard_code_list>
+<qds:standard_code_list>67030</qds:standard_code_list>
+<qds:standard_code_list>67031</qds:standard_code_list>
+<qds:standard_code_list>67036</qds:standard_code_list>
+<qds:standard_code_list>67038</qds:standard_code_list>
+<qds:standard_code_list>67039</qds:standard_code_list>
+<qds:standard_code_list>67040</qds:standard_code_list>
+<qds:standard_code_list>67041</qds:standard_code_list>
+<qds:standard_code_list>67042</qds:standard_code_list>
+<qds:standard_code_list>67043</qds:standard_code_list>
+<qds:standard_code_list>67101</qds:standard_code_list>
+<qds:standard_code_list>67105</qds:standard_code_list>
+<qds:standard_code_list>67107</qds:standard_code_list>
+<qds:standard_code_list>67108</qds:standard_code_list>
+<qds:standard_code_list>67110</qds:standard_code_list>
+<qds:standard_code_list>67112</qds:standard_code_list>
+<qds:standard_code_list>67113</qds:standard_code_list>
+<qds:standard_code_list>67121</qds:standard_code_list>
+<qds:standard_code_list>67141</qds:standard_code_list>
+<qds:standard_code_list>67145</qds:standard_code_list>
+<qds:standard_code_list>67208</qds:standard_code_list>
+<qds:standard_code_list>67210</qds:standard_code_list>
+<qds:standard_code_list>67218</qds:standard_code_list>
+<qds:standard_code_list>67220</qds:standard_code_list>
+<qds:standard_code_list>67221</qds:standard_code_list>
+<qds:standard_code_list>67227</qds:standard_code_list>
+<qds:standard_code_list>67228</qds:standard_code_list>
+<qds:standard_code_list>92002</qds:standard_code_list>
+<qds:standard_code_list>92004</qds:standard_code_list>
+<qds:standard_code_list>92012</qds:standard_code_list>
+<qds:standard_code_list>92014</qds:standard_code_list>
+<qds:standard_code_list>92018</qds:standard_code_list>
+<qds:standard_code_list>92019</qds:standard_code_list>
+<qds:standard_code_list>92225</qds:standard_code_list>
+<qds:standard_code_list>92226</qds:standard_code_list>
+<qds:standard_code_list>92230</qds:standard_code_list>
+<qds:standard_code_list>92235</qds:standard_code_list>
+<qds:standard_code_list>92240</qds:standard_code_list>
+<qds:standard_code_list>92250</qds:standard_code_list>
+<qds:standard_code_list>92260</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1456">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1456</qds:QDS_id>
+<qds:standard_concept>eye exam</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c477</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c307</qds:standard_code_list>
+<qds:standard_code_list>N_c308</qds:standard_code_list>
+<qds:standard_code_list>N_c309</qds:standard_code_list>
+<qds:standard_code_list>N_c393</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_711">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_711</qds:QDS_id>
+<qds:standard_concept>eye exam</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c307</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>S0620</qds:standard_code_list>
+<qds:standard_code_list>S0621</qds:standard_code_list>
+<qds:standard_code_list>S0625</qds:standard_code_list>
+<qds:standard_code_list>S3000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_713">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_713</qds:QDS_id>
+<qds:standard_concept>eye exam</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c309</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14.1</qds:standard_code_list>
+<qds:standard_code_list>14.2</qds:standard_code_list>
+<qds:standard_code_list>14.3</qds:standard_code_list>
+<qds:standard_code_list>14.4</qds:standard_code_list>
+<qds:standard_code_list>14.5</qds:standard_code_list>
+<qds:standard_code_list>14.9</qds:standard_code_list>
+<qds:standard_code_list>95.02-95.04</qds:standard_code_list>
+<qds:standard_code_list>95.11</qds:standard_code_list>
+<qds:standard_code_list>95.12</qds:standard_code_list>
+<qds:standard_code_list>95.16</qds:standard_code_list>
+<qds:standard_code_list>V72.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_714">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_714</qds:QDS_id>
+<qds:standard_concept>eye exam</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c308</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>134395001</qds:standard_code_list>
+<qds:standard_code_list>390735007</qds:standard_code_list>
+<qds:standard_code_list>390847009</qds:standard_code_list>
+<qds:standard_code_list>390855002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1458">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1458</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c470</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c66</qds:standard_code_list>
+<qds:standard_code_list>N_c67</qds:standard_code_list>
+<qds:standard_code_list>N_c70</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_641">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_641</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c67</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R73.02</qds:standard_code_list>
+<qds:standard_code_list>R73.09</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_642">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_642</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c66</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>648.8</qds:standard_code_list>
+<qds:standard_code_list>648.80</qds:standard_code_list>
+<qds:standard_code_list>648.81</qds:standard_code_list>
+<qds:standard_code_list>648.82</qds:standard_code_list>
+<qds:standard_code_list>648.83</qds:standard_code_list>
+<qds:standard_code_list>648.84</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_643">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_643</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c70</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11687002</qds:standard_code_list>
+<qds:standard_code_list>420491007</qds:standard_code_list>
+<qds:standard_code_list>420738003</qds:standard_code_list>
+<qds:standard_code_list>420989005</qds:standard_code_list>
+<qds:standard_code_list>421223006</qds:standard_code_list>
+<qds:standard_code_list>421389009</qds:standard_code_list>
+<qds:standard_code_list>421443003</qds:standard_code_list>
+<qds:standard_code_list>422155003</qds:standard_code_list>
+<qds:standard_code_list>46894009</qds:standard_code_list>
+<qds:standard_code_list>71546005</qds:standard_code_list>
+<qds:standard_code_list>75022004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_613">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_613</qds:QDS_id>
+<qds:standard_concept>Insulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c52</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>205314</qds:standard_code_list>
+<qds:standard_code_list>237527</qds:standard_code_list>
+<qds:standard_code_list>242120</qds:standard_code_list>
+<qds:standard_code_list>242916</qds:standard_code_list>
+<qds:standard_code_list>242917</qds:standard_code_list>
+<qds:standard_code_list>259111</qds:standard_code_list>
+<qds:standard_code_list>260265</qds:standard_code_list>
+<qds:standard_code_list>283394</qds:standard_code_list>
+<qds:standard_code_list>311040</qds:standard_code_list>
+<qds:standard_code_list>311041</qds:standard_code_list>
+<qds:standard_code_list>311053</qds:standard_code_list>
+<qds:standard_code_list>311054</qds:standard_code_list>
+<qds:standard_code_list>311055</qds:standard_code_list>
+<qds:standard_code_list>311056</qds:standard_code_list>
+<qds:standard_code_list>311057</qds:standard_code_list>
+<qds:standard_code_list>311058</qds:standard_code_list>
+<qds:standard_code_list>311059</qds:standard_code_list>
+<qds:standard_code_list>311060</qds:standard_code_list>
+<qds:standard_code_list>311061</qds:standard_code_list>
+<qds:standard_code_list>314038</qds:standard_code_list>
+<qds:standard_code_list>317800</qds:standard_code_list>
+<qds:standard_code_list>351297</qds:standard_code_list>
+<qds:standard_code_list>358349</qds:standard_code_list>
+<qds:standard_code_list>484322</qds:standard_code_list>
+<qds:standard_code_list>485210</qds:standard_code_list>
+<qds:standard_code_list>544614</qds:standard_code_list>
+<qds:standard_code_list>763002</qds:standard_code_list>
+<qds:standard_code_list>763007</qds:standard_code_list>
+<qds:standard_code_list>763013</qds:standard_code_list>
+<qds:standard_code_list>763014</qds:standard_code_list>
+<qds:standard_code_list>833159</qds:standard_code_list>
+<qds:standard_code_list>847191</qds:standard_code_list>
+<qds:standard_code_list>847207</qds:standard_code_list>
+<qds:standard_code_list>847211</qds:standard_code_list>
+<qds:standard_code_list>847230</qds:standard_code_list>
+<qds:standard_code_list>847239</qds:standard_code_list>
+<qds:standard_code_list>847252</qds:standard_code_list>
+<qds:standard_code_list>847259</qds:standard_code_list>
+<qds:standard_code_list>847263</qds:standard_code_list>
+<qds:standard_code_list>847416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_614">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_614</qds:QDS_id>
+<qds:standard_concept>Insulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c52</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>205314</qds:standard_code_list>
+<qds:standard_code_list>237527</qds:standard_code_list>
+<qds:standard_code_list>242120</qds:standard_code_list>
+<qds:standard_code_list>242916</qds:standard_code_list>
+<qds:standard_code_list>242917</qds:standard_code_list>
+<qds:standard_code_list>259111</qds:standard_code_list>
+<qds:standard_code_list>260265</qds:standard_code_list>
+<qds:standard_code_list>283394</qds:standard_code_list>
+<qds:standard_code_list>311040</qds:standard_code_list>
+<qds:standard_code_list>311041</qds:standard_code_list>
+<qds:standard_code_list>311053</qds:standard_code_list>
+<qds:standard_code_list>311054</qds:standard_code_list>
+<qds:standard_code_list>311055</qds:standard_code_list>
+<qds:standard_code_list>311056</qds:standard_code_list>
+<qds:standard_code_list>311057</qds:standard_code_list>
+<qds:standard_code_list>311058</qds:standard_code_list>
+<qds:standard_code_list>311059</qds:standard_code_list>
+<qds:standard_code_list>311060</qds:standard_code_list>
+<qds:standard_code_list>311061</qds:standard_code_list>
+<qds:standard_code_list>314038</qds:standard_code_list>
+<qds:standard_code_list>317800</qds:standard_code_list>
+<qds:standard_code_list>351297</qds:standard_code_list>
+<qds:standard_code_list>358349</qds:standard_code_list>
+<qds:standard_code_list>484322</qds:standard_code_list>
+<qds:standard_code_list>485210</qds:standard_code_list>
+<qds:standard_code_list>544614</qds:standard_code_list>
+<qds:standard_code_list>763002</qds:standard_code_list>
+<qds:standard_code_list>763007</qds:standard_code_list>
+<qds:standard_code_list>763013</qds:standard_code_list>
+<qds:standard_code_list>763014</qds:standard_code_list>
+<qds:standard_code_list>833159</qds:standard_code_list>
+<qds:standard_code_list>847191</qds:standard_code_list>
+<qds:standard_code_list>847207</qds:standard_code_list>
+<qds:standard_code_list>847211</qds:standard_code_list>
+<qds:standard_code_list>847230</qds:standard_code_list>
+<qds:standard_code_list>847239</qds:standard_code_list>
+<qds:standard_code_list>847252</qds:standard_code_list>
+<qds:standard_code_list>847259</qds:standard_code_list>
+<qds:standard_code_list>847263</qds:standard_code_list>
+<qds:standard_code_list>847416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_603">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_603</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1166">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1166</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1771">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1771</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c305</qds:standard_code_list>
+<qds:standard_code_list>N_c438</qds:standard_code_list>
+<qds:standard_code_list>N_c50</qds:standard_code_list>
+<qds:standard_code_list>N_c51</qds:standard_code_list>
+<qds:standard_code_list>N_c52</qds:standard_code_list>
+<qds:standard_code_list>N_c53</qds:standard_code_list>
+<qds:standard_code_list>N_c54</qds:standard_code_list>
+<qds:standard_code_list>N_c55</qds:standard_code_list>
+<qds:standard_code_list>N_c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1772">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1772</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c305</qds:standard_code_list>
+<qds:standard_code_list>N_c438</qds:standard_code_list>
+<qds:standard_code_list>N_c50</qds:standard_code_list>
+<qds:standard_code_list>N_c51</qds:standard_code_list>
+<qds:standard_code_list>N_c52</qds:standard_code_list>
+<qds:standard_code_list>N_c53</qds:standard_code_list>
+<qds:standard_code_list>N_c54</qds:standard_code_list>
+<qds:standard_code_list>N_c55</qds:standard_code_list>
+<qds:standard_code_list>N_c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2171">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2171</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c305</qds:standard_code_list>
+<qds:standard_code_list>N_c438</qds:standard_code_list>
+<qds:standard_code_list>N_c50</qds:standard_code_list>
+<qds:standard_code_list>N_c51</qds:standard_code_list>
+<qds:standard_code_list>N_c52</qds:standard_code_list>
+<qds:standard_code_list>N_c53</qds:standard_code_list>
+<qds:standard_code_list>N_c54</qds:standard_code_list>
+<qds:standard_code_list>N_c55</qds:standard_code_list>
+<qds:standard_code_list>N_c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2172">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2172</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_615">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_615</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_616">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_616</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1459">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1459</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c472</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c62</qds:standard_code_list>
+<qds:standard_code_list>N_c63</qds:standard_code_list>
+<qds:standard_code_list>N_c69</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_638">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_638</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c63</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E28.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_639">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_639</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c62</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>256.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_640">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_640</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c69</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>69878008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1460">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_1460</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c473</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c64</qds:standard_code_list>
+<qds:standard_code_list>N_c65</qds:standard_code_list>
+<qds:standard_code_list>N_c68</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_635">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_635</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c65</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E08</qds:standard_code_list>
+<qds:standard_code_list>E10</qds:standard_code_list>
+<qds:standard_code_list>T38</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_636">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_636</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c64</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>249</qds:standard_code_list>
+<qds:standard_code_list>249.0</qds:standard_code_list>
+<qds:standard_code_list>249.00</qds:standard_code_list>
+<qds:standard_code_list>249.01</qds:standard_code_list>
+<qds:standard_code_list>249.1</qds:standard_code_list>
+<qds:standard_code_list>249.10</qds:standard_code_list>
+<qds:standard_code_list>249.11</qds:standard_code_list>
+<qds:standard_code_list>249.2</qds:standard_code_list>
+<qds:standard_code_list>249.20</qds:standard_code_list>
+<qds:standard_code_list>249.21</qds:standard_code_list>
+<qds:standard_code_list>249.3</qds:standard_code_list>
+<qds:standard_code_list>249.30</qds:standard_code_list>
+<qds:standard_code_list>249.31</qds:standard_code_list>
+<qds:standard_code_list>249.4</qds:standard_code_list>
+<qds:standard_code_list>249.40</qds:standard_code_list>
+<qds:standard_code_list>249.41</qds:standard_code_list>
+<qds:standard_code_list>249.5</qds:standard_code_list>
+<qds:standard_code_list>249.50</qds:standard_code_list>
+<qds:standard_code_list>249.51</qds:standard_code_list>
+<qds:standard_code_list>249.6</qds:standard_code_list>
+<qds:standard_code_list>249.60</qds:standard_code_list>
+<qds:standard_code_list>249.61</qds:standard_code_list>
+<qds:standard_code_list>249.7</qds:standard_code_list>
+<qds:standard_code_list>249.70</qds:standard_code_list>
+<qds:standard_code_list>249.71</qds:standard_code_list>
+<qds:standard_code_list>249.8</qds:standard_code_list>
+<qds:standard_code_list>249.80</qds:standard_code_list>
+<qds:standard_code_list>249.81</qds:standard_code_list>
+<qds:standard_code_list>249.9</qds:standard_code_list>
+<qds:standard_code_list>249.90</qds:standard_code_list>
+<qds:standard_code_list>249.91</qds:standard_code_list>
+<qds:standard_code_list>251.8</qds:standard_code_list>
+<qds:standard_code_list>962.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_637">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_637</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c68</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>190416008</qds:standard_code_list>
+<qds:standard_code_list>190447002</qds:standard_code_list>
+<qds:standard_code_list>53126001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2173">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2173</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_618">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_618</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_619">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_619</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2174">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_2174</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_620">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_620</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_621">
+<qds:NQF_id>0055</qds:NQF_id>
+<qds:measure_name>Diabetes: Eye Exam</qds:measure_name>
+<qds:QDS_id>N_621</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

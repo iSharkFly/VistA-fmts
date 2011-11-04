@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_42">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_42</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_43">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_43</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_36">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_36</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c18</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>44388</qds:standard_code_list>
+<qds:standard_code_list>44389</qds:standard_code_list>
+<qds:standard_code_list>44390</qds:standard_code_list>
+<qds:standard_code_list>44391</qds:standard_code_list>
+<qds:standard_code_list>44392</qds:standard_code_list>
+<qds:standard_code_list>44393</qds:standard_code_list>
+<qds:standard_code_list>44394</qds:standard_code_list>
+<qds:standard_code_list>44397</qds:standard_code_list>
+<qds:standard_code_list>45355</qds:standard_code_list>
+<qds:standard_code_list>45378</qds:standard_code_list>
+<qds:standard_code_list>45379</qds:standard_code_list>
+<qds:standard_code_list>45380</qds:standard_code_list>
+<qds:standard_code_list>45381</qds:standard_code_list>
+<qds:standard_code_list>45382</qds:standard_code_list>
+<qds:standard_code_list>45383</qds:standard_code_list>
+<qds:standard_code_list>45384</qds:standard_code_list>
+<qds:standard_code_list>45385</qds:standard_code_list>
+<qds:standard_code_list>45386</qds:standard_code_list>
+<qds:standard_code_list>45387</qds:standard_code_list>
+<qds:standard_code_list>45391</qds:standard_code_list>
+<qds:standard_code_list>45392</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1477">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1477</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c481</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c18</qds:standard_code_list>
+<qds:standard_code_list>N_c32</qds:standard_code_list>
+<qds:standard_code_list>N_c33</qds:standard_code_list>
+<qds:standard_code_list>N_c39</qds:standard_code_list>
+<qds:standard_code_list>N_c44</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_60">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_60</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c32</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0105</qds:standard_code_list>
+<qds:standard_code_list>G0121</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_76">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_76</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c44</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z12.11</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_61">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_61</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c33</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>45.22</qds:standard_code_list>
+<qds:standard_code_list>45.23</qds:standard_code_list>
+<qds:standard_code_list>45.25</qds:standard_code_list>
+<qds:standard_code_list>45.42</qds:standard_code_list>
+<qds:standard_code_list>45.43</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_62">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_62</qds:QDS_id>
+<qds:standard_concept>colonoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c39</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>174067002</qds:standard_code_list>
+<qds:standard_code_list>456004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1478">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1478</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c482</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c20</qds:standard_code_list>
+<qds:standard_code_list>N_c34</qds:standard_code_list>
+<qds:standard_code_list>N_c43</qds:standard_code_list>
+<qds:standard_code_list>N_c520</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1479">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1479</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c482</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c20</qds:standard_code_list>
+<qds:standard_code_list>N_c34</qds:standard_code_list>
+<qds:standard_code_list>N_c43</qds:standard_code_list>
+<qds:standard_code_list>N_c520</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1480">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1480</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c482</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c20</qds:standard_code_list>
+<qds:standard_code_list>N_c34</qds:standard_code_list>
+<qds:standard_code_list>N_c43</qds:standard_code_list>
+<qds:standard_code_list>N_c520</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1114">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1114</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c34</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0213</qds:standard_code_list>
+<qds:standard_code_list>G0214</qds:standard_code_list>
+<qds:standard_code_list>G0215</qds:standard_code_list>
+<qds:standard_code_list>G0231</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1361">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1361</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c34</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0213</qds:standard_code_list>
+<qds:standard_code_list>G0214</qds:standard_code_list>
+<qds:standard_code_list>G0215</qds:standard_code_list>
+<qds:standard_code_list>G0231</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_72">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_72</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c34</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0213</qds:standard_code_list>
+<qds:standard_code_list>G0214</qds:standard_code_list>
+<qds:standard_code_list>G0215</qds:standard_code_list>
+<qds:standard_code_list>G0231</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1115">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1115</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c43</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C18</qds:standard_code_list>
+<qds:standard_code_list>C18.0</qds:standard_code_list>
+<qds:standard_code_list>C18.1</qds:standard_code_list>
+<qds:standard_code_list>C18.2</qds:standard_code_list>
+<qds:standard_code_list>C18.3</qds:standard_code_list>
+<qds:standard_code_list>C18.4</qds:standard_code_list>
+<qds:standard_code_list>C18.5</qds:standard_code_list>
+<qds:standard_code_list>C18.6</qds:standard_code_list>
+<qds:standard_code_list>C18.7</qds:standard_code_list>
+<qds:standard_code_list>C18.8</qds:standard_code_list>
+<qds:standard_code_list>C18.9</qds:standard_code_list>
+<qds:standard_code_list>C19</qds:standard_code_list>
+<qds:standard_code_list>C20</qds:standard_code_list>
+<qds:standard_code_list>C21</qds:standard_code_list>
+<qds:standard_code_list>C21.0</qds:standard_code_list>
+<qds:standard_code_list>C21.1</qds:standard_code_list>
+<qds:standard_code_list>C21.2</qds:standard_code_list>
+<qds:standard_code_list>C21.8</qds:standard_code_list>
+<qds:standard_code_list>D12</qds:standard_code_list>
+<qds:standard_code_list>D12.0</qds:standard_code_list>
+<qds:standard_code_list>D12.1</qds:standard_code_list>
+<qds:standard_code_list>D12.2</qds:standard_code_list>
+<qds:standard_code_list>D12.3</qds:standard_code_list>
+<qds:standard_code_list>D12.4</qds:standard_code_list>
+<qds:standard_code_list>D12.5</qds:standard_code_list>
+<qds:standard_code_list>D12.6</qds:standard_code_list>
+<qds:standard_code_list>D12.7</qds:standard_code_list>
+<qds:standard_code_list>D12.8</qds:standard_code_list>
+<qds:standard_code_list>D12.9</qds:standard_code_list>
+<qds:standard_code_list>D50</qds:standard_code_list>
+<qds:standard_code_list>D50.0</qds:standard_code_list>
+<qds:standard_code_list>K50.1</qds:standard_code_list>
+<qds:standard_code_list>K50.111</qds:standard_code_list>
+<qds:standard_code_list>K50.112</qds:standard_code_list>
+<qds:standard_code_list>K50.8</qds:standard_code_list>
+<qds:standard_code_list>K50.80</qds:standard_code_list>
+<qds:standard_code_list>K50.81</qds:standard_code_list>
+<qds:standard_code_list>K50.811</qds:standard_code_list>
+<qds:standard_code_list>K50.812</qds:standard_code_list>
+<qds:standard_code_list>K50.813</qds:standard_code_list>
+<qds:standard_code_list>K50.814</qds:standard_code_list>
+<qds:standard_code_list>K50.818</qds:standard_code_list>
+<qds:standard_code_list>K50.819</qds:standard_code_list>
+<qds:standard_code_list>K51</qds:standard_code_list>
+<qds:standard_code_list>K51.5</qds:standard_code_list>
+<qds:standard_code_list>K51.8</qds:standard_code_list>
+<qds:standard_code_list>K51.9</qds:standard_code_list>
+<qds:standard_code_list>K52</qds:standard_code_list>
+<qds:standard_code_list>K52.1</qds:standard_code_list>
+<qds:standard_code_list>K52.2</qds:standard_code_list>
+<qds:standard_code_list>K52.8</qds:standard_code_list>
+<qds:standard_code_list>K55</qds:standard_code_list>
+<qds:standard_code_list>K55.0</qds:standard_code_list>
+<qds:standard_code_list>K55.1</qds:standard_code_list>
+<qds:standard_code_list>K55.8</qds:standard_code_list>
+<qds:standard_code_list>K57.30</qds:standard_code_list>
+<qds:standard_code_list>K57.33</qds:standard_code_list>
+<qds:standard_code_list>K59</qds:standard_code_list>
+<qds:standard_code_list>K59.01</qds:standard_code_list>
+<qds:standard_code_list>K59.02</qds:standard_code_list>
+<qds:standard_code_list>K59.09</qds:standard_code_list>
+<qds:standard_code_list>K62.0</qds:standard_code_list>
+<qds:standard_code_list>K62.1</qds:standard_code_list>
+<qds:standard_code_list>K62.5</qds:standard_code_list>
+<qds:standard_code_list>R19.5</qds:standard_code_list>
+<qds:standard_code_list>Z12.11</qds:standard_code_list>
+<qds:standard_code_list>Z12.12</qds:standard_code_list>
+<qds:standard_code_list>Z12.13</qds:standard_code_list>
+<qds:standard_code_list>Z15</qds:standard_code_list>
+<qds:standard_code_list>Z83.71</qds:standard_code_list>
+<qds:standard_code_list>Z85.03</qds:standard_code_list>
+<qds:standard_code_list>Z85.04</qds:standard_code_list>
+<qds:standard_code_list>Z86.010</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1360">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1360</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c43</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C18</qds:standard_code_list>
+<qds:standard_code_list>C18.0</qds:standard_code_list>
+<qds:standard_code_list>C18.1</qds:standard_code_list>
+<qds:standard_code_list>C18.2</qds:standard_code_list>
+<qds:standard_code_list>C18.3</qds:standard_code_list>
+<qds:standard_code_list>C18.4</qds:standard_code_list>
+<qds:standard_code_list>C18.5</qds:standard_code_list>
+<qds:standard_code_list>C18.6</qds:standard_code_list>
+<qds:standard_code_list>C18.7</qds:standard_code_list>
+<qds:standard_code_list>C18.8</qds:standard_code_list>
+<qds:standard_code_list>C18.9</qds:standard_code_list>
+<qds:standard_code_list>C19</qds:standard_code_list>
+<qds:standard_code_list>C20</qds:standard_code_list>
+<qds:standard_code_list>C21</qds:standard_code_list>
+<qds:standard_code_list>C21.0</qds:standard_code_list>
+<qds:standard_code_list>C21.1</qds:standard_code_list>
+<qds:standard_code_list>C21.2</qds:standard_code_list>
+<qds:standard_code_list>C21.8</qds:standard_code_list>
+<qds:standard_code_list>D12</qds:standard_code_list>
+<qds:standard_code_list>D12.0</qds:standard_code_list>
+<qds:standard_code_list>D12.1</qds:standard_code_list>
+<qds:standard_code_list>D12.2</qds:standard_code_list>
+<qds:standard_code_list>D12.3</qds:standard_code_list>
+<qds:standard_code_list>D12.4</qds:standard_code_list>
+<qds:standard_code_list>D12.5</qds:standard_code_list>
+<qds:standard_code_list>D12.6</qds:standard_code_list>
+<qds:standard_code_list>D12.7</qds:standard_code_list>
+<qds:standard_code_list>D12.8</qds:standard_code_list>
+<qds:standard_code_list>D12.9</qds:standard_code_list>
+<qds:standard_code_list>D50</qds:standard_code_list>
+<qds:standard_code_list>D50.0</qds:standard_code_list>
+<qds:standard_code_list>K50.1</qds:standard_code_list>
+<qds:standard_code_list>K50.111</qds:standard_code_list>
+<qds:standard_code_list>K50.112</qds:standard_code_list>
+<qds:standard_code_list>K50.8</qds:standard_code_list>
+<qds:standard_code_list>K50.80</qds:standard_code_list>
+<qds:standard_code_list>K50.81</qds:standard_code_list>
+<qds:standard_code_list>K50.811</qds:standard_code_list>
+<qds:standard_code_list>K50.812</qds:standard_code_list>
+<qds:standard_code_list>K50.813</qds:standard_code_list>
+<qds:standard_code_list>K50.814</qds:standard_code_list>
+<qds:standard_code_list>K50.818</qds:standard_code_list>
+<qds:standard_code_list>K50.819</qds:standard_code_list>
+<qds:standard_code_list>K51</qds:standard_code_list>
+<qds:standard_code_list>K51.5</qds:standard_code_list>
+<qds:standard_code_list>K51.8</qds:standard_code_list>
+<qds:standard_code_list>K51.9</qds:standard_code_list>
+<qds:standard_code_list>K52</qds:standard_code_list>
+<qds:standard_code_list>K52.1</qds:standard_code_list>
+<qds:standard_code_list>K52.2</qds:standard_code_list>
+<qds:standard_code_list>K52.8</qds:standard_code_list>
+<qds:standard_code_list>K55</qds:standard_code_list>
+<qds:standard_code_list>K55.0</qds:standard_code_list>
+<qds:standard_code_list>K55.1</qds:standard_code_list>
+<qds:standard_code_list>K55.8</qds:standard_code_list>
+<qds:standard_code_list>K57.30</qds:standard_code_list>
+<qds:standard_code_list>K57.33</qds:standard_code_list>
+<qds:standard_code_list>K59</qds:standard_code_list>
+<qds:standard_code_list>K59.01</qds:standard_code_list>
+<qds:standard_code_list>K59.02</qds:standard_code_list>
+<qds:standard_code_list>K59.09</qds:standard_code_list>
+<qds:standard_code_list>K62.0</qds:standard_code_list>
+<qds:standard_code_list>K62.1</qds:standard_code_list>
+<qds:standard_code_list>K62.5</qds:standard_code_list>
+<qds:standard_code_list>R19.5</qds:standard_code_list>
+<qds:standard_code_list>Z12.11</qds:standard_code_list>
+<qds:standard_code_list>Z12.12</qds:standard_code_list>
+<qds:standard_code_list>Z12.13</qds:standard_code_list>
+<qds:standard_code_list>Z15</qds:standard_code_list>
+<qds:standard_code_list>Z83.71</qds:standard_code_list>
+<qds:standard_code_list>Z85.03</qds:standard_code_list>
+<qds:standard_code_list>Z85.04</qds:standard_code_list>
+<qds:standard_code_list>Z86.010</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_75">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_75</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c43</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C18</qds:standard_code_list>
+<qds:standard_code_list>C18.0</qds:standard_code_list>
+<qds:standard_code_list>C18.1</qds:standard_code_list>
+<qds:standard_code_list>C18.2</qds:standard_code_list>
+<qds:standard_code_list>C18.3</qds:standard_code_list>
+<qds:standard_code_list>C18.4</qds:standard_code_list>
+<qds:standard_code_list>C18.5</qds:standard_code_list>
+<qds:standard_code_list>C18.6</qds:standard_code_list>
+<qds:standard_code_list>C18.7</qds:standard_code_list>
+<qds:standard_code_list>C18.8</qds:standard_code_list>
+<qds:standard_code_list>C18.9</qds:standard_code_list>
+<qds:standard_code_list>C19</qds:standard_code_list>
+<qds:standard_code_list>C20</qds:standard_code_list>
+<qds:standard_code_list>C21</qds:standard_code_list>
+<qds:standard_code_list>C21.0</qds:standard_code_list>
+<qds:standard_code_list>C21.1</qds:standard_code_list>
+<qds:standard_code_list>C21.2</qds:standard_code_list>
+<qds:standard_code_list>C21.8</qds:standard_code_list>
+<qds:standard_code_list>D12</qds:standard_code_list>
+<qds:standard_code_list>D12.0</qds:standard_code_list>
+<qds:standard_code_list>D12.1</qds:standard_code_list>
+<qds:standard_code_list>D12.2</qds:standard_code_list>
+<qds:standard_code_list>D12.3</qds:standard_code_list>
+<qds:standard_code_list>D12.4</qds:standard_code_list>
+<qds:standard_code_list>D12.5</qds:standard_code_list>
+<qds:standard_code_list>D12.6</qds:standard_code_list>
+<qds:standard_code_list>D12.7</qds:standard_code_list>
+<qds:standard_code_list>D12.8</qds:standard_code_list>
+<qds:standard_code_list>D12.9</qds:standard_code_list>
+<qds:standard_code_list>D50</qds:standard_code_list>
+<qds:standard_code_list>D50.0</qds:standard_code_list>
+<qds:standard_code_list>K50.1</qds:standard_code_list>
+<qds:standard_code_list>K50.111</qds:standard_code_list>
+<qds:standard_code_list>K50.112</qds:standard_code_list>
+<qds:standard_code_list>K50.8</qds:standard_code_list>
+<qds:standard_code_list>K50.80</qds:standard_code_list>
+<qds:standard_code_list>K50.81</qds:standard_code_list>
+<qds:standard_code_list>K50.811</qds:standard_code_list>
+<qds:standard_code_list>K50.812</qds:standard_code_list>
+<qds:standard_code_list>K50.813</qds:standard_code_list>
+<qds:standard_code_list>K50.814</qds:standard_code_list>
+<qds:standard_code_list>K50.818</qds:standard_code_list>
+<qds:standard_code_list>K50.819</qds:standard_code_list>
+<qds:standard_code_list>K51</qds:standard_code_list>
+<qds:standard_code_list>K51.5</qds:standard_code_list>
+<qds:standard_code_list>K51.8</qds:standard_code_list>
+<qds:standard_code_list>K51.9</qds:standard_code_list>
+<qds:standard_code_list>K52</qds:standard_code_list>
+<qds:standard_code_list>K52.1</qds:standard_code_list>
+<qds:standard_code_list>K52.2</qds:standard_code_list>
+<qds:standard_code_list>K52.8</qds:standard_code_list>
+<qds:standard_code_list>K55</qds:standard_code_list>
+<qds:standard_code_list>K55.0</qds:standard_code_list>
+<qds:standard_code_list>K55.1</qds:standard_code_list>
+<qds:standard_code_list>K55.8</qds:standard_code_list>
+<qds:standard_code_list>K57.30</qds:standard_code_list>
+<qds:standard_code_list>K57.33</qds:standard_code_list>
+<qds:standard_code_list>K59</qds:standard_code_list>
+<qds:standard_code_list>K59.01</qds:standard_code_list>
+<qds:standard_code_list>K59.02</qds:standard_code_list>
+<qds:standard_code_list>K59.09</qds:standard_code_list>
+<qds:standard_code_list>K62.0</qds:standard_code_list>
+<qds:standard_code_list>K62.1</qds:standard_code_list>
+<qds:standard_code_list>K62.5</qds:standard_code_list>
+<qds:standard_code_list>R19.5</qds:standard_code_list>
+<qds:standard_code_list>Z12.11</qds:standard_code_list>
+<qds:standard_code_list>Z12.12</qds:standard_code_list>
+<qds:standard_code_list>Z12.13</qds:standard_code_list>
+<qds:standard_code_list>Z15</qds:standard_code_list>
+<qds:standard_code_list>Z83.71</qds:standard_code_list>
+<qds:standard_code_list>Z85.03</qds:standard_code_list>
+<qds:standard_code_list>Z85.04</qds:standard_code_list>
+<qds:standard_code_list>Z86.010</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1667">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1667</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c520</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>153</qds:standard_code_list>
+<qds:standard_code_list>153.0</qds:standard_code_list>
+<qds:standard_code_list>153.1</qds:standard_code_list>
+<qds:standard_code_list>153.2</qds:standard_code_list>
+<qds:standard_code_list>153.3</qds:standard_code_list>
+<qds:standard_code_list>153.4</qds:standard_code_list>
+<qds:standard_code_list>153.5</qds:standard_code_list>
+<qds:standard_code_list>153.6</qds:standard_code_list>
+<qds:standard_code_list>153.7</qds:standard_code_list>
+<qds:standard_code_list>153.8</qds:standard_code_list>
+<qds:standard_code_list>153.9</qds:standard_code_list>
+<qds:standard_code_list>154.0</qds:standard_code_list>
+<qds:standard_code_list>154.1</qds:standard_code_list>
+<qds:standard_code_list>197.5</qds:standard_code_list>
+<qds:standard_code_list>V10.05</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1117">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1117</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c20</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109838007</qds:standard_code_list>
+<qds:standard_code_list>126838000</qds:standard_code_list>
+<qds:standard_code_list>187757001</qds:standard_code_list>
+<qds:standard_code_list>187758006</qds:standard_code_list>
+<qds:standard_code_list>269533000</qds:standard_code_list>
+<qds:standard_code_list>269544008</qds:standard_code_list>
+<qds:standard_code_list>285312008</qds:standard_code_list>
+<qds:standard_code_list>285611007</qds:standard_code_list>
+<qds:standard_code_list>301756000</qds:standard_code_list>
+<qds:standard_code_list>312111009</qds:standard_code_list>
+<qds:standard_code_list>312112002</qds:standard_code_list>
+<qds:standard_code_list>312114001</qds:standard_code_list>
+<qds:standard_code_list>312115000</qds:standard_code_list>
+<qds:standard_code_list>314965007</qds:standard_code_list>
+<qds:standard_code_list>315058005</qds:standard_code_list>
+<qds:standard_code_list>363406005</qds:standard_code_list>
+<qds:standard_code_list>363407001</qds:standard_code_list>
+<qds:standard_code_list>363408006</qds:standard_code_list>
+<qds:standard_code_list>363409003</qds:standard_code_list>
+<qds:standard_code_list>363410008</qds:standard_code_list>
+<qds:standard_code_list>363412000</qds:standard_code_list>
+<qds:standard_code_list>363413005</qds:standard_code_list>
+<qds:standard_code_list>363414004</qds:standard_code_list>
+<qds:standard_code_list>363510005</qds:standard_code_list>
+<qds:standard_code_list>425178004</qds:standard_code_list>
+<qds:standard_code_list>428283002</qds:standard_code_list>
+<qds:standard_code_list>429047008</qds:standard_code_list>
+<qds:standard_code_list>429699009</qds:standard_code_list>
+<qds:standard_code_list>93683002</qds:standard_code_list>
+<qds:standard_code_list>93761005</qds:standard_code_list>
+<qds:standard_code_list>93771007</qds:standard_code_list>
+<qds:standard_code_list>93826009</qds:standard_code_list>
+<qds:standard_code_list>94006002</qds:standard_code_list>
+<qds:standard_code_list>94072004</qds:standard_code_list>
+<qds:standard_code_list>94105000</qds:standard_code_list>
+<qds:standard_code_list>94179005</qds:standard_code_list>
+<qds:standard_code_list>94260004</qds:standard_code_list>
+<qds:standard_code_list>94271003</qds:standard_code_list>
+<qds:standard_code_list>94328005</qds:standard_code_list>
+<qds:standard_code_list>94509004</qds:standard_code_list>
+<qds:standard_code_list>94538001</qds:standard_code_list>
+<qds:standard_code_list>94604000</qds:standard_code_list>
+<qds:standard_code_list>94643001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1359">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1359</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c20</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109838007</qds:standard_code_list>
+<qds:standard_code_list>126838000</qds:standard_code_list>
+<qds:standard_code_list>187757001</qds:standard_code_list>
+<qds:standard_code_list>187758006</qds:standard_code_list>
+<qds:standard_code_list>269533000</qds:standard_code_list>
+<qds:standard_code_list>269544008</qds:standard_code_list>
+<qds:standard_code_list>285312008</qds:standard_code_list>
+<qds:standard_code_list>285611007</qds:standard_code_list>
+<qds:standard_code_list>301756000</qds:standard_code_list>
+<qds:standard_code_list>312111009</qds:standard_code_list>
+<qds:standard_code_list>312112002</qds:standard_code_list>
+<qds:standard_code_list>312114001</qds:standard_code_list>
+<qds:standard_code_list>312115000</qds:standard_code_list>
+<qds:standard_code_list>314965007</qds:standard_code_list>
+<qds:standard_code_list>315058005</qds:standard_code_list>
+<qds:standard_code_list>363406005</qds:standard_code_list>
+<qds:standard_code_list>363407001</qds:standard_code_list>
+<qds:standard_code_list>363408006</qds:standard_code_list>
+<qds:standard_code_list>363409003</qds:standard_code_list>
+<qds:standard_code_list>363410008</qds:standard_code_list>
+<qds:standard_code_list>363412000</qds:standard_code_list>
+<qds:standard_code_list>363413005</qds:standard_code_list>
+<qds:standard_code_list>363414004</qds:standard_code_list>
+<qds:standard_code_list>363510005</qds:standard_code_list>
+<qds:standard_code_list>425178004</qds:standard_code_list>
+<qds:standard_code_list>428283002</qds:standard_code_list>
+<qds:standard_code_list>429047008</qds:standard_code_list>
+<qds:standard_code_list>429699009</qds:standard_code_list>
+<qds:standard_code_list>93683002</qds:standard_code_list>
+<qds:standard_code_list>93761005</qds:standard_code_list>
+<qds:standard_code_list>93771007</qds:standard_code_list>
+<qds:standard_code_list>93826009</qds:standard_code_list>
+<qds:standard_code_list>94006002</qds:standard_code_list>
+<qds:standard_code_list>94072004</qds:standard_code_list>
+<qds:standard_code_list>94105000</qds:standard_code_list>
+<qds:standard_code_list>94179005</qds:standard_code_list>
+<qds:standard_code_list>94260004</qds:standard_code_list>
+<qds:standard_code_list>94271003</qds:standard_code_list>
+<qds:standard_code_list>94328005</qds:standard_code_list>
+<qds:standard_code_list>94509004</qds:standard_code_list>
+<qds:standard_code_list>94538001</qds:standard_code_list>
+<qds:standard_code_list>94604000</qds:standard_code_list>
+<qds:standard_code_list>94643001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_39">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_39</qds:QDS_id>
+<qds:standard_concept>colorectal cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c20</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109838007</qds:standard_code_list>
+<qds:standard_code_list>126838000</qds:standard_code_list>
+<qds:standard_code_list>187757001</qds:standard_code_list>
+<qds:standard_code_list>187758006</qds:standard_code_list>
+<qds:standard_code_list>269533000</qds:standard_code_list>
+<qds:standard_code_list>269544008</qds:standard_code_list>
+<qds:standard_code_list>285312008</qds:standard_code_list>
+<qds:standard_code_list>285611007</qds:standard_code_list>
+<qds:standard_code_list>301756000</qds:standard_code_list>
+<qds:standard_code_list>312111009</qds:standard_code_list>
+<qds:standard_code_list>312112002</qds:standard_code_list>
+<qds:standard_code_list>312114001</qds:standard_code_list>
+<qds:standard_code_list>312115000</qds:standard_code_list>
+<qds:standard_code_list>314965007</qds:standard_code_list>
+<qds:standard_code_list>315058005</qds:standard_code_list>
+<qds:standard_code_list>363406005</qds:standard_code_list>
+<qds:standard_code_list>363407001</qds:standard_code_list>
+<qds:standard_code_list>363408006</qds:standard_code_list>
+<qds:standard_code_list>363409003</qds:standard_code_list>
+<qds:standard_code_list>363410008</qds:standard_code_list>
+<qds:standard_code_list>363412000</qds:standard_code_list>
+<qds:standard_code_list>363413005</qds:standard_code_list>
+<qds:standard_code_list>363414004</qds:standard_code_list>
+<qds:standard_code_list>363510005</qds:standard_code_list>
+<qds:standard_code_list>425178004</qds:standard_code_list>
+<qds:standard_code_list>428283002</qds:standard_code_list>
+<qds:standard_code_list>429047008</qds:standard_code_list>
+<qds:standard_code_list>429699009</qds:standard_code_list>
+<qds:standard_code_list>93683002</qds:standard_code_list>
+<qds:standard_code_list>93761005</qds:standard_code_list>
+<qds:standard_code_list>93771007</qds:standard_code_list>
+<qds:standard_code_list>93826009</qds:standard_code_list>
+<qds:standard_code_list>94006002</qds:standard_code_list>
+<qds:standard_code_list>94072004</qds:standard_code_list>
+<qds:standard_code_list>94105000</qds:standard_code_list>
+<qds:standard_code_list>94179005</qds:standard_code_list>
+<qds:standard_code_list>94260004</qds:standard_code_list>
+<qds:standard_code_list>94271003</qds:standard_code_list>
+<qds:standard_code_list>94328005</qds:standard_code_list>
+<qds:standard_code_list>94509004</qds:standard_code_list>
+<qds:standard_code_list>94538001</qds:standard_code_list>
+<qds:standard_code_list>94604000</qds:standard_code_list>
+<qds:standard_code_list>94643001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_59">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_59</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1826">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1826</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c552</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_489">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_489</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_63">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_63</qds:QDS_id>
+<qds:standard_concept>flexible sigmoidoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c29</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>45330</qds:standard_code_list>
+<qds:standard_code_list>45331</qds:standard_code_list>
+<qds:standard_code_list>45332</qds:standard_code_list>
+<qds:standard_code_list>45333</qds:standard_code_list>
+<qds:standard_code_list>45334</qds:standard_code_list>
+<qds:standard_code_list>45335</qds:standard_code_list>
+<qds:standard_code_list>45337</qds:standard_code_list>
+<qds:standard_code_list>45338</qds:standard_code_list>
+<qds:standard_code_list>45339</qds:standard_code_list>
+<qds:standard_code_list>45340</qds:standard_code_list>
+<qds:standard_code_list>45341</qds:standard_code_list>
+<qds:standard_code_list>45342</qds:standard_code_list>
+<qds:standard_code_list>45345</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1482">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1482</qds:QDS_id>
+<qds:standard_concept>flexible sigmoidoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c483</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c29</qds:standard_code_list>
+<qds:standard_code_list>N_c30</qds:standard_code_list>
+<qds:standard_code_list>N_c31</qds:standard_code_list>
+<qds:standard_code_list>N_c38</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_64">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_64</qds:QDS_id>
+<qds:standard_concept>flexible sigmoidoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c30</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0104</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_65">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_65</qds:QDS_id>
+<qds:standard_concept>flexible sigmoidoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c31</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>45.24</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_66">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_66</qds:QDS_id>
+<qds:standard_concept>flexible sigmoidoscopy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c38</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>112870002</qds:standard_code_list>
+<qds:standard_code_list>174222002</qds:standard_code_list>
+<qds:standard_code_list>21423008</qds:standard_code_list>
+<qds:standard_code_list>235153008</qds:standard_code_list>
+<qds:standard_code_list>265409002</qds:standard_code_list>
+<qds:standard_code_list>32414000</qds:standard_code_list>
+<qds:standard_code_list>396225009</qds:standard_code_list>
+<qds:standard_code_list>396226005</qds:standard_code_list>
+<qds:standard_code_list>425634007</qds:standard_code_list>
+<qds:standard_code_list>44441009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_35">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_35</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c13</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime, type,</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>82270</qds:standard_code_list>
+<qds:standard_code_list>82274</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1483">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1483</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c484</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c13</qds:standard_code_list>
+<qds:standard_code_list>N_c14</qds:standard_code_list>
+<qds:standard_code_list>N_c15</qds:standard_code_list>
+<qds:standard_code_list>N_c16</qds:standard_code_list>
+<qds:standard_code_list>N_c17</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_67">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_67</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c17</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0328</qds:standard_code_list>
+<qds:standard_code_list>G0394</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_68">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_68</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c15</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V76.51</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_69">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_69</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c16</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12503-9</qds:standard_code_list>
+<qds:standard_code_list>12504-7</qds:standard_code_list>
+<qds:standard_code_list>14563-1</qds:standard_code_list>
+<qds:standard_code_list>14564-9</qds:standard_code_list>
+<qds:standard_code_list>14565-6</qds:standard_code_list>
+<qds:standard_code_list>2335-8</qds:standard_code_list>
+<qds:standard_code_list>27396-1</qds:standard_code_list>
+<qds:standard_code_list>27401-9</qds:standard_code_list>
+<qds:standard_code_list>27925-7</qds:standard_code_list>
+<qds:standard_code_list>27926-5</qds:standard_code_list>
+<qds:standard_code_list>29771-3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_70">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_70</qds:QDS_id>
+<qds:standard_concept>FOBT</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c14</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>252156002</qds:standard_code_list>
+<qds:standard_code_list>441579003</qds:standard_code_list>
+<qds:standard_code_list>441626002</qds:standard_code_list>
+<qds:standard_code_list>442067009</qds:standard_code_list>
+<qds:standard_code_list>442516004</qds:standard_code_list>
+<qds:standard_code_list>442554004</qds:standard_code_list>
+<qds:standard_code_list>442563002</qds:standard_code_list>
+<qds:standard_code_list>442722005</qds:standard_code_list>
+<qds:standard_code_list>61788003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_32">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_32</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_34">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_34</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_74">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_74</qds:QDS_id>
+<qds:standard_concept>total colectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c36</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>44150</qds:standard_code_list>
+<qds:standard_code_list>44151</qds:standard_code_list>
+<qds:standard_code_list>44152</qds:standard_code_list>
+<qds:standard_code_list>44153</qds:standard_code_list>
+<qds:standard_code_list>44155</qds:standard_code_list>
+<qds:standard_code_list>44156</qds:standard_code_list>
+<qds:standard_code_list>44157</qds:standard_code_list>
+<qds:standard_code_list>44158</qds:standard_code_list>
+<qds:standard_code_list>44210</qds:standard_code_list>
+<qds:standard_code_list>44211</qds:standard_code_list>
+<qds:standard_code_list>44212</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1484">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1484</qds:QDS_id>
+<qds:standard_concept>total colectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c485</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c21</qds:standard_code_list>
+<qds:standard_code_list>N_c36</qds:standard_code_list>
+<qds:standard_code_list>N_c37</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_73">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_73</qds:QDS_id>
+<qds:standard_concept>total colectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c37</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>45.8</qds:standard_code_list>
+<qds:standard_code_list>45.81</qds:standard_code_list>
+<qds:standard_code_list>45.82</qds:standard_code_list>
+<qds:standard_code_list>45.83</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_41">
+<qds:NQF_id>0034</qds:NQF_id>
+<qds:measure_name>Colorectal Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_41</qds:QDS_id>
+<qds:standard_concept>total colectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c21</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>174067002</qds:standard_code_list>
+<qds:standard_code_list>235331003</qds:standard_code_list>
+<qds:standard_code_list>23968004</qds:standard_code_list>
+<qds:standard_code_list>26390003</qds:standard_code_list>
+<qds:standard_code_list>265393006</qds:standard_code_list>
+<qds:standard_code_list>307666008</qds:standard_code_list>
+<qds:standard_code_list>307667004</qds:standard_code_list>
+<qds:standard_code_list>307669001</qds:standard_code_list>
+<qds:standard_code_list>427816007</qds:standard_code_list>
+<qds:standard_code_list>456004</qds:standard_code_list>
+<qds:standard_code_list>80294005</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/Q_86">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_86</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_100">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_100</qds:QDS_id>
+<qds:standard_concept>BMI</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c69</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.3</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>39156-5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_114">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_114</qds:QDS_id>
+<qds:standard_concept>BMI</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c148</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>225171007</qds:standard_code_list>
+<qds:standard_code_list>301331008</qds:standard_code_list>
+<qds:standard_code_list>60621009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_126">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_126</qds:QDS_id>
+<qds:standard_concept>dietary consultation order</qds:standard_concept>
+<qds:standard_category>Communication</qds:standard_category>
+<qds:QDS_data_type>communication provider to provider</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c155</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>103699006</qds:standard_code_list>
+<qds:standard_code_list>306163007</qds:standard_code_list>
+<qds:standard_code_list>408289007</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_123">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_123</qds:QDS_id>
+<qds:standard_concept>encounter_outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c150</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Q_c67</qds:standard_code_list>
+<qds:standard_code_list>Q_c68</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_84">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_84</qds:QDS_id>
+<qds:standard_concept>encounter_outpatient_CPT_with clinician</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c67</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>90801</qds:standard_code_list>
+<qds:standard_code_list>90802</qds:standard_code_list>
+<qds:standard_code_list>90804</qds:standard_code_list>
+<qds:standard_code_list>90805</qds:standard_code_list>
+<qds:standard_code_list>90806</qds:standard_code_list>
+<qds:standard_code_list>90807</qds:standard_code_list>
+<qds:standard_code_list>90808</qds:standard_code_list>
+<qds:standard_code_list>90809</qds:standard_code_list>
+<qds:standard_code_list>97001</qds:standard_code_list>
+<qds:standard_code_list>97003</qds:standard_code_list>
+<qds:standard_code_list>97802</qds:standard_code_list>
+<qds:standard_code_list>97803</qds:standard_code_list>
+<qds:standard_code_list>98960</qds:standard_code_list>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_85">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_85</qds:QDS_id>
+<qds:standard_concept>encounter_outpatient_HCPCS_with_clinician</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c68</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>D7140</qds:standard_code_list>
+<qds:standard_code_list>D7210</qds:standard_code_list>
+<qds:standard_code_list>G0101</qds:standard_code_list>
+<qds:standard_code_list>G0108</qds:standard_code_list>
+<qds:standard_code_list>G0270</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_7000">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_7000</qds:QDS_id>
+<qds:standard_concept>follow-up plan_BMI management</qds:standard_concept>
+<qds:standard_category>Care goal</qds:standard_category>
+<qds:QDS_data_type>care plan</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c152</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>43644</qds:standard_code_list>
+<qds:standard_code_list>43645</qds:standard_code_list>
+<qds:standard_code_list>43770</qds:standard_code_list>
+<qds:standard_code_list>43771</qds:standard_code_list>
+<qds:standard_code_list>43772</qds:standard_code_list>
+<qds:standard_code_list>43773</qds:standard_code_list>
+<qds:standard_code_list>43774</qds:standard_code_list>
+<qds:standard_code_list>43842</qds:standard_code_list>
+<qds:standard_code_list>43843</qds:standard_code_list>
+<qds:standard_code_list>43845</qds:standard_code_list>
+<qds:standard_code_list>43846</qds:standard_code_list>
+<qds:standard_code_list>43847</qds:standard_code_list>
+<qds:standard_code_list>43848</qds:standard_code_list>
+<qds:standard_code_list>97804</qds:standard_code_list>
+<qds:standard_code_list>98961</qds:standard_code_list>
+<qds:standard_code_list>98962</qds:standard_code_list>
+<qds:standard_code_list>99078</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_125">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_125</qds:QDS_id>
+<qds:standard_concept>follow-up plan_BMI management</qds:standard_concept>
+<qds:standard_category>Care goal</qds:standard_category>
+<qds:QDS_data_type>care plan</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c156</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Q_c152</qds:standard_code_list>
+<qds:standard_code_list>Q_c153</qds:standard_code_list>
+<qds:standard_code_list>Q_c154</qds:standard_code_list>
+<qds:standard_code_list>Q_c70</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_7001">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_7001</qds:QDS_id>
+<qds:standard_concept>follow-up plan_BMI management</qds:standard_concept>
+<qds:standard_category>Care goal</qds:standard_category>
+<qds:QDS_data_type>care plan</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c153</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G8417</qds:standard_code_list>
+<qds:standard_code_list>S9449</qds:standard_code_list>
+<qds:standard_code_list>S9451</qds:standard_code_list>
+<qds:standard_code_list>S9452</qds:standard_code_list>
+<qds:standard_code_list>S9470</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_112">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_112</qds:QDS_id>
+<qds:standard_concept>follow-up plan_BMI management</qds:standard_concept>
+<qds:standard_category>Care goal</qds:standard_category>
+<qds:QDS_data_type>care plan</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c70</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V65.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_7002">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_7002</qds:QDS_id>
+<qds:standard_concept>follow-up plan_BMI management</qds:standard_concept>
+<qds:standard_category>Care goal</qds:standard_category>
+<qds:QDS_data_type>care plan</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c154</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>169411000</qds:standard_code_list>
+<qds:standard_code_list>170795002</qds:standard_code_list>
+<qds:standard_code_list>225171007</qds:standard_code_list>
+<qds:standard_code_list>268523001</qds:standard_code_list>
+<qds:standard_code_list>275919002</qds:standard_code_list>
+<qds:standard_code_list>305849009</qds:standard_code_list>
+<qds:standard_code_list>307818003</qds:standard_code_list>
+<qds:standard_code_list>401003006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_82">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_82</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: today m/d/yyyy 23:59:59</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_83">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_83</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_119">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_119</qds:QDS_id>
+<qds:standard_concept>medical reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c145</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_120">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_120</qds:QDS_id>
+<qds:standard_concept>medical reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c145</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_115">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_115</qds:QDS_id>
+<qds:standard_concept>patient reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c146</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_117">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_117</qds:QDS_id>
+<qds:standard_concept>patient reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c146</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_127">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_127</qds:QDS_id>
+<qds:standard_concept>pregnancy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Q_c157</qds:standard_code_list>
+<qds:standard_code_list>Q_c158</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_7003">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_7003</qds:QDS_id>
+<qds:standard_concept>pregnancy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c157</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>630</qds:standard_code_list>
+<qds:standard_code_list>631</qds:standard_code_list>
+<qds:standard_code_list>632</qds:standard_code_list>
+<qds:standard_code_list>633.00</qds:standard_code_list>
+<qds:standard_code_list>633.01</qds:standard_code_list>
+<qds:standard_code_list>633.10</qds:standard_code_list>
+<qds:standard_code_list>633.11</qds:standard_code_list>
+<qds:standard_code_list>633.20</qds:standard_code_list>
+<qds:standard_code_list>633.21</qds:standard_code_list>
+<qds:standard_code_list>633.80</qds:standard_code_list>
+<qds:standard_code_list>633.81</qds:standard_code_list>
+<qds:standard_code_list>633.90</qds:standard_code_list>
+<qds:standard_code_list>633.91</qds:standard_code_list>
+<qds:standard_code_list>634.00</qds:standard_code_list>
+<qds:standard_code_list>634.01</qds:standard_code_list>
+<qds:standard_code_list>634.02</qds:standard_code_list>
+<qds:standard_code_list>634.10</qds:standard_code_list>
+<qds:standard_code_list>634.11</qds:standard_code_list>
+<qds:standard_code_list>634.12</qds:standard_code_list>
+<qds:standard_code_list>634.20</qds:standard_code_list>
+<qds:standard_code_list>634.21</qds:standard_code_list>
+<qds:standard_code_list>634.22</qds:standard_code_list>
+<qds:standard_code_list>34.30</qds:standard_code_list>
+<qds:standard_code_list>634.31</qds:standard_code_list>
+<qds:standard_code_list>634.32</qds:standard_code_list>
+<qds:standard_code_list>634.40</qds:standard_code_list>
+<qds:standard_code_list>634.41</qds:standard_code_list>
+<qds:standard_code_list>634.42</qds:standard_code_list>
+<qds:standard_code_list>634.50</qds:standard_code_list>
+<qds:standard_code_list>634.51</qds:standard_code_list>
+<qds:standard_code_list>634.52</qds:standard_code_list>
+<qds:standard_code_list>634.60</qds:standard_code_list>
+<qds:standard_code_list>634.61</qds:standard_code_list>
+<qds:standard_code_list>634.62</qds:standard_code_list>
+<qds:standard_code_list>634.70</qds:standard_code_list>
+<qds:standard_code_list>634.71</qds:standard_code_list>
+<qds:standard_code_list>634.72</qds:standard_code_list>
+<qds:standard_code_list>634.80</qds:standard_code_list>
+<qds:standard_code_list>634.81</qds:standard_code_list>
+<qds:standard_code_list>634.82</qds:standard_code_list>
+<qds:standard_code_list>634.90</qds:standard_code_list>
+<qds:standard_code_list>634.91</qds:standard_code_list>
+<qds:standard_code_list>634.92</qds:standard_code_list>
+<qds:standard_code_list>635.00</qds:standard_code_list>
+<qds:standard_code_list>635.01</qds:standard_code_list>
+<qds:standard_code_list>635.02</qds:standard_code_list>
+<qds:standard_code_list>635.10</qds:standard_code_list>
+<qds:standard_code_list>635.11</qds:standard_code_list>
+<qds:standard_code_list>635.12</qds:standard_code_list>
+<qds:standard_code_list>635.20</qds:standard_code_list>
+<qds:standard_code_list>635.21</qds:standard_code_list>
+<qds:standard_code_list>635.22</qds:standard_code_list>
+<qds:standard_code_list>635.30</qds:standard_code_list>
+<qds:standard_code_list>635.31</qds:standard_code_list>
+<qds:standard_code_list>635.32</qds:standard_code_list>
+<qds:standard_code_list>635.40</qds:standard_code_list>
+<qds:standard_code_list>635.41</qds:standard_code_list>
+<qds:standard_code_list>635.42</qds:standard_code_list>
+<qds:standard_code_list>635.50</qds:standard_code_list>
+<qds:standard_code_list>635.51</qds:standard_code_list>
+<qds:standard_code_list>635.52</qds:standard_code_list>
+<qds:standard_code_list>635.60</qds:standard_code_list>
+<qds:standard_code_list>635.61</qds:standard_code_list>
+<qds:standard_code_list>635.62</qds:standard_code_list>
+<qds:standard_code_list>635.70</qds:standard_code_list>
+<qds:standard_code_list>635.71</qds:standard_code_list>
+<qds:standard_code_list>635.72</qds:standard_code_list>
+<qds:standard_code_list>635.80</qds:standard_code_list>
+<qds:standard_code_list>635.81</qds:standard_code_list>
+<qds:standard_code_list>635.82</qds:standard_code_list>
+<qds:standard_code_list>635.90</qds:standard_code_list>
+<qds:standard_code_list>635.91</qds:standard_code_list>
+<qds:standard_code_list>635.92</qds:standard_code_list>
+<qds:standard_code_list>636.00</qds:standard_code_list>
+<qds:standard_code_list>636.01</qds:standard_code_list>
+<qds:standard_code_list>636.02</qds:standard_code_list>
+<qds:standard_code_list>636.10</qds:standard_code_list>
+<qds:standard_code_list>636.11</qds:standard_code_list>
+<qds:standard_code_list>636.12</qds:standard_code_list>
+<qds:standard_code_list>636.20</qds:standard_code_list>
+<qds:standard_code_list>636.21</qds:standard_code_list>
+<qds:standard_code_list>636.22</qds:standard_code_list>
+<qds:standard_code_list>636.30</qds:standard_code_list>
+<qds:standard_code_list>636.31</qds:standard_code_list>
+<qds:standard_code_list>636.32</qds:standard_code_list>
+<qds:standard_code_list>636.40</qds:standard_code_list>
+<qds:standard_code_list>636.41</qds:standard_code_list>
+<qds:standard_code_list>636.42</qds:standard_code_list>
+<qds:standard_code_list>636.50</qds:standard_code_list>
+<qds:standard_code_list>636.51</qds:standard_code_list>
+<qds:standard_code_list>636.52</qds:standard_code_list>
+<qds:standard_code_list>636.60</qds:standard_code_list>
+<qds:standard_code_list>636.61</qds:standard_code_list>
+<qds:standard_code_list>636.62</qds:standard_code_list>
+<qds:standard_code_list>636.70</qds:standard_code_list>
+<qds:standard_code_list>636.71</qds:standard_code_list>
+<qds:standard_code_list>636.72</qds:standard_code_list>
+<qds:standard_code_list>636.80</qds:standard_code_list>
+<qds:standard_code_list>636.81</qds:standard_code_list>
+<qds:standard_code_list>636.82</qds:standard_code_list>
+<qds:standard_code_list>636.90</qds:standard_code_list>
+<qds:standard_code_list>636.91</qds:standard_code_list>
+<qds:standard_code_list>636.92</qds:standard_code_list>
+<qds:standard_code_list>637.00</qds:standard_code_list>
+<qds:standard_code_list>637.01</qds:standard_code_list>
+<qds:standard_code_list>637.02</qds:standard_code_list>
+<qds:standard_code_list>637.10</qds:standard_code_list>
+<qds:standard_code_list>637.11</qds:standard_code_list>
+<qds:standard_code_list>637.12</qds:standard_code_list>
+<qds:standard_code_list>637.20</qds:standard_code_list>
+<qds:standard_code_list>637.21</qds:standard_code_list>
+<qds:standard_code_list>637.22</qds:standard_code_list>
+<qds:standard_code_list>637.30</qds:standard_code_list>
+<qds:standard_code_list>637.31</qds:standard_code_list>
+<qds:standard_code_list>637.32</qds:standard_code_list>
+<qds:standard_code_list>637.40</qds:standard_code_list>
+<qds:standard_code_list>637.41</qds:standard_code_list>
+<qds:standard_code_list>637.42</qds:standard_code_list>
+<qds:standard_code_list>637.50</qds:standard_code_list>
+<qds:standard_code_list>637.51</qds:standard_code_list>
+<qds:standard_code_list>637.52</qds:standard_code_list>
+<qds:standard_code_list>637.60</qds:standard_code_list>
+<qds:standard_code_list>637.61</qds:standard_code_list>
+<qds:standard_code_list>637.62</qds:standard_code_list>
+<qds:standard_code_list>637.70</qds:standard_code_list>
+<qds:standard_code_list>637.71</qds:standard_code_list>
+<qds:standard_code_list>637.72</qds:standard_code_list>
+<qds:standard_code_list>637.80</qds:standard_code_list>
+<qds:standard_code_list>637.81</qds:standard_code_list>
+<qds:standard_code_list>637.82</qds:standard_code_list>
+<qds:standard_code_list>637.90</qds:standard_code_list>
+<qds:standard_code_list>637.91</qds:standard_code_list>
+<qds:standard_code_list>637.92</qds:standard_code_list>
+<qds:standard_code_list>638.0</qds:standard_code_list>
+<qds:standard_code_list>638.1</qds:standard_code_list>
+<qds:standard_code_list>638.2</qds:standard_code_list>
+<qds:standard_code_list>638.3</qds:standard_code_list>
+<qds:standard_code_list>638.4</qds:standard_code_list>
+<qds:standard_code_list>638.5</qds:standard_code_list>
+<qds:standard_code_list>638.6</qds:standard_code_list>
+<qds:standard_code_list>638.7</qds:standard_code_list>
+<qds:standard_code_list>638.8</qds:standard_code_list>
+<qds:standard_code_list>638.9</qds:standard_code_list>
+<qds:standard_code_list>639.0</qds:standard_code_list>
+<qds:standard_code_list>639.1</qds:standard_code_list>
+<qds:standard_code_list>639.2</qds:standard_code_list>
+<qds:standard_code_list>639.3</qds:standard_code_list>
+<qds:standard_code_list>639.4</qds:standard_code_list>
+<qds:standard_code_list>639.5</qds:standard_code_list>
+<qds:standard_code_list>639.6</qds:standard_code_list>
+<qds:standard_code_list>639.8</qds:standard_code_list>
+<qds:standard_code_list>639.9</qds:standard_code_list>
+<qds:standard_code_list>640.00</qds:standard_code_list>
+<qds:standard_code_list>640.01</qds:standard_code_list>
+<qds:standard_code_list>640.03</qds:standard_code_list>
+<qds:standard_code_list>640.80</qds:standard_code_list>
+<qds:standard_code_list>640.81</qds:standard_code_list>
+<qds:standard_code_list>640.83</qds:standard_code_list>
+<qds:standard_code_list>640.90</qds:standard_code_list>
+<qds:standard_code_list>640.91</qds:standard_code_list>
+<qds:standard_code_list>640.93</qds:standard_code_list>
+<qds:standard_code_list>641.00</qds:standard_code_list>
+<qds:standard_code_list>641.01</qds:standard_code_list>
+<qds:standard_code_list>641.03</qds:standard_code_list>
+<qds:standard_code_list>641.10</qds:standard_code_list>
+<qds:standard_code_list>641.11</qds:standard_code_list>
+<qds:standard_code_list>641.13</qds:standard_code_list>
+<qds:standard_code_list>641.20</qds:standard_code_list>
+<qds:standard_code_list>641.21</qds:standard_code_list>
+<qds:standard_code_list>641.23</qds:standard_code_list>
+<qds:standard_code_list>641.30</qds:standard_code_list>
+<qds:standard_code_list>641.31</qds:standard_code_list>
+<qds:standard_code_list>641.33</qds:standard_code_list>
+<qds:standard_code_list>641.80</qds:standard_code_list>
+<qds:standard_code_list>641.81</qds:standard_code_list>
+<qds:standard_code_list>641.83</qds:standard_code_list>
+<qds:standard_code_list>641.90</qds:standard_code_list>
+<qds:standard_code_list>641.91</qds:standard_code_list>
+<qds:standard_code_list>641.93</qds:standard_code_list>
+<qds:standard_code_list>642.00</qds:standard_code_list>
+<qds:standard_code_list>642.01</qds:standard_code_list>
+<qds:standard_code_list>642.02</qds:standard_code_list>
+<qds:standard_code_list>642.03</qds:standard_code_list>
+<qds:standard_code_list>642.04</qds:standard_code_list>
+<qds:standard_code_list>642.10</qds:standard_code_list>
+<qds:standard_code_list>642.11</qds:standard_code_list>
+<qds:standard_code_list>642.12</qds:standard_code_list>
+<qds:standard_code_list>642.13</qds:standard_code_list>
+<qds:standard_code_list>642.14</qds:standard_code_list>
+<qds:standard_code_list>642.20</qds:standard_code_list>
+<qds:standard_code_list>642.21</qds:standard_code_list>
+<qds:standard_code_list>642.22</qds:standard_code_list>
+<qds:standard_code_list>642.23</qds:standard_code_list>
+<qds:standard_code_list>642.24</qds:standard_code_list>
+<qds:standard_code_list>642.30</qds:standard_code_list>
+<qds:standard_code_list>642.31</qds:standard_code_list>
+<qds:standard_code_list>642.32</qds:standard_code_list>
+<qds:standard_code_list>642.33</qds:standard_code_list>
+<qds:standard_code_list>642.34</qds:standard_code_list>
+<qds:standard_code_list>642.40</qds:standard_code_list>
+<qds:standard_code_list>642.41</qds:standard_code_list>
+<qds:standard_code_list>642.42</qds:standard_code_list>
+<qds:standard_code_list>642.43</qds:standard_code_list>
+<qds:standard_code_list>642.44</qds:standard_code_list>
+<qds:standard_code_list>642.50</qds:standard_code_list>
+<qds:standard_code_list>642.51</qds:standard_code_list>
+<qds:standard_code_list>642.52</qds:standard_code_list>
+<qds:standard_code_list>642.53</qds:standard_code_list>
+<qds:standard_code_list>642.54</qds:standard_code_list>
+<qds:standard_code_list>642.60</qds:standard_code_list>
+<qds:standard_code_list>642.61</qds:standard_code_list>
+<qds:standard_code_list>642.62</qds:standard_code_list>
+<qds:standard_code_list>642.63</qds:standard_code_list>
+<qds:standard_code_list>642.64</qds:standard_code_list>
+<qds:standard_code_list>642.70</qds:standard_code_list>
+<qds:standard_code_list>642.71</qds:standard_code_list>
+<qds:standard_code_list>642.72</qds:standard_code_list>
+<qds:standard_code_list>642.73</qds:standard_code_list>
+<qds:standard_code_list>642.74</qds:standard_code_list>
+<qds:standard_code_list>642.90</qds:standard_code_list>
+<qds:standard_code_list>642.91</qds:standard_code_list>
+<qds:standard_code_list>642.92</qds:standard_code_list>
+<qds:standard_code_list>642.93</qds:standard_code_list>
+<qds:standard_code_list>642.94</qds:standard_code_list>
+<qds:standard_code_list>643.00</qds:standard_code_list>
+<qds:standard_code_list>643.01</qds:standard_code_list>
+<qds:standard_code_list>643.03</qds:standard_code_list>
+<qds:standard_code_list>643.10</qds:standard_code_list>
+<qds:standard_code_list>643.11</qds:standard_code_list>
+<qds:standard_code_list>643.13</qds:standard_code_list>
+<qds:standard_code_list>643.20</qds:standard_code_list>
+<qds:standard_code_list>643.21</qds:standard_code_list>
+<qds:standard_code_list>643.23</qds:standard_code_list>
+<qds:standard_code_list>643.80</qds:standard_code_list>
+<qds:standard_code_list>643.81</qds:standard_code_list>
+<qds:standard_code_list>643.83</qds:standard_code_list>
+<qds:standard_code_list>643.90</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_7004">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_7004</qds:QDS_id>
+<qds:standard_concept>pregnancy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c158</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>16356006</qds:standard_code_list>
+<qds:standard_code_list>198624007</qds:standard_code_list>
+<qds:standard_code_list>198626009</qds:standard_code_list>
+<qds:standard_code_list>198627000</qds:standard_code_list>
+<qds:standard_code_list>239101008</qds:standard_code_list>
+<qds:standard_code_list>289908002</qds:standard_code_list>
+<qds:standard_code_list>31601007</qds:standard_code_list>
+<qds:standard_code_list>34801009</qds:standard_code_list>
+<qds:standard_code_list>38720006</qds:standard_code_list>
+<qds:standard_code_list>41991004</qds:standard_code_list>
+<qds:standard_code_list>43990006</qds:standard_code_list>
+<qds:standard_code_list>44782008</qds:standard_code_list>
+<qds:standard_code_list>60000008</qds:standard_code_list>
+<qds:standard_code_list>60810003</qds:standard_code_list>
+<qds:standard_code_list>64254006</qds:standard_code_list>
+<qds:standard_code_list>65147003</qds:standard_code_list>
+<qds:standard_code_list>69532007</qds:standard_code_list>
+<qds:standard_code_list>79290002</qds:standard_code_list>
+<qds:standard_code_list>79586000</qds:standard_code_list>
+<qds:standard_code_list>80997009</qds:standard_code_list>
+<qds:standard_code_list>82661006</qds:standard_code_list>
+<qds:standard_code_list>87605005</qds:standard_code_list>
+<qds:standard_code_list>90968009</qds:standard_code_list>
+<qds:standard_code_list>9899009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_128">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_128</qds:QDS_id>
+<qds:standard_concept>system reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c147</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_129">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_129</qds:QDS_id>
+<qds:standard_concept>system reason - HL7</qds:standard_concept>
+<qds:standard_category>Negation rationale</qds:standard_category>
+<qds:QDS_data_type>physical exam not done</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c147</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/Q_102">
+<qds:NQF_id>0421</qds:NQF_id>
+<qds:measure_name>Adult Weight Screening and Follow-Up</qds:measure_name>
+<qds:QDS_id>Q_102</qds:QDS_id>
+<qds:standard_concept>Terminal Illness</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>Q_c139</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>162607003</qds:standard_code_list>
+<qds:standard_code_list>162608008</qds:standard_code_list>
+<qds:standard_code_list>300936002</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

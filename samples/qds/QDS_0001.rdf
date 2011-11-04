@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_1244">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_1244</qds:QDS_id>
+<qds:standard_concept>Asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c362</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c59</qds:standard_code_list>
+<qds:standard_code_list>A_c60</qds:standard_code_list>
+<qds:standard_code_list>A_c61</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_162">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_162</qds:QDS_id>
+<qds:standard_concept>Asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J45</qds:standard_code_list>
+<qds:standard_code_list>J45.22</qds:standard_code_list>
+<qds:standard_code_list>J45.32</qds:standard_code_list>
+<qds:standard_code_list>J45.42</qds:standard_code_list>
+<qds:standard_code_list>J45.52</qds:standard_code_list>
+<qds:standard_code_list>J45.90</qds:standard_code_list>
+<qds:standard_code_list>J45.901</qds:standard_code_list>
+<qds:standard_code_list>J45.902</qds:standard_code_list>
+<qds:standard_code_list>J45.990</qds:standard_code_list>
+<qds:standard_code_list>J45.991</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_161">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_161</qds:QDS_id>
+<qds:standard_concept>Asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c59</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>493.00</qds:standard_code_list>
+<qds:standard_code_list>493.01</qds:standard_code_list>
+<qds:standard_code_list>493.02</qds:standard_code_list>
+<qds:standard_code_list>493.10</qds:standard_code_list>
+<qds:standard_code_list>493.11</qds:standard_code_list>
+<qds:standard_code_list>493.12</qds:standard_code_list>
+<qds:standard_code_list>493.20</qds:standard_code_list>
+<qds:standard_code_list>493.21</qds:standard_code_list>
+<qds:standard_code_list>493.22</qds:standard_code_list>
+<qds:standard_code_list>493.81</qds:standard_code_list>
+<qds:standard_code_list>493.82</qds:standard_code_list>
+<qds:standard_code_list>493.90</qds:standard_code_list>
+<qds:standard_code_list>493.91</qds:standard_code_list>
+<qds:standard_code_list>493.92</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_163">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_163</qds:QDS_id>
+<qds:standard_concept>Asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c61</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11641008</qds:standard_code_list>
+<qds:standard_code_list>12428000</qds:standard_code_list>
+<qds:standard_code_list>13151001</qds:standard_code_list>
+<qds:standard_code_list>195949008</qds:standard_code_list>
+<qds:standard_code_list>195967001</qds:standard_code_list>
+<qds:standard_code_list>195977004</qds:standard_code_list>
+<qds:standard_code_list>195979001</qds:standard_code_list>
+<qds:standard_code_list>196013003</qds:standard_code_list>
+<qds:standard_code_list>225057002</qds:standard_code_list>
+<qds:standard_code_list>233672007</qds:standard_code_list>
+<qds:standard_code_list>233678006</qds:standard_code_list>
+<qds:standard_code_list>233679003</qds:standard_code_list>
+<qds:standard_code_list>233681001</qds:standard_code_list>
+<qds:standard_code_list>233683003</qds:standard_code_list>
+<qds:standard_code_list>233685005</qds:standard_code_list>
+<qds:standard_code_list>233688007</qds:standard_code_list>
+<qds:standard_code_list>266361008</qds:standard_code_list>
+<qds:standard_code_list>266364000</qds:standard_code_list>
+<qds:standard_code_list>281239006</qds:standard_code_list>
+<qds:standard_code_list>30352005</qds:standard_code_list>
+<qds:standard_code_list>304527002</qds:standard_code_list>
+<qds:standard_code_list>31387002</qds:standard_code_list>
+<qds:standard_code_list>370218001</qds:standard_code_list>
+<qds:standard_code_list>370219009</qds:standard_code_list>
+<qds:standard_code_list>370220003</qds:standard_code_list>
+<qds:standard_code_list>370221004</qds:standard_code_list>
+<qds:standard_code_list>389145006</qds:standard_code_list>
+<qds:standard_code_list>405944004</qds:standard_code_list>
+<qds:standard_code_list>407674008</qds:standard_code_list>
+<qds:standard_code_list>409663006</qds:standard_code_list>
+<qds:standard_code_list>423889005</qds:standard_code_list>
+<qds:standard_code_list>424199006</qds:standard_code_list>
+<qds:standard_code_list>424643009</qds:standard_code_list>
+<qds:standard_code_list>425969006</qds:standard_code_list>
+<qds:standard_code_list>426656000</qds:standard_code_list>
+<qds:standard_code_list>426979002</qds:standard_code_list>
+<qds:standard_code_list>427295004</qds:standard_code_list>
+<qds:standard_code_list>427354000</qds:standard_code_list>
+<qds:standard_code_list>427603009</qds:standard_code_list>
+<qds:standard_code_list>427679007</qds:standard_code_list>
+<qds:standard_code_list>442025000</qds:standard_code_list>
+<qds:standard_code_list>55570000</qds:standard_code_list>
+<qds:standard_code_list>56968009</qds:standard_code_list>
+<qds:standard_code_list>57546000</qds:standard_code_list>
+<qds:standard_code_list>59327009</qds:standard_code_list>
+<qds:standard_code_list>59786004</qds:standard_code_list>
+<qds:standard_code_list>63088003</qds:standard_code_list>
+<qds:standard_code_list>67415000</qds:standard_code_list>
+<qds:standard_code_list>85761009</qds:standard_code_list>
+<qds:standard_code_list>91340006</qds:standard_code_list>
+<qds:standard_code_list>92807009</qds:standard_code_list>
+<qds:standard_code_list>93432008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1441">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_1441</qds:QDS_id>
+<qds:standard_concept>Asthma Daytime Symptoms</qds:standard_concept>
+<qds:standard_category>Symptom</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c440</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>370204008</qds:standard_code_list>
+<qds:standard_code_list>373899003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_366">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_366</qds:QDS_id>
+<qds:standard_concept>Asthma Daytime Symptoms Quantified</qds:standard_concept>
+<qds:standard_category>Symptom</qds:standard_category>
+<qds:QDS_data_type>symptom assessed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c141</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>370202007</qds:standard_code_list>
+<qds:standard_code_list>370203002</qds:standard_code_list>
+<qds:standard_code_list>370208006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1442">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_1442</qds:QDS_id>
+<qds:standard_concept>Asthma Nighttime Symptoms</qds:standard_concept>
+<qds:standard_category>Symptom</qds:standard_category>
+<qds:QDS_data_type>symptom active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c441</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>170631002</qds:standard_code_list>
+<qds:standard_code_list>170632009</qds:standard_code_list>
+<qds:standard_code_list>170633004</qds:standard_code_list>
+<qds:standard_code_list>170634005</qds:standard_code_list>
+<qds:standard_code_list>395022009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_367">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_367</qds:QDS_id>
+<qds:standard_concept>Asthma Nighttime Symptoms Quantified</qds:standard_concept>
+<qds:standard_category>Symptom</qds:standard_category>
+<qds:QDS_data_type>symptom assessed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c142</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>170635006</qds:standard_code_list>
+<qds:standard_code_list>170636007</qds:standard_code_list>
+<qds:standard_code_list>370205009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_368">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_368</qds:QDS_id>
+<qds:standard_concept>Asthma Symptom Assessment Tool</qds:standard_concept>
+<qds:standard_category>Risk category / assessment</qds:standard_category>
+<qds:QDS_data_type>risk category / assessment</qds:QDS_data_type>
+<qds:standard_concept_id>A_c143</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>401011001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_138">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_138</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_139">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_139</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_251">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_251</qds:QDS_id>
+<qds:standard_concept>Encounter Office &amp; Outpatient Consult</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c99</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_310">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_310</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_311">
+<qds:NQF_id>0001</qds:NQF_id>
+<qds:measure_name>Asthma  Assessment</qds:measure_name>
+<qds:QDS_id>A_311</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+</rdf:RDF>

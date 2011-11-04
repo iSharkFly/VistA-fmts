@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_773">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_773</qds:QDS_id>
+<qds:standard_concept>AJCC Cancer Stage Low Risk Recurrence Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c286</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>261650005</qds:standard_code_list>
+<qds:standard_code_list>261651009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7053">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_7053</qds:QDS_id>
+<qds:standard_concept>Bone Scan</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c272</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>indication</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>78300</qds:standard_code_list>
+<qds:standard_code_list>78305</qds:standard_code_list>
+<qds:standard_code_list>78306</qds:standard_code_list>
+<qds:standard_code_list>78315</qds:standard_code_list>
+<qds:standard_code_list>78320</qds:standard_code_list>
+<qds:standard_code_list>78350</qds:standard_code_list>
+<qds:standard_code_list>78351</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1127">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1127</qds:QDS_id>
+<qds:standard_concept>Bone Scan</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c320</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>indication</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c271</qds:standard_code_list>
+<qds:standard_code_list>A_c272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7019">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_7019</qds:QDS_id>
+<qds:standard_concept>Bone Scan</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c271</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>7/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>indication</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>169140007</qds:standard_code_list>
+<qds:standard_code_list>241283001</qds:standard_code_list>
+<qds:standard_code_list>241401004</qds:standard_code_list>
+<qds:standard_code_list>241403001</qds:standard_code_list>
+<qds:standard_code_list>241404007</qds:standard_code_list>
+<qds:standard_code_list>241405008</qds:standard_code_list>
+<qds:standard_code_list>303883000</qds:standard_code_list>
+<qds:standard_code_list>3998005</qds:standard_code_list>
+<qds:standard_code_list>41747008</qds:standard_code_list>
+<qds:standard_code_list>418832007</qds:standard_code_list>
+<qds:standard_code_list>429793003</qds:standard_code_list>
+<qds:standard_code_list>430266004</qds:standard_code_list>
+<qds:standard_code_list>430825006</qds:standard_code_list>
+<qds:standard_code_list>430826007</qds:standard_code_list>
+<qds:standard_code_list>430827003</qds:standard_code_list>
+<qds:standard_code_list>430828008</qds:standard_code_list>
+<qds:standard_code_list>430829000</qds:standard_code_list>
+<qds:standard_code_list>430830005</qds:standard_code_list>
+<qds:standard_code_list>430831009</qds:standard_code_list>
+<qds:standard_code_list>430832002</qds:standard_code_list>
+<qds:standard_code_list>431497006</qds:standard_code_list>
+<qds:standard_code_list>431616006</qds:standard_code_list>
+<qds:standard_code_list>431617002</qds:standard_code_list>
+<qds:standard_code_list>432056005</qds:standard_code_list>
+<qds:standard_code_list>432275005</qds:standard_code_list>
+<qds:standard_code_list>432399008</qds:standard_code_list>
+<qds:standard_code_list>432400001</qds:standard_code_list>
+<qds:standard_code_list>432850003</qds:standard_code_list>
+<qds:standard_code_list>432851004</qds:standard_code_list>
+<qds:standard_code_list>433131007</qds:standard_code_list>
+<qds:standard_code_list>433171002</qds:standard_code_list>
+<qds:standard_code_list>58518000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1335">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1335</qds:QDS_id>
+<qds:standard_concept>Gleason Score</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c397</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c281</qds:standard_code_list>
+<qds:standard_code_list>A_c282</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_769">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_769</qds:QDS_id>
+<qds:standard_concept>Gleason Score</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c282</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>35266-6</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_770">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_770</qds:QDS_id>
+<qds:standard_concept>Gleason Score</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c282</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>35266-6</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_767">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_767</qds:QDS_id>
+<qds:standard_concept>Gleason Score</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c281</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>372278000</qds:standard_code_list>
+<qds:standard_code_list>384997002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_768">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_768</qds:QDS_id>
+<qds:standard_concept>Gleason Score</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c281</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>372278000</qds:standard_code_list>
+<qds:standard_code_list>384997002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_764">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_764</qds:QDS_id>
+<qds:standard_concept>Gleason Score &lt;= 6</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c280</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>18430005</qds:standard_code_list>
+<qds:standard_code_list>369775001</qds:standard_code_list>
+<qds:standard_code_list>369776000</qds:standard_code_list>
+<qds:standard_code_list>46677009</qds:standard_code_list>
+<qds:standard_code_list>49878003</qds:standard_code_list>
+<qds:standard_code_list>74013009</qds:standard_code_list>
+<qds:standard_code_list>84556003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_348">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_348</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_349">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_349</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1445">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1445</qds:QDS_id>
+<qds:standard_concept>Pain Related to prostate cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c451</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c325</qds:standard_code_list>
+<qds:standard_code_list>A_c449</qds:standard_code_list>
+<qds:standard_code_list>A_c450</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1596">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1596</qds:QDS_id>
+<qds:standard_concept>Pain Related to Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c450</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G89.3</qds:standard_code_list>
+<qds:standard_code_list>M53.3</qds:standard_code_list>
+<qds:standard_code_list>M54.6</qds:standard_code_list>
+<qds:standard_code_list>M54.89</qds:standard_code_list>
+<qds:standard_code_list>M54.9</qds:standard_code_list>
+<qds:standard_code_list>M79.65</qds:standard_code_list>
+<qds:standard_code_list>M89.8x1</qds:standard_code_list>
+<qds:standard_code_list>R07.89</qds:standard_code_list>
+<qds:standard_code_list>Z12.5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1595">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1595</qds:QDS_id>
+<qds:standard_concept>Pain Related to Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c449</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>338.3</qds:standard_code_list>
+<qds:standard_code_list>724.1</qds:standard_code_list>
+<qds:standard_code_list>724.5</qds:standard_code_list>
+<qds:standard_code_list>724.6</qds:standard_code_list>
+<qds:standard_code_list>724.79</qds:standard_code_list>
+<qds:standard_code_list>733.90</qds:standard_code_list>
+<qds:standard_code_list>786.50</qds:standard_code_list>
+<qds:standard_code_list>786.59</qds:standard_code_list>
+<qds:standard_code_list>789.00</qds:standard_code_list>
+<qds:standard_code_list>V76.44</qds:standard_code_list>
+<qds:standard_code_list>V84.03</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1132">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1132</qds:QDS_id>
+<qds:standard_concept>Pain Related to Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c325</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12584003</qds:standard_code_list>
+<qds:standard_code_list>161977000</qds:standard_code_list>
+<qds:standard_code_list>203508001</qds:standard_code_list>
+<qds:standard_code_list>203509009</qds:standard_code_list>
+<qds:standard_code_list>20793008</qds:standard_code_list>
+<qds:standard_code_list>267981009</qds:standard_code_list>
+<qds:standard_code_list>282743009</qds:standard_code_list>
+<qds:standard_code_list>297217002</qds:standard_code_list>
+<qds:standard_code_list>298731003</qds:standard_code_list>
+<qds:standard_code_list>298740004</qds:standard_code_list>
+<qds:standard_code_list>301773003</qds:standard_code_list>
+<qds:standard_code_list>3200003</qds:standard_code_list>
+<qds:standard_code_list>34789001</qds:standard_code_list>
+<qds:standard_code_list>36729000</qds:standard_code_list>
+<qds:standard_code_list>426135001</qds:standard_code_list>
+<qds:standard_code_list>48926009</qds:standard_code_list>
+<qds:standard_code_list>89638008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1126">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1126</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c319</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c90</qds:standard_code_list>
+<qds:standard_code_list>A_c91</qds:standard_code_list>
+<qds:standard_code_list>A_c92</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7100">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_7100</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c91</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C61</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7099">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_7099</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c90</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>185</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7035">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_7035</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c92</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>7/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>254900004</qds:standard_code_list>
+<qds:standard_code_list>278060005</qds:standard_code_list>
+<qds:standard_code_list>314969001</qds:standard_code_list>
+<qds:standard_code_list>369485004</qds:standard_code_list>
+<qds:standard_code_list>369486003</qds:standard_code_list>
+<qds:standard_code_list>396198006</qds:standard_code_list>
+<qds:standard_code_list>399068003</qds:standard_code_list>
+<qds:standard_code_list>399490008</qds:standard_code_list>
+<qds:standard_code_list>399590005</qds:standard_code_list>
+<qds:standard_code_list>427492003</qds:standard_code_list>
+<qds:standard_code_list>93974005</qds:standard_code_list>
+<qds:standard_code_list>94503003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_285">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_285</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer Treatment</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c113</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>55810</qds:standard_code_list>
+<qds:standard_code_list>55812</qds:standard_code_list>
+<qds:standard_code_list>55815</qds:standard_code_list>
+<qds:standard_code_list>55840</qds:standard_code_list>
+<qds:standard_code_list>55842</qds:standard_code_list>
+<qds:standard_code_list>55845</qds:standard_code_list>
+<qds:standard_code_list>55866</qds:standard_code_list>
+<qds:standard_code_list>55873</qds:standard_code_list>
+<qds:standard_code_list>77427</qds:standard_code_list>
+<qds:standard_code_list>77776</qds:standard_code_list>
+<qds:standard_code_list>77777</qds:standard_code_list>
+<qds:standard_code_list>77778</qds:standard_code_list>
+<qds:standard_code_list>77787</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1334">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1334</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer Treatment</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c398</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c113</qds:standard_code_list>
+<qds:standard_code_list>A_c213</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_569">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_569</qds:QDS_id>
+<qds:standard_concept>Prostate Cancer Treatment</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c213</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10492003</qds:standard_code_list>
+<qds:standard_code_list>113120007</qds:standard_code_list>
+<qds:standard_code_list>116244007</qds:standard_code_list>
+<qds:standard_code_list>118161009</qds:standard_code_list>
+<qds:standard_code_list>118162002</qds:standard_code_list>
+<qds:standard_code_list>118163007</qds:standard_code_list>
+<qds:standard_code_list>14473006</qds:standard_code_list>
+<qds:standard_code_list>169327006</qds:standard_code_list>
+<qds:standard_code_list>169328001</qds:standard_code_list>
+<qds:standard_code_list>169329009</qds:standard_code_list>
+<qds:standard_code_list>169340001</qds:standard_code_list>
+<qds:standard_code_list>169349000</qds:standard_code_list>
+<qds:standard_code_list>169359004</qds:standard_code_list>
+<qds:standard_code_list>169374002</qds:standard_code_list>
+<qds:standard_code_list>176106009</qds:standard_code_list>
+<qds:standard_code_list>176258007</qds:standard_code_list>
+<qds:standard_code_list>176259004</qds:standard_code_list>
+<qds:standard_code_list>176260009</qds:standard_code_list>
+<qds:standard_code_list>176261008</qds:standard_code_list>
+<qds:standard_code_list>176262001</qds:standard_code_list>
+<qds:standard_code_list>176263006</qds:standard_code_list>
+<qds:standard_code_list>176267007</qds:standard_code_list>
+<qds:standard_code_list>176286004</qds:standard_code_list>
+<qds:standard_code_list>176288003</qds:standard_code_list>
+<qds:standard_code_list>176319004</qds:standard_code_list>
+<qds:standard_code_list>19149007</qds:standard_code_list>
+<qds:standard_code_list>21190008</qds:standard_code_list>
+<qds:standard_code_list>21372000</qds:standard_code_list>
+<qds:standard_code_list>228677009</qds:standard_code_list>
+<qds:standard_code_list>228684001</qds:standard_code_list>
+<qds:standard_code_list>228688003</qds:standard_code_list>
+<qds:standard_code_list>228690002</qds:standard_code_list>
+<qds:standard_code_list>228692005</qds:standard_code_list>
+<qds:standard_code_list>228693000</qds:standard_code_list>
+<qds:standard_code_list>228694006</qds:standard_code_list>
+<qds:standard_code_list>228695007</qds:standard_code_list>
+<qds:standard_code_list>228697004</qds:standard_code_list>
+<qds:standard_code_list>228698009</qds:standard_code_list>
+<qds:standard_code_list>228699001</qds:standard_code_list>
+<qds:standard_code_list>228701001</qds:standard_code_list>
+<qds:standard_code_list>228702008</qds:standard_code_list>
+<qds:standard_code_list>236209003</qds:standard_code_list>
+<qds:standard_code_list>236211007</qds:standard_code_list>
+<qds:standard_code_list>236252003</qds:standard_code_list>
+<qds:standard_code_list>24242005</qds:standard_code_list>
+<qds:standard_code_list>26294005</qds:standard_code_list>
+<qds:standard_code_list>265589001</qds:standard_code_list>
+<qds:standard_code_list>271291003</qds:standard_code_list>
+<qds:standard_code_list>27877006</qds:standard_code_list>
+<qds:standard_code_list>28579000</qds:standard_code_list>
+<qds:standard_code_list>29860002</qds:standard_code_list>
+<qds:standard_code_list>30426000</qds:standard_code_list>
+<qds:standard_code_list>312235007</qds:standard_code_list>
+<qds:standard_code_list>314202001</qds:standard_code_list>
+<qds:standard_code_list>359922007</qds:standard_code_list>
+<qds:standard_code_list>359926005</qds:standard_code_list>
+<qds:standard_code_list>36253005</qds:standard_code_list>
+<qds:standard_code_list>37851009</qds:standard_code_list>
+<qds:standard_code_list>384691004</qds:standard_code_list>
+<qds:standard_code_list>384692006</qds:standard_code_list>
+<qds:standard_code_list>38915000</qds:standard_code_list>
+<qds:standard_code_list>394902000</qds:standard_code_list>
+<qds:standard_code_list>394918006</qds:standard_code_list>
+<qds:standard_code_list>399124002</qds:standard_code_list>
+<qds:standard_code_list>399180008</qds:standard_code_list>
+<qds:standard_code_list>399315003</qds:standard_code_list>
+<qds:standard_code_list>41371003</qds:standard_code_list>
+<qds:standard_code_list>41416003</qds:standard_code_list>
+<qds:standard_code_list>420529003</qds:standard_code_list>
+<qds:standard_code_list>427357007</qds:standard_code_list>
+<qds:standard_code_list>427985002</qds:standard_code_list>
+<qds:standard_code_list>433224001</qds:standard_code_list>
+<qds:standard_code_list>433225000</qds:standard_code_list>
+<qds:standard_code_list>57525009</qds:standard_code_list>
+<qds:standard_code_list>62867004</qds:standard_code_list>
+<qds:standard_code_list>64978007</qds:standard_code_list>
+<qds:standard_code_list>65381004</qds:standard_code_list>
+<qds:standard_code_list>65551008</qds:standard_code_list>
+<qds:standard_code_list>67598001</qds:standard_code_list>
+<qds:standard_code_list>68986004</qds:standard_code_list>
+<qds:standard_code_list>72388004</qds:standard_code_list>
+<qds:standard_code_list>77613002</qds:standard_code_list>
+<qds:standard_code_list>81232004</qds:standard_code_list>
+<qds:standard_code_list>83154001</qds:standard_code_list>
+<qds:standard_code_list>84755001</qds:standard_code_list>
+<qds:standard_code_list>85768003</qds:standard_code_list>
+<qds:standard_code_list>87795007</qds:standard_code_list>
+<qds:standard_code_list>8782006</qds:standard_code_list>
+<qds:standard_code_list>90199006</qds:standard_code_list>
+<qds:standard_code_list>90470006</qds:standard_code_list>
+<qds:standard_code_list>91531008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_570">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_570</qds:QDS_id>
+<qds:standard_concept>Prostate Specific Antigen Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c214</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>84152</qds:standard_code_list>
+<qds:standard_code_list>84153</qds:standard_code_list>
+<qds:standard_code_list>84154</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1338">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1338</qds:QDS_id>
+<qds:standard_concept>Prostate Specific Antigen Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c401</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c214</qds:standard_code_list>
+<qds:standard_code_list>A_c215</qds:standard_code_list>
+<qds:standard_code_list>A_c400</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_572">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_572</qds:QDS_id>
+<qds:standard_concept>Prostate Specific Antigen Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c215</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10508-0</qds:standard_code_list>
+<qds:standard_code_list>10886-0</qds:standard_code_list>
+<qds:standard_code_list>12841-3</qds:standard_code_list>
+<qds:standard_code_list>14120-0</qds:standard_code_list>
+<qds:standard_code_list>15323-9</qds:standard_code_list>
+<qds:standard_code_list>15324-7</qds:standard_code_list>
+<qds:standard_code_list>15325-4</qds:standard_code_list>
+<qds:standard_code_list>19195-7</qds:standard_code_list>
+<qds:standard_code_list>19197-3</qds:standard_code_list>
+<qds:standard_code_list>19198-1</qds:standard_code_list>
+<qds:standard_code_list>19199-9</qds:standard_code_list>
+<qds:standard_code_list>19200-5</qds:standard_code_list>
+<qds:standard_code_list>19201-3</qds:standard_code_list>
+<qds:standard_code_list>19203-9</qds:standard_code_list>
+<qds:standard_code_list>19204-7</qds:standard_code_list>
+<qds:standard_code_list>19205-4</qds:standard_code_list>
+<qds:standard_code_list>19206-2</qds:standard_code_list>
+<qds:standard_code_list>2857-1</qds:standard_code_list>
+<qds:standard_code_list>33667-7</qds:standard_code_list>
+<qds:standard_code_list>34611-4</qds:standard_code_list>
+<qds:standard_code_list>35741-8</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_573">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_573</qds:QDS_id>
+<qds:standard_concept>Prostate Specific Antigen Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>A_c215</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2.27, Released: July 07, 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10508-0</qds:standard_code_list>
+<qds:standard_code_list>10886-0</qds:standard_code_list>
+<qds:standard_code_list>12841-3</qds:standard_code_list>
+<qds:standard_code_list>14120-0</qds:standard_code_list>
+<qds:standard_code_list>15323-9</qds:standard_code_list>
+<qds:standard_code_list>15324-7</qds:standard_code_list>
+<qds:standard_code_list>15325-4</qds:standard_code_list>
+<qds:standard_code_list>19195-7</qds:standard_code_list>
+<qds:standard_code_list>19197-3</qds:standard_code_list>
+<qds:standard_code_list>19198-1</qds:standard_code_list>
+<qds:standard_code_list>19199-9</qds:standard_code_list>
+<qds:standard_code_list>19200-5</qds:standard_code_list>
+<qds:standard_code_list>19201-3</qds:standard_code_list>
+<qds:standard_code_list>19203-9</qds:standard_code_list>
+<qds:standard_code_list>19204-7</qds:standard_code_list>
+<qds:standard_code_list>19205-4</qds:standard_code_list>
+<qds:standard_code_list>19206-2</qds:standard_code_list>
+<qds:standard_code_list>2857-1</qds:standard_code_list>
+<qds:standard_code_list>33667-7</qds:standard_code_list>
+<qds:standard_code_list>34611-4</qds:standard_code_list>
+<qds:standard_code_list>35741-8</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1601">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1601</qds:QDS_id>
+<qds:standard_concept>Prostate Specific Antigen Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c400</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>395145001</qds:standard_code_list>
+<qds:standard_code_list>395146000</qds:standard_code_list>
+<qds:standard_code_list>63476009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1130">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1130</qds:QDS_id>
+<qds:standard_concept>Salvage Therapy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c323</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>55860</qds:standard_code_list>
+<qds:standard_code_list>55862</qds:standard_code_list>
+<qds:standard_code_list>55865</qds:standard_code_list>
+<qds:standard_code_list>55875</qds:standard_code_list>
+<qds:standard_code_list>55876</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1337">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1337</qds:QDS_id>
+<qds:standard_concept>Salvage Therapy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c399</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c323</qds:standard_code_list>
+<qds:standard_code_list>A_c324</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1131">
+<qds:NQF_id>0389</qds:NQF_id>
+<qds:measure_name>Prostate Cancer: Avoidance of Overuse of Bone Scan for Staging Low Risk Prostate Cancer Patients</qds:measure_name>
+<qds:QDS_id>A_1131</qds:QDS_id>
+<qds:standard_concept>Salvage Therapy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>A_c324</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>236209003</qds:standard_code_list>
+<qds:standard_code_list>236211007</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

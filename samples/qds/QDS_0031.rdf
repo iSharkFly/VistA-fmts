@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_100">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_100</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c81</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z12.31</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_101">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_101</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c82</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12389009</qds:standard_code_list>
+<qds:standard_code_list>241055006</qds:standard_code_list>
+<qds:standard_code_list>241056007</qds:standard_code_list>
+<qds:standard_code_list>241057003</qds:standard_code_list>
+<qds:standard_code_list>241058008</qds:standard_code_list>
+<qds:standard_code_list>241189009</qds:standard_code_list>
+<qds:standard_code_list>241539009</qds:standard_code_list>
+<qds:standard_code_list>24623002</qds:standard_code_list>
+<qds:standard_code_list>258172002</qds:standard_code_list>
+<qds:standard_code_list>35482003</qds:standard_code_list>
+<qds:standard_code_list>418074003</qds:standard_code_list>
+<qds:standard_code_list>418378007</qds:standard_code_list>
+<qds:standard_code_list>43204002</qds:standard_code_list>
+<qds:standard_code_list>439324009</qds:standard_code_list>
+<qds:standard_code_list>71651007</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1281">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1281</qds:QDS_id>
+<qds:standard_concept>bilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c46</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19180</qds:standard_code_list>
+<qds:standard_code_list>19200</qds:standard_code_list>
+<qds:standard_code_list>19220</qds:standard_code_list>
+<qds:standard_code_list>19240</qds:standard_code_list>
+<qds:standard_code_list>19303</qds:standard_code_list>
+<qds:standard_code_list>19304</qds:standard_code_list>
+<qds:standard_code_list>19305</qds:standard_code_list>
+<qds:standard_code_list>19306</qds:standard_code_list>
+<qds:standard_code_list>19307</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1282">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1282</qds:QDS_id>
+<qds:standard_concept>bilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c77</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>85.42</qds:standard_code_list>
+<qds:standard_code_list>85.44</qds:standard_code_list>
+<qds:standard_code_list>85.46</qds:standard_code_list>
+<qds:standard_code_list>85.48</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1283">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1283</qds:QDS_id>
+<qds:standard_concept>bilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c83</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14693006</qds:standard_code_list>
+<qds:standard_code_list>14714006</qds:standard_code_list>
+<qds:standard_code_list>17086001</qds:standard_code_list>
+<qds:standard_code_list>172046003</qds:standard_code_list>
+<qds:standard_code_list>172049005</qds:standard_code_list>
+<qds:standard_code_list>22418005</qds:standard_code_list>
+<qds:standard_code_list>237370008</qds:standard_code_list>
+<qds:standard_code_list>27865001</qds:standard_code_list>
+<qds:standard_code_list>287654001</qds:standard_code_list>
+<qds:standard_code_list>359734005</qds:standard_code_list>
+<qds:standard_code_list>359740003</qds:standard_code_list>
+<qds:standard_code_list>367502008</qds:standard_code_list>
+<qds:standard_code_list>384723003</qds:standard_code_list>
+<qds:standard_code_list>395165008</qds:standard_code_list>
+<qds:standard_code_list>52314009</qds:standard_code_list>
+<qds:standard_code_list>59860000</qds:standard_code_list>
+<qds:standard_code_list>60633004</qds:standard_code_list>
+<qds:standard_code_list>66398006</qds:standard_code_list>
+<qds:standard_code_list>76468001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1284">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1284</qds:QDS_id>
+<qds:standard_concept>unilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c79</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19180</qds:standard_code_list>
+<qds:standard_code_list>19200</qds:standard_code_list>
+<qds:standard_code_list>19220</qds:standard_code_list>
+<qds:standard_code_list>19240</qds:standard_code_list>
+<qds:standard_code_list>19303</qds:standard_code_list>
+<qds:standard_code_list>19304</qds:standard_code_list>
+<qds:standard_code_list>19305</qds:standard_code_list>
+<qds:standard_code_list>19306</qds:standard_code_list>
+<qds:standard_code_list>19307</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1285">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1285</qds:QDS_id>
+<qds:standard_concept>unilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c80</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>85.41</qds:standard_code_list>
+<qds:standard_code_list>85.43</qds:standard_code_list>
+<qds:standard_code_list>85.45</qds:standard_code_list>
+<qds:standard_code_list>85.47</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1286">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1286</qds:QDS_id>
+<qds:standard_concept>unilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c85</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>172043006</qds:standard_code_list>
+<qds:standard_code_list>172044000</qds:standard_code_list>
+<qds:standard_code_list>237367009</qds:standard_code_list>
+<qds:standard_code_list>237368004</qds:standard_code_list>
+<qds:standard_code_list>274957008</qds:standard_code_list>
+<qds:standard_code_list>287653007</qds:standard_code_list>
+<qds:standard_code_list>318190001</qds:standard_code_list>
+<qds:standard_code_list>359728003</qds:standard_code_list>
+<qds:standard_code_list>359731002</qds:standard_code_list>
+<qds:standard_code_list>395702000</qds:standard_code_list>
+<qds:standard_code_list>406505007</qds:standard_code_list>
+<qds:standard_code_list>41104003</qds:standard_code_list>
+<qds:standard_code_list>428564008</qds:standard_code_list>
+<qds:standard_code_list>428571003</qds:standard_code_list>
+<qds:standard_code_list>429400009</qds:standard_code_list>
+<qds:standard_code_list>70183006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1939">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1939</qds:QDS_id>
+<qds:standard_concept>bilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c443</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c46</qds:standard_code_list>
+<qds:standard_code_list>N_c77</qds:standard_code_list>
+<qds:standard_code_list>N_c83</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1941">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1941</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c444</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c72</qds:standard_code_list>
+<qds:standard_code_list>N_c73</qds:standard_code_list>
+<qds:standard_code_list>N_c74</qds:standard_code_list>
+<qds:standard_code_list>N_c81</qds:standard_code_list>
+<qds:standard_code_list>N_c82</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1940">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1940</qds:QDS_id>
+<qds:standard_concept>unilateral mastectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c445</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c79</qds:standard_code_list>
+<qds:standard_code_list>N_c80</qds:standard_code_list>
+<qds:standard_code_list>N_c85</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1492">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1492</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1686">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1686</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1938">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1938</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c552</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_381">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_381</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1937">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1937</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_89">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_89</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_90">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_90</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c72</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>76090</qds:standard_code_list>
+<qds:standard_code_list>76091</qds:standard_code_list>
+<qds:standard_code_list>76092</qds:standard_code_list>
+<qds:standard_code_list>77055</qds:standard_code_list>
+<qds:standard_code_list>77056</qds:standard_code_list>
+<qds:standard_code_list>77057</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_91">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_91</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c73</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0202</qds:standard_code_list>
+<qds:standard_code_list>G0204</qds:standard_code_list>
+<qds:standard_code_list>G0206</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_92">
+<qds:NQF_id>0031</qds:NQF_id>
+<qds:measure_name>Breast Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_92</qds:QDS_id>
+<qds:standard_concept>breast cancer screening</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c74</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c554</qds:standard_code_list>
+<qds:standard_code_list>N_c558</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

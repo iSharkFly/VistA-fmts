@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_2024">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2024</qds:QDS_id>
+<qds:standard_concept>alcohol or drug dependence</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c608</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c600</qds:standard_code_list>
+<qds:standard_code_list>c606</qds:standard_code_list>
+<qds:standard_code_list>c607</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2023">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2023</qds:QDS_id>
+<qds:standard_concept>alcohol or drug dependence</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c607</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>F10</qds:standard_code_list>
+<qds:standard_code_list>F10.2</qds:standard_code_list>
+<qds:standard_code_list>F10.22</qds:standard_code_list>
+<qds:standard_code_list>F11</qds:standard_code_list>
+<qds:standard_code_list>F12</qds:standard_code_list>
+<qds:standard_code_list>F13</qds:standard_code_list>
+<qds:standard_code_list>F14</qds:standard_code_list>
+<qds:standard_code_list>F15</qds:standard_code_list>
+<qds:standard_code_list>F16</qds:standard_code_list>
+<qds:standard_code_list>F17</qds:standard_code_list>
+<qds:standard_code_list>F18</qds:standard_code_list>
+<qds:standard_code_list>F19</qds:standard_code_list>
+<qds:standard_code_list>F19.12</qds:standard_code_list>
+<qds:standard_code_list>F19.14</qds:standard_code_list>
+<qds:standard_code_list>F19.15</qds:standard_code_list>
+<qds:standard_code_list>F19.16</qds:standard_code_list>
+<qds:standard_code_list>F19.17</qds:standard_code_list>
+<qds:standard_code_list>F19.18</qds:standard_code_list>
+<qds:standard_code_list>F19.24</qds:standard_code_list>
+<qds:standard_code_list>F19.25</qds:standard_code_list>
+<qds:standard_code_list>F19.29</qds:standard_code_list>
+<qds:standard_code_list>F19.9</qds:standard_code_list>
+<qds:standard_code_list>K29.2</qds:standard_code_list>
+<qds:standard_code_list>K70.1</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2022">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2022</qds:QDS_id>
+<qds:standard_concept>alcohol or drug dependence</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c606</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>291</qds:standard_code_list>
+<qds:standard_code_list>291.0</qds:standard_code_list>
+<qds:standard_code_list>291.1</qds:standard_code_list>
+<qds:standard_code_list>291.2</qds:standard_code_list>
+<qds:standard_code_list>291.3</qds:standard_code_list>
+<qds:standard_code_list>291.4</qds:standard_code_list>
+<qds:standard_code_list>291.5</qds:standard_code_list>
+<qds:standard_code_list>291.8</qds:standard_code_list>
+<qds:standard_code_list>291.81</qds:standard_code_list>
+<qds:standard_code_list>291.82</qds:standard_code_list>
+<qds:standard_code_list>291.89</qds:standard_code_list>
+<qds:standard_code_list>291.9</qds:standard_code_list>
+<qds:standard_code_list>292</qds:standard_code_list>
+<qds:standard_code_list>292.0</qds:standard_code_list>
+<qds:standard_code_list>292.1</qds:standard_code_list>
+<qds:standard_code_list>292.11</qds:standard_code_list>
+<qds:standard_code_list>292.12</qds:standard_code_list>
+<qds:standard_code_list>292.2</qds:standard_code_list>
+<qds:standard_code_list>292.8</qds:standard_code_list>
+<qds:standard_code_list>292.81</qds:standard_code_list>
+<qds:standard_code_list>292.82</qds:standard_code_list>
+<qds:standard_code_list>292.83</qds:standard_code_list>
+<qds:standard_code_list>292.84</qds:standard_code_list>
+<qds:standard_code_list>292.85</qds:standard_code_list>
+<qds:standard_code_list>292.89</qds:standard_code_list>
+<qds:standard_code_list>292.9</qds:standard_code_list>
+<qds:standard_code_list>303.00</qds:standard_code_list>
+<qds:standard_code_list>303.01</qds:standard_code_list>
+<qds:standard_code_list>303.02</qds:standard_code_list>
+<qds:standard_code_list>303.90</qds:standard_code_list>
+<qds:standard_code_list>303.91</qds:standard_code_list>
+<qds:standard_code_list>303.92</qds:standard_code_list>
+<qds:standard_code_list>304.00</qds:standard_code_list>
+<qds:standard_code_list>304.01</qds:standard_code_list>
+<qds:standard_code_list>304.02</qds:standard_code_list>
+<qds:standard_code_list>304.10</qds:standard_code_list>
+<qds:standard_code_list>304.11</qds:standard_code_list>
+<qds:standard_code_list>304.12</qds:standard_code_list>
+<qds:standard_code_list>304.20</qds:standard_code_list>
+<qds:standard_code_list>304.21</qds:standard_code_list>
+<qds:standard_code_list>304.22</qds:standard_code_list>
+<qds:standard_code_list>304.30</qds:standard_code_list>
+<qds:standard_code_list>304.31</qds:standard_code_list>
+<qds:standard_code_list>304.32</qds:standard_code_list>
+<qds:standard_code_list>304.40</qds:standard_code_list>
+<qds:standard_code_list>304.41</qds:standard_code_list>
+<qds:standard_code_list>304.42</qds:standard_code_list>
+<qds:standard_code_list>304.50</qds:standard_code_list>
+<qds:standard_code_list>304.51</qds:standard_code_list>
+<qds:standard_code_list>304.52</qds:standard_code_list>
+<qds:standard_code_list>304.60</qds:standard_code_list>
+<qds:standard_code_list>304.61</qds:standard_code_list>
+<qds:standard_code_list>304.62</qds:standard_code_list>
+<qds:standard_code_list>304.70</qds:standard_code_list>
+<qds:standard_code_list>304.71</qds:standard_code_list>
+<qds:standard_code_list>304.72</qds:standard_code_list>
+<qds:standard_code_list>304.80</qds:standard_code_list>
+<qds:standard_code_list>304.81</qds:standard_code_list>
+<qds:standard_code_list>304.82</qds:standard_code_list>
+<qds:standard_code_list>304.90</qds:standard_code_list>
+<qds:standard_code_list>304.91</qds:standard_code_list>
+<qds:standard_code_list>304.92</qds:standard_code_list>
+<qds:standard_code_list>305.00</qds:standard_code_list>
+<qds:standard_code_list>305.01</qds:standard_code_list>
+<qds:standard_code_list>305.02</qds:standard_code_list>
+<qds:standard_code_list>305.20</qds:standard_code_list>
+<qds:standard_code_list>305.21</qds:standard_code_list>
+<qds:standard_code_list>305.22</qds:standard_code_list>
+<qds:standard_code_list>305.30</qds:standard_code_list>
+<qds:standard_code_list>305.31</qds:standard_code_list>
+<qds:standard_code_list>305.32</qds:standard_code_list>
+<qds:standard_code_list>305.40</qds:standard_code_list>
+<qds:standard_code_list>305.41</qds:standard_code_list>
+<qds:standard_code_list>305.42</qds:standard_code_list>
+<qds:standard_code_list>305.50</qds:standard_code_list>
+<qds:standard_code_list>305.51</qds:standard_code_list>
+<qds:standard_code_list>305.52</qds:standard_code_list>
+<qds:standard_code_list>305.60</qds:standard_code_list>
+<qds:standard_code_list>305.61</qds:standard_code_list>
+<qds:standard_code_list>305.62</qds:standard_code_list>
+<qds:standard_code_list>305.70</qds:standard_code_list>
+<qds:standard_code_list>305.71</qds:standard_code_list>
+<qds:standard_code_list>305.72</qds:standard_code_list>
+<qds:standard_code_list>305.80</qds:standard_code_list>
+<qds:standard_code_list>305.81</qds:standard_code_list>
+<qds:standard_code_list>305.82</qds:standard_code_list>
+<qds:standard_code_list>305.90</qds:standard_code_list>
+<qds:standard_code_list>305.91</qds:standard_code_list>
+<qds:standard_code_list>305.92</qds:standard_code_list>
+<qds:standard_code_list>535.3</qds:standard_code_list>
+<qds:standard_code_list>535.30</qds:standard_code_list>
+<qds:standard_code_list>535.31</qds:standard_code_list>
+<qds:standard_code_list>571.1</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2012">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2012</qds:QDS_id>
+<qds:standard_concept>alcohol or drug dependence</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c600</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>191811004</qds:standard_code_list>
+<qds:standard_code_list>191812006</qds:standard_code_list>
+<qds:standard_code_list>191816009</qds:standard_code_list>
+<qds:standard_code_list>191819002</qds:standard_code_list>
+<qds:standard_code_list>191820008</qds:standard_code_list>
+<qds:standard_code_list>191825003</qds:standard_code_list>
+<qds:standard_code_list>191826002</qds:standard_code_list>
+<qds:standard_code_list>191829009</qds:standard_code_list>
+<qds:standard_code_list>191831000</qds:standard_code_list>
+<qds:standard_code_list>191832007</qds:standard_code_list>
+<qds:standard_code_list>191837001</qds:standard_code_list>
+<qds:standard_code_list>191838006</qds:standard_code_list>
+<qds:standard_code_list>191839003</qds:standard_code_list>
+<qds:standard_code_list>191849000</qds:standard_code_list>
+<qds:standard_code_list>191850000</qds:standard_code_list>
+<qds:standard_code_list>191853003</qds:standard_code_list>
+<qds:standard_code_list>191855005</qds:standard_code_list>
+<qds:standard_code_list>191856006</qds:standard_code_list>
+<qds:standard_code_list>191865004</qds:standard_code_list>
+<qds:standard_code_list>191867007</qds:standard_code_list>
+<qds:standard_code_list>191868002</qds:standard_code_list>
+<qds:standard_code_list>191869005</qds:standard_code_list>
+<qds:standard_code_list>191871005</qds:standard_code_list>
+<qds:standard_code_list>191873008</qds:standard_code_list>
+<qds:standard_code_list>191874002</qds:standard_code_list>
+<qds:standard_code_list>191875001</qds:standard_code_list>
+<qds:standard_code_list>191877009</qds:standard_code_list>
+<qds:standard_code_list>199255000</qds:standard_code_list>
+<qds:standard_code_list>21647008</qds:standard_code_list>
+<qds:standard_code_list>231468005</qds:standard_code_list>
+<qds:standard_code_list>231469002</qds:standard_code_list>
+<qds:standard_code_list>231470001</qds:standard_code_list>
+<qds:standard_code_list>231472009</qds:standard_code_list>
+<qds:standard_code_list>231473004</qds:standard_code_list>
+<qds:standard_code_list>231474005</qds:standard_code_list>
+<qds:standard_code_list>231475006</qds:standard_code_list>
+<qds:standard_code_list>231477003</qds:standard_code_list>
+<qds:standard_code_list>231478008</qds:standard_code_list>
+<qds:standard_code_list>231479000</qds:standard_code_list>
+<qds:standard_code_list>231480002</qds:standard_code_list>
+<qds:standard_code_list>231481003</qds:standard_code_list>
+<qds:standard_code_list>231482005</qds:standard_code_list>
+<qds:standard_code_list>237228001</qds:standard_code_list>
+<qds:standard_code_list>2403008</qds:standard_code_list>
+<qds:standard_code_list>267206008</qds:standard_code_list>
+<qds:standard_code_list>268640002</qds:standard_code_list>
+<qds:standard_code_list>268641003</qds:standard_code_list>
+<qds:standard_code_list>31956009</qds:standard_code_list>
+<qds:standard_code_list>38247002</qds:standard_code_list>
+<qds:standard_code_list>426001001</qds:standard_code_list>
+<qds:standard_code_list>426873000</qds:standard_code_list>
+<qds:standard_code_list>427327003</qds:standard_code_list>
+<qds:standard_code_list>429299000</qds:standard_code_list>
+<qds:standard_code_list>441681009</qds:standard_code_list>
+<qds:standard_code_list>442406005</qds:standard_code_list>
+<qds:standard_code_list>5002000</qds:standard_code_list>
+<qds:standard_code_list>51339003</qds:standard_code_list>
+<qds:standard_code_list>56294008</qds:standard_code_list>
+<qds:standard_code_list>58727001</qds:standard_code_list>
+<qds:standard_code_list>66590003</qds:standard_code_list>
+<qds:standard_code_list>7200002</qds:standard_code_list>
+<qds:standard_code_list>75544000</qds:standard_code_list>
+<qds:standard_code_list>85005007</qds:standard_code_list>
+<qds:standard_code_list>87858002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2062">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2062</qds:QDS_id>
+<qds:standard_concept>Alcohol, drug rehab and detox interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c632</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c602</qds:standard_code_list>
+<qds:standard_code_list>c626</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2052">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2052</qds:QDS_id>
+<qds:standard_concept>Alcohol, drug rehab and detox interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c626</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>94.61</qds:standard_code_list>
+<qds:standard_code_list>94.63</qds:standard_code_list>
+<qds:standard_code_list>94.64</qds:standard_code_list>
+<qds:standard_code_list>94.66</qds:standard_code_list>
+<qds:standard_code_list>94.67</qds:standard_code_list>
+<qds:standard_code_list>94.69</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2014">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2014</qds:QDS_id>
+<qds:standard_concept>Alcohol, drug rehab and detox interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c602</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>20093000</qds:standard_code_list>
+<qds:standard_code_list>23915005</qds:standard_code_list>
+<qds:standard_code_list>35637008</qds:standard_code_list>
+<qds:standard_code_list>52052004</qds:standard_code_list>
+<qds:standard_code_list>56876005</qds:standard_code_list>
+<qds:standard_code_list>62213004</qds:standard_code_list>
+<qds:standard_code_list>78092008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2011">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2011</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2061">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2061</qds:QDS_id>
+<qds:standard_concept>Detoxification interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c631</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c627</qds:standard_code_list>
+<qds:standard_code_list>c630</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2049">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2049</qds:QDS_id>
+<qds:standard_concept>Detoxification interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c627</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>94.62</qds:standard_code_list>
+<qds:standard_code_list>94.65</qds:standard_code_list>
+<qds:standard_code_list>94.68</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2063">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2063</qds:QDS_id>
+<qds:standard_concept>Detoxification interventions</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c630</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>67516001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2060">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2060</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2015">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2015</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2059">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2059</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+<qds:standard_code_list>99315</qds:standard_code_list>
+<qds:standard_code_list>99316</qds:standard_code_list>
+<qds:standard_code_list>99318</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2016">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2016</qds:QDS_id>
+<qds:standard_concept>encounter outpatient BH</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c603</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>90804</qds:standard_code_list>
+<qds:standard_code_list>90805</qds:standard_code_list>
+<qds:standard_code_list>90806</qds:standard_code_list>
+<qds:standard_code_list>90807</qds:standard_code_list>
+<qds:standard_code_list>90808</qds:standard_code_list>
+<qds:standard_code_list>90809</qds:standard_code_list>
+<qds:standard_code_list>90810</qds:standard_code_list>
+<qds:standard_code_list>90811</qds:standard_code_list>
+<qds:standard_code_list>90812</qds:standard_code_list>
+<qds:standard_code_list>90813</qds:standard_code_list>
+<qds:standard_code_list>90814</qds:standard_code_list>
+<qds:standard_code_list>90815</qds:standard_code_list>
+<qds:standard_code_list>98960</qds:standard_code_list>
+<qds:standard_code_list>98961</qds:standard_code_list>
+<qds:standard_code_list>98962</qds:standard_code_list>
+<qds:standard_code_list>99078</qds:standard_code_list>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99408</qds:standard_code_list>
+<qds:standard_code_list>99409</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99510</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2018">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2018</qds:QDS_id>
+<qds:standard_concept>encounter outpt BH req POS</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c604</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>90801</qds:standard_code_list>
+<qds:standard_code_list>90802</qds:standard_code_list>
+<qds:standard_code_list>90816</qds:standard_code_list>
+<qds:standard_code_list>90817</qds:standard_code_list>
+<qds:standard_code_list>90818</qds:standard_code_list>
+<qds:standard_code_list>90819</qds:standard_code_list>
+<qds:standard_code_list>90821</qds:standard_code_list>
+<qds:standard_code_list>90822</qds:standard_code_list>
+<qds:standard_code_list>90823</qds:standard_code_list>
+<qds:standard_code_list>90824</qds:standard_code_list>
+<qds:standard_code_list>90826</qds:standard_code_list>
+<qds:standard_code_list>90827</qds:standard_code_list>
+<qds:standard_code_list>90828</qds:standard_code_list>
+<qds:standard_code_list>90829</qds:standard_code_list>
+<qds:standard_code_list>90845</qds:standard_code_list>
+<qds:standard_code_list>90847</qds:standard_code_list>
+<qds:standard_code_list>90849</qds:standard_code_list>
+<qds:standard_code_list>90853</qds:standard_code_list>
+<qds:standard_code_list>90857</qds:standard_code_list>
+<qds:standard_code_list>90862</qds:standard_code_list>
+<qds:standard_code_list>90875</qds:standard_code_list>
+<qds:standard_code_list>90876</qds:standard_code_list>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2021">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2021</qds:QDS_id>
+<qds:standard_concept>Encounter point of service modifier</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c605</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>03</qds:standard_code_list>
+<qds:standard_code_list>05</qds:standard_code_list>
+<qds:standard_code_list>07</qds:standard_code_list>
+<qds:standard_code_list>09</qds:standard_code_list>
+<qds:standard_code_list>11</qds:standard_code_list>
+<qds:standard_code_list>12</qds:standard_code_list>
+<qds:standard_code_list>13</qds:standard_code_list>
+<qds:standard_code_list>14</qds:standard_code_list>
+<qds:standard_code_list>15</qds:standard_code_list>
+<qds:standard_code_list>20</qds:standard_code_list>
+<qds:standard_code_list>22</qds:standard_code_list>
+<qds:standard_code_list>33</qds:standard_code_list>
+<qds:standard_code_list>49</qds:standard_code_list>
+<qds:standard_code_list>50</qds:standard_code_list>
+<qds:standard_code_list>52</qds:standard_code_list>
+<qds:standard_code_list>53</qds:standard_code_list>
+<qds:standard_code_list>57</qds:standard_code_list>
+<qds:standard_code_list>71</qds:standard_code_list>
+<qds:standard_code_list>72</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2019">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2019</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2020">
+<qds:NQF_id>0004</qds:NQF_id>
+<qds:measure_name>Initiation and Engagement of Alcohol and Other Drug Dependence Treatment: (a)  Initiation, (b) Engagement</qds:measure_name>
+<qds:QDS_id>N_2020</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_2027">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2027</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2028">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2028</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2029">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2029</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2031">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2031</qds:QDS_id>
+<qds:standard_concept>Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c612</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c609</qds:standard_code_list>
+<qds:standard_code_list>c610</qds:standard_code_list>
+<qds:standard_code_list>c611</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2032">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2032</qds:QDS_id>
+<qds:standard_concept>Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c610</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>F31</qds:standard_code_list>
+<qds:standard_code_list>F32.3</qds:standard_code_list>
+<qds:standard_code_list>F33.3</qds:standard_code_list>
+<qds:standard_code_list>F39</qds:standard_code_list>
+<qds:standard_code_list>F43.2</qds:standard_code_list>
+<qds:standard_code_list>F43.23</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2033">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2033</qds:QDS_id>
+<qds:standard_concept>Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c609</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>296.26</qds:standard_code_list>
+<qds:standard_code_list>296.36</qds:standard_code_list>
+<qds:standard_code_list>296.4</qds:standard_code_list>
+<qds:standard_code_list>296.40</qds:standard_code_list>
+<qds:standard_code_list>296.41</qds:standard_code_list>
+<qds:standard_code_list>296.42</qds:standard_code_list>
+<qds:standard_code_list>296.43</qds:standard_code_list>
+<qds:standard_code_list>296.44</qds:standard_code_list>
+<qds:standard_code_list>296.45</qds:standard_code_list>
+<qds:standard_code_list>296.46</qds:standard_code_list>
+<qds:standard_code_list>296.5</qds:standard_code_list>
+<qds:standard_code_list>296.50</qds:standard_code_list>
+<qds:standard_code_list>296.51</qds:standard_code_list>
+<qds:standard_code_list>296.52</qds:standard_code_list>
+<qds:standard_code_list>296.53</qds:standard_code_list>
+<qds:standard_code_list>296.54</qds:standard_code_list>
+<qds:standard_code_list>296.55</qds:standard_code_list>
+<qds:standard_code_list>296.56</qds:standard_code_list>
+<qds:standard_code_list>296.6</qds:standard_code_list>
+<qds:standard_code_list>296.60</qds:standard_code_list>
+<qds:standard_code_list>296.61</qds:standard_code_list>
+<qds:standard_code_list>296.62</qds:standard_code_list>
+<qds:standard_code_list>296.63</qds:standard_code_list>
+<qds:standard_code_list>296.64</qds:standard_code_list>
+<qds:standard_code_list>296.65</qds:standard_code_list>
+<qds:standard_code_list>296.66</qds:standard_code_list>
+<qds:standard_code_list>296.7</qds:standard_code_list>
+<qds:standard_code_list>296.8</qds:standard_code_list>
+<qds:standard_code_list>296.80</qds:standard_code_list>
+<qds:standard_code_list>296.81</qds:standard_code_list>
+<qds:standard_code_list>296.82</qds:standard_code_list>
+<qds:standard_code_list>296.89</qds:standard_code_list>
+<qds:standard_code_list>296.9</qds:standard_code_list>
+<qds:standard_code_list>296.90</qds:standard_code_list>
+<qds:standard_code_list>296.99</qds:standard_code_list>
+<qds:standard_code_list>309.0</qds:standard_code_list>
+<qds:standard_code_list>309.28</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2034">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2034</qds:QDS_id>
+<qds:standard_concept>Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c611</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>1196001</qds:standard_code_list>
+<qds:standard_code_list>15193003</qds:standard_code_list>
+<qds:standard_code_list>15639000</qds:standard_code_list>
+<qds:standard_code_list>16295005</qds:standard_code_list>
+<qds:standard_code_list>18818009</qds:standard_code_list>
+<qds:standard_code_list>191495003</qds:standard_code_list>
+<qds:standard_code_list>191601008</qds:standard_code_list>
+<qds:standard_code_list>191602001</qds:standard_code_list>
+<qds:standard_code_list>191604000</qds:standard_code_list>
+<qds:standard_code_list>191606003</qds:standard_code_list>
+<qds:standard_code_list>191610000</qds:standard_code_list>
+<qds:standard_code_list>191611001</qds:standard_code_list>
+<qds:standard_code_list>191613003</qds:standard_code_list>
+<qds:standard_code_list>191615005</qds:standard_code_list>
+<qds:standard_code_list>191627008</qds:standard_code_list>
+<qds:standard_code_list>191629006</qds:standard_code_list>
+<qds:standard_code_list>191630001</qds:standard_code_list>
+<qds:standard_code_list>191632009</qds:standard_code_list>
+<qds:standard_code_list>191634005</qds:standard_code_list>
+<qds:standard_code_list>191659001</qds:standard_code_list>
+<qds:standard_code_list>191676002</qds:standard_code_list>
+<qds:standard_code_list>192079006</qds:standard_code_list>
+<qds:standard_code_list>192080009</qds:standard_code_list>
+<qds:standard_code_list>19694002</qds:standard_code_list>
+<qds:standard_code_list>20250007</qds:standard_code_list>
+<qds:standard_code_list>22121000</qds:standard_code_list>
+<qds:standard_code_list>22407005</qds:standard_code_list>
+<qds:standard_code_list>231485007</qds:standard_code_list>
+<qds:standard_code_list>231499006</qds:standard_code_list>
+<qds:standard_code_list>231500002</qds:standard_code_list>
+<qds:standard_code_list>231542000</qds:standard_code_list>
+<qds:standard_code_list>237349002</qds:standard_code_list>
+<qds:standard_code_list>237350002</qds:standard_code_list>
+<qds:standard_code_list>247803002</qds:standard_code_list>
+<qds:standard_code_list>2506003</qds:standard_code_list>
+<qds:standard_code_list>25922000</qds:standard_code_list>
+<qds:standard_code_list>2618002</qds:standard_code_list>
+<qds:standard_code_list>26203008</qds:standard_code_list>
+<qds:standard_code_list>268620009</qds:standard_code_list>
+<qds:standard_code_list>268621008</qds:standard_code_list>
+<qds:standard_code_list>274948002</qds:standard_code_list>
+<qds:standard_code_list>279225001</qds:standard_code_list>
+<qds:standard_code_list>28475009</qds:standard_code_list>
+<qds:standard_code_list>29929003</qds:standard_code_list>
+<qds:standard_code_list>300706003</qds:standard_code_list>
+<qds:standard_code_list>30687003</qds:standard_code_list>
+<qds:standard_code_list>310495003</qds:standard_code_list>
+<qds:standard_code_list>310496002</qds:standard_code_list>
+<qds:standard_code_list>310497006</qds:standard_code_list>
+<qds:standard_code_list>3109008</qds:standard_code_list>
+<qds:standard_code_list>319768000</qds:standard_code_list>
+<qds:standard_code_list>320751009</qds:standard_code_list>
+<qds:standard_code_list>321717001</qds:standard_code_list>
+<qds:standard_code_list>33078009</qds:standard_code_list>
+<qds:standard_code_list>33135002</qds:standard_code_list>
+<qds:standard_code_list>33736005</qds:standard_code_list>
+<qds:standard_code_list>34315001</qds:standard_code_list>
+<qds:standard_code_list>35489007</qds:standard_code_list>
+<qds:standard_code_list>357705009</qds:standard_code_list>
+<qds:standard_code_list>36170009</qds:standard_code_list>
+<qds:standard_code_list>36474008</qds:standard_code_list>
+<qds:standard_code_list>36923009</qds:standard_code_list>
+<qds:standard_code_list>370143000</qds:standard_code_list>
+<qds:standard_code_list>38451003</qds:standard_code_list>
+<qds:standard_code_list>39809009</qds:standard_code_list>
+<qds:standard_code_list>40379007</qds:standard_code_list>
+<qds:standard_code_list>40568001</qds:standard_code_list>
+<qds:standard_code_list>426578000</qds:standard_code_list>
+<qds:standard_code_list>42810003</qds:standard_code_list>
+<qds:standard_code_list>42925002</qds:standard_code_list>
+<qds:standard_code_list>430852001</qds:standard_code_list>
+<qds:standard_code_list>43568002</qds:standard_code_list>
+<qds:standard_code_list>442057004</qds:standard_code_list>
+<qds:standard_code_list>46244001</qds:standard_code_list>
+<qds:standard_code_list>48589009</qds:standard_code_list>
+<qds:standard_code_list>49468007</qds:standard_code_list>
+<qds:standard_code_list>49512000</qds:standard_code_list>
+<qds:standard_code_list>51637008</qds:standard_code_list>
+<qds:standard_code_list>53607008</qds:standard_code_list>
+<qds:standard_code_list>54761006</qds:standard_code_list>
+<qds:standard_code_list>58703003</qds:standard_code_list>
+<qds:standard_code_list>596004</qds:standard_code_list>
+<qds:standard_code_list>59617007</qds:standard_code_list>
+<qds:standard_code_list>60099002</qds:standard_code_list>
+<qds:standard_code_list>61403008</qds:standard_code_list>
+<qds:standard_code_list>66344007</qds:standard_code_list>
+<qds:standard_code_list>66631006</qds:standard_code_list>
+<qds:standard_code_list>67711008</qds:standard_code_list>
+<qds:standard_code_list>68019004</qds:standard_code_list>
+<qds:standard_code_list>71336009</qds:standard_code_list>
+<qds:standard_code_list>73867007</qds:standard_code_list>
+<qds:standard_code_list>74686005</qds:standard_code_list>
+<qds:standard_code_list>75084000</qds:standard_code_list>
+<qds:standard_code_list>75752004</qds:standard_code_list>
+<qds:standard_code_list>76441001</qds:standard_code_list>
+<qds:standard_code_list>77911002</qds:standard_code_list>
+<qds:standard_code_list>78667006</qds:standard_code_list>
+<qds:standard_code_list>79842004</qds:standard_code_list>
+<qds:standard_code_list>82218004</qds:standard_code_list>
+<qds:standard_code_list>83176005</qds:standard_code_list>
+<qds:standard_code_list>832007</qds:standard_code_list>
+<qds:standard_code_list>83458005</qds:standard_code_list>
+<qds:standard_code_list>84760002</qds:standard_code_list>
+<qds:standard_code_list>84788008</qds:standard_code_list>
+<qds:standard_code_list>85080004</qds:standard_code_list>
+<qds:standard_code_list>87414006</qds:standard_code_list>
+<qds:standard_code_list>87512008</qds:standard_code_list>
+<qds:standard_code_list>87842000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2035">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2035</qds:QDS_id>
+<qds:standard_concept>Major Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c616</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c613</qds:standard_code_list>
+<qds:standard_code_list>c614</qds:standard_code_list>
+<qds:standard_code_list>c615</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2036">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2036</qds:QDS_id>
+<qds:standard_concept>Major Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c614</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>F30</qds:standard_code_list>
+<qds:standard_code_list>F30.2</qds:standard_code_list>
+<qds:standard_code_list>F32</qds:standard_code_list>
+<qds:standard_code_list>F33</qds:standard_code_list>
+<qds:standard_code_list>F33.0</qds:standard_code_list>
+<qds:standard_code_list>F33.1</qds:standard_code_list>
+<qds:standard_code_list>F33.2</qds:standard_code_list>
+<qds:standard_code_list>F33.3</qds:standard_code_list>
+<qds:standard_code_list>F33.9</qds:standard_code_list>
+<qds:standard_code_list>F34.1</qds:standard_code_list>
+<qds:standard_code_list>F34.9</qds:standard_code_list>
+<qds:standard_code_list>F43.21</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2037">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2037</qds:QDS_id>
+<qds:standard_concept>Major Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c613</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>296.20</qds:standard_code_list>
+<qds:standard_code_list>296.21</qds:standard_code_list>
+<qds:standard_code_list>296.22</qds:standard_code_list>
+<qds:standard_code_list>296.23</qds:standard_code_list>
+<qds:standard_code_list>296.24</qds:standard_code_list>
+<qds:standard_code_list>296.25</qds:standard_code_list>
+<qds:standard_code_list>296.30</qds:standard_code_list>
+<qds:standard_code_list>296.31</qds:standard_code_list>
+<qds:standard_code_list>296.32</qds:standard_code_list>
+<qds:standard_code_list>296.33</qds:standard_code_list>
+<qds:standard_code_list>296.34</qds:standard_code_list>
+<qds:standard_code_list>296.35</qds:standard_code_list>
+<qds:standard_code_list>298.0</qds:standard_code_list>
+<qds:standard_code_list>300.4</qds:standard_code_list>
+<qds:standard_code_list>309.1</qds:standard_code_list>
+<qds:standard_code_list>311</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2038">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2038</qds:QDS_id>
+<qds:standard_concept>Major Depression</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c615</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14183003</qds:standard_code_list>
+<qds:standard_code_list>15193003</qds:standard_code_list>
+<qds:standard_code_list>15639000</qds:standard_code_list>
+<qds:standard_code_list>18818009</qds:standard_code_list>
+<qds:standard_code_list>191610000</qds:standard_code_list>
+<qds:standard_code_list>191611001</qds:standard_code_list>
+<qds:standard_code_list>191613003</qds:standard_code_list>
+<qds:standard_code_list>191615005</qds:standard_code_list>
+<qds:standard_code_list>19527009</qds:standard_code_list>
+<qds:standard_code_list>20250007</qds:standard_code_list>
+<qds:standard_code_list>25922000</qds:standard_code_list>
+<qds:standard_code_list>2618002</qds:standard_code_list>
+<qds:standard_code_list>268621008</qds:standard_code_list>
+<qds:standard_code_list>28475009</qds:standard_code_list>
+<qds:standard_code_list>30605009</qds:standard_code_list>
+<qds:standard_code_list>319768000</qds:standard_code_list>
+<qds:standard_code_list>320751009</qds:standard_code_list>
+<qds:standard_code_list>33078009</qds:standard_code_list>
+<qds:standard_code_list>33135002</qds:standard_code_list>
+<qds:standard_code_list>33736005</qds:standard_code_list>
+<qds:standard_code_list>35489007</qds:standard_code_list>
+<qds:standard_code_list>36474008</qds:standard_code_list>
+<qds:standard_code_list>36923009</qds:standard_code_list>
+<qds:standard_code_list>370143000</qds:standard_code_list>
+<qds:standard_code_list>38694004</qds:standard_code_list>
+<qds:standard_code_list>39809009</qds:standard_code_list>
+<qds:standard_code_list>40379007</qds:standard_code_list>
+<qds:standard_code_list>42810003</qds:standard_code_list>
+<qds:standard_code_list>42925002</qds:standard_code_list>
+<qds:standard_code_list>430852001</qds:standard_code_list>
+<qds:standard_code_list>46244001</qds:standard_code_list>
+<qds:standard_code_list>60099002</qds:standard_code_list>
+<qds:standard_code_list>63412003</qds:standard_code_list>
+<qds:standard_code_list>63778009</qds:standard_code_list>
+<qds:standard_code_list>66344007</qds:standard_code_list>
+<qds:standard_code_list>68019004</qds:standard_code_list>
+<qds:standard_code_list>69392006</qds:standard_code_list>
+<qds:standard_code_list>70747007</qds:standard_code_list>
+<qds:standard_code_list>71336009</qds:standard_code_list>
+<qds:standard_code_list>73867007</qds:standard_code_list>
+<qds:standard_code_list>75084000</qds:standard_code_list>
+<qds:standard_code_list>76441001</qds:standard_code_list>
+<qds:standard_code_list>77911002</qds:standard_code_list>
+<qds:standard_code_list>79298009</qds:standard_code_list>
+<qds:standard_code_list>832007</qds:standard_code_list>
+<qds:standard_code_list>87512008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2039">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2039</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2040">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2040</qds:QDS_id>
+<qds:standard_concept>Antidepressant Medications</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c625</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c617</qds:standard_code_list>
+<qds:standard_code_list>c618</qds:standard_code_list>
+<qds:standard_code_list>c619</qds:standard_code_list>
+<qds:standard_code_list>c620</qds:standard_code_list>
+<qds:standard_code_list>c621</qds:standard_code_list>
+<qds:standard_code_list>c622</qds:standard_code_list>
+<qds:standard_code_list>c623</qds:standard_code_list>
+<qds:standard_code_list>c624</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2041">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2041</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c617</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199676</qds:standard_code_list>
+<qds:standard_code_list>199677</qds:standard_code_list>
+<qds:standard_code_list>260278</qds:standard_code_list>
+<qds:standard_code_list>260279</qds:standard_code_list>
+<qds:standard_code_list>403917</qds:standard_code_list>
+<qds:standard_code_list>403918</qds:standard_code_list>
+<qds:standard_code_list>434428</qds:standard_code_list>
+<qds:standard_code_list>484425</qds:standard_code_list>
+<qds:standard_code_list>636353</qds:standard_code_list>
+<qds:standard_code_list>636354</qds:standard_code_list>
+<qds:standard_code_list>700622</qds:standard_code_list>
+<qds:standard_code_list>803402</qds:standard_code_list>
+<qds:standard_code_list>803404</qds:standard_code_list>
+<qds:standard_code_list>803406</qds:standard_code_list>
+<qds:standard_code_list>844970</qds:standard_code_list>
+<qds:standard_code_list>845133</qds:standard_code_list>
+<qds:standard_code_list>845134</qds:standard_code_list>
+<qds:standard_code_list>845135</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2042">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2042</qds:QDS_id>
+<qds:standard_concept>Phenylpiperazine antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c619</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>204453</qds:standard_code_list>
+<qds:standard_code_list>204454</qds:standard_code_list>
+<qds:standard_code_list>204455</qds:standard_code_list>
+<qds:standard_code_list>204456</qds:standard_code_list>
+<qds:standard_code_list>311923</qds:standard_code_list>
+<qds:standard_code_list>351128</qds:standard_code_list>
+<qds:standard_code_list>856364</qds:standard_code_list>
+<qds:standard_code_list>856369</qds:standard_code_list>
+<qds:standard_code_list>856373</qds:standard_code_list>
+<qds:standard_code_list>856377</qds:standard_code_list>
+<qds:standard_code_list>856381</qds:standard_code_list>
+<qds:standard_code_list>856382</qds:standard_code_list>
+<qds:standard_code_list>856383</qds:standard_code_list>
+<qds:standard_code_list>898697</qds:standard_code_list>
+<qds:standard_code_list>898702</qds:standard_code_list>
+<qds:standard_code_list>898704</qds:standard_code_list>
+<qds:standard_code_list>898707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2043">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2043</qds:QDS_id>
+<qds:standard_concept>SSNRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c621</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>313580</qds:standard_code_list>
+<qds:standard_code_list>313581</qds:standard_code_list>
+<qds:standard_code_list>313582</qds:standard_code_list>
+<qds:standard_code_list>313583</qds:standard_code_list>
+<qds:standard_code_list>313584</qds:standard_code_list>
+<qds:standard_code_list>313585</qds:standard_code_list>
+<qds:standard_code_list>313586</qds:standard_code_list>
+<qds:standard_code_list>314277</qds:standard_code_list>
+<qds:standard_code_list>411815</qds:standard_code_list>
+<qds:standard_code_list>411816</qds:standard_code_list>
+<qds:standard_code_list>431737</qds:standard_code_list>
+<qds:standard_code_list>431753</qds:standard_code_list>
+<qds:standard_code_list>431754</qds:standard_code_list>
+<qds:standard_code_list>596926</qds:standard_code_list>
+<qds:standard_code_list>596930</qds:standard_code_list>
+<qds:standard_code_list>596934</qds:standard_code_list>
+<qds:standard_code_list>616402</qds:standard_code_list>
+<qds:standard_code_list>790264</qds:standard_code_list>
+<qds:standard_code_list>790288</qds:standard_code_list>
+<qds:standard_code_list>801849</qds:standard_code_list>
+<qds:standard_code_list>803408</qds:standard_code_list>
+<qds:standard_code_list>803409</qds:standard_code_list>
+<qds:standard_code_list>808744</qds:standard_code_list>
+<qds:standard_code_list>808748</qds:standard_code_list>
+<qds:standard_code_list>808751</qds:standard_code_list>
+<qds:standard_code_list>808753</qds:standard_code_list>
+<qds:standard_code_list>844817</qds:standard_code_list>
+<qds:standard_code_list>845104</qds:standard_code_list>
+<qds:standard_code_list>845106</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2044">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2044</qds:QDS_id>
+<qds:standard_concept>SSRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c622</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>151260</qds:standard_code_list>
+<qds:standard_code_list>200371</qds:standard_code_list>
+<qds:standard_code_list>248642</qds:standard_code_list>
+<qds:standard_code_list>251200</qds:standard_code_list>
+<qds:standard_code_list>283672</qds:standard_code_list>
+<qds:standard_code_list>309313</qds:standard_code_list>
+<qds:standard_code_list>309314</qds:standard_code_list>
+<qds:standard_code_list>310384</qds:standard_code_list>
+<qds:standard_code_list>310385</qds:standard_code_list>
+<qds:standard_code_list>312241</qds:standard_code_list>
+<qds:standard_code_list>312242</qds:standard_code_list>
+<qds:standard_code_list>312243</qds:standard_code_list>
+<qds:standard_code_list>312244</qds:standard_code_list>
+<qds:standard_code_list>312938</qds:standard_code_list>
+<qds:standard_code_list>312940</qds:standard_code_list>
+<qds:standard_code_list>312941</qds:standard_code_list>
+<qds:standard_code_list>313989</qds:standard_code_list>
+<qds:standard_code_list>313990</qds:standard_code_list>
+<qds:standard_code_list>313995</qds:standard_code_list>
+<qds:standard_code_list>314199</qds:standard_code_list>
+<qds:standard_code_list>349332</qds:standard_code_list>
+<qds:standard_code_list>351249</qds:standard_code_list>
+<qds:standard_code_list>351250</qds:standard_code_list>
+<qds:standard_code_list>351285</qds:standard_code_list>
+<qds:standard_code_list>389202</qds:standard_code_list>
+<qds:standard_code_list>541357</qds:standard_code_list>
+<qds:standard_code_list>562790</qds:standard_code_list>
+<qds:standard_code_list>562791</qds:standard_code_list>
+<qds:standard_code_list>562815</qds:standard_code_list>
+<qds:standard_code_list>645289</qds:standard_code_list>
+<qds:standard_code_list>645290</qds:standard_code_list>
+<qds:standard_code_list>645291</qds:standard_code_list>
+<qds:standard_code_list>730440</qds:standard_code_list>
+<qds:standard_code_list>730441</qds:standard_code_list>
+<qds:standard_code_list>730442</qds:standard_code_list>
+<qds:standard_code_list>794947</qds:standard_code_list>
+<qds:standard_code_list>803293</qds:standard_code_list>
+<qds:standard_code_list>826098</qds:standard_code_list>
+<qds:standard_code_list>826103</qds:standard_code_list>
+<qds:standard_code_list>861064</qds:standard_code_list>
+<qds:standard_code_list>902714</qds:standard_code_list>
+<qds:standard_code_list>902718</qds:standard_code_list>
+<qds:standard_code_list>903873</qds:standard_code_list>
+<qds:standard_code_list>903876</qds:standard_code_list>
+<qds:standard_code_list>903879</qds:standard_code_list>
+<qds:standard_code_list>903882</qds:standard_code_list>
+<qds:standard_code_list>903884</qds:standard_code_list>
+<qds:standard_code_list>903887</qds:standard_code_list>
+<qds:standard_code_list>903891</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2045">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2045</qds:QDS_id>
+<qds:standard_concept>Tetracyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c623</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104817</qds:standard_code_list>
+<qds:standard_code_list>197909</qds:standard_code_list>
+<qds:standard_code_list>197910</qds:standard_code_list>
+<qds:standard_code_list>197911</qds:standard_code_list>
+<qds:standard_code_list>283406</qds:standard_code_list>
+<qds:standard_code_list>283407</qds:standard_code_list>
+<qds:standard_code_list>283485</qds:standard_code_list>
+<qds:standard_code_list>311725</qds:standard_code_list>
+<qds:standard_code_list>311726</qds:standard_code_list>
+<qds:standard_code_list>314111</qds:standard_code_list>
+<qds:standard_code_list>476809</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2046">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2046</qds:QDS_id>
+<qds:standard_concept>Tricyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c624</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197363</qds:standard_code_list>
+<qds:standard_code_list>197364</qds:standard_code_list>
+<qds:standard_code_list>197365</qds:standard_code_list>
+<qds:standard_code_list>197366</qds:standard_code_list>
+<qds:standard_code_list>197565</qds:standard_code_list>
+<qds:standard_code_list>197566</qds:standard_code_list>
+<qds:standard_code_list>197567</qds:standard_code_list>
+<qds:standard_code_list>197568</qds:standard_code_list>
+<qds:standard_code_list>197569</qds:standard_code_list>
+<qds:standard_code_list>197570</qds:standard_code_list>
+<qds:standard_code_list>197629</qds:standard_code_list>
+<qds:standard_code_list>197630</qds:standard_code_list>
+<qds:standard_code_list>197631</qds:standard_code_list>
+<qds:standard_code_list>197632</qds:standard_code_list>
+<qds:standard_code_list>198045</qds:standard_code_list>
+<qds:standard_code_list>198046</qds:standard_code_list>
+<qds:standard_code_list>198047</qds:standard_code_list>
+<qds:standard_code_list>199283</qds:standard_code_list>
+<qds:standard_code_list>199406</qds:standard_code_list>
+<qds:standard_code_list>199820</qds:standard_code_list>
+<qds:standard_code_list>250033</qds:standard_code_list>
+<qds:standard_code_list>309671</qds:standard_code_list>
+<qds:standard_code_list>309672</qds:standard_code_list>
+<qds:standard_code_list>310019</qds:standard_code_list>
+<qds:standard_code_list>310020</qds:standard_code_list>
+<qds:standard_code_list>310021</qds:standard_code_list>
+<qds:standard_code_list>310022</qds:standard_code_list>
+<qds:standard_code_list>312036</qds:standard_code_list>
+<qds:standard_code_list>313496</qds:standard_code_list>
+<qds:standard_code_list>313498</qds:standard_code_list>
+<qds:standard_code_list>313499</qds:standard_code_list>
+<qds:standard_code_list>317136</qds:standard_code_list>
+<qds:standard_code_list>484938</qds:standard_code_list>
+<qds:standard_code_list>835564</qds:standard_code_list>
+<qds:standard_code_list>835568</qds:standard_code_list>
+<qds:standard_code_list>835572</qds:standard_code_list>
+<qds:standard_code_list>835577</qds:standard_code_list>
+<qds:standard_code_list>835582</qds:standard_code_list>
+<qds:standard_code_list>835586</qds:standard_code_list>
+<qds:standard_code_list>835589</qds:standard_code_list>
+<qds:standard_code_list>835591</qds:standard_code_list>
+<qds:standard_code_list>835593</qds:standard_code_list>
+<qds:standard_code_list>856762</qds:standard_code_list>
+<qds:standard_code_list>856773</qds:standard_code_list>
+<qds:standard_code_list>856783</qds:standard_code_list>
+<qds:standard_code_list>856834</qds:standard_code_list>
+<qds:standard_code_list>856845</qds:standard_code_list>
+<qds:standard_code_list>856853</qds:standard_code_list>
+<qds:standard_code_list>856859</qds:standard_code_list>
+<qds:standard_code_list>856862</qds:standard_code_list>
+<qds:standard_code_list>856865</qds:standard_code_list>
+<qds:standard_code_list>856867</qds:standard_code_list>
+<qds:standard_code_list>856868</qds:standard_code_list>
+<qds:standard_code_list>857289</qds:standard_code_list>
+<qds:standard_code_list>857292</qds:standard_code_list>
+<qds:standard_code_list>857297</qds:standard_code_list>
+<qds:standard_code_list>857301</qds:standard_code_list>
+<qds:standard_code_list>857305</qds:standard_code_list>
+<qds:standard_code_list>857326</qds:standard_code_list>
+<qds:standard_code_list>865143</qds:standard_code_list>
+<qds:standard_code_list>865146</qds:standard_code_list>
+<qds:standard_code_list>892742</qds:standard_code_list>
+<qds:standard_code_list>894755</qds:standard_code_list>
+<qds:standard_code_list>894759</qds:standard_code_list>
+<qds:standard_code_list>894763</qds:standard_code_list>
+<qds:standard_code_list>905168</qds:standard_code_list>
+<qds:standard_code_list>905172</qds:standard_code_list>
+<qds:standard_code_list>966787</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2047">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2047</qds:QDS_id>
+<qds:standard_concept>Monoamine Oxidase Inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c618</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104837</qds:standard_code_list>
+<qds:standard_code_list>312347</qds:standard_code_list>
+<qds:standard_code_list>313447</qds:standard_code_list>
+<qds:standard_code_list>859186</qds:standard_code_list>
+<qds:standard_code_list>859190</qds:standard_code_list>
+<qds:standard_code_list>859193</qds:standard_code_list>
+<qds:standard_code_list>865206</qds:standard_code_list>
+<qds:standard_code_list>865210</qds:standard_code_list>
+<qds:standard_code_list>865214</qds:standard_code_list>
+<qds:standard_code_list>865218</qds:standard_code_list>
+<qds:standard_code_list>865220</qds:standard_code_list>
+<qds:standard_code_list>865222</qds:standard_code_list>
+<qds:standard_code_list>880383</qds:standard_code_list>
+<qds:standard_code_list>897069</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2048">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2048</qds:QDS_id>
+<qds:standard_concept>Psychotherapeutic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c620</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>403969</qds:standard_code_list>
+<qds:standard_code_list>403970</qds:standard_code_list>
+<qds:standard_code_list>403971</qds:standard_code_list>
+<qds:standard_code_list>403972</qds:standard_code_list>
+<qds:standard_code_list>721787</qds:standard_code_list>
+<qds:standard_code_list>856706</qds:standard_code_list>
+<qds:standard_code_list>856720</qds:standard_code_list>
+<qds:standard_code_list>856769</qds:standard_code_list>
+<qds:standard_code_list>856792</qds:standard_code_list>
+<qds:standard_code_list>856797</qds:standard_code_list>
+<qds:standard_code_list>856825</qds:standard_code_list>
+<qds:standard_code_list>856840</qds:standard_code_list>
+<qds:standard_code_list>856863</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2054">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2054</qds:QDS_id>
+<qds:standard_concept>encounter outpatient BH</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c603</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>90804</qds:standard_code_list>
+<qds:standard_code_list>90805</qds:standard_code_list>
+<qds:standard_code_list>90806</qds:standard_code_list>
+<qds:standard_code_list>90807</qds:standard_code_list>
+<qds:standard_code_list>90808</qds:standard_code_list>
+<qds:standard_code_list>90809</qds:standard_code_list>
+<qds:standard_code_list>90810</qds:standard_code_list>
+<qds:standard_code_list>90811</qds:standard_code_list>
+<qds:standard_code_list>90812</qds:standard_code_list>
+<qds:standard_code_list>90813</qds:standard_code_list>
+<qds:standard_code_list>90814</qds:standard_code_list>
+<qds:standard_code_list>90815</qds:standard_code_list>
+<qds:standard_code_list>98960</qds:standard_code_list>
+<qds:standard_code_list>98961</qds:standard_code_list>
+<qds:standard_code_list>98962</qds:standard_code_list>
+<qds:standard_code_list>99078</qds:standard_code_list>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99408</qds:standard_code_list>
+<qds:standard_code_list>99409</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99510</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2055">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2055</qds:QDS_id>
+<qds:standard_concept>encounter outpt BH req POS</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c604</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>90801</qds:standard_code_list>
+<qds:standard_code_list>90802</qds:standard_code_list>
+<qds:standard_code_list>90816</qds:standard_code_list>
+<qds:standard_code_list>90817</qds:standard_code_list>
+<qds:standard_code_list>90818</qds:standard_code_list>
+<qds:standard_code_list>90819</qds:standard_code_list>
+<qds:standard_code_list>90821</qds:standard_code_list>
+<qds:standard_code_list>90822</qds:standard_code_list>
+<qds:standard_code_list>90823</qds:standard_code_list>
+<qds:standard_code_list>90824</qds:standard_code_list>
+<qds:standard_code_list>90826</qds:standard_code_list>
+<qds:standard_code_list>90827</qds:standard_code_list>
+<qds:standard_code_list>90828</qds:standard_code_list>
+<qds:standard_code_list>90829</qds:standard_code_list>
+<qds:standard_code_list>90845</qds:standard_code_list>
+<qds:standard_code_list>90847</qds:standard_code_list>
+<qds:standard_code_list>90849</qds:standard_code_list>
+<qds:standard_code_list>90853</qds:standard_code_list>
+<qds:standard_code_list>90857</qds:standard_code_list>
+<qds:standard_code_list>90862</qds:standard_code_list>
+<qds:standard_code_list>90875</qds:standard_code_list>
+<qds:standard_code_list>90876</qds:standard_code_list>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2056">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2056</qds:QDS_id>
+<qds:standard_concept>Encounter point of service modifier</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c605</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>03</qds:standard_code_list>
+<qds:standard_code_list>05</qds:standard_code_list>
+<qds:standard_code_list>07</qds:standard_code_list>
+<qds:standard_code_list>09</qds:standard_code_list>
+<qds:standard_code_list>11</qds:standard_code_list>
+<qds:standard_code_list>12</qds:standard_code_list>
+<qds:standard_code_list>13</qds:standard_code_list>
+<qds:standard_code_list>14</qds:standard_code_list>
+<qds:standard_code_list>15</qds:standard_code_list>
+<qds:standard_code_list>20</qds:standard_code_list>
+<qds:standard_code_list>22</qds:standard_code_list>
+<qds:standard_code_list>33</qds:standard_code_list>
+<qds:standard_code_list>49</qds:standard_code_list>
+<qds:standard_code_list>50</qds:standard_code_list>
+<qds:standard_code_list>52</qds:standard_code_list>
+<qds:standard_code_list>53</qds:standard_code_list>
+<qds:standard_code_list>57</qds:standard_code_list>
+<qds:standard_code_list>71</qds:standard_code_list>
+<qds:standard_code_list>72</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2057">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2057</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+<qds:standard_code_list>99315</qds:standard_code_list>
+<qds:standard_code_list>99316</qds:standard_code_list>
+<qds:standard_code_list>99318</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2058">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase Treatment, (b) Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2058</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2104">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2104</qds:QDS_id>
+<qds:standard_concept>Antidepressant Medications</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c625</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_code_list>c617</qds:standard_code_list>
+<qds:standard_code_list>c618</qds:standard_code_list>
+<qds:standard_code_list>c619</qds:standard_code_list>
+<qds:standard_code_list>c620</qds:standard_code_list>
+<qds:standard_code_list>c621</qds:standard_code_list>
+<qds:standard_code_list>c622</qds:standard_code_list>
+<qds:standard_code_list>c623</qds:standard_code_list>
+<qds:standard_code_list>c624</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2105">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2105</qds:QDS_id>
+<qds:standard_concept>Antidepressant Medications</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c625</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_code_list>c617</qds:standard_code_list>
+<qds:standard_code_list>c618</qds:standard_code_list>
+<qds:standard_code_list>c619</qds:standard_code_list>
+<qds:standard_code_list>c620</qds:standard_code_list>
+<qds:standard_code_list>c621</qds:standard_code_list>
+<qds:standard_code_list>c622</qds:standard_code_list>
+<qds:standard_code_list>c623</qds:standard_code_list>
+<qds:standard_code_list>c624</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2106">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2106</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c617</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>199676</qds:standard_code_list>
+<qds:standard_code_list>199677</qds:standard_code_list>
+<qds:standard_code_list>260278</qds:standard_code_list>
+<qds:standard_code_list>260279</qds:standard_code_list>
+<qds:standard_code_list>403917</qds:standard_code_list>
+<qds:standard_code_list>403918</qds:standard_code_list>
+<qds:standard_code_list>434428</qds:standard_code_list>
+<qds:standard_code_list>484425</qds:standard_code_list>
+<qds:standard_code_list>636353</qds:standard_code_list>
+<qds:standard_code_list>636354</qds:standard_code_list>
+<qds:standard_code_list>700622</qds:standard_code_list>
+<qds:standard_code_list>803402</qds:standard_code_list>
+<qds:standard_code_list>803404</qds:standard_code_list>
+<qds:standard_code_list>803406</qds:standard_code_list>
+<qds:standard_code_list>844970</qds:standard_code_list>
+<qds:standard_code_list>845133</qds:standard_code_list>
+<qds:standard_code_list>845134</qds:standard_code_list>
+<qds:standard_code_list>845135</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2107">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2107</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c617</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>199676</qds:standard_code_list>
+<qds:standard_code_list>199677</qds:standard_code_list>
+<qds:standard_code_list>260278</qds:standard_code_list>
+<qds:standard_code_list>260279</qds:standard_code_list>
+<qds:standard_code_list>403917</qds:standard_code_list>
+<qds:standard_code_list>403918</qds:standard_code_list>
+<qds:standard_code_list>434428</qds:standard_code_list>
+<qds:standard_code_list>484425</qds:standard_code_list>
+<qds:standard_code_list>636353</qds:standard_code_list>
+<qds:standard_code_list>636354</qds:standard_code_list>
+<qds:standard_code_list>700622</qds:standard_code_list>
+<qds:standard_code_list>803402</qds:standard_code_list>
+<qds:standard_code_list>803404</qds:standard_code_list>
+<qds:standard_code_list>803406</qds:standard_code_list>
+<qds:standard_code_list>844970</qds:standard_code_list>
+<qds:standard_code_list>845133</qds:standard_code_list>
+<qds:standard_code_list>845134</qds:standard_code_list>
+<qds:standard_code_list>845135</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2108">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2108</qds:QDS_id>
+<qds:standard_concept>Monoamine Oxidase Inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c618</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>104837</qds:standard_code_list>
+<qds:standard_code_list>312347</qds:standard_code_list>
+<qds:standard_code_list>313447</qds:standard_code_list>
+<qds:standard_code_list>859186</qds:standard_code_list>
+<qds:standard_code_list>859190</qds:standard_code_list>
+<qds:standard_code_list>859193</qds:standard_code_list>
+<qds:standard_code_list>865206</qds:standard_code_list>
+<qds:standard_code_list>865210</qds:standard_code_list>
+<qds:standard_code_list>865214</qds:standard_code_list>
+<qds:standard_code_list>865218</qds:standard_code_list>
+<qds:standard_code_list>865220</qds:standard_code_list>
+<qds:standard_code_list>865222</qds:standard_code_list>
+<qds:standard_code_list>880383</qds:standard_code_list>
+<qds:standard_code_list>897069</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2109">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2109</qds:QDS_id>
+<qds:standard_concept>Monoamine Oxidase Inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c618</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>104837</qds:standard_code_list>
+<qds:standard_code_list>312347</qds:standard_code_list>
+<qds:standard_code_list>313447</qds:standard_code_list>
+<qds:standard_code_list>859186</qds:standard_code_list>
+<qds:standard_code_list>859190</qds:standard_code_list>
+<qds:standard_code_list>859193</qds:standard_code_list>
+<qds:standard_code_list>865206</qds:standard_code_list>
+<qds:standard_code_list>865210</qds:standard_code_list>
+<qds:standard_code_list>865214</qds:standard_code_list>
+<qds:standard_code_list>865218</qds:standard_code_list>
+<qds:standard_code_list>865220</qds:standard_code_list>
+<qds:standard_code_list>865222</qds:standard_code_list>
+<qds:standard_code_list>880383</qds:standard_code_list>
+<qds:standard_code_list>897069</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2110">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2110</qds:QDS_id>
+<qds:standard_concept>Phenylpiperazine antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c619</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>204453</qds:standard_code_list>
+<qds:standard_code_list>204454</qds:standard_code_list>
+<qds:standard_code_list>204455</qds:standard_code_list>
+<qds:standard_code_list>204456</qds:standard_code_list>
+<qds:standard_code_list>311923</qds:standard_code_list>
+<qds:standard_code_list>351128</qds:standard_code_list>
+<qds:standard_code_list>856364</qds:standard_code_list>
+<qds:standard_code_list>856369</qds:standard_code_list>
+<qds:standard_code_list>856373</qds:standard_code_list>
+<qds:standard_code_list>856377</qds:standard_code_list>
+<qds:standard_code_list>856381</qds:standard_code_list>
+<qds:standard_code_list>856382</qds:standard_code_list>
+<qds:standard_code_list>856383</qds:standard_code_list>
+<qds:standard_code_list>898697</qds:standard_code_list>
+<qds:standard_code_list>898702</qds:standard_code_list>
+<qds:standard_code_list>898704</qds:standard_code_list>
+<qds:standard_code_list>898707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2111">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2111</qds:QDS_id>
+<qds:standard_concept>Phenylpiperazine antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c619</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>204453</qds:standard_code_list>
+<qds:standard_code_list>204454</qds:standard_code_list>
+<qds:standard_code_list>204455</qds:standard_code_list>
+<qds:standard_code_list>204456</qds:standard_code_list>
+<qds:standard_code_list>311923</qds:standard_code_list>
+<qds:standard_code_list>351128</qds:standard_code_list>
+<qds:standard_code_list>856364</qds:standard_code_list>
+<qds:standard_code_list>856369</qds:standard_code_list>
+<qds:standard_code_list>856373</qds:standard_code_list>
+<qds:standard_code_list>856377</qds:standard_code_list>
+<qds:standard_code_list>856381</qds:standard_code_list>
+<qds:standard_code_list>856382</qds:standard_code_list>
+<qds:standard_code_list>856383</qds:standard_code_list>
+<qds:standard_code_list>898697</qds:standard_code_list>
+<qds:standard_code_list>898702</qds:standard_code_list>
+<qds:standard_code_list>898704</qds:standard_code_list>
+<qds:standard_code_list>898707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2112">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2112</qds:QDS_id>
+<qds:standard_concept>Psychotherapeutic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c620</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>403969</qds:standard_code_list>
+<qds:standard_code_list>403970</qds:standard_code_list>
+<qds:standard_code_list>403971</qds:standard_code_list>
+<qds:standard_code_list>403972</qds:standard_code_list>
+<qds:standard_code_list>721787</qds:standard_code_list>
+<qds:standard_code_list>856706</qds:standard_code_list>
+<qds:standard_code_list>856720</qds:standard_code_list>
+<qds:standard_code_list>856769</qds:standard_code_list>
+<qds:standard_code_list>856792</qds:standard_code_list>
+<qds:standard_code_list>856797</qds:standard_code_list>
+<qds:standard_code_list>856825</qds:standard_code_list>
+<qds:standard_code_list>856840</qds:standard_code_list>
+<qds:standard_code_list>856863</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2113">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2113</qds:QDS_id>
+<qds:standard_concept>Psychotherapeutic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c620</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>403969</qds:standard_code_list>
+<qds:standard_code_list>403970</qds:standard_code_list>
+<qds:standard_code_list>403971</qds:standard_code_list>
+<qds:standard_code_list>403972</qds:standard_code_list>
+<qds:standard_code_list>721787</qds:standard_code_list>
+<qds:standard_code_list>856706</qds:standard_code_list>
+<qds:standard_code_list>856720</qds:standard_code_list>
+<qds:standard_code_list>856769</qds:standard_code_list>
+<qds:standard_code_list>856792</qds:standard_code_list>
+<qds:standard_code_list>856797</qds:standard_code_list>
+<qds:standard_code_list>856825</qds:standard_code_list>
+<qds:standard_code_list>856840</qds:standard_code_list>
+<qds:standard_code_list>856863</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2114">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2114</qds:QDS_id>
+<qds:standard_concept>SSNRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c621</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>313580</qds:standard_code_list>
+<qds:standard_code_list>313581</qds:standard_code_list>
+<qds:standard_code_list>313582</qds:standard_code_list>
+<qds:standard_code_list>313583</qds:standard_code_list>
+<qds:standard_code_list>313584</qds:standard_code_list>
+<qds:standard_code_list>313585</qds:standard_code_list>
+<qds:standard_code_list>313586</qds:standard_code_list>
+<qds:standard_code_list>314277</qds:standard_code_list>
+<qds:standard_code_list>411815</qds:standard_code_list>
+<qds:standard_code_list>411816</qds:standard_code_list>
+<qds:standard_code_list>431737</qds:standard_code_list>
+<qds:standard_code_list>431753</qds:standard_code_list>
+<qds:standard_code_list>431754</qds:standard_code_list>
+<qds:standard_code_list>596926</qds:standard_code_list>
+<qds:standard_code_list>596930</qds:standard_code_list>
+<qds:standard_code_list>596934</qds:standard_code_list>
+<qds:standard_code_list>616402</qds:standard_code_list>
+<qds:standard_code_list>790264</qds:standard_code_list>
+<qds:standard_code_list>790288</qds:standard_code_list>
+<qds:standard_code_list>801849</qds:standard_code_list>
+<qds:standard_code_list>803408</qds:standard_code_list>
+<qds:standard_code_list>803409</qds:standard_code_list>
+<qds:standard_code_list>808744</qds:standard_code_list>
+<qds:standard_code_list>808748</qds:standard_code_list>
+<qds:standard_code_list>808751</qds:standard_code_list>
+<qds:standard_code_list>808753</qds:standard_code_list>
+<qds:standard_code_list>844817</qds:standard_code_list>
+<qds:standard_code_list>845104</qds:standard_code_list>
+<qds:standard_code_list>845106</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2115">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2115</qds:QDS_id>
+<qds:standard_concept>SSNRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c621</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>313580</qds:standard_code_list>
+<qds:standard_code_list>313581</qds:standard_code_list>
+<qds:standard_code_list>313582</qds:standard_code_list>
+<qds:standard_code_list>313583</qds:standard_code_list>
+<qds:standard_code_list>313584</qds:standard_code_list>
+<qds:standard_code_list>313585</qds:standard_code_list>
+<qds:standard_code_list>313586</qds:standard_code_list>
+<qds:standard_code_list>314277</qds:standard_code_list>
+<qds:standard_code_list>411815</qds:standard_code_list>
+<qds:standard_code_list>411816</qds:standard_code_list>
+<qds:standard_code_list>431737</qds:standard_code_list>
+<qds:standard_code_list>431753</qds:standard_code_list>
+<qds:standard_code_list>431754</qds:standard_code_list>
+<qds:standard_code_list>596926</qds:standard_code_list>
+<qds:standard_code_list>596930</qds:standard_code_list>
+<qds:standard_code_list>596934</qds:standard_code_list>
+<qds:standard_code_list>616402</qds:standard_code_list>
+<qds:standard_code_list>790264</qds:standard_code_list>
+<qds:standard_code_list>790288</qds:standard_code_list>
+<qds:standard_code_list>801849</qds:standard_code_list>
+<qds:standard_code_list>803408</qds:standard_code_list>
+<qds:standard_code_list>803409</qds:standard_code_list>
+<qds:standard_code_list>808744</qds:standard_code_list>
+<qds:standard_code_list>808748</qds:standard_code_list>
+<qds:standard_code_list>808751</qds:standard_code_list>
+<qds:standard_code_list>808753</qds:standard_code_list>
+<qds:standard_code_list>844817</qds:standard_code_list>
+<qds:standard_code_list>845104</qds:standard_code_list>
+<qds:standard_code_list>845106</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2116">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2116</qds:QDS_id>
+<qds:standard_concept>SSRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c622</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>151260</qds:standard_code_list>
+<qds:standard_code_list>200371</qds:standard_code_list>
+<qds:standard_code_list>248642</qds:standard_code_list>
+<qds:standard_code_list>251200</qds:standard_code_list>
+<qds:standard_code_list>283672</qds:standard_code_list>
+<qds:standard_code_list>309313</qds:standard_code_list>
+<qds:standard_code_list>309314</qds:standard_code_list>
+<qds:standard_code_list>310384</qds:standard_code_list>
+<qds:standard_code_list>310385</qds:standard_code_list>
+<qds:standard_code_list>312241</qds:standard_code_list>
+<qds:standard_code_list>312242</qds:standard_code_list>
+<qds:standard_code_list>312243</qds:standard_code_list>
+<qds:standard_code_list>312244</qds:standard_code_list>
+<qds:standard_code_list>312938</qds:standard_code_list>
+<qds:standard_code_list>312940</qds:standard_code_list>
+<qds:standard_code_list>312941</qds:standard_code_list>
+<qds:standard_code_list>313989</qds:standard_code_list>
+<qds:standard_code_list>313990</qds:standard_code_list>
+<qds:standard_code_list>313995</qds:standard_code_list>
+<qds:standard_code_list>314199</qds:standard_code_list>
+<qds:standard_code_list>349332</qds:standard_code_list>
+<qds:standard_code_list>351249</qds:standard_code_list>
+<qds:standard_code_list>351250</qds:standard_code_list>
+<qds:standard_code_list>351285</qds:standard_code_list>
+<qds:standard_code_list>389202</qds:standard_code_list>
+<qds:standard_code_list>541357</qds:standard_code_list>
+<qds:standard_code_list>562790</qds:standard_code_list>
+<qds:standard_code_list>562791</qds:standard_code_list>
+<qds:standard_code_list>562815</qds:standard_code_list>
+<qds:standard_code_list>645289</qds:standard_code_list>
+<qds:standard_code_list>645290</qds:standard_code_list>
+<qds:standard_code_list>645291</qds:standard_code_list>
+<qds:standard_code_list>730440</qds:standard_code_list>
+<qds:standard_code_list>730441</qds:standard_code_list>
+<qds:standard_code_list>730442</qds:standard_code_list>
+<qds:standard_code_list>794947</qds:standard_code_list>
+<qds:standard_code_list>803293</qds:standard_code_list>
+<qds:standard_code_list>826098</qds:standard_code_list>
+<qds:standard_code_list>826103</qds:standard_code_list>
+<qds:standard_code_list>861064</qds:standard_code_list>
+<qds:standard_code_list>902714</qds:standard_code_list>
+<qds:standard_code_list>902718</qds:standard_code_list>
+<qds:standard_code_list>903873</qds:standard_code_list>
+<qds:standard_code_list>903876</qds:standard_code_list>
+<qds:standard_code_list>903879</qds:standard_code_list>
+<qds:standard_code_list>903882</qds:standard_code_list>
+<qds:standard_code_list>903884</qds:standard_code_list>
+<qds:standard_code_list>903887</qds:standard_code_list>
+<qds:standard_code_list>903891</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2117">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2117</qds:QDS_id>
+<qds:standard_concept>SSRI antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c622</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>151260</qds:standard_code_list>
+<qds:standard_code_list>200371</qds:standard_code_list>
+<qds:standard_code_list>248642</qds:standard_code_list>
+<qds:standard_code_list>251200</qds:standard_code_list>
+<qds:standard_code_list>283672</qds:standard_code_list>
+<qds:standard_code_list>309313</qds:standard_code_list>
+<qds:standard_code_list>309314</qds:standard_code_list>
+<qds:standard_code_list>310384</qds:standard_code_list>
+<qds:standard_code_list>310385</qds:standard_code_list>
+<qds:standard_code_list>312241</qds:standard_code_list>
+<qds:standard_code_list>312242</qds:standard_code_list>
+<qds:standard_code_list>312243</qds:standard_code_list>
+<qds:standard_code_list>312244</qds:standard_code_list>
+<qds:standard_code_list>312938</qds:standard_code_list>
+<qds:standard_code_list>312940</qds:standard_code_list>
+<qds:standard_code_list>312941</qds:standard_code_list>
+<qds:standard_code_list>313989</qds:standard_code_list>
+<qds:standard_code_list>313990</qds:standard_code_list>
+<qds:standard_code_list>313995</qds:standard_code_list>
+<qds:standard_code_list>314199</qds:standard_code_list>
+<qds:standard_code_list>349332</qds:standard_code_list>
+<qds:standard_code_list>351249</qds:standard_code_list>
+<qds:standard_code_list>351250</qds:standard_code_list>
+<qds:standard_code_list>351285</qds:standard_code_list>
+<qds:standard_code_list>389202</qds:standard_code_list>
+<qds:standard_code_list>541357</qds:standard_code_list>
+<qds:standard_code_list>562790</qds:standard_code_list>
+<qds:standard_code_list>562791</qds:standard_code_list>
+<qds:standard_code_list>562815</qds:standard_code_list>
+<qds:standard_code_list>645289</qds:standard_code_list>
+<qds:standard_code_list>645290</qds:standard_code_list>
+<qds:standard_code_list>645291</qds:standard_code_list>
+<qds:standard_code_list>730440</qds:standard_code_list>
+<qds:standard_code_list>730441</qds:standard_code_list>
+<qds:standard_code_list>730442</qds:standard_code_list>
+<qds:standard_code_list>794947</qds:standard_code_list>
+<qds:standard_code_list>803293</qds:standard_code_list>
+<qds:standard_code_list>826098</qds:standard_code_list>
+<qds:standard_code_list>826103</qds:standard_code_list>
+<qds:standard_code_list>861064</qds:standard_code_list>
+<qds:standard_code_list>902714</qds:standard_code_list>
+<qds:standard_code_list>902718</qds:standard_code_list>
+<qds:standard_code_list>903873</qds:standard_code_list>
+<qds:standard_code_list>903876</qds:standard_code_list>
+<qds:standard_code_list>903879</qds:standard_code_list>
+<qds:standard_code_list>903882</qds:standard_code_list>
+<qds:standard_code_list>903884</qds:standard_code_list>
+<qds:standard_code_list>903887</qds:standard_code_list>
+<qds:standard_code_list>903891</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2118">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2118</qds:QDS_id>
+<qds:standard_concept>Tetracyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c623</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>104817</qds:standard_code_list>
+<qds:standard_code_list>197909</qds:standard_code_list>
+<qds:standard_code_list>197910</qds:standard_code_list>
+<qds:standard_code_list>197911</qds:standard_code_list>
+<qds:standard_code_list>283406</qds:standard_code_list>
+<qds:standard_code_list>283407</qds:standard_code_list>
+<qds:standard_code_list>283485</qds:standard_code_list>
+<qds:standard_code_list>311725</qds:standard_code_list>
+<qds:standard_code_list>311726</qds:standard_code_list>
+<qds:standard_code_list>314111</qds:standard_code_list>
+<qds:standard_code_list>476809</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2119">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2119</qds:QDS_id>
+<qds:standard_concept>Tetracyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c623</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>104817</qds:standard_code_list>
+<qds:standard_code_list>197909</qds:standard_code_list>
+<qds:standard_code_list>197910</qds:standard_code_list>
+<qds:standard_code_list>197911</qds:standard_code_list>
+<qds:standard_code_list>283406</qds:standard_code_list>
+<qds:standard_code_list>283407</qds:standard_code_list>
+<qds:standard_code_list>283485</qds:standard_code_list>
+<qds:standard_code_list>311725</qds:standard_code_list>
+<qds:standard_code_list>311726</qds:standard_code_list>
+<qds:standard_code_list>314111</qds:standard_code_list>
+<qds:standard_code_list>476809</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2120">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2120</qds:QDS_id>
+<qds:standard_concept>Tricyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c624</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>197363</qds:standard_code_list>
+<qds:standard_code_list>197364</qds:standard_code_list>
+<qds:standard_code_list>197365</qds:standard_code_list>
+<qds:standard_code_list>197366</qds:standard_code_list>
+<qds:standard_code_list>197565</qds:standard_code_list>
+<qds:standard_code_list>197566</qds:standard_code_list>
+<qds:standard_code_list>197567</qds:standard_code_list>
+<qds:standard_code_list>197568</qds:standard_code_list>
+<qds:standard_code_list>197569</qds:standard_code_list>
+<qds:standard_code_list>197570</qds:standard_code_list>
+<qds:standard_code_list>197629</qds:standard_code_list>
+<qds:standard_code_list>197630</qds:standard_code_list>
+<qds:standard_code_list>197631</qds:standard_code_list>
+<qds:standard_code_list>197632</qds:standard_code_list>
+<qds:standard_code_list>198045</qds:standard_code_list>
+<qds:standard_code_list>198046</qds:standard_code_list>
+<qds:standard_code_list>198047</qds:standard_code_list>
+<qds:standard_code_list>199283</qds:standard_code_list>
+<qds:standard_code_list>199406</qds:standard_code_list>
+<qds:standard_code_list>199820</qds:standard_code_list>
+<qds:standard_code_list>250033</qds:standard_code_list>
+<qds:standard_code_list>309671</qds:standard_code_list>
+<qds:standard_code_list>309672</qds:standard_code_list>
+<qds:standard_code_list>310019</qds:standard_code_list>
+<qds:standard_code_list>310020</qds:standard_code_list>
+<qds:standard_code_list>310021</qds:standard_code_list>
+<qds:standard_code_list>310022</qds:standard_code_list>
+<qds:standard_code_list>312036</qds:standard_code_list>
+<qds:standard_code_list>313496</qds:standard_code_list>
+<qds:standard_code_list>313498</qds:standard_code_list>
+<qds:standard_code_list>313499</qds:standard_code_list>
+<qds:standard_code_list>317136</qds:standard_code_list>
+<qds:standard_code_list>484938</qds:standard_code_list>
+<qds:standard_code_list>835564</qds:standard_code_list>
+<qds:standard_code_list>835568</qds:standard_code_list>
+<qds:standard_code_list>835572</qds:standard_code_list>
+<qds:standard_code_list>835577</qds:standard_code_list>
+<qds:standard_code_list>835582</qds:standard_code_list>
+<qds:standard_code_list>835586</qds:standard_code_list>
+<qds:standard_code_list>835589</qds:standard_code_list>
+<qds:standard_code_list>835591</qds:standard_code_list>
+<qds:standard_code_list>835593</qds:standard_code_list>
+<qds:standard_code_list>856762</qds:standard_code_list>
+<qds:standard_code_list>856773</qds:standard_code_list>
+<qds:standard_code_list>856783</qds:standard_code_list>
+<qds:standard_code_list>856834</qds:standard_code_list>
+<qds:standard_code_list>856845</qds:standard_code_list>
+<qds:standard_code_list>856853</qds:standard_code_list>
+<qds:standard_code_list>856859</qds:standard_code_list>
+<qds:standard_code_list>856862</qds:standard_code_list>
+<qds:standard_code_list>856865</qds:standard_code_list>
+<qds:standard_code_list>856867</qds:standard_code_list>
+<qds:standard_code_list>856868</qds:standard_code_list>
+<qds:standard_code_list>857289</qds:standard_code_list>
+<qds:standard_code_list>857292</qds:standard_code_list>
+<qds:standard_code_list>857297</qds:standard_code_list>
+<qds:standard_code_list>857301</qds:standard_code_list>
+<qds:standard_code_list>857305</qds:standard_code_list>
+<qds:standard_code_list>857326</qds:standard_code_list>
+<qds:standard_code_list>865143</qds:standard_code_list>
+<qds:standard_code_list>865146</qds:standard_code_list>
+<qds:standard_code_list>892742</qds:standard_code_list>
+<qds:standard_code_list>894755</qds:standard_code_list>
+<qds:standard_code_list>894759</qds:standard_code_list>
+<qds:standard_code_list>894763</qds:standard_code_list>
+<qds:standard_code_list>905168</qds:standard_code_list>
+<qds:standard_code_list>905172</qds:standard_code_list>
+<qds:standard_code_list>966787</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2121">
+<qds:NQF_id>0105</qds:NQF_id>
+<qds:measure_name>Anti-depressant medication management:  (a) Effective Acute Phase  Treatment,(b)Effective Continuation Phase Treatment</qds:measure_name>
+<qds:QDS_id>N_2121</qds:QDS_id>
+<qds:standard_concept>Tricyclic antidepressants</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c624</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>197363</qds:standard_code_list>
+<qds:standard_code_list>197364</qds:standard_code_list>
+<qds:standard_code_list>197365</qds:standard_code_list>
+<qds:standard_code_list>197366</qds:standard_code_list>
+<qds:standard_code_list>197565</qds:standard_code_list>
+<qds:standard_code_list>197566</qds:standard_code_list>
+<qds:standard_code_list>197567</qds:standard_code_list>
+<qds:standard_code_list>197568</qds:standard_code_list>
+<qds:standard_code_list>197569</qds:standard_code_list>
+<qds:standard_code_list>197570</qds:standard_code_list>
+<qds:standard_code_list>197629</qds:standard_code_list>
+<qds:standard_code_list>197630</qds:standard_code_list>
+<qds:standard_code_list>197631</qds:standard_code_list>
+<qds:standard_code_list>197632</qds:standard_code_list>
+<qds:standard_code_list>198045</qds:standard_code_list>
+<qds:standard_code_list>198046</qds:standard_code_list>
+<qds:standard_code_list>198047</qds:standard_code_list>
+<qds:standard_code_list>199283</qds:standard_code_list>
+<qds:standard_code_list>199406</qds:standard_code_list>
+<qds:standard_code_list>199820</qds:standard_code_list>
+<qds:standard_code_list>250033</qds:standard_code_list>
+<qds:standard_code_list>309671</qds:standard_code_list>
+<qds:standard_code_list>309672</qds:standard_code_list>
+<qds:standard_code_list>310019</qds:standard_code_list>
+<qds:standard_code_list>310020</qds:standard_code_list>
+<qds:standard_code_list>310021</qds:standard_code_list>
+<qds:standard_code_list>310022</qds:standard_code_list>
+<qds:standard_code_list>312036</qds:standard_code_list>
+<qds:standard_code_list>313496</qds:standard_code_list>
+<qds:standard_code_list>313498</qds:standard_code_list>
+<qds:standard_code_list>313499</qds:standard_code_list>
+<qds:standard_code_list>317136</qds:standard_code_list>
+<qds:standard_code_list>484938</qds:standard_code_list>
+<qds:standard_code_list>835564</qds:standard_code_list>
+<qds:standard_code_list>835568</qds:standard_code_list>
+<qds:standard_code_list>835572</qds:standard_code_list>
+<qds:standard_code_list>835577</qds:standard_code_list>
+<qds:standard_code_list>835582</qds:standard_code_list>
+<qds:standard_code_list>835586</qds:standard_code_list>
+<qds:standard_code_list>835589</qds:standard_code_list>
+<qds:standard_code_list>835591</qds:standard_code_list>
+<qds:standard_code_list>835593</qds:standard_code_list>
+<qds:standard_code_list>856762</qds:standard_code_list>
+<qds:standard_code_list>856773</qds:standard_code_list>
+<qds:standard_code_list>856783</qds:standard_code_list>
+<qds:standard_code_list>856834</qds:standard_code_list>
+<qds:standard_code_list>856845</qds:standard_code_list>
+<qds:standard_code_list>856853</qds:standard_code_list>
+<qds:standard_code_list>856859</qds:standard_code_list>
+<qds:standard_code_list>856862</qds:standard_code_list>
+<qds:standard_code_list>856865</qds:standard_code_list>
+<qds:standard_code_list>856867</qds:standard_code_list>
+<qds:standard_code_list>856868</qds:standard_code_list>
+<qds:standard_code_list>857289</qds:standard_code_list>
+<qds:standard_code_list>857292</qds:standard_code_list>
+<qds:standard_code_list>857297</qds:standard_code_list>
+<qds:standard_code_list>857301</qds:standard_code_list>
+<qds:standard_code_list>857305</qds:standard_code_list>
+<qds:standard_code_list>857326</qds:standard_code_list>
+<qds:standard_code_list>865143</qds:standard_code_list>
+<qds:standard_code_list>865146</qds:standard_code_list>
+<qds:standard_code_list>892742</qds:standard_code_list>
+<qds:standard_code_list>894755</qds:standard_code_list>
+<qds:standard_code_list>894759</qds:standard_code_list>
+<qds:standard_code_list>894763</qds:standard_code_list>
+<qds:standard_code_list>905168</qds:standard_code_list>
+<qds:standard_code_list>905172</qds:standard_code_list>
+<qds:standard_code_list>966787</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

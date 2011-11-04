@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_320">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_320</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_520">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_520</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1827">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_1827</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c552</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_521">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_521</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1120">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_1120</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_321">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_321</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_326">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_326</qds:QDS_id>
+<qds:standard_concept>Tobacco Use Cessation Counseling</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c127</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99406</qds:standard_code_list>
+<qds:standard_code_list>99407</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1685">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_1685</qds:QDS_id>
+<qds:standard_concept>Tobacco Use Cessation Counseling</qds:standard_concept>
+<qds:standard_category>Communication</qds:standard_category>
+<qds:QDS_data_type>communication to patient</qds:QDS_data_type>
+<qds:standard_concept_id>N_c42</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>171055003</qds:standard_code_list>
+<qds:standard_code_list>225323000</qds:standard_code_list>
+<qds:standard_code_list>225324006</qds:standard_code_list>
+<qds:standard_code_list>315232003</qds:standard_code_list>
+<qds:standard_code_list>384742004</qds:standard_code_list>
+<qds:standard_code_list>395700008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_324">
+<qds:NQF_id>0027</qds:NQF_id>
+<qds:measure_name>Smoking and Tobacco Use Cessation, Medical assistance: a. Advising Smokers and Tobacco Users to Quit, b. Discussing Smoking and Tobacco Use Cessation Medications, c. Discussing Smoking and Tobacco Use Cessation Strategies</qds:measure_name>
+<qds:QDS_id>N_324</qds:QDS_id>
+<qds:standard_concept>Tobacco User</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>N_c128</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>160603005</qds:standard_code_list>
+<qds:standard_code_list>160604004</qds:standard_code_list>
+<qds:standard_code_list>160605003</qds:standard_code_list>
+<qds:standard_code_list>160606002</qds:standard_code_list>
+<qds:standard_code_list>160619003</qds:standard_code_list>
+<qds:standard_code_list>228494002</qds:standard_code_list>
+<qds:standard_code_list>228504007</qds:standard_code_list>
+<qds:standard_code_list>228514003</qds:standard_code_list>
+<qds:standard_code_list>228515002</qds:standard_code_list>
+<qds:standard_code_list>228516001</qds:standard_code_list>
+<qds:standard_code_list>228517005</qds:standard_code_list>
+<qds:standard_code_list>228518000</qds:standard_code_list>
+<qds:standard_code_list>230059006</qds:standard_code_list>
+<qds:standard_code_list>230060001</qds:standard_code_list>
+<qds:standard_code_list>230062009</qds:standard_code_list>
+<qds:standard_code_list>230063004</qds:standard_code_list>
+<qds:standard_code_list>230064005</qds:standard_code_list>
+<qds:standard_code_list>230065006</qds:standard_code_list>
+<qds:standard_code_list>266920004</qds:standard_code_list>
+<qds:standard_code_list>81703003</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

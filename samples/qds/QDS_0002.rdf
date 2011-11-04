@@ -1,0 +1,2899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_1520">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1520</qds:QDS_id>
+<qds:standard_concept>Aminopenicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c374</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105134</qds:standard_code_list>
+<qds:standard_code_list>105152</qds:standard_code_list>
+<qds:standard_code_list>199693</qds:standard_code_list>
+<qds:standard_code_list>199694</qds:standard_code_list>
+<qds:standard_code_list>199928</qds:standard_code_list>
+<qds:standard_code_list>199997</qds:standard_code_list>
+<qds:standard_code_list>239187</qds:standard_code_list>
+<qds:standard_code_list>239191</qds:standard_code_list>
+<qds:standard_code_list>240984</qds:standard_code_list>
+<qds:standard_code_list>246282</qds:standard_code_list>
+<qds:standard_code_list>250463</qds:standard_code_list>
+<qds:standard_code_list>308177</qds:standard_code_list>
+<qds:standard_code_list>308181</qds:standard_code_list>
+<qds:standard_code_list>308182</qds:standard_code_list>
+<qds:standard_code_list>308183</qds:standard_code_list>
+<qds:standard_code_list>308188</qds:standard_code_list>
+<qds:standard_code_list>308189</qds:standard_code_list>
+<qds:standard_code_list>308191</qds:standard_code_list>
+<qds:standard_code_list>308192</qds:standard_code_list>
+<qds:standard_code_list>308194</qds:standard_code_list>
+<qds:standard_code_list>308206</qds:standard_code_list>
+<qds:standard_code_list>308207</qds:standard_code_list>
+<qds:standard_code_list>308208</qds:standard_code_list>
+<qds:standard_code_list>308209</qds:standard_code_list>
+<qds:standard_code_list>308210</qds:standard_code_list>
+<qds:standard_code_list>308212</qds:standard_code_list>
+<qds:standard_code_list>313797</qds:standard_code_list>
+<qds:standard_code_list>313798</qds:standard_code_list>
+<qds:standard_code_list>313799</qds:standard_code_list>
+<qds:standard_code_list>313800</qds:standard_code_list>
+<qds:standard_code_list>313801</qds:standard_code_list>
+<qds:standard_code_list>313819</qds:standard_code_list>
+<qds:standard_code_list>313850</qds:standard_code_list>
+<qds:standard_code_list>346892</qds:standard_code_list>
+<qds:standard_code_list>392151</qds:standard_code_list>
+<qds:standard_code_list>392152</qds:standard_code_list>
+<qds:standard_code_list>403945</qds:standard_code_list>
+<qds:standard_code_list>476299</qds:standard_code_list>
+<qds:standard_code_list>562255</qds:standard_code_list>
+<qds:standard_code_list>562256</qds:standard_code_list>
+<qds:standard_code_list>598025</qds:standard_code_list>
+<qds:standard_code_list>746669</qds:standard_code_list>
+<qds:standard_code_list>756252</qds:standard_code_list>
+<qds:standard_code_list>789980</qds:standard_code_list>
+<qds:standard_code_list>791939</qds:standard_code_list>
+<qds:standard_code_list>791947</qds:standard_code_list>
+<qds:standard_code_list>802550</qds:standard_code_list>
+<qds:standard_code_list>846994</qds:standard_code_list>
+<qds:standard_code_list>852904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1534">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1534</qds:QDS_id>
+<qds:standard_concept>Aminopenicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c374</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105134</qds:standard_code_list>
+<qds:standard_code_list>105152</qds:standard_code_list>
+<qds:standard_code_list>199693</qds:standard_code_list>
+<qds:standard_code_list>199694</qds:standard_code_list>
+<qds:standard_code_list>199928</qds:standard_code_list>
+<qds:standard_code_list>199997</qds:standard_code_list>
+<qds:standard_code_list>239187</qds:standard_code_list>
+<qds:standard_code_list>239191</qds:standard_code_list>
+<qds:standard_code_list>240984</qds:standard_code_list>
+<qds:standard_code_list>246282</qds:standard_code_list>
+<qds:standard_code_list>250463</qds:standard_code_list>
+<qds:standard_code_list>308177</qds:standard_code_list>
+<qds:standard_code_list>308181</qds:standard_code_list>
+<qds:standard_code_list>308182</qds:standard_code_list>
+<qds:standard_code_list>308183</qds:standard_code_list>
+<qds:standard_code_list>308188</qds:standard_code_list>
+<qds:standard_code_list>308189</qds:standard_code_list>
+<qds:standard_code_list>308191</qds:standard_code_list>
+<qds:standard_code_list>308192</qds:standard_code_list>
+<qds:standard_code_list>308194</qds:standard_code_list>
+<qds:standard_code_list>308206</qds:standard_code_list>
+<qds:standard_code_list>308207</qds:standard_code_list>
+<qds:standard_code_list>308208</qds:standard_code_list>
+<qds:standard_code_list>308209</qds:standard_code_list>
+<qds:standard_code_list>308210</qds:standard_code_list>
+<qds:standard_code_list>308212</qds:standard_code_list>
+<qds:standard_code_list>313797</qds:standard_code_list>
+<qds:standard_code_list>313798</qds:standard_code_list>
+<qds:standard_code_list>313799</qds:standard_code_list>
+<qds:standard_code_list>313800</qds:standard_code_list>
+<qds:standard_code_list>313801</qds:standard_code_list>
+<qds:standard_code_list>313819</qds:standard_code_list>
+<qds:standard_code_list>313850</qds:standard_code_list>
+<qds:standard_code_list>346892</qds:standard_code_list>
+<qds:standard_code_list>392151</qds:standard_code_list>
+<qds:standard_code_list>392152</qds:standard_code_list>
+<qds:standard_code_list>403945</qds:standard_code_list>
+<qds:standard_code_list>476299</qds:standard_code_list>
+<qds:standard_code_list>562255</qds:standard_code_list>
+<qds:standard_code_list>562256</qds:standard_code_list>
+<qds:standard_code_list>598025</qds:standard_code_list>
+<qds:standard_code_list>746669</qds:standard_code_list>
+<qds:standard_code_list>756252</qds:standard_code_list>
+<qds:standard_code_list>789980</qds:standard_code_list>
+<qds:standard_code_list>791939</qds:standard_code_list>
+<qds:standard_code_list>791947</qds:standard_code_list>
+<qds:standard_code_list>802550</qds:standard_code_list>
+<qds:standard_code_list>846994</qds:standard_code_list>
+<qds:standard_code_list>852904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1548">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1548</qds:QDS_id>
+<qds:standard_concept>Aminopenicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c374</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105134</qds:standard_code_list>
+<qds:standard_code_list>105152</qds:standard_code_list>
+<qds:standard_code_list>199693</qds:standard_code_list>
+<qds:standard_code_list>199694</qds:standard_code_list>
+<qds:standard_code_list>199928</qds:standard_code_list>
+<qds:standard_code_list>199997</qds:standard_code_list>
+<qds:standard_code_list>239187</qds:standard_code_list>
+<qds:standard_code_list>239191</qds:standard_code_list>
+<qds:standard_code_list>240984</qds:standard_code_list>
+<qds:standard_code_list>246282</qds:standard_code_list>
+<qds:standard_code_list>250463</qds:standard_code_list>
+<qds:standard_code_list>308177</qds:standard_code_list>
+<qds:standard_code_list>308181</qds:standard_code_list>
+<qds:standard_code_list>308182</qds:standard_code_list>
+<qds:standard_code_list>308183</qds:standard_code_list>
+<qds:standard_code_list>308188</qds:standard_code_list>
+<qds:standard_code_list>308189</qds:standard_code_list>
+<qds:standard_code_list>308191</qds:standard_code_list>
+<qds:standard_code_list>308192</qds:standard_code_list>
+<qds:standard_code_list>308194</qds:standard_code_list>
+<qds:standard_code_list>308206</qds:standard_code_list>
+<qds:standard_code_list>308207</qds:standard_code_list>
+<qds:standard_code_list>308208</qds:standard_code_list>
+<qds:standard_code_list>308209</qds:standard_code_list>
+<qds:standard_code_list>308210</qds:standard_code_list>
+<qds:standard_code_list>308212</qds:standard_code_list>
+<qds:standard_code_list>313797</qds:standard_code_list>
+<qds:standard_code_list>313798</qds:standard_code_list>
+<qds:standard_code_list>313799</qds:standard_code_list>
+<qds:standard_code_list>313800</qds:standard_code_list>
+<qds:standard_code_list>313801</qds:standard_code_list>
+<qds:standard_code_list>313819</qds:standard_code_list>
+<qds:standard_code_list>313850</qds:standard_code_list>
+<qds:standard_code_list>346892</qds:standard_code_list>
+<qds:standard_code_list>392151</qds:standard_code_list>
+<qds:standard_code_list>392152</qds:standard_code_list>
+<qds:standard_code_list>403945</qds:standard_code_list>
+<qds:standard_code_list>476299</qds:standard_code_list>
+<qds:standard_code_list>562255</qds:standard_code_list>
+<qds:standard_code_list>562256</qds:standard_code_list>
+<qds:standard_code_list>598025</qds:standard_code_list>
+<qds:standard_code_list>746669</qds:standard_code_list>
+<qds:standard_code_list>756252</qds:standard_code_list>
+<qds:standard_code_list>789980</qds:standard_code_list>
+<qds:standard_code_list>791939</qds:standard_code_list>
+<qds:standard_code_list>791947</qds:standard_code_list>
+<qds:standard_code_list>802550</qds:standard_code_list>
+<qds:standard_code_list>846994</qds:standard_code_list>
+<qds:standard_code_list>852904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1562">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1562</qds:QDS_id>
+<qds:standard_concept>Aminopenicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c374</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105134</qds:standard_code_list>
+<qds:standard_code_list>105152</qds:standard_code_list>
+<qds:standard_code_list>199693</qds:standard_code_list>
+<qds:standard_code_list>199694</qds:standard_code_list>
+<qds:standard_code_list>199928</qds:standard_code_list>
+<qds:standard_code_list>199997</qds:standard_code_list>
+<qds:standard_code_list>239187</qds:standard_code_list>
+<qds:standard_code_list>239191</qds:standard_code_list>
+<qds:standard_code_list>240984</qds:standard_code_list>
+<qds:standard_code_list>246282</qds:standard_code_list>
+<qds:standard_code_list>250463</qds:standard_code_list>
+<qds:standard_code_list>308177</qds:standard_code_list>
+<qds:standard_code_list>308181</qds:standard_code_list>
+<qds:standard_code_list>308182</qds:standard_code_list>
+<qds:standard_code_list>308183</qds:standard_code_list>
+<qds:standard_code_list>308188</qds:standard_code_list>
+<qds:standard_code_list>308189</qds:standard_code_list>
+<qds:standard_code_list>308191</qds:standard_code_list>
+<qds:standard_code_list>308192</qds:standard_code_list>
+<qds:standard_code_list>308194</qds:standard_code_list>
+<qds:standard_code_list>308206</qds:standard_code_list>
+<qds:standard_code_list>308207</qds:standard_code_list>
+<qds:standard_code_list>308208</qds:standard_code_list>
+<qds:standard_code_list>308209</qds:standard_code_list>
+<qds:standard_code_list>308210</qds:standard_code_list>
+<qds:standard_code_list>308212</qds:standard_code_list>
+<qds:standard_code_list>313797</qds:standard_code_list>
+<qds:standard_code_list>313798</qds:standard_code_list>
+<qds:standard_code_list>313799</qds:standard_code_list>
+<qds:standard_code_list>313800</qds:standard_code_list>
+<qds:standard_code_list>313801</qds:standard_code_list>
+<qds:standard_code_list>313819</qds:standard_code_list>
+<qds:standard_code_list>313850</qds:standard_code_list>
+<qds:standard_code_list>346892</qds:standard_code_list>
+<qds:standard_code_list>392151</qds:standard_code_list>
+<qds:standard_code_list>392152</qds:standard_code_list>
+<qds:standard_code_list>403945</qds:standard_code_list>
+<qds:standard_code_list>476299</qds:standard_code_list>
+<qds:standard_code_list>562255</qds:standard_code_list>
+<qds:standard_code_list>562256</qds:standard_code_list>
+<qds:standard_code_list>598025</qds:standard_code_list>
+<qds:standard_code_list>746669</qds:standard_code_list>
+<qds:standard_code_list>756252</qds:standard_code_list>
+<qds:standard_code_list>789980</qds:standard_code_list>
+<qds:standard_code_list>791939</qds:standard_code_list>
+<qds:standard_code_list>791947</qds:standard_code_list>
+<qds:standard_code_list>802550</qds:standard_code_list>
+<qds:standard_code_list>846994</qds:standard_code_list>
+<qds:standard_code_list>852904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1521">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1521</qds:QDS_id>
+<qds:standard_concept>Beta-Lactamase inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>562251</qds:standard_code_list>
+<qds:standard_code_list>562253</qds:standard_code_list>
+<qds:standard_code_list>562508</qds:standard_code_list>
+<qds:standard_code_list>617293</qds:standard_code_list>
+<qds:standard_code_list>617295</qds:standard_code_list>
+<qds:standard_code_list>617296</qds:standard_code_list>
+<qds:standard_code_list>617302</qds:standard_code_list>
+<qds:standard_code_list>617304</qds:standard_code_list>
+<qds:standard_code_list>617309</qds:standard_code_list>
+<qds:standard_code_list>617316</qds:standard_code_list>
+<qds:standard_code_list>617322</qds:standard_code_list>
+<qds:standard_code_list>617423</qds:standard_code_list>
+<qds:standard_code_list>617430</qds:standard_code_list>
+<qds:standard_code_list>617975</qds:standard_code_list>
+<qds:standard_code_list>617976</qds:standard_code_list>
+<qds:standard_code_list>617981</qds:standard_code_list>
+<qds:standard_code_list>617989</qds:standard_code_list>
+<qds:standard_code_list>617993</qds:standard_code_list>
+<qds:standard_code_list>617995</qds:standard_code_list>
+<qds:standard_code_list>617996</qds:standard_code_list>
+<qds:standard_code_list>645806</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1535">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1535</qds:QDS_id>
+<qds:standard_concept>Beta-Lactamase inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>562251</qds:standard_code_list>
+<qds:standard_code_list>562253</qds:standard_code_list>
+<qds:standard_code_list>562508</qds:standard_code_list>
+<qds:standard_code_list>617293</qds:standard_code_list>
+<qds:standard_code_list>617295</qds:standard_code_list>
+<qds:standard_code_list>617296</qds:standard_code_list>
+<qds:standard_code_list>617302</qds:standard_code_list>
+<qds:standard_code_list>617304</qds:standard_code_list>
+<qds:standard_code_list>617309</qds:standard_code_list>
+<qds:standard_code_list>617316</qds:standard_code_list>
+<qds:standard_code_list>617322</qds:standard_code_list>
+<qds:standard_code_list>617423</qds:standard_code_list>
+<qds:standard_code_list>617430</qds:standard_code_list>
+<qds:standard_code_list>617975</qds:standard_code_list>
+<qds:standard_code_list>617976</qds:standard_code_list>
+<qds:standard_code_list>617981</qds:standard_code_list>
+<qds:standard_code_list>617989</qds:standard_code_list>
+<qds:standard_code_list>617993</qds:standard_code_list>
+<qds:standard_code_list>617995</qds:standard_code_list>
+<qds:standard_code_list>617996</qds:standard_code_list>
+<qds:standard_code_list>645806</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1549">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1549</qds:QDS_id>
+<qds:standard_concept>Beta-Lactamase inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>562251</qds:standard_code_list>
+<qds:standard_code_list>562253</qds:standard_code_list>
+<qds:standard_code_list>562508</qds:standard_code_list>
+<qds:standard_code_list>617293</qds:standard_code_list>
+<qds:standard_code_list>617295</qds:standard_code_list>
+<qds:standard_code_list>617296</qds:standard_code_list>
+<qds:standard_code_list>617302</qds:standard_code_list>
+<qds:standard_code_list>617304</qds:standard_code_list>
+<qds:standard_code_list>617309</qds:standard_code_list>
+<qds:standard_code_list>617316</qds:standard_code_list>
+<qds:standard_code_list>617322</qds:standard_code_list>
+<qds:standard_code_list>617423</qds:standard_code_list>
+<qds:standard_code_list>617430</qds:standard_code_list>
+<qds:standard_code_list>617975</qds:standard_code_list>
+<qds:standard_code_list>617976</qds:standard_code_list>
+<qds:standard_code_list>617981</qds:standard_code_list>
+<qds:standard_code_list>617989</qds:standard_code_list>
+<qds:standard_code_list>617993</qds:standard_code_list>
+<qds:standard_code_list>617995</qds:standard_code_list>
+<qds:standard_code_list>617996</qds:standard_code_list>
+<qds:standard_code_list>645806</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1563">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1563</qds:QDS_id>
+<qds:standard_concept>Beta-Lactamase inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>562251</qds:standard_code_list>
+<qds:standard_code_list>562253</qds:standard_code_list>
+<qds:standard_code_list>562508</qds:standard_code_list>
+<qds:standard_code_list>617293</qds:standard_code_list>
+<qds:standard_code_list>617295</qds:standard_code_list>
+<qds:standard_code_list>617296</qds:standard_code_list>
+<qds:standard_code_list>617302</qds:standard_code_list>
+<qds:standard_code_list>617304</qds:standard_code_list>
+<qds:standard_code_list>617309</qds:standard_code_list>
+<qds:standard_code_list>617316</qds:standard_code_list>
+<qds:standard_code_list>617322</qds:standard_code_list>
+<qds:standard_code_list>617423</qds:standard_code_list>
+<qds:standard_code_list>617430</qds:standard_code_list>
+<qds:standard_code_list>617975</qds:standard_code_list>
+<qds:standard_code_list>617976</qds:standard_code_list>
+<qds:standard_code_list>617981</qds:standard_code_list>
+<qds:standard_code_list>617989</qds:standard_code_list>
+<qds:standard_code_list>617993</qds:standard_code_list>
+<qds:standard_code_list>617995</qds:standard_code_list>
+<qds:standard_code_list>617996</qds:standard_code_list>
+<qds:standard_code_list>645806</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_993">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_993</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_994">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_994</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1668">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1668</qds:QDS_id>
+<qds:standard_concept>encounter ambulatory including pediatrics</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c524</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+<qds:standard_code_list>N_c60</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1501">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1501</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1499">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1499</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1502">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1502</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1508">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1508</qds:QDS_id>
+<qds:standard_concept>First generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c284</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105170</qds:standard_code_list>
+<qds:standard_code_list>105171</qds:standard_code_list>
+<qds:standard_code_list>197454</qds:standard_code_list>
+<qds:standard_code_list>197455</qds:standard_code_list>
+<qds:standard_code_list>197456</qds:standard_code_list>
+<qds:standard_code_list>242794</qds:standard_code_list>
+<qds:standard_code_list>250582</qds:standard_code_list>
+<qds:standard_code_list>309046</qds:standard_code_list>
+<qds:standard_code_list>309047</qds:standard_code_list>
+<qds:standard_code_list>309048</qds:standard_code_list>
+<qds:standard_code_list>309049</qds:standard_code_list>
+<qds:standard_code_list>309051</qds:standard_code_list>
+<qds:standard_code_list>309052</qds:standard_code_list>
+<qds:standard_code_list>309053</qds:standard_code_list>
+<qds:standard_code_list>309110</qds:standard_code_list>
+<qds:standard_code_list>309111</qds:standard_code_list>
+<qds:standard_code_list>309112</qds:standard_code_list>
+<qds:standard_code_list>309113</qds:standard_code_list>
+<qds:standard_code_list>309114</qds:standard_code_list>
+<qds:standard_code_list>309115</qds:standard_code_list>
+<qds:standard_code_list>309121</qds:standard_code_list>
+<qds:standard_code_list>313889</qds:standard_code_list>
+<qds:standard_code_list>313920</qds:standard_code_list>
+<qds:standard_code_list>313929</qds:standard_code_list>
+<qds:standard_code_list>347996</qds:standard_code_list>
+<qds:standard_code_list>406696</qds:standard_code_list>
+<qds:standard_code_list>476193</qds:standard_code_list>
+<qds:standard_code_list>562062</qds:standard_code_list>
+<qds:standard_code_list>562641</qds:standard_code_list>
+<qds:standard_code_list>637173</qds:standard_code_list>
+<qds:standard_code_list>645617</qds:standard_code_list>
+<qds:standard_code_list>755615</qds:standard_code_list>
+<qds:standard_code_list>755616</qds:standard_code_list>
+<qds:standard_code_list>755617</qds:standard_code_list>
+<qds:standard_code_list>796301</qds:standard_code_list>
+<qds:standard_code_list>854220</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1522">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1522</qds:QDS_id>
+<qds:standard_concept>First generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c284</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105170</qds:standard_code_list>
+<qds:standard_code_list>105171</qds:standard_code_list>
+<qds:standard_code_list>197454</qds:standard_code_list>
+<qds:standard_code_list>197455</qds:standard_code_list>
+<qds:standard_code_list>197456</qds:standard_code_list>
+<qds:standard_code_list>242794</qds:standard_code_list>
+<qds:standard_code_list>250582</qds:standard_code_list>
+<qds:standard_code_list>309046</qds:standard_code_list>
+<qds:standard_code_list>309047</qds:standard_code_list>
+<qds:standard_code_list>309048</qds:standard_code_list>
+<qds:standard_code_list>309049</qds:standard_code_list>
+<qds:standard_code_list>309051</qds:standard_code_list>
+<qds:standard_code_list>309052</qds:standard_code_list>
+<qds:standard_code_list>309053</qds:standard_code_list>
+<qds:standard_code_list>309110</qds:standard_code_list>
+<qds:standard_code_list>309111</qds:standard_code_list>
+<qds:standard_code_list>309112</qds:standard_code_list>
+<qds:standard_code_list>309113</qds:standard_code_list>
+<qds:standard_code_list>309114</qds:standard_code_list>
+<qds:standard_code_list>309115</qds:standard_code_list>
+<qds:standard_code_list>309121</qds:standard_code_list>
+<qds:standard_code_list>313889</qds:standard_code_list>
+<qds:standard_code_list>313920</qds:standard_code_list>
+<qds:standard_code_list>313929</qds:standard_code_list>
+<qds:standard_code_list>347996</qds:standard_code_list>
+<qds:standard_code_list>406696</qds:standard_code_list>
+<qds:standard_code_list>476193</qds:standard_code_list>
+<qds:standard_code_list>562062</qds:standard_code_list>
+<qds:standard_code_list>562641</qds:standard_code_list>
+<qds:standard_code_list>637173</qds:standard_code_list>
+<qds:standard_code_list>645617</qds:standard_code_list>
+<qds:standard_code_list>755615</qds:standard_code_list>
+<qds:standard_code_list>755616</qds:standard_code_list>
+<qds:standard_code_list>755617</qds:standard_code_list>
+<qds:standard_code_list>796301</qds:standard_code_list>
+<qds:standard_code_list>854220</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1536">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1536</qds:QDS_id>
+<qds:standard_concept>First generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c284</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105170</qds:standard_code_list>
+<qds:standard_code_list>105171</qds:standard_code_list>
+<qds:standard_code_list>197454</qds:standard_code_list>
+<qds:standard_code_list>197455</qds:standard_code_list>
+<qds:standard_code_list>197456</qds:standard_code_list>
+<qds:standard_code_list>242794</qds:standard_code_list>
+<qds:standard_code_list>250582</qds:standard_code_list>
+<qds:standard_code_list>309046</qds:standard_code_list>
+<qds:standard_code_list>309047</qds:standard_code_list>
+<qds:standard_code_list>309048</qds:standard_code_list>
+<qds:standard_code_list>309049</qds:standard_code_list>
+<qds:standard_code_list>309051</qds:standard_code_list>
+<qds:standard_code_list>309052</qds:standard_code_list>
+<qds:standard_code_list>309053</qds:standard_code_list>
+<qds:standard_code_list>309110</qds:standard_code_list>
+<qds:standard_code_list>309111</qds:standard_code_list>
+<qds:standard_code_list>309112</qds:standard_code_list>
+<qds:standard_code_list>309113</qds:standard_code_list>
+<qds:standard_code_list>309114</qds:standard_code_list>
+<qds:standard_code_list>309115</qds:standard_code_list>
+<qds:standard_code_list>309121</qds:standard_code_list>
+<qds:standard_code_list>313889</qds:standard_code_list>
+<qds:standard_code_list>313920</qds:standard_code_list>
+<qds:standard_code_list>313929</qds:standard_code_list>
+<qds:standard_code_list>347996</qds:standard_code_list>
+<qds:standard_code_list>406696</qds:standard_code_list>
+<qds:standard_code_list>476193</qds:standard_code_list>
+<qds:standard_code_list>562062</qds:standard_code_list>
+<qds:standard_code_list>562641</qds:standard_code_list>
+<qds:standard_code_list>637173</qds:standard_code_list>
+<qds:standard_code_list>645617</qds:standard_code_list>
+<qds:standard_code_list>755615</qds:standard_code_list>
+<qds:standard_code_list>755616</qds:standard_code_list>
+<qds:standard_code_list>755617</qds:standard_code_list>
+<qds:standard_code_list>796301</qds:standard_code_list>
+<qds:standard_code_list>854220</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1550">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1550</qds:QDS_id>
+<qds:standard_concept>First generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c284</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105170</qds:standard_code_list>
+<qds:standard_code_list>105171</qds:standard_code_list>
+<qds:standard_code_list>197454</qds:standard_code_list>
+<qds:standard_code_list>197455</qds:standard_code_list>
+<qds:standard_code_list>197456</qds:standard_code_list>
+<qds:standard_code_list>242794</qds:standard_code_list>
+<qds:standard_code_list>250582</qds:standard_code_list>
+<qds:standard_code_list>309046</qds:standard_code_list>
+<qds:standard_code_list>309047</qds:standard_code_list>
+<qds:standard_code_list>309048</qds:standard_code_list>
+<qds:standard_code_list>309049</qds:standard_code_list>
+<qds:standard_code_list>309051</qds:standard_code_list>
+<qds:standard_code_list>309052</qds:standard_code_list>
+<qds:standard_code_list>309053</qds:standard_code_list>
+<qds:standard_code_list>309110</qds:standard_code_list>
+<qds:standard_code_list>309111</qds:standard_code_list>
+<qds:standard_code_list>309112</qds:standard_code_list>
+<qds:standard_code_list>309113</qds:standard_code_list>
+<qds:standard_code_list>309114</qds:standard_code_list>
+<qds:standard_code_list>309115</qds:standard_code_list>
+<qds:standard_code_list>309121</qds:standard_code_list>
+<qds:standard_code_list>313889</qds:standard_code_list>
+<qds:standard_code_list>313920</qds:standard_code_list>
+<qds:standard_code_list>313929</qds:standard_code_list>
+<qds:standard_code_list>347996</qds:standard_code_list>
+<qds:standard_code_list>406696</qds:standard_code_list>
+<qds:standard_code_list>476193</qds:standard_code_list>
+<qds:standard_code_list>562062</qds:standard_code_list>
+<qds:standard_code_list>562641</qds:standard_code_list>
+<qds:standard_code_list>637173</qds:standard_code_list>
+<qds:standard_code_list>645617</qds:standard_code_list>
+<qds:standard_code_list>755615</qds:standard_code_list>
+<qds:standard_code_list>755616</qds:standard_code_list>
+<qds:standard_code_list>755617</qds:standard_code_list>
+<qds:standard_code_list>796301</qds:standard_code_list>
+<qds:standard_code_list>854220</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1509">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1509</qds:QDS_id>
+<qds:standard_concept>Folate antagonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c285</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>108449</qds:standard_code_list>
+<qds:standard_code_list>141843</qds:standard_code_list>
+<qds:standard_code_list>198332</qds:standard_code_list>
+<qds:standard_code_list>198333</qds:standard_code_list>
+<qds:standard_code_list>244967</qds:standard_code_list>
+<qds:standard_code_list>562707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1523">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1523</qds:QDS_id>
+<qds:standard_concept>Folate antagonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c285</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>108449</qds:standard_code_list>
+<qds:standard_code_list>141843</qds:standard_code_list>
+<qds:standard_code_list>198332</qds:standard_code_list>
+<qds:standard_code_list>198333</qds:standard_code_list>
+<qds:standard_code_list>244967</qds:standard_code_list>
+<qds:standard_code_list>562707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1537">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1537</qds:QDS_id>
+<qds:standard_concept>Folate antagonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c285</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>108449</qds:standard_code_list>
+<qds:standard_code_list>141843</qds:standard_code_list>
+<qds:standard_code_list>198332</qds:standard_code_list>
+<qds:standard_code_list>198333</qds:standard_code_list>
+<qds:standard_code_list>244967</qds:standard_code_list>
+<qds:standard_code_list>562707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1551">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1551</qds:QDS_id>
+<qds:standard_concept>Folate antagonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c285</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>108449</qds:standard_code_list>
+<qds:standard_code_list>141843</qds:standard_code_list>
+<qds:standard_code_list>198332</qds:standard_code_list>
+<qds:standard_code_list>198333</qds:standard_code_list>
+<qds:standard_code_list>244967</qds:standard_code_list>
+<qds:standard_code_list>562707</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7057">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_7057</qds:QDS_id>
+<qds:standard_concept>Group A Streptococcus Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c241</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>87070. 87071</qds:standard_code_list>
+<qds:standard_code_list>87081</qds:standard_code_list>
+<qds:standard_code_list>87430</qds:standard_code_list>
+<qds:standard_code_list>87650</qds:standard_code_list>
+<qds:standard_code_list>87651</qds:standard_code_list>
+<qds:standard_code_list>87652</qds:standard_code_list>
+<qds:standard_code_list>87880</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1248">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1248</qds:QDS_id>
+<qds:standard_concept>Group A Streptococcus Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c415</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c241</qds:standard_code_list>
+<qds:standard_code_list>N_c242</qds:standard_code_list>
+<qds:standard_code_list>N_c243</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7058">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_7058</qds:QDS_id>
+<qds:standard_concept>Group A Streptococcus Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c242</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11268-0</qds:standard_code_list>
+<qds:standard_code_list>17656-0</qds:standard_code_list>
+<qds:standard_code_list>18481-2</qds:standard_code_list>
+<qds:standard_code_list>31971-5</qds:standard_code_list>
+<qds:standard_code_list>49610-9</qds:standard_code_list>
+<qds:standard_code_list>5036-9</qds:standard_code_list>
+<qds:standard_code_list>626-2</qds:standard_code_list>
+<qds:standard_code_list>6556-5</qds:standard_code_list>
+<qds:standard_code_list>6558-1</qds:standard_code_list>
+<qds:standard_code_list>6559-9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7059">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_7059</qds:QDS_id>
+<qds:standard_concept>Group A Streptococcus Test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c243</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>122121004</qds:standard_code_list>
+<qds:standard_code_list>122205003</qds:standard_code_list>
+<qds:standard_code_list>122245007</qds:standard_code_list>
+<qds:standard_code_list>122303007</qds:standard_code_list>
+<qds:standard_code_list>89634005</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1510">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1510</qds:QDS_id>
+<qds:standard_concept>Lincomycin derivatives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c286</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141970</qds:standard_code_list>
+<qds:standard_code_list>197518</qds:standard_code_list>
+<qds:standard_code_list>197519</qds:standard_code_list>
+<qds:standard_code_list>205964</qds:standard_code_list>
+<qds:standard_code_list>259233</qds:standard_code_list>
+<qds:standard_code_list>284215</qds:standard_code_list>
+<qds:standard_code_list>309329</qds:standard_code_list>
+<qds:standard_code_list>309332</qds:standard_code_list>
+<qds:standard_code_list>309333</qds:standard_code_list>
+<qds:standard_code_list>309335</qds:standard_code_list>
+<qds:standard_code_list>309336</qds:standard_code_list>
+<qds:standard_code_list>309337</qds:standard_code_list>
+<qds:standard_code_list>309338</qds:standard_code_list>
+<qds:standard_code_list>309339</qds:standard_code_list>
+<qds:standard_code_list>309340</qds:standard_code_list>
+<qds:standard_code_list>358917</qds:standard_code_list>
+<qds:standard_code_list>392275</qds:standard_code_list>
+<qds:standard_code_list>477451</qds:standard_code_list>
+<qds:standard_code_list>562266</qds:standard_code_list>
+<qds:standard_code_list>745483</qds:standard_code_list>
+<qds:standard_code_list>797274</qds:standard_code_list>
+<qds:standard_code_list>853019</qds:standard_code_list>
+<qds:standard_code_list>882548</qds:standard_code_list>
+<qds:standard_code_list>885131</qds:standard_code_list>
+<qds:standard_code_list>890921</qds:standard_code_list>
+<qds:standard_code_list>900391</qds:standard_code_list>
+<qds:standard_code_list>900424</qds:standard_code_list>
+<qds:standard_code_list>900460</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1524">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1524</qds:QDS_id>
+<qds:standard_concept>Lincomycin derivatives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c286</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141970</qds:standard_code_list>
+<qds:standard_code_list>197518</qds:standard_code_list>
+<qds:standard_code_list>197519</qds:standard_code_list>
+<qds:standard_code_list>205964</qds:standard_code_list>
+<qds:standard_code_list>259233</qds:standard_code_list>
+<qds:standard_code_list>284215</qds:standard_code_list>
+<qds:standard_code_list>309329</qds:standard_code_list>
+<qds:standard_code_list>309332</qds:standard_code_list>
+<qds:standard_code_list>309333</qds:standard_code_list>
+<qds:standard_code_list>309335</qds:standard_code_list>
+<qds:standard_code_list>309336</qds:standard_code_list>
+<qds:standard_code_list>309337</qds:standard_code_list>
+<qds:standard_code_list>309338</qds:standard_code_list>
+<qds:standard_code_list>309339</qds:standard_code_list>
+<qds:standard_code_list>309340</qds:standard_code_list>
+<qds:standard_code_list>358917</qds:standard_code_list>
+<qds:standard_code_list>392275</qds:standard_code_list>
+<qds:standard_code_list>477451</qds:standard_code_list>
+<qds:standard_code_list>562266</qds:standard_code_list>
+<qds:standard_code_list>745483</qds:standard_code_list>
+<qds:standard_code_list>797274</qds:standard_code_list>
+<qds:standard_code_list>853019</qds:standard_code_list>
+<qds:standard_code_list>882548</qds:standard_code_list>
+<qds:standard_code_list>885131</qds:standard_code_list>
+<qds:standard_code_list>890921</qds:standard_code_list>
+<qds:standard_code_list>900391</qds:standard_code_list>
+<qds:standard_code_list>900424</qds:standard_code_list>
+<qds:standard_code_list>900460</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1538">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1538</qds:QDS_id>
+<qds:standard_concept>Lincomycin derivatives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c286</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141970</qds:standard_code_list>
+<qds:standard_code_list>197518</qds:standard_code_list>
+<qds:standard_code_list>197519</qds:standard_code_list>
+<qds:standard_code_list>205964</qds:standard_code_list>
+<qds:standard_code_list>259233</qds:standard_code_list>
+<qds:standard_code_list>284215</qds:standard_code_list>
+<qds:standard_code_list>309329</qds:standard_code_list>
+<qds:standard_code_list>309332</qds:standard_code_list>
+<qds:standard_code_list>309333</qds:standard_code_list>
+<qds:standard_code_list>309335</qds:standard_code_list>
+<qds:standard_code_list>309336</qds:standard_code_list>
+<qds:standard_code_list>309337</qds:standard_code_list>
+<qds:standard_code_list>309338</qds:standard_code_list>
+<qds:standard_code_list>309339</qds:standard_code_list>
+<qds:standard_code_list>309340</qds:standard_code_list>
+<qds:standard_code_list>358917</qds:standard_code_list>
+<qds:standard_code_list>392275</qds:standard_code_list>
+<qds:standard_code_list>477451</qds:standard_code_list>
+<qds:standard_code_list>562266</qds:standard_code_list>
+<qds:standard_code_list>745483</qds:standard_code_list>
+<qds:standard_code_list>797274</qds:standard_code_list>
+<qds:standard_code_list>853019</qds:standard_code_list>
+<qds:standard_code_list>882548</qds:standard_code_list>
+<qds:standard_code_list>885131</qds:standard_code_list>
+<qds:standard_code_list>890921</qds:standard_code_list>
+<qds:standard_code_list>900391</qds:standard_code_list>
+<qds:standard_code_list>900424</qds:standard_code_list>
+<qds:standard_code_list>900460</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1552">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1552</qds:QDS_id>
+<qds:standard_concept>Lincomycin derivatives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c286</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141970</qds:standard_code_list>
+<qds:standard_code_list>197518</qds:standard_code_list>
+<qds:standard_code_list>197519</qds:standard_code_list>
+<qds:standard_code_list>205964</qds:standard_code_list>
+<qds:standard_code_list>259233</qds:standard_code_list>
+<qds:standard_code_list>284215</qds:standard_code_list>
+<qds:standard_code_list>309329</qds:standard_code_list>
+<qds:standard_code_list>309332</qds:standard_code_list>
+<qds:standard_code_list>309333</qds:standard_code_list>
+<qds:standard_code_list>309335</qds:standard_code_list>
+<qds:standard_code_list>309336</qds:standard_code_list>
+<qds:standard_code_list>309337</qds:standard_code_list>
+<qds:standard_code_list>309338</qds:standard_code_list>
+<qds:standard_code_list>309339</qds:standard_code_list>
+<qds:standard_code_list>309340</qds:standard_code_list>
+<qds:standard_code_list>358917</qds:standard_code_list>
+<qds:standard_code_list>392275</qds:standard_code_list>
+<qds:standard_code_list>477451</qds:standard_code_list>
+<qds:standard_code_list>562266</qds:standard_code_list>
+<qds:standard_code_list>745483</qds:standard_code_list>
+<qds:standard_code_list>797274</qds:standard_code_list>
+<qds:standard_code_list>853019</qds:standard_code_list>
+<qds:standard_code_list>882548</qds:standard_code_list>
+<qds:standard_code_list>885131</qds:standard_code_list>
+<qds:standard_code_list>890921</qds:standard_code_list>
+<qds:standard_code_list>900391</qds:standard_code_list>
+<qds:standard_code_list>900424</qds:standard_code_list>
+<qds:standard_code_list>900460</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1511">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1511</qds:QDS_id>
+<qds:standard_concept>Macrolides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c287</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141962</qds:standard_code_list>
+<qds:standard_code_list>141963</qds:standard_code_list>
+<qds:standard_code_list>197516</qds:standard_code_list>
+<qds:standard_code_list>197516 </qds:standard_code_list>
+<qds:standard_code_list>197517</qds:standard_code_list>
+<qds:standard_code_list>197517 </qds:standard_code_list>
+<qds:standard_code_list>197650</qds:standard_code_list>
+<qds:standard_code_list>197650 </qds:standard_code_list>
+<qds:standard_code_list>206085</qds:standard_code_list>
+<qds:standard_code_list>206085 </qds:standard_code_list>
+<qds:standard_code_list>240741</qds:standard_code_list>
+<qds:standard_code_list>240741 </qds:standard_code_list>
+<qds:standard_code_list>251854 </qds:standard_code_list>
+<qds:standard_code_list>259543</qds:standard_code_list>
+<qds:standard_code_list>259543 </qds:standard_code_list>
+<qds:standard_code_list>308459</qds:standard_code_list>
+<qds:standard_code_list>308460</qds:standard_code_list>
+<qds:standard_code_list>308461</qds:standard_code_list>
+<qds:standard_code_list>309321</qds:standard_code_list>
+<qds:standard_code_list>309321 </qds:standard_code_list>
+<qds:standard_code_list>309322</qds:standard_code_list>
+<qds:standard_code_list>309322 </qds:standard_code_list>
+<qds:standard_code_list>310157</qds:standard_code_list>
+<qds:standard_code_list>310157 </qds:standard_code_list>
+<qds:standard_code_list>310160</qds:standard_code_list>
+<qds:standard_code_list>310160 </qds:standard_code_list>
+<qds:standard_code_list>310161</qds:standard_code_list>
+<qds:standard_code_list>310161 </qds:standard_code_list>
+<qds:standard_code_list>310162</qds:standard_code_list>
+<qds:standard_code_list>310162 </qds:standard_code_list>
+<qds:standard_code_list>310165</qds:standard_code_list>
+<qds:standard_code_list>310165 </qds:standard_code_list>
+<qds:standard_code_list>346618</qds:standard_code_list>
+<qds:standard_code_list>346618 </qds:standard_code_list>
+<qds:standard_code_list>359385</qds:standard_code_list>
+<qds:standard_code_list>359385 </qds:standard_code_list>
+<qds:standard_code_list>486912</qds:standard_code_list>
+<qds:standard_code_list>486912 </qds:standard_code_list>
+<qds:standard_code_list>486955</qds:standard_code_list>
+<qds:standard_code_list>486955 </qds:standard_code_list>
+<qds:standard_code_list>486960</qds:standard_code_list>
+<qds:standard_code_list>486960 </qds:standard_code_list>
+<qds:standard_code_list>487129</qds:standard_code_list>
+<qds:standard_code_list>487129 </qds:standard_code_list>
+<qds:standard_code_list>577162</qds:standard_code_list>
+<qds:standard_code_list>577378</qds:standard_code_list>
+<qds:standard_code_list>597193</qds:standard_code_list>
+<qds:standard_code_list>597193 </qds:standard_code_list>
+<qds:standard_code_list>597194</qds:standard_code_list>
+<qds:standard_code_list>597194 </qds:standard_code_list>
+<qds:standard_code_list>597298</qds:standard_code_list>
+<qds:standard_code_list>597298 </qds:standard_code_list>
+<qds:standard_code_list>597455</qds:standard_code_list>
+<qds:standard_code_list>597455 </qds:standard_code_list>
+<qds:standard_code_list>686350</qds:standard_code_list>
+<qds:standard_code_list>686350 </qds:standard_code_list>
+<qds:standard_code_list>686354</qds:standard_code_list>
+<qds:standard_code_list>686354 </qds:standard_code_list>
+<qds:standard_code_list>686355</qds:standard_code_list>
+<qds:standard_code_list>686355 </qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>686383 </qds:standard_code_list>
+<qds:standard_code_list>686400</qds:standard_code_list>
+<qds:standard_code_list>686400 </qds:standard_code_list>
+<qds:standard_code_list>686405</qds:standard_code_list>
+<qds:standard_code_list>686405 </qds:standard_code_list>
+<qds:standard_code_list>686406</qds:standard_code_list>
+<qds:standard_code_list>686406 </qds:standard_code_list>
+<qds:standard_code_list>686418</qds:standard_code_list>
+<qds:standard_code_list>686418 </qds:standard_code_list>
+<qds:standard_code_list>686447</qds:standard_code_list>
+<qds:standard_code_list>686447 </qds:standard_code_list>
+<qds:standard_code_list>750151</qds:standard_code_list>
+<qds:standard_code_list>751864</qds:standard_code_list>
+<qds:standard_code_list>751864 </qds:standard_code_list>
+<qds:standard_code_list>861416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1525">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1525</qds:QDS_id>
+<qds:standard_concept>Macrolides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c287</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141962</qds:standard_code_list>
+<qds:standard_code_list>141963</qds:standard_code_list>
+<qds:standard_code_list>197516</qds:standard_code_list>
+<qds:standard_code_list>197516 </qds:standard_code_list>
+<qds:standard_code_list>197517</qds:standard_code_list>
+<qds:standard_code_list>197517 </qds:standard_code_list>
+<qds:standard_code_list>197650</qds:standard_code_list>
+<qds:standard_code_list>197650 </qds:standard_code_list>
+<qds:standard_code_list>206085</qds:standard_code_list>
+<qds:standard_code_list>206085 </qds:standard_code_list>
+<qds:standard_code_list>240741</qds:standard_code_list>
+<qds:standard_code_list>240741 </qds:standard_code_list>
+<qds:standard_code_list>251854 </qds:standard_code_list>
+<qds:standard_code_list>259543</qds:standard_code_list>
+<qds:standard_code_list>259543 </qds:standard_code_list>
+<qds:standard_code_list>308459</qds:standard_code_list>
+<qds:standard_code_list>308460</qds:standard_code_list>
+<qds:standard_code_list>308461</qds:standard_code_list>
+<qds:standard_code_list>309321</qds:standard_code_list>
+<qds:standard_code_list>309321 </qds:standard_code_list>
+<qds:standard_code_list>309322</qds:standard_code_list>
+<qds:standard_code_list>309322 </qds:standard_code_list>
+<qds:standard_code_list>310157</qds:standard_code_list>
+<qds:standard_code_list>310157 </qds:standard_code_list>
+<qds:standard_code_list>310160</qds:standard_code_list>
+<qds:standard_code_list>310160 </qds:standard_code_list>
+<qds:standard_code_list>310161</qds:standard_code_list>
+<qds:standard_code_list>310161 </qds:standard_code_list>
+<qds:standard_code_list>310162</qds:standard_code_list>
+<qds:standard_code_list>310162 </qds:standard_code_list>
+<qds:standard_code_list>310165</qds:standard_code_list>
+<qds:standard_code_list>310165 </qds:standard_code_list>
+<qds:standard_code_list>346618</qds:standard_code_list>
+<qds:standard_code_list>346618 </qds:standard_code_list>
+<qds:standard_code_list>359385</qds:standard_code_list>
+<qds:standard_code_list>359385 </qds:standard_code_list>
+<qds:standard_code_list>486912</qds:standard_code_list>
+<qds:standard_code_list>486912 </qds:standard_code_list>
+<qds:standard_code_list>486955</qds:standard_code_list>
+<qds:standard_code_list>486955 </qds:standard_code_list>
+<qds:standard_code_list>486960</qds:standard_code_list>
+<qds:standard_code_list>486960 </qds:standard_code_list>
+<qds:standard_code_list>487129</qds:standard_code_list>
+<qds:standard_code_list>487129 </qds:standard_code_list>
+<qds:standard_code_list>577162</qds:standard_code_list>
+<qds:standard_code_list>577378</qds:standard_code_list>
+<qds:standard_code_list>597193</qds:standard_code_list>
+<qds:standard_code_list>597193 </qds:standard_code_list>
+<qds:standard_code_list>597194</qds:standard_code_list>
+<qds:standard_code_list>597194 </qds:standard_code_list>
+<qds:standard_code_list>597298</qds:standard_code_list>
+<qds:standard_code_list>597298 </qds:standard_code_list>
+<qds:standard_code_list>597455</qds:standard_code_list>
+<qds:standard_code_list>597455 </qds:standard_code_list>
+<qds:standard_code_list>686350</qds:standard_code_list>
+<qds:standard_code_list>686350 </qds:standard_code_list>
+<qds:standard_code_list>686354</qds:standard_code_list>
+<qds:standard_code_list>686354 </qds:standard_code_list>
+<qds:standard_code_list>686355</qds:standard_code_list>
+<qds:standard_code_list>686355 </qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>686383 </qds:standard_code_list>
+<qds:standard_code_list>686400</qds:standard_code_list>
+<qds:standard_code_list>686400 </qds:standard_code_list>
+<qds:standard_code_list>686405</qds:standard_code_list>
+<qds:standard_code_list>686405 </qds:standard_code_list>
+<qds:standard_code_list>686406</qds:standard_code_list>
+<qds:standard_code_list>686406 </qds:standard_code_list>
+<qds:standard_code_list>686418</qds:standard_code_list>
+<qds:standard_code_list>686418 </qds:standard_code_list>
+<qds:standard_code_list>686447</qds:standard_code_list>
+<qds:standard_code_list>686447 </qds:standard_code_list>
+<qds:standard_code_list>750151</qds:standard_code_list>
+<qds:standard_code_list>751864</qds:standard_code_list>
+<qds:standard_code_list>751864 </qds:standard_code_list>
+<qds:standard_code_list>861416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1539">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1539</qds:QDS_id>
+<qds:standard_concept>Macrolides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c287</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141962</qds:standard_code_list>
+<qds:standard_code_list>141963</qds:standard_code_list>
+<qds:standard_code_list>197516</qds:standard_code_list>
+<qds:standard_code_list>197516 </qds:standard_code_list>
+<qds:standard_code_list>197517</qds:standard_code_list>
+<qds:standard_code_list>197517 </qds:standard_code_list>
+<qds:standard_code_list>197650</qds:standard_code_list>
+<qds:standard_code_list>197650 </qds:standard_code_list>
+<qds:standard_code_list>206085</qds:standard_code_list>
+<qds:standard_code_list>206085 </qds:standard_code_list>
+<qds:standard_code_list>240741</qds:standard_code_list>
+<qds:standard_code_list>240741 </qds:standard_code_list>
+<qds:standard_code_list>251854 </qds:standard_code_list>
+<qds:standard_code_list>259543</qds:standard_code_list>
+<qds:standard_code_list>259543 </qds:standard_code_list>
+<qds:standard_code_list>308459</qds:standard_code_list>
+<qds:standard_code_list>308460</qds:standard_code_list>
+<qds:standard_code_list>308461</qds:standard_code_list>
+<qds:standard_code_list>309321</qds:standard_code_list>
+<qds:standard_code_list>309321 </qds:standard_code_list>
+<qds:standard_code_list>309322</qds:standard_code_list>
+<qds:standard_code_list>309322 </qds:standard_code_list>
+<qds:standard_code_list>310157</qds:standard_code_list>
+<qds:standard_code_list>310157 </qds:standard_code_list>
+<qds:standard_code_list>310160</qds:standard_code_list>
+<qds:standard_code_list>310160 </qds:standard_code_list>
+<qds:standard_code_list>310161</qds:standard_code_list>
+<qds:standard_code_list>310161 </qds:standard_code_list>
+<qds:standard_code_list>310162</qds:standard_code_list>
+<qds:standard_code_list>310162 </qds:standard_code_list>
+<qds:standard_code_list>310165</qds:standard_code_list>
+<qds:standard_code_list>310165 </qds:standard_code_list>
+<qds:standard_code_list>346618</qds:standard_code_list>
+<qds:standard_code_list>346618 </qds:standard_code_list>
+<qds:standard_code_list>359385</qds:standard_code_list>
+<qds:standard_code_list>359385 </qds:standard_code_list>
+<qds:standard_code_list>486912</qds:standard_code_list>
+<qds:standard_code_list>486912 </qds:standard_code_list>
+<qds:standard_code_list>486955</qds:standard_code_list>
+<qds:standard_code_list>486955 </qds:standard_code_list>
+<qds:standard_code_list>486960</qds:standard_code_list>
+<qds:standard_code_list>486960 </qds:standard_code_list>
+<qds:standard_code_list>487129</qds:standard_code_list>
+<qds:standard_code_list>487129 </qds:standard_code_list>
+<qds:standard_code_list>577162</qds:standard_code_list>
+<qds:standard_code_list>577378</qds:standard_code_list>
+<qds:standard_code_list>597193</qds:standard_code_list>
+<qds:standard_code_list>597193 </qds:standard_code_list>
+<qds:standard_code_list>597194</qds:standard_code_list>
+<qds:standard_code_list>597194 </qds:standard_code_list>
+<qds:standard_code_list>597298</qds:standard_code_list>
+<qds:standard_code_list>597298 </qds:standard_code_list>
+<qds:standard_code_list>597455</qds:standard_code_list>
+<qds:standard_code_list>597455 </qds:standard_code_list>
+<qds:standard_code_list>686350</qds:standard_code_list>
+<qds:standard_code_list>686350 </qds:standard_code_list>
+<qds:standard_code_list>686354</qds:standard_code_list>
+<qds:standard_code_list>686354 </qds:standard_code_list>
+<qds:standard_code_list>686355</qds:standard_code_list>
+<qds:standard_code_list>686355 </qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>686383 </qds:standard_code_list>
+<qds:standard_code_list>686400</qds:standard_code_list>
+<qds:standard_code_list>686400 </qds:standard_code_list>
+<qds:standard_code_list>686405</qds:standard_code_list>
+<qds:standard_code_list>686405 </qds:standard_code_list>
+<qds:standard_code_list>686406</qds:standard_code_list>
+<qds:standard_code_list>686406 </qds:standard_code_list>
+<qds:standard_code_list>686418</qds:standard_code_list>
+<qds:standard_code_list>686418 </qds:standard_code_list>
+<qds:standard_code_list>686447</qds:standard_code_list>
+<qds:standard_code_list>686447 </qds:standard_code_list>
+<qds:standard_code_list>750151</qds:standard_code_list>
+<qds:standard_code_list>751864</qds:standard_code_list>
+<qds:standard_code_list>751864 </qds:standard_code_list>
+<qds:standard_code_list>861416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1553">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1553</qds:QDS_id>
+<qds:standard_concept>Macrolides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c287</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>141962</qds:standard_code_list>
+<qds:standard_code_list>141963</qds:standard_code_list>
+<qds:standard_code_list>197516</qds:standard_code_list>
+<qds:standard_code_list>197516 </qds:standard_code_list>
+<qds:standard_code_list>197517</qds:standard_code_list>
+<qds:standard_code_list>197517 </qds:standard_code_list>
+<qds:standard_code_list>197650</qds:standard_code_list>
+<qds:standard_code_list>197650 </qds:standard_code_list>
+<qds:standard_code_list>206085</qds:standard_code_list>
+<qds:standard_code_list>206085 </qds:standard_code_list>
+<qds:standard_code_list>240741</qds:standard_code_list>
+<qds:standard_code_list>240741 </qds:standard_code_list>
+<qds:standard_code_list>251854 </qds:standard_code_list>
+<qds:standard_code_list>259543</qds:standard_code_list>
+<qds:standard_code_list>259543 </qds:standard_code_list>
+<qds:standard_code_list>308459</qds:standard_code_list>
+<qds:standard_code_list>308460</qds:standard_code_list>
+<qds:standard_code_list>308461</qds:standard_code_list>
+<qds:standard_code_list>309321</qds:standard_code_list>
+<qds:standard_code_list>309321 </qds:standard_code_list>
+<qds:standard_code_list>309322</qds:standard_code_list>
+<qds:standard_code_list>309322 </qds:standard_code_list>
+<qds:standard_code_list>310157</qds:standard_code_list>
+<qds:standard_code_list>310157 </qds:standard_code_list>
+<qds:standard_code_list>310160</qds:standard_code_list>
+<qds:standard_code_list>310160 </qds:standard_code_list>
+<qds:standard_code_list>310161</qds:standard_code_list>
+<qds:standard_code_list>310161 </qds:standard_code_list>
+<qds:standard_code_list>310162</qds:standard_code_list>
+<qds:standard_code_list>310162 </qds:standard_code_list>
+<qds:standard_code_list>310165</qds:standard_code_list>
+<qds:standard_code_list>310165 </qds:standard_code_list>
+<qds:standard_code_list>346618</qds:standard_code_list>
+<qds:standard_code_list>346618 </qds:standard_code_list>
+<qds:standard_code_list>359385</qds:standard_code_list>
+<qds:standard_code_list>359385 </qds:standard_code_list>
+<qds:standard_code_list>486912</qds:standard_code_list>
+<qds:standard_code_list>486912 </qds:standard_code_list>
+<qds:standard_code_list>486955</qds:standard_code_list>
+<qds:standard_code_list>486955 </qds:standard_code_list>
+<qds:standard_code_list>486960</qds:standard_code_list>
+<qds:standard_code_list>486960 </qds:standard_code_list>
+<qds:standard_code_list>487129</qds:standard_code_list>
+<qds:standard_code_list>487129 </qds:standard_code_list>
+<qds:standard_code_list>577162</qds:standard_code_list>
+<qds:standard_code_list>577378</qds:standard_code_list>
+<qds:standard_code_list>597193</qds:standard_code_list>
+<qds:standard_code_list>597193 </qds:standard_code_list>
+<qds:standard_code_list>597194</qds:standard_code_list>
+<qds:standard_code_list>597194 </qds:standard_code_list>
+<qds:standard_code_list>597298</qds:standard_code_list>
+<qds:standard_code_list>597298 </qds:standard_code_list>
+<qds:standard_code_list>597455</qds:standard_code_list>
+<qds:standard_code_list>597455 </qds:standard_code_list>
+<qds:standard_code_list>686350</qds:standard_code_list>
+<qds:standard_code_list>686350 </qds:standard_code_list>
+<qds:standard_code_list>686354</qds:standard_code_list>
+<qds:standard_code_list>686354 </qds:standard_code_list>
+<qds:standard_code_list>686355</qds:standard_code_list>
+<qds:standard_code_list>686355 </qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>686383 </qds:standard_code_list>
+<qds:standard_code_list>686400</qds:standard_code_list>
+<qds:standard_code_list>686400 </qds:standard_code_list>
+<qds:standard_code_list>686405</qds:standard_code_list>
+<qds:standard_code_list>686405 </qds:standard_code_list>
+<qds:standard_code_list>686406</qds:standard_code_list>
+<qds:standard_code_list>686406 </qds:standard_code_list>
+<qds:standard_code_list>686418</qds:standard_code_list>
+<qds:standard_code_list>686418 </qds:standard_code_list>
+<qds:standard_code_list>686447</qds:standard_code_list>
+<qds:standard_code_list>686447 </qds:standard_code_list>
+<qds:standard_code_list>750151</qds:standard_code_list>
+<qds:standard_code_list>751864</qds:standard_code_list>
+<qds:standard_code_list>751864 </qds:standard_code_list>
+<qds:standard_code_list>861416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_991">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_991</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_992">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_992</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>indexdate</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1512">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1512</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c288</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>686383</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1526">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1526</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c288</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>686383</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1540">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1540</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c288</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>686383</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1554">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1554</qds:QDS_id>
+<qds:standard_concept>Miscellaneous antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c288</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>686383</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1513">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1513</qds:QDS_id>
+<qds:standard_concept>Natural penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c289</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105078 </qds:standard_code_list>
+<qds:standard_code_list>204466 </qds:standard_code_list>
+<qds:standard_code_list>207390 </qds:standard_code_list>
+<qds:standard_code_list>207391 </qds:standard_code_list>
+<qds:standard_code_list>312260 </qds:standard_code_list>
+<qds:standard_code_list>312263 </qds:standard_code_list>
+<qds:standard_code_list>312266 </qds:standard_code_list>
+<qds:standard_code_list>312270 </qds:standard_code_list>
+<qds:standard_code_list>617857 </qds:standard_code_list>
+<qds:standard_code_list>617881 </qds:standard_code_list>
+<qds:standard_code_list>623677 </qds:standard_code_list>
+<qds:standard_code_list>623695 </qds:standard_code_list>
+<qds:standard_code_list>731538 </qds:standard_code_list>
+<qds:standard_code_list>731558 </qds:standard_code_list>
+<qds:standard_code_list>731560 </qds:standard_code_list>
+<qds:standard_code_list>731564 </qds:standard_code_list>
+<qds:standard_code_list>731567 </qds:standard_code_list>
+<qds:standard_code_list>731570 </qds:standard_code_list>
+<qds:standard_code_list>731572 </qds:standard_code_list>
+<qds:standard_code_list>731575 </qds:standard_code_list>
+<qds:standard_code_list>731590 </qds:standard_code_list>
+<qds:standard_code_list>745047 </qds:standard_code_list>
+<qds:standard_code_list>745051 </qds:standard_code_list>
+<qds:standard_code_list>745053 </qds:standard_code_list>
+<qds:standard_code_list>745276 </qds:standard_code_list>
+<qds:standard_code_list>745278 </qds:standard_code_list>
+<qds:standard_code_list>745280 </qds:standard_code_list>
+<qds:standard_code_list>745282 </qds:standard_code_list>
+<qds:standard_code_list>745284 </qds:standard_code_list>
+<qds:standard_code_list>745286 </qds:standard_code_list>
+<qds:standard_code_list>745292 </qds:standard_code_list>
+<qds:standard_code_list>745296 </qds:standard_code_list>
+<qds:standard_code_list>745300 </qds:standard_code_list>
+<qds:standard_code_list>745302 </qds:standard_code_list>
+<qds:standard_code_list>745303 </qds:standard_code_list>
+<qds:standard_code_list>745462 </qds:standard_code_list>
+<qds:standard_code_list>745464 </qds:standard_code_list>
+<qds:standard_code_list>745477 </qds:standard_code_list>
+<qds:standard_code_list>745479 </qds:standard_code_list>
+<qds:standard_code_list>745483 </qds:standard_code_list>
+<qds:standard_code_list>745519 </qds:standard_code_list>
+<qds:standard_code_list>745560 </qds:standard_code_list>
+<qds:standard_code_list>745561 </qds:standard_code_list>
+<qds:standard_code_list>745585 </qds:standard_code_list>
+<qds:standard_code_list>824584 </qds:standard_code_list>
+<qds:standard_code_list>834040</qds:standard_code_list>
+<qds:standard_code_list>834046 </qds:standard_code_list>
+<qds:standard_code_list>834061 </qds:standard_code_list>
+<qds:standard_code_list>834102 </qds:standard_code_list>
+<qds:standard_code_list>834179 </qds:standard_code_list>
+<qds:standard_code_list>834182 </qds:standard_code_list>
+<qds:standard_code_list>836306 </qds:standard_code_list>
+<qds:standard_code_list>863538</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1527">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1527</qds:QDS_id>
+<qds:standard_concept>Natural penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c289</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105078 </qds:standard_code_list>
+<qds:standard_code_list>204466 </qds:standard_code_list>
+<qds:standard_code_list>207390 </qds:standard_code_list>
+<qds:standard_code_list>207391 </qds:standard_code_list>
+<qds:standard_code_list>312260 </qds:standard_code_list>
+<qds:standard_code_list>312263 </qds:standard_code_list>
+<qds:standard_code_list>312266 </qds:standard_code_list>
+<qds:standard_code_list>312270 </qds:standard_code_list>
+<qds:standard_code_list>617857 </qds:standard_code_list>
+<qds:standard_code_list>617881 </qds:standard_code_list>
+<qds:standard_code_list>623677 </qds:standard_code_list>
+<qds:standard_code_list>623695 </qds:standard_code_list>
+<qds:standard_code_list>731538 </qds:standard_code_list>
+<qds:standard_code_list>731558 </qds:standard_code_list>
+<qds:standard_code_list>731560 </qds:standard_code_list>
+<qds:standard_code_list>731564 </qds:standard_code_list>
+<qds:standard_code_list>731567 </qds:standard_code_list>
+<qds:standard_code_list>731570 </qds:standard_code_list>
+<qds:standard_code_list>731572 </qds:standard_code_list>
+<qds:standard_code_list>731575 </qds:standard_code_list>
+<qds:standard_code_list>731590 </qds:standard_code_list>
+<qds:standard_code_list>745047 </qds:standard_code_list>
+<qds:standard_code_list>745051 </qds:standard_code_list>
+<qds:standard_code_list>745053 </qds:standard_code_list>
+<qds:standard_code_list>745276 </qds:standard_code_list>
+<qds:standard_code_list>745278 </qds:standard_code_list>
+<qds:standard_code_list>745280 </qds:standard_code_list>
+<qds:standard_code_list>745282 </qds:standard_code_list>
+<qds:standard_code_list>745284 </qds:standard_code_list>
+<qds:standard_code_list>745286 </qds:standard_code_list>
+<qds:standard_code_list>745292 </qds:standard_code_list>
+<qds:standard_code_list>745296 </qds:standard_code_list>
+<qds:standard_code_list>745300 </qds:standard_code_list>
+<qds:standard_code_list>745302 </qds:standard_code_list>
+<qds:standard_code_list>745303 </qds:standard_code_list>
+<qds:standard_code_list>745462 </qds:standard_code_list>
+<qds:standard_code_list>745464 </qds:standard_code_list>
+<qds:standard_code_list>745477 </qds:standard_code_list>
+<qds:standard_code_list>745479 </qds:standard_code_list>
+<qds:standard_code_list>745483 </qds:standard_code_list>
+<qds:standard_code_list>745519 </qds:standard_code_list>
+<qds:standard_code_list>745560 </qds:standard_code_list>
+<qds:standard_code_list>745561 </qds:standard_code_list>
+<qds:standard_code_list>745585 </qds:standard_code_list>
+<qds:standard_code_list>824584 </qds:standard_code_list>
+<qds:standard_code_list>834040</qds:standard_code_list>
+<qds:standard_code_list>834046 </qds:standard_code_list>
+<qds:standard_code_list>834061 </qds:standard_code_list>
+<qds:standard_code_list>834102 </qds:standard_code_list>
+<qds:standard_code_list>834179 </qds:standard_code_list>
+<qds:standard_code_list>834182 </qds:standard_code_list>
+<qds:standard_code_list>836306 </qds:standard_code_list>
+<qds:standard_code_list>863538</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1541">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1541</qds:QDS_id>
+<qds:standard_concept>Natural penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c289</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105078 </qds:standard_code_list>
+<qds:standard_code_list>204466 </qds:standard_code_list>
+<qds:standard_code_list>207390 </qds:standard_code_list>
+<qds:standard_code_list>207391 </qds:standard_code_list>
+<qds:standard_code_list>312260 </qds:standard_code_list>
+<qds:standard_code_list>312263 </qds:standard_code_list>
+<qds:standard_code_list>312266 </qds:standard_code_list>
+<qds:standard_code_list>312270 </qds:standard_code_list>
+<qds:standard_code_list>617857 </qds:standard_code_list>
+<qds:standard_code_list>617881 </qds:standard_code_list>
+<qds:standard_code_list>623677 </qds:standard_code_list>
+<qds:standard_code_list>623695 </qds:standard_code_list>
+<qds:standard_code_list>731538 </qds:standard_code_list>
+<qds:standard_code_list>731558 </qds:standard_code_list>
+<qds:standard_code_list>731560 </qds:standard_code_list>
+<qds:standard_code_list>731564 </qds:standard_code_list>
+<qds:standard_code_list>731567 </qds:standard_code_list>
+<qds:standard_code_list>731570 </qds:standard_code_list>
+<qds:standard_code_list>731572 </qds:standard_code_list>
+<qds:standard_code_list>731575 </qds:standard_code_list>
+<qds:standard_code_list>731590 </qds:standard_code_list>
+<qds:standard_code_list>745047 </qds:standard_code_list>
+<qds:standard_code_list>745051 </qds:standard_code_list>
+<qds:standard_code_list>745053 </qds:standard_code_list>
+<qds:standard_code_list>745276 </qds:standard_code_list>
+<qds:standard_code_list>745278 </qds:standard_code_list>
+<qds:standard_code_list>745280 </qds:standard_code_list>
+<qds:standard_code_list>745282 </qds:standard_code_list>
+<qds:standard_code_list>745284 </qds:standard_code_list>
+<qds:standard_code_list>745286 </qds:standard_code_list>
+<qds:standard_code_list>745292 </qds:standard_code_list>
+<qds:standard_code_list>745296 </qds:standard_code_list>
+<qds:standard_code_list>745300 </qds:standard_code_list>
+<qds:standard_code_list>745302 </qds:standard_code_list>
+<qds:standard_code_list>745303 </qds:standard_code_list>
+<qds:standard_code_list>745462 </qds:standard_code_list>
+<qds:standard_code_list>745464 </qds:standard_code_list>
+<qds:standard_code_list>745477 </qds:standard_code_list>
+<qds:standard_code_list>745479 </qds:standard_code_list>
+<qds:standard_code_list>745483 </qds:standard_code_list>
+<qds:standard_code_list>745519 </qds:standard_code_list>
+<qds:standard_code_list>745560 </qds:standard_code_list>
+<qds:standard_code_list>745561 </qds:standard_code_list>
+<qds:standard_code_list>745585 </qds:standard_code_list>
+<qds:standard_code_list>824584 </qds:standard_code_list>
+<qds:standard_code_list>834040</qds:standard_code_list>
+<qds:standard_code_list>834046 </qds:standard_code_list>
+<qds:standard_code_list>834061 </qds:standard_code_list>
+<qds:standard_code_list>834102 </qds:standard_code_list>
+<qds:standard_code_list>834179 </qds:standard_code_list>
+<qds:standard_code_list>834182 </qds:standard_code_list>
+<qds:standard_code_list>836306 </qds:standard_code_list>
+<qds:standard_code_list>863538</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1555">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1555</qds:QDS_id>
+<qds:standard_concept>Natural penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c289</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105078 </qds:standard_code_list>
+<qds:standard_code_list>204466 </qds:standard_code_list>
+<qds:standard_code_list>207390 </qds:standard_code_list>
+<qds:standard_code_list>207391 </qds:standard_code_list>
+<qds:standard_code_list>312260 </qds:standard_code_list>
+<qds:standard_code_list>312263 </qds:standard_code_list>
+<qds:standard_code_list>312266 </qds:standard_code_list>
+<qds:standard_code_list>312270 </qds:standard_code_list>
+<qds:standard_code_list>617857 </qds:standard_code_list>
+<qds:standard_code_list>617881 </qds:standard_code_list>
+<qds:standard_code_list>623677 </qds:standard_code_list>
+<qds:standard_code_list>623695 </qds:standard_code_list>
+<qds:standard_code_list>731538 </qds:standard_code_list>
+<qds:standard_code_list>731558 </qds:standard_code_list>
+<qds:standard_code_list>731560 </qds:standard_code_list>
+<qds:standard_code_list>731564 </qds:standard_code_list>
+<qds:standard_code_list>731567 </qds:standard_code_list>
+<qds:standard_code_list>731570 </qds:standard_code_list>
+<qds:standard_code_list>731572 </qds:standard_code_list>
+<qds:standard_code_list>731575 </qds:standard_code_list>
+<qds:standard_code_list>731590 </qds:standard_code_list>
+<qds:standard_code_list>745047 </qds:standard_code_list>
+<qds:standard_code_list>745051 </qds:standard_code_list>
+<qds:standard_code_list>745053 </qds:standard_code_list>
+<qds:standard_code_list>745276 </qds:standard_code_list>
+<qds:standard_code_list>745278 </qds:standard_code_list>
+<qds:standard_code_list>745280 </qds:standard_code_list>
+<qds:standard_code_list>745282 </qds:standard_code_list>
+<qds:standard_code_list>745284 </qds:standard_code_list>
+<qds:standard_code_list>745286 </qds:standard_code_list>
+<qds:standard_code_list>745292 </qds:standard_code_list>
+<qds:standard_code_list>745296 </qds:standard_code_list>
+<qds:standard_code_list>745300 </qds:standard_code_list>
+<qds:standard_code_list>745302 </qds:standard_code_list>
+<qds:standard_code_list>745303 </qds:standard_code_list>
+<qds:standard_code_list>745462 </qds:standard_code_list>
+<qds:standard_code_list>745464 </qds:standard_code_list>
+<qds:standard_code_list>745477 </qds:standard_code_list>
+<qds:standard_code_list>745479 </qds:standard_code_list>
+<qds:standard_code_list>745483 </qds:standard_code_list>
+<qds:standard_code_list>745519 </qds:standard_code_list>
+<qds:standard_code_list>745560 </qds:standard_code_list>
+<qds:standard_code_list>745561 </qds:standard_code_list>
+<qds:standard_code_list>745585 </qds:standard_code_list>
+<qds:standard_code_list>824584 </qds:standard_code_list>
+<qds:standard_code_list>834040</qds:standard_code_list>
+<qds:standard_code_list>834046 </qds:standard_code_list>
+<qds:standard_code_list>834061 </qds:standard_code_list>
+<qds:standard_code_list>834102 </qds:standard_code_list>
+<qds:standard_code_list>834179 </qds:standard_code_list>
+<qds:standard_code_list>834182 </qds:standard_code_list>
+<qds:standard_code_list>836306 </qds:standard_code_list>
+<qds:standard_code_list>863538</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1514">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1514</qds:QDS_id>
+<qds:standard_concept>Penicillinase-resistant penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c290</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197595</qds:standard_code_list>
+<qds:standard_code_list>197596</qds:standard_code_list>
+<qds:standard_code_list>309860</qds:standard_code_list>
+<qds:standard_code_list>313945</qds:standard_code_list>
+<qds:standard_code_list>406366</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1528">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1528</qds:QDS_id>
+<qds:standard_concept>Penicillinase-resistant penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c290</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197595</qds:standard_code_list>
+<qds:standard_code_list>197596</qds:standard_code_list>
+<qds:standard_code_list>309860</qds:standard_code_list>
+<qds:standard_code_list>313945</qds:standard_code_list>
+<qds:standard_code_list>406366</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1542">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1542</qds:QDS_id>
+<qds:standard_concept>Penicillinase-resistant penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c290</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197595</qds:standard_code_list>
+<qds:standard_code_list>197596</qds:standard_code_list>
+<qds:standard_code_list>309860</qds:standard_code_list>
+<qds:standard_code_list>313945</qds:standard_code_list>
+<qds:standard_code_list>406366</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1556">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1556</qds:QDS_id>
+<qds:standard_concept>Penicillinase-resistant penicillins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c290</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197595</qds:standard_code_list>
+<qds:standard_code_list>197596</qds:standard_code_list>
+<qds:standard_code_list>309860</qds:standard_code_list>
+<qds:standard_code_list>313945</qds:standard_code_list>
+<qds:standard_code_list>406366</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1241">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1241</qds:QDS_id>
+<qds:standard_concept>pharyngitis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c411</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c521</qds:standard_code_list>
+<qds:standard_code_list>N_c522</qds:standard_code_list>
+<qds:standard_code_list>N_c523</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1697">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1697</qds:QDS_id>
+<qds:standard_concept>pharyngitis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c521</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J02</qds:standard_code_list>
+<qds:standard_code_list>J02.0</qds:standard_code_list>
+<qds:standard_code_list>J03</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1698">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1698</qds:QDS_id>
+<qds:standard_concept>pharyngitis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c523</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>034.0</qds:standard_code_list>
+<qds:standard_code_list>462</qds:standard_code_list>
+<qds:standard_code_list>463</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1699">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1699</qds:QDS_id>
+<qds:standard_concept>pharyngitis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c522</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>102453009</qds:standard_code_list>
+<qds:standard_code_list>10351008</qds:standard_code_list>
+<qds:standard_code_list>109362006</qds:standard_code_list>
+<qds:standard_code_list>111277007</qds:standard_code_list>
+<qds:standard_code_list>111816002</qds:standard_code_list>
+<qds:standard_code_list>11461005</qds:standard_code_list>
+<qds:standard_code_list>126664009</qds:standard_code_list>
+<qds:standard_code_list>13177009</qds:standard_code_list>
+<qds:standard_code_list>140004</qds:standard_code_list>
+<qds:standard_code_list>14465002</qds:standard_code_list>
+<qds:standard_code_list>1532007</qds:standard_code_list>
+<qds:standard_code_list>164260005</qds:standard_code_list>
+<qds:standard_code_list>17741008</qds:standard_code_list>
+<qds:standard_code_list>186659004</qds:standard_code_list>
+<qds:standard_code_list>186675001</qds:standard_code_list>
+<qds:standard_code_list>186963008</qds:standard_code_list>
+<qds:standard_code_list>195655000</qds:standard_code_list>
+<qds:standard_code_list>195656004</qds:standard_code_list>
+<qds:standard_code_list>195657008</qds:standard_code_list>
+<qds:standard_code_list>195658003</qds:standard_code_list>
+<qds:standard_code_list>195659006</qds:standard_code_list>
+<qds:standard_code_list>195660001</qds:standard_code_list>
+<qds:standard_code_list>195662009</qds:standard_code_list>
+<qds:standard_code_list>195663004</qds:standard_code_list>
+<qds:standard_code_list>195666007</qds:standard_code_list>
+<qds:standard_code_list>195667003</qds:standard_code_list>
+<qds:standard_code_list>195668008</qds:standard_code_list>
+<qds:standard_code_list>195669000</qds:standard_code_list>
+<qds:standard_code_list>195670004</qds:standard_code_list>
+<qds:standard_code_list>195671000</qds:standard_code_list>
+<qds:standard_code_list>195672007</qds:standard_code_list>
+<qds:standard_code_list>195673002</qds:standard_code_list>
+<qds:standard_code_list>195676005</qds:standard_code_list>
+<qds:standard_code_list>195677001</qds:standard_code_list>
+<qds:standard_code_list>195707008</qds:standard_code_list>
+<qds:standard_code_list>195779005</qds:standard_code_list>
+<qds:standard_code_list>195780008</qds:standard_code_list>
+<qds:standard_code_list>195782000</qds:standard_code_list>
+<qds:standard_code_list>195798007</qds:standard_code_list>
+<qds:standard_code_list>195803003</qds:standard_code_list>
+<qds:standard_code_list>195804009</qds:standard_code_list>
+<qds:standard_code_list>195924009</qds:standard_code_list>
+<qds:standard_code_list>2091005</qds:standard_code_list>
+<qds:standard_code_list>23166004</qds:standard_code_list>
+<qds:standard_code_list>232399005</qds:standard_code_list>
+<qds:standard_code_list>232400003</qds:standard_code_list>
+<qds:standard_code_list>232401004</qds:standard_code_list>
+<qds:standard_code_list>232402006</qds:standard_code_list>
+<qds:standard_code_list>232403001</qds:standard_code_list>
+<qds:standard_code_list>232404007</qds:standard_code_list>
+<qds:standard_code_list>232405008</qds:standard_code_list>
+<qds:standard_code_list>232406009</qds:standard_code_list>
+<qds:standard_code_list>232417005</qds:standard_code_list>
+<qds:standard_code_list>232420002</qds:standard_code_list>
+<qds:standard_code_list>234528007</qds:standard_code_list>
+<qds:standard_code_list>2365002</qds:standard_code_list>
+<qds:standard_code_list>240444009</qds:standard_code_list>
+<qds:standard_code_list>240547000</qds:standard_code_list>
+<qds:standard_code_list>24078009</qds:standard_code_list>
+<qds:standard_code_list>27878001</qds:standard_code_list>
+<qds:standard_code_list>300932000</qds:standard_code_list>
+<qds:standard_code_list>302911003</qds:standard_code_list>
+<qds:standard_code_list>312422001</qds:standard_code_list>
+<qds:standard_code_list>31309002</qds:standard_code_list>
+<qds:standard_code_list>363746003</qds:standard_code_list>
+<qds:standard_code_list>39271004</qds:standard_code_list>
+<qds:standard_code_list>399095008</qds:standard_code_list>
+<qds:standard_code_list>405737000</qds:standard_code_list>
+<qds:standard_code_list>40766000</qds:standard_code_list>
+<qds:standard_code_list>415724006</qds:standard_code_list>
+<qds:standard_code_list>41582007</qds:standard_code_list>
+<qds:standard_code_list>43878008</qds:standard_code_list>
+<qds:standard_code_list>47841006</qds:standard_code_list>
+<qds:standard_code_list>51209006</qds:standard_code_list>
+<qds:standard_code_list>51476001</qds:standard_code_list>
+<qds:standard_code_list>55355000</qds:standard_code_list>
+<qds:standard_code_list>58031004</qds:standard_code_list>
+<qds:standard_code_list>59221008</qds:standard_code_list>
+<qds:standard_code_list>59471009</qds:standard_code_list>
+<qds:standard_code_list>63866002</qds:standard_code_list>
+<qds:standard_code_list>652005</qds:standard_code_list>
+<qds:standard_code_list>70020005</qds:standard_code_list>
+<qds:standard_code_list>72430001</qds:standard_code_list>
+<qds:standard_code_list>76651006</qds:standard_code_list>
+<qds:standard_code_list>78430008</qds:standard_code_list>
+<qds:standard_code_list>78911000</qds:standard_code_list>
+<qds:standard_code_list>82228008</qds:standard_code_list>
+<qds:standard_code_list>87326000</qds:standard_code_list>
+<qds:standard_code_list>90176007</qds:standard_code_list>
+<qds:standard_code_list>90979004</qds:standard_code_list>
+<qds:standard_code_list>95885008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1251">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1251</qds:QDS_id>
+<qds:standard_concept>pharyngitis antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c412</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c284</qds:standard_code_list>
+<qds:standard_code_list>N_c285</qds:standard_code_list>
+<qds:standard_code_list>N_c286</qds:standard_code_list>
+<qds:standard_code_list>N_c287</qds:standard_code_list>
+<qds:standard_code_list>N_c288</qds:standard_code_list>
+<qds:standard_code_list>N_c289</qds:standard_code_list>
+<qds:standard_code_list>N_c290</qds:standard_code_list>
+<qds:standard_code_list>N_c291</qds:standard_code_list>
+<qds:standard_code_list>N_c292</qds:standard_code_list>
+<qds:standard_code_list>N_c293</qds:standard_code_list>
+<qds:standard_code_list>N_c294</qds:standard_code_list>
+<qds:standard_code_list>N_c295</qds:standard_code_list>
+<qds:standard_code_list>N_c374</qds:standard_code_list>
+<qds:standard_code_list>N_c376</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1252">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1252</qds:QDS_id>
+<qds:standard_concept>pharyngitis antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c412</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c284</qds:standard_code_list>
+<qds:standard_code_list>N_c285</qds:standard_code_list>
+<qds:standard_code_list>N_c286</qds:standard_code_list>
+<qds:standard_code_list>N_c287</qds:standard_code_list>
+<qds:standard_code_list>N_c288</qds:standard_code_list>
+<qds:standard_code_list>N_c289</qds:standard_code_list>
+<qds:standard_code_list>N_c290</qds:standard_code_list>
+<qds:standard_code_list>N_c291</qds:standard_code_list>
+<qds:standard_code_list>N_c292</qds:standard_code_list>
+<qds:standard_code_list>N_c293</qds:standard_code_list>
+<qds:standard_code_list>N_c294</qds:standard_code_list>
+<qds:standard_code_list>N_c295</qds:standard_code_list>
+<qds:standard_code_list>N_c374</qds:standard_code_list>
+<qds:standard_code_list>N_c376</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1253">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1253</qds:QDS_id>
+<qds:standard_concept>pharyngitis antibiotics</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c412</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c284</qds:standard_code_list>
+<qds:standard_code_list>N_c285</qds:standard_code_list>
+<qds:standard_code_list>N_c286</qds:standard_code_list>
+<qds:standard_code_list>N_c287</qds:standard_code_list>
+<qds:standard_code_list>N_c288</qds:standard_code_list>
+<qds:standard_code_list>N_c289</qds:standard_code_list>
+<qds:standard_code_list>N_c290</qds:standard_code_list>
+<qds:standard_code_list>N_c291</qds:standard_code_list>
+<qds:standard_code_list>N_c292</qds:standard_code_list>
+<qds:standard_code_list>N_c293</qds:standard_code_list>
+<qds:standard_code_list>N_c294</qds:standard_code_list>
+<qds:standard_code_list>N_c295</qds:standard_code_list>
+<qds:standard_code_list>N_c374</qds:standard_code_list>
+<qds:standard_code_list>N_c376</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1515">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1515</qds:QDS_id>
+<qds:standard_concept>Quinolones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c291</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197511</qds:standard_code_list>
+<qds:standard_code_list>197512</qds:standard_code_list>
+<qds:standard_code_list>198044</qds:standard_code_list>
+<qds:standard_code_list>198048</qds:standard_code_list>
+<qds:standard_code_list>198049</qds:standard_code_list>
+<qds:standard_code_list>198050</qds:standard_code_list>
+<qds:standard_code_list>199370</qds:standard_code_list>
+<qds:standard_code_list>199886</qds:standard_code_list>
+<qds:standard_code_list>240639</qds:standard_code_list>
+<qds:standard_code_list>240640</qds:standard_code_list>
+<qds:standard_code_list>250095</qds:standard_code_list>
+<qds:standard_code_list>259311</qds:standard_code_list>
+<qds:standard_code_list>309304</qds:standard_code_list>
+<qds:standard_code_list>309308</qds:standard_code_list>
+<qds:standard_code_list>309309</qds:standard_code_list>
+<qds:standard_code_list>309310</qds:standard_code_list>
+<qds:standard_code_list>310445</qds:standard_code_list>
+<qds:standard_code_list>311296</qds:standard_code_list>
+<qds:standard_code_list>311364</qds:standard_code_list>
+<qds:standard_code_list>311787</qds:standard_code_list>
+<qds:standard_code_list>313522</qds:standard_code_list>
+<qds:standard_code_list>313523</qds:standard_code_list>
+<qds:standard_code_list>314009</qds:standard_code_list>
+<qds:standard_code_list>315065</qds:standard_code_list>
+<qds:standard_code_list>351156</qds:standard_code_list>
+<qds:standard_code_list>359383</qds:standard_code_list>
+<qds:standard_code_list>403921</qds:standard_code_list>
+<qds:standard_code_list>477391</qds:standard_code_list>
+<qds:standard_code_list>597446</qds:standard_code_list>
+<qds:standard_code_list>637560</qds:standard_code_list>
+<qds:standard_code_list>644541</qds:standard_code_list>
+<qds:standard_code_list>794769</qds:standard_code_list>
+<qds:standard_code_list>877486</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1529">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1529</qds:QDS_id>
+<qds:standard_concept>Quinolones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c291</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197511</qds:standard_code_list>
+<qds:standard_code_list>197512</qds:standard_code_list>
+<qds:standard_code_list>198044</qds:standard_code_list>
+<qds:standard_code_list>198048</qds:standard_code_list>
+<qds:standard_code_list>198049</qds:standard_code_list>
+<qds:standard_code_list>198050</qds:standard_code_list>
+<qds:standard_code_list>199370</qds:standard_code_list>
+<qds:standard_code_list>199886</qds:standard_code_list>
+<qds:standard_code_list>240639</qds:standard_code_list>
+<qds:standard_code_list>240640</qds:standard_code_list>
+<qds:standard_code_list>250095</qds:standard_code_list>
+<qds:standard_code_list>259311</qds:standard_code_list>
+<qds:standard_code_list>309304</qds:standard_code_list>
+<qds:standard_code_list>309308</qds:standard_code_list>
+<qds:standard_code_list>309309</qds:standard_code_list>
+<qds:standard_code_list>309310</qds:standard_code_list>
+<qds:standard_code_list>310445</qds:standard_code_list>
+<qds:standard_code_list>311296</qds:standard_code_list>
+<qds:standard_code_list>311364</qds:standard_code_list>
+<qds:standard_code_list>311787</qds:standard_code_list>
+<qds:standard_code_list>313522</qds:standard_code_list>
+<qds:standard_code_list>313523</qds:standard_code_list>
+<qds:standard_code_list>314009</qds:standard_code_list>
+<qds:standard_code_list>315065</qds:standard_code_list>
+<qds:standard_code_list>351156</qds:standard_code_list>
+<qds:standard_code_list>359383</qds:standard_code_list>
+<qds:standard_code_list>403921</qds:standard_code_list>
+<qds:standard_code_list>477391</qds:standard_code_list>
+<qds:standard_code_list>597446</qds:standard_code_list>
+<qds:standard_code_list>637560</qds:standard_code_list>
+<qds:standard_code_list>644541</qds:standard_code_list>
+<qds:standard_code_list>794769</qds:standard_code_list>
+<qds:standard_code_list>877486</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1543">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1543</qds:QDS_id>
+<qds:standard_concept>Quinolones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c291</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197511</qds:standard_code_list>
+<qds:standard_code_list>197512</qds:standard_code_list>
+<qds:standard_code_list>198044</qds:standard_code_list>
+<qds:standard_code_list>198048</qds:standard_code_list>
+<qds:standard_code_list>198049</qds:standard_code_list>
+<qds:standard_code_list>198050</qds:standard_code_list>
+<qds:standard_code_list>199370</qds:standard_code_list>
+<qds:standard_code_list>199886</qds:standard_code_list>
+<qds:standard_code_list>240639</qds:standard_code_list>
+<qds:standard_code_list>240640</qds:standard_code_list>
+<qds:standard_code_list>250095</qds:standard_code_list>
+<qds:standard_code_list>259311</qds:standard_code_list>
+<qds:standard_code_list>309304</qds:standard_code_list>
+<qds:standard_code_list>309308</qds:standard_code_list>
+<qds:standard_code_list>309309</qds:standard_code_list>
+<qds:standard_code_list>309310</qds:standard_code_list>
+<qds:standard_code_list>310445</qds:standard_code_list>
+<qds:standard_code_list>311296</qds:standard_code_list>
+<qds:standard_code_list>311364</qds:standard_code_list>
+<qds:standard_code_list>311787</qds:standard_code_list>
+<qds:standard_code_list>313522</qds:standard_code_list>
+<qds:standard_code_list>313523</qds:standard_code_list>
+<qds:standard_code_list>314009</qds:standard_code_list>
+<qds:standard_code_list>315065</qds:standard_code_list>
+<qds:standard_code_list>351156</qds:standard_code_list>
+<qds:standard_code_list>359383</qds:standard_code_list>
+<qds:standard_code_list>403921</qds:standard_code_list>
+<qds:standard_code_list>477391</qds:standard_code_list>
+<qds:standard_code_list>597446</qds:standard_code_list>
+<qds:standard_code_list>637560</qds:standard_code_list>
+<qds:standard_code_list>644541</qds:standard_code_list>
+<qds:standard_code_list>794769</qds:standard_code_list>
+<qds:standard_code_list>877486</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1557">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1557</qds:QDS_id>
+<qds:standard_concept>Quinolones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c291</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197511</qds:standard_code_list>
+<qds:standard_code_list>197512</qds:standard_code_list>
+<qds:standard_code_list>198044</qds:standard_code_list>
+<qds:standard_code_list>198048</qds:standard_code_list>
+<qds:standard_code_list>198049</qds:standard_code_list>
+<qds:standard_code_list>198050</qds:standard_code_list>
+<qds:standard_code_list>199370</qds:standard_code_list>
+<qds:standard_code_list>199886</qds:standard_code_list>
+<qds:standard_code_list>240639</qds:standard_code_list>
+<qds:standard_code_list>240640</qds:standard_code_list>
+<qds:standard_code_list>250095</qds:standard_code_list>
+<qds:standard_code_list>259311</qds:standard_code_list>
+<qds:standard_code_list>309304</qds:standard_code_list>
+<qds:standard_code_list>309308</qds:standard_code_list>
+<qds:standard_code_list>309309</qds:standard_code_list>
+<qds:standard_code_list>309310</qds:standard_code_list>
+<qds:standard_code_list>310445</qds:standard_code_list>
+<qds:standard_code_list>311296</qds:standard_code_list>
+<qds:standard_code_list>311364</qds:standard_code_list>
+<qds:standard_code_list>311787</qds:standard_code_list>
+<qds:standard_code_list>313522</qds:standard_code_list>
+<qds:standard_code_list>313523</qds:standard_code_list>
+<qds:standard_code_list>314009</qds:standard_code_list>
+<qds:standard_code_list>315065</qds:standard_code_list>
+<qds:standard_code_list>351156</qds:standard_code_list>
+<qds:standard_code_list>359383</qds:standard_code_list>
+<qds:standard_code_list>403921</qds:standard_code_list>
+<qds:standard_code_list>477391</qds:standard_code_list>
+<qds:standard_code_list>597446</qds:standard_code_list>
+<qds:standard_code_list>637560</qds:standard_code_list>
+<qds:standard_code_list>644541</qds:standard_code_list>
+<qds:standard_code_list>794769</qds:standard_code_list>
+<qds:standard_code_list>877486</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1516">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1516</qds:QDS_id>
+<qds:standard_concept>Second generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c292</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105189 </qds:standard_code_list>
+<qds:standard_code_list>197449 </qds:standard_code_list>
+<qds:standard_code_list>197452 </qds:standard_code_list>
+<qds:standard_code_list>197453 </qds:standard_code_list>
+<qds:standard_code_list>197898 </qds:standard_code_list>
+<qds:standard_code_list>197899 </qds:standard_code_list>
+<qds:standard_code_list>204929 </qds:standard_code_list>
+<qds:standard_code_list>245239 </qds:standard_code_list>
+<qds:standard_code_list>309040 </qds:standard_code_list>
+<qds:standard_code_list>309041 </qds:standard_code_list>
+<qds:standard_code_list>309042 </qds:standard_code_list>
+<qds:standard_code_list>309043 </qds:standard_code_list>
+<qds:standard_code_list>309044 </qds:standard_code_list>
+<qds:standard_code_list>309045 </qds:standard_code_list>
+<qds:standard_code_list>309080 </qds:standard_code_list>
+<qds:standard_code_list>309081 </qds:standard_code_list>
+<qds:standard_code_list>309095 </qds:standard_code_list>
+<qds:standard_code_list>309096 </qds:standard_code_list>
+<qds:standard_code_list>309097 </qds:standard_code_list>
+<qds:standard_code_list>309098 </qds:standard_code_list>
+<qds:standard_code_list>309099 </qds:standard_code_list>
+<qds:standard_code_list>309100 </qds:standard_code_list>
+<qds:standard_code_list>309101 </qds:standard_code_list>
+<qds:standard_code_list>309103 </qds:standard_code_list>
+<qds:standard_code_list>311370 </qds:standard_code_list>
+<qds:standard_code_list>311371 </qds:standard_code_list>
+<qds:standard_code_list>313888 </qds:standard_code_list>
+<qds:standard_code_list>313926 </qds:standard_code_list>
+<qds:standard_code_list>349507 </qds:standard_code_list>
+<qds:standard_code_list>349508 </qds:standard_code_list>
+<qds:standard_code_list>387065 </qds:standard_code_list>
+<qds:standard_code_list>387066 </qds:standard_code_list>
+<qds:standard_code_list>476322 </qds:standard_code_list>
+<qds:standard_code_list>476325 </qds:standard_code_list>
+<qds:standard_code_list>476327 </qds:standard_code_list>
+<qds:standard_code_list>476623</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1530">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1530</qds:QDS_id>
+<qds:standard_concept>Second generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c292</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105189 </qds:standard_code_list>
+<qds:standard_code_list>197449 </qds:standard_code_list>
+<qds:standard_code_list>197452 </qds:standard_code_list>
+<qds:standard_code_list>197453 </qds:standard_code_list>
+<qds:standard_code_list>197898 </qds:standard_code_list>
+<qds:standard_code_list>197899 </qds:standard_code_list>
+<qds:standard_code_list>204929 </qds:standard_code_list>
+<qds:standard_code_list>245239 </qds:standard_code_list>
+<qds:standard_code_list>309040 </qds:standard_code_list>
+<qds:standard_code_list>309041 </qds:standard_code_list>
+<qds:standard_code_list>309042 </qds:standard_code_list>
+<qds:standard_code_list>309043 </qds:standard_code_list>
+<qds:standard_code_list>309044 </qds:standard_code_list>
+<qds:standard_code_list>309045 </qds:standard_code_list>
+<qds:standard_code_list>309080 </qds:standard_code_list>
+<qds:standard_code_list>309081 </qds:standard_code_list>
+<qds:standard_code_list>309095 </qds:standard_code_list>
+<qds:standard_code_list>309096 </qds:standard_code_list>
+<qds:standard_code_list>309097 </qds:standard_code_list>
+<qds:standard_code_list>309098 </qds:standard_code_list>
+<qds:standard_code_list>309099 </qds:standard_code_list>
+<qds:standard_code_list>309100 </qds:standard_code_list>
+<qds:standard_code_list>309101 </qds:standard_code_list>
+<qds:standard_code_list>309103 </qds:standard_code_list>
+<qds:standard_code_list>311370 </qds:standard_code_list>
+<qds:standard_code_list>311371 </qds:standard_code_list>
+<qds:standard_code_list>313888 </qds:standard_code_list>
+<qds:standard_code_list>313926 </qds:standard_code_list>
+<qds:standard_code_list>349507 </qds:standard_code_list>
+<qds:standard_code_list>349508 </qds:standard_code_list>
+<qds:standard_code_list>387065 </qds:standard_code_list>
+<qds:standard_code_list>387066 </qds:standard_code_list>
+<qds:standard_code_list>476322 </qds:standard_code_list>
+<qds:standard_code_list>476325 </qds:standard_code_list>
+<qds:standard_code_list>476327 </qds:standard_code_list>
+<qds:standard_code_list>476623</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1544">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1544</qds:QDS_id>
+<qds:standard_concept>Second generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c292</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105189 </qds:standard_code_list>
+<qds:standard_code_list>197449 </qds:standard_code_list>
+<qds:standard_code_list>197452 </qds:standard_code_list>
+<qds:standard_code_list>197453 </qds:standard_code_list>
+<qds:standard_code_list>197898 </qds:standard_code_list>
+<qds:standard_code_list>197899 </qds:standard_code_list>
+<qds:standard_code_list>204929 </qds:standard_code_list>
+<qds:standard_code_list>245239 </qds:standard_code_list>
+<qds:standard_code_list>309040 </qds:standard_code_list>
+<qds:standard_code_list>309041 </qds:standard_code_list>
+<qds:standard_code_list>309042 </qds:standard_code_list>
+<qds:standard_code_list>309043 </qds:standard_code_list>
+<qds:standard_code_list>309044 </qds:standard_code_list>
+<qds:standard_code_list>309045 </qds:standard_code_list>
+<qds:standard_code_list>309080 </qds:standard_code_list>
+<qds:standard_code_list>309081 </qds:standard_code_list>
+<qds:standard_code_list>309095 </qds:standard_code_list>
+<qds:standard_code_list>309096 </qds:standard_code_list>
+<qds:standard_code_list>309097 </qds:standard_code_list>
+<qds:standard_code_list>309098 </qds:standard_code_list>
+<qds:standard_code_list>309099 </qds:standard_code_list>
+<qds:standard_code_list>309100 </qds:standard_code_list>
+<qds:standard_code_list>309101 </qds:standard_code_list>
+<qds:standard_code_list>309103 </qds:standard_code_list>
+<qds:standard_code_list>311370 </qds:standard_code_list>
+<qds:standard_code_list>311371 </qds:standard_code_list>
+<qds:standard_code_list>313888 </qds:standard_code_list>
+<qds:standard_code_list>313926 </qds:standard_code_list>
+<qds:standard_code_list>349507 </qds:standard_code_list>
+<qds:standard_code_list>349508 </qds:standard_code_list>
+<qds:standard_code_list>387065 </qds:standard_code_list>
+<qds:standard_code_list>387066 </qds:standard_code_list>
+<qds:standard_code_list>476322 </qds:standard_code_list>
+<qds:standard_code_list>476325 </qds:standard_code_list>
+<qds:standard_code_list>476327 </qds:standard_code_list>
+<qds:standard_code_list>476623</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1558">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1558</qds:QDS_id>
+<qds:standard_concept>Second generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c292</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105189 </qds:standard_code_list>
+<qds:standard_code_list>197449 </qds:standard_code_list>
+<qds:standard_code_list>197452 </qds:standard_code_list>
+<qds:standard_code_list>197453 </qds:standard_code_list>
+<qds:standard_code_list>197898 </qds:standard_code_list>
+<qds:standard_code_list>197899 </qds:standard_code_list>
+<qds:standard_code_list>204929 </qds:standard_code_list>
+<qds:standard_code_list>245239 </qds:standard_code_list>
+<qds:standard_code_list>309040 </qds:standard_code_list>
+<qds:standard_code_list>309041 </qds:standard_code_list>
+<qds:standard_code_list>309042 </qds:standard_code_list>
+<qds:standard_code_list>309043 </qds:standard_code_list>
+<qds:standard_code_list>309044 </qds:standard_code_list>
+<qds:standard_code_list>309045 </qds:standard_code_list>
+<qds:standard_code_list>309080 </qds:standard_code_list>
+<qds:standard_code_list>309081 </qds:standard_code_list>
+<qds:standard_code_list>309095 </qds:standard_code_list>
+<qds:standard_code_list>309096 </qds:standard_code_list>
+<qds:standard_code_list>309097 </qds:standard_code_list>
+<qds:standard_code_list>309098 </qds:standard_code_list>
+<qds:standard_code_list>309099 </qds:standard_code_list>
+<qds:standard_code_list>309100 </qds:standard_code_list>
+<qds:standard_code_list>309101 </qds:standard_code_list>
+<qds:standard_code_list>309103 </qds:standard_code_list>
+<qds:standard_code_list>311370 </qds:standard_code_list>
+<qds:standard_code_list>311371 </qds:standard_code_list>
+<qds:standard_code_list>313888 </qds:standard_code_list>
+<qds:standard_code_list>313926 </qds:standard_code_list>
+<qds:standard_code_list>349507 </qds:standard_code_list>
+<qds:standard_code_list>349508 </qds:standard_code_list>
+<qds:standard_code_list>387065 </qds:standard_code_list>
+<qds:standard_code_list>387066 </qds:standard_code_list>
+<qds:standard_code_list>476322 </qds:standard_code_list>
+<qds:standard_code_list>476325 </qds:standard_code_list>
+<qds:standard_code_list>476327 </qds:standard_code_list>
+<qds:standard_code_list>476623</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1517">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1517</qds:QDS_id>
+<qds:standard_concept>Sulfonamides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c293</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>142118</qds:standard_code_list>
+<qds:standard_code_list>198235 </qds:standard_code_list>
+<qds:standard_code_list>198334</qds:standard_code_list>
+<qds:standard_code_list>198335</qds:standard_code_list>
+<qds:standard_code_list>198420 </qds:standard_code_list>
+<qds:standard_code_list>246252 </qds:standard_code_list>
+<qds:standard_code_list>312340 </qds:standard_code_list>
+<qds:standard_code_list>313134 </qds:standard_code_list>
+<qds:standard_code_list>313137</qds:standard_code_list>
+<qds:standard_code_list>315219 </qds:standard_code_list>
+<qds:standard_code_list>413716 </qds:standard_code_list>
+<qds:standard_code_list>648254</qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>756189</qds:standard_code_list>
+<qds:standard_code_list>894883</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1531">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1531</qds:QDS_id>
+<qds:standard_concept>Sulfonamides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c293</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>142118</qds:standard_code_list>
+<qds:standard_code_list>198235 </qds:standard_code_list>
+<qds:standard_code_list>198334</qds:standard_code_list>
+<qds:standard_code_list>198335</qds:standard_code_list>
+<qds:standard_code_list>198420 </qds:standard_code_list>
+<qds:standard_code_list>246252 </qds:standard_code_list>
+<qds:standard_code_list>312340 </qds:standard_code_list>
+<qds:standard_code_list>313134 </qds:standard_code_list>
+<qds:standard_code_list>313137</qds:standard_code_list>
+<qds:standard_code_list>315219 </qds:standard_code_list>
+<qds:standard_code_list>413716 </qds:standard_code_list>
+<qds:standard_code_list>648254</qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>756189</qds:standard_code_list>
+<qds:standard_code_list>894883</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1545">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1545</qds:QDS_id>
+<qds:standard_concept>Sulfonamides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c293</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>142118</qds:standard_code_list>
+<qds:standard_code_list>198235 </qds:standard_code_list>
+<qds:standard_code_list>198334</qds:standard_code_list>
+<qds:standard_code_list>198335</qds:standard_code_list>
+<qds:standard_code_list>198420 </qds:standard_code_list>
+<qds:standard_code_list>246252 </qds:standard_code_list>
+<qds:standard_code_list>312340 </qds:standard_code_list>
+<qds:standard_code_list>313134 </qds:standard_code_list>
+<qds:standard_code_list>313137</qds:standard_code_list>
+<qds:standard_code_list>315219 </qds:standard_code_list>
+<qds:standard_code_list>413716 </qds:standard_code_list>
+<qds:standard_code_list>648254</qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>756189</qds:standard_code_list>
+<qds:standard_code_list>894883</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1559">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1559</qds:QDS_id>
+<qds:standard_concept>Sulfonamides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c293</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>142118</qds:standard_code_list>
+<qds:standard_code_list>198235 </qds:standard_code_list>
+<qds:standard_code_list>198334</qds:standard_code_list>
+<qds:standard_code_list>198335</qds:standard_code_list>
+<qds:standard_code_list>198420 </qds:standard_code_list>
+<qds:standard_code_list>246252 </qds:standard_code_list>
+<qds:standard_code_list>312340 </qds:standard_code_list>
+<qds:standard_code_list>313134 </qds:standard_code_list>
+<qds:standard_code_list>313137</qds:standard_code_list>
+<qds:standard_code_list>315219 </qds:standard_code_list>
+<qds:standard_code_list>413716 </qds:standard_code_list>
+<qds:standard_code_list>648254</qds:standard_code_list>
+<qds:standard_code_list>686383</qds:standard_code_list>
+<qds:standard_code_list>756189</qds:standard_code_list>
+<qds:standard_code_list>894883</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1518">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1518</qds:QDS_id>
+<qds:standard_concept>Tetracycline</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c294</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105220 </qds:standard_code_list>
+<qds:standard_code_list>105227 </qds:standard_code_list>
+<qds:standard_code_list>197633 </qds:standard_code_list>
+<qds:standard_code_list>197984 </qds:standard_code_list>
+<qds:standard_code_list>197985 </qds:standard_code_list>
+<qds:standard_code_list>198249 </qds:standard_code_list>
+<qds:standard_code_list>198250 </qds:standard_code_list>
+<qds:standard_code_list>198252 </qds:standard_code_list>
+<qds:standard_code_list>199026 </qds:standard_code_list>
+<qds:standard_code_list>199027 </qds:standard_code_list>
+<qds:standard_code_list>207362 </qds:standard_code_list>
+<qds:standard_code_list>207364 </qds:standard_code_list>
+<qds:standard_code_list>242807 </qds:standard_code_list>
+<qds:standard_code_list>242814 </qds:standard_code_list>
+<qds:standard_code_list>283535 </qds:standard_code_list>
+<qds:standard_code_list>310026 </qds:standard_code_list>
+<qds:standard_code_list>310027 </qds:standard_code_list>
+<qds:standard_code_list>310028 </qds:standard_code_list>
+<qds:standard_code_list>310029 </qds:standard_code_list>
+<qds:standard_code_list>310030 </qds:standard_code_list>
+<qds:standard_code_list>313251 </qds:standard_code_list>
+<qds:standard_code_list>313252 </qds:standard_code_list>
+<qds:standard_code_list>313253 </qds:standard_code_list>
+<qds:standard_code_list>313254 </qds:standard_code_list>
+<qds:standard_code_list>314108 </qds:standard_code_list>
+<qds:standard_code_list>317127 </qds:standard_code_list>
+<qds:standard_code_list>348869 </qds:standard_code_list>
+<qds:standard_code_list>348870 </qds:standard_code_list>
+<qds:standard_code_list>349114 </qds:standard_code_list>
+<qds:standard_code_list>349115 </qds:standard_code_list>
+<qds:standard_code_list>349116 </qds:standard_code_list>
+<qds:standard_code_list>351121 </qds:standard_code_list>
+<qds:standard_code_list>359465 </qds:standard_code_list>
+<qds:standard_code_list>403840 </qds:standard_code_list>
+<qds:standard_code_list>406524 </qds:standard_code_list>
+<qds:standard_code_list>434018 </qds:standard_code_list>
+<qds:standard_code_list>597520 </qds:standard_code_list>
+<qds:standard_code_list>597521 </qds:standard_code_list>
+<qds:standard_code_list>597808 </qds:standard_code_list>
+<qds:standard_code_list>629695 </qds:standard_code_list>
+<qds:standard_code_list>629697 </qds:standard_code_list>
+<qds:standard_code_list>629699 </qds:standard_code_list>
+<qds:standard_code_list>630819 </qds:standard_code_list>
+<qds:standard_code_list>630824 </qds:standard_code_list>
+<qds:standard_code_list>630827 </qds:standard_code_list>
+<qds:standard_code_list>643821 </qds:standard_code_list>
+<qds:standard_code_list>645613 </qds:standard_code_list>
+<qds:standard_code_list>645614 </qds:standard_code_list>
+<qds:standard_code_list>645619 </qds:standard_code_list>
+<qds:standard_code_list>647109 </qds:standard_code_list>
+<qds:standard_code_list>687231 </qds:standard_code_list>
+<qds:standard_code_list>700408 </qds:standard_code_list>
+<qds:standard_code_list>705861 </qds:standard_code_list>
+<qds:standard_code_list>728207 </qds:standard_code_list>
+<qds:standard_code_list>756134 </qds:standard_code_list>
+<qds:standard_code_list>756192 </qds:standard_code_list>
+<qds:standard_code_list>799048 </qds:standard_code_list>
+<qds:standard_code_list>858062 </qds:standard_code_list>
+<qds:standard_code_list>858065 </qds:standard_code_list>
+<qds:standard_code_list>858372 </qds:standard_code_list>
+<qds:standard_code_list>858375</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1532">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1532</qds:QDS_id>
+<qds:standard_concept>Tetracycline</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c294</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105220 </qds:standard_code_list>
+<qds:standard_code_list>105227 </qds:standard_code_list>
+<qds:standard_code_list>197633 </qds:standard_code_list>
+<qds:standard_code_list>197984 </qds:standard_code_list>
+<qds:standard_code_list>197985 </qds:standard_code_list>
+<qds:standard_code_list>198249 </qds:standard_code_list>
+<qds:standard_code_list>198250 </qds:standard_code_list>
+<qds:standard_code_list>198252 </qds:standard_code_list>
+<qds:standard_code_list>199026 </qds:standard_code_list>
+<qds:standard_code_list>199027 </qds:standard_code_list>
+<qds:standard_code_list>207362 </qds:standard_code_list>
+<qds:standard_code_list>207364 </qds:standard_code_list>
+<qds:standard_code_list>242807 </qds:standard_code_list>
+<qds:standard_code_list>242814 </qds:standard_code_list>
+<qds:standard_code_list>283535 </qds:standard_code_list>
+<qds:standard_code_list>310026 </qds:standard_code_list>
+<qds:standard_code_list>310027 </qds:standard_code_list>
+<qds:standard_code_list>310028 </qds:standard_code_list>
+<qds:standard_code_list>310029 </qds:standard_code_list>
+<qds:standard_code_list>310030 </qds:standard_code_list>
+<qds:standard_code_list>313251 </qds:standard_code_list>
+<qds:standard_code_list>313252 </qds:standard_code_list>
+<qds:standard_code_list>313253 </qds:standard_code_list>
+<qds:standard_code_list>313254 </qds:standard_code_list>
+<qds:standard_code_list>314108 </qds:standard_code_list>
+<qds:standard_code_list>317127 </qds:standard_code_list>
+<qds:standard_code_list>348869 </qds:standard_code_list>
+<qds:standard_code_list>348870 </qds:standard_code_list>
+<qds:standard_code_list>349114 </qds:standard_code_list>
+<qds:standard_code_list>349115 </qds:standard_code_list>
+<qds:standard_code_list>349116 </qds:standard_code_list>
+<qds:standard_code_list>351121 </qds:standard_code_list>
+<qds:standard_code_list>359465 </qds:standard_code_list>
+<qds:standard_code_list>403840 </qds:standard_code_list>
+<qds:standard_code_list>406524 </qds:standard_code_list>
+<qds:standard_code_list>434018 </qds:standard_code_list>
+<qds:standard_code_list>597520 </qds:standard_code_list>
+<qds:standard_code_list>597521 </qds:standard_code_list>
+<qds:standard_code_list>597808 </qds:standard_code_list>
+<qds:standard_code_list>629695 </qds:standard_code_list>
+<qds:standard_code_list>629697 </qds:standard_code_list>
+<qds:standard_code_list>629699 </qds:standard_code_list>
+<qds:standard_code_list>630819 </qds:standard_code_list>
+<qds:standard_code_list>630824 </qds:standard_code_list>
+<qds:standard_code_list>630827 </qds:standard_code_list>
+<qds:standard_code_list>643821 </qds:standard_code_list>
+<qds:standard_code_list>645613 </qds:standard_code_list>
+<qds:standard_code_list>645614 </qds:standard_code_list>
+<qds:standard_code_list>645619 </qds:standard_code_list>
+<qds:standard_code_list>647109 </qds:standard_code_list>
+<qds:standard_code_list>687231 </qds:standard_code_list>
+<qds:standard_code_list>700408 </qds:standard_code_list>
+<qds:standard_code_list>705861 </qds:standard_code_list>
+<qds:standard_code_list>728207 </qds:standard_code_list>
+<qds:standard_code_list>756134 </qds:standard_code_list>
+<qds:standard_code_list>756192 </qds:standard_code_list>
+<qds:standard_code_list>799048 </qds:standard_code_list>
+<qds:standard_code_list>858062 </qds:standard_code_list>
+<qds:standard_code_list>858065 </qds:standard_code_list>
+<qds:standard_code_list>858372 </qds:standard_code_list>
+<qds:standard_code_list>858375</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1546">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1546</qds:QDS_id>
+<qds:standard_concept>Tetracycline</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c294</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105220 </qds:standard_code_list>
+<qds:standard_code_list>105227 </qds:standard_code_list>
+<qds:standard_code_list>197633 </qds:standard_code_list>
+<qds:standard_code_list>197984 </qds:standard_code_list>
+<qds:standard_code_list>197985 </qds:standard_code_list>
+<qds:standard_code_list>198249 </qds:standard_code_list>
+<qds:standard_code_list>198250 </qds:standard_code_list>
+<qds:standard_code_list>198252 </qds:standard_code_list>
+<qds:standard_code_list>199026 </qds:standard_code_list>
+<qds:standard_code_list>199027 </qds:standard_code_list>
+<qds:standard_code_list>207362 </qds:standard_code_list>
+<qds:standard_code_list>207364 </qds:standard_code_list>
+<qds:standard_code_list>242807 </qds:standard_code_list>
+<qds:standard_code_list>242814 </qds:standard_code_list>
+<qds:standard_code_list>283535 </qds:standard_code_list>
+<qds:standard_code_list>310026 </qds:standard_code_list>
+<qds:standard_code_list>310027 </qds:standard_code_list>
+<qds:standard_code_list>310028 </qds:standard_code_list>
+<qds:standard_code_list>310029 </qds:standard_code_list>
+<qds:standard_code_list>310030 </qds:standard_code_list>
+<qds:standard_code_list>313251 </qds:standard_code_list>
+<qds:standard_code_list>313252 </qds:standard_code_list>
+<qds:standard_code_list>313253 </qds:standard_code_list>
+<qds:standard_code_list>313254 </qds:standard_code_list>
+<qds:standard_code_list>314108 </qds:standard_code_list>
+<qds:standard_code_list>317127 </qds:standard_code_list>
+<qds:standard_code_list>348869 </qds:standard_code_list>
+<qds:standard_code_list>348870 </qds:standard_code_list>
+<qds:standard_code_list>349114 </qds:standard_code_list>
+<qds:standard_code_list>349115 </qds:standard_code_list>
+<qds:standard_code_list>349116 </qds:standard_code_list>
+<qds:standard_code_list>351121 </qds:standard_code_list>
+<qds:standard_code_list>359465 </qds:standard_code_list>
+<qds:standard_code_list>403840 </qds:standard_code_list>
+<qds:standard_code_list>406524 </qds:standard_code_list>
+<qds:standard_code_list>434018 </qds:standard_code_list>
+<qds:standard_code_list>597520 </qds:standard_code_list>
+<qds:standard_code_list>597521 </qds:standard_code_list>
+<qds:standard_code_list>597808 </qds:standard_code_list>
+<qds:standard_code_list>629695 </qds:standard_code_list>
+<qds:standard_code_list>629697 </qds:standard_code_list>
+<qds:standard_code_list>629699 </qds:standard_code_list>
+<qds:standard_code_list>630819 </qds:standard_code_list>
+<qds:standard_code_list>630824 </qds:standard_code_list>
+<qds:standard_code_list>630827 </qds:standard_code_list>
+<qds:standard_code_list>643821 </qds:standard_code_list>
+<qds:standard_code_list>645613 </qds:standard_code_list>
+<qds:standard_code_list>645614 </qds:standard_code_list>
+<qds:standard_code_list>645619 </qds:standard_code_list>
+<qds:standard_code_list>647109 </qds:standard_code_list>
+<qds:standard_code_list>687231 </qds:standard_code_list>
+<qds:standard_code_list>700408 </qds:standard_code_list>
+<qds:standard_code_list>705861 </qds:standard_code_list>
+<qds:standard_code_list>728207 </qds:standard_code_list>
+<qds:standard_code_list>756134 </qds:standard_code_list>
+<qds:standard_code_list>756192 </qds:standard_code_list>
+<qds:standard_code_list>799048 </qds:standard_code_list>
+<qds:standard_code_list>858062 </qds:standard_code_list>
+<qds:standard_code_list>858065 </qds:standard_code_list>
+<qds:standard_code_list>858372 </qds:standard_code_list>
+<qds:standard_code_list>858375</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1560">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1560</qds:QDS_id>
+<qds:standard_concept>Tetracycline</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c294</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105220 </qds:standard_code_list>
+<qds:standard_code_list>105227 </qds:standard_code_list>
+<qds:standard_code_list>197633 </qds:standard_code_list>
+<qds:standard_code_list>197984 </qds:standard_code_list>
+<qds:standard_code_list>197985 </qds:standard_code_list>
+<qds:standard_code_list>198249 </qds:standard_code_list>
+<qds:standard_code_list>198250 </qds:standard_code_list>
+<qds:standard_code_list>198252 </qds:standard_code_list>
+<qds:standard_code_list>199026 </qds:standard_code_list>
+<qds:standard_code_list>199027 </qds:standard_code_list>
+<qds:standard_code_list>207362 </qds:standard_code_list>
+<qds:standard_code_list>207364 </qds:standard_code_list>
+<qds:standard_code_list>242807 </qds:standard_code_list>
+<qds:standard_code_list>242814 </qds:standard_code_list>
+<qds:standard_code_list>283535 </qds:standard_code_list>
+<qds:standard_code_list>310026 </qds:standard_code_list>
+<qds:standard_code_list>310027 </qds:standard_code_list>
+<qds:standard_code_list>310028 </qds:standard_code_list>
+<qds:standard_code_list>310029 </qds:standard_code_list>
+<qds:standard_code_list>310030 </qds:standard_code_list>
+<qds:standard_code_list>313251 </qds:standard_code_list>
+<qds:standard_code_list>313252 </qds:standard_code_list>
+<qds:standard_code_list>313253 </qds:standard_code_list>
+<qds:standard_code_list>313254 </qds:standard_code_list>
+<qds:standard_code_list>314108 </qds:standard_code_list>
+<qds:standard_code_list>317127 </qds:standard_code_list>
+<qds:standard_code_list>348869 </qds:standard_code_list>
+<qds:standard_code_list>348870 </qds:standard_code_list>
+<qds:standard_code_list>349114 </qds:standard_code_list>
+<qds:standard_code_list>349115 </qds:standard_code_list>
+<qds:standard_code_list>349116 </qds:standard_code_list>
+<qds:standard_code_list>351121 </qds:standard_code_list>
+<qds:standard_code_list>359465 </qds:standard_code_list>
+<qds:standard_code_list>403840 </qds:standard_code_list>
+<qds:standard_code_list>406524 </qds:standard_code_list>
+<qds:standard_code_list>434018 </qds:standard_code_list>
+<qds:standard_code_list>597520 </qds:standard_code_list>
+<qds:standard_code_list>597521 </qds:standard_code_list>
+<qds:standard_code_list>597808 </qds:standard_code_list>
+<qds:standard_code_list>629695 </qds:standard_code_list>
+<qds:standard_code_list>629697 </qds:standard_code_list>
+<qds:standard_code_list>629699 </qds:standard_code_list>
+<qds:standard_code_list>630819 </qds:standard_code_list>
+<qds:standard_code_list>630824 </qds:standard_code_list>
+<qds:standard_code_list>630827 </qds:standard_code_list>
+<qds:standard_code_list>643821 </qds:standard_code_list>
+<qds:standard_code_list>645613 </qds:standard_code_list>
+<qds:standard_code_list>645614 </qds:standard_code_list>
+<qds:standard_code_list>645619 </qds:standard_code_list>
+<qds:standard_code_list>647109 </qds:standard_code_list>
+<qds:standard_code_list>687231 </qds:standard_code_list>
+<qds:standard_code_list>700408 </qds:standard_code_list>
+<qds:standard_code_list>705861 </qds:standard_code_list>
+<qds:standard_code_list>728207 </qds:standard_code_list>
+<qds:standard_code_list>756134 </qds:standard_code_list>
+<qds:standard_code_list>756192 </qds:standard_code_list>
+<qds:standard_code_list>799048 </qds:standard_code_list>
+<qds:standard_code_list>858062 </qds:standard_code_list>
+<qds:standard_code_list>858065 </qds:standard_code_list>
+<qds:standard_code_list>858372 </qds:standard_code_list>
+<qds:standard_code_list>858375</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1519">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1519</qds:QDS_id>
+<qds:standard_concept>Third generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c295</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197450 </qds:standard_code_list>
+<qds:standard_code_list>197451 </qds:standard_code_list>
+<qds:standard_code_list>200346 </qds:standard_code_list>
+<qds:standard_code_list>204871 </qds:standard_code_list>
+<qds:standard_code_list>250156 </qds:standard_code_list>
+<qds:standard_code_list>309054 </qds:standard_code_list>
+<qds:standard_code_list>309058 </qds:standard_code_list>
+<qds:standard_code_list>309076 </qds:standard_code_list>
+<qds:standard_code_list>309077 </qds:standard_code_list>
+<qds:standard_code_list>309078 </qds:standard_code_list>
+<qds:standard_code_list>309079 </qds:standard_code_list>
+<qds:standard_code_list>309085 </qds:standard_code_list>
+<qds:standard_code_list>309086 </qds:standard_code_list>
+<qds:standard_code_list>309087 </qds:standard_code_list>
+<qds:standard_code_list>309090 </qds:standard_code_list>
+<qds:standard_code_list>309091 </qds:standard_code_list>
+<qds:standard_code_list>309092 </qds:standard_code_list>
+<qds:standard_code_list>309093 </qds:standard_code_list>
+<qds:standard_code_list>351127 </qds:standard_code_list>
+<qds:standard_code_list>419849 </qds:standard_code_list>
+<qds:standard_code_list>476576 </qds:standard_code_list>
+<qds:standard_code_list>562619 </qds:standard_code_list>
+<qds:standard_code_list>645956 </qds:standard_code_list>
+<qds:standard_code_list>746671 </qds:standard_code_list>
+<qds:standard_code_list>847360</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1533">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1533</qds:QDS_id>
+<qds:standard_concept>Third generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c295</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197450 </qds:standard_code_list>
+<qds:standard_code_list>197451 </qds:standard_code_list>
+<qds:standard_code_list>200346 </qds:standard_code_list>
+<qds:standard_code_list>204871 </qds:standard_code_list>
+<qds:standard_code_list>250156 </qds:standard_code_list>
+<qds:standard_code_list>309054 </qds:standard_code_list>
+<qds:standard_code_list>309058 </qds:standard_code_list>
+<qds:standard_code_list>309076 </qds:standard_code_list>
+<qds:standard_code_list>309077 </qds:standard_code_list>
+<qds:standard_code_list>309078 </qds:standard_code_list>
+<qds:standard_code_list>309079 </qds:standard_code_list>
+<qds:standard_code_list>309085 </qds:standard_code_list>
+<qds:standard_code_list>309086 </qds:standard_code_list>
+<qds:standard_code_list>309087 </qds:standard_code_list>
+<qds:standard_code_list>309090 </qds:standard_code_list>
+<qds:standard_code_list>309091 </qds:standard_code_list>
+<qds:standard_code_list>309092 </qds:standard_code_list>
+<qds:standard_code_list>309093 </qds:standard_code_list>
+<qds:standard_code_list>351127 </qds:standard_code_list>
+<qds:standard_code_list>419849 </qds:standard_code_list>
+<qds:standard_code_list>476576 </qds:standard_code_list>
+<qds:standard_code_list>562619 </qds:standard_code_list>
+<qds:standard_code_list>645956 </qds:standard_code_list>
+<qds:standard_code_list>746671 </qds:standard_code_list>
+<qds:standard_code_list>847360</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1547">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1547</qds:QDS_id>
+<qds:standard_concept>Third generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c295</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197450 </qds:standard_code_list>
+<qds:standard_code_list>197451 </qds:standard_code_list>
+<qds:standard_code_list>200346 </qds:standard_code_list>
+<qds:standard_code_list>204871 </qds:standard_code_list>
+<qds:standard_code_list>250156 </qds:standard_code_list>
+<qds:standard_code_list>309054 </qds:standard_code_list>
+<qds:standard_code_list>309058 </qds:standard_code_list>
+<qds:standard_code_list>309076 </qds:standard_code_list>
+<qds:standard_code_list>309077 </qds:standard_code_list>
+<qds:standard_code_list>309078 </qds:standard_code_list>
+<qds:standard_code_list>309079 </qds:standard_code_list>
+<qds:standard_code_list>309085 </qds:standard_code_list>
+<qds:standard_code_list>309086 </qds:standard_code_list>
+<qds:standard_code_list>309087 </qds:standard_code_list>
+<qds:standard_code_list>309090 </qds:standard_code_list>
+<qds:standard_code_list>309091 </qds:standard_code_list>
+<qds:standard_code_list>309092 </qds:standard_code_list>
+<qds:standard_code_list>309093 </qds:standard_code_list>
+<qds:standard_code_list>351127 </qds:standard_code_list>
+<qds:standard_code_list>419849 </qds:standard_code_list>
+<qds:standard_code_list>476576 </qds:standard_code_list>
+<qds:standard_code_list>562619 </qds:standard_code_list>
+<qds:standard_code_list>645956 </qds:standard_code_list>
+<qds:standard_code_list>746671 </qds:standard_code_list>
+<qds:standard_code_list>847360</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1561">
+<qds:NQF_id>0002</qds:NQF_id>
+<qds:measure_name>Appropriate Testing for Children with Pharyngitis</qds:measure_name>
+<qds:QDS_id>N_1561</qds:QDS_id>
+<qds:standard_concept>Third generation cephalosporins</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c295</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197450 </qds:standard_code_list>
+<qds:standard_code_list>197451 </qds:standard_code_list>
+<qds:standard_code_list>200346 </qds:standard_code_list>
+<qds:standard_code_list>204871 </qds:standard_code_list>
+<qds:standard_code_list>250156 </qds:standard_code_list>
+<qds:standard_code_list>309054 </qds:standard_code_list>
+<qds:standard_code_list>309058 </qds:standard_code_list>
+<qds:standard_code_list>309076 </qds:standard_code_list>
+<qds:standard_code_list>309077 </qds:standard_code_list>
+<qds:standard_code_list>309078 </qds:standard_code_list>
+<qds:standard_code_list>309079 </qds:standard_code_list>
+<qds:standard_code_list>309085 </qds:standard_code_list>
+<qds:standard_code_list>309086 </qds:standard_code_list>
+<qds:standard_code_list>309087 </qds:standard_code_list>
+<qds:standard_code_list>309090 </qds:standard_code_list>
+<qds:standard_code_list>309091 </qds:standard_code_list>
+<qds:standard_code_list>309092 </qds:standard_code_list>
+<qds:standard_code_list>309093 </qds:standard_code_list>
+<qds:standard_code_list>351127 </qds:standard_code_list>
+<qds:standard_code_list>419849 </qds:standard_code_list>
+<qds:standard_code_list>476576 </qds:standard_code_list>
+<qds:standard_code_list>562619 </qds:standard_code_list>
+<qds:standard_code_list>645956 </qds:standard_code_list>
+<qds:standard_code_list>746671 </qds:standard_code_list>
+<qds:standard_code_list>847360</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

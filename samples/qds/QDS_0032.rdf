@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_656">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_656</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1687">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1687</qds:QDS_id>
+<qds:standard_concept>encounter ob/gyn</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c417</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V24</qds:standard_code_list>
+<qds:standard_code_list>V25</qds:standard_code_list>
+<qds:standard_code_list>V26</qds:standard_code_list>
+<qds:standard_code_list>V27</qds:standard_code_list>
+<qds:standard_code_list>V28</qds:standard_code_list>
+<qds:standard_code_list>V45.5</qds:standard_code_list>
+<qds:standard_code_list>V61.5</qds:standard_code_list>
+<qds:standard_code_list>V61.6</qds:standard_code_list>
+<qds:standard_code_list>V61.7</qds:standard_code_list>
+<qds:standard_code_list>V69.2</qds:standard_code_list>
+<qds:standard_code_list>V72.3</qds:standard_code_list>
+<qds:standard_code_list>V72.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_664">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_664</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1824">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1824</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c552</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_665">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_665</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_667">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_667</qds:QDS_id>
+<qds:standard_concept>hysterectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c273</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>51925</qds:standard_code_list>
+<qds:standard_code_list>56308</qds:standard_code_list>
+<qds:standard_code_list>58150</qds:standard_code_list>
+<qds:standard_code_list>58152</qds:standard_code_list>
+<qds:standard_code_list>58200</qds:standard_code_list>
+<qds:standard_code_list>58210</qds:standard_code_list>
+<qds:standard_code_list>58240</qds:standard_code_list>
+<qds:standard_code_list>58260</qds:standard_code_list>
+<qds:standard_code_list>58262</qds:standard_code_list>
+<qds:standard_code_list>58263</qds:standard_code_list>
+<qds:standard_code_list>58267</qds:standard_code_list>
+<qds:standard_code_list>58270</qds:standard_code_list>
+<qds:standard_code_list>58275</qds:standard_code_list>
+<qds:standard_code_list>58280</qds:standard_code_list>
+<qds:standard_code_list>58285</qds:standard_code_list>
+<qds:standard_code_list>58290</qds:standard_code_list>
+<qds:standard_code_list>58291</qds:standard_code_list>
+<qds:standard_code_list>58292</qds:standard_code_list>
+<qds:standard_code_list>58293</qds:standard_code_list>
+<qds:standard_code_list>58294</qds:standard_code_list>
+<qds:standard_code_list>58550</qds:standard_code_list>
+<qds:standard_code_list>58552</qds:standard_code_list>
+<qds:standard_code_list>58553</qds:standard_code_list>
+<qds:standard_code_list>58554</qds:standard_code_list>
+<qds:standard_code_list>58570</qds:standard_code_list>
+<qds:standard_code_list>58571</qds:standard_code_list>
+<qds:standard_code_list>58572</qds:standard_code_list>
+<qds:standard_code_list>58573</qds:standard_code_list>
+<qds:standard_code_list>58951</qds:standard_code_list>
+<qds:standard_code_list>58953</qds:standard_code_list>
+<qds:standard_code_list>58954</qds:standard_code_list>
+<qds:standard_code_list>58956</qds:standard_code_list>
+<qds:standard_code_list>59135</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1387">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1387</qds:QDS_id>
+<qds:standard_concept>hysterectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c446</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c273</qds:standard_code_list>
+<qds:standard_code_list>N_c274</qds:standard_code_list>
+<qds:standard_code_list>N_c275</qds:standard_code_list>
+<qds:standard_code_list>N_c276</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_668">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_668</qds:QDS_id>
+<qds:standard_concept>hysterectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c275</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N81.81</qds:standard_code_list>
+<qds:standard_code_list>Z12.72</qds:standard_code_list>
+<qds:standard_code_list>Z90.71</qds:standard_code_list>
+<qds:standard_code_list>Z90.710</qds:standard_code_list>
+<qds:standard_code_list>Z90.7112</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_669">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_669</qds:QDS_id>
+<qds:standard_concept>hysterectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c274</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>618.5</qds:standard_code_list>
+<qds:standard_code_list>68.4</qds:standard_code_list>
+<qds:standard_code_list>68.41</qds:standard_code_list>
+<qds:standard_code_list>68.49</qds:standard_code_list>
+<qds:standard_code_list>68.5</qds:standard_code_list>
+<qds:standard_code_list>68.51</qds:standard_code_list>
+<qds:standard_code_list>68.59</qds:standard_code_list>
+<qds:standard_code_list>68.6</qds:standard_code_list>
+<qds:standard_code_list>68.61</qds:standard_code_list>
+<qds:standard_code_list>68.69</qds:standard_code_list>
+<qds:standard_code_list>68.7</qds:standard_code_list>
+<qds:standard_code_list>68.71</qds:standard_code_list>
+<qds:standard_code_list>68.79</qds:standard_code_list>
+<qds:standard_code_list>68.8</qds:standard_code_list>
+<qds:standard_code_list>V67.01</qds:standard_code_list>
+<qds:standard_code_list>V76.47</qds:standard_code_list>
+<qds:standard_code_list>V88.01</qds:standard_code_list>
+<qds:standard_code_list>V88.03</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_670">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_670</qds:QDS_id>
+<qds:standard_concept>hysterectomy</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c276</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>116140006</qds:standard_code_list>
+<qds:standard_code_list>116142003</qds:standard_code_list>
+<qds:standard_code_list>116143008</qds:standard_code_list>
+<qds:standard_code_list>116144002</qds:standard_code_list>
+<qds:standard_code_list>236886002</qds:standard_code_list>
+<qds:standard_code_list>236888001</qds:standard_code_list>
+<qds:standard_code_list>236891001</qds:standard_code_list>
+<qds:standard_code_list>27950001</qds:standard_code_list>
+<qds:standard_code_list>307771009</qds:standard_code_list>
+<qds:standard_code_list>31545000</qds:standard_code_list>
+<qds:standard_code_list>35955002</qds:standard_code_list>
+<qds:standard_code_list>361222003</qds:standard_code_list>
+<qds:standard_code_list>361223008</qds:standard_code_list>
+<qds:standard_code_list>414575003</qds:standard_code_list>
+<qds:standard_code_list>59750000</qds:standard_code_list>
+<qds:standard_code_list>79095000</qds:standard_code_list>
+<qds:standard_code_list>86477000</qds:standard_code_list>
+<qds:standard_code_list>88144003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_655">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_655</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1160">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1160</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1161">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1161</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c277</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>88141</qds:standard_code_list>
+<qds:standard_code_list>88142</qds:standard_code_list>
+<qds:standard_code_list>88143</qds:standard_code_list>
+<qds:standard_code_list>88147</qds:standard_code_list>
+<qds:standard_code_list>88148</qds:standard_code_list>
+<qds:standard_code_list>88150</qds:standard_code_list>
+<qds:standard_code_list>88152</qds:standard_code_list>
+<qds:standard_code_list>88153</qds:standard_code_list>
+<qds:standard_code_list>88154</qds:standard_code_list>
+<qds:standard_code_list>88155</qds:standard_code_list>
+<qds:standard_code_list>88164</qds:standard_code_list>
+<qds:standard_code_list>88165</qds:standard_code_list>
+<qds:standard_code_list>88166</qds:standard_code_list>
+<qds:standard_code_list>88167</qds:standard_code_list>
+<qds:standard_code_list>88174</qds:standard_code_list>
+<qds:standard_code_list>88175</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1388">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_1388</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c447</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c277</qds:standard_code_list>
+<qds:standard_code_list>N_c278</qds:standard_code_list>
+<qds:standard_code_list>N_c279</qds:standard_code_list>
+<qds:standard_code_list>N_c280</qds:standard_code_list>
+<qds:standard_code_list>N_c282</qds:standard_code_list>
+<qds:standard_code_list>N_c283</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_672">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_672</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c278</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0123</qds:standard_code_list>
+<qds:standard_code_list>G0124</qds:standard_code_list>
+<qds:standard_code_list>G0141</qds:standard_code_list>
+<qds:standard_code_list>G0143</qds:standard_code_list>
+<qds:standard_code_list>G0144</qds:standard_code_list>
+<qds:standard_code_list>G0145</qds:standard_code_list>
+<qds:standard_code_list>G0147</qds:standard_code_list>
+<qds:standard_code_list>G0148</qds:standard_code_list>
+<qds:standard_code_list>P3000</qds:standard_code_list>
+<qds:standard_code_list>P3001</qds:standard_code_list>
+<qds:standard_code_list>Q0091</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_673">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_673</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c280</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z12.4</qds:standard_code_list>
+<qds:standard_code_list>Z12.72</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_674">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_674</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c279</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>91.46</qds:standard_code_list>
+<qds:standard_code_list>V72.32</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_675">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_675</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c282</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10524-7</qds:standard_code_list>
+<qds:standard_code_list>18500-9</qds:standard_code_list>
+<qds:standard_code_list>19762-4</qds:standard_code_list>
+<qds:standard_code_list>19764-0</qds:standard_code_list>
+<qds:standard_code_list>19765-7</qds:standard_code_list>
+<qds:standard_code_list>19766-5</qds:standard_code_list>
+<qds:standard_code_list>19774-9</qds:standard_code_list>
+<qds:standard_code_list>33717-0</qds:standard_code_list>
+<qds:standard_code_list>47527-7</qds:standard_code_list>
+<qds:standard_code_list>47528-5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_676">
+<qds:NQF_id>0032</qds:NQF_id>
+<qds:measure_name>Cervical Cancer Screening</qds:measure_name>
+<qds:QDS_id>N_676</qds:QDS_id>
+<qds:standard_concept>pap test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c283</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>439958008</qds:standard_code_list>
+<qds:standard_code_list>440615002</qds:standard_code_list>
+<qds:standard_code_list>440623000</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

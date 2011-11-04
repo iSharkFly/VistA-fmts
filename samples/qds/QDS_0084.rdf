@@ -1,0 +1,3033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_1304">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1304</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c380</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c223</qds:standard_code_list>
+<qds:standard_code_list>A_c230</qds:standard_code_list>
+<qds:standard_code_list>A_c507</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1305">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1305</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c380</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c223</qds:standard_code_list>
+<qds:standard_code_list>A_c230</qds:standard_code_list>
+<qds:standard_code_list>A_c507</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_598">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_598</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c230</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>D50.0</qds:standard_code_list>
+<qds:standard_code_list>D50.9</qds:standard_code_list>
+<qds:standard_code_list>D62</qds:standard_code_list>
+<qds:standard_code_list>D65</qds:standard_code_list>
+<qds:standard_code_list>D66</qds:standard_code_list>
+<qds:standard_code_list>D67</qds:standard_code_list>
+<qds:standard_code_list>D68.0</qds:standard_code_list>
+<qds:standard_code_list>D68.1</qds:standard_code_list>
+<qds:standard_code_list>D68.2</qds:standard_code_list>
+<qds:standard_code_list>D68.3</qds:standard_code_list>
+<qds:standard_code_list>D68.4</qds:standard_code_list>
+<qds:standard_code_list>D68.8</qds:standard_code_list>
+<qds:standard_code_list>D69.3</qds:standard_code_list>
+<qds:standard_code_list>D69.41</qds:standard_code_list>
+<qds:standard_code_list>D69.42</qds:standard_code_list>
+<qds:standard_code_list>D69.49</qds:standard_code_list>
+<qds:standard_code_list>D69.5</qds:standard_code_list>
+<qds:standard_code_list>D69.6</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_599">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_599</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c230</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>D50.0</qds:standard_code_list>
+<qds:standard_code_list>D50.9</qds:standard_code_list>
+<qds:standard_code_list>D62</qds:standard_code_list>
+<qds:standard_code_list>D65</qds:standard_code_list>
+<qds:standard_code_list>D66</qds:standard_code_list>
+<qds:standard_code_list>D67</qds:standard_code_list>
+<qds:standard_code_list>D68.0</qds:standard_code_list>
+<qds:standard_code_list>D68.1</qds:standard_code_list>
+<qds:standard_code_list>D68.2</qds:standard_code_list>
+<qds:standard_code_list>D68.3</qds:standard_code_list>
+<qds:standard_code_list>D68.4</qds:standard_code_list>
+<qds:standard_code_list>D68.8</qds:standard_code_list>
+<qds:standard_code_list>D69.3</qds:standard_code_list>
+<qds:standard_code_list>D69.41</qds:standard_code_list>
+<qds:standard_code_list>D69.42</qds:standard_code_list>
+<qds:standard_code_list>D69.49</qds:standard_code_list>
+<qds:standard_code_list>D69.5</qds:standard_code_list>
+<qds:standard_code_list>D69.6</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_584">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_584</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c223</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>280.0</qds:standard_code_list>
+<qds:standard_code_list>280.9</qds:standard_code_list>
+<qds:standard_code_list>285.1</qds:standard_code_list>
+<qds:standard_code_list>286.0</qds:standard_code_list>
+<qds:standard_code_list>286.1</qds:standard_code_list>
+<qds:standard_code_list>286.2</qds:standard_code_list>
+<qds:standard_code_list>286.3</qds:standard_code_list>
+<qds:standard_code_list>286.4</qds:standard_code_list>
+<qds:standard_code_list>286.5</qds:standard_code_list>
+<qds:standard_code_list>286.6</qds:standard_code_list>
+<qds:standard_code_list>286.7</qds:standard_code_list>
+<qds:standard_code_list>286.9</qds:standard_code_list>
+<qds:standard_code_list>287.30</qds:standard_code_list>
+<qds:standard_code_list>287.31</qds:standard_code_list>
+<qds:standard_code_list>287.32</qds:standard_code_list>
+<qds:standard_code_list>287.33</qds:standard_code_list>
+<qds:standard_code_list>287.39</qds:standard_code_list>
+<qds:standard_code_list>287.4</qds:standard_code_list>
+<qds:standard_code_list>287.5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_585">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_585</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c223</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>280.0</qds:standard_code_list>
+<qds:standard_code_list>280.9</qds:standard_code_list>
+<qds:standard_code_list>285.1</qds:standard_code_list>
+<qds:standard_code_list>286.0</qds:standard_code_list>
+<qds:standard_code_list>286.1</qds:standard_code_list>
+<qds:standard_code_list>286.2</qds:standard_code_list>
+<qds:standard_code_list>286.3</qds:standard_code_list>
+<qds:standard_code_list>286.4</qds:standard_code_list>
+<qds:standard_code_list>286.5</qds:standard_code_list>
+<qds:standard_code_list>286.6</qds:standard_code_list>
+<qds:standard_code_list>286.7</qds:standard_code_list>
+<qds:standard_code_list>286.9</qds:standard_code_list>
+<qds:standard_code_list>287.30</qds:standard_code_list>
+<qds:standard_code_list>287.31</qds:standard_code_list>
+<qds:standard_code_list>287.32</qds:standard_code_list>
+<qds:standard_code_list>287.33</qds:standard_code_list>
+<qds:standard_code_list>287.39</qds:standard_code_list>
+<qds:standard_code_list>287.4</qds:standard_code_list>
+<qds:standard_code_list>287.5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7000">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7000</qds:QDS_id>
+<qds:standard_concept>Anemias and Bleeding Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c507</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10205009</qds:standard_code_list>
+<qds:standard_code_list>105599000</qds:standard_code_list>
+<qds:standard_code_list>10564005</qds:standard_code_list>
+<qds:standard_code_list>10619002</qds:standard_code_list>
+<qds:standard_code_list>109996008</qds:standard_code_list>
+<qds:standard_code_list>109998009</qds:standard_code_list>
+<qds:standard_code_list>110000005</qds:standard_code_list>
+<qds:standard_code_list>111407006</qds:standard_code_list>
+<qds:standard_code_list>111570005</qds:standard_code_list>
+<qds:standard_code_list>111571009</qds:standard_code_list>
+<qds:standard_code_list>111572002</qds:standard_code_list>
+<qds:standard_code_list>111573007</qds:standard_code_list>
+<qds:standard_code_list>111574001</qds:standard_code_list>
+<qds:standard_code_list>111575000</qds:standard_code_list>
+<qds:standard_code_list>111576004</qds:standard_code_list>
+<qds:standard_code_list>111577008</qds:standard_code_list>
+<qds:standard_code_list>111578003</qds:standard_code_list>
+<qds:standard_code_list>111581008</qds:standard_code_list>
+<qds:standard_code_list>111582001</qds:standard_code_list>
+<qds:standard_code_list>11491000</qds:standard_code_list>
+<qds:standard_code_list>11503009</qds:standard_code_list>
+<qds:standard_code_list>115963009</qds:standard_code_list>
+<qds:standard_code_list>11781007</qds:standard_code_list>
+<qds:standard_code_list>12109003</qds:standard_code_list>
+<qds:standard_code_list>12189000</qds:standard_code_list>
+<qds:standard_code_list>12238007</qds:standard_code_list>
+<qds:standard_code_list>127034005</qds:standard_code_list>
+<qds:standard_code_list>127040003</qds:standard_code_list>
+<qds:standard_code_list>127041004</qds:standard_code_list>
+<qds:standard_code_list>127042006</qds:standard_code_list>
+<qds:standard_code_list>127043001</qds:standard_code_list>
+<qds:standard_code_list>127044007</qds:standard_code_list>
+<qds:standard_code_list>127045008</qds:standard_code_list>
+<qds:standard_code_list>127046009</qds:standard_code_list>
+<qds:standard_code_list>127049002</qds:standard_code_list>
+<qds:standard_code_list>127051003</qds:standard_code_list>
+<qds:standard_code_list>127052005</qds:standard_code_list>
+<qds:standard_code_list>127053000</qds:standard_code_list>
+<qds:standard_code_list>127054006</qds:standard_code_list>
+<qds:standard_code_list>127055007</qds:standard_code_list>
+<qds:standard_code_list>127056008</qds:standard_code_list>
+<qds:standard_code_list>127057004</qds:standard_code_list>
+<qds:standard_code_list>127058009</qds:standard_code_list>
+<qds:standard_code_list>127059001</qds:standard_code_list>
+<qds:standard_code_list>127060006</qds:standard_code_list>
+<qds:standard_code_list>127061005</qds:standard_code_list>
+<qds:standard_code_list>127319005</qds:standard_code_list>
+<qds:standard_code_list>12907000</qds:standard_code_list>
+<qds:standard_code_list>129638002</qds:standard_code_list>
+<qds:standard_code_list>14024008</qds:standard_code_list>
+<qds:standard_code_list>14087004</qds:standard_code_list>
+<qds:standard_code_list>14126008</qds:standard_code_list>
+<qds:standard_code_list>14379009</qds:standard_code_list>
+<qds:standard_code_list>14514008</qds:standard_code_list>
+<qds:standard_code_list>15121005</qds:standard_code_list>
+<qds:standard_code_list>15276008</qds:standard_code_list>
+<qds:standard_code_list>15326009</qds:standard_code_list>
+<qds:standard_code_list>15332004</qds:standard_code_list>
+<qds:standard_code_list>16360009</qds:standard_code_list>
+<qds:standard_code_list>164141009</qds:standard_code_list>
+<qds:standard_code_list>164142002</qds:standard_code_list>
+<qds:standard_code_list>164143007</qds:standard_code_list>
+<qds:standard_code_list>16427007</qds:standard_code_list>
+<qds:standard_code_list>16645003</qds:standard_code_list>
+<qds:standard_code_list>16964007</qds:standard_code_list>
+<qds:standard_code_list>18273004</qds:standard_code_list>
+<qds:standard_code_list>183005</qds:standard_code_list>
+<qds:standard_code_list>18323000</qds:standard_code_list>
+<qds:standard_code_list>18637002</qds:standard_code_list>
+<qds:standard_code_list>18662002</qds:standard_code_list>
+<qds:standard_code_list>18889005</qds:standard_code_list>
+<qds:standard_code_list>189509003</qds:standard_code_list>
+<qds:standard_code_list>190996002</qds:standard_code_list>
+<qds:standard_code_list>191128004</qds:standard_code_list>
+<qds:standard_code_list>191135007</qds:standard_code_list>
+<qds:standard_code_list>191136008</qds:standard_code_list>
+<qds:standard_code_list>191142007</qds:standard_code_list>
+<qds:standard_code_list>191146005</qds:standard_code_list>
+<qds:standard_code_list>191148006</qds:standard_code_list>
+<qds:standard_code_list>191154007</qds:standard_code_list>
+<qds:standard_code_list>191156009</qds:standard_code_list>
+<qds:standard_code_list>191161006</qds:standard_code_list>
+<qds:standard_code_list>191162004</qds:standard_code_list>
+<qds:standard_code_list>191170009</qds:standard_code_list>
+<qds:standard_code_list>191177007</qds:standard_code_list>
+<qds:standard_code_list>191178002</qds:standard_code_list>
+<qds:standard_code_list>191179005</qds:standard_code_list>
+<qds:standard_code_list>191187006</qds:standard_code_list>
+<qds:standard_code_list>191189009</qds:standard_code_list>
+<qds:standard_code_list>191210005</qds:standard_code_list>
+<qds:standard_code_list>191213007</qds:standard_code_list>
+<qds:standard_code_list>191216004</qds:standard_code_list>
+<qds:standard_code_list>191217008</qds:standard_code_list>
+<qds:standard_code_list>191218003</qds:standard_code_list>
+<qds:standard_code_list>191219006</qds:standard_code_list>
+<qds:standard_code_list>191222008</qds:standard_code_list>
+<qds:standard_code_list>191228007</qds:standard_code_list>
+<qds:standard_code_list>191229004</qds:standard_code_list>
+<qds:standard_code_list>191240007</qds:standard_code_list>
+<qds:standard_code_list>191244003</qds:standard_code_list>
+<qds:standard_code_list>191246001</qds:standard_code_list>
+<qds:standard_code_list>191247005</qds:standard_code_list>
+<qds:standard_code_list>191248000</qds:standard_code_list>
+<qds:standard_code_list>191251007</qds:standard_code_list>
+<qds:standard_code_list>191255003</qds:standard_code_list>
+<qds:standard_code_list>191256002</qds:standard_code_list>
+<qds:standard_code_list>191260004</qds:standard_code_list>
+<qds:standard_code_list>191261000</qds:standard_code_list>
+<qds:standard_code_list>191262007</qds:standard_code_list>
+<qds:standard_code_list>191265009</qds:standard_code_list>
+<qds:standard_code_list>191268006</qds:standard_code_list>
+<qds:standard_code_list>19442009</qds:standard_code_list>
+<qds:standard_code_list>1963002</qds:standard_code_list>
+<qds:standard_code_list>21412009</qds:standard_code_list>
+<qds:standard_code_list>21914002</qds:standard_code_list>
+<qds:standard_code_list>22098000</qds:standard_code_list>
+<qds:standard_code_list>22347002</qds:standard_code_list>
+<qds:standard_code_list>22438006</qds:standard_code_list>
+<qds:standard_code_list>22933009</qds:standard_code_list>
+<qds:standard_code_list>23371004</qds:standard_code_list>
+<qds:standard_code_list>234346000</qds:standard_code_list>
+<qds:standard_code_list>234347009</qds:standard_code_list>
+<qds:standard_code_list>234348004</qds:standard_code_list>
+<qds:standard_code_list>234349007</qds:standard_code_list>
+<qds:standard_code_list>234350007</qds:standard_code_list>
+<qds:standard_code_list>234352004</qds:standard_code_list>
+<qds:standard_code_list>234353009</qds:standard_code_list>
+<qds:standard_code_list>234358000</qds:standard_code_list>
+<qds:standard_code_list>234360003</qds:standard_code_list>
+<qds:standard_code_list>234361004</qds:standard_code_list>
+<qds:standard_code_list>234362006</qds:standard_code_list>
+<qds:standard_code_list>234363001</qds:standard_code_list>
+<qds:standard_code_list>234364007</qds:standard_code_list>
+<qds:standard_code_list>234365008</qds:standard_code_list>
+<qds:standard_code_list>234366009</qds:standard_code_list>
+<qds:standard_code_list>234367000</qds:standard_code_list>
+<qds:standard_code_list>234370001</qds:standard_code_list>
+<qds:standard_code_list>234372009</qds:standard_code_list>
+<qds:standard_code_list>234375006</qds:standard_code_list>
+<qds:standard_code_list>234376007</qds:standard_code_list>
+<qds:standard_code_list>234383000</qds:standard_code_list>
+<qds:standard_code_list>234385007</qds:standard_code_list>
+<qds:standard_code_list>234386008</qds:standard_code_list>
+<qds:standard_code_list>234387004</qds:standard_code_list>
+<qds:standard_code_list>234388009</qds:standard_code_list>
+<qds:standard_code_list>234389001</qds:standard_code_list>
+<qds:standard_code_list>234390005</qds:standard_code_list>
+<qds:standard_code_list>234391009</qds:standard_code_list>
+<qds:standard_code_list>237617006</qds:standard_code_list>
+<qds:standard_code_list>237985009</qds:standard_code_list>
+<qds:standard_code_list>240453002</qds:standard_code_list>
+<qds:standard_code_list>240486003</qds:standard_code_list>
+<qds:standard_code_list>24620004</qds:standard_code_list>
+<qds:standard_code_list>24661004</qds:standard_code_list>
+<qds:standard_code_list>24962009</qds:standard_code_list>
+<qds:standard_code_list>24975009</qds:standard_code_list>
+<qds:standard_code_list>25251008</qds:standard_code_list>
+<qds:standard_code_list>25266006</qds:standard_code_list>
+<qds:standard_code_list>25443007</qds:standard_code_list>
+<qds:standard_code_list>26333003</qds:standard_code_list>
+<qds:standard_code_list>26409005</qds:standard_code_list>
+<qds:standard_code_list>26682008</qds:standard_code_list>
+<qds:standard_code_list>267513007</qds:standard_code_list>
+<qds:standard_code_list>267517008</qds:standard_code_list>
+<qds:standard_code_list>267518003</qds:standard_code_list>
+<qds:standard_code_list>267524009</qds:standard_code_list>
+<qds:standard_code_list>267527002</qds:standard_code_list>
+<qds:standard_code_list>267530009</qds:standard_code_list>
+<qds:standard_code_list>269175006</qds:standard_code_list>
+<qds:standard_code_list>2694001</qds:standard_code_list>
+<qds:standard_code_list>26944003</qds:standard_code_list>
+<qds:standard_code_list>27080008</qds:standard_code_list>
+<qds:standard_code_list>271737000</qds:standard_code_list>
+<qds:standard_code_list>27342004</qds:standard_code_list>
+<qds:standard_code_list>27366005</qds:standard_code_list>
+<qds:standard_code_list>273985002</qds:standard_code_list>
+<qds:standard_code_list>275523003</qds:standard_code_list>
+<qds:standard_code_list>276448005</qds:standard_code_list>
+<qds:standard_code_list>276578004</qds:standard_code_list>
+<qds:standard_code_list>277918006</qds:standard_code_list>
+<qds:standard_code_list>27798002</qds:standard_code_list>
+<qds:standard_code_list>278363000</qds:standard_code_list>
+<qds:standard_code_list>28147001</qds:standard_code_list>
+<qds:standard_code_list>2835000</qds:standard_code_list>
+<qds:standard_code_list>286928002</qds:standard_code_list>
+<qds:standard_code_list>28975000</qds:standard_code_list>
+<qds:standard_code_list>290246007</qds:standard_code_list>
+<qds:standard_code_list>291262006</qds:standard_code_list>
+<qds:standard_code_list>29177004</qds:standard_code_list>
+<qds:standard_code_list>29551000</qds:standard_code_list>
+<qds:standard_code_list>300980002</qds:standard_code_list>
+<qds:standard_code_list>301317008</qds:standard_code_list>
+<qds:standard_code_list>30418008</qds:standard_code_list>
+<qds:standard_code_list>30575002</qds:standard_code_list>
+<qds:standard_code_list>306058006</qds:standard_code_list>
+<qds:standard_code_list>307333004</qds:standard_code_list>
+<qds:standard_code_list>307334005</qds:standard_code_list>
+<qds:standard_code_list>307335006</qds:standard_code_list>
+<qds:standard_code_list>307336007</qds:standard_code_list>
+<qds:standard_code_list>307343001</qds:standard_code_list>
+<qds:standard_code_list>307726001</qds:standard_code_list>
+<qds:standard_code_list>309742004</qds:standard_code_list>
+<qds:standard_code_list>310647000</qds:standard_code_list>
+<qds:standard_code_list>31206006</qds:standard_code_list>
+<qds:standard_code_list>313291009</qds:standard_code_list>
+<qds:standard_code_list>31820007</qds:standard_code_list>
+<qds:standard_code_list>32094009</qds:standard_code_list>
+<qds:standard_code_list>322699009</qds:standard_code_list>
+<qds:standard_code_list>323666000</qds:standard_code_list>
+<qds:standard_code_list>32648007</qds:standard_code_list>
+<qds:standard_code_list>3272007</qds:standard_code_list>
+<qds:standard_code_list>32855007</qds:standard_code_list>
+<qds:standard_code_list>33491002</qds:standard_code_list>
+<qds:standard_code_list>33905008</qds:standard_code_list>
+<qds:standard_code_list>34194007</qds:standard_code_list>
+<qds:standard_code_list>34247008</qds:standard_code_list>
+<qds:standard_code_list>34629009</qds:standard_code_list>
+<qds:standard_code_list>34852006</qds:standard_code_list>
+<qds:standard_code_list>34925000</qds:standard_code_list>
+<qds:standard_code_list>35703006</qds:standard_code_list>
+<qds:standard_code_list>3571004</qds:standard_code_list>
+<qds:standard_code_list>35778001</qds:standard_code_list>
+<qds:standard_code_list>360495000</qds:standard_code_list>
+<qds:standard_code_list>363041004</qds:standard_code_list>
+<qds:standard_code_list>36467003</qds:standard_code_list>
+<qds:standard_code_list>36472007</qds:standard_code_list>
+<qds:standard_code_list>36919001</qds:standard_code_list>
+<qds:standard_code_list>371046004</qds:standard_code_list>
+<qds:standard_code_list>371315009</qds:standard_code_list>
+<qds:standard_code_list>37272000</qds:standard_code_list>
+<qds:standard_code_list>373420004</qds:standard_code_list>
+<qds:standard_code_list>373421000</qds:standard_code_list>
+<qds:standard_code_list>373422007</qds:standard_code_list>
+<qds:standard_code_list>37370005</qds:standard_code_list>
+<qds:standard_code_list>38292009</qds:standard_code_list>
+<qds:standard_code_list>38689004</qds:standard_code_list>
+<qds:standard_code_list>387702001</qds:standard_code_list>
+<qds:standard_code_list>387745008</qds:standard_code_list>
+<qds:standard_code_list>38911009</qds:standard_code_list>
+<qds:standard_code_list>389214003</qds:standard_code_list>
+<qds:standard_code_list>38970002</qds:standard_code_list>
+<qds:standard_code_list>39586009</qds:standard_code_list>
+<qds:standard_code_list>3978000</qds:standard_code_list>
+<qds:standard_code_list>398623004</qds:standard_code_list>
+<qds:standard_code_list>398937006</qds:standard_code_list>
+<qds:standard_code_list>40108008</qds:standard_code_list>
+<qds:standard_code_list>40387008</qds:standard_code_list>
+<qds:standard_code_list>413532003</qds:standard_code_list>
+<qds:standard_code_list>413533008</qds:standard_code_list>
+<qds:standard_code_list>413565006</qds:standard_code_list>
+<qds:standard_code_list>413566007</qds:standard_code_list>
+<qds:standard_code_list>413603009</qds:standard_code_list>
+<qds:standard_code_list>41387000</qds:standard_code_list>
+<qds:standard_code_list>41462006</qds:standard_code_list>
+<qds:standard_code_list>415283002</qds:standard_code_list>
+<qds:standard_code_list>415284008</qds:standard_code_list>
+<qds:standard_code_list>41614006</qds:standard_code_list>
+<qds:standard_code_list>416180004</qds:standard_code_list>
+<qds:standard_code_list>417425009</qds:standard_code_list>
+<qds:standard_code_list>41841004</qds:standard_code_list>
+<qds:standard_code_list>420543008</qds:standard_code_list>
+<qds:standard_code_list>421102007</qds:standard_code_list>
+<qds:standard_code_list>421189000</qds:standard_code_list>
+<qds:standard_code_list>421851008</qds:standard_code_list>
+<qds:standard_code_list>422167001</qds:standard_code_list>
+<qds:standard_code_list>42461002</qds:standard_code_list>
+<qds:standard_code_list>42484009</qds:standard_code_list>
+<qds:standard_code_list>42601008</qds:standard_code_list>
+<qds:standard_code_list>428383000</qds:standard_code_list>
+<qds:standard_code_list>429564000</qds:standard_code_list>
+<qds:standard_code_list>43707008</qds:standard_code_list>
+<qds:standard_code_list>438476003</qds:standard_code_list>
+<qds:standard_code_list>43858000</qds:standard_code_list>
+<qds:standard_code_list>439007008</qds:standard_code_list>
+<qds:standard_code_list>440206000</qds:standard_code_list>
+<qds:standard_code_list>441322009</qds:standard_code_list>
+<qds:standard_code_list>44206008</qds:standard_code_list>
+<qds:standard_code_list>44288006</qds:standard_code_list>
+<qds:standard_code_list>444108000</qds:standard_code_list>
+<qds:standard_code_list>44452003</qds:standard_code_list>
+<qds:standard_code_list>44641000</qds:standard_code_list>
+<qds:standard_code_list>44666001</qds:standard_code_list>
+<qds:standard_code_list>44910003</qds:standard_code_list>
+<qds:standard_code_list>45098004</qds:standard_code_list>
+<qds:standard_code_list>45828008</qds:standard_code_list>
+<qds:standard_code_list>46737006</qds:standard_code_list>
+<qds:standard_code_list>46760003</qds:standard_code_list>
+<qds:standard_code_list>47047009</qds:standard_code_list>
+<qds:standard_code_list>47084006</qds:standard_code_list>
+<qds:standard_code_list>47516005</qds:standard_code_list>
+<qds:standard_code_list>47526003</qds:standard_code_list>
+<qds:standard_code_list>47844003</qds:standard_code_list>
+<qds:standard_code_list>4854004</qds:standard_code_list>
+<qds:standard_code_list>48553001</qds:standard_code_list>
+<qds:standard_code_list>48580008</qds:standard_code_list>
+<qds:standard_code_list>49284006</qds:standard_code_list>
+<qds:standard_code_list>4939006</qds:standard_code_list>
+<qds:standard_code_list>49472006</qds:standard_code_list>
+<qds:standard_code_list>49708008</qds:standard_code_list>
+<qds:standard_code_list>4984008</qds:standard_code_list>
+<qds:standard_code_list>50220002</qds:standard_code_list>
+<qds:standard_code_list>50253007</qds:standard_code_list>
+<qds:standard_code_list>50715003</qds:standard_code_list>
+<qds:standard_code_list>51071000</qds:standard_code_list>
+<qds:standard_code_list>51667002</qds:standard_code_list>
+<qds:standard_code_list>52212006</qds:standard_code_list>
+<qds:standard_code_list>52565000</qds:standard_code_list>
+<qds:standard_code_list>52951008</qds:standard_code_list>
+<qds:standard_code_list>5300004</qds:standard_code_list>
+<qds:standard_code_list>5315003</qds:standard_code_list>
+<qds:standard_code_list>53165003</qds:standard_code_list>
+<qds:standard_code_list>54006005</qds:standard_code_list>
+<qds:standard_code_list>5430006</qds:standard_code_list>
+<qds:standard_code_list>54698001</qds:standard_code_list>
+<qds:standard_code_list>55907008</qds:standard_code_list>
+<qds:standard_code_list>55995005</qds:standard_code_list>
+<qds:standard_code_list>5603006</qds:standard_code_list>
+<qds:standard_code_list>56205004</qds:standard_code_list>
+<qds:standard_code_list>57192008</qds:standard_code_list>
+<qds:standard_code_list>5876000</qds:standard_code_list>
+<qds:standard_code_list>59106005</qds:standard_code_list>
+<qds:standard_code_list>59548005</qds:standard_code_list>
+<qds:standard_code_list>59644002</qds:standard_code_list>
+<qds:standard_code_list>5967006</qds:standard_code_list>
+<qds:standard_code_list>5994005</qds:standard_code_list>
+<qds:standard_code_list>60138009</qds:standard_code_list>
+<qds:standard_code_list>60164003</qds:standard_code_list>
+<qds:standard_code_list>60504009</qds:standard_code_list>
+<qds:standard_code_list>61261009</qds:standard_code_list>
+<qds:standard_code_list>61395005</qds:standard_code_list>
+<qds:standard_code_list>61777009</qds:standard_code_list>
+<qds:standard_code_list>62074008</qds:standard_code_list>
+<qds:standard_code_list>62268000</qds:standard_code_list>
+<qds:standard_code_list>62389006</qds:standard_code_list>
+<qds:standard_code_list>62403005</qds:standard_code_list>
+<qds:standard_code_list>62609001</qds:standard_code_list>
+<qds:standard_code_list>62677000</qds:standard_code_list>
+<qds:standard_code_list>62871001</qds:standard_code_list>
+<qds:standard_code_list>63565007</qds:standard_code_list>
+<qds:standard_code_list>6398009</qds:standard_code_list>
+<qds:standard_code_list>65560000</qds:standard_code_list>
+<qds:standard_code_list>65959000</qds:standard_code_list>
+<qds:standard_code_list>66055002</qds:standard_code_list>
+<qds:standard_code_list>66184009</qds:standard_code_list>
+<qds:standard_code_list>66262001</qds:standard_code_list>
+<qds:standard_code_list>66309005</qds:standard_code_list>
+<qds:standard_code_list>6659005</qds:standard_code_list>
+<qds:standard_code_list>66612000</qds:standard_code_list>
+<qds:standard_code_list>67894009</qds:standard_code_list>
+<qds:standard_code_list>68361004</qds:standard_code_list>
+<qds:standard_code_list>68700003</qds:standard_code_list>
+<qds:standard_code_list>68870007</qds:standard_code_list>
+<qds:standard_code_list>68913001</qds:standard_code_list>
+<qds:standard_code_list>69216008</qds:standard_code_list>
+<qds:standard_code_list>69574002</qds:standard_code_list>
+<qds:standard_code_list>69746005</qds:standard_code_list>
+<qds:standard_code_list>69981004</qds:standard_code_list>
+<qds:standard_code_list>70517008</qds:standard_code_list>
+<qds:standard_code_list>71832003</qds:standard_code_list>
+<qds:standard_code_list>71855000</qds:standard_code_list>
+<qds:standard_code_list>72501006</qds:standard_code_list>
+<qds:standard_code_list>73073009</qds:standard_code_list>
+<qds:standard_code_list>73190000</qds:standard_code_list>
+<qds:standard_code_list>73891003</qds:standard_code_list>
+<qds:standard_code_list>74703006</qds:standard_code_list>
+<qds:standard_code_list>75331009</qds:standard_code_list>
+<qds:standard_code_list>75443009</qds:standard_code_list>
+<qds:standard_code_list>75451007</qds:standard_code_list>
+<qds:standard_code_list>76336008</qds:standard_code_list>
+<qds:standard_code_list>76366001</qds:standard_code_list>
+<qds:standard_code_list>77084001</qds:standard_code_list>
+<qds:standard_code_list>77413008</qds:standard_code_list>
+<qds:standard_code_list>77607006</qds:standard_code_list>
+<qds:standard_code_list>77663007</qds:standard_code_list>
+<qds:standard_code_list>78129009</qds:standard_code_list>
+<qds:standard_code_list>78209002</qds:standard_code_list>
+<qds:standard_code_list>78677008</qds:standard_code_list>
+<qds:standard_code_list>78908001</qds:standard_code_list>
+<qds:standard_code_list>78997000</qds:standard_code_list>
+<qds:standard_code_list>79035003</qds:standard_code_list>
+<qds:standard_code_list>79592006</qds:standard_code_list>
+<qds:standard_code_list>80126007</qds:standard_code_list>
+<qds:standard_code_list>80875006</qds:standard_code_list>
+<qds:standard_code_list>80963002</qds:standard_code_list>
+<qds:standard_code_list>81711008</qds:standard_code_list>
+<qds:standard_code_list>82003006</qds:standard_code_list>
+<qds:standard_code_list>82430007</qds:standard_code_list>
+<qds:standard_code_list>82895008</qds:standard_code_list>
+<qds:standard_code_list>82980005</qds:standard_code_list>
+<qds:standard_code_list>83414005</qds:standard_code_list>
+<qds:standard_code_list>84027009</qds:standard_code_list>
+<qds:standard_code_list>84188003</qds:standard_code_list>
+<qds:standard_code_list>85422000</qds:standard_code_list>
+<qds:standard_code_list>85557000</qds:standard_code_list>
+<qds:standard_code_list>85570009</qds:standard_code_list>
+<qds:standard_code_list>85649008</qds:standard_code_list>
+<qds:standard_code_list>85746008</qds:standard_code_list>
+<qds:standard_code_list>862001</qds:standard_code_list>
+<qds:standard_code_list>86225009</qds:standard_code_list>
+<qds:standard_code_list>86242003</qds:standard_code_list>
+<qds:standard_code_list>86325007</qds:standard_code_list>
+<qds:standard_code_list>86448001</qds:standard_code_list>
+<qds:standard_code_list>86715000</qds:standard_code_list>
+<qds:standard_code_list>86859003</qds:standard_code_list>
+<qds:standard_code_list>87190009</qds:standard_code_list>
+<qds:standard_code_list>87522002</qds:standard_code_list>
+<qds:standard_code_list>87806008</qds:standard_code_list>
+<qds:standard_code_list>87810006</qds:standard_code_list>
+<qds:standard_code_list>87994004</qds:standard_code_list>
+<qds:standard_code_list>8857001</qds:standard_code_list>
+<qds:standard_code_list>88854002</qds:standard_code_list>
+<qds:standard_code_list>89112009</qds:standard_code_list>
+<qds:standard_code_list>89459006</qds:standard_code_list>
+<qds:standard_code_list>89810003</qds:standard_code_list>
+<qds:standard_code_list>90175006</qds:standard_code_list>
+<qds:standard_code_list>90414007</qds:standard_code_list>
+<qds:standard_code_list>91217009</qds:standard_code_list>
+<qds:standard_code_list>91411007</qds:standard_code_list>
+<qds:standard_code_list>934007</qds:standard_code_list>
+<qds:standard_code_list>9434008</qds:standard_code_list>
+<qds:standard_code_list>9764001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1306">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1306</qds:QDS_id>
+<qds:standard_concept>Atrial Fibrillation</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c381</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c115</qds:standard_code_list>
+<qds:standard_code_list>A_c116</qds:standard_code_list>
+<qds:standard_code_list>A_c117</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_289">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_289</qds:QDS_id>
+<qds:standard_concept>Atrial Fibrillation</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c116</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I48</qds:standard_code_list>
+<qds:standard_code_list>I48.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_288">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_288</qds:QDS_id>
+<qds:standard_concept>Atrial Fibrillation</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c115</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>427.31</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_290">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_290</qds:QDS_id>
+<qds:standard_concept>Atrial Fibrillation</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c117</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>195080001</qds:standard_code_list>
+<qds:standard_code_list>282825002</qds:standard_code_list>
+<qds:standard_code_list>300996004</qds:standard_code_list>
+<qds:standard_code_list>314208002</qds:standard_code_list>
+<qds:standard_code_list>426749004</qds:standard_code_list>
+<qds:standard_code_list>440028005</qds:standard_code_list>
+<qds:standard_code_list>440059007</qds:standard_code_list>
+<qds:standard_code_list>49436004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_126">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_126</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_238">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_238</qds:QDS_id>
+<qds:standard_concept>Encounter Nursing Facility</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_239">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_239</qds:QDS_id>
+<qds:standard_concept>Encounter Outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1307">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1307</qds:QDS_id>
+<qds:standard_concept>Esophageal and GI Bleed</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c382</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>472</qds:standard_code_list>
+<qds:standard_code_list>A_c221</qds:standard_code_list>
+<qds:standard_code_list>A_c228</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1308">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1308</qds:QDS_id>
+<qds:standard_concept>Esophageal and GI Bleed</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c382</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>472</qds:standard_code_list>
+<qds:standard_code_list>A_c221</qds:standard_code_list>
+<qds:standard_code_list>A_c228</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7031">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7031</qds:QDS_id>
+<qds:standard_concept>Esophageal and GI Bleed</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c228</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>K22.6</qds:standard_code_list>
+<qds:standard_code_list>K25.0</qds:standard_code_list>
+<qds:standard_code_list>K25.2</qds:standard_code_list>
+<qds:standard_code_list>K25.4</qds:standard_code_list>
+<qds:standard_code_list>K25.6</qds:standard_code_list>
+<qds:standard_code_list>K26.0</qds:standard_code_list>
+<qds:standard_code_list>K26.4</qds:standard_code_list>
+<qds:standard_code_list>K26.6</qds:standard_code_list>
+<qds:standard_code_list>K27.0</qds:standard_code_list>
+<qds:standard_code_list>K27.2</qds:standard_code_list>
+<qds:standard_code_list>K27.4</qds:standard_code_list>
+<qds:standard_code_list>K27.6</qds:standard_code_list>
+<qds:standard_code_list>K28.0</qds:standard_code_list>
+<qds:standard_code_list>K28.2</qds:standard_code_list>
+<qds:standard_code_list>K28.4</qds:standard_code_list>
+<qds:standard_code_list>K28.6</qds:standard_code_list>
+<qds:standard_code_list>K62.5</qds:standard_code_list>
+<qds:standard_code_list>K92.0</qds:standard_code_list>
+<qds:standard_code_list>L70.31</qds:standard_code_list>
+<qds:standard_code_list>R19.5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7023">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7023</qds:QDS_id>
+<qds:standard_concept>Esophageal and GI Bleed</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c221</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>530.7</qds:standard_code_list>
+<qds:standard_code_list>531.00</qds:standard_code_list>
+<qds:standard_code_list>531.01</qds:standard_code_list>
+<qds:standard_code_list>531.20</qds:standard_code_list>
+<qds:standard_code_list>531.21</qds:standard_code_list>
+<qds:standard_code_list>531.40</qds:standard_code_list>
+<qds:standard_code_list>531.41</qds:standard_code_list>
+<qds:standard_code_list>531.60</qds:standard_code_list>
+<qds:standard_code_list>531.61</qds:standard_code_list>
+<qds:standard_code_list>532.00</qds:standard_code_list>
+<qds:standard_code_list>532.01</qds:standard_code_list>
+<qds:standard_code_list>532.20</qds:standard_code_list>
+<qds:standard_code_list>532.21</qds:standard_code_list>
+<qds:standard_code_list>532.40</qds:standard_code_list>
+<qds:standard_code_list>532.41</qds:standard_code_list>
+<qds:standard_code_list>532.60</qds:standard_code_list>
+<qds:standard_code_list>532.61</qds:standard_code_list>
+<qds:standard_code_list>533.00</qds:standard_code_list>
+<qds:standard_code_list>533.01</qds:standard_code_list>
+<qds:standard_code_list>533.20</qds:standard_code_list>
+<qds:standard_code_list>533.21</qds:standard_code_list>
+<qds:standard_code_list>533.40</qds:standard_code_list>
+<qds:standard_code_list>533.41</qds:standard_code_list>
+<qds:standard_code_list>533.60</qds:standard_code_list>
+<qds:standard_code_list>533.61</qds:standard_code_list>
+<qds:standard_code_list>534.00</qds:standard_code_list>
+<qds:standard_code_list>534.01</qds:standard_code_list>
+<qds:standard_code_list>534.20</qds:standard_code_list>
+<qds:standard_code_list>534.21</qds:standard_code_list>
+<qds:standard_code_list>534.40</qds:standard_code_list>
+<qds:standard_code_list>534.41</qds:standard_code_list>
+<qds:standard_code_list>534.60</qds:standard_code_list>
+<qds:standard_code_list>534.61</qds:standard_code_list>
+<qds:standard_code_list>569.3</qds:standard_code_list>
+<qds:standard_code_list>578.0</qds:standard_code_list>
+<qds:standard_code_list>578.1</qds:standard_code_list>
+<qds:standard_code_list>578.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7045">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7045</qds:QDS_id>
+<qds:standard_concept>Esophageal and GI Bleed</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c472</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>15238002</qds:standard_code_list>
+<qds:standard_code_list>15970005</qds:standard_code_list>
+<qds:standard_code_list>262790002</qds:standard_code_list>
+<qds:standard_code_list>35265002</qds:standard_code_list>
+<qds:standard_code_list>439442003</qds:standard_code_list>
+<qds:standard_code_list>57748001</qds:standard_code_list>
+<qds:standard_code_list>60698006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1309">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1309</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c23</qds:standard_code_list>
+<qds:standard_code_list>A_c24</qds:standard_code_list>
+<qds:standard_code_list>A_c25</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1310">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1310</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c376</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c23</qds:standard_code_list>
+<qds:standard_code_list>A_c24</qds:standard_code_list>
+<qds:standard_code_list>A_c25</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1089">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1089</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c24</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I05</qds:standard_code_list>
+<qds:standard_code_list>I05.0</qds:standard_code_list>
+<qds:standard_code_list>I05.1</qds:standard_code_list>
+<qds:standard_code_list>I05.2</qds:standard_code_list>
+<qds:standard_code_list>I05.8</qds:standard_code_list>
+<qds:standard_code_list>I05.9</qds:standard_code_list>
+<qds:standard_code_list>I06</qds:standard_code_list>
+<qds:standard_code_list>I06.0</qds:standard_code_list>
+<qds:standard_code_list>I06.1</qds:standard_code_list>
+<qds:standard_code_list>I06.2</qds:standard_code_list>
+<qds:standard_code_list>I06.8</qds:standard_code_list>
+<qds:standard_code_list>I07</qds:standard_code_list>
+<qds:standard_code_list>I07.0</qds:standard_code_list>
+<qds:standard_code_list>I07.1</qds:standard_code_list>
+<qds:standard_code_list>I07.2</qds:standard_code_list>
+<qds:standard_code_list>I07.8</qds:standard_code_list>
+<qds:standard_code_list>I07.9</qds:standard_code_list>
+<qds:standard_code_list>I08</qds:standard_code_list>
+<qds:standard_code_list>I08.0</qds:standard_code_list>
+<qds:standard_code_list>I08.1</qds:standard_code_list>
+<qds:standard_code_list>I08.2</qds:standard_code_list>
+<qds:standard_code_list>I08.3</qds:standard_code_list>
+<qds:standard_code_list>I08.8</qds:standard_code_list>
+<qds:standard_code_list>I08.9</qds:standard_code_list>
+<qds:standard_code_list>I09</qds:standard_code_list>
+<qds:standard_code_list>I09.0</qds:standard_code_list>
+<qds:standard_code_list>I09.1</qds:standard_code_list>
+<qds:standard_code_list>I09.2</qds:standard_code_list>
+<qds:standard_code_list>I09.8</qds:standard_code_list>
+<qds:standard_code_list>I09.89</qds:standard_code_list>
+<qds:standard_code_list>I09.9</qds:standard_code_list>
+<qds:standard_code_list>I11.0</qds:standard_code_list>
+<qds:standard_code_list>I13.0</qds:standard_code_list>
+<qds:standard_code_list>I42.3</qds:standard_code_list>
+<qds:standard_code_list>I50.1</qds:standard_code_list>
+<qds:standard_code_list>I50.2</qds:standard_code_list>
+<qds:standard_code_list>I50.21</qds:standard_code_list>
+<qds:standard_code_list>I50.22</qds:standard_code_list>
+<qds:standard_code_list>I50.23</qds:standard_code_list>
+<qds:standard_code_list>I50.3</qds:standard_code_list>
+<qds:standard_code_list>I50.31</qds:standard_code_list>
+<qds:standard_code_list>I50.32</qds:standard_code_list>
+<qds:standard_code_list>I50.33</qds:standard_code_list>
+<qds:standard_code_list>I50.4</qds:standard_code_list>
+<qds:standard_code_list>I50.41</qds:standard_code_list>
+<qds:standard_code_list>I50.42</qds:standard_code_list>
+<qds:standard_code_list>I50.43</qds:standard_code_list>
+<qds:standard_code_list>I50.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_150">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_150</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c24</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I05</qds:standard_code_list>
+<qds:standard_code_list>I05.0</qds:standard_code_list>
+<qds:standard_code_list>I05.1</qds:standard_code_list>
+<qds:standard_code_list>I05.2</qds:standard_code_list>
+<qds:standard_code_list>I05.8</qds:standard_code_list>
+<qds:standard_code_list>I05.9</qds:standard_code_list>
+<qds:standard_code_list>I06</qds:standard_code_list>
+<qds:standard_code_list>I06.0</qds:standard_code_list>
+<qds:standard_code_list>I06.1</qds:standard_code_list>
+<qds:standard_code_list>I06.2</qds:standard_code_list>
+<qds:standard_code_list>I06.8</qds:standard_code_list>
+<qds:standard_code_list>I07</qds:standard_code_list>
+<qds:standard_code_list>I07.0</qds:standard_code_list>
+<qds:standard_code_list>I07.1</qds:standard_code_list>
+<qds:standard_code_list>I07.2</qds:standard_code_list>
+<qds:standard_code_list>I07.8</qds:standard_code_list>
+<qds:standard_code_list>I07.9</qds:standard_code_list>
+<qds:standard_code_list>I08</qds:standard_code_list>
+<qds:standard_code_list>I08.0</qds:standard_code_list>
+<qds:standard_code_list>I08.1</qds:standard_code_list>
+<qds:standard_code_list>I08.2</qds:standard_code_list>
+<qds:standard_code_list>I08.3</qds:standard_code_list>
+<qds:standard_code_list>I08.8</qds:standard_code_list>
+<qds:standard_code_list>I08.9</qds:standard_code_list>
+<qds:standard_code_list>I09</qds:standard_code_list>
+<qds:standard_code_list>I09.0</qds:standard_code_list>
+<qds:standard_code_list>I09.1</qds:standard_code_list>
+<qds:standard_code_list>I09.2</qds:standard_code_list>
+<qds:standard_code_list>I09.8</qds:standard_code_list>
+<qds:standard_code_list>I09.89</qds:standard_code_list>
+<qds:standard_code_list>I09.9</qds:standard_code_list>
+<qds:standard_code_list>I11.0</qds:standard_code_list>
+<qds:standard_code_list>I13.0</qds:standard_code_list>
+<qds:standard_code_list>I42.3</qds:standard_code_list>
+<qds:standard_code_list>I50.1</qds:standard_code_list>
+<qds:standard_code_list>I50.2</qds:standard_code_list>
+<qds:standard_code_list>I50.21</qds:standard_code_list>
+<qds:standard_code_list>I50.22</qds:standard_code_list>
+<qds:standard_code_list>I50.23</qds:standard_code_list>
+<qds:standard_code_list>I50.3</qds:standard_code_list>
+<qds:standard_code_list>I50.31</qds:standard_code_list>
+<qds:standard_code_list>I50.32</qds:standard_code_list>
+<qds:standard_code_list>I50.33</qds:standard_code_list>
+<qds:standard_code_list>I50.4</qds:standard_code_list>
+<qds:standard_code_list>I50.41</qds:standard_code_list>
+<qds:standard_code_list>I50.42</qds:standard_code_list>
+<qds:standard_code_list>I50.43</qds:standard_code_list>
+<qds:standard_code_list>I50.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1088">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1088</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c23</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>402.01</qds:standard_code_list>
+<qds:standard_code_list>402.11</qds:standard_code_list>
+<qds:standard_code_list>402.91</qds:standard_code_list>
+<qds:standard_code_list>404.01</qds:standard_code_list>
+<qds:standard_code_list>404.03</qds:standard_code_list>
+<qds:standard_code_list>404.11</qds:standard_code_list>
+<qds:standard_code_list>404.13</qds:standard_code_list>
+<qds:standard_code_list>404.91</qds:standard_code_list>
+<qds:standard_code_list>404.93</qds:standard_code_list>
+<qds:standard_code_list>428.0</qds:standard_code_list>
+<qds:standard_code_list>428.1</qds:standard_code_list>
+<qds:standard_code_list>428.20</qds:standard_code_list>
+<qds:standard_code_list>428.21</qds:standard_code_list>
+<qds:standard_code_list>428.22</qds:standard_code_list>
+<qds:standard_code_list>428.23</qds:standard_code_list>
+<qds:standard_code_list>428.30</qds:standard_code_list>
+<qds:standard_code_list>428.31</qds:standard_code_list>
+<qds:standard_code_list>428.32</qds:standard_code_list>
+<qds:standard_code_list>428.33</qds:standard_code_list>
+<qds:standard_code_list>428.40</qds:standard_code_list>
+<qds:standard_code_list>428.41</qds:standard_code_list>
+<qds:standard_code_list>428.42</qds:standard_code_list>
+<qds:standard_code_list>428.43</qds:standard_code_list>
+<qds:standard_code_list>428.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_148">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_148</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c23</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>402.01</qds:standard_code_list>
+<qds:standard_code_list>402.11</qds:standard_code_list>
+<qds:standard_code_list>402.91</qds:standard_code_list>
+<qds:standard_code_list>404.01</qds:standard_code_list>
+<qds:standard_code_list>404.03</qds:standard_code_list>
+<qds:standard_code_list>404.11</qds:standard_code_list>
+<qds:standard_code_list>404.13</qds:standard_code_list>
+<qds:standard_code_list>404.91</qds:standard_code_list>
+<qds:standard_code_list>404.93</qds:standard_code_list>
+<qds:standard_code_list>428.0</qds:standard_code_list>
+<qds:standard_code_list>428.1</qds:standard_code_list>
+<qds:standard_code_list>428.20</qds:standard_code_list>
+<qds:standard_code_list>428.21</qds:standard_code_list>
+<qds:standard_code_list>428.22</qds:standard_code_list>
+<qds:standard_code_list>428.23</qds:standard_code_list>
+<qds:standard_code_list>428.30</qds:standard_code_list>
+<qds:standard_code_list>428.31</qds:standard_code_list>
+<qds:standard_code_list>428.32</qds:standard_code_list>
+<qds:standard_code_list>428.33</qds:standard_code_list>
+<qds:standard_code_list>428.40</qds:standard_code_list>
+<qds:standard_code_list>428.41</qds:standard_code_list>
+<qds:standard_code_list>428.42</qds:standard_code_list>
+<qds:standard_code_list>428.43</qds:standard_code_list>
+<qds:standard_code_list>428.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1090">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1090</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c25</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10091002</qds:standard_code_list>
+<qds:standard_code_list>10335000</qds:standard_code_list>
+<qds:standard_code_list>10633002</qds:standard_code_list>
+<qds:standard_code_list>111283005</qds:standard_code_list>
+<qds:standard_code_list>128404006</qds:standard_code_list>
+<qds:standard_code_list>13839000</qds:standard_code_list>
+<qds:standard_code_list>194767001</qds:standard_code_list>
+<qds:standard_code_list>194779001</qds:standard_code_list>
+<qds:standard_code_list>194781004</qds:standard_code_list>
+<qds:standard_code_list>195111005</qds:standard_code_list>
+<qds:standard_code_list>195112003</qds:standard_code_list>
+<qds:standard_code_list>195114002</qds:standard_code_list>
+<qds:standard_code_list>206586007</qds:standard_code_list>
+<qds:standard_code_list>233924009</qds:standard_code_list>
+<qds:standard_code_list>25544003</qds:standard_code_list>
+<qds:standard_code_list>277639002</qds:standard_code_list>
+<qds:standard_code_list>314206003</qds:standard_code_list>
+<qds:standard_code_list>33644002</qds:standard_code_list>
+<qds:standard_code_list>359617009</qds:standard_code_list>
+<qds:standard_code_list>359620001</qds:standard_code_list>
+<qds:standard_code_list>364006</qds:standard_code_list>
+<qds:standard_code_list>367363000</qds:standard_code_list>
+<qds:standard_code_list>410431009</qds:standard_code_list>
+<qds:standard_code_list>417996009</qds:standard_code_list>
+<qds:standard_code_list>418304008</qds:standard_code_list>
+<qds:standard_code_list>42343007</qds:standard_code_list>
+<qds:standard_code_list>424404003</qds:standard_code_list>
+<qds:standard_code_list>426012001</qds:standard_code_list>
+<qds:standard_code_list>426263006</qds:standard_code_list>
+<qds:standard_code_list>426611007</qds:standard_code_list>
+<qds:standard_code_list>43736008</qds:standard_code_list>
+<qds:standard_code_list>441481004</qds:standard_code_list>
+<qds:standard_code_list>441530006</qds:standard_code_list>
+<qds:standard_code_list>44313006</qds:standard_code_list>
+<qds:standard_code_list>46113002</qds:standard_code_list>
+<qds:standard_code_list>48447003</qds:standard_code_list>
+<qds:standard_code_list>5053004</qds:standard_code_list>
+<qds:standard_code_list>5148006</qds:standard_code_list>
+<qds:standard_code_list>5375005</qds:standard_code_list>
+<qds:standard_code_list>56675007</qds:standard_code_list>
+<qds:standard_code_list>60856006</qds:standard_code_list>
+<qds:standard_code_list>66989003</qds:standard_code_list>
+<qds:standard_code_list>74960003</qds:standard_code_list>
+<qds:standard_code_list>77737007</qds:standard_code_list>
+<qds:standard_code_list>80479009</qds:standard_code_list>
+<qds:standard_code_list>82523003</qds:standard_code_list>
+<qds:standard_code_list>83105008</qds:standard_code_list>
+<qds:standard_code_list>84114007</qds:standard_code_list>
+<qds:standard_code_list>85232009</qds:standard_code_list>
+<qds:standard_code_list>88805009</qds:standard_code_list>
+<qds:standard_code_list>90727007</qds:standard_code_list>
+<qds:standard_code_list>92506005</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_151">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_151</qds:QDS_id>
+<qds:standard_concept>Heart Failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c25</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10091002</qds:standard_code_list>
+<qds:standard_code_list>10335000</qds:standard_code_list>
+<qds:standard_code_list>10633002</qds:standard_code_list>
+<qds:standard_code_list>111283005</qds:standard_code_list>
+<qds:standard_code_list>128404006</qds:standard_code_list>
+<qds:standard_code_list>13839000</qds:standard_code_list>
+<qds:standard_code_list>194767001</qds:standard_code_list>
+<qds:standard_code_list>194779001</qds:standard_code_list>
+<qds:standard_code_list>194781004</qds:standard_code_list>
+<qds:standard_code_list>195111005</qds:standard_code_list>
+<qds:standard_code_list>195112003</qds:standard_code_list>
+<qds:standard_code_list>195114002</qds:standard_code_list>
+<qds:standard_code_list>206586007</qds:standard_code_list>
+<qds:standard_code_list>233924009</qds:standard_code_list>
+<qds:standard_code_list>25544003</qds:standard_code_list>
+<qds:standard_code_list>277639002</qds:standard_code_list>
+<qds:standard_code_list>314206003</qds:standard_code_list>
+<qds:standard_code_list>33644002</qds:standard_code_list>
+<qds:standard_code_list>359617009</qds:standard_code_list>
+<qds:standard_code_list>359620001</qds:standard_code_list>
+<qds:standard_code_list>364006</qds:standard_code_list>
+<qds:standard_code_list>367363000</qds:standard_code_list>
+<qds:standard_code_list>410431009</qds:standard_code_list>
+<qds:standard_code_list>417996009</qds:standard_code_list>
+<qds:standard_code_list>418304008</qds:standard_code_list>
+<qds:standard_code_list>42343007</qds:standard_code_list>
+<qds:standard_code_list>424404003</qds:standard_code_list>
+<qds:standard_code_list>426012001</qds:standard_code_list>
+<qds:standard_code_list>426263006</qds:standard_code_list>
+<qds:standard_code_list>426611007</qds:standard_code_list>
+<qds:standard_code_list>43736008</qds:standard_code_list>
+<qds:standard_code_list>441481004</qds:standard_code_list>
+<qds:standard_code_list>441530006</qds:standard_code_list>
+<qds:standard_code_list>44313006</qds:standard_code_list>
+<qds:standard_code_list>46113002</qds:standard_code_list>
+<qds:standard_code_list>48447003</qds:standard_code_list>
+<qds:standard_code_list>5053004</qds:standard_code_list>
+<qds:standard_code_list>5148006</qds:standard_code_list>
+<qds:standard_code_list>5375005</qds:standard_code_list>
+<qds:standard_code_list>56675007</qds:standard_code_list>
+<qds:standard_code_list>60856006</qds:standard_code_list>
+<qds:standard_code_list>66989003</qds:standard_code_list>
+<qds:standard_code_list>74960003</qds:standard_code_list>
+<qds:standard_code_list>77737007</qds:standard_code_list>
+<qds:standard_code_list>80479009</qds:standard_code_list>
+<qds:standard_code_list>82523003</qds:standard_code_list>
+<qds:standard_code_list>83105008</qds:standard_code_list>
+<qds:standard_code_list>84114007</qds:standard_code_list>
+<qds:standard_code_list>85232009</qds:standard_code_list>
+<qds:standard_code_list>88805009</qds:standard_code_list>
+<qds:standard_code_list>90727007</qds:standard_code_list>
+<qds:standard_code_list>92506005</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1317">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1317</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c387</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c224</qds:standard_code_list>
+<qds:standard_code_list>A_c231</qds:standard_code_list>
+<qds:standard_code_list>A_c474</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1318">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1318</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c387</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c224</qds:standard_code_list>
+<qds:standard_code_list>A_c231</qds:standard_code_list>
+<qds:standard_code_list>A_c474</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_600">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_600</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c231</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R31</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_601">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_601</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c231</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R31</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_586">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_586</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c224</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>599.7</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_587">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_587</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c224</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>599.7</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7020">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7020</qds:QDS_id>
+<qds:standard_concept>Hematuria</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c474</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197627003</qds:standard_code_list>
+<qds:standard_code_list>197698000</qds:standard_code_list>
+<qds:standard_code_list>197699008</qds:standard_code_list>
+<qds:standard_code_list>197700009</qds:standard_code_list>
+<qds:standard_code_list>197701008</qds:standard_code_list>
+<qds:standard_code_list>197702001</qds:standard_code_list>
+<qds:standard_code_list>197703006</qds:standard_code_list>
+<qds:standard_code_list>197704000</qds:standard_code_list>
+<qds:standard_code_list>197705004</qds:standard_code_list>
+<qds:standard_code_list>197706003</qds:standard_code_list>
+<qds:standard_code_list>197938001</qds:standard_code_list>
+<qds:standard_code_list>197939009</qds:standard_code_list>
+<qds:standard_code_list>197940006</qds:standard_code_list>
+<qds:standard_code_list>197941005</qds:standard_code_list>
+<qds:standard_code_list>197942003</qds:standard_code_list>
+<qds:standard_code_list>20407004</qds:standard_code_list>
+<qds:standard_code_list>236717007</qds:standard_code_list>
+<qds:standard_code_list>236718002</qds:standard_code_list>
+<qds:standard_code_list>281855006</qds:standard_code_list>
+<qds:standard_code_list>281856007</qds:standard_code_list>
+<qds:standard_code_list>281857003</qds:standard_code_list>
+<qds:standard_code_list>281858008</qds:standard_code_list>
+<qds:standard_code_list>281859000</qds:standard_code_list>
+<qds:standard_code_list>281860005</qds:standard_code_list>
+<qds:standard_code_list>314280007</qds:standard_code_list>
+<qds:standard_code_list>371020003</qds:standard_code_list>
+<qds:standard_code_list>53298000</qds:standard_code_list>
+<qds:standard_code_list>57965003</qds:standard_code_list>
+<qds:standard_code_list>86208007</qds:standard_code_list>
+<qds:standard_code_list>95567008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1319">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1319</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c383</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c225</qds:standard_code_list>
+<qds:standard_code_list>A_c232</qds:standard_code_list>
+<qds:standard_code_list>A_c475</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1320">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1320</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c383</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c225</qds:standard_code_list>
+<qds:standard_code_list>A_c232</qds:standard_code_list>
+<qds:standard_code_list>A_c475</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_602">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_602</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c232</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R04.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_603">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_603</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c232</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R04.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_588">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_588</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c225</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>786.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_589">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_589</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c225</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>786.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7090">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7090</qds:QDS_id>
+<qds:standard_concept>Hemoptysis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c475</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>66857006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1438">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1438</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c437</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c226</qds:standard_code_list>
+<qds:standard_code_list>A_c436</qds:standard_code_list>
+<qds:standard_code_list>A_c476</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1439">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1439</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c437</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c226</qds:standard_code_list>
+<qds:standard_code_list>A_c436</qds:standard_code_list>
+<qds:standard_code_list>A_c476</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7098">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7098</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c436</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R58</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_590">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_590</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c226</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>459.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_591">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_591</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c226</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>459.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7002">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7002</qds:QDS_id>
+<qds:standard_concept>Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c476</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>102455002</qds:standard_code_list>
+<qds:standard_code_list>111371005</qds:standard_code_list>
+<qds:standard_code_list>111677000</qds:standard_code_list>
+<qds:standard_code_list>11547003</qds:standard_code_list>
+<qds:standard_code_list>11623000</qds:standard_code_list>
+<qds:standard_code_list>12063002</qds:standard_code_list>
+<qds:standard_code_list>122003</qds:standard_code_list>
+<qds:standard_code_list>126941005</qds:standard_code_list>
+<qds:standard_code_list>14255005</qds:standard_code_list>
+<qds:standard_code_list>14936004</qds:standard_code_list>
+<qds:standard_code_list>15720001</qds:standard_code_list>
+<qds:standard_code_list>15902003</qds:standard_code_list>
+<qds:standard_code_list>163990004</qds:standard_code_list>
+<qds:standard_code_list>16763008</qds:standard_code_list>
+<qds:standard_code_list>17615006</qds:standard_code_list>
+<qds:standard_code_list>17709002</qds:standard_code_list>
+<qds:standard_code_list>181007</qds:standard_code_list>
+<qds:standard_code_list>194179009</qds:standard_code_list>
+<qds:standard_code_list>195176009</qds:standard_code_list>
+<qds:standard_code_list>197812000</qds:standard_code_list>
+<qds:standard_code_list>197813005</qds:standard_code_list>
+<qds:standard_code_list>197887003</qds:standard_code_list>
+<qds:standard_code_list>198031007</qds:standard_code_list>
+<qds:standard_code_list>198903000</qds:standard_code_list>
+<qds:standard_code_list>200016002</qds:standard_code_list>
+<qds:standard_code_list>200173001</qds:standard_code_list>
+<qds:standard_code_list>206191000</qds:standard_code_list>
+<qds:standard_code_list>206408009</qds:standard_code_list>
+<qds:standard_code_list>206425006</qds:standard_code_list>
+<qds:standard_code_list>209947002</qds:standard_code_list>
+<qds:standard_code_list>209956005</qds:standard_code_list>
+<qds:standard_code_list>209958006</qds:standard_code_list>
+<qds:standard_code_list>209959003</qds:standard_code_list>
+<qds:standard_code_list>209960008</qds:standard_code_list>
+<qds:standard_code_list>209961007</qds:standard_code_list>
+<qds:standard_code_list>209963005</qds:standard_code_list>
+<qds:standard_code_list>209987007</qds:standard_code_list>
+<qds:standard_code_list>210190001</qds:standard_code_list>
+<qds:standard_code_list>210205007</qds:standard_code_list>
+<qds:standard_code_list>232371001</qds:standard_code_list>
+<qds:standard_code_list>232425007</qds:standard_code_list>
+<qds:standard_code_list>233783005</qds:standard_code_list>
+<qds:standard_code_list>234003006</qds:standard_code_list>
+<qds:standard_code_list>234004000</qds:standard_code_list>
+<qds:standard_code_list>234076002</qds:standard_code_list>
+<qds:standard_code_list>234077006</qds:standard_code_list>
+<qds:standard_code_list>234507003</qds:standard_code_list>
+<qds:standard_code_list>235224000</qds:standard_code_list>
+<qds:standard_code_list>235999009</qds:standard_code_list>
+<qds:standard_code_list>236000006</qds:standard_code_list>
+<qds:standard_code_list>236097003</qds:standard_code_list>
+<qds:standard_code_list>236506009</qds:standard_code_list>
+<qds:standard_code_list>236606001</qds:standard_code_list>
+<qds:standard_code_list>2367005</qds:standard_code_list>
+<qds:standard_code_list>237102006</qds:standard_code_list>
+<qds:standard_code_list>237124006</qds:standard_code_list>
+<qds:standard_code_list>237274002</qds:standard_code_list>
+<qds:standard_code_list>237275001</qds:standard_code_list>
+<qds:standard_code_list>237277009</qds:standard_code_list>
+<qds:standard_code_list>237702003</qds:standard_code_list>
+<qds:standard_code_list>237766002</qds:standard_code_list>
+<qds:standard_code_list>24251002</qds:standard_code_list>
+<qds:standard_code_list>247098001</qds:standard_code_list>
+<qds:standard_code_list>24807004</qds:standard_code_list>
+<qds:standard_code_list>249421000</qds:standard_code_list>
+<qds:standard_code_list>249422007</qds:standard_code_list>
+<qds:standard_code_list>249423002</qds:standard_code_list>
+<qds:standard_code_list>25004000</qds:standard_code_list>
+<qds:standard_code_list>26205001</qds:standard_code_list>
+<qds:standard_code_list>262668005</qds:standard_code_list>
+<qds:standard_code_list>262721007</qds:standard_code_list>
+<qds:standard_code_list>262796008</qds:standard_code_list>
+<qds:standard_code_list>262808009</qds:standard_code_list>
+<qds:standard_code_list>262814002</qds:standard_code_list>
+<qds:standard_code_list>262818004</qds:standard_code_list>
+<qds:standard_code_list>262819007</qds:standard_code_list>
+<qds:standard_code_list>262826007</qds:standard_code_list>
+<qds:standard_code_list>262832002</qds:standard_code_list>
+<qds:standard_code_list>262838003</qds:standard_code_list>
+<qds:standard_code_list>262852001</qds:standard_code_list>
+<qds:standard_code_list>262858002</qds:standard_code_list>
+<qds:standard_code_list>262865005</qds:standard_code_list>
+<qds:standard_code_list>262870003</qds:standard_code_list>
+<qds:standard_code_list>262876009</qds:standard_code_list>
+<qds:standard_code_list>262891006</qds:standard_code_list>
+<qds:standard_code_list>262951009</qds:standard_code_list>
+<qds:standard_code_list>262952002</qds:standard_code_list>
+<qds:standard_code_list>264558008</qds:standard_code_list>
+<qds:standard_code_list>266464001</qds:standard_code_list>
+<qds:standard_code_list>274100004</qds:standard_code_list>
+<qds:standard_code_list>276543004</qds:standard_code_list>
+<qds:standard_code_list>281864001</qds:standard_code_list>
+<qds:standard_code_list>282455004</qds:standard_code_list>
+<qds:standard_code_list>283907002</qds:standard_code_list>
+<qds:standard_code_list>283921000</qds:standard_code_list>
+<qds:standard_code_list>283929003</qds:standard_code_list>
+<qds:standard_code_list>283938001</qds:standard_code_list>
+<qds:standard_code_list>283944002</qds:standard_code_list>
+<qds:standard_code_list>283948004</qds:standard_code_list>
+<qds:standard_code_list>283958000</qds:standard_code_list>
+<qds:standard_code_list>283965008</qds:standard_code_list>
+<qds:standard_code_list>29635000</qds:standard_code_list>
+<qds:standard_code_list>30400005</qds:standard_code_list>
+<qds:standard_code_list>304831001</qds:standard_code_list>
+<qds:standard_code_list>307233002</qds:standard_code_list>
+<qds:standard_code_list>309750008</qds:standard_code_list>
+<qds:standard_code_list>31056006</qds:standard_code_list>
+<qds:standard_code_list>312910009</qds:standard_code_list>
+<qds:standard_code_list>312946000</qds:standard_code_list>
+<qds:standard_code_list>313304007</qds:standard_code_list>
+<qds:standard_code_list>31341008</qds:standard_code_list>
+<qds:standard_code_list>314483007</qds:standard_code_list>
+<qds:standard_code_list>314484001</qds:standard_code_list>
+<qds:standard_code_list>315046005</qds:standard_code_list>
+<qds:standard_code_list>315047001</qds:standard_code_list>
+<qds:standard_code_list>324618004</qds:standard_code_list>
+<qds:standard_code_list>325569000</qds:standard_code_list>
+<qds:standard_code_list>33878005</qds:standard_code_list>
+<qds:standard_code_list>34135005</qds:standard_code_list>
+<qds:standard_code_list>34409000</qds:standard_code_list>
+<qds:standard_code_list>35265002</qds:standard_code_list>
+<qds:standard_code_list>35486000</qds:standard_code_list>
+<qds:standard_code_list>36102002</qds:standard_code_list>
+<qds:standard_code_list>371050006</qds:standard_code_list>
+<qds:standard_code_list>373597005</qds:standard_code_list>
+<qds:standard_code_list>38010008</qds:standard_code_list>
+<qds:standard_code_list>38280009</qds:standard_code_list>
+<qds:standard_code_list>384993003</qds:standard_code_list>
+<qds:standard_code_list>38501006</qds:standard_code_list>
+<qds:standard_code_list>38822007</qds:standard_code_list>
+<qds:standard_code_list>399131003</qds:standard_code_list>
+<qds:standard_code_list>40135004</qds:standard_code_list>
+<qds:standard_code_list>405539004</qds:standard_code_list>
+<qds:standard_code_list>405541003</qds:standard_code_list>
+<qds:standard_code_list>405555006</qds:standard_code_list>
+<qds:standard_code_list>409506009</qds:standard_code_list>
+<qds:standard_code_list>410064000</qds:standard_code_list>
+<qds:standard_code_list>413218001</qds:standard_code_list>
+<qds:standard_code_list>41486008</qds:standard_code_list>
+<qds:standard_code_list>417941003</qds:standard_code_list>
+<qds:standard_code_list>419596007</qds:standard_code_list>
+<qds:standard_code_list>428561000</qds:standard_code_list>
+<qds:standard_code_list>43262000</qds:standard_code_list>
+<qds:standard_code_list>43602006</qds:standard_code_list>
+<qds:standard_code_list>43696002</qds:standard_code_list>
+<qds:standard_code_list>438510004</qds:standard_code_list>
+<qds:standard_code_list>4399003</qds:standard_code_list>
+<qds:standard_code_list>443826006</qds:standard_code_list>
+<qds:standard_code_list>444312002</qds:standard_code_list>
+<qds:standard_code_list>44671008</qds:standard_code_list>
+<qds:standard_code_list>44843000</qds:standard_code_list>
+<qds:standard_code_list>45626005</qds:standard_code_list>
+<qds:standard_code_list>45659008</qds:standard_code_list>
+<qds:standard_code_list>46758000</qds:standard_code_list>
+<qds:standard_code_list>47236005</qds:standard_code_list>
+<qds:standard_code_list>48413001</qds:standard_code_list>
+<qds:standard_code_list>49111001</qds:standard_code_list>
+<qds:standard_code_list>50088001</qds:standard_code_list>
+<qds:standard_code_list>50573001</qds:standard_code_list>
+<qds:standard_code_list>50581000</qds:standard_code_list>
+<qds:standard_code_list>5223003</qds:standard_code_list>
+<qds:standard_code_list>52902005</qds:standard_code_list>
+<qds:standard_code_list>53162000</qds:standard_code_list>
+<qds:standard_code_list>53839004</qds:standard_code_list>
+<qds:standard_code_list>54816003</qds:standard_code_list>
+<qds:standard_code_list>55898008</qds:standard_code_list>
+<qds:standard_code_list>56517003</qds:standard_code_list>
+<qds:standard_code_list>57246001</qds:standard_code_list>
+<qds:standard_code_list>61401005</qds:standard_code_list>
+<qds:standard_code_list>62182006</qds:standard_code_list>
+<qds:standard_code_list>63323000</qds:standard_code_list>
+<qds:standard_code_list>63489003</qds:standard_code_list>
+<qds:standard_code_list>66556007</qds:standard_code_list>
+<qds:standard_code_list>6666006</qds:standard_code_list>
+<qds:standard_code_list>68162000</qds:standard_code_list>
+<qds:standard_code_list>69452005</qds:standard_code_list>
+<qds:standard_code_list>70375006</qds:standard_code_list>
+<qds:standard_code_list>70861009</qds:standard_code_list>
+<qds:standard_code_list>71266000</qds:standard_code_list>
+<qds:standard_code_list>7602002</qds:standard_code_list>
+<qds:standard_code_list>76682005</qds:standard_code_list>
+<qds:standard_code_list>77708008</qds:standard_code_list>
+<qds:standard_code_list>77940004</qds:standard_code_list>
+<qds:standard_code_list>78171005</qds:standard_code_list>
+<qds:standard_code_list>79816004</qds:standard_code_list>
+<qds:standard_code_list>81125004</qds:standard_code_list>
+<qds:standard_code_list>81488005</qds:standard_code_list>
+<qds:standard_code_list>8465005</qds:standard_code_list>
+<qds:standard_code_list>84693004</qds:standard_code_list>
+<qds:standard_code_list>85521005</qds:standard_code_list>
+<qds:standard_code_list>87345009</qds:standard_code_list>
+<qds:standard_code_list>87696004</qds:standard_code_list>
+<qds:standard_code_list>87763006</qds:standard_code_list>
+<qds:standard_code_list>89966002</qds:standard_code_list>
+<qds:standard_code_list>89993004</qds:standard_code_list>
+<qds:standard_code_list>90053006</qds:standard_code_list>
+<qds:standard_code_list>90165008</qds:standard_code_list>
+<qds:standard_code_list>91304009</qds:standard_code_list>
+<qds:standard_code_list>93475002</qds:standard_code_list>
+<qds:standard_code_list>93476001</qds:standard_code_list>
+<qds:standard_code_list>93478000</qds:standard_code_list>
+<qds:standard_code_list>95431003</qds:standard_code_list>
+<qds:standard_code_list>95453001</qds:standard_code_list>
+<qds:standard_code_list>95540002</qds:standard_code_list>
+<qds:standard_code_list>95560005</qds:standard_code_list>
+<qds:standard_code_list>95562002</qds:standard_code_list>
+<qds:standard_code_list>95571006</qds:standard_code_list>
+<qds:standard_code_list>981008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1311">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1311</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c384</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c217</qds:standard_code_list>
+<qds:standard_code_list>A_c227</qds:standard_code_list>
+<qds:standard_code_list>A_c473</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1312">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1312</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c384</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c217</qds:standard_code_list>
+<qds:standard_code_list>A_c227</qds:standard_code_list>
+<qds:standard_code_list>A_c473</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_592">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_592</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c227</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I60</qds:standard_code_list>
+<qds:standard_code_list>I61</qds:standard_code_list>
+<qds:standard_code_list>I62.1</qds:standard_code_list>
+<qds:standard_code_list>I67.1</qds:standard_code_list>
+<qds:standard_code_list>S06.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_593">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_593</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c227</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I60</qds:standard_code_list>
+<qds:standard_code_list>I61</qds:standard_code_list>
+<qds:standard_code_list>I62.1</qds:standard_code_list>
+<qds:standard_code_list>I67.1</qds:standard_code_list>
+<qds:standard_code_list>S06.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_576">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_576</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c217</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>430</qds:standard_code_list>
+<qds:standard_code_list>431</qds:standard_code_list>
+<qds:standard_code_list>432.0</qds:standard_code_list>
+<qds:standard_code_list>432.1</qds:standard_code_list>
+<qds:standard_code_list>432.9</qds:standard_code_list>
+<qds:standard_code_list>437.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_577">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_577</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c217</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>430</qds:standard_code_list>
+<qds:standard_code_list>431</qds:standard_code_list>
+<qds:standard_code_list>432.0</qds:standard_code_list>
+<qds:standard_code_list>432.1</qds:standard_code_list>
+<qds:standard_code_list>432.9</qds:standard_code_list>
+<qds:standard_code_list>437.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7007">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7007</qds:QDS_id>
+<qds:standard_concept>Intracranial Hemorrhage</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c473</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111593004</qds:standard_code_list>
+<qds:standard_code_list>111597003</qds:standard_code_list>
+<qds:standard_code_list>111601003</qds:standard_code_list>
+<qds:standard_code_list>111605007</qds:standard_code_list>
+<qds:standard_code_list>111611005</qds:standard_code_list>
+<qds:standard_code_list>111615001</qds:standard_code_list>
+<qds:standard_code_list>111668007</qds:standard_code_list>
+<qds:standard_code_list>111671004</qds:standard_code_list>
+<qds:standard_code_list>111673001</qds:standard_code_list>
+<qds:standard_code_list>111677000</qds:standard_code_list>
+<qds:standard_code_list>111681000</qds:standard_code_list>
+<qds:standard_code_list>127308007</qds:standard_code_list>
+<qds:standard_code_list>127309004</qds:standard_code_list>
+<qds:standard_code_list>127310009</qds:standard_code_list>
+<qds:standard_code_list>127311008</qds:standard_code_list>
+<qds:standard_code_list>127312001</qds:standard_code_list>
+<qds:standard_code_list>13289004</qds:standard_code_list>
+<qds:standard_code_list>1386000</qds:standard_code_list>
+<qds:standard_code_list>1430001</qds:standard_code_list>
+<qds:standard_code_list>14460007</qds:standard_code_list>
+<qds:standard_code_list>14936004</qds:standard_code_list>
+<qds:standard_code_list>17667005</qds:standard_code_list>
+<qds:standard_code_list>18485009</qds:standard_code_list>
+<qds:standard_code_list>18605003</qds:standard_code_list>
+<qds:standard_code_list>195155004</qds:standard_code_list>
+<qds:standard_code_list>195160000</qds:standard_code_list>
+<qds:standard_code_list>195165005</qds:standard_code_list>
+<qds:standard_code_list>195167002</qds:standard_code_list>
+<qds:standard_code_list>195168007</qds:standard_code_list>
+<qds:standard_code_list>195169004</qds:standard_code_list>
+<qds:standard_code_list>20276007</qds:standard_code_list>
+<qds:standard_code_list>20908003</qds:standard_code_list>
+<qds:standard_code_list>209941001</qds:standard_code_list>
+<qds:standard_code_list>209942008</qds:standard_code_list>
+<qds:standard_code_list>209943003</qds:standard_code_list>
+<qds:standard_code_list>209944009</qds:standard_code_list>
+<qds:standard_code_list>209978003</qds:standard_code_list>
+<qds:standard_code_list>21202004</qds:standard_code_list>
+<qds:standard_code_list>230709005</qds:standard_code_list>
+<qds:standard_code_list>230710000</qds:standard_code_list>
+<qds:standard_code_list>230711001</qds:standard_code_list>
+<qds:standard_code_list>230712008</qds:standard_code_list>
+<qds:standard_code_list>230718007</qds:standard_code_list>
+<qds:standard_code_list>230719004</qds:standard_code_list>
+<qds:standard_code_list>23276006</qds:standard_code_list>
+<qds:standard_code_list>237702003</qds:standard_code_list>
+<qds:standard_code_list>26205001</qds:standard_code_list>
+<qds:standard_code_list>262952002</qds:standard_code_list>
+<qds:standard_code_list>262955000</qds:standard_code_list>
+<qds:standard_code_list>270907008</qds:standard_code_list>
+<qds:standard_code_list>274100004</qds:standard_code_list>
+<qds:standard_code_list>276277008</qds:standard_code_list>
+<qds:standard_code_list>276278003</qds:standard_code_list>
+<qds:standard_code_list>276280009</qds:standard_code_list>
+<qds:standard_code_list>276281008</qds:standard_code_list>
+<qds:standard_code_list>276282001</qds:standard_code_list>
+<qds:standard_code_list>276283006</qds:standard_code_list>
+<qds:standard_code_list>276284000</qds:standard_code_list>
+<qds:standard_code_list>276285004</qds:standard_code_list>
+<qds:standard_code_list>276286003</qds:standard_code_list>
+<qds:standard_code_list>276647007</qds:standard_code_list>
+<qds:standard_code_list>276648002</qds:standard_code_list>
+<qds:standard_code_list>276649005</qds:standard_code_list>
+<qds:standard_code_list>276650005</qds:standard_code_list>
+<qds:standard_code_list>276651009</qds:standard_code_list>
+<qds:standard_code_list>276652002</qds:standard_code_list>
+<qds:standard_code_list>276722003</qds:standard_code_list>
+<qds:standard_code_list>28048009</qds:standard_code_list>
+<qds:standard_code_list>28155008</qds:standard_code_list>
+<qds:standard_code_list>281864001</qds:standard_code_list>
+<qds:standard_code_list>281865000</qds:standard_code_list>
+<qds:standard_code_list>28318001</qds:standard_code_list>
+<qds:standard_code_list>288272004</qds:standard_code_list>
+<qds:standard_code_list>28837001</qds:standard_code_list>
+<qds:standard_code_list>291665000</qds:standard_code_list>
+<qds:standard_code_list>29635000</qds:standard_code_list>
+<qds:standard_code_list>301764006</qds:standard_code_list>
+<qds:standard_code_list>301765007</qds:standard_code_list>
+<qds:standard_code_list>30400005</qds:standard_code_list>
+<qds:standard_code_list>304831001</qds:standard_code_list>
+<qds:standard_code_list>32728005</qds:standard_code_list>
+<qds:standard_code_list>34135005</qds:standard_code_list>
+<qds:standard_code_list>34501004</qds:standard_code_list>
+<qds:standard_code_list>35672006</qds:standard_code_list>
+<qds:standard_code_list>371050006</qds:standard_code_list>
+<qds:standard_code_list>37134004</qds:standard_code_list>
+<qds:standard_code_list>37955001</qds:standard_code_list>
+<qds:standard_code_list>38453000</qds:standard_code_list>
+<qds:standard_code_list>40135004</qds:standard_code_list>
+<qds:standard_code_list>40549004</qds:standard_code_list>
+<qds:standard_code_list>42429001</qds:standard_code_list>
+<qds:standard_code_list>425957003</qds:standard_code_list>
+<qds:standard_code_list>428561000</qds:standard_code_list>
+<qds:standard_code_list>431266005</qds:standard_code_list>
+<qds:standard_code_list>43216008</qds:standard_code_list>
+<qds:standard_code_list>43262000</qds:standard_code_list>
+<qds:standard_code_list>4332009</qds:standard_code_list>
+<qds:standard_code_list>45659008</qds:standard_code_list>
+<qds:standard_code_list>46758000</qds:standard_code_list>
+<qds:standard_code_list>49422009</qds:standard_code_list>
+<qds:standard_code_list>52201006</qds:standard_code_list>
+<qds:standard_code_list>52902005</qds:standard_code_list>
+<qds:standard_code_list>59648004</qds:standard_code_list>
+<qds:standard_code_list>62973004</qds:standard_code_list>
+<qds:standard_code_list>63323000</qds:standard_code_list>
+<qds:standard_code_list>65189006</qds:standard_code_list>
+<qds:standard_code_list>65971006</qds:standard_code_list>
+<qds:standard_code_list>6666006</qds:standard_code_list>
+<qds:standard_code_list>66976009</qds:standard_code_list>
+<qds:standard_code_list>69178005</qds:standard_code_list>
+<qds:standard_code_list>69458009</qds:standard_code_list>
+<qds:standard_code_list>70611002</qds:standard_code_list>
+<qds:standard_code_list>70861009</qds:standard_code_list>
+<qds:standard_code_list>71074007</qds:standard_code_list>
+<qds:standard_code_list>71266000</qds:standard_code_list>
+<qds:standard_code_list>72986009</qds:standard_code_list>
+<qds:standard_code_list>73020009</qds:standard_code_list>
+<qds:standard_code_list>73308006</qds:standard_code_list>
+<qds:standard_code_list>73439007</qds:standard_code_list>
+<qds:standard_code_list>75038005</qds:standard_code_list>
+<qds:standard_code_list>75507000</qds:standard_code_list>
+<qds:standard_code_list>7602002</qds:standard_code_list>
+<qds:standard_code_list>7713009</qds:standard_code_list>
+<qds:standard_code_list>77498000</qds:standard_code_list>
+<qds:standard_code_list>77768006</qds:standard_code_list>
+<qds:standard_code_list>7819003</qds:standard_code_list>
+<qds:standard_code_list>78477003</qds:standard_code_list>
+<qds:standard_code_list>78757009</qds:standard_code_list>
+<qds:standard_code_list>78879009</qds:standard_code_list>
+<qds:standard_code_list>81520002</qds:standard_code_list>
+<qds:standard_code_list>82894007</qds:standard_code_list>
+<qds:standard_code_list>84792001</qds:standard_code_list>
+<qds:standard_code_list>86182004</qds:standard_code_list>
+<qds:standard_code_list>87020000</qds:standard_code_list>
+<qds:standard_code_list>87253004</qds:standard_code_list>
+<qds:standard_code_list>87345009</qds:standard_code_list>
+<qds:standard_code_list>88747000</qds:standard_code_list>
+<qds:standard_code_list>90165008</qds:standard_code_list>
+<qds:standard_code_list>90178008</qds:standard_code_list>
+<qds:standard_code_list>91216000</qds:standard_code_list>
+<qds:standard_code_list>95454007</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1313">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1313</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c385</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c222</qds:standard_code_list>
+<qds:standard_code_list>A_c229</qds:standard_code_list>
+<qds:standard_code_list>A_c477</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1314">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1314</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c385</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c222</qds:standard_code_list>
+<qds:standard_code_list>A_c229</qds:standard_code_list>
+<qds:standard_code_list>A_c477</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_596">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_596</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c229</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C88.9</qds:standard_code_list>
+<qds:standard_code_list>C90.0</qds:standard_code_list>
+<qds:standard_code_list>C90.01</qds:standard_code_list>
+<qds:standard_code_list>C90.10</qds:standard_code_list>
+<qds:standard_code_list>C90.11</qds:standard_code_list>
+<qds:standard_code_list>C91.00</qds:standard_code_list>
+<qds:standard_code_list>C91.01</qds:standard_code_list>
+<qds:standard_code_list>C91.10</qds:standard_code_list>
+<qds:standard_code_list>C91.11</qds:standard_code_list>
+<qds:standard_code_list>C91.20</qds:standard_code_list>
+<qds:standard_code_list>C91.21</qds:standard_code_list>
+<qds:standard_code_list>C91.70</qds:standard_code_list>
+<qds:standard_code_list>C91.71</qds:standard_code_list>
+<qds:standard_code_list>C91.90</qds:standard_code_list>
+<qds:standard_code_list>C91.91</qds:standard_code_list>
+<qds:standard_code_list>C92.00</qds:standard_code_list>
+<qds:standard_code_list>C92.01</qds:standard_code_list>
+<qds:standard_code_list>C92.10</qds:standard_code_list>
+<qds:standard_code_list>C92.11</qds:standard_code_list>
+<qds:standard_code_list>C92.20</qds:standard_code_list>
+<qds:standard_code_list>C92.21</qds:standard_code_list>
+<qds:standard_code_list>C92.30</qds:standard_code_list>
+<qds:standard_code_list>C92.31</qds:standard_code_list>
+<qds:standard_code_list>C92.70</qds:standard_code_list>
+<qds:standard_code_list>C92.71</qds:standard_code_list>
+<qds:standard_code_list>C92.90</qds:standard_code_list>
+<qds:standard_code_list>C92.91</qds:standard_code_list>
+<qds:standard_code_list>C93.00</qds:standard_code_list>
+<qds:standard_code_list>C93.01</qds:standard_code_list>
+<qds:standard_code_list>C93.10</qds:standard_code_list>
+<qds:standard_code_list>C93.11</qds:standard_code_list>
+<qds:standard_code_list>C93.20</qds:standard_code_list>
+<qds:standard_code_list>C93.21</qds:standard_code_list>
+<qds:standard_code_list>C93.70</qds:standard_code_list>
+<qds:standard_code_list>C93.71</qds:standard_code_list>
+<qds:standard_code_list>C93.90</qds:standard_code_list>
+<qds:standard_code_list>C93.91</qds:standard_code_list>
+<qds:standard_code_list>C94.00</qds:standard_code_list>
+<qds:standard_code_list>C94.01</qds:standard_code_list>
+<qds:standard_code_list>C94.10</qds:standard_code_list>
+<qds:standard_code_list>C94.11</qds:standard_code_list>
+<qds:standard_code_list>C94.20</qds:standard_code_list>
+<qds:standard_code_list>C94.21</qds:standard_code_list>
+<qds:standard_code_list>C94.70</qds:standard_code_list>
+<qds:standard_code_list>C94.71</qds:standard_code_list>
+<qds:standard_code_list>C95.00</qds:standard_code_list>
+<qds:standard_code_list>C95.01</qds:standard_code_list>
+<qds:standard_code_list>C95.10</qds:standard_code_list>
+<qds:standard_code_list>C95.11</qds:standard_code_list>
+<qds:standard_code_list>C95.20</qds:standard_code_list>
+<qds:standard_code_list>C95.21</qds:standard_code_list>
+<qds:standard_code_list>C95.70</qds:standard_code_list>
+<qds:standard_code_list>C95.71</qds:standard_code_list>
+<qds:standard_code_list>C95.90</qds:standard_code_list>
+<qds:standard_code_list>C95.91</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_597">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_597</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c229</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C88.9</qds:standard_code_list>
+<qds:standard_code_list>C90.0</qds:standard_code_list>
+<qds:standard_code_list>C90.01</qds:standard_code_list>
+<qds:standard_code_list>C90.10</qds:standard_code_list>
+<qds:standard_code_list>C90.11</qds:standard_code_list>
+<qds:standard_code_list>C91.00</qds:standard_code_list>
+<qds:standard_code_list>C91.01</qds:standard_code_list>
+<qds:standard_code_list>C91.10</qds:standard_code_list>
+<qds:standard_code_list>C91.11</qds:standard_code_list>
+<qds:standard_code_list>C91.20</qds:standard_code_list>
+<qds:standard_code_list>C91.21</qds:standard_code_list>
+<qds:standard_code_list>C91.70</qds:standard_code_list>
+<qds:standard_code_list>C91.71</qds:standard_code_list>
+<qds:standard_code_list>C91.90</qds:standard_code_list>
+<qds:standard_code_list>C91.91</qds:standard_code_list>
+<qds:standard_code_list>C92.00</qds:standard_code_list>
+<qds:standard_code_list>C92.01</qds:standard_code_list>
+<qds:standard_code_list>C92.10</qds:standard_code_list>
+<qds:standard_code_list>C92.11</qds:standard_code_list>
+<qds:standard_code_list>C92.20</qds:standard_code_list>
+<qds:standard_code_list>C92.21</qds:standard_code_list>
+<qds:standard_code_list>C92.30</qds:standard_code_list>
+<qds:standard_code_list>C92.31</qds:standard_code_list>
+<qds:standard_code_list>C92.70</qds:standard_code_list>
+<qds:standard_code_list>C92.71</qds:standard_code_list>
+<qds:standard_code_list>C92.90</qds:standard_code_list>
+<qds:standard_code_list>C92.91</qds:standard_code_list>
+<qds:standard_code_list>C93.00</qds:standard_code_list>
+<qds:standard_code_list>C93.01</qds:standard_code_list>
+<qds:standard_code_list>C93.10</qds:standard_code_list>
+<qds:standard_code_list>C93.11</qds:standard_code_list>
+<qds:standard_code_list>C93.20</qds:standard_code_list>
+<qds:standard_code_list>C93.21</qds:standard_code_list>
+<qds:standard_code_list>C93.70</qds:standard_code_list>
+<qds:standard_code_list>C93.71</qds:standard_code_list>
+<qds:standard_code_list>C93.90</qds:standard_code_list>
+<qds:standard_code_list>C93.91</qds:standard_code_list>
+<qds:standard_code_list>C94.00</qds:standard_code_list>
+<qds:standard_code_list>C94.01</qds:standard_code_list>
+<qds:standard_code_list>C94.10</qds:standard_code_list>
+<qds:standard_code_list>C94.11</qds:standard_code_list>
+<qds:standard_code_list>C94.20</qds:standard_code_list>
+<qds:standard_code_list>C94.21</qds:standard_code_list>
+<qds:standard_code_list>C94.70</qds:standard_code_list>
+<qds:standard_code_list>C94.71</qds:standard_code_list>
+<qds:standard_code_list>C95.00</qds:standard_code_list>
+<qds:standard_code_list>C95.01</qds:standard_code_list>
+<qds:standard_code_list>C95.10</qds:standard_code_list>
+<qds:standard_code_list>C95.11</qds:standard_code_list>
+<qds:standard_code_list>C95.20</qds:standard_code_list>
+<qds:standard_code_list>C95.21</qds:standard_code_list>
+<qds:standard_code_list>C95.70</qds:standard_code_list>
+<qds:standard_code_list>C95.71</qds:standard_code_list>
+<qds:standard_code_list>C95.90</qds:standard_code_list>
+<qds:standard_code_list>C95.91</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_582">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_582</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c222</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>203.00</qds:standard_code_list>
+<qds:standard_code_list>203.01</qds:standard_code_list>
+<qds:standard_code_list>203.10</qds:standard_code_list>
+<qds:standard_code_list>203.11</qds:standard_code_list>
+<qds:standard_code_list>203.80</qds:standard_code_list>
+<qds:standard_code_list>203.81</qds:standard_code_list>
+<qds:standard_code_list>204.00</qds:standard_code_list>
+<qds:standard_code_list>204.01</qds:standard_code_list>
+<qds:standard_code_list>204.10</qds:standard_code_list>
+<qds:standard_code_list>204.11</qds:standard_code_list>
+<qds:standard_code_list>204.20</qds:standard_code_list>
+<qds:standard_code_list>204.21</qds:standard_code_list>
+<qds:standard_code_list>204.80</qds:standard_code_list>
+<qds:standard_code_list>204.81</qds:standard_code_list>
+<qds:standard_code_list>204.90</qds:standard_code_list>
+<qds:standard_code_list>204.91</qds:standard_code_list>
+<qds:standard_code_list>205.00</qds:standard_code_list>
+<qds:standard_code_list>205.01</qds:standard_code_list>
+<qds:standard_code_list>205.10</qds:standard_code_list>
+<qds:standard_code_list>205.11</qds:standard_code_list>
+<qds:standard_code_list>205.20</qds:standard_code_list>
+<qds:standard_code_list>205.21</qds:standard_code_list>
+<qds:standard_code_list>205.30</qds:standard_code_list>
+<qds:standard_code_list>205.31</qds:standard_code_list>
+<qds:standard_code_list>205.80</qds:standard_code_list>
+<qds:standard_code_list>205.81</qds:standard_code_list>
+<qds:standard_code_list>205.90</qds:standard_code_list>
+<qds:standard_code_list>205.91</qds:standard_code_list>
+<qds:standard_code_list>206.00</qds:standard_code_list>
+<qds:standard_code_list>206.01</qds:standard_code_list>
+<qds:standard_code_list>206.10</qds:standard_code_list>
+<qds:standard_code_list>206.11</qds:standard_code_list>
+<qds:standard_code_list>206.20</qds:standard_code_list>
+<qds:standard_code_list>206.21</qds:standard_code_list>
+<qds:standard_code_list>206.80</qds:standard_code_list>
+<qds:standard_code_list>206.81</qds:standard_code_list>
+<qds:standard_code_list>206.90</qds:standard_code_list>
+<qds:standard_code_list>206.91</qds:standard_code_list>
+<qds:standard_code_list>207.00</qds:standard_code_list>
+<qds:standard_code_list>207.01</qds:standard_code_list>
+<qds:standard_code_list>207.10</qds:standard_code_list>
+<qds:standard_code_list>207.11</qds:standard_code_list>
+<qds:standard_code_list>207.20</qds:standard_code_list>
+<qds:standard_code_list>207.21</qds:standard_code_list>
+<qds:standard_code_list>207.80</qds:standard_code_list>
+<qds:standard_code_list>207.81</qds:standard_code_list>
+<qds:standard_code_list>208.00</qds:standard_code_list>
+<qds:standard_code_list>208.01</qds:standard_code_list>
+<qds:standard_code_list>208.10</qds:standard_code_list>
+<qds:standard_code_list>208.11</qds:standard_code_list>
+<qds:standard_code_list>208.20</qds:standard_code_list>
+<qds:standard_code_list>208.21</qds:standard_code_list>
+<qds:standard_code_list>208.80</qds:standard_code_list>
+<qds:standard_code_list>208.81</qds:standard_code_list>
+<qds:standard_code_list>208.90</qds:standard_code_list>
+<qds:standard_code_list>208.91</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_583">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_583</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c222</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>203.00</qds:standard_code_list>
+<qds:standard_code_list>203.01</qds:standard_code_list>
+<qds:standard_code_list>203.10</qds:standard_code_list>
+<qds:standard_code_list>203.11</qds:standard_code_list>
+<qds:standard_code_list>203.80</qds:standard_code_list>
+<qds:standard_code_list>203.81</qds:standard_code_list>
+<qds:standard_code_list>204.00</qds:standard_code_list>
+<qds:standard_code_list>204.01</qds:standard_code_list>
+<qds:standard_code_list>204.10</qds:standard_code_list>
+<qds:standard_code_list>204.11</qds:standard_code_list>
+<qds:standard_code_list>204.20</qds:standard_code_list>
+<qds:standard_code_list>204.21</qds:standard_code_list>
+<qds:standard_code_list>204.80</qds:standard_code_list>
+<qds:standard_code_list>204.81</qds:standard_code_list>
+<qds:standard_code_list>204.90</qds:standard_code_list>
+<qds:standard_code_list>204.91</qds:standard_code_list>
+<qds:standard_code_list>205.00</qds:standard_code_list>
+<qds:standard_code_list>205.01</qds:standard_code_list>
+<qds:standard_code_list>205.10</qds:standard_code_list>
+<qds:standard_code_list>205.11</qds:standard_code_list>
+<qds:standard_code_list>205.20</qds:standard_code_list>
+<qds:standard_code_list>205.21</qds:standard_code_list>
+<qds:standard_code_list>205.30</qds:standard_code_list>
+<qds:standard_code_list>205.31</qds:standard_code_list>
+<qds:standard_code_list>205.80</qds:standard_code_list>
+<qds:standard_code_list>205.81</qds:standard_code_list>
+<qds:standard_code_list>205.90</qds:standard_code_list>
+<qds:standard_code_list>205.91</qds:standard_code_list>
+<qds:standard_code_list>206.00</qds:standard_code_list>
+<qds:standard_code_list>206.01</qds:standard_code_list>
+<qds:standard_code_list>206.10</qds:standard_code_list>
+<qds:standard_code_list>206.11</qds:standard_code_list>
+<qds:standard_code_list>206.20</qds:standard_code_list>
+<qds:standard_code_list>206.21</qds:standard_code_list>
+<qds:standard_code_list>206.80</qds:standard_code_list>
+<qds:standard_code_list>206.81</qds:standard_code_list>
+<qds:standard_code_list>206.90</qds:standard_code_list>
+<qds:standard_code_list>206.91</qds:standard_code_list>
+<qds:standard_code_list>207.00</qds:standard_code_list>
+<qds:standard_code_list>207.01</qds:standard_code_list>
+<qds:standard_code_list>207.10</qds:standard_code_list>
+<qds:standard_code_list>207.11</qds:standard_code_list>
+<qds:standard_code_list>207.20</qds:standard_code_list>
+<qds:standard_code_list>207.21</qds:standard_code_list>
+<qds:standard_code_list>207.80</qds:standard_code_list>
+<qds:standard_code_list>207.81</qds:standard_code_list>
+<qds:standard_code_list>208.00</qds:standard_code_list>
+<qds:standard_code_list>208.01</qds:standard_code_list>
+<qds:standard_code_list>208.10</qds:standard_code_list>
+<qds:standard_code_list>208.11</qds:standard_code_list>
+<qds:standard_code_list>208.20</qds:standard_code_list>
+<qds:standard_code_list>208.21</qds:standard_code_list>
+<qds:standard_code_list>208.80</qds:standard_code_list>
+<qds:standard_code_list>208.81</qds:standard_code_list>
+<qds:standard_code_list>208.90</qds:standard_code_list>
+<qds:standard_code_list>208.91</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7008">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7008</qds:QDS_id>
+<qds:standard_concept>Leukemias/Myeloproliferative Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c477</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109991003</qds:standard_code_list>
+<qds:standard_code_list>109992005</qds:standard_code_list>
+<qds:standard_code_list>109993000</qds:standard_code_list>
+<qds:standard_code_list>110002002</qds:standard_code_list>
+<qds:standard_code_list>110004001</qds:standard_code_list>
+<qds:standard_code_list>110005000</qds:standard_code_list>
+<qds:standard_code_list>110006004</qds:standard_code_list>
+<qds:standard_code_list>110007008</qds:standard_code_list>
+<qds:standard_code_list>118613001</qds:standard_code_list>
+<qds:standard_code_list>127035006</qds:standard_code_list>
+<qds:standard_code_list>127066000</qds:standard_code_list>
+<qds:standard_code_list>127225006</qds:standard_code_list>
+<qds:standard_code_list>188645002</qds:standard_code_list>
+<qds:standard_code_list>188649008</qds:standard_code_list>
+<qds:standard_code_list>188651007</qds:standard_code_list>
+<qds:standard_code_list>188725004</qds:standard_code_list>
+<qds:standard_code_list>188726003</qds:standard_code_list>
+<qds:standard_code_list>188728002</qds:standard_code_list>
+<qds:standard_code_list>188729005</qds:standard_code_list>
+<qds:standard_code_list>188732008</qds:standard_code_list>
+<qds:standard_code_list>188733003</qds:standard_code_list>
+<qds:standard_code_list>188734009</qds:standard_code_list>
+<qds:standard_code_list>188736006</qds:standard_code_list>
+<qds:standard_code_list>188737002</qds:standard_code_list>
+<qds:standard_code_list>188738007</qds:standard_code_list>
+<qds:standard_code_list>188741003</qds:standard_code_list>
+<qds:standard_code_list>188744006</qds:standard_code_list>
+<qds:standard_code_list>188745007</qds:standard_code_list>
+<qds:standard_code_list>188746008</qds:standard_code_list>
+<qds:standard_code_list>188748009</qds:standard_code_list>
+<qds:standard_code_list>188754005</qds:standard_code_list>
+<qds:standard_code_list>188768003</qds:standard_code_list>
+<qds:standard_code_list>188770007</qds:standard_code_list>
+<qds:standard_code_list>190030009</qds:standard_code_list>
+<qds:standard_code_list>269475001</qds:standard_code_list>
+<qds:standard_code_list>277473004</qds:standard_code_list>
+<qds:standard_code_list>277474005</qds:standard_code_list>
+<qds:standard_code_list>277545003</qds:standard_code_list>
+<qds:standard_code_list>277549009</qds:standard_code_list>
+<qds:standard_code_list>277550009</qds:standard_code_list>
+<qds:standard_code_list>277551008</qds:standard_code_list>
+<qds:standard_code_list>277567002</qds:standard_code_list>
+<qds:standard_code_list>277568007</qds:standard_code_list>
+<qds:standard_code_list>277569004</qds:standard_code_list>
+<qds:standard_code_list>277570003</qds:standard_code_list>
+<qds:standard_code_list>277571004</qds:standard_code_list>
+<qds:standard_code_list>277572006</qds:standard_code_list>
+<qds:standard_code_list>277573001</qds:standard_code_list>
+<qds:standard_code_list>277574007</qds:standard_code_list>
+<qds:standard_code_list>277575008</qds:standard_code_list>
+<qds:standard_code_list>277589003</qds:standard_code_list>
+<qds:standard_code_list>277601005</qds:standard_code_list>
+<qds:standard_code_list>277602003</qds:standard_code_list>
+<qds:standard_code_list>277604002</qds:standard_code_list>
+<qds:standard_code_list>277619001</qds:standard_code_list>
+<qds:standard_code_list>278189009</qds:standard_code_list>
+<qds:standard_code_list>278453007</qds:standard_code_list>
+<qds:standard_code_list>285769009</qds:standard_code_list>
+<qds:standard_code_list>285839005</qds:standard_code_list>
+<qds:standard_code_list>302855005</qds:standard_code_list>
+<qds:standard_code_list>302856006</qds:standard_code_list>
+<qds:standard_code_list>307341004</qds:standard_code_list>
+<qds:standard_code_list>307592006</qds:standard_code_list>
+<qds:standard_code_list>307617006</qds:standard_code_list>
+<qds:standard_code_list>307651005</qds:standard_code_list>
+<qds:standard_code_list>359631009</qds:standard_code_list>
+<qds:standard_code_list>359640008</qds:standard_code_list>
+<qds:standard_code_list>359648001</qds:standard_code_list>
+<qds:standard_code_list>371012000</qds:standard_code_list>
+<qds:standard_code_list>372087000</qds:standard_code_list>
+<qds:standard_code_list>404122003</qds:standard_code_list>
+<qds:standard_code_list>404124002</qds:standard_code_list>
+<qds:standard_code_list>404139001</qds:standard_code_list>
+<qds:standard_code_list>404151004</qds:standard_code_list>
+<qds:standard_code_list>404152006</qds:standard_code_list>
+<qds:standard_code_list>404153001</qds:standard_code_list>
+<qds:standard_code_list>404154007</qds:standard_code_list>
+<qds:standard_code_list>413389003</qds:standard_code_list>
+<qds:standard_code_list>413441006</qds:standard_code_list>
+<qds:standard_code_list>413442004</qds:standard_code_list>
+<qds:standard_code_list>413656006</qds:standard_code_list>
+<qds:standard_code_list>413842007</qds:standard_code_list>
+<qds:standard_code_list>413843002</qds:standard_code_list>
+<qds:standard_code_list>413847001</qds:standard_code_list>
+<qds:standard_code_list>414026006</qds:standard_code_list>
+<qds:standard_code_list>414824005</qds:standard_code_list>
+<qds:standard_code_list>414825006</qds:standard_code_list>
+<qds:standard_code_list>415287001</qds:standard_code_list>
+<qds:standard_code_list>425333006</qds:standard_code_list>
+<qds:standard_code_list>425688002</qds:standard_code_list>
+<qds:standard_code_list>425749006</qds:standard_code_list>
+<qds:standard_code_list>425869007</qds:standard_code_list>
+<qds:standard_code_list>425941003</qds:standard_code_list>
+<qds:standard_code_list>426124006</qds:standard_code_list>
+<qds:standard_code_list>426217000</qds:standard_code_list>
+<qds:standard_code_list>426370008</qds:standard_code_list>
+<qds:standard_code_list>426642002</qds:standard_code_list>
+<qds:standard_code_list>427056005</qds:standard_code_list>
+<qds:standard_code_list>427642009</qds:standard_code_list>
+<qds:standard_code_list>427658007</qds:standard_code_list>
+<qds:standard_code_list>430338009</qds:standard_code_list>
+<qds:standard_code_list>91854005</qds:standard_code_list>
+<qds:standard_code_list>91855006</qds:standard_code_list>
+<qds:standard_code_list>91856007</qds:standard_code_list>
+<qds:standard_code_list>91857003</qds:standard_code_list>
+<qds:standard_code_list>91858008</qds:standard_code_list>
+<qds:standard_code_list>91860005</qds:standard_code_list>
+<qds:standard_code_list>91861009</qds:standard_code_list>
+<qds:standard_code_list>92811003</qds:standard_code_list>
+<qds:standard_code_list>92812005</qds:standard_code_list>
+<qds:standard_code_list>92813000</qds:standard_code_list>
+<qds:standard_code_list>92814006</qds:standard_code_list>
+<qds:standard_code_list>92817004</qds:standard_code_list>
+<qds:standard_code_list>92818009</qds:standard_code_list>
+<qds:standard_code_list>93142004</qds:standard_code_list>
+<qds:standard_code_list>93143009</qds:standard_code_list>
+<qds:standard_code_list>93144003</qds:standard_code_list>
+<qds:standard_code_list>93145002</qds:standard_code_list>
+<qds:standard_code_list>93146001</qds:standard_code_list>
+<qds:standard_code_list>93147005</qds:standard_code_list>
+<qds:standard_code_list>93148000</qds:standard_code_list>
+<qds:standard_code_list>93149008</qds:standard_code_list>
+<qds:standard_code_list>93150008</qds:standard_code_list>
+<qds:standard_code_list>93151007</qds:standard_code_list>
+<qds:standard_code_list>93152000</qds:standard_code_list>
+<qds:standard_code_list>93169003</qds:standard_code_list>
+<qds:standard_code_list>93450001</qds:standard_code_list>
+<qds:standard_code_list>93451002</qds:standard_code_list>
+<qds:standard_code_list>94148006</qds:standard_code_list>
+<qds:standard_code_list>94716000</qds:standard_code_list>
+<qds:standard_code_list>94718004</qds:standard_code_list>
+<qds:standard_code_list>94719007</qds:standard_code_list>
+<qds:standard_code_list>95209008</qds:standard_code_list>
+<qds:standard_code_list>95210003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1358">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1358</qds:QDS_id>
+<qds:standard_concept>Liver Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c407</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c405</qds:standard_code_list>
+<qds:standard_code_list>A_c406</qds:standard_code_list>
+<qds:standard_code_list>A_c478</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1359">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1359</qds:QDS_id>
+<qds:standard_concept>Liver Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c407</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c405</qds:standard_code_list>
+<qds:standard_code_list>A_c406</qds:standard_code_list>
+<qds:standard_code_list>A_c478</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7070">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7070</qds:QDS_id>
+<qds:standard_concept>Liver Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c406</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>K70.30</qds:standard_code_list>
+<qds:standard_code_list>K70.31</qds:standard_code_list>
+<qds:standard_code_list>K76.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7078">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7078</qds:QDS_id>
+<qds:standard_concept>Liver Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c405</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>570</qds:standard_code_list>
+<qds:standard_code_list>571.2</qds:standard_code_list>
+<qds:standard_code_list>571.5</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_7021">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_7021</qds:QDS_id>
+<qds:standard_concept>Liver Disorders</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c478</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/09</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111370006</qds:standard_code_list>
+<qds:standard_code_list>1761006</qds:standard_code_list>
+<qds:standard_code_list>197269008</qds:standard_code_list>
+<qds:standard_code_list>197270009</qds:standard_code_list>
+<qds:standard_code_list>197274000</qds:standard_code_list>
+<qds:standard_code_list>197275004</qds:standard_code_list>
+<qds:standard_code_list>197279005</qds:standard_code_list>
+<qds:standard_code_list>197291001</qds:standard_code_list>
+<qds:standard_code_list>197293003</qds:standard_code_list>
+<qds:standard_code_list>197294009</qds:standard_code_list>
+<qds:standard_code_list>197296006</qds:standard_code_list>
+<qds:standard_code_list>197299004</qds:standard_code_list>
+<qds:standard_code_list>197300007</qds:standard_code_list>
+<qds:standard_code_list>197301006</qds:standard_code_list>
+<qds:standard_code_list>197303009</qds:standard_code_list>
+<qds:standard_code_list>197304003</qds:standard_code_list>
+<qds:standard_code_list>197305002</qds:standard_code_list>
+<qds:standard_code_list>197316009</qds:standard_code_list>
+<qds:standard_code_list>19943007</qds:standard_code_list>
+<qds:standard_code_list>235880004</qds:standard_code_list>
+<qds:standard_code_list>235881000</qds:standard_code_list>
+<qds:standard_code_list>235895002</qds:standard_code_list>
+<qds:standard_code_list>235896001</qds:standard_code_list>
+<qds:standard_code_list>243978007</qds:standard_code_list>
+<qds:standard_code_list>266468003</qds:standard_code_list>
+<qds:standard_code_list>266470007</qds:standard_code_list>
+<qds:standard_code_list>271440004</qds:standard_code_list>
+<qds:standard_code_list>50325005</qds:standard_code_list>
+<qds:standard_code_list>536002</qds:standard_code_list>
+<qds:standard_code_list>9953008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_332">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_332</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_333">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_333</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1057">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1057</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1058">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1058</qds:QDS_id>
+<qds:standard_concept>Medical reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c313</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>21703</qds:standard_code_list>
+<qds:standard_code_list>21704</qds:standard_code_list>
+<qds:standard_code_list>21738</qds:standard_code_list>
+<qds:standard_code_list>21745</qds:standard_code_list>
+<qds:standard_code_list>21747</qds:standard_code_list>
+<qds:standard_code_list>21815</qds:standard_code_list>
+<qds:standard_code_list>21990</qds:standard_code_list>
+<qds:standard_code_list>22259</qds:standard_code_list>
+<qds:standard_code_list>22261</qds:standard_code_list>
+<qds:standard_code_list>22855</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1059">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1059</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1060">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1060</qds:QDS_id>
+<qds:standard_concept>Patient reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c311</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14880</qds:standard_code_list>
+<qds:standard_code_list>15985</qds:standard_code_list>
+<qds:standard_code_list>19729</qds:standard_code_list>
+<qds:standard_code_list>21708</qds:standard_code_list>
+<qds:standard_code_list>21710</qds:standard_code_list>
+<qds:standard_code_list>21741</qds:standard_code_list>
+<qds:standard_code_list>21743</qds:standard_code_list>
+<qds:standard_code_list>21746</qds:standard_code_list>
+<qds:standard_code_list>22260</qds:standard_code_list>
+<qds:standard_code_list>22851</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1061">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1061</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1062">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_1062</qds:QDS_id>
+<qds:standard_concept>System reason</qds:standard_concept>
+<qds:standard_category>Negation Rationale</qds:standard_category>
+<qds:QDS_data_type>medication not done</qds:QDS_data_type>
+<qds:standard_concept_id>A_c310</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19730 </qds:standard_code_list>
+<qds:standard_code_list>19731</qds:standard_code_list>
+<qds:standard_code_list>19733</qds:standard_code_list>
+<qds:standard_code_list>19734</qds:standard_code_list>
+<qds:standard_code_list>19735</qds:standard_code_list>
+<qds:standard_code_list>19736</qds:standard_code_list>
+<qds:standard_code_list>19987</qds:standard_code_list>
+<qds:standard_code_list>19988</qds:standard_code_list>
+<qds:standard_code_list>19989</qds:standard_code_list>
+<qds:standard_code_list>19990</qds:standard_code_list>
+<qds:standard_code_list>21408</qds:standard_code_list>
+<qds:standard_code_list>21493</qds:standard_code_list>
+<qds:standard_code_list>21568</qds:standard_code_list>
+<qds:standard_code_list>21706</qds:standard_code_list>
+<qds:standard_code_list>21707</qds:standard_code_list>
+<qds:standard_code_list>21709</qds:standard_code_list>
+<qds:standard_code_list>21728</qds:standard_code_list>
+<qds:standard_code_list>21729</qds:standard_code_list>
+<qds:standard_code_list>21730</qds:standard_code_list>
+<qds:standard_code_list>21731</qds:standard_code_list>
+<qds:standard_code_list>21732</qds:standard_code_list>
+<qds:standard_code_list>21733</qds:standard_code_list>
+<qds:standard_code_list>21734</qds:standard_code_list>
+<qds:standard_code_list>21735</qds:standard_code_list>
+<qds:standard_code_list>21744</qds:standard_code_list>
+<qds:standard_code_list>22023</qds:standard_code_list>
+<qds:standard_code_list>22024</qds:standard_code_list>
+<qds:standard_code_list>22165</qds:standard_code_list>
+<qds:standard_code_list>22166</qds:standard_code_list>
+<qds:standard_code_list>22167</qds:standard_code_list>
+<qds:standard_code_list>22168</qds:standard_code_list>
+<qds:standard_code_list>22169</qds:standard_code_list>
+<qds:standard_code_list>22857</qds:standard_code_list>
+<qds:standard_code_list>22858</qds:standard_code_list>
+<qds:standard_code_list>22859</qds:standard_code_list>
+<qds:standard_code_list>22865</qds:standard_code_list>
+<qds:standard_code_list>22866</qds:standard_code_list>
+<qds:standard_code_list>22867</qds:standard_code_list>
+<qds:standard_code_list>22907</qds:standard_code_list>
+<qds:standard_code_list>22909</qds:standard_code_list>
+<qds:standard_code_list>22911</qds:standard_code_list>
+<qds:standard_code_list>22912</qds:standard_code_list>
+<qds:standard_code_list>22913</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_358">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_358</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_359">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_359</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_610">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_610</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_920">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_920</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_921">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_921</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication adverse event</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_922">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_922</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication adverse event</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_923">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_923</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication intolerance</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_924">
+<qds:NQF_id>0084</qds:NQF_id>
+<qds:measure_name>Heart Failure: Warfarin Therapy for Patients with Atrial Fibrillation</qds:measure_name>
+<qds:QDS_id>A_924</qds:QDS_id>
+<qds:standard_concept>Warfarin Therapy</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication intolerance</qds:QDS_data_type>
+<qds:standard_concept_id>A_c135</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>12/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>855288</qds:standard_code_list>
+<qds:standard_code_list>855290</qds:standard_code_list>
+<qds:standard_code_list>855292</qds:standard_code_list>
+<qds:standard_code_list>855296</qds:standard_code_list>
+<qds:standard_code_list>855298</qds:standard_code_list>
+<qds:standard_code_list>855300</qds:standard_code_list>
+<qds:standard_code_list>855302</qds:standard_code_list>
+<qds:standard_code_list>855304</qds:standard_code_list>
+<qds:standard_code_list>855306</qds:standard_code_list>
+<qds:standard_code_list>855310</qds:standard_code_list>
+<qds:standard_code_list>855312</qds:standard_code_list>
+<qds:standard_code_list>855314</qds:standard_code_list>
+<qds:standard_code_list>855316</qds:standard_code_list>
+<qds:standard_code_list>855318</qds:standard_code_list>
+<qds:standard_code_list>855320</qds:standard_code_list>
+<qds:standard_code_list>855322</qds:standard_code_list>
+<qds:standard_code_list>855324</qds:standard_code_list>
+<qds:standard_code_list>855326</qds:standard_code_list>
+<qds:standard_code_list>855328</qds:standard_code_list>
+<qds:standard_code_list>855332</qds:standard_code_list>
+<qds:standard_code_list>855334</qds:standard_code_list>
+<qds:standard_code_list>855336</qds:standard_code_list>
+<qds:standard_code_list>855338</qds:standard_code_list>
+<qds:standard_code_list>855340</qds:standard_code_list>
+<qds:standard_code_list>855342</qds:standard_code_list>
+<qds:standard_code_list>855344</qds:standard_code_list>
+<qds:standard_code_list>855346</qds:standard_code_list>
+<qds:standard_code_list>855348</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

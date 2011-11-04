@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_1425">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1425</qds:QDS_id>
+<qds:standard_concept>acute myocardial infarction</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c460</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c138</qds:standard_code_list>
+<qds:standard_code_list>N_c139</qds:standard_code_list>
+<qds:standard_code_list>N_c191</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_495">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_495</qds:QDS_id>
+<qds:standard_concept>acute myocardial infarction</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c139</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I21.0</qds:standard_code_list>
+<qds:standard_code_list>I21.09</qds:standard_code_list>
+<qds:standard_code_list>I21.11</qds:standard_code_list>
+<qds:standard_code_list>I21.19</qds:standard_code_list>
+<qds:standard_code_list>I21.29</qds:standard_code_list>
+<qds:standard_code_list>I21.3</qds:standard_code_list>
+<qds:standard_code_list>I21.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_496">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_496</qds:QDS_id>
+<qds:standard_concept>acute myocardial infarction</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c138</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>410.01</qds:standard_code_list>
+<qds:standard_code_list>410.11</qds:standard_code_list>
+<qds:standard_code_list>410.21</qds:standard_code_list>
+<qds:standard_code_list>410.31</qds:standard_code_list>
+<qds:standard_code_list>410.41</qds:standard_code_list>
+<qds:standard_code_list>410.51</qds:standard_code_list>
+<qds:standard_code_list>410.61</qds:standard_code_list>
+<qds:standard_code_list>410.71</qds:standard_code_list>
+<qds:standard_code_list>410.81</qds:standard_code_list>
+<qds:standard_code_list>410.91</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_523">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_523</qds:QDS_id>
+<qds:standard_concept>acute myocardial infarction</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c191</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10273003</qds:standard_code_list>
+<qds:standard_code_list>15990001</qds:standard_code_list>
+<qds:standard_code_list>194798004</qds:standard_code_list>
+<qds:standard_code_list>194809007</qds:standard_code_list>
+<qds:standard_code_list>22298006</qds:standard_code_list>
+<qds:standard_code_list>233825009</qds:standard_code_list>
+<qds:standard_code_list>233826005</qds:standard_code_list>
+<qds:standard_code_list>233827001</qds:standard_code_list>
+<qds:standard_code_list>233828006</qds:standard_code_list>
+<qds:standard_code_list>233829003</qds:standard_code_list>
+<qds:standard_code_list>233830008</qds:standard_code_list>
+<qds:standard_code_list>233831007</qds:standard_code_list>
+<qds:standard_code_list>233832000</qds:standard_code_list>
+<qds:standard_code_list>233833005</qds:standard_code_list>
+<qds:standard_code_list>233834004</qds:standard_code_list>
+<qds:standard_code_list>233835003</qds:standard_code_list>
+<qds:standard_code_list>233836002</qds:standard_code_list>
+<qds:standard_code_list>233837006</qds:standard_code_list>
+<qds:standard_code_list>233838001</qds:standard_code_list>
+<qds:standard_code_list>282006</qds:standard_code_list>
+<qds:standard_code_list>30277009</qds:standard_code_list>
+<qds:standard_code_list>304914007</qds:standard_code_list>
+<qds:standard_code_list>307140009</qds:standard_code_list>
+<qds:standard_code_list>401303003</qds:standard_code_list>
+<qds:standard_code_list>401314000</qds:standard_code_list>
+<qds:standard_code_list>52035003</qds:standard_code_list>
+<qds:standard_code_list>54329005</qds:standard_code_list>
+<qds:standard_code_list>57054005</qds:standard_code_list>
+<qds:standard_code_list>58612006</qds:standard_code_list>
+<qds:standard_code_list>59063002</qds:standard_code_list>
+<qds:standard_code_list>62695002</qds:standard_code_list>
+<qds:standard_code_list>64627002</qds:standard_code_list>
+<qds:standard_code_list>65547006</qds:standard_code_list>
+<qds:standard_code_list>70211005</qds:standard_code_list>
+<qds:standard_code_list>70422006</qds:standard_code_list>
+<qds:standard_code_list>70998009</qds:standard_code_list>
+<qds:standard_code_list>73795002</qds:standard_code_list>
+<qds:standard_code_list>76593002</qds:standard_code_list>
+<qds:standard_code_list>79009004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_492">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_492</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>provider characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_497">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_497</qds:QDS_id>
+<qds:standard_concept>CABG</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c140</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>33510</qds:standard_code_list>
+<qds:standard_code_list>33511</qds:standard_code_list>
+<qds:standard_code_list>33512</qds:standard_code_list>
+<qds:standard_code_list>33513</qds:standard_code_list>
+<qds:standard_code_list>33514</qds:standard_code_list>
+<qds:standard_code_list>33516</qds:standard_code_list>
+<qds:standard_code_list>33517</qds:standard_code_list>
+<qds:standard_code_list>33518</qds:standard_code_list>
+<qds:standard_code_list>33519</qds:standard_code_list>
+<qds:standard_code_list>33521</qds:standard_code_list>
+<qds:standard_code_list>33522</qds:standard_code_list>
+<qds:standard_code_list>33523</qds:standard_code_list>
+<qds:standard_code_list>33533</qds:standard_code_list>
+<qds:standard_code_list>33534</qds:standard_code_list>
+<qds:standard_code_list>33535</qds:standard_code_list>
+<qds:standard_code_list>33536</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1426">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1426</qds:QDS_id>
+<qds:standard_concept>CABG</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c461</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c140</qds:standard_code_list>
+<qds:standard_code_list>N_c141</qds:standard_code_list>
+<qds:standard_code_list>N_c142</qds:standard_code_list>
+<qds:standard_code_list>N_c143</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_498">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_498</qds:QDS_id>
+<qds:standard_concept>CABG</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c141</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>S2205</qds:standard_code_list>
+<qds:standard_code_list>S2206</qds:standard_code_list>
+<qds:standard_code_list>S2207</qds:standard_code_list>
+<qds:standard_code_list>S2208</qds:standard_code_list>
+<qds:standard_code_list>S2209</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_500">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_500</qds:QDS_id>
+<qds:standard_concept>CABG</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c142</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>36.1</qds:standard_code_list>
+<qds:standard_code_list>36.10</qds:standard_code_list>
+<qds:standard_code_list>36.11</qds:standard_code_list>
+<qds:standard_code_list>36.12</qds:standard_code_list>
+<qds:standard_code_list>36.13</qds:standard_code_list>
+<qds:standard_code_list>36.14</qds:standard_code_list>
+<qds:standard_code_list>36.15</qds:standard_code_list>
+<qds:standard_code_list>36.16</qds:standard_code_list>
+<qds:standard_code_list>36.17</qds:standard_code_list>
+<qds:standard_code_list>36.19</qds:standard_code_list>
+<qds:standard_code_list>36.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_501">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_501</qds:QDS_id>
+<qds:standard_concept>CABG</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c143</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10326007</qds:standard_code_list>
+<qds:standard_code_list>108220007</qds:standard_code_list>
+<qds:standard_code_list>108221006</qds:standard_code_list>
+<qds:standard_code_list>12843005</qds:standard_code_list>
+<qds:standard_code_list>209099002</qds:standard_code_list>
+<qds:standard_code_list>30346009</qds:standard_code_list>
+<qds:standard_code_list>37894004</qds:standard_code_list>
+<qds:standard_code_list>39202005</qds:standard_code_list>
+<qds:standard_code_list>4525004</qds:standard_code_list>
+<qds:standard_code_list>69399002</qds:standard_code_list>
+<qds:standard_code_list>74371005</qds:standard_code_list>
+<qds:standard_code_list>83362003</qds:standard_code_list>
+<qds:standard_code_list>86181006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_524">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_524</qds:QDS_id>
+<qds:standard_concept>diastolic blood pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>N_c153</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>271649006</qds:standard_code_list>
+<qds:standard_code_list>314438006</qds:standard_code_list>
+<qds:standard_code_list>314439003</qds:standard_code_list>
+<qds:standard_code_list>314440001</qds:standard_code_list>
+<qds:standard_code_list>314441002</qds:standard_code_list>
+<qds:standard_code_list>314442009</qds:standard_code_list>
+<qds:standard_code_list>314443004</qds:standard_code_list>
+<qds:standard_code_list>314444005</qds:standard_code_list>
+<qds:standard_code_list>314445006</qds:standard_code_list>
+<qds:standard_code_list>314446007</qds:standard_code_list>
+<qds:standard_code_list>72313002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_508">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_508</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1805">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1805</qds:QDS_id>
+<qds:standard_concept>Encounter acute inpt and outpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c499</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c26</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_515">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_515</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_516">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_516</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1428">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1428</qds:QDS_id>
+<qds:standard_concept>ischemic vascular disease</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c462</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c131</qds:standard_code_list>
+<qds:standard_code_list>N_c132</qds:standard_code_list>
+<qds:standard_code_list>N_c564</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_506">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_506</qds:QDS_id>
+<qds:standard_concept>ischemic vascular disease</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c132</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I20.0</qds:standard_code_list>
+<qds:standard_code_list>I20.8</qds:standard_code_list>
+<qds:standard_code_list>I24</qds:standard_code_list>
+<qds:standard_code_list>I24.8</qds:standard_code_list>
+<qds:standard_code_list>I25.1</qds:standard_code_list>
+<qds:standard_code_list>I25.70</qds:standard_code_list>
+<qds:standard_code_list>I25.72</qds:standard_code_list>
+<qds:standard_code_list>I25.720</qds:standard_code_list>
+<qds:standard_code_list>I25.73</qds:standard_code_list>
+<qds:standard_code_list>I25.75</qds:standard_code_list>
+<qds:standard_code_list>I25.82</qds:standard_code_list>
+<qds:standard_code_list>I25.89</qds:standard_code_list>
+<qds:standard_code_list>I25.9</qds:standard_code_list>
+<qds:standard_code_list>I65</qds:standard_code_list>
+<qds:standard_code_list>I65.0</qds:standard_code_list>
+<qds:standard_code_list>I65.1</qds:standard_code_list>
+<qds:standard_code_list>I65.2</qds:standard_code_list>
+<qds:standard_code_list>I65.8</qds:standard_code_list>
+<qds:standard_code_list>I65.9</qds:standard_code_list>
+<qds:standard_code_list>I66</qds:standard_code_list>
+<qds:standard_code_list>I66.9</qds:standard_code_list>
+<qds:standard_code_list>I70.1</qds:standard_code_list>
+<qds:standard_code_list>I70.21</qds:standard_code_list>
+<qds:standard_code_list>I70.22</qds:standard_code_list>
+<qds:standard_code_list>I70.23</qds:standard_code_list>
+<qds:standard_code_list>I70.26</qds:standard_code_list>
+<qds:standard_code_list>I70.29</qds:standard_code_list>
+<qds:standard_code_list>I70.92</qds:standard_code_list>
+<qds:standard_code_list>I74</qds:standard_code_list>
+<qds:standard_code_list>I74.</qds:standard_code_list>
+<qds:standard_code_list>I74.11</qds:standard_code_list>
+<qds:standard_code_list>I74.2</qds:standard_code_list>
+<qds:standard_code_list>I74.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_507">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_507</qds:QDS_id>
+<qds:standard_concept>ischemic vascular disease</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c131</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>434.00</qds:standard_code_list>
+<qds:standard_code_list>411.0</qds:standard_code_list>
+<qds:standard_code_list>411.1</qds:standard_code_list>
+<qds:standard_code_list>411.81</qds:standard_code_list>
+<qds:standard_code_list>411.89</qds:standard_code_list>
+<qds:standard_code_list>413.0</qds:standard_code_list>
+<qds:standard_code_list>413.1</qds:standard_code_list>
+<qds:standard_code_list>413.9</qds:standard_code_list>
+<qds:standard_code_list>414.00</qds:standard_code_list>
+<qds:standard_code_list>414.01</qds:standard_code_list>
+<qds:standard_code_list>414.02</qds:standard_code_list>
+<qds:standard_code_list>414.03</qds:standard_code_list>
+<qds:standard_code_list>414.04</qds:standard_code_list>
+<qds:standard_code_list>414.05</qds:standard_code_list>
+<qds:standard_code_list>414.06</qds:standard_code_list>
+<qds:standard_code_list>414.07</qds:standard_code_list>
+<qds:standard_code_list>414.2</qds:standard_code_list>
+<qds:standard_code_list>414.8</qds:standard_code_list>
+<qds:standard_code_list>414.9</qds:standard_code_list>
+<qds:standard_code_list>429.2</qds:standard_code_list>
+<qds:standard_code_list>433.0</qds:standard_code_list>
+<qds:standard_code_list>433.01</qds:standard_code_list>
+<qds:standard_code_list>433.10</qds:standard_code_list>
+<qds:standard_code_list>433.11</qds:standard_code_list>
+<qds:standard_code_list>433.20</qds:standard_code_list>
+<qds:standard_code_list>433.21</qds:standard_code_list>
+<qds:standard_code_list>433.30</qds:standard_code_list>
+<qds:standard_code_list>433.31</qds:standard_code_list>
+<qds:standard_code_list>433.80</qds:standard_code_list>
+<qds:standard_code_list>433.81</qds:standard_code_list>
+<qds:standard_code_list>433.90</qds:standard_code_list>
+<qds:standard_code_list>433.91</qds:standard_code_list>
+<qds:standard_code_list>434.01</qds:standard_code_list>
+<qds:standard_code_list>434.10</qds:standard_code_list>
+<qds:standard_code_list>434.11</qds:standard_code_list>
+<qds:standard_code_list>434.90</qds:standard_code_list>
+<qds:standard_code_list>434.91</qds:standard_code_list>
+<qds:standard_code_list>440.1</qds:standard_code_list>
+<qds:standard_code_list>440.20</qds:standard_code_list>
+<qds:standard_code_list>440.21</qds:standard_code_list>
+<qds:standard_code_list>440.22</qds:standard_code_list>
+<qds:standard_code_list>440.23</qds:standard_code_list>
+<qds:standard_code_list>440.24</qds:standard_code_list>
+<qds:standard_code_list>440.29</qds:standard_code_list>
+<qds:standard_code_list>440.4</qds:standard_code_list>
+<qds:standard_code_list>444.0</qds:standard_code_list>
+<qds:standard_code_list>444.1</qds:standard_code_list>
+<qds:standard_code_list>444.21</qds:standard_code_list>
+<qds:standard_code_list>444.22</qds:standard_code_list>
+<qds:standard_code_list>444.81</qds:standard_code_list>
+<qds:standard_code_list>444.89</qds:standard_code_list>
+<qds:standard_code_list>444.9</qds:standard_code_list>
+<qds:standard_code_list>445.01</qds:standard_code_list>
+<qds:standard_code_list>445.02</qds:standard_code_list>
+<qds:standard_code_list>445.8</qds:standard_code_list>
+<qds:standard_code_list>445.81</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_7005">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_7005</qds:QDS_id>
+<qds:standard_concept>ischemic vascular disease</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c564</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111298007</qds:standard_code_list>
+<qds:standard_code_list>195200006</qds:standard_code_list>
+<qds:standard_code_list>195206000</qds:standard_code_list>
+<qds:standard_code_list>206576006</qds:standard_code_list>
+<qds:standard_code_list>230716006</qds:standard_code_list>
+<qds:standard_code_list>230717002</qds:standard_code_list>
+<qds:standard_code_list>23202007</qds:standard_code_list>
+<qds:standard_code_list>233958001</qds:standard_code_list>
+<qds:standard_code_list>233959009</qds:standard_code_list>
+<qds:standard_code_list>233960004</qds:standard_code_list>
+<qds:standard_code_list>233961000</qds:standard_code_list>
+<qds:standard_code_list>233962007</qds:standard_code_list>
+<qds:standard_code_list>236120009</qds:standard_code_list>
+<qds:standard_code_list>249658006</qds:standard_code_list>
+<qds:standard_code_list>276706004</qds:standard_code_list>
+<qds:standard_code_list>287731003</qds:standard_code_list>
+<qds:standard_code_list>300917007</qds:standard_code_list>
+<qds:standard_code_list>301755001</qds:standard_code_list>
+<qds:standard_code_list>307406004</qds:standard_code_list>
+<qds:standard_code_list>307407008</qds:standard_code_list>
+<qds:standard_code_list>307408003</qds:standard_code_list>
+<qds:standard_code_list>307409006</qds:standard_code_list>
+<qds:standard_code_list>312822006</qds:standard_code_list>
+<qds:standard_code_list>312916003</qds:standard_code_list>
+<qds:standard_code_list>371029002</qds:standard_code_list>
+<qds:standard_code_list>402861007</qds:standard_code_list>
+<qds:standard_code_list>413552002</qds:standard_code_list>
+<qds:standard_code_list>419944002</qds:standard_code_list>
+<qds:standard_code_list>432249006</qds:standard_code_list>
+<qds:standard_code_list>52674009</qds:standard_code_list>
+<qds:standard_code_list>57357009</qds:standard_code_list>
+<qds:standard_code_list>63081009</qds:standard_code_list>
+<qds:standard_code_list>64009001</qds:standard_code_list>
+<qds:standard_code_list>80829003</qds:standard_code_list>
+<qds:standard_code_list>83256006</qds:standard_code_list>
+<qds:standard_code_list>88032003</qds:standard_code_list>
+<qds:standard_code_list>95456009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_493">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_493</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_494">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_494</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_502">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_502</qds:QDS_id>
+<qds:standard_concept>PTCA</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c145</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>33140</qds:standard_code_list>
+<qds:standard_code_list>92980</qds:standard_code_list>
+<qds:standard_code_list>92982</qds:standard_code_list>
+<qds:standard_code_list>92995</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1429">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1429</qds:QDS_id>
+<qds:standard_concept>PTCA</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c464</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c145</qds:standard_code_list>
+<qds:standard_code_list>N_c146</qds:standard_code_list>
+<qds:standard_code_list>N_c147</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_504">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_504</qds:QDS_id>
+<qds:standard_concept>PTCA</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c146</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00.66</qds:standard_code_list>
+<qds:standard_code_list>36.06</qds:standard_code_list>
+<qds:standard_code_list>36.07</qds:standard_code_list>
+<qds:standard_code_list>36.09</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_505">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_505</qds:QDS_id>
+<qds:standard_concept>PTCA</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c147</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10326007</qds:standard_code_list>
+<qds:standard_code_list>11101003</qds:standard_code_list>
+<qds:standard_code_list>119564002</qds:standard_code_list>
+<qds:standard_code_list>119565001</qds:standard_code_list>
+<qds:standard_code_list>175007008</qds:standard_code_list>
+<qds:standard_code_list>175008003</qds:standard_code_list>
+<qds:standard_code_list>175009006</qds:standard_code_list>
+<qds:standard_code_list>175011002</qds:standard_code_list>
+<qds:standard_code_list>175012009</qds:standard_code_list>
+<qds:standard_code_list>175017003</qds:standard_code_list>
+<qds:standard_code_list>175021005</qds:standard_code_list>
+<qds:standard_code_list>175022003</qds:standard_code_list>
+<qds:standard_code_list>175024002</qds:standard_code_list>
+<qds:standard_code_list>175025001</qds:standard_code_list>
+<qds:standard_code_list>175026000</qds:standard_code_list>
+<qds:standard_code_list>175027009</qds:standard_code_list>
+<qds:standard_code_list>175029007</qds:standard_code_list>
+<qds:standard_code_list>175030002</qds:standard_code_list>
+<qds:standard_code_list>175031003</qds:standard_code_list>
+<qds:standard_code_list>175032005</qds:standard_code_list>
+<qds:standard_code_list>175033000</qds:standard_code_list>
+<qds:standard_code_list>175034006</qds:standard_code_list>
+<qds:standard_code_list>175036008</qds:standard_code_list>
+<qds:standard_code_list>175037004</qds:standard_code_list>
+<qds:standard_code_list>175038009</qds:standard_code_list>
+<qds:standard_code_list>175039001</qds:standard_code_list>
+<qds:standard_code_list>175040004</qds:standard_code_list>
+<qds:standard_code_list>175041000</qds:standard_code_list>
+<qds:standard_code_list>175043002</qds:standard_code_list>
+<qds:standard_code_list>175045009</qds:standard_code_list>
+<qds:standard_code_list>175047001</qds:standard_code_list>
+<qds:standard_code_list>175048006</qds:standard_code_list>
+<qds:standard_code_list>175050003</qds:standard_code_list>
+<qds:standard_code_list>175051004</qds:standard_code_list>
+<qds:standard_code_list>175053001</qds:standard_code_list>
+<qds:standard_code_list>175058005</qds:standard_code_list>
+<qds:standard_code_list>175066001</qds:standard_code_list>
+<qds:standard_code_list>232717009</qds:standard_code_list>
+<qds:standard_code_list>232719007</qds:standard_code_list>
+<qds:standard_code_list>232720001</qds:standard_code_list>
+<qds:standard_code_list>232721002</qds:standard_code_list>
+<qds:standard_code_list>232722009</qds:standard_code_list>
+<qds:standard_code_list>232723004</qds:standard_code_list>
+<qds:standard_code_list>232724005</qds:standard_code_list>
+<qds:standard_code_list>265481001</qds:standard_code_list>
+<qds:standard_code_list>275215001</qds:standard_code_list>
+<qds:standard_code_list>275216000</qds:standard_code_list>
+<qds:standard_code_list>275252001</qds:standard_code_list>
+<qds:standard_code_list>275253006</qds:standard_code_list>
+<qds:standard_code_list>30670000</qds:standard_code_list>
+<qds:standard_code_list>309814006</qds:standard_code_list>
+<qds:standard_code_list>3546002</qds:standard_code_list>
+<qds:standard_code_list>359597003</qds:standard_code_list>
+<qds:standard_code_list>359601003</qds:standard_code_list>
+<qds:standard_code_list>39202005</qds:standard_code_list>
+<qds:standard_code_list>397193006</qds:standard_code_list>
+<qds:standard_code_list>39724006</qds:standard_code_list>
+<qds:standard_code_list>397431004</qds:standard_code_list>
+<qds:standard_code_list>414088005</qds:standard_code_list>
+<qds:standard_code_list>48431000</qds:standard_code_list>
+<qds:standard_code_list>74371005</qds:standard_code_list>
+<qds:standard_code_list>75761004</qds:standard_code_list>
+<qds:standard_code_list>80762004</qds:standard_code_list>
+<qds:standard_code_list>82247006</qds:standard_code_list>
+<qds:standard_code_list>85053006</qds:standard_code_list>
+<qds:standard_code_list>91338001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1164">
+<qds:NQF_id>0073</qds:NQF_id>
+<qds:measure_name>Ischemic Vascular Disease (IVD): Blood Pressure Management</qds:measure_name>
+<qds:QDS_id>N_1164</qds:QDS_id>
+<qds:standard_concept>systolic blood pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>N_c394</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12929001</qds:standard_code_list>
+<qds:standard_code_list>163030003</qds:standard_code_list>
+<qds:standard_code_list>251070002</qds:standard_code_list>
+<qds:standard_code_list>251071003</qds:standard_code_list>
+<qds:standard_code_list>271649006</qds:standard_code_list>
+<qds:standard_code_list>314438006</qds:standard_code_list>
+<qds:standard_code_list>314439003</qds:standard_code_list>
+<qds:standard_code_list>314440001</qds:standard_code_list>
+<qds:standard_code_list>314441002</qds:standard_code_list>
+<qds:standard_code_list>314442009</qds:standard_code_list>
+<qds:standard_code_list>314443004</qds:standard_code_list>
+<qds:standard_code_list>314444005</qds:standard_code_list>
+<qds:standard_code_list>314445006</qds:standard_code_list>
+<qds:standard_code_list>314446007</qds:standard_code_list>
+<qds:standard_code_list>314447003</qds:standard_code_list>
+<qds:standard_code_list>314448008</qds:standard_code_list>
+<qds:standard_code_list>314449000</qds:standard_code_list>
+<qds:standard_code_list>314464000</qds:standard_code_list>
+<qds:standard_code_list>315612005</qds:standard_code_list>
+<qds:standard_code_list>399304008</qds:standard_code_list>
+<qds:standard_code_list>400974009</qds:standard_code_list>
+<qds:standard_code_list>407554009</qds:standard_code_list>
+<qds:standard_code_list>407556006</qds:standard_code_list>
+<qds:standard_code_list>72313002</qds:standard_code_list>
+<qds:standard_code_list>81010002</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

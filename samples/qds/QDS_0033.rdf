@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_592">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_592</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_694">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_694</qds:QDS_id>
+<qds:standard_concept>chlamydia screening</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c218</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>86631</qds:standard_code_list>
+<qds:standard_code_list>86632</qds:standard_code_list>
+<qds:standard_code_list>87110</qds:standard_code_list>
+<qds:standard_code_list>87270</qds:standard_code_list>
+<qds:standard_code_list>87320</qds:standard_code_list>
+<qds:standard_code_list>87490</qds:standard_code_list>
+<qds:standard_code_list>87491</qds:standard_code_list>
+<qds:standard_code_list>87492</qds:standard_code_list>
+<qds:standard_code_list>87810</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_696">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_696</qds:QDS_id>
+<qds:standard_concept>chlamydia screening</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c220</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104281002</qds:standard_code_list>
+<qds:standard_code_list>104282009</qds:standard_code_list>
+<qds:standard_code_list>117775008</qds:standard_code_list>
+<qds:standard_code_list>121258006</qds:standard_code_list>
+<qds:standard_code_list>121953005</qds:standard_code_list>
+<qds:standard_code_list>121954004</qds:standard_code_list>
+<qds:standard_code_list>121955003</qds:standard_code_list>
+<qds:standard_code_list>121956002</qds:standard_code_list>
+<qds:standard_code_list>121957006</qds:standard_code_list>
+<qds:standard_code_list>121958001</qds:standard_code_list>
+<qds:standard_code_list>121959009</qds:standard_code_list>
+<qds:standard_code_list>122172008</qds:standard_code_list>
+<qds:standard_code_list>122173003</qds:standard_code_list>
+<qds:standard_code_list>122254005</qds:standard_code_list>
+<qds:standard_code_list>122322003</qds:standard_code_list>
+<qds:standard_code_list>134254001</qds:standard_code_list>
+<qds:standard_code_list>134255000</qds:standard_code_list>
+<qds:standard_code_list>134256004</qds:standard_code_list>
+<qds:standard_code_list>1484819014</qds:standard_code_list>
+<qds:standard_code_list>1484820015</qds:standard_code_list>
+<qds:standard_code_list>1488887010</qds:standard_code_list>
+<qds:standard_code_list>1488888017</qds:standard_code_list>
+<qds:standard_code_list>148888901</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1828">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1828</qds:QDS_id>
+<qds:standard_concept>chlamydia screening</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c486</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c219</qds:standard_code_list>
+<qds:standard_code_list>c220</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_695">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_695</qds:QDS_id>
+<qds:standard_concept>chlamydia screening</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c219</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>14463-4</qds:standard_code_list>
+<qds:standard_code_list>14464-2</qds:standard_code_list>
+<qds:standard_code_list>14467-5</qds:standard_code_list>
+<qds:standard_code_list>14470-9</qds:standard_code_list>
+<qds:standard_code_list>14471-7</qds:standard_code_list>
+<qds:standard_code_list>14474-1</qds:standard_code_list>
+<qds:standard_code_list>14509-4</qds:standard_code_list>
+<qds:standard_code_list>14510-2</qds:standard_code_list>
+<qds:standard_code_list>14513-6</qds:standard_code_list>
+<qds:standard_code_list>16600-9</qds:standard_code_list>
+<qds:standard_code_list>16601-7</qds:standard_code_list>
+<qds:standard_code_list>21189-6</qds:standard_code_list>
+<qds:standard_code_list>21190-4</qds:standard_code_list>
+<qds:standard_code_list>21191-2</qds:standard_code_list>
+<qds:standard_code_list>21192-0</qds:standard_code_list>
+<qds:standard_code_list>21613-5</qds:standard_code_list>
+<qds:standard_code_list>23838-6</qds:standard_code_list>
+<qds:standard_code_list>31771-9</qds:standard_code_list>
+<qds:standard_code_list>31772-7</qds:standard_code_list>
+<qds:standard_code_list>31775-0</qds:standard_code_list>
+<qds:standard_code_list>31777-6</qds:standard_code_list>
+<qds:standard_code_list>4993-2</qds:standard_code_list>
+<qds:standard_code_list>50387-0</qds:standard_code_list>
+<qds:standard_code_list>53925-4</qds:standard_code_list>
+<qds:standard_code_list>53926-2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1694">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1694</qds:QDS_id>
+<qds:standard_concept>contraceptive use education</qds:standard_concept>
+<qds:standard_category>Communication</qds:standard_category>
+<qds:QDS_data_type>communication to patient</qds:QDS_data_type>
+<qds:standard_concept_id>N_c528</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>16311004</qds:standard_code_list>
+<qds:standard_code_list>398780007</qds:standard_code_list>
+<qds:standard_code_list>40176008</qds:standard_code_list>
+<qds:standard_code_list>44651004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2122">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_2122</qds:QDS_id>
+<qds:standard_concept>contraceptives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c206</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>153371</qds:standard_code_list>
+<qds:standard_code_list>197679</qds:standard_code_list>
+<qds:standard_code_list>197680</qds:standard_code_list>
+<qds:standard_code_list>198043</qds:standard_code_list>
+<qds:standard_code_list>204407</qds:standard_code_list>
+<qds:standard_code_list>238015</qds:standard_code_list>
+<qds:standard_code_list>238019</qds:standard_code_list>
+<qds:standard_code_list>238020</qds:standard_code_list>
+<qds:standard_code_list>240128</qds:standard_code_list>
+<qds:standard_code_list>240707</qds:standard_code_list>
+<qds:standard_code_list>242297</qds:standard_code_list>
+<qds:standard_code_list>246521</qds:standard_code_list>
+<qds:standard_code_list>246640</qds:standard_code_list>
+<qds:standard_code_list>248310</qds:standard_code_list>
+<qds:standard_code_list>249357</qds:standard_code_list>
+<qds:standard_code_list>250505</qds:standard_code_list>
+<qds:standard_code_list>250506</qds:standard_code_list>
+<qds:standard_code_list>250893</qds:standard_code_list>
+<qds:standard_code_list>259166</qds:standard_code_list>
+<qds:standard_code_list>284207</qds:standard_code_list>
+<qds:standard_code_list>310226</qds:standard_code_list>
+<qds:standard_code_list>310227</qds:standard_code_list>
+<qds:standard_code_list>310228</qds:standard_code_list>
+<qds:standard_code_list>310230</qds:standard_code_list>
+<qds:standard_code_list>310234</qds:standard_code_list>
+<qds:standard_code_list>310463</qds:standard_code_list>
+<qds:standard_code_list>311359</qds:standard_code_list>
+<qds:standard_code_list>311556</qds:standard_code_list>
+<qds:standard_code_list>311557</qds:standard_code_list>
+<qds:standard_code_list>311558</qds:standard_code_list>
+<qds:standard_code_list>312033</qds:standard_code_list>
+<qds:standard_code_list>312124</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2123">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_2123</qds:QDS_id>
+<qds:standard_concept>contraceptives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c206</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>153371</qds:standard_code_list>
+<qds:standard_code_list>197679</qds:standard_code_list>
+<qds:standard_code_list>197680</qds:standard_code_list>
+<qds:standard_code_list>198043</qds:standard_code_list>
+<qds:standard_code_list>204407</qds:standard_code_list>
+<qds:standard_code_list>238015</qds:standard_code_list>
+<qds:standard_code_list>238019</qds:standard_code_list>
+<qds:standard_code_list>238020</qds:standard_code_list>
+<qds:standard_code_list>240128</qds:standard_code_list>
+<qds:standard_code_list>240707</qds:standard_code_list>
+<qds:standard_code_list>242297</qds:standard_code_list>
+<qds:standard_code_list>246521</qds:standard_code_list>
+<qds:standard_code_list>246640</qds:standard_code_list>
+<qds:standard_code_list>248310</qds:standard_code_list>
+<qds:standard_code_list>249357</qds:standard_code_list>
+<qds:standard_code_list>250505</qds:standard_code_list>
+<qds:standard_code_list>250506</qds:standard_code_list>
+<qds:standard_code_list>250893</qds:standard_code_list>
+<qds:standard_code_list>259166</qds:standard_code_list>
+<qds:standard_code_list>284207</qds:standard_code_list>
+<qds:standard_code_list>310226</qds:standard_code_list>
+<qds:standard_code_list>310227</qds:standard_code_list>
+<qds:standard_code_list>310228</qds:standard_code_list>
+<qds:standard_code_list>310230</qds:standard_code_list>
+<qds:standard_code_list>310234</qds:standard_code_list>
+<qds:standard_code_list>310463</qds:standard_code_list>
+<qds:standard_code_list>311359</qds:standard_code_list>
+<qds:standard_code_list>311556</qds:standard_code_list>
+<qds:standard_code_list>311557</qds:standard_code_list>
+<qds:standard_code_list>311558</qds:standard_code_list>
+<qds:standard_code_list>312033</qds:standard_code_list>
+<qds:standard_code_list>312124</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_693">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_693</qds:QDS_id>
+<qds:standard_concept>contraceptives</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c206</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>153371</qds:standard_code_list>
+<qds:standard_code_list>197679</qds:standard_code_list>
+<qds:standard_code_list>197680</qds:standard_code_list>
+<qds:standard_code_list>198043</qds:standard_code_list>
+<qds:standard_code_list>204407</qds:standard_code_list>
+<qds:standard_code_list>238015</qds:standard_code_list>
+<qds:standard_code_list>238019</qds:standard_code_list>
+<qds:standard_code_list>238020</qds:standard_code_list>
+<qds:standard_code_list>240128</qds:standard_code_list>
+<qds:standard_code_list>240707</qds:standard_code_list>
+<qds:standard_code_list>242297</qds:standard_code_list>
+<qds:standard_code_list>246521</qds:standard_code_list>
+<qds:standard_code_list>246640</qds:standard_code_list>
+<qds:standard_code_list>248310</qds:standard_code_list>
+<qds:standard_code_list>249357</qds:standard_code_list>
+<qds:standard_code_list>250505</qds:standard_code_list>
+<qds:standard_code_list>250506</qds:standard_code_list>
+<qds:standard_code_list>250893</qds:standard_code_list>
+<qds:standard_code_list>259166</qds:standard_code_list>
+<qds:standard_code_list>284207</qds:standard_code_list>
+<qds:standard_code_list>310226</qds:standard_code_list>
+<qds:standard_code_list>310227</qds:standard_code_list>
+<qds:standard_code_list>310228</qds:standard_code_list>
+<qds:standard_code_list>310230</qds:standard_code_list>
+<qds:standard_code_list>310234</qds:standard_code_list>
+<qds:standard_code_list>310463</qds:standard_code_list>
+<qds:standard_code_list>311359</qds:standard_code_list>
+<qds:standard_code_list>311556</qds:standard_code_list>
+<qds:standard_code_list>311557</qds:standard_code_list>
+<qds:standard_code_list>311558</qds:standard_code_list>
+<qds:standard_code_list>312033</qds:standard_code_list>
+<qds:standard_code_list>312124</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1825">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1825</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c552</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c159</qds:standard_code_list>
+<qds:standard_code_list>c27</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_685">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_685</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>9940</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_686">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_686</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1813">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1813</qds:QDS_id>
+<qds:standard_concept>Encounter pregnancy</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c543</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V24</qds:standard_code_list>
+<qds:standard_code_list>V24.0</qds:standard_code_list>
+<qds:standard_code_list>V24.2</qds:standard_code_list>
+<qds:standard_code_list>V25</qds:standard_code_list>
+<qds:standard_code_list>V25.01</qds:standard_code_list>
+<qds:standard_code_list>V25.02</qds:standard_code_list>
+<qds:standard_code_list>V25.03</qds:standard_code_list>
+<qds:standard_code_list>V25.09</qds:standard_code_list>
+<qds:standard_code_list>V26.81</qds:standard_code_list>
+<qds:standard_code_list>V28</qds:standard_code_list>
+<qds:standard_code_list>V28.3</qds:standard_code_list>
+<qds:standard_code_list>V28.81</qds:standard_code_list>
+<qds:standard_code_list>V28.82</qds:standard_code_list>
+<qds:standard_code_list>V72.4</qds:standard_code_list>
+<qds:standard_code_list>V72.40</qds:standard_code_list>
+<qds:standard_code_list>V72.41</qds:standard_code_list>
+<qds:standard_code_list>V72.42</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_803">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_803</qds:QDS_id>
+<qds:standard_concept>IUD use</qds:standard_concept>
+<qds:standard_category>Device</qds:standard_category>
+<qds:QDS_data_type>device applied</qds:QDS_data_type>
+<qds:standard_concept_id>N_c312</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>169477005</qds:standard_code_list>
+<qds:standard_code_list>169479008</qds:standard_code_list>
+<qds:standard_code_list>169480006</qds:standard_code_list>
+<qds:standard_code_list>169481005</qds:standard_code_list>
+<qds:standard_code_list>169482003</qds:standard_code_list>
+<qds:standard_code_list>169483008</qds:standard_code_list>
+<qds:standard_code_list>169484002</qds:standard_code_list>
+<qds:standard_code_list>169485001</qds:standard_code_list>
+<qds:standard_code_list>169486000</qds:standard_code_list>
+<qds:standard_code_list>169487009</qds:standard_code_list>
+<qds:standard_code_list>169488004</qds:standard_code_list>
+<qds:standard_code_list>169489007</qds:standard_code_list>
+<qds:standard_code_list>169490003</qds:standard_code_list>
+<qds:standard_code_list>169491004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1693">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1693</qds:QDS_id>
+<qds:standard_concept>IUD use</qds:standard_concept>
+<qds:standard_category>Device</qds:standard_category>
+<qds:QDS_data_type>device allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c312</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>169477005</qds:standard_code_list>
+<qds:standard_code_list>169479008</qds:standard_code_list>
+<qds:standard_code_list>169480006</qds:standard_code_list>
+<qds:standard_code_list>169481005</qds:standard_code_list>
+<qds:standard_code_list>169482003</qds:standard_code_list>
+<qds:standard_code_list>169483008</qds:standard_code_list>
+<qds:standard_code_list>169484002</qds:standard_code_list>
+<qds:standard_code_list>169485001</qds:standard_code_list>
+<qds:standard_code_list>169486000</qds:standard_code_list>
+<qds:standard_code_list>169487009</qds:standard_code_list>
+<qds:standard_code_list>169488004</qds:standard_code_list>
+<qds:standard_code_list>169489007</qds:standard_code_list>
+<qds:standard_code_list>169490003</qds:standard_code_list>
+<qds:standard_code_list>169491004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_691">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_691</qds:QDS_id>
+<qds:standard_concept>Laboratory tests indicative of sexually active woman</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c210</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10705-2</qds:standard_code_list>
+<qds:standard_code_list>11083-3</qds:standard_code_list>
+<qds:standard_code_list>11084-1</qds:standard_code_list>
+<qds:standard_code_list>11481-9</qds:standard_code_list>
+<qds:standard_code_list>11597-2</qds:standard_code_list>
+<qds:standard_code_list>12222-6</qds:standard_code_list>
+<qds:standard_code_list>12223-4</qds:standard_code_list>
+<qds:standard_code_list>14499-8</qds:standard_code_list>
+<qds:standard_code_list>14500-3</qds:standard_code_list>
+<qds:standard_code_list>14502-9</qds:standard_code_list>
+<qds:standard_code_list>14503-7</qds:standard_code_list>
+<qds:standard_code_list>14504-5</qds:standard_code_list>
+<qds:standard_code_list>14506-0</qds:standard_code_list>
+<qds:standard_code_list>15019-3</qds:standard_code_list>
+<qds:standard_code_list>16280-0</qds:standard_code_list>
+<qds:standard_code_list>17398-9</qds:standard_code_list>
+<qds:standard_code_list>17399-7</qds:standard_code_list>
+<qds:standard_code_list>17400-3</qds:standard_code_list>
+<qds:standard_code_list>17401-1</qds:standard_code_list>
+<qds:standard_code_list>17402-9</qds:standard_code_list>
+<qds:standard_code_list>17403-7</qds:standard_code_list>
+<qds:standard_code_list>17404-5</qds:standard_code_list>
+<qds:standard_code_list>17405-2</qds:standard_code_list>
+<qds:standard_code_list>17406-0</qds:standard_code_list>
+<qds:standard_code_list>17407-8</qds:standard_code_list>
+<qds:standard_code_list>17408-6</qds:standard_code_list>
+<qds:standard_code_list>17409-4</qds:standard_code_list>
+<qds:standard_code_list>17410-2</qds:standard_code_list>
+<qds:standard_code_list>174</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1619">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1619</qds:QDS_id>
+<qds:standard_concept>Laboratory tests indicative of sexually active women</qds:standard_concept>
+<qds:standard_category>Laboratory Test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c518</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>86592</qds:standard_code_list>
+<qds:standard_code_list>86593</qds:standard_code_list>
+<qds:standard_code_list>87164</qds:standard_code_list>
+<qds:standard_code_list>87166</qds:standard_code_list>
+<qds:standard_code_list>87590</qds:standard_code_list>
+<qds:standard_code_list>87591</qds:standard_code_list>
+<qds:standard_code_list>87592</qds:standard_code_list>
+<qds:standard_code_list>87620</qds:standard_code_list>
+<qds:standard_code_list>87621</qds:standard_code_list>
+<qds:standard_code_list>87622</qds:standard_code_list>
+<qds:standard_code_list>87660</qds:standard_code_list>
+<qds:standard_code_list>87800</qds:standard_code_list>
+<qds:standard_code_list>87801</qds:standard_code_list>
+<qds:standard_code_list>87808</qds:standard_code_list>
+<qds:standard_code_list>87850</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1688">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1688</qds:QDS_id>
+<qds:standard_concept>Laboratory tests indicative of sexually active women</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c525</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c210</qds:standard_code_list>
+<qds:standard_code_list>c518</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_591">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_591</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1493">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1493</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_697">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_697</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c212</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>81025</qds:standard_code_list>
+<qds:standard_code_list>84702</qds:standard_code_list>
+<qds:standard_code_list>84703</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1879">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1879</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c214</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19080-1</qds:standard_code_list>
+<qds:standard_code_list>19180-9</qds:standard_code_list>
+<qds:standard_code_list>20415-6</qds:standard_code_list>
+<qds:standard_code_list>20994-0</qds:standard_code_list>
+<qds:standard_code_list>2106-3</qds:standard_code_list>
+<qds:standard_code_list>2107-1</qds:standard_code_list>
+<qds:standard_code_list>2110-5</qds:standard_code_list>
+<qds:standard_code_list>2111-3</qds:standard_code_list>
+<qds:standard_code_list>2112-1</qds:standard_code_list>
+<qds:standard_code_list>2113-9</qds:standard_code_list>
+<qds:standard_code_list>2114-7</qds:standard_code_list>
+<qds:standard_code_list>2115-4</qds:standard_code_list>
+<qds:standard_code_list>2118-8</qds:standard_code_list>
+<qds:standard_code_list>2119-6</qds:standard_code_list>
+<qds:standard_code_list>21198-7</qds:standard_code_list>
+<qds:standard_code_list>25372-4</qds:standard_code_list>
+<qds:standard_code_list>25373-2</qds:standard_code_list>
+<qds:standard_code_list>34670-0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1689">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1689</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c526</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c212</qds:standard_code_list>
+<qds:standard_code_list>c214</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1690">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1690</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c526</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c212</qds:standard_code_list>
+<qds:standard_code_list>c214</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1880">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1880</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c212</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>81025</qds:standard_code_list>
+<qds:standard_code_list>84702</qds:standard_code_list>
+<qds:standard_code_list>84703</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_698">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_698</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c214</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19080-1</qds:standard_code_list>
+<qds:standard_code_list>19180-9</qds:standard_code_list>
+<qds:standard_code_list>20415-6</qds:standard_code_list>
+<qds:standard_code_list>20994-0</qds:standard_code_list>
+<qds:standard_code_list>2106-3</qds:standard_code_list>
+<qds:standard_code_list>2107-1</qds:standard_code_list>
+<qds:standard_code_list>2110-5</qds:standard_code_list>
+<qds:standard_code_list>2111-3</qds:standard_code_list>
+<qds:standard_code_list>2112-1</qds:standard_code_list>
+<qds:standard_code_list>2113-9</qds:standard_code_list>
+<qds:standard_code_list>2114-7</qds:standard_code_list>
+<qds:standard_code_list>2115-4</qds:standard_code_list>
+<qds:standard_code_list>2118-8</qds:standard_code_list>
+<qds:standard_code_list>2119-6</qds:standard_code_list>
+<qds:standard_code_list>21198-7</qds:standard_code_list>
+<qds:standard_code_list>25372-4</qds:standard_code_list>
+<qds:standard_code_list>25373-2</qds:standard_code_list>
+<qds:standard_code_list>34670-0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1881">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1881</qds:QDS_id>
+<qds:standard_concept>pregnancy test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c214</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>19080-1</qds:standard_code_list>
+<qds:standard_code_list>19180-9</qds:standard_code_list>
+<qds:standard_code_list>20415-6</qds:standard_code_list>
+<qds:standard_code_list>20994-0</qds:standard_code_list>
+<qds:standard_code_list>2106-3</qds:standard_code_list>
+<qds:standard_code_list>2107-1</qds:standard_code_list>
+<qds:standard_code_list>2110-5</qds:standard_code_list>
+<qds:standard_code_list>2111-3</qds:standard_code_list>
+<qds:standard_code_list>2112-1</qds:standard_code_list>
+<qds:standard_code_list>2113-9</qds:standard_code_list>
+<qds:standard_code_list>2114-7</qds:standard_code_list>
+<qds:standard_code_list>2115-4</qds:standard_code_list>
+<qds:standard_code_list>2118-8</qds:standard_code_list>
+<qds:standard_code_list>2119-6</qds:standard_code_list>
+<qds:standard_code_list>21198-7</qds:standard_code_list>
+<qds:standard_code_list>25372-4</qds:standard_code_list>
+<qds:standard_code_list>25373-2</qds:standard_code_list>
+<qds:standard_code_list>34670-0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1486">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1486</qds:QDS_id>
+<qds:standard_concept>procedures indicative of sexually active woman</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c487</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c207</qds:standard_code_list>
+<qds:standard_code_list>c208</qds:standard_code_list>
+<qds:standard_code_list>c209</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_689">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_689</qds:QDS_id>
+<qds:standard_concept>procedures indicative of sexually active woman</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c208</qds:standard_concept_id>
+<qds:standard_taxonomy>HCPCS</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G0101</qds:standard_code_list>
+<qds:standard_code_list>G0123</qds:standard_code_list>
+<qds:standard_code_list>G0124</qds:standard_code_list>
+<qds:standard_code_list>G0141</qds:standard_code_list>
+<qds:standard_code_list>G0143</qds:standard_code_list>
+<qds:standard_code_list>G0144</qds:standard_code_list>
+<qds:standard_code_list>G0145</qds:standard_code_list>
+<qds:standard_code_list>G0147</qds:standard_code_list>
+<qds:standard_code_list>G0148</qds:standard_code_list>
+<qds:standard_code_list>H1000</qds:standard_code_list>
+<qds:standard_code_list>H1001</qds:standard_code_list>
+<qds:standard_code_list>H1003</qds:standard_code_list>
+<qds:standard_code_list>H1004</qds:standard_code_list>
+<qds:standard_code_list>H1005</qds:standard_code_list>
+<qds:standard_code_list>P3000</qds:standard_code_list>
+<qds:standard_code_list>P3001</qds:standard_code_list>
+<qds:standard_code_list>Q0091</qds:standard_code_list>
+<qds:standard_code_list>S0180</qds:standard_code_list>
+<qds:standard_code_list>S0199</qds:standard_code_list>
+<qds:standard_code_list>S4981</qds:standard_code_list>
+<qds:standard_code_list>S8055</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_690">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_690</qds:QDS_id>
+<qds:standard_concept>procedures indicative of sexually active woman</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c209</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>69.01</qds:standard_code_list>
+<qds:standard_code_list>69.02</qds:standard_code_list>
+<qds:standard_code_list>69.51</qds:standard_code_list>
+<qds:standard_code_list>69.52</qds:standard_code_list>
+<qds:standard_code_list>69.7</qds:standard_code_list>
+<qds:standard_code_list>72</qds:standard_code_list>
+<qds:standard_code_list>73</qds:standard_code_list>
+<qds:standard_code_list>74</qds:standard_code_list>
+<qds:standard_code_list>75</qds:standard_code_list>
+<qds:standard_code_list>88.78</qds:standard_code_list>
+<qds:standard_code_list>97.24</qds:standard_code_list>
+<qds:standard_code_list>97.71</qds:standard_code_list>
+<qds:standard_code_list>97.73</qds:standard_code_list>
+<qds:standard_code_list>V15.7</qds:standard_code_list>
+<qds:standard_code_list>V76.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_688">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_688</qds:QDS_id>
+<qds:standard_concept>procedures indicative of sexually active woman</qds:standard_concept>
+<qds:standard_category>Procedure</qds:standard_category>
+<qds:QDS_data_type>procedure performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c207</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11975</qds:standard_code_list>
+<qds:standard_code_list>11976</qds:standard_code_list>
+<qds:standard_code_list>11977</qds:standard_code_list>
+<qds:standard_code_list>57022</qds:standard_code_list>
+<qds:standard_code_list>57170</qds:standard_code_list>
+<qds:standard_code_list>58300</qds:standard_code_list>
+<qds:standard_code_list>58301</qds:standard_code_list>
+<qds:standard_code_list>58600</qds:standard_code_list>
+<qds:standard_code_list>58605</qds:standard_code_list>
+<qds:standard_code_list>58611</qds:standard_code_list>
+<qds:standard_code_list>58615</qds:standard_code_list>
+<qds:standard_code_list>58970</qds:standard_code_list>
+<qds:standard_code_list>58974</qds:standard_code_list>
+<qds:standard_code_list>58976</qds:standard_code_list>
+<qds:standard_code_list>59000</qds:standard_code_list>
+<qds:standard_code_list>59001</qds:standard_code_list>
+<qds:standard_code_list>59012</qds:standard_code_list>
+<qds:standard_code_list>59015</qds:standard_code_list>
+<qds:standard_code_list>59020</qds:standard_code_list>
+<qds:standard_code_list>59025</qds:standard_code_list>
+<qds:standard_code_list>59030</qds:standard_code_list>
+<qds:standard_code_list>59050</qds:standard_code_list>
+<qds:standard_code_list>59051</qds:standard_code_list>
+<qds:standard_code_list>59070</qds:standard_code_list>
+<qds:standard_code_list>59072</qds:standard_code_list>
+<qds:standard_code_list>59074</qds:standard_code_list>
+<qds:standard_code_list>59076</qds:standard_code_list>
+<qds:standard_code_list>59100</qds:standard_code_list>
+<qds:standard_code_list>59120</qds:standard_code_list>
+<qds:standard_code_list>59121</qds:standard_code_list>
+<qds:standard_code_list>59130</qds:standard_code_list>
+<qds:standard_code_list>59135</qds:standard_code_list>
+<qds:standard_code_list>59136</qds:standard_code_list>
+<qds:standard_code_list>59140</qds:standard_code_list>
+<qds:standard_code_list>59150</qds:standard_code_list>
+<qds:standard_code_list>59151</qds:standard_code_list>
+<qds:standard_code_list>591</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_700">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_700</qds:QDS_id>
+<qds:standard_concept>retinoid</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c217</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>106318</qds:standard_code_list>
+<qds:standard_code_list>107436</qds:standard_code_list>
+<qds:standard_code_list>197843</qds:standard_code_list>
+<qds:standard_code_list>197844</qds:standard_code_list>
+<qds:standard_code_list>197845</qds:standard_code_list>
+<qds:standard_code_list>403930</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2124">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_2124</qds:QDS_id>
+<qds:standard_concept>retinoid</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c217</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>106318</qds:standard_code_list>
+<qds:standard_code_list>107436</qds:standard_code_list>
+<qds:standard_code_list>197843</qds:standard_code_list>
+<qds:standard_code_list>197844</qds:standard_code_list>
+<qds:standard_code_list>197845</qds:standard_code_list>
+<qds:standard_code_list>403930</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2125">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_2125</qds:QDS_id>
+<qds:standard_concept>retinoid</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c217</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>106318</qds:standard_code_list>
+<qds:standard_code_list>107436</qds:standard_code_list>
+<qds:standard_code_list>197843</qds:standard_code_list>
+<qds:standard_code_list>197844</qds:standard_code_list>
+<qds:standard_code_list>197845</qds:standard_code_list>
+<qds:standard_code_list>403930</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1902">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1902</qds:QDS_id>
+<qds:standard_concept>sexually active woman</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c580</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>054.10</qds:standard_code_list>
+<qds:standard_code_list>054.11</qds:standard_code_list>
+<qds:standard_code_list>054.12</qds:standard_code_list>
+<qds:standard_code_list>054.19</qds:standard_code_list>
+<qds:standard_code_list>078.11</qds:standard_code_list>
+<qds:standard_code_list>078.88</qds:standard_code_list>
+<qds:standard_code_list>079.4</qds:standard_code_list>
+<qds:standard_code_list>079.51</qds:standard_code_list>
+<qds:standard_code_list>079.52</qds:standard_code_list>
+<qds:standard_code_list>079.53</qds:standard_code_list>
+<qds:standard_code_list>079.88</qds:standard_code_list>
+<qds:standard_code_list>079.98</qds:standard_code_list>
+<qds:standard_code_list>091</qds:standard_code_list>
+<qds:standard_code_list>091.0</qds:standard_code_list>
+<qds:standard_code_list>091.1</qds:standard_code_list>
+<qds:standard_code_list>091.2</qds:standard_code_list>
+<qds:standard_code_list>091.3</qds:standard_code_list>
+<qds:standard_code_list>091.4</qds:standard_code_list>
+<qds:standard_code_list>091.5</qds:standard_code_list>
+<qds:standard_code_list>091.50</qds:standard_code_list>
+<qds:standard_code_list>091.51</qds:standard_code_list>
+<qds:standard_code_list>091.52</qds:standard_code_list>
+<qds:standard_code_list>091.6</qds:standard_code_list>
+<qds:standard_code_list>091.61</qds:standard_code_list>
+<qds:standard_code_list>091.62</qds:standard_code_list>
+<qds:standard_code_list>091.69</qds:standard_code_list>
+<qds:standard_code_list>091.7</qds:standard_code_list>
+<qds:standard_code_list>091.8</qds:standard_code_list>
+<qds:standard_code_list>091.81</qds:standard_code_list>
+<qds:standard_code_list>091.82</qds:standard_code_list>
+<qds:standard_code_list>091.89</qds:standard_code_list>
+<qds:standard_code_list>091.9</qds:standard_code_list>
+<qds:standard_code_list>092</qds:standard_code_list>
+<qds:standard_code_list>092.0</qds:standard_code_list>
+<qds:standard_code_list>0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1903">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1903</qds:QDS_id>
+<qds:standard_concept>sexually active woman</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c591</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A54.6</qds:standard_code_list>
+<qds:standard_code_list>A54.8</qds:standard_code_list>
+<qds:standard_code_list>A54.81</qds:standard_code_list>
+<qds:standard_code_list>A54.82</qds:standard_code_list>
+<qds:standard_code_list>A54.84</qds:standard_code_list>
+<qds:standard_code_list>A54.85</qds:standard_code_list>
+<qds:standard_code_list>A54.86</qds:standard_code_list>
+<qds:standard_code_list>A54.89</qds:standard_code_list>
+<qds:standard_code_list>A54.9</qds:standard_code_list>
+<qds:standard_code_list>A55</qds:standard_code_list>
+<qds:standard_code_list>A56</qds:standard_code_list>
+<qds:standard_code_list>A56.0</qds:standard_code_list>
+<qds:standard_code_list>A56.00</qds:standard_code_list>
+<qds:standard_code_list>A56.01</qds:standard_code_list>
+<qds:standard_code_list>A56.02</qds:standard_code_list>
+<qds:standard_code_list>A56.09 </qds:standard_code_list>
+<qds:standard_code_list>A56.1</qds:standard_code_list>
+<qds:standard_code_list>A56.11</qds:standard_code_list>
+<qds:standard_code_list>A56.19</qds:standard_code_list>
+<qds:standard_code_list>A56.2</qds:standard_code_list>
+<qds:standard_code_list>A56.3</qds:standard_code_list>
+<qds:standard_code_list>A56.4</qds:standard_code_list>
+<qds:standard_code_list>A56.8</qds:standard_code_list>
+<qds:standard_code_list>A57</qds:standard_code_list>
+<qds:standard_code_list>A58</qds:standard_code_list>
+<qds:standard_code_list>A59</qds:standard_code_list>
+<qds:standard_code_list>A59.0</qds:standard_code_list>
+<qds:standard_code_list>A59.00</qds:standard_code_list>
+<qds:standard_code_list>A59.01</qds:standard_code_list>
+<qds:standard_code_list>A59.02</qds:standard_code_list>
+<qds:standard_code_list>A59.03</qds:standard_code_list>
+<qds:standard_code_list>A59.09</qds:standard_code_list>
+<qds:standard_code_list>A59.8</qds:standard_code_list>
+<qds:standard_code_list>A59.9</qds:standard_code_list>
+<qds:standard_code_list>A60</qds:standard_code_list>
+<qds:standard_code_list>A60.</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1904">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1904</qds:QDS_id>
+<qds:standard_concept>sexually active woman</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c581</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>228453005</qds:standard_code_list>
+<qds:standard_code_list>8098009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1841">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1841</qds:QDS_id>
+<qds:standard_concept>sexually active woman</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c416</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c580</qds:standard_code_list>
+<qds:standard_code_list>c581</qds:standard_code_list>
+<qds:standard_code_list>c591</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1692">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1692</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c527</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c215</qds:standard_code_list>
+<qds:standard_code_list>c516</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_704">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_704</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c215</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>70010</qds:standard_code_list>
+<qds:standard_code_list>70015</qds:standard_code_list>
+<qds:standard_code_list>70030</qds:standard_code_list>
+<qds:standard_code_list>70100</qds:standard_code_list>
+<qds:standard_code_list>70110</qds:standard_code_list>
+<qds:standard_code_list>70120</qds:standard_code_list>
+<qds:standard_code_list>70130</qds:standard_code_list>
+<qds:standard_code_list>70134</qds:standard_code_list>
+<qds:standard_code_list>70140</qds:standard_code_list>
+<qds:standard_code_list>70150</qds:standard_code_list>
+<qds:standard_code_list>70160</qds:standard_code_list>
+<qds:standard_code_list>70170</qds:standard_code_list>
+<qds:standard_code_list>70190</qds:standard_code_list>
+<qds:standard_code_list>70200</qds:standard_code_list>
+<qds:standard_code_list>70210</qds:standard_code_list>
+<qds:standard_code_list>70220</qds:standard_code_list>
+<qds:standard_code_list>70240</qds:standard_code_list>
+<qds:standard_code_list>70250</qds:standard_code_list>
+<qds:standard_code_list>70260</qds:standard_code_list>
+<qds:standard_code_list>70300</qds:standard_code_list>
+<qds:standard_code_list>70310</qds:standard_code_list>
+<qds:standard_code_list>70320</qds:standard_code_list>
+<qds:standard_code_list>70328</qds:standard_code_list>
+<qds:standard_code_list>70330</qds:standard_code_list>
+<qds:standard_code_list>70332</qds:standard_code_list>
+<qds:standard_code_list>70336</qds:standard_code_list>
+<qds:standard_code_list>70350</qds:standard_code_list>
+<qds:standard_code_list>70355</qds:standard_code_list>
+<qds:standard_code_list>70360</qds:standard_code_list>
+<qds:standard_code_list>70370</qds:standard_code_list>
+<qds:standard_code_list>70371</qds:standard_code_list>
+<qds:standard_code_list>70373</qds:standard_code_list>
+<qds:standard_code_list>70380</qds:standard_code_list>
+<qds:standard_code_list>70390</qds:standard_code_list>
+<qds:standard_code_list>70450</qds:standard_code_list>
+<qds:standard_code_list>70460</qds:standard_code_list>
+<qds:standard_code_list>704</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_703">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_703</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c215</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>70010</qds:standard_code_list>
+<qds:standard_code_list>70015</qds:standard_code_list>
+<qds:standard_code_list>70030</qds:standard_code_list>
+<qds:standard_code_list>70100</qds:standard_code_list>
+<qds:standard_code_list>70110</qds:standard_code_list>
+<qds:standard_code_list>70120</qds:standard_code_list>
+<qds:standard_code_list>70130</qds:standard_code_list>
+<qds:standard_code_list>70134</qds:standard_code_list>
+<qds:standard_code_list>70140</qds:standard_code_list>
+<qds:standard_code_list>70150</qds:standard_code_list>
+<qds:standard_code_list>70160</qds:standard_code_list>
+<qds:standard_code_list>70170</qds:standard_code_list>
+<qds:standard_code_list>70190</qds:standard_code_list>
+<qds:standard_code_list>70200</qds:standard_code_list>
+<qds:standard_code_list>70210</qds:standard_code_list>
+<qds:standard_code_list>70220</qds:standard_code_list>
+<qds:standard_code_list>70240</qds:standard_code_list>
+<qds:standard_code_list>70250</qds:standard_code_list>
+<qds:standard_code_list>70260</qds:standard_code_list>
+<qds:standard_code_list>70300</qds:standard_code_list>
+<qds:standard_code_list>70310</qds:standard_code_list>
+<qds:standard_code_list>70320</qds:standard_code_list>
+<qds:standard_code_list>70328</qds:standard_code_list>
+<qds:standard_code_list>70330</qds:standard_code_list>
+<qds:standard_code_list>70332</qds:standard_code_list>
+<qds:standard_code_list>70336</qds:standard_code_list>
+<qds:standard_code_list>70350</qds:standard_code_list>
+<qds:standard_code_list>70355</qds:standard_code_list>
+<qds:standard_code_list>70360</qds:standard_code_list>
+<qds:standard_code_list>70370</qds:standard_code_list>
+<qds:standard_code_list>70371</qds:standard_code_list>
+<qds:standard_code_list>70373</qds:standard_code_list>
+<qds:standard_code_list>70380</qds:standard_code_list>
+<qds:standard_code_list>70390</qds:standard_code_list>
+<qds:standard_code_list>70450</qds:standard_code_list>
+<qds:standard_code_list>70460</qds:standard_code_list>
+<qds:standard_code_list>704</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1691">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1691</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c527</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c215</qds:standard_code_list>
+<qds:standard_code_list>c516</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1617">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1617</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic Study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c516</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>399208008</qds:standard_code_list>
+<qds:standard_code_list>420233006</qds:standard_code_list>
+<qds:standard_code_list>426296008</qds:standard_code_list>
+<qds:standard_code_list>426945003</qds:standard_code_list>
+<qds:standard_code_list>427961005</qds:standard_code_list>
+<qds:standard_code_list>428603007</qds:standard_code_list>
+<qds:standard_code_list>428665002</qds:standard_code_list>
+<qds:standard_code_list>429148001</qds:standard_code_list>
+<qds:standard_code_list>429646003</qds:standard_code_list>
+<qds:standard_code_list>431251007</qds:standard_code_list>
+<qds:standard_code_list>431557005</qds:standard_code_list>
+<qds:standard_code_list>431677006</qds:standard_code_list>
+<qds:standard_code_list>431871005</qds:standard_code_list>
+<qds:standard_code_list>431892005</qds:standard_code_list>
+<qds:standard_code_list>432078003</qds:standard_code_list>
+<qds:standard_code_list>432769002</qds:standard_code_list>
+<qds:standard_code_list>432770001</qds:standard_code_list>
+<qds:standard_code_list>432778008</qds:standard_code_list>
+<qds:standard_code_list>432848006</qds:standard_code_list>
+<qds:standard_code_list>432906003</qds:standard_code_list>
+<qds:standard_code_list>433155002</qds:standard_code_list>
+<qds:standard_code_list>439100007</qds:standard_code_list>
+<qds:standard_code_list>440607000</qds:standard_code_list>
+<qds:standard_code_list>44</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1618">
+<qds:NQF_id>0033</qds:NQF_id>
+<qds:measure_name>Chlamydia Screening for Women</qds:measure_name>
+<qds:QDS_id>N_1618</qds:QDS_id>
+<qds:standard_concept>X-ray Study</qds:standard_concept>
+<qds:standard_category>Diagnostic Study</qds:standard_category>
+<qds:QDS_data_type>diagnostic study performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c516</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>399208008</qds:standard_code_list>
+<qds:standard_code_list>420233006</qds:standard_code_list>
+<qds:standard_code_list>426296008</qds:standard_code_list>
+<qds:standard_code_list>426945003</qds:standard_code_list>
+<qds:standard_code_list>427961005</qds:standard_code_list>
+<qds:standard_code_list>428603007</qds:standard_code_list>
+<qds:standard_code_list>428665002</qds:standard_code_list>
+<qds:standard_code_list>429148001</qds:standard_code_list>
+<qds:standard_code_list>429646003</qds:standard_code_list>
+<qds:standard_code_list>431251007</qds:standard_code_list>
+<qds:standard_code_list>431557005</qds:standard_code_list>
+<qds:standard_code_list>431677006</qds:standard_code_list>
+<qds:standard_code_list>431871005</qds:standard_code_list>
+<qds:standard_code_list>431892005</qds:standard_code_list>
+<qds:standard_code_list>432078003</qds:standard_code_list>
+<qds:standard_code_list>432769002</qds:standard_code_list>
+<qds:standard_code_list>432770001</qds:standard_code_list>
+<qds:standard_code_list>432778008</qds:standard_code_list>
+<qds:standard_code_list>432848006</qds:standard_code_list>
+<qds:standard_code_list>432906003</qds:standard_code_list>
+<qds:standard_code_list>433155002</qds:standard_code_list>
+<qds:standard_code_list>439100007</qds:standard_code_list>
+<qds:standard_code_list>440607000</qds:standard_code_list>
+<qds:standard_code_list>44</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

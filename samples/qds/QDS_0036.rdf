@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_1394">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1394</qds:QDS_id>
+<qds:standard_concept>acute respiratory failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c452</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c231</qds:standard_code_list>
+<qds:standard_code_list>c232</qds:standard_code_list>
+<qds:standard_code_list>c553</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1895">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1895</qds:QDS_id>
+<qds:standard_concept>acute respiratory failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c553</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>397767007</qds:standard_code_list>
+<qds:standard_code_list>65710008</qds:standard_code_list>
+<qds:standard_code_list>67905004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_797">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_797</qds:QDS_id>
+<qds:standard_concept>acute respiratory failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c232</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J96.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_798">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_798</qds:QDS_id>
+<qds:standard_concept>acute respiratory failure</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c231</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>518.81</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2130">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2130</qds:QDS_id>
+<qds:standard_concept>Antiasthmatic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c296</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310617 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>56229</qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2131">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2131</qds:QDS_id>
+<qds:standard_concept>Antiasthmatic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c296</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310617 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>56229</qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_782">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_782</qds:QDS_id>
+<qds:standard_concept>Antiasthmatic combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c296</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310617 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>56229</qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2132">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2132</qds:QDS_id>
+<qds:standard_concept>Antibody inhibitor</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c297</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>403866</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2133">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2133</qds:QDS_id>
+<qds:standard_concept>Antibody inhibitor</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c297</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>403866</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_783">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_783</qds:QDS_id>
+<qds:standard_concept>Antibody inhibitor</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c297</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>403866</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1395">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1395</qds:QDS_id>
+<qds:standard_concept>asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c453</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c176</qds:standard_code_list>
+<qds:standard_code_list>c221</qds:standard_code_list>
+<qds:standard_code_list>c223</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_799">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_799</qds:QDS_id>
+<qds:standard_concept>asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c176</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J45</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_801">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_801</qds:QDS_id>
+<qds:standard_concept>asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c221</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>493</qds:standard_code_list>
+<qds:standard_code_list>493.0</qds:standard_code_list>
+<qds:standard_code_list>493.00</qds:standard_code_list>
+<qds:standard_code_list>493.01</qds:standard_code_list>
+<qds:standard_code_list>493.02</qds:standard_code_list>
+<qds:standard_code_list>493.1</qds:standard_code_list>
+<qds:standard_code_list>493.10</qds:standard_code_list>
+<qds:standard_code_list>493.11</qds:standard_code_list>
+<qds:standard_code_list>493.12</qds:standard_code_list>
+<qds:standard_code_list>493.2</qds:standard_code_list>
+<qds:standard_code_list>493.20</qds:standard_code_list>
+<qds:standard_code_list>493.21</qds:standard_code_list>
+<qds:standard_code_list>493.22</qds:standard_code_list>
+<qds:standard_code_list>493.8</qds:standard_code_list>
+<qds:standard_code_list>493.81</qds:standard_code_list>
+<qds:standard_code_list>493.82</qds:standard_code_list>
+<qds:standard_code_list>493.9</qds:standard_code_list>
+<qds:standard_code_list>493.90</qds:standard_code_list>
+<qds:standard_code_list>493.91</qds:standard_code_list>
+<qds:standard_code_list>493.92</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_802">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_802</qds:QDS_id>
+<qds:standard_concept>asthma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c223</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11641008</qds:standard_code_list>
+<qds:standard_code_list>12428000</qds:standard_code_list>
+<qds:standard_code_list>13151001</qds:standard_code_list>
+<qds:standard_code_list>195949008</qds:standard_code_list>
+<qds:standard_code_list>195967001</qds:standard_code_list>
+<qds:standard_code_list>195977004</qds:standard_code_list>
+<qds:standard_code_list>195979001</qds:standard_code_list>
+<qds:standard_code_list>196013003</qds:standard_code_list>
+<qds:standard_code_list>225057002</qds:standard_code_list>
+<qds:standard_code_list>233672007</qds:standard_code_list>
+<qds:standard_code_list>233678006</qds:standard_code_list>
+<qds:standard_code_list>233679003</qds:standard_code_list>
+<qds:standard_code_list>233681001</qds:standard_code_list>
+<qds:standard_code_list>233683003</qds:standard_code_list>
+<qds:standard_code_list>233685005</qds:standard_code_list>
+<qds:standard_code_list>233688007</qds:standard_code_list>
+<qds:standard_code_list>266361008</qds:standard_code_list>
+<qds:standard_code_list>266364000</qds:standard_code_list>
+<qds:standard_code_list>281239006</qds:standard_code_list>
+<qds:standard_code_list>30352005</qds:standard_code_list>
+<qds:standard_code_list>304527002</qds:standard_code_list>
+<qds:standard_code_list>31387002</qds:standard_code_list>
+<qds:standard_code_list>370218001</qds:standard_code_list>
+<qds:standard_code_list>370219009</qds:standard_code_list>
+<qds:standard_code_list>370220003</qds:standard_code_list>
+<qds:standard_code_list>370221004</qds:standard_code_list>
+<qds:standard_code_list>389145006</qds:standard_code_list>
+<qds:standard_code_list>405944004</qds:standard_code_list>
+<qds:standard_code_list>407674008</qds:standard_code_list>
+<qds:standard_code_list>409663006</qds:standard_code_list>
+<qds:standard_code_list>423889005</qds:standard_code_list>
+<qds:standard_code_list>424199006</qds:standard_code_list>
+<qds:standard_code_list>424643009</qds:standard_code_list>
+<qds:standard_code_list>425969006</qds:standard_code_list>
+<qds:standard_code_list>426656000</qds:standard_code_list>
+<qds:standard_code_list>426979002</qds:standard_code_list>
+<qds:standard_code_list>427295004</qds:standard_code_list>
+<qds:standard_code_list>427354000</qds:standard_code_list>
+<qds:standard_code_list>427603009</qds:standard_code_list>
+<qds:standard_code_list>427679007</qds:standard_code_list>
+<qds:standard_code_list>442025000</qds:standard_code_list>
+<qds:standard_code_list>55570000</qds:standard_code_list>
+<qds:standard_code_list>56968009</qds:standard_code_list>
+<qds:standard_code_list>57546000</qds:standard_code_list>
+<qds:standard_code_list>59327009</qds:standard_code_list>
+<qds:standard_code_list>59786004</qds:standard_code_list>
+<qds:standard_code_list>63088003</qds:standard_code_list>
+<qds:standard_code_list>67415000</qds:standard_code_list>
+<qds:standard_code_list>85761009</qds:standard_code_list>
+<qds:standard_code_list>91340006</qds:standard_code_list>
+<qds:standard_code_list>92807009</qds:standard_code_list>
+<qds:standard_code_list>93432008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_773">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_773</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_774">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_774</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1396">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1396</qds:QDS_id>
+<qds:standard_concept>COPD</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c454</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c225</qds:standard_code_list>
+<qds:standard_code_list>c226</qds:standard_code_list>
+<qds:standard_code_list>c556</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1896">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1896</qds:QDS_id>
+<qds:standard_concept>COPD</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c556</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>129458007</qds:standard_code_list>
+<qds:standard_code_list>135836000</qds:standard_code_list>
+<qds:standard_code_list>13645005</qds:standard_code_list>
+<qds:standard_code_list>16846004</qds:standard_code_list>
+<qds:standard_code_list>195951007</qds:standard_code_list>
+<qds:standard_code_list>195957006</qds:standard_code_list>
+<qds:standard_code_list>195959009</qds:standard_code_list>
+<qds:standard_code_list>195963002</qds:standard_code_list>
+<qds:standard_code_list>196001008</qds:standard_code_list>
+<qds:standard_code_list>196026004</qds:standard_code_list>
+<qds:standard_code_list>196027008</qds:standard_code_list>
+<qds:standard_code_list>20606002</qds:standard_code_list>
+<qds:standard_code_list>21072009</qds:standard_code_list>
+<qds:standard_code_list>22482002</qds:standard_code_list>
+<qds:standard_code_list>233673002</qds:standard_code_list>
+<qds:standard_code_list>233674008</qds:standard_code_list>
+<qds:standard_code_list>233675009</qds:standard_code_list>
+<qds:standard_code_list>233677001</qds:standard_code_list>
+<qds:standard_code_list>233713004</qds:standard_code_list>
+<qds:standard_code_list>233723008</qds:standard_code_list>
+<qds:standard_code_list>23958009</qds:standard_code_list>
+<qds:standard_code_list>266356006</qds:standard_code_list>
+<qds:standard_code_list>285381006</qds:standard_code_list>
+<qds:standard_code_list>2912004</qds:standard_code_list>
+<qds:standard_code_list>313296004</qds:standard_code_list>
+<qds:standard_code_list>313297008</qds:standard_code_list>
+<qds:standard_code_list>313299006</qds:standard_code_list>
+<qds:standard_code_list>31886003</qds:standard_code_list>
+<qds:standard_code_list>31898008</qds:standard_code_list>
+<qds:standard_code_list>32544004</qds:standard_code_list>
+<qds:standard_code_list>33325001</qds:standard_code_list>
+<qds:standard_code_list>34371004</qds:standard_code_list>
+<qds:standard_code_list>40100001</qds:standard_code_list>
+<qds:standard_code_list>47895001</qds:standard_code_list>
+<qds:standard_code_list>47938003</qds:standard_code_list>
+<qds:standard_code_list>4981000</qds:standard_code_list>
+<qds:standard_code_list>57686001</qds:standard_code_list>
+<qds:standard_code_list>60805002</qds:standard_code_list>
+<qds:standard_code_list>66110007</qds:standard_code_list>
+<qds:standard_code_list>66987001</qds:standard_code_list>
+<qds:standard_code_list>68328006</qds:standard_code_list>
+<qds:standard_code_list>70756004</qds:standard_code_list>
+<qds:standard_code_list>77690003</qds:standard_code_list>
+<qds:standard_code_list>86680006</qds:standard_code_list>
+<qds:standard_code_list>87433001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_793">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_793</qds:QDS_id>
+<qds:standard_concept>COPD</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c226</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J44</qds:standard_code_list>
+<qds:standard_code_list>J98.3</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_794">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_794</qds:QDS_id>
+<qds:standard_concept>COPD</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c225</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>491.2</qds:standard_code_list>
+<qds:standard_code_list>491.21</qds:standard_code_list>
+<qds:standard_code_list>491.22</qds:standard_code_list>
+<qds:standard_code_list>492.0</qds:standard_code_list>
+<qds:standard_code_list>493.2</qds:standard_code_list>
+<qds:standard_code_list>493.20</qds:standard_code_list>
+<qds:standard_code_list>493.21</qds:standard_code_list>
+<qds:standard_code_list>493.22</qds:standard_code_list>
+<qds:standard_code_list>496</qds:standard_code_list>
+<qds:standard_code_list>506.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1397">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1397</qds:QDS_id>
+<qds:standard_concept>cystic fibrosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c455</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c229</qds:standard_code_list>
+<qds:standard_code_list>c230</qds:standard_code_list>
+<qds:standard_code_list>c559</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1897">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1897</qds:QDS_id>
+<qds:standard_concept>cystic fibrosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c559</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>190905008</qds:standard_code_list>
+<qds:standard_code_list>190909002</qds:standard_code_list>
+<qds:standard_code_list>235978006</qds:standard_code_list>
+<qds:standard_code_list>81423003</qds:standard_code_list>
+<qds:standard_code_list>86092005</qds:standard_code_list>
+<qds:standard_code_list>86555001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_795">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_795</qds:QDS_id>
+<qds:standard_concept>cystic fibrosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c230</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E88</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_796">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_796</qds:QDS_id>
+<qds:standard_concept>cystic fibrosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c229</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>277.0</qds:standard_code_list>
+<qds:standard_code_list>277.00</qds:standard_code_list>
+<qds:standard_code_list>277.01</qds:standard_code_list>
+<qds:standard_code_list>277.02</qds:standard_code_list>
+<qds:standard_code_list>277.03</qds:standard_code_list>
+<qds:standard_code_list>277.09</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1398">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1398</qds:QDS_id>
+<qds:standard_concept>emphysema</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c456</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c227</qds:standard_code_list>
+<qds:standard_code_list>c228</qds:standard_code_list>
+<qds:standard_code_list>c560</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1898">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1898</qds:QDS_id>
+<qds:standard_concept>emphysema</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c560</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>16003001</qds:standard_code_list>
+<qds:standard_code_list>16846004</qds:standard_code_list>
+<qds:standard_code_list>195957006</qds:standard_code_list>
+<qds:standard_code_list>195958001</qds:standard_code_list>
+<qds:standard_code_list>195959009</qds:standard_code_list>
+<qds:standard_code_list>195963002</qds:standard_code_list>
+<qds:standard_code_list>196026004</qds:standard_code_list>
+<qds:standard_code_list>20606002</qds:standard_code_list>
+<qds:standard_code_list>21072009</qds:standard_code_list>
+<qds:standard_code_list>233674008</qds:standard_code_list>
+<qds:standard_code_list>233675009</qds:standard_code_list>
+<qds:standard_code_list>233677001</qds:standard_code_list>
+<qds:standard_code_list>23958009</qds:standard_code_list>
+<qds:standard_code_list>266355005</qds:standard_code_list>
+<qds:standard_code_list>266356006</qds:standard_code_list>
+<qds:standard_code_list>2912004</qds:standard_code_list>
+<qds:standard_code_list>31898008</qds:standard_code_list>
+<qds:standard_code_list>33325001</qds:standard_code_list>
+<qds:standard_code_list>47895001</qds:standard_code_list>
+<qds:standard_code_list>4981000</qds:standard_code_list>
+<qds:standard_code_list>57686001</qds:standard_code_list>
+<qds:standard_code_list>60805002</qds:standard_code_list>
+<qds:standard_code_list>66110007</qds:standard_code_list>
+<qds:standard_code_list>66987001</qds:standard_code_list>
+<qds:standard_code_list>68328006</qds:standard_code_list>
+<qds:standard_code_list>70756004</qds:standard_code_list>
+<qds:standard_code_list>77690003</qds:standard_code_list>
+<qds:standard_code_list>86680006</qds:standard_code_list>
+<qds:standard_code_list>87433001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_791">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_791</qds:QDS_id>
+<qds:standard_concept>emphysema</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c228</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>J44</qds:standard_code_list>
+<qds:standard_code_list>J68</qds:standard_code_list>
+<qds:standard_code_list>J98.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_792">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_792</qds:QDS_id>
+<qds:standard_concept>emphysema</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c227</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>492</qds:standard_code_list>
+<qds:standard_code_list>492.8</qds:standard_code_list>
+<qds:standard_code_list>518.1</qds:standard_code_list>
+<qds:standard_code_list>518.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_777">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_777</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_775">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_775</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_779">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_779</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_780">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_780</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1812">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1812</qds:QDS_id>
+<qds:standard_concept>Encounter outpatient, acute inpatient, ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c542</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c159</qds:standard_code_list>
+<qds:standard_code_list>c26</qds:standard_code_list>
+<qds:standard_code_list>c27</qds:standard_code_list>
+<qds:standard_code_list>c60</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2128">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2128</qds:QDS_id>
+<qds:standard_concept>Inhaled corticosteroids</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c299</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104568 </qds:standard_code_list>
+<qds:standard_code_list>141917 </qds:standard_code_list>
+<qds:standard_code_list>150807 </qds:standard_code_list>
+<qds:standard_code_list>150810 </qds:standard_code_list>
+<qds:standard_code_list>152594 </qds:standard_code_list>
+<qds:standard_code_list>152680 </qds:standard_code_list>
+<qds:standard_code_list>197704 </qds:standard_code_list>
+<qds:standard_code_list>199532 </qds:standard_code_list>
+<qds:standard_code_list>226937 </qds:standard_code_list>
+<qds:standard_code_list>226938 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>245785 </qds:standard_code_list>
+<qds:standard_code_list>247042 </qds:standard_code_list>
+<qds:standard_code_list>247047 </qds:standard_code_list>
+<qds:standard_code_list>247048 </qds:standard_code_list>
+<qds:standard_code_list>247551 </qds:standard_code_list>
+<qds:standard_code_list>247691 </qds:standard_code_list>
+<qds:standard_code_list>249853 </qds:standard_code_list>
+<qds:standard_code_list>250648 </qds:standard_code_list>
+<qds:standard_code_list>252559 </qds:standard_code_list>
+<qds:standard_code_list>252972 </qds:standard_code_list>
+<qds:standard_code_list>308580 </qds:standard_code_list>
+<qds:standard_code_list>308581 </qds:standard_code_list>
+<qds:standard_code_list>308582 </qds:standard_code_list>
+<qds:standard_code_list>308583 </qds:standard_code_list>
+<qds:standard_code_list>308817 </qds:standard_code_list>
+<qds:standard_code_list>311754 </qds:standard_code_list>
+<qds:standard_code_list>313458 </qds:standard_code_list>
+<qds:standard_code_list>313461 </qds:standard_code_list>
+<qds:standard_code_list>313882 </qds:standard_code_list>
+<qds:standard_code_list>349094 </qds:standard_code_list>
+<qds:standard_code_list>350713 </qds:standard_code_list>
+<qds:standard_code_list>351109 </qds:standard_code_list>
+<qds:standard_code_list>387015 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>582486 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>603778 </qds:standard_code_list>
+<qds:standard_code_list>617268 </qds:standard_code_list>
+<qds:standard_code_list>617270 </qds:standard_code_list>
+<qds:standard_code_list>644548 </qds:standard_code_list>
+<qds:standard_code_list>692475 </qds:standard_code_list>
+<qds:standard_code_list>692477 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>746191 </qds:standard_code_list>
+<qds:standard_code_list>746199 </qds:standard_code_list>
+<qds:standard_code_list>746218 </qds:standard_code_list>
+<qds:standard_code_list>746451 </qds:standard_code_list>
+<qds:standard_code_list>746452 </qds:standard_code_list>
+<qds:standard_code_list>746455 </qds:standard_code_list>
+<qds:standard_code_list>746460 </qds:standard_code_list>
+<qds:standard_code_list>746803 </qds:standard_code_list>
+<qds:standard_code_list>746810 </qds:standard_code_list>
+<qds:standard_code_list>746812 </qds:standard_code_list>
+<qds:standard_code_list>746814 </qds:standard_code_list>
+<qds:standard_code_list>746821 </qds:standard_code_list>
+<qds:standard_code_list>746825 </qds:standard_code_list>
+<qds:standard_code_list>746828 </qds:standard_code_list>
+<qds:standard_code_list>746830 </qds:standard_code_list>
+<qds:standard_code_list>746832 </qds:standard_code_list>
+<qds:standard_code_list>748625 </qds:standard_code_list>
+<qds:standard_code_list>752369 </qds:standard_code_list>
+<qds:standard_code_list>752372 </qds:standard_code_list>
+<qds:standard_code_list>752376 </qds:standard_code_list>
+<qds:standard_code_list>790278 </qds:standard_code_list>
+<qds:standard_code_list>790283 </qds:standard_code_list>
+<qds:standard_code_list>792945 </qds:standard_code_list>
+<qds:standard_code_list>828927 </qds:standard_code_list>
+<qds:standard_code_list>828930 </qds:standard_code_list>
+<qds:standard_code_list>833245 </qds:standard_code_list>
+<qds:standard_code_list>844426 </qds:standard_code_list>
+<qds:standard_code_list>895968 </qds:standard_code_list>
+<qds:standard_code_list>895994 </qds:standard_code_list>
+<qds:standard_code_list>895999 </qds:standard_code_list>
+<qds:standard_code_list>896004 </qds:standard_code_list>
+<qds:standard_code_list>896008 </qds:standard_code_list>
+<qds:standard_code_list>896010 </qds:standard_code_list>
+<qds:standard_code_list>896012 </qds:standard_code_list>
+<qds:standard_code_list>896018 </qds:standard_code_list>
+<qds:standard_code_list>896021 </qds:standard_code_list>
+<qds:standard_code_list>896025 </qds:standard_code_list>
+<qds:standard_code_list>896028 </qds:standard_code_list>
+<qds:standard_code_list>896030 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272 </qds:standard_code_list>
+<qds:standard_code_list>896294 </qds:standard_code_list>
+<qds:standard_code_list>896300 </qds:standard_code_list>
+<qds:standard_code_list>896321 </qds:standard_code_list>
+<qds:standard_code_list>896324</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2129">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2129</qds:QDS_id>
+<qds:standard_concept>Inhaled corticosteroids</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c299</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104568 </qds:standard_code_list>
+<qds:standard_code_list>141917 </qds:standard_code_list>
+<qds:standard_code_list>150807 </qds:standard_code_list>
+<qds:standard_code_list>150810 </qds:standard_code_list>
+<qds:standard_code_list>152594 </qds:standard_code_list>
+<qds:standard_code_list>152680 </qds:standard_code_list>
+<qds:standard_code_list>197704 </qds:standard_code_list>
+<qds:standard_code_list>199532 </qds:standard_code_list>
+<qds:standard_code_list>226937 </qds:standard_code_list>
+<qds:standard_code_list>226938 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>245785 </qds:standard_code_list>
+<qds:standard_code_list>247042 </qds:standard_code_list>
+<qds:standard_code_list>247047 </qds:standard_code_list>
+<qds:standard_code_list>247048 </qds:standard_code_list>
+<qds:standard_code_list>247551 </qds:standard_code_list>
+<qds:standard_code_list>247691 </qds:standard_code_list>
+<qds:standard_code_list>249853 </qds:standard_code_list>
+<qds:standard_code_list>250648 </qds:standard_code_list>
+<qds:standard_code_list>252559 </qds:standard_code_list>
+<qds:standard_code_list>252972 </qds:standard_code_list>
+<qds:standard_code_list>308580 </qds:standard_code_list>
+<qds:standard_code_list>308581 </qds:standard_code_list>
+<qds:standard_code_list>308582 </qds:standard_code_list>
+<qds:standard_code_list>308583 </qds:standard_code_list>
+<qds:standard_code_list>308817 </qds:standard_code_list>
+<qds:standard_code_list>311754 </qds:standard_code_list>
+<qds:standard_code_list>313458 </qds:standard_code_list>
+<qds:standard_code_list>313461 </qds:standard_code_list>
+<qds:standard_code_list>313882 </qds:standard_code_list>
+<qds:standard_code_list>349094 </qds:standard_code_list>
+<qds:standard_code_list>350713 </qds:standard_code_list>
+<qds:standard_code_list>351109 </qds:standard_code_list>
+<qds:standard_code_list>387015 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>582486 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>603778 </qds:standard_code_list>
+<qds:standard_code_list>617268 </qds:standard_code_list>
+<qds:standard_code_list>617270 </qds:standard_code_list>
+<qds:standard_code_list>644548 </qds:standard_code_list>
+<qds:standard_code_list>692475 </qds:standard_code_list>
+<qds:standard_code_list>692477 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>746191 </qds:standard_code_list>
+<qds:standard_code_list>746199 </qds:standard_code_list>
+<qds:standard_code_list>746218 </qds:standard_code_list>
+<qds:standard_code_list>746451 </qds:standard_code_list>
+<qds:standard_code_list>746452 </qds:standard_code_list>
+<qds:standard_code_list>746455 </qds:standard_code_list>
+<qds:standard_code_list>746460 </qds:standard_code_list>
+<qds:standard_code_list>746803 </qds:standard_code_list>
+<qds:standard_code_list>746810 </qds:standard_code_list>
+<qds:standard_code_list>746812 </qds:standard_code_list>
+<qds:standard_code_list>746814 </qds:standard_code_list>
+<qds:standard_code_list>746821 </qds:standard_code_list>
+<qds:standard_code_list>746825 </qds:standard_code_list>
+<qds:standard_code_list>746828 </qds:standard_code_list>
+<qds:standard_code_list>746830 </qds:standard_code_list>
+<qds:standard_code_list>746832 </qds:standard_code_list>
+<qds:standard_code_list>748625 </qds:standard_code_list>
+<qds:standard_code_list>752369 </qds:standard_code_list>
+<qds:standard_code_list>752372 </qds:standard_code_list>
+<qds:standard_code_list>752376 </qds:standard_code_list>
+<qds:standard_code_list>790278 </qds:standard_code_list>
+<qds:standard_code_list>790283 </qds:standard_code_list>
+<qds:standard_code_list>792945 </qds:standard_code_list>
+<qds:standard_code_list>828927 </qds:standard_code_list>
+<qds:standard_code_list>828930 </qds:standard_code_list>
+<qds:standard_code_list>833245 </qds:standard_code_list>
+<qds:standard_code_list>844426 </qds:standard_code_list>
+<qds:standard_code_list>895968 </qds:standard_code_list>
+<qds:standard_code_list>895994 </qds:standard_code_list>
+<qds:standard_code_list>895999 </qds:standard_code_list>
+<qds:standard_code_list>896004 </qds:standard_code_list>
+<qds:standard_code_list>896008 </qds:standard_code_list>
+<qds:standard_code_list>896010 </qds:standard_code_list>
+<qds:standard_code_list>896012 </qds:standard_code_list>
+<qds:standard_code_list>896018 </qds:standard_code_list>
+<qds:standard_code_list>896021 </qds:standard_code_list>
+<qds:standard_code_list>896025 </qds:standard_code_list>
+<qds:standard_code_list>896028 </qds:standard_code_list>
+<qds:standard_code_list>896030 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272 </qds:standard_code_list>
+<qds:standard_code_list>896294 </qds:standard_code_list>
+<qds:standard_code_list>896300 </qds:standard_code_list>
+<qds:standard_code_list>896321 </qds:standard_code_list>
+<qds:standard_code_list>896324</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_784">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_784</qds:QDS_id>
+<qds:standard_concept>Inhaled corticosteroids</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c299</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104568 </qds:standard_code_list>
+<qds:standard_code_list>141917 </qds:standard_code_list>
+<qds:standard_code_list>150807 </qds:standard_code_list>
+<qds:standard_code_list>150810 </qds:standard_code_list>
+<qds:standard_code_list>152594 </qds:standard_code_list>
+<qds:standard_code_list>152680 </qds:standard_code_list>
+<qds:standard_code_list>197704 </qds:standard_code_list>
+<qds:standard_code_list>199532 </qds:standard_code_list>
+<qds:standard_code_list>226937 </qds:standard_code_list>
+<qds:standard_code_list>226938 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>245785 </qds:standard_code_list>
+<qds:standard_code_list>247042 </qds:standard_code_list>
+<qds:standard_code_list>247047 </qds:standard_code_list>
+<qds:standard_code_list>247048 </qds:standard_code_list>
+<qds:standard_code_list>247551 </qds:standard_code_list>
+<qds:standard_code_list>247691 </qds:standard_code_list>
+<qds:standard_code_list>249853 </qds:standard_code_list>
+<qds:standard_code_list>250648 </qds:standard_code_list>
+<qds:standard_code_list>252559 </qds:standard_code_list>
+<qds:standard_code_list>252972 </qds:standard_code_list>
+<qds:standard_code_list>308580 </qds:standard_code_list>
+<qds:standard_code_list>308581 </qds:standard_code_list>
+<qds:standard_code_list>308582 </qds:standard_code_list>
+<qds:standard_code_list>308583 </qds:standard_code_list>
+<qds:standard_code_list>308817 </qds:standard_code_list>
+<qds:standard_code_list>311754 </qds:standard_code_list>
+<qds:standard_code_list>313458 </qds:standard_code_list>
+<qds:standard_code_list>313461 </qds:standard_code_list>
+<qds:standard_code_list>313882 </qds:standard_code_list>
+<qds:standard_code_list>349094 </qds:standard_code_list>
+<qds:standard_code_list>350713 </qds:standard_code_list>
+<qds:standard_code_list>351109 </qds:standard_code_list>
+<qds:standard_code_list>387015 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>582486 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>603778 </qds:standard_code_list>
+<qds:standard_code_list>617268 </qds:standard_code_list>
+<qds:standard_code_list>617270 </qds:standard_code_list>
+<qds:standard_code_list>644548 </qds:standard_code_list>
+<qds:standard_code_list>692475 </qds:standard_code_list>
+<qds:standard_code_list>692477 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>746191 </qds:standard_code_list>
+<qds:standard_code_list>746199 </qds:standard_code_list>
+<qds:standard_code_list>746218 </qds:standard_code_list>
+<qds:standard_code_list>746451 </qds:standard_code_list>
+<qds:standard_code_list>746452 </qds:standard_code_list>
+<qds:standard_code_list>746455 </qds:standard_code_list>
+<qds:standard_code_list>746460 </qds:standard_code_list>
+<qds:standard_code_list>746803 </qds:standard_code_list>
+<qds:standard_code_list>746810 </qds:standard_code_list>
+<qds:standard_code_list>746812 </qds:standard_code_list>
+<qds:standard_code_list>746814 </qds:standard_code_list>
+<qds:standard_code_list>746821 </qds:standard_code_list>
+<qds:standard_code_list>746825 </qds:standard_code_list>
+<qds:standard_code_list>746828 </qds:standard_code_list>
+<qds:standard_code_list>746830 </qds:standard_code_list>
+<qds:standard_code_list>746832 </qds:standard_code_list>
+<qds:standard_code_list>748625 </qds:standard_code_list>
+<qds:standard_code_list>752369 </qds:standard_code_list>
+<qds:standard_code_list>752372 </qds:standard_code_list>
+<qds:standard_code_list>752376 </qds:standard_code_list>
+<qds:standard_code_list>790278 </qds:standard_code_list>
+<qds:standard_code_list>790283 </qds:standard_code_list>
+<qds:standard_code_list>792945 </qds:standard_code_list>
+<qds:standard_code_list>828927 </qds:standard_code_list>
+<qds:standard_code_list>828930 </qds:standard_code_list>
+<qds:standard_code_list>833245 </qds:standard_code_list>
+<qds:standard_code_list>844426 </qds:standard_code_list>
+<qds:standard_code_list>895968 </qds:standard_code_list>
+<qds:standard_code_list>895994 </qds:standard_code_list>
+<qds:standard_code_list>895999 </qds:standard_code_list>
+<qds:standard_code_list>896004 </qds:standard_code_list>
+<qds:standard_code_list>896008 </qds:standard_code_list>
+<qds:standard_code_list>896010 </qds:standard_code_list>
+<qds:standard_code_list>896012 </qds:standard_code_list>
+<qds:standard_code_list>896018 </qds:standard_code_list>
+<qds:standard_code_list>896021 </qds:standard_code_list>
+<qds:standard_code_list>896025 </qds:standard_code_list>
+<qds:standard_code_list>896028 </qds:standard_code_list>
+<qds:standard_code_list>896030 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272 </qds:standard_code_list>
+<qds:standard_code_list>896294 </qds:standard_code_list>
+<qds:standard_code_list>896300 </qds:standard_code_list>
+<qds:standard_code_list>896321 </qds:standard_code_list>
+<qds:standard_code_list>896324</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2126">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2126</qds:QDS_id>
+<qds:standard_concept>Inhaled steroid combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c298</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2127">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2127</qds:QDS_id>
+<qds:standard_concept>Inhaled steroid combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c298</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_785">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_785</qds:QDS_id>
+<qds:standard_concept>Inhaled steroid combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c298</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2134">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2134</qds:QDS_id>
+<qds:standard_concept>Leukotriene inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c300</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199655 </qds:standard_code_list>
+<qds:standard_code_list>199904 </qds:standard_code_list>
+<qds:standard_code_list>200224 </qds:standard_code_list>
+<qds:standard_code_list>242438 </qds:standard_code_list>
+<qds:standard_code_list>311759 </qds:standard_code_list>
+<qds:standard_code_list>313758 </qds:standard_code_list>
+<qds:standard_code_list>351246 </qds:standard_code_list>
+<qds:standard_code_list>391880 </qds:standard_code_list>
+<qds:standard_code_list>392072 </qds:standard_code_list>
+<qds:standard_code_list>723848 </qds:standard_code_list>
+<qds:standard_code_list>730834</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2135">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2135</qds:QDS_id>
+<qds:standard_concept>Leukotriene inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c300</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199655 </qds:standard_code_list>
+<qds:standard_code_list>199904 </qds:standard_code_list>
+<qds:standard_code_list>200224 </qds:standard_code_list>
+<qds:standard_code_list>242438 </qds:standard_code_list>
+<qds:standard_code_list>311759 </qds:standard_code_list>
+<qds:standard_code_list>313758 </qds:standard_code_list>
+<qds:standard_code_list>351246 </qds:standard_code_list>
+<qds:standard_code_list>391880 </qds:standard_code_list>
+<qds:standard_code_list>392072 </qds:standard_code_list>
+<qds:standard_code_list>723848 </qds:standard_code_list>
+<qds:standard_code_list>730834</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_786">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_786</qds:QDS_id>
+<qds:standard_concept>Leukotriene inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c300</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199655 </qds:standard_code_list>
+<qds:standard_code_list>199904 </qds:standard_code_list>
+<qds:standard_code_list>200224 </qds:standard_code_list>
+<qds:standard_code_list>242438 </qds:standard_code_list>
+<qds:standard_code_list>311759 </qds:standard_code_list>
+<qds:standard_code_list>313758 </qds:standard_code_list>
+<qds:standard_code_list>351246 </qds:standard_code_list>
+<qds:standard_code_list>391880 </qds:standard_code_list>
+<qds:standard_code_list>392072 </qds:standard_code_list>
+<qds:standard_code_list>723848 </qds:standard_code_list>
+<qds:standard_code_list>730834</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2136">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2136</qds:QDS_id>
+<qds:standard_concept>Long acting inhaled beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c301</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>251366 </qds:standard_code_list>
+<qds:standard_code_list>312897 </qds:standard_code_list>
+<qds:standard_code_list>318142 </qds:standard_code_list>
+<qds:standard_code_list>349154 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>728211 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>866044 </qds:standard_code_list>
+<qds:standard_code_list>866048 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2137">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2137</qds:QDS_id>
+<qds:standard_concept>Long acting inhaled beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c301</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>251366 </qds:standard_code_list>
+<qds:standard_code_list>312897 </qds:standard_code_list>
+<qds:standard_code_list>318142 </qds:standard_code_list>
+<qds:standard_code_list>349154 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>728211 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>866044 </qds:standard_code_list>
+<qds:standard_code_list>866048 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_787">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_787</qds:QDS_id>
+<qds:standard_concept>Long acting inhaled beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c301</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>251366 </qds:standard_code_list>
+<qds:standard_code_list>312897 </qds:standard_code_list>
+<qds:standard_code_list>318142 </qds:standard_code_list>
+<qds:standard_code_list>349154 </qds:standard_code_list>
+<qds:standard_code_list>389134 </qds:standard_code_list>
+<qds:standard_code_list>401958 </qds:standard_code_list>
+<qds:standard_code_list>409732 </qds:standard_code_list>
+<qds:standard_code_list>597829 </qds:standard_code_list>
+<qds:standard_code_list>707365 </qds:standard_code_list>
+<qds:standard_code_list>728211 </qds:standard_code_list>
+<qds:standard_code_list>745798 </qds:standard_code_list>
+<qds:standard_code_list>745803 </qds:standard_code_list>
+<qds:standard_code_list>745807 </qds:standard_code_list>
+<qds:standard_code_list>745812 </qds:standard_code_list>
+<qds:standard_code_list>866044 </qds:standard_code_list>
+<qds:standard_code_list>866048 </qds:standard_code_list>
+<qds:standard_code_list>896161 </qds:standard_code_list>
+<qds:standard_code_list>896174 </qds:standard_code_list>
+<qds:standard_code_list>896184 </qds:standard_code_list>
+<qds:standard_code_list>896186 </qds:standard_code_list>
+<qds:standard_code_list>896192 </qds:standard_code_list>
+<qds:standard_code_list>896209 </qds:standard_code_list>
+<qds:standard_code_list>896218 </qds:standard_code_list>
+<qds:standard_code_list>896225 </qds:standard_code_list>
+<qds:standard_code_list>896228 </qds:standard_code_list>
+<qds:standard_code_list>896231 </qds:standard_code_list>
+<qds:standard_code_list>896236 </qds:standard_code_list>
+<qds:standard_code_list>896239 </qds:standard_code_list>
+<qds:standard_code_list>896244 </qds:standard_code_list>
+<qds:standard_code_list>896267</qds:standard_code_list>
+<qds:standard_code_list>896272</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2138">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2138</qds:QDS_id>
+<qds:standard_concept>Mast Cell stabilizer</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c302</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>247361 </qds:standard_code_list>
+<qds:standard_code_list>247481 </qds:standard_code_list>
+<qds:standard_code_list>309548 </qds:standard_code_list>
+<qds:standard_code_list>562108 </qds:standard_code_list>
+<qds:standard_code_list>746336 </qds:standard_code_list>
+<qds:standard_code_list>746340 </qds:standard_code_list>
+<qds:standard_code_list>746341 </qds:standard_code_list>
+<qds:standard_code_list>746342 </qds:standard_code_list>
+<qds:standard_code_list>748785 </qds:standard_code_list>
+<qds:standard_code_list>830585 </qds:standard_code_list>
+<qds:standard_code_list>831109 </qds:standard_code_list>
+<qds:standard_code_list>831246 </qds:standard_code_list>
+<qds:standard_code_list>831257 </qds:standard_code_list>
+<qds:standard_code_list>831261 </qds:standard_code_list>
+<qds:standard_code_list>831263 </qds:standard_code_list>
+<qds:standard_code_list>831303 </qds:standard_code_list>
+<qds:standard_code_list>831487 </qds:standard_code_list>
+<qds:standard_code_list>849548 </qds:standard_code_list>
+<qds:standard_code_list>885241</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2139">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2139</qds:QDS_id>
+<qds:standard_concept>Mast Cell stabilizer</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c302</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>247361 </qds:standard_code_list>
+<qds:standard_code_list>247481 </qds:standard_code_list>
+<qds:standard_code_list>309548 </qds:standard_code_list>
+<qds:standard_code_list>562108 </qds:standard_code_list>
+<qds:standard_code_list>746336 </qds:standard_code_list>
+<qds:standard_code_list>746340 </qds:standard_code_list>
+<qds:standard_code_list>746341 </qds:standard_code_list>
+<qds:standard_code_list>746342 </qds:standard_code_list>
+<qds:standard_code_list>748785 </qds:standard_code_list>
+<qds:standard_code_list>830585 </qds:standard_code_list>
+<qds:standard_code_list>831109 </qds:standard_code_list>
+<qds:standard_code_list>831246 </qds:standard_code_list>
+<qds:standard_code_list>831257 </qds:standard_code_list>
+<qds:standard_code_list>831261 </qds:standard_code_list>
+<qds:standard_code_list>831263 </qds:standard_code_list>
+<qds:standard_code_list>831303 </qds:standard_code_list>
+<qds:standard_code_list>831487 </qds:standard_code_list>
+<qds:standard_code_list>849548 </qds:standard_code_list>
+<qds:standard_code_list>885241</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_788">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_788</qds:QDS_id>
+<qds:standard_concept>Mast Cell stabilizer</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c302</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>247361 </qds:standard_code_list>
+<qds:standard_code_list>247481 </qds:standard_code_list>
+<qds:standard_code_list>309548 </qds:standard_code_list>
+<qds:standard_code_list>562108 </qds:standard_code_list>
+<qds:standard_code_list>746336 </qds:standard_code_list>
+<qds:standard_code_list>746340 </qds:standard_code_list>
+<qds:standard_code_list>746341 </qds:standard_code_list>
+<qds:standard_code_list>746342 </qds:standard_code_list>
+<qds:standard_code_list>748785 </qds:standard_code_list>
+<qds:standard_code_list>830585 </qds:standard_code_list>
+<qds:standard_code_list>831109 </qds:standard_code_list>
+<qds:standard_code_list>831246 </qds:standard_code_list>
+<qds:standard_code_list>831257 </qds:standard_code_list>
+<qds:standard_code_list>831261 </qds:standard_code_list>
+<qds:standard_code_list>831263 </qds:standard_code_list>
+<qds:standard_code_list>831303 </qds:standard_code_list>
+<qds:standard_code_list>831487 </qds:standard_code_list>
+<qds:standard_code_list>849548 </qds:standard_code_list>
+<qds:standard_code_list>885241</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_772">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_772</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1495">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_1495</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2140">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2140</qds:QDS_id>
+<qds:standard_concept>Methylxanthines</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c303</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104553 </qds:standard_code_list>
+<qds:standard_code_list>108870 </qds:standard_code_list>
+<qds:standard_code_list>197354 </qds:standard_code_list>
+<qds:standard_code_list>197637 </qds:standard_code_list>
+<qds:standard_code_list>197638 </qds:standard_code_list>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198255 </qds:standard_code_list>
+<qds:standard_code_list>198256 </qds:standard_code_list>
+<qds:standard_code_list>198257 </qds:standard_code_list>
+<qds:standard_code_list>198258 </qds:standard_code_list>
+<qds:standard_code_list>198259 </qds:standard_code_list>
+<qds:standard_code_list>198260 </qds:standard_code_list>
+<qds:standard_code_list>198261 </qds:standard_code_list>
+<qds:standard_code_list>198262 </qds:standard_code_list>
+<qds:standard_code_list>198263 </qds:standard_code_list>
+<qds:standard_code_list>198264 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>199809 </qds:standard_code_list>
+<qds:standard_code_list>204403 </qds:standard_code_list>
+<qds:standard_code_list>204683 </qds:standard_code_list>
+<qds:standard_code_list>237178 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>242959 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>243329 </qds:standard_code_list>
+<qds:standard_code_list>245318 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>248333 </qds:standard_code_list>
+<qds:standard_code_list>249984 </qds:standard_code_list>
+<qds:standard_code_list>250604 </qds:standard_code_list>
+<qds:standard_code_list>250799 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>259060 </qds:standard_code_list>
+<qds:standard_code_list>259061 </qds:standard_code_list>
+<qds:standard_code_list>259062 </qds:standard_code_list>
+<qds:standard_code_list>259063 </qds:standard_code_list>
+<qds:standard_code_list>259064 </qds:standard_code_list>
+<qds:standard_code_list>259065 </qds:standard_code_list>
+<qds:standard_code_list>259066 </qds:standard_code_list>
+<qds:standard_code_list>259067 </qds:standard_code_list>
+<qds:standard_code_list>259068 </qds:standard_code_list>
+<qds:standard_code_list>259069 </qds:standard_code_list>
+<qds:standard_code_list>259070 </qds:standard_code_list>
+<qds:standard_code_list>259071 </qds:standard_code_list>
+<qds:standard_code_list>259072 </qds:standard_code_list>
+<qds:standard_code_list>259073 </qds:standard_code_list>
+<qds:standard_code_list>259074 </qds:standard_code_list>
+<qds:standard_code_list>259075 </qds:standard_code_list>
+<qds:standard_code_list>259076 </qds:standard_code_list>
+<qds:standard_code_list>259077 </qds:standard_code_list>
+<qds:standard_code_list>259078 </qds:standard_code_list>
+<qds:standard_code_list>259079 </qds:standard_code_list>
+<qds:standard_code_list>259259 </qds:standard_code_list>
+<qds:standard_code_list>259292 </qds:standard_code_list>
+<qds:standard_code_list>259325 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>308103 </qds:standard_code_list>
+<qds:standard_code_list>308105 </qds:standard_code_list>
+<qds:standard_code_list>308106 </qds:standard_code_list>
+<qds:standard_code_list>308107 </qds:standard_code_list>
+<qds:standard_code_list>308108 </qds:standard_code_list>
+<qds:standard_code_list>308110 </qds:standard_code_list>
+<qds:standard_code_list>308112 </qds:standard_code_list>
+<qds:standard_code_list>308113 </qds:standard_code_list>
+<qds:standard_code_list>308114 </qds:standard_code_list>
+<qds:standard_code_list>308117 </qds:standard_code_list>
+<qds:standard_code_list>308118 </qds:standard_code_list>
+<qds:standard_code_list>308119 </qds:standard_code_list>
+<qds:standard_code_list>308120 </qds:standard_code_list>
+<qds:standard_code_list>308121 </qds:standard_code_list>
+<qds:standard_code_list>310039 </qds:standard_code_list>
+<qds:standard_code_list>310041 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310099 </qds:standard_code_list>
+<qds:standard_code_list>310100 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>313262 </qds:standard_code_list>
+<qds:standard_code_list>313263 </qds:standard_code_list>
+<qds:standard_code_list>313264 </qds:standard_code_list>
+<qds:standard_code_list>313271 </qds:standard_code_list>
+<qds:standard_code_list>313272 </qds:standard_code_list>
+<qds:standard_code_list>313278 </qds:standard_code_list>
+<qds:standard_code_list>313280 </qds:standard_code_list>
+<qds:standard_code_list>313284 </qds:standard_code_list>
+<qds:standard_code_list>313285 </qds:standard_code_list>
+<qds:standard_code_list>313291 </qds:standard_code_list>
+<qds:standard_code_list>313297 </qds:standard_code_list>
+<qds:standard_code_list>313298 </qds:standard_code_list>
+<qds:standard_code_list>313302 </qds:standard_code_list>
+<qds:standard_code_list>313304 </qds:standard_code_list>
+<qds:standard_code_list>313306 </qds:standard_code_list>
+<qds:standard_code_list>313309 </qds:standard_code_list>
+<qds:standard_code_list>313310 </qds:standard_code_list>
+<qds:standard_code_list>313312 </qds:standard_code_list>
+<qds:standard_code_list>313794 </qds:standard_code_list>
+<qds:standard_code_list>313835 </qds:standard_code_list>
+<qds:standard_code_list>313836 </qds:standard_code_list>
+<qds:standard_code_list>313966 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>314240 </qds:standard_code_list>
+<qds:standard_code_list>314241 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>317769 </qds:standard_code_list>
+<qds:standard_code_list>317831 </qds:standard_code_list>
+<qds:standard_code_list>317869 </qds:standard_code_list>
+<qds:standard_code_list>346574 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>348472 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>358343 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>411090 </qds:standard_code_list>
+<qds:standard_code_list>421824 </qds:standard_code_list>
+<qds:standard_code_list>422737 </qds:standard_code_list>
+<qds:standard_code_list>425539 </qds:standard_code_list>
+<qds:standard_code_list>428923 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>428980 </qds:standard_code_list>
+<qds:standard_code_list>431807 </qds:standard_code_list>
+<qds:standard_code_list>433559 </qds:standard_code_list>
+<qds:standard_code_list>434109 </qds:standard_code_list>
+<qds:standard_code_list>434226 </qds:standard_code_list>
+<qds:standard_code_list>484500 </qds:standard_code_list>
+<qds:standard_code_list>484668 </qds:standard_code_list>
+<qds:standard_code_list>562298 </qds:standard_code_list>
+<qds:standard_code_list>562480 </qds:standard_code_list>
+<qds:standard_code_list>562482 </qds:standard_code_list>
+<qds:standard_code_list>562484 </qds:standard_code_list>
+<qds:standard_code_list>686919 </qds:standard_code_list>
+<qds:standard_code_list>701712 </qds:standard_code_list>
+<qds:standard_code_list>706550 </qds:standard_code_list>
+<qds:standard_code_list>727377 </qds:standard_code_list>
+<qds:standard_code_list>755737 </qds:standard_code_list>
+<qds:standard_code_list>755738 </qds:standard_code_list>
+<qds:standard_code_list>755739 </qds:standard_code_list>
+<qds:standard_code_list>755744 </qds:standard_code_list>
+<qds:standard_code_list>756090 </qds:standard_code_list>
+<qds:standard_code_list>756248 </qds:standard_code_list>
+<qds:standard_code_list>756291 </qds:standard_code_list>
+<qds:standard_code_list>756292 </qds:standard_code_list>
+<qds:standard_code_list>756294 </qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311 </qds:standard_code_list>
+<qds:standard_code_list>756346 </qds:standard_code_list>
+<qds:standard_code_list>756347 </qds:standard_code_list>
+<qds:standard_code_list>833038</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2141">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2141</qds:QDS_id>
+<qds:standard_concept>Methylxanthines</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c303</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104553 </qds:standard_code_list>
+<qds:standard_code_list>108870 </qds:standard_code_list>
+<qds:standard_code_list>197354 </qds:standard_code_list>
+<qds:standard_code_list>197637 </qds:standard_code_list>
+<qds:standard_code_list>197638 </qds:standard_code_list>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198255 </qds:standard_code_list>
+<qds:standard_code_list>198256 </qds:standard_code_list>
+<qds:standard_code_list>198257 </qds:standard_code_list>
+<qds:standard_code_list>198258 </qds:standard_code_list>
+<qds:standard_code_list>198259 </qds:standard_code_list>
+<qds:standard_code_list>198260 </qds:standard_code_list>
+<qds:standard_code_list>198261 </qds:standard_code_list>
+<qds:standard_code_list>198262 </qds:standard_code_list>
+<qds:standard_code_list>198263 </qds:standard_code_list>
+<qds:standard_code_list>198264 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>199809 </qds:standard_code_list>
+<qds:standard_code_list>204403 </qds:standard_code_list>
+<qds:standard_code_list>204683 </qds:standard_code_list>
+<qds:standard_code_list>237178 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>242959 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>243329 </qds:standard_code_list>
+<qds:standard_code_list>245318 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>248333 </qds:standard_code_list>
+<qds:standard_code_list>249984 </qds:standard_code_list>
+<qds:standard_code_list>250604 </qds:standard_code_list>
+<qds:standard_code_list>250799 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>259060 </qds:standard_code_list>
+<qds:standard_code_list>259061 </qds:standard_code_list>
+<qds:standard_code_list>259062 </qds:standard_code_list>
+<qds:standard_code_list>259063 </qds:standard_code_list>
+<qds:standard_code_list>259064 </qds:standard_code_list>
+<qds:standard_code_list>259065 </qds:standard_code_list>
+<qds:standard_code_list>259066 </qds:standard_code_list>
+<qds:standard_code_list>259067 </qds:standard_code_list>
+<qds:standard_code_list>259068 </qds:standard_code_list>
+<qds:standard_code_list>259069 </qds:standard_code_list>
+<qds:standard_code_list>259070 </qds:standard_code_list>
+<qds:standard_code_list>259071 </qds:standard_code_list>
+<qds:standard_code_list>259072 </qds:standard_code_list>
+<qds:standard_code_list>259073 </qds:standard_code_list>
+<qds:standard_code_list>259074 </qds:standard_code_list>
+<qds:standard_code_list>259075 </qds:standard_code_list>
+<qds:standard_code_list>259076 </qds:standard_code_list>
+<qds:standard_code_list>259077 </qds:standard_code_list>
+<qds:standard_code_list>259078 </qds:standard_code_list>
+<qds:standard_code_list>259079 </qds:standard_code_list>
+<qds:standard_code_list>259259 </qds:standard_code_list>
+<qds:standard_code_list>259292 </qds:standard_code_list>
+<qds:standard_code_list>259325 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>308103 </qds:standard_code_list>
+<qds:standard_code_list>308105 </qds:standard_code_list>
+<qds:standard_code_list>308106 </qds:standard_code_list>
+<qds:standard_code_list>308107 </qds:standard_code_list>
+<qds:standard_code_list>308108 </qds:standard_code_list>
+<qds:standard_code_list>308110 </qds:standard_code_list>
+<qds:standard_code_list>308112 </qds:standard_code_list>
+<qds:standard_code_list>308113 </qds:standard_code_list>
+<qds:standard_code_list>308114 </qds:standard_code_list>
+<qds:standard_code_list>308117 </qds:standard_code_list>
+<qds:standard_code_list>308118 </qds:standard_code_list>
+<qds:standard_code_list>308119 </qds:standard_code_list>
+<qds:standard_code_list>308120 </qds:standard_code_list>
+<qds:standard_code_list>308121 </qds:standard_code_list>
+<qds:standard_code_list>310039 </qds:standard_code_list>
+<qds:standard_code_list>310041 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310099 </qds:standard_code_list>
+<qds:standard_code_list>310100 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>313262 </qds:standard_code_list>
+<qds:standard_code_list>313263 </qds:standard_code_list>
+<qds:standard_code_list>313264 </qds:standard_code_list>
+<qds:standard_code_list>313271 </qds:standard_code_list>
+<qds:standard_code_list>313272 </qds:standard_code_list>
+<qds:standard_code_list>313278 </qds:standard_code_list>
+<qds:standard_code_list>313280 </qds:standard_code_list>
+<qds:standard_code_list>313284 </qds:standard_code_list>
+<qds:standard_code_list>313285 </qds:standard_code_list>
+<qds:standard_code_list>313291 </qds:standard_code_list>
+<qds:standard_code_list>313297 </qds:standard_code_list>
+<qds:standard_code_list>313298 </qds:standard_code_list>
+<qds:standard_code_list>313302 </qds:standard_code_list>
+<qds:standard_code_list>313304 </qds:standard_code_list>
+<qds:standard_code_list>313306 </qds:standard_code_list>
+<qds:standard_code_list>313309 </qds:standard_code_list>
+<qds:standard_code_list>313310 </qds:standard_code_list>
+<qds:standard_code_list>313312 </qds:standard_code_list>
+<qds:standard_code_list>313794 </qds:standard_code_list>
+<qds:standard_code_list>313835 </qds:standard_code_list>
+<qds:standard_code_list>313836 </qds:standard_code_list>
+<qds:standard_code_list>313966 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>314240 </qds:standard_code_list>
+<qds:standard_code_list>314241 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>317769 </qds:standard_code_list>
+<qds:standard_code_list>317831 </qds:standard_code_list>
+<qds:standard_code_list>317869 </qds:standard_code_list>
+<qds:standard_code_list>346574 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>348472 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>358343 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>411090 </qds:standard_code_list>
+<qds:standard_code_list>421824 </qds:standard_code_list>
+<qds:standard_code_list>422737 </qds:standard_code_list>
+<qds:standard_code_list>425539 </qds:standard_code_list>
+<qds:standard_code_list>428923 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>428980 </qds:standard_code_list>
+<qds:standard_code_list>431807 </qds:standard_code_list>
+<qds:standard_code_list>433559 </qds:standard_code_list>
+<qds:standard_code_list>434109 </qds:standard_code_list>
+<qds:standard_code_list>434226 </qds:standard_code_list>
+<qds:standard_code_list>484500 </qds:standard_code_list>
+<qds:standard_code_list>484668 </qds:standard_code_list>
+<qds:standard_code_list>562298 </qds:standard_code_list>
+<qds:standard_code_list>562480 </qds:standard_code_list>
+<qds:standard_code_list>562482 </qds:standard_code_list>
+<qds:standard_code_list>562484 </qds:standard_code_list>
+<qds:standard_code_list>686919 </qds:standard_code_list>
+<qds:standard_code_list>701712 </qds:standard_code_list>
+<qds:standard_code_list>706550 </qds:standard_code_list>
+<qds:standard_code_list>727377 </qds:standard_code_list>
+<qds:standard_code_list>755737 </qds:standard_code_list>
+<qds:standard_code_list>755738 </qds:standard_code_list>
+<qds:standard_code_list>755739 </qds:standard_code_list>
+<qds:standard_code_list>755744 </qds:standard_code_list>
+<qds:standard_code_list>756090 </qds:standard_code_list>
+<qds:standard_code_list>756248 </qds:standard_code_list>
+<qds:standard_code_list>756291 </qds:standard_code_list>
+<qds:standard_code_list>756292 </qds:standard_code_list>
+<qds:standard_code_list>756294 </qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311 </qds:standard_code_list>
+<qds:standard_code_list>756346 </qds:standard_code_list>
+<qds:standard_code_list>756347 </qds:standard_code_list>
+<qds:standard_code_list>833038</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_789">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_789</qds:QDS_id>
+<qds:standard_concept>Methylxanthines</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c303</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>104553 </qds:standard_code_list>
+<qds:standard_code_list>108870 </qds:standard_code_list>
+<qds:standard_code_list>197354 </qds:standard_code_list>
+<qds:standard_code_list>197637 </qds:standard_code_list>
+<qds:standard_code_list>197638 </qds:standard_code_list>
+<qds:standard_code_list>197639 </qds:standard_code_list>
+<qds:standard_code_list>198255 </qds:standard_code_list>
+<qds:standard_code_list>198256 </qds:standard_code_list>
+<qds:standard_code_list>198257 </qds:standard_code_list>
+<qds:standard_code_list>198258 </qds:standard_code_list>
+<qds:standard_code_list>198259 </qds:standard_code_list>
+<qds:standard_code_list>198260 </qds:standard_code_list>
+<qds:standard_code_list>198261 </qds:standard_code_list>
+<qds:standard_code_list>198262 </qds:standard_code_list>
+<qds:standard_code_list>198263 </qds:standard_code_list>
+<qds:standard_code_list>198264 </qds:standard_code_list>
+<qds:standard_code_list>198266 </qds:standard_code_list>
+<qds:standard_code_list>198267 </qds:standard_code_list>
+<qds:standard_code_list>199809 </qds:standard_code_list>
+<qds:standard_code_list>204403 </qds:standard_code_list>
+<qds:standard_code_list>204683 </qds:standard_code_list>
+<qds:standard_code_list>237178 </qds:standard_code_list>
+<qds:standard_code_list>241063 </qds:standard_code_list>
+<qds:standard_code_list>242959 </qds:standard_code_list>
+<qds:standard_code_list>243324 </qds:standard_code_list>
+<qds:standard_code_list>243325 </qds:standard_code_list>
+<qds:standard_code_list>243327 </qds:standard_code_list>
+<qds:standard_code_list>243329 </qds:standard_code_list>
+<qds:standard_code_list>245318 </qds:standard_code_list>
+<qds:standard_code_list>246453 </qds:standard_code_list>
+<qds:standard_code_list>248333 </qds:standard_code_list>
+<qds:standard_code_list>249984 </qds:standard_code_list>
+<qds:standard_code_list>250604 </qds:standard_code_list>
+<qds:standard_code_list>250799 </qds:standard_code_list>
+<qds:standard_code_list>251963 </qds:standard_code_list>
+<qds:standard_code_list>259060 </qds:standard_code_list>
+<qds:standard_code_list>259061 </qds:standard_code_list>
+<qds:standard_code_list>259062 </qds:standard_code_list>
+<qds:standard_code_list>259063 </qds:standard_code_list>
+<qds:standard_code_list>259064 </qds:standard_code_list>
+<qds:standard_code_list>259065 </qds:standard_code_list>
+<qds:standard_code_list>259066 </qds:standard_code_list>
+<qds:standard_code_list>259067 </qds:standard_code_list>
+<qds:standard_code_list>259068 </qds:standard_code_list>
+<qds:standard_code_list>259069 </qds:standard_code_list>
+<qds:standard_code_list>259070 </qds:standard_code_list>
+<qds:standard_code_list>259071 </qds:standard_code_list>
+<qds:standard_code_list>259072 </qds:standard_code_list>
+<qds:standard_code_list>259073 </qds:standard_code_list>
+<qds:standard_code_list>259074 </qds:standard_code_list>
+<qds:standard_code_list>259075 </qds:standard_code_list>
+<qds:standard_code_list>259076 </qds:standard_code_list>
+<qds:standard_code_list>259077 </qds:standard_code_list>
+<qds:standard_code_list>259078 </qds:standard_code_list>
+<qds:standard_code_list>259079 </qds:standard_code_list>
+<qds:standard_code_list>259259 </qds:standard_code_list>
+<qds:standard_code_list>259292 </qds:standard_code_list>
+<qds:standard_code_list>259325 </qds:standard_code_list>
+<qds:standard_code_list>260063 </qds:standard_code_list>
+<qds:standard_code_list>283239 </qds:standard_code_list>
+<qds:standard_code_list>308103 </qds:standard_code_list>
+<qds:standard_code_list>308105 </qds:standard_code_list>
+<qds:standard_code_list>308106 </qds:standard_code_list>
+<qds:standard_code_list>308107 </qds:standard_code_list>
+<qds:standard_code_list>308108 </qds:standard_code_list>
+<qds:standard_code_list>308110 </qds:standard_code_list>
+<qds:standard_code_list>308112 </qds:standard_code_list>
+<qds:standard_code_list>308113 </qds:standard_code_list>
+<qds:standard_code_list>308114 </qds:standard_code_list>
+<qds:standard_code_list>308117 </qds:standard_code_list>
+<qds:standard_code_list>308118 </qds:standard_code_list>
+<qds:standard_code_list>308119 </qds:standard_code_list>
+<qds:standard_code_list>308120 </qds:standard_code_list>
+<qds:standard_code_list>308121 </qds:standard_code_list>
+<qds:standard_code_list>310039 </qds:standard_code_list>
+<qds:standard_code_list>310041 </qds:standard_code_list>
+<qds:standard_code_list>310043 </qds:standard_code_list>
+<qds:standard_code_list>310045 </qds:standard_code_list>
+<qds:standard_code_list>310096 </qds:standard_code_list>
+<qds:standard_code_list>310097 </qds:standard_code_list>
+<qds:standard_code_list>310099 </qds:standard_code_list>
+<qds:standard_code_list>310100 </qds:standard_code_list>
+<qds:standard_code_list>310616 </qds:standard_code_list>
+<qds:standard_code_list>310658 </qds:standard_code_list>
+<qds:standard_code_list>313262 </qds:standard_code_list>
+<qds:standard_code_list>313263 </qds:standard_code_list>
+<qds:standard_code_list>313264 </qds:standard_code_list>
+<qds:standard_code_list>313271 </qds:standard_code_list>
+<qds:standard_code_list>313272 </qds:standard_code_list>
+<qds:standard_code_list>313278 </qds:standard_code_list>
+<qds:standard_code_list>313280 </qds:standard_code_list>
+<qds:standard_code_list>313284 </qds:standard_code_list>
+<qds:standard_code_list>313285 </qds:standard_code_list>
+<qds:standard_code_list>313291 </qds:standard_code_list>
+<qds:standard_code_list>313297 </qds:standard_code_list>
+<qds:standard_code_list>313298 </qds:standard_code_list>
+<qds:standard_code_list>313302 </qds:standard_code_list>
+<qds:standard_code_list>313304 </qds:standard_code_list>
+<qds:standard_code_list>313306 </qds:standard_code_list>
+<qds:standard_code_list>313309 </qds:standard_code_list>
+<qds:standard_code_list>313310 </qds:standard_code_list>
+<qds:standard_code_list>313312 </qds:standard_code_list>
+<qds:standard_code_list>313794 </qds:standard_code_list>
+<qds:standard_code_list>313835 </qds:standard_code_list>
+<qds:standard_code_list>313836 </qds:standard_code_list>
+<qds:standard_code_list>313966 </qds:standard_code_list>
+<qds:standard_code_list>314004 </qds:standard_code_list>
+<qds:standard_code_list>314240 </qds:standard_code_list>
+<qds:standard_code_list>314241 </qds:standard_code_list>
+<qds:standard_code_list>315111 </qds:standard_code_list>
+<qds:standard_code_list>317769 </qds:standard_code_list>
+<qds:standard_code_list>317831 </qds:standard_code_list>
+<qds:standard_code_list>317869 </qds:standard_code_list>
+<qds:standard_code_list>346574 </qds:standard_code_list>
+<qds:standard_code_list>346733 </qds:standard_code_list>
+<qds:standard_code_list>348472 </qds:standard_code_list>
+<qds:standard_code_list>349386 </qds:standard_code_list>
+<qds:standard_code_list>349629 </qds:standard_code_list>
+<qds:standard_code_list>358343 </qds:standard_code_list>
+<qds:standard_code_list>359468 </qds:standard_code_list>
+<qds:standard_code_list>388681 </qds:standard_code_list>
+<qds:standard_code_list>411090 </qds:standard_code_list>
+<qds:standard_code_list>421824 </qds:standard_code_list>
+<qds:standard_code_list>422737 </qds:standard_code_list>
+<qds:standard_code_list>425539 </qds:standard_code_list>
+<qds:standard_code_list>428923 </qds:standard_code_list>
+<qds:standard_code_list>428925 </qds:standard_code_list>
+<qds:standard_code_list>428980 </qds:standard_code_list>
+<qds:standard_code_list>431807 </qds:standard_code_list>
+<qds:standard_code_list>433559 </qds:standard_code_list>
+<qds:standard_code_list>434109 </qds:standard_code_list>
+<qds:standard_code_list>434226 </qds:standard_code_list>
+<qds:standard_code_list>484500 </qds:standard_code_list>
+<qds:standard_code_list>484668 </qds:standard_code_list>
+<qds:standard_code_list>562298 </qds:standard_code_list>
+<qds:standard_code_list>562480 </qds:standard_code_list>
+<qds:standard_code_list>562482 </qds:standard_code_list>
+<qds:standard_code_list>562484 </qds:standard_code_list>
+<qds:standard_code_list>686919 </qds:standard_code_list>
+<qds:standard_code_list>701712 </qds:standard_code_list>
+<qds:standard_code_list>706550 </qds:standard_code_list>
+<qds:standard_code_list>727377 </qds:standard_code_list>
+<qds:standard_code_list>755737 </qds:standard_code_list>
+<qds:standard_code_list>755738 </qds:standard_code_list>
+<qds:standard_code_list>755739 </qds:standard_code_list>
+<qds:standard_code_list>755744 </qds:standard_code_list>
+<qds:standard_code_list>756090 </qds:standard_code_list>
+<qds:standard_code_list>756248 </qds:standard_code_list>
+<qds:standard_code_list>756291 </qds:standard_code_list>
+<qds:standard_code_list>756292 </qds:standard_code_list>
+<qds:standard_code_list>756294 </qds:standard_code_list>
+<qds:standard_code_list>756306 </qds:standard_code_list>
+<qds:standard_code_list>756311 </qds:standard_code_list>
+<qds:standard_code_list>756346 </qds:standard_code_list>
+<qds:standard_code_list>756347 </qds:standard_code_list>
+<qds:standard_code_list>833038</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2142">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2142</qds:QDS_id>
+<qds:standard_concept>Short acting beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c304</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>103987 </qds:standard_code_list>
+<qds:standard_code_list>104514 </qds:standard_code_list>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>108889 </qds:standard_code_list>
+<qds:standard_code_list>153741 </qds:standard_code_list>
+<qds:standard_code_list>153742 </qds:standard_code_list>
+<qds:standard_code_list>197316 </qds:standard_code_list>
+<qds:standard_code_list>197318 </qds:standard_code_list>
+<qds:standard_code_list>197933 </qds:standard_code_list>
+<qds:standard_code_list>197934 </qds:standard_code_list>
+<qds:standard_code_list>198106 </qds:standard_code_list>
+<qds:standard_code_list>199924 </qds:standard_code_list>
+<qds:standard_code_list>204438 </qds:standard_code_list>
+<qds:standard_code_list>226577 </qds:standard_code_list>
+<qds:standard_code_list>242754 </qds:standard_code_list>
+<qds:standard_code_list>243314 </qds:standard_code_list>
+<qds:standard_code_list>245314 </qds:standard_code_list>
+<qds:standard_code_list>246683 </qds:standard_code_list>
+<qds:standard_code_list>247044 </qds:standard_code_list>
+<qds:standard_code_list>247840 </qds:standard_code_list>
+<qds:standard_code_list>248066 </qds:standard_code_list>
+<qds:standard_code_list>248781 </qds:standard_code_list>
+<qds:standard_code_list>249777 </qds:standard_code_list>
+<qds:standard_code_list>250683 </qds:standard_code_list>
+<qds:standard_code_list>250684 </qds:standard_code_list>
+<qds:standard_code_list>307779 </qds:standard_code_list>
+<qds:standard_code_list>307781 </qds:standard_code_list>
+<qds:standard_code_list>307782 </qds:standard_code_list>
+<qds:standard_code_list>311286 </qds:standard_code_list>
+<qds:standard_code_list>311562 </qds:standard_code_list>
+<qds:standard_code_list>311563 </qds:standard_code_list>
+<qds:standard_code_list>311564 </qds:standard_code_list>
+<qds:standard_code_list>311566 </qds:standard_code_list>
+<qds:standard_code_list>311567 </qds:standard_code_list>
+<qds:standard_code_list>312458 </qds:standard_code_list>
+<qds:standard_code_list>313813 </qds:standard_code_list>
+<qds:standard_code_list>349590 </qds:standard_code_list>
+<qds:standard_code_list>351136 </qds:standard_code_list>
+<qds:standard_code_list>351137 </qds:standard_code_list>
+<qds:standard_code_list>358992 </qds:standard_code_list>
+<qds:standard_code_list>359144 </qds:standard_code_list>
+<qds:standard_code_list>359145 </qds:standard_code_list>
+<qds:standard_code_list>386998 </qds:standard_code_list>
+<qds:standard_code_list>392321 </qds:standard_code_list>
+<qds:standard_code_list>582498 </qds:standard_code_list>
+<qds:standard_code_list>597908 </qds:standard_code_list>
+<qds:standard_code_list>630208 </qds:standard_code_list>
+<qds:standard_code_list>702262 </qds:standard_code_list>
+<qds:standard_code_list>745679 </qds:standard_code_list>
+<qds:standard_code_list>745682 </qds:standard_code_list>
+<qds:standard_code_list>745791 </qds:standard_code_list>
+<qds:standard_code_list>755497 </qds:standard_code_list>
+<qds:standard_code_list>801092 </qds:standard_code_list>
+<qds:standard_code_list>801917 </qds:standard_code_list>
+<qds:standard_code_list>801920 </qds:standard_code_list>
+<qds:standard_code_list>801934 </qds:standard_code_list>
+<qds:standard_code_list>833187 </qds:standard_code_list>
+<qds:standard_code_list>835903 </qds:standard_code_list>
+<qds:standard_code_list>836286</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2143">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_2143</qds:QDS_id>
+<qds:standard_concept>Short acting beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c304</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>103987 </qds:standard_code_list>
+<qds:standard_code_list>104514 </qds:standard_code_list>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>108889 </qds:standard_code_list>
+<qds:standard_code_list>153741 </qds:standard_code_list>
+<qds:standard_code_list>153742 </qds:standard_code_list>
+<qds:standard_code_list>197316 </qds:standard_code_list>
+<qds:standard_code_list>197318 </qds:standard_code_list>
+<qds:standard_code_list>197933 </qds:standard_code_list>
+<qds:standard_code_list>197934 </qds:standard_code_list>
+<qds:standard_code_list>198106 </qds:standard_code_list>
+<qds:standard_code_list>199924 </qds:standard_code_list>
+<qds:standard_code_list>204438 </qds:standard_code_list>
+<qds:standard_code_list>226577 </qds:standard_code_list>
+<qds:standard_code_list>242754 </qds:standard_code_list>
+<qds:standard_code_list>243314 </qds:standard_code_list>
+<qds:standard_code_list>245314 </qds:standard_code_list>
+<qds:standard_code_list>246683 </qds:standard_code_list>
+<qds:standard_code_list>247044 </qds:standard_code_list>
+<qds:standard_code_list>247840 </qds:standard_code_list>
+<qds:standard_code_list>248066 </qds:standard_code_list>
+<qds:standard_code_list>248781 </qds:standard_code_list>
+<qds:standard_code_list>249777 </qds:standard_code_list>
+<qds:standard_code_list>250683 </qds:standard_code_list>
+<qds:standard_code_list>250684 </qds:standard_code_list>
+<qds:standard_code_list>307779 </qds:standard_code_list>
+<qds:standard_code_list>307781 </qds:standard_code_list>
+<qds:standard_code_list>307782 </qds:standard_code_list>
+<qds:standard_code_list>311286 </qds:standard_code_list>
+<qds:standard_code_list>311562 </qds:standard_code_list>
+<qds:standard_code_list>311563 </qds:standard_code_list>
+<qds:standard_code_list>311564 </qds:standard_code_list>
+<qds:standard_code_list>311566 </qds:standard_code_list>
+<qds:standard_code_list>311567 </qds:standard_code_list>
+<qds:standard_code_list>312458 </qds:standard_code_list>
+<qds:standard_code_list>313813 </qds:standard_code_list>
+<qds:standard_code_list>349590 </qds:standard_code_list>
+<qds:standard_code_list>351136 </qds:standard_code_list>
+<qds:standard_code_list>351137 </qds:standard_code_list>
+<qds:standard_code_list>358992 </qds:standard_code_list>
+<qds:standard_code_list>359144 </qds:standard_code_list>
+<qds:standard_code_list>359145 </qds:standard_code_list>
+<qds:standard_code_list>386998 </qds:standard_code_list>
+<qds:standard_code_list>392321 </qds:standard_code_list>
+<qds:standard_code_list>582498 </qds:standard_code_list>
+<qds:standard_code_list>597908 </qds:standard_code_list>
+<qds:standard_code_list>630208 </qds:standard_code_list>
+<qds:standard_code_list>702262 </qds:standard_code_list>
+<qds:standard_code_list>745679 </qds:standard_code_list>
+<qds:standard_code_list>745682 </qds:standard_code_list>
+<qds:standard_code_list>745791 </qds:standard_code_list>
+<qds:standard_code_list>755497 </qds:standard_code_list>
+<qds:standard_code_list>801092 </qds:standard_code_list>
+<qds:standard_code_list>801917 </qds:standard_code_list>
+<qds:standard_code_list>801920 </qds:standard_code_list>
+<qds:standard_code_list>801934 </qds:standard_code_list>
+<qds:standard_code_list>833187 </qds:standard_code_list>
+<qds:standard_code_list>835903 </qds:standard_code_list>
+<qds:standard_code_list>836286</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_790">
+<qds:NQF_id>0036</qds:NQF_id>
+<qds:measure_name>Use of Appropriate Medications for Asthma</qds:measure_name>
+<qds:QDS_id>N_790</qds:QDS_id>
+<qds:standard_concept>Short acting beta 2 agonist</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c304</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>103987 </qds:standard_code_list>
+<qds:standard_code_list>104514 </qds:standard_code_list>
+<qds:standard_code_list>104582 </qds:standard_code_list>
+<qds:standard_code_list>108889 </qds:standard_code_list>
+<qds:standard_code_list>153741 </qds:standard_code_list>
+<qds:standard_code_list>153742 </qds:standard_code_list>
+<qds:standard_code_list>197316 </qds:standard_code_list>
+<qds:standard_code_list>197318 </qds:standard_code_list>
+<qds:standard_code_list>197933 </qds:standard_code_list>
+<qds:standard_code_list>197934 </qds:standard_code_list>
+<qds:standard_code_list>198106 </qds:standard_code_list>
+<qds:standard_code_list>199924 </qds:standard_code_list>
+<qds:standard_code_list>204438 </qds:standard_code_list>
+<qds:standard_code_list>226577 </qds:standard_code_list>
+<qds:standard_code_list>242754 </qds:standard_code_list>
+<qds:standard_code_list>243314 </qds:standard_code_list>
+<qds:standard_code_list>245314 </qds:standard_code_list>
+<qds:standard_code_list>246683 </qds:standard_code_list>
+<qds:standard_code_list>247044 </qds:standard_code_list>
+<qds:standard_code_list>247840 </qds:standard_code_list>
+<qds:standard_code_list>248066 </qds:standard_code_list>
+<qds:standard_code_list>248781 </qds:standard_code_list>
+<qds:standard_code_list>249777 </qds:standard_code_list>
+<qds:standard_code_list>250683 </qds:standard_code_list>
+<qds:standard_code_list>250684 </qds:standard_code_list>
+<qds:standard_code_list>307779 </qds:standard_code_list>
+<qds:standard_code_list>307781 </qds:standard_code_list>
+<qds:standard_code_list>307782 </qds:standard_code_list>
+<qds:standard_code_list>311286 </qds:standard_code_list>
+<qds:standard_code_list>311562 </qds:standard_code_list>
+<qds:standard_code_list>311563 </qds:standard_code_list>
+<qds:standard_code_list>311564 </qds:standard_code_list>
+<qds:standard_code_list>311566 </qds:standard_code_list>
+<qds:standard_code_list>311567 </qds:standard_code_list>
+<qds:standard_code_list>312458 </qds:standard_code_list>
+<qds:standard_code_list>313813 </qds:standard_code_list>
+<qds:standard_code_list>349590 </qds:standard_code_list>
+<qds:standard_code_list>351136 </qds:standard_code_list>
+<qds:standard_code_list>351137 </qds:standard_code_list>
+<qds:standard_code_list>358992 </qds:standard_code_list>
+<qds:standard_code_list>359144 </qds:standard_code_list>
+<qds:standard_code_list>359145 </qds:standard_code_list>
+<qds:standard_code_list>386998 </qds:standard_code_list>
+<qds:standard_code_list>392321 </qds:standard_code_list>
+<qds:standard_code_list>582498 </qds:standard_code_list>
+<qds:standard_code_list>597908 </qds:standard_code_list>
+<qds:standard_code_list>630208 </qds:standard_code_list>
+<qds:standard_code_list>702262 </qds:standard_code_list>
+<qds:standard_code_list>745679 </qds:standard_code_list>
+<qds:standard_code_list>745682 </qds:standard_code_list>
+<qds:standard_code_list>745791 </qds:standard_code_list>
+<qds:standard_code_list>755497 </qds:standard_code_list>
+<qds:standard_code_list>801092 </qds:standard_code_list>
+<qds:standard_code_list>801917 </qds:standard_code_list>
+<qds:standard_code_list>801920 </qds:standard_code_list>
+<qds:standard_code_list>801934 </qds:standard_code_list>
+<qds:standard_code_list>833187 </qds:standard_code_list>
+<qds:standard_code_list>835903 </qds:standard_code_list>
+<qds:standard_code_list>836286</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

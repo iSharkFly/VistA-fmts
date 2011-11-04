@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_118">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_118</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_125">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_125</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2157">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2157</qds:QDS_id>
+<qds:standard_concept>Alph-glucosidas inhibitors</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c50</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>199149</qds:standard_code_list>
+<qds:standard_code_list>199150</qds:standard_code_list>
+<qds:standard_code_list>200132</qds:standard_code_list>
+<qds:standard_code_list>205329</qds:standard_code_list>
+<qds:standard_code_list>205330</qds:standard_code_list>
+<qds:standard_code_list>205331</qds:standard_code_list>
+<qds:standard_code_list>401938</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_119">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_119</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_126">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_126</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2158">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2158</qds:QDS_id>
+<qds:standard_concept>Amylin analogs</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c51</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+<qds:standard_code_list>861035</qds:standard_code_list>
+<qds:standard_code_list>861039</qds:standard_code_list>
+<qds:standard_code_list>861042</qds:standard_code_list>
+<qds:standard_code_list>861044</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_122">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_122</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_129">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_129</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2159">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2159</qds:QDS_id>
+<qds:standard_concept>Antidiabetic agents</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c54</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>744863 </qds:standard_code_list>
+<qds:standard_code_list>847910 </qds:standard_code_list>
+<qds:standard_code_list>847915</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2160">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2160</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_760">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_760</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_761">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_761</qds:QDS_id>
+<qds:standard_concept>Antidiabetic-combinations</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c305</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1599">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1599</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1600">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1600</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2161">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2161</qds:QDS_id>
+<qds:standard_concept>Biguanides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c438</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>665033</qds:standard_code_list>
+<qds:standard_code_list>665038</qds:standard_code_list>
+<qds:standard_code_list>665042</qds:standard_code_list>
+<qds:standard_code_list>860975</qds:standard_code_list>
+<qds:standard_code_list>860978</qds:standard_code_list>
+<qds:standard_code_list>860981</qds:standard_code_list>
+<qds:standard_code_list>860984</qds:standard_code_list>
+<qds:standard_code_list>860996</qds:standard_code_list>
+<qds:standard_code_list>860999</qds:standard_code_list>
+<qds:standard_code_list>861004</qds:standard_code_list>
+<qds:standard_code_list>861007</qds:standard_code_list>
+<qds:standard_code_list>861010</qds:standard_code_list>
+<qds:standard_code_list>861021</qds:standard_code_list>
+<qds:standard_code_list>861025</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861769</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861787</qds:standard_code_list>
+<qds:standard_code_list>861790</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861819</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1945">
+<qds:NQF_id>59</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1945</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_115">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_115</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c48</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>31</qds:standard_code_list>
+<qds:standard_code_list>E10.36</qds:standard_code_list>
+<qds:standard_code_list>E11.36</qds:standard_code_list>
+<qds:standard_code_list>E11.9</qds:standard_code_list>
+<qds:standard_code_list>E13</qds:standard_code_list>
+<qds:standard_code_list>E13.32</qds:standard_code_list>
+<qds:standard_code_list>E13.33</qds:standard_code_list>
+<qds:standard_code_list>E13.34</qds:standard_code_list>
+<qds:standard_code_list>E13.35</qds:standard_code_list>
+<qds:standard_code_list>E13.43</qds:standard_code_list>
+<qds:standard_code_list>O24.42</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_116">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_116</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c47</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>250</qds:standard_code_list>
+<qds:standard_code_list>250.0</qds:standard_code_list>
+<qds:standard_code_list>250.00</qds:standard_code_list>
+<qds:standard_code_list>250.01</qds:standard_code_list>
+<qds:standard_code_list>250.02</qds:standard_code_list>
+<qds:standard_code_list>250.03</qds:standard_code_list>
+<qds:standard_code_list>250.10</qds:standard_code_list>
+<qds:standard_code_list>250.11</qds:standard_code_list>
+<qds:standard_code_list>250.12</qds:standard_code_list>
+<qds:standard_code_list>250.13</qds:standard_code_list>
+<qds:standard_code_list>250.20</qds:standard_code_list>
+<qds:standard_code_list>250.21</qds:standard_code_list>
+<qds:standard_code_list>250.22</qds:standard_code_list>
+<qds:standard_code_list>250.23</qds:standard_code_list>
+<qds:standard_code_list>250.30</qds:standard_code_list>
+<qds:standard_code_list>250.31</qds:standard_code_list>
+<qds:standard_code_list>250.32</qds:standard_code_list>
+<qds:standard_code_list>250.33</qds:standard_code_list>
+<qds:standard_code_list>250.4</qds:standard_code_list>
+<qds:standard_code_list>250.40</qds:standard_code_list>
+<qds:standard_code_list>250.41</qds:standard_code_list>
+<qds:standard_code_list>250.42</qds:standard_code_list>
+<qds:standard_code_list>250.43</qds:standard_code_list>
+<qds:standard_code_list>250.50</qds:standard_code_list>
+<qds:standard_code_list>250.51</qds:standard_code_list>
+<qds:standard_code_list>250.52</qds:standard_code_list>
+<qds:standard_code_list>250.53</qds:standard_code_list>
+<qds:standard_code_list>250.60</qds:standard_code_list>
+<qds:standard_code_list>250.61</qds:standard_code_list>
+<qds:standard_code_list>250.62</qds:standard_code_list>
+<qds:standard_code_list>250.63</qds:standard_code_list>
+<qds:standard_code_list>250.7</qds:standard_code_list>
+<qds:standard_code_list>250.70</qds:standard_code_list>
+<qds:standard_code_list>250.71</qds:standard_code_list>
+<qds:standard_code_list>250.72</qds:standard_code_list>
+<qds:standard_code_list>250.73</qds:standard_code_list>
+<qds:standard_code_list>250.8</qds:standard_code_list>
+<qds:standard_code_list>250.80</qds:standard_code_list>
+<qds:standard_code_list>250.81</qds:standard_code_list>
+<qds:standard_code_list>250.82</qds:standard_code_list>
+<qds:standard_code_list>250.83</qds:standard_code_list>
+<qds:standard_code_list>250.9</qds:standard_code_list>
+<qds:standard_code_list>250.90</qds:standard_code_list>
+<qds:standard_code_list>250.91</qds:standard_code_list>
+<qds:standard_code_list>250.92</qds:standard_code_list>
+<qds:standard_code_list>250.93</qds:standard_code_list>
+<qds:standard_code_list>357.2</qds:standard_code_list>
+<qds:standard_code_list>362.0</qds:standard_code_list>
+<qds:standard_code_list>362.01</qds:standard_code_list>
+<qds:standard_code_list>362.02</qds:standard_code_list>
+<qds:standard_code_list>362.03</qds:standard_code_list>
+<qds:standard_code_list>362.04</qds:standard_code_list>
+<qds:standard_code_list>362.05</qds:standard_code_list>
+<qds:standard_code_list>362.06</qds:standard_code_list>
+<qds:standard_code_list>362.07</qds:standard_code_list>
+<qds:standard_code_list>366.41</qds:standard_code_list>
+<qds:standard_code_list>648.0</qds:standard_code_list>
+<qds:standard_code_list>648.00</qds:standard_code_list>
+<qds:standard_code_list>648.01</qds:standard_code_list>
+<qds:standard_code_list>648.02</qds:standard_code_list>
+<qds:standard_code_list>648.03</qds:standard_code_list>
+<qds:standard_code_list>648.04</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_117">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_117</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c49</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111552007</qds:standard_code_list>
+<qds:standard_code_list>111558006</qds:standard_code_list>
+<qds:standard_code_list>11530004</qds:standard_code_list>
+<qds:standard_code_list>123763000</qds:standard_code_list>
+<qds:standard_code_list>127013003</qds:standard_code_list>
+<qds:standard_code_list>127014009</qds:standard_code_list>
+<qds:standard_code_list>190321005</qds:standard_code_list>
+<qds:standard_code_list>190328004</qds:standard_code_list>
+<qds:standard_code_list>190330002</qds:standard_code_list>
+<qds:standard_code_list>190331003</qds:standard_code_list>
+<qds:standard_code_list>190336008</qds:standard_code_list>
+<qds:standard_code_list>190353001</qds:standard_code_list>
+<qds:standard_code_list>190361006</qds:standard_code_list>
+<qds:standard_code_list>190368000</qds:standard_code_list>
+<qds:standard_code_list>190369008</qds:standard_code_list>
+<qds:standard_code_list>190371008</qds:standard_code_list>
+<qds:standard_code_list>190372001</qds:standard_code_list>
+<qds:standard_code_list>190383005</qds:standard_code_list>
+<qds:standard_code_list>190389009</qds:standard_code_list>
+<qds:standard_code_list>190390000</qds:standard_code_list>
+<qds:standard_code_list>190392008</qds:standard_code_list>
+<qds:standard_code_list>190406000</qds:standard_code_list>
+<qds:standard_code_list>190407009</qds:standard_code_list>
+<qds:standard_code_list>190410002</qds:standard_code_list>
+<qds:standard_code_list>190411003</qds:standard_code_list>
+<qds:standard_code_list>190412005</qds:standard_code_list>
+<qds:standard_code_list>190416001</qds:standard_code_list>
+<qds:standard_code_list>190417004</qds:standard_code_list>
+<qds:standard_code_list>190418009</qds:standard_code_list>
+<qds:standard_code_list>190419001</qds:standard_code_list>
+<qds:standard_code_list>190422004</qds:standard_code_list>
+<qds:standard_code_list>193184006</qds:standard_code_list>
+<qds:standard_code_list>197605007</qds:standard_code_list>
+<qds:standard_code_list>198609003</qds:standard_code_list>
+<qds:standard_code_list>199223000</qds:standard_code_list>
+<qds:standard_code_list>199227004</qds:standard_code_list>
+<qds:standard_code_list>199229001</qds:standard_code_list>
+<qds:standard_code_list>199230006</qds:standard_code_list>
+<qds:standard_code_list>199231005</qds:standard_code_list>
+<qds:standard_code_list>199234002</qds:standard_code_list>
+<qds:standard_code_list>201250006</qds:standard_code_list>
+<qds:standard_code_list>201251005</qds:standard_code_list>
+<qds:standard_code_list>201252003</qds:standard_code_list>
+<qds:standard_code_list>23045005</qds:standard_code_list>
+<qds:standard_code_list>230572002</qds:standard_code_list>
+<qds:standard_code_list>230577008</qds:standard_code_list>
+<qds:standard_code_list>237599002</qds:standard_code_list>
+<qds:standard_code_list>237600004</qds:standard_code_list>
+<qds:standard_code_list>237601000</qds:standard_code_list>
+<qds:standard_code_list>237604008</qds:standard_code_list>
+<qds:standard_code_list>237613005</qds:standard_code_list>
+<qds:standard_code_list>237618001</qds:standard_code_list>
+<qds:standard_code_list>237619009</qds:standard_code_list>
+<qds:standard_code_list>237627000</qds:standard_code_list>
+<qds:standard_code_list>25907005</qds:standard_code_list>
+<qds:standard_code_list>26298008</qds:standard_code_list>
+<qds:standard_code_list>267379000</qds:standard_code_list>
+<qds:standard_code_list>267380002</qds:standard_code_list>
+<qds:standard_code_list>2751001</qds:standard_code_list>
+<qds:standard_code_list>275918005</qds:standard_code_list>
+<qds:standard_code_list>28032008</qds:standard_code_list>
+<qds:standard_code_list>28453007</qds:standard_code_list>
+<qds:standard_code_list>290002008</qds:standard_code_list>
+<qds:standard_code_list>309426007</qds:standard_code_list>
+<qds:standard_code_list>310387003</qds:standard_code_list>
+<qds:standard_code_list>311366001</qds:standard_code_list>
+<qds:standard_code_list>312912001</qds:standard_code_list>
+<qds:standard_code_list>313435000</qds:standard_code_list>
+<qds:standard_code_list>313436004</qds:standard_code_list>
+<qds:standard_code_list>314537004</qds:standard_code_list>
+<qds:standard_code_list>314771006</qds:standard_code_list>
+<qds:standard_code_list>314772004</qds:standard_code_list>
+<qds:standard_code_list>314893005</qds:standard_code_list>
+<qds:standard_code_list>314902007</qds:standard_code_list>
+<qds:standard_code_list>314903002</qds:standard_code_list>
+<qds:standard_code_list>33559001</qds:standard_code_list>
+<qds:standard_code_list>34140002</qds:standard_code_list>
+<qds:standard_code_list>359611005</qds:standard_code_list>
+<qds:standard_code_list>359638003</qds:standard_code_list>
+<qds:standard_code_list>359642000</qds:standard_code_list>
+<qds:standard_code_list>360546002</qds:standard_code_list>
+<qds:standard_code_list>371087003</qds:standard_code_list>
+<qds:standard_code_list>38542009</qds:standard_code_list>
+<qds:standard_code_list>39058009</qds:standard_code_list>
+<qds:standard_code_list>39181008</qds:standard_code_list>
+<qds:standard_code_list>408539000</qds:standard_code_list>
+<qds:standard_code_list>408540003</qds:standard_code_list>
+<qds:standard_code_list>413183008</qds:standard_code_list>
+<qds:standard_code_list>414890007</qds:standard_code_list>
+<qds:standard_code_list>414906009</qds:standard_code_list>
+<qds:standard_code_list>420414003</qds:standard_code_list>
+<qds:standard_code_list>420422005</qds:standard_code_list>
+<qds:standard_code_list>421750000</qds:standard_code_list>
+<qds:standard_code_list>421847006</qds:standard_code_list>
+<qds:standard_code_list>421895002</qds:standard_code_list>
+<qds:standard_code_list>422183001</qds:standard_code_list>
+<qds:standard_code_list>422228004</qds:standard_code_list>
+<qds:standard_code_list>422275004</qds:standard_code_list>
+<qds:standard_code_list>423263001</qds:standard_code_list>
+<qds:standard_code_list>424736006</qds:standard_code_list>
+<qds:standard_code_list>424989000</qds:standard_code_list>
+<qds:standard_code_list>425159004</qds:standard_code_list>
+<qds:standard_code_list>425442003</qds:standard_code_list>
+<qds:standard_code_list>426705001</qds:standard_code_list>
+<qds:standard_code_list>426875007</qds:standard_code_list>
+<qds:standard_code_list>427089005</qds:standard_code_list>
+<qds:standard_code_list>428896009</qds:standard_code_list>
+<qds:standard_code_list>42954008</qds:standard_code_list>
+<qds:standard_code_list>44054006</qds:standard_code_list>
+<qds:standard_code_list>4627003</qds:standard_code_list>
+<qds:standard_code_list>46635009</qds:standard_code_list>
+<qds:standard_code_list>50620007</qds:standard_code_list>
+<qds:standard_code_list>51002006</qds:standard_code_list>
+<qds:standard_code_list>5368009</qds:standard_code_list>
+<qds:standard_code_list>54181000</qds:standard_code_list>
+<qds:standard_code_list>57886004</qds:standard_code_list>
+<qds:standard_code_list>59079001</qds:standard_code_list>
+<qds:standard_code_list>5969009</qds:standard_code_list>
+<qds:standard_code_list>70694009</qds:standard_code_list>
+<qds:standard_code_list>73211009</qds:standard_code_list>
+<qds:standard_code_list>74263009</qds:standard_code_list>
+<qds:standard_code_list>75524006</qds:standard_code_list>
+<qds:standard_code_list>75682002</qds:standard_code_list>
+<qds:standard_code_list>76751001</qds:standard_code_list>
+<qds:standard_code_list>81531005</qds:standard_code_list>
+<qds:standard_code_list>81830002</qds:standard_code_list>
+<qds:standard_code_list>8801005</qds:standard_code_list>
+<qds:standard_code_list>91352004</qds:standard_code_list>
+<qds:standard_code_list>9859006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1948">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1948</qds:QDS_id>
+<qds:standard_concept>diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c469</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c47</qds:standard_code_list>
+<qds:standard_code_list>N_c48</qds:standard_code_list>
+<qds:standard_code_list>N_c49</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1761">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1761</qds:QDS_id>
+<qds:standard_concept>Encounter acute inpatient or ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c536</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c26</qds:standard_code_list>
+<qds:standard_code_list>N_c60</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_113">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_113</qds:QDS_id>
+<qds:standard_concept>encounter acute inpt</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99221</qds:standard_code_list>
+<qds:standard_code_list>99222</qds:standard_code_list>
+<qds:standard_code_list>99223</qds:standard_code_list>
+<qds:standard_code_list>99231</qds:standard_code_list>
+<qds:standard_code_list>99232</qds:standard_code_list>
+<qds:standard_code_list>99233</qds:standard_code_list>
+<qds:standard_code_list>99238</qds:standard_code_list>
+<qds:standard_code_list>99239</qds:standard_code_list>
+<qds:standard_code_list>99251</qds:standard_code_list>
+<qds:standard_code_list>99252</qds:standard_code_list>
+<qds:standard_code_list>99253</qds:standard_code_list>
+<qds:standard_code_list>99254</qds:standard_code_list>
+<qds:standard_code_list>99255</qds:standard_code_list>
+<qds:standard_code_list>99291</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_111">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_111</qds:QDS_id>
+<qds:standard_concept>encounter ED</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c60</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99281</qds:standard_code_list>
+<qds:standard_code_list>99282</qds:standard_code_list>
+<qds:standard_code_list>99283</qds:standard_code_list>
+<qds:standard_code_list>99284</qds:standard_code_list>
+<qds:standard_code_list>99285</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_109">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_109</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+<qds:standard_code_list>99315</qds:standard_code_list>
+<qds:standard_code_list>99316</qds:standard_code_list>
+<qds:standard_code_list>99318</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1763">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1763</qds:QDS_id>
+<qds:standard_concept>encounter non-acute inpatient, outpatient, or ophthalmology</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c537</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c155</qds:standard_code_list>
+<qds:standard_code_list>N_c159</qds:standard_code_list>
+<qds:standard_code_list>N_c27</qds:standard_code_list>
+<qds:standard_code_list>N_c28</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_107">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_107</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1620">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1620</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_491">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_491</qds:QDS_id>
+<qds:standard_concept>encounter outpatient - opthamological services</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c155</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>92002</qds:standard_code_list>
+<qds:standard_code_list>92003</qds:standard_code_list>
+<qds:standard_code_list>92004</qds:standard_code_list>
+<qds:standard_code_list>92005</qds:standard_code_list>
+<qds:standard_code_list>92006</qds:standard_code_list>
+<qds:standard_code_list>92007</qds:standard_code_list>
+<qds:standard_code_list>92008</qds:standard_code_list>
+<qds:standard_code_list>92009</qds:standard_code_list>
+<qds:standard_code_list>92010</qds:standard_code_list>
+<qds:standard_code_list>92011</qds:standard_code_list>
+<qds:standard_code_list>92012</qds:standard_code_list>
+<qds:standard_code_list>92013</qds:standard_code_list>
+<qds:standard_code_list>92014</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_141">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_141</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c67</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>R73.02</qds:standard_code_list>
+<qds:standard_code_list>R73.09</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_142">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_142</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c66</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>648.8</qds:standard_code_list>
+<qds:standard_code_list>648.80</qds:standard_code_list>
+<qds:standard_code_list>648.81</qds:standard_code_list>
+<qds:standard_code_list>648.82</qds:standard_code_list>
+<qds:standard_code_list>648.83</qds:standard_code_list>
+<qds:standard_code_list>648.84</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_143">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_143</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c70</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>11687002</qds:standard_code_list>
+<qds:standard_code_list>420491007</qds:standard_code_list>
+<qds:standard_code_list>420738003</qds:standard_code_list>
+<qds:standard_code_list>420989005</qds:standard_code_list>
+<qds:standard_code_list>421223006</qds:standard_code_list>
+<qds:standard_code_list>421389009</qds:standard_code_list>
+<qds:standard_code_list>421443003</qds:standard_code_list>
+<qds:standard_code_list>422155003</qds:standard_code_list>
+<qds:standard_code_list>46894009</qds:standard_code_list>
+<qds:standard_code_list>71546005</qds:standard_code_list>
+<qds:standard_code_list>75022004</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1467">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1467</qds:QDS_id>
+<qds:standard_concept>gestational diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c470</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c66</qds:standard_code_list>
+<qds:standard_code_list>N_c67</qds:standard_code_list>
+<qds:standard_code_list>N_c70</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_145">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_145</qds:QDS_id>
+<qds:standard_concept>HbA1c test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test performed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c71</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>83036</qds:standard_code_list>
+<qds:standard_code_list>83037</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_146">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_146</qds:QDS_id>
+<qds:standard_concept>HbA1c test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c87</qds:standard_concept_id>
+<qds:standard_taxonomy>LOINC</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>17856-6</qds:standard_code_list>
+<qds:standard_code_list>4548-4</qds:standard_code_list>
+<qds:standard_code_list>4549-2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1946">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1946</qds:QDS_id>
+<qds:standard_concept>HbA1c test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c476</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c71</qds:standard_code_list>
+<qds:standard_code_list>N_c87</qds:standard_code_list>
+<qds:standard_code_list>N_c88</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_147">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_147</qds:QDS_id>
+<qds:standard_concept>HbA1c test</qds:standard_concept>
+<qds:standard_category>Laboratory test</qds:standard_category>
+<qds:QDS_data_type>laboratory test result</qds:QDS_data_type>
+<qds:standard_concept_id>N_c88</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>117346004</qds:standard_code_list>
+<qds:standard_code_list>165680008</qds:standard_code_list>
+<qds:standard_code_list>259689004</qds:standard_code_list>
+<qds:standard_code_list>259690008</qds:standard_code_list>
+<qds:standard_code_list>313835008</qds:standard_code_list>
+<qds:standard_code_list>33601001</qds:standard_code_list>
+<qds:standard_code_list>40402000</qds:standard_code_list>
+<qds:standard_code_list>408254005</qds:standard_code_list>
+<qds:standard_code_list>43396009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_120">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_120</qds:QDS_id>
+<qds:standard_concept>Insulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c52</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>205314</qds:standard_code_list>
+<qds:standard_code_list>237527</qds:standard_code_list>
+<qds:standard_code_list>242120</qds:standard_code_list>
+<qds:standard_code_list>242916</qds:standard_code_list>
+<qds:standard_code_list>242917</qds:standard_code_list>
+<qds:standard_code_list>259111</qds:standard_code_list>
+<qds:standard_code_list>260265</qds:standard_code_list>
+<qds:standard_code_list>283394</qds:standard_code_list>
+<qds:standard_code_list>311040</qds:standard_code_list>
+<qds:standard_code_list>311041</qds:standard_code_list>
+<qds:standard_code_list>311053</qds:standard_code_list>
+<qds:standard_code_list>311054</qds:standard_code_list>
+<qds:standard_code_list>311055</qds:standard_code_list>
+<qds:standard_code_list>311056</qds:standard_code_list>
+<qds:standard_code_list>311057</qds:standard_code_list>
+<qds:standard_code_list>311058</qds:standard_code_list>
+<qds:standard_code_list>311059</qds:standard_code_list>
+<qds:standard_code_list>311060</qds:standard_code_list>
+<qds:standard_code_list>311061</qds:standard_code_list>
+<qds:standard_code_list>314038</qds:standard_code_list>
+<qds:standard_code_list>317800</qds:standard_code_list>
+<qds:standard_code_list>351297</qds:standard_code_list>
+<qds:standard_code_list>358349</qds:standard_code_list>
+<qds:standard_code_list>484322</qds:standard_code_list>
+<qds:standard_code_list>485210</qds:standard_code_list>
+<qds:standard_code_list>544614</qds:standard_code_list>
+<qds:standard_code_list>763002</qds:standard_code_list>
+<qds:standard_code_list>763007</qds:standard_code_list>
+<qds:standard_code_list>763013</qds:standard_code_list>
+<qds:standard_code_list>763014</qds:standard_code_list>
+<qds:standard_code_list>833159</qds:standard_code_list>
+<qds:standard_code_list>847191</qds:standard_code_list>
+<qds:standard_code_list>847207</qds:standard_code_list>
+<qds:standard_code_list>847211</qds:standard_code_list>
+<qds:standard_code_list>847230</qds:standard_code_list>
+<qds:standard_code_list>847239</qds:standard_code_list>
+<qds:standard_code_list>847252</qds:standard_code_list>
+<qds:standard_code_list>847259</qds:standard_code_list>
+<qds:standard_code_list>847263</qds:standard_code_list>
+<qds:standard_code_list>847416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_127">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_127</qds:QDS_id>
+<qds:standard_concept>Insulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c52</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>205314</qds:standard_code_list>
+<qds:standard_code_list>237527</qds:standard_code_list>
+<qds:standard_code_list>242120</qds:standard_code_list>
+<qds:standard_code_list>242916</qds:standard_code_list>
+<qds:standard_code_list>242917</qds:standard_code_list>
+<qds:standard_code_list>259111</qds:standard_code_list>
+<qds:standard_code_list>260265</qds:standard_code_list>
+<qds:standard_code_list>283394</qds:standard_code_list>
+<qds:standard_code_list>311040</qds:standard_code_list>
+<qds:standard_code_list>311041</qds:standard_code_list>
+<qds:standard_code_list>311053</qds:standard_code_list>
+<qds:standard_code_list>311054</qds:standard_code_list>
+<qds:standard_code_list>311055</qds:standard_code_list>
+<qds:standard_code_list>311056</qds:standard_code_list>
+<qds:standard_code_list>311057</qds:standard_code_list>
+<qds:standard_code_list>311058</qds:standard_code_list>
+<qds:standard_code_list>311059</qds:standard_code_list>
+<qds:standard_code_list>311060</qds:standard_code_list>
+<qds:standard_code_list>311061</qds:standard_code_list>
+<qds:standard_code_list>314038</qds:standard_code_list>
+<qds:standard_code_list>317800</qds:standard_code_list>
+<qds:standard_code_list>351297</qds:standard_code_list>
+<qds:standard_code_list>358349</qds:standard_code_list>
+<qds:standard_code_list>484322</qds:standard_code_list>
+<qds:standard_code_list>485210</qds:standard_code_list>
+<qds:standard_code_list>544614</qds:standard_code_list>
+<qds:standard_code_list>763002</qds:standard_code_list>
+<qds:standard_code_list>763007</qds:standard_code_list>
+<qds:standard_code_list>763013</qds:standard_code_list>
+<qds:standard_code_list>763014</qds:standard_code_list>
+<qds:standard_code_list>833159</qds:standard_code_list>
+<qds:standard_code_list>847191</qds:standard_code_list>
+<qds:standard_code_list>847207</qds:standard_code_list>
+<qds:standard_code_list>847211</qds:standard_code_list>
+<qds:standard_code_list>847230</qds:standard_code_list>
+<qds:standard_code_list>847239</qds:standard_code_list>
+<qds:standard_code_list>847252</qds:standard_code_list>
+<qds:standard_code_list>847259</qds:standard_code_list>
+<qds:standard_code_list>847263</qds:standard_code_list>
+<qds:standard_code_list>847416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2162">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2162</qds:QDS_id>
+<qds:standard_concept>Insulin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c52</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>205314</qds:standard_code_list>
+<qds:standard_code_list>237527</qds:standard_code_list>
+<qds:standard_code_list>242120</qds:standard_code_list>
+<qds:standard_code_list>242916</qds:standard_code_list>
+<qds:standard_code_list>242917</qds:standard_code_list>
+<qds:standard_code_list>259111</qds:standard_code_list>
+<qds:standard_code_list>260265</qds:standard_code_list>
+<qds:standard_code_list>283394</qds:standard_code_list>
+<qds:standard_code_list>311040</qds:standard_code_list>
+<qds:standard_code_list>311041</qds:standard_code_list>
+<qds:standard_code_list>311053</qds:standard_code_list>
+<qds:standard_code_list>311054</qds:standard_code_list>
+<qds:standard_code_list>311055</qds:standard_code_list>
+<qds:standard_code_list>311056</qds:standard_code_list>
+<qds:standard_code_list>311057</qds:standard_code_list>
+<qds:standard_code_list>311058</qds:standard_code_list>
+<qds:standard_code_list>311059</qds:standard_code_list>
+<qds:standard_code_list>311060</qds:standard_code_list>
+<qds:standard_code_list>311061</qds:standard_code_list>
+<qds:standard_code_list>314038</qds:standard_code_list>
+<qds:standard_code_list>317800</qds:standard_code_list>
+<qds:standard_code_list>351297</qds:standard_code_list>
+<qds:standard_code_list>358349</qds:standard_code_list>
+<qds:standard_code_list>484322</qds:standard_code_list>
+<qds:standard_code_list>485210</qds:standard_code_list>
+<qds:standard_code_list>544614</qds:standard_code_list>
+<qds:standard_code_list>763002</qds:standard_code_list>
+<qds:standard_code_list>763007</qds:standard_code_list>
+<qds:standard_code_list>763013</qds:standard_code_list>
+<qds:standard_code_list>763014</qds:standard_code_list>
+<qds:standard_code_list>833159</qds:standard_code_list>
+<qds:standard_code_list>847191</qds:standard_code_list>
+<qds:standard_code_list>847207</qds:standard_code_list>
+<qds:standard_code_list>847211</qds:standard_code_list>
+<qds:standard_code_list>847230</qds:standard_code_list>
+<qds:standard_code_list>847239</qds:standard_code_list>
+<qds:standard_code_list>847252</qds:standard_code_list>
+<qds:standard_code_list>847259</qds:standard_code_list>
+<qds:standard_code_list>847263</qds:standard_code_list>
+<qds:standard_code_list>847416</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_83">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_83</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1695">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1695</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1953">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1953</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c305</qds:standard_code_list>
+<qds:standard_code_list>N_c438</qds:standard_code_list>
+<qds:standard_code_list>N_c50</qds:standard_code_list>
+<qds:standard_code_list>N_c51</qds:standard_code_list>
+<qds:standard_code_list>N_c52</qds:standard_code_list>
+<qds:standard_code_list>N_c53</qds:standard_code_list>
+<qds:standard_code_list>N_c54</qds:standard_code_list>
+<qds:standard_code_list>N_c55</qds:standard_code_list>
+<qds:standard_code_list>N_c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1954">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1954</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c305</qds:standard_code_list>
+<qds:standard_code_list>N_c438</qds:standard_code_list>
+<qds:standard_code_list>N_c50</qds:standard_code_list>
+<qds:standard_code_list>N_c51</qds:standard_code_list>
+<qds:standard_code_list>N_c52</qds:standard_code_list>
+<qds:standard_code_list>N_c53</qds:standard_code_list>
+<qds:standard_code_list>N_c54</qds:standard_code_list>
+<qds:standard_code_list>N_c55</qds:standard_code_list>
+<qds:standard_code_list>N_c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2146">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2146</qds:QDS_id>
+<qds:standard_concept>Medications indicative of diabetes</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c540</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>c305</qds:standard_code_list>
+<qds:standard_code_list>c438</qds:standard_code_list>
+<qds:standard_code_list>c50</qds:standard_code_list>
+<qds:standard_code_list>c51</qds:standard_code_list>
+<qds:standard_code_list>c52</qds:standard_code_list>
+<qds:standard_code_list>c53</qds:standard_code_list>
+<qds:standard_code_list>c54</qds:standard_code_list>
+<qds:standard_code_list>c55</qds:standard_code_list>
+<qds:standard_code_list>c56</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_121">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_121</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_128">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_128</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2163">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2163</qds:QDS_id>
+<qds:standard_concept>Meglitinides</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c53</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>200256</qds:standard_code_list>
+<qds:standard_code_list>200257</qds:standard_code_list>
+<qds:standard_code_list>200258</qds:standard_code_list>
+<qds:standard_code_list>311919</qds:standard_code_list>
+<qds:standard_code_list>314142</qds:standard_code_list>
+<qds:standard_code_list>389139</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_135">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_135</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c63</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E28.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_136">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_136</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c62</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>256.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_137">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_137</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c69</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>69878008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1947">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1947</qds:QDS_id>
+<qds:standard_concept>polycystic ovaries</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c472</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c62</qds:standard_code_list>
+<qds:standard_code_list>N_c63</qds:standard_code_list>
+<qds:standard_code_list>N_c69</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_138">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_138</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c65</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E08</qds:standard_code_list>
+<qds:standard_code_list>E10</qds:standard_code_list>
+<qds:standard_code_list>T38</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_139">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_139</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c64</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>249</qds:standard_code_list>
+<qds:standard_code_list>249.0</qds:standard_code_list>
+<qds:standard_code_list>249.00</qds:standard_code_list>
+<qds:standard_code_list>249.01</qds:standard_code_list>
+<qds:standard_code_list>249.1</qds:standard_code_list>
+<qds:standard_code_list>249.10</qds:standard_code_list>
+<qds:standard_code_list>249.11</qds:standard_code_list>
+<qds:standard_code_list>249.2</qds:standard_code_list>
+<qds:standard_code_list>249.20</qds:standard_code_list>
+<qds:standard_code_list>249.21</qds:standard_code_list>
+<qds:standard_code_list>249.3</qds:standard_code_list>
+<qds:standard_code_list>249.30</qds:standard_code_list>
+<qds:standard_code_list>249.31</qds:standard_code_list>
+<qds:standard_code_list>249.4</qds:standard_code_list>
+<qds:standard_code_list>249.40</qds:standard_code_list>
+<qds:standard_code_list>249.41</qds:standard_code_list>
+<qds:standard_code_list>249.5</qds:standard_code_list>
+<qds:standard_code_list>249.50</qds:standard_code_list>
+<qds:standard_code_list>249.51</qds:standard_code_list>
+<qds:standard_code_list>249.6</qds:standard_code_list>
+<qds:standard_code_list>249.60</qds:standard_code_list>
+<qds:standard_code_list>249.61</qds:standard_code_list>
+<qds:standard_code_list>249.7</qds:standard_code_list>
+<qds:standard_code_list>249.70</qds:standard_code_list>
+<qds:standard_code_list>249.71</qds:standard_code_list>
+<qds:standard_code_list>249.8</qds:standard_code_list>
+<qds:standard_code_list>249.80</qds:standard_code_list>
+<qds:standard_code_list>249.81</qds:standard_code_list>
+<qds:standard_code_list>249.9</qds:standard_code_list>
+<qds:standard_code_list>249.90</qds:standard_code_list>
+<qds:standard_code_list>249.91</qds:standard_code_list>
+<qds:standard_code_list>251.8</qds:standard_code_list>
+<qds:standard_code_list>962.0</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_140">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_140</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c68</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>190416008</qds:standard_code_list>
+<qds:standard_code_list>190447002</qds:standard_code_list>
+<qds:standard_code_list>53126001</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1952">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_1952</qds:QDS_id>
+<qds:standard_concept>steroid induced diabetes</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c473</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>N_c64</qds:standard_code_list>
+<qds:standard_code_list>N_c65</qds:standard_code_list>
+<qds:standard_code_list>N_c68</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_123">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_123</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_130">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_130</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2164">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2164</qds:QDS_id>
+<qds:standard_concept>Sulfonylureas</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c55</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:standard_code_list>105374</qds:standard_code_list>
+<qds:standard_code_list>153842</qds:standard_code_list>
+<qds:standard_code_list>197306</qds:standard_code_list>
+<qds:standard_code_list>197307</qds:standard_code_list>
+<qds:standard_code_list>197495</qds:standard_code_list>
+<qds:standard_code_list>197496</qds:standard_code_list>
+<qds:standard_code_list>197737</qds:standard_code_list>
+<qds:standard_code_list>198291</qds:standard_code_list>
+<qds:standard_code_list>198292</qds:standard_code_list>
+<qds:standard_code_list>198293</qds:standard_code_list>
+<qds:standard_code_list>198294</qds:standard_code_list>
+<qds:standard_code_list>199245</qds:standard_code_list>
+<qds:standard_code_list>199246</qds:standard_code_list>
+<qds:standard_code_list>199247</qds:standard_code_list>
+<qds:standard_code_list>199825</qds:standard_code_list>
+<qds:standard_code_list>199984</qds:standard_code_list>
+<qds:standard_code_list>199985</qds:standard_code_list>
+<qds:standard_code_list>200065</qds:standard_code_list>
+<qds:standard_code_list>252960</qds:standard_code_list>
+<qds:standard_code_list>310488</qds:standard_code_list>
+<qds:standard_code_list>310489</qds:standard_code_list>
+<qds:standard_code_list>310490</qds:standard_code_list>
+<qds:standard_code_list>310534</qds:standard_code_list>
+<qds:standard_code_list>310536</qds:standard_code_list>
+<qds:standard_code_list>310537</qds:standard_code_list>
+<qds:standard_code_list>310539</qds:standard_code_list>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>313418</qds:standard_code_list>
+<qds:standard_code_list>313419</qds:standard_code_list>
+<qds:standard_code_list>314000</qds:standard_code_list>
+<qds:standard_code_list>314006</qds:standard_code_list>
+<qds:standard_code_list>315107</qds:standard_code_list>
+<qds:standard_code_list>315239</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+<qds:standard_code_list>379804</qds:standard_code_list>
+<qds:standard_code_list>389137</qds:standard_code_list>
+<qds:standard_code_list>602544</qds:standard_code_list>
+<qds:standard_code_list>602549</qds:standard_code_list>
+<qds:standard_code_list>602550</qds:standard_code_list>
+<qds:standard_code_list>647237</qds:standard_code_list>
+<qds:standard_code_list>647239</qds:standard_code_list>
+<qds:standard_code_list>706895</qds:standard_code_list>
+<qds:standard_code_list>706896</qds:standard_code_list>
+<qds:standard_code_list>757710</qds:standard_code_list>
+<qds:standard_code_list>757712</qds:standard_code_list>
+<qds:standard_code_list>844809</qds:standard_code_list>
+<qds:standard_code_list>844824</qds:standard_code_list>
+<qds:standard_code_list>844827</qds:standard_code_list>
+<qds:standard_code_list>861731</qds:standard_code_list>
+<qds:standard_code_list>861736</qds:standard_code_list>
+<qds:standard_code_list>861740</qds:standard_code_list>
+<qds:standard_code_list>861743</qds:standard_code_list>
+<qds:standard_code_list>861748</qds:standard_code_list>
+<qds:standard_code_list>861753</qds:standard_code_list>
+<qds:standard_code_list>861760</qds:standard_code_list>
+<qds:standard_code_list>861763</qds:standard_code_list>
+<qds:standard_code_list>861783</qds:standard_code_list>
+<qds:standard_code_list>861795</qds:standard_code_list>
+<qds:standard_code_list>861806</qds:standard_code_list>
+<qds:standard_code_list>861816</qds:standard_code_list>
+<qds:standard_code_list>861822</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_124">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_124</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication dispensed</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_131">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_131</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication order</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2165">
+<qds:NQF_id>0059</qds:NQF_id>
+<qds:measure_name>Diabetes:  HbA1c Poor Control</qds:measure_name>
+<qds:QDS_id>N_2165</qds:QDS_id>
+<qds:standard_concept>Thiazolidinediones</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c56</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>312440</qds:standard_code_list>
+<qds:standard_code_list>312441</qds:standard_code_list>
+<qds:standard_code_list>312859</qds:standard_code_list>
+<qds:standard_code_list>312860</qds:standard_code_list>
+<qds:standard_code_list>312861</qds:standard_code_list>
+<qds:standard_code_list>317573</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

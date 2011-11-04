@@ -1,0 +1,2621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/N_1646">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1646</qds:QDS_id>
+<qds:standard_concept>asymptomatic HIV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c490</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c250</qds:standard_code_list>
+<qds:standard_code_list>c251</qds:standard_code_list>
+<qds:standard_code_list>c338</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1845">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1845</qds:QDS_id>
+<qds:standard_concept>asymptomatic HIV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c251</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z21</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1846">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1846</qds:QDS_id>
+<qds:standard_concept>asymptomatic HIV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c250</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>042</qds:standard_code_list>
+<qds:standard_code_list>V08</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1847">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1847</qds:QDS_id>
+<qds:standard_concept>asymptomatic HIV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c338</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>91947003</qds:standard_code_list>
+<qds:standard_code_list>91948008</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1653">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1653</qds:QDS_id>
+<qds:standard_concept>Baker&apos;s Yeast</qds:standard_concept>
+<qds:standard_category>Substance</qds:standard_category>
+<qds:QDS_data_type>substance allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c505</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C2730259</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_645">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_645</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>N_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1644">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1644</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c491</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c252</qds:standard_code_list>
+<qds:standard_code_list>c340</qds:standard_code_list>
+<qds:standard_code_list>c596</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1645">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1645</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c491</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c252</qds:standard_code_list>
+<qds:standard_code_list>c340</qds:standard_code_list>
+<qds:standard_code_list>c596</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1848">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1848</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c596</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C96</qds:standard_code_list>
+<qds:standard_code_list>C96.1</qds:standard_code_list>
+<qds:standard_code_list>C96.3</qds:standard_code_list>
+<qds:standard_code_list>C96.7</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1849">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1849</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c252</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>201</qds:standard_code_list>
+<qds:standard_code_list>202</qds:standard_code_list>
+<qds:standard_code_list>203</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1850">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1850</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c340</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109962001</qds:standard_code_list>
+<qds:standard_code_list>109964000</qds:standard_code_list>
+<qds:standard_code_list>109965004</qds:standard_code_list>
+<qds:standard_code_list>109966003</qds:standard_code_list>
+<qds:standard_code_list>109967007</qds:standard_code_list>
+<qds:standard_code_list>109968002</qds:standard_code_list>
+<qds:standard_code_list>109969005</qds:standard_code_list>
+<qds:standard_code_list>109970006</qds:standard_code_list>
+<qds:standard_code_list>109971005</qds:standard_code_list>
+<qds:standard_code_list>109972003</qds:standard_code_list>
+<qds:standard_code_list>109975001</qds:standard_code_list>
+<qds:standard_code_list>109976000</qds:standard_code_list>
+<qds:standard_code_list>109977009</qds:standard_code_list>
+<qds:standard_code_list>109978004</qds:standard_code_list>
+<qds:standard_code_list>109979007</qds:standard_code_list>
+<qds:standard_code_list>109982002</qds:standard_code_list>
+<qds:standard_code_list>109984001</qds:standard_code_list>
+<qds:standard_code_list>109989006</qds:standard_code_list>
+<qds:standard_code_list>110006004</qds:standard_code_list>
+<qds:standard_code_list>110007008</qds:standard_code_list>
+<qds:standard_code_list>118599009</qds:standard_code_list>
+<qds:standard_code_list>118600007</qds:standard_code_list>
+<qds:standard_code_list>118601006</qds:standard_code_list>
+<qds:standard_code_list>118602004</qds:standard_code_list>
+<qds:standard_code_list>118605002</qds:standard_code_list>
+<qds:standard_code_list>118606001</qds:standard_code_list>
+<qds:standard_code_list>118607005</qds:standard_code_list>
+<qds:standard_code_list>118608000</qds:standard_code_list>
+<qds:standard_code_list>118609008</qds:standard_code_list>
+<qds:standard_code_list>118610003</qds:standard_code_list>
+<qds:standard_code_list>118611004</qds:standard_code_list>
+<qds:standard_code_list>118617000</qds:standard_code_list>
+<qds:standard_code_list>118618005</qds:standard_code_list>
+<qds:standard_code_list>123313007</qds:standard_code_list>
+<qds:standard_code_list>127220001</qds:standard_code_list>
+<qds:standard_code_list>128874001</qds:standard_code_list>
+<qds:standard_code_list>128875000</qds:standard_code_list>
+<qds:standard_code_list>13048006</qds:standard_code_list>
+<qds:standard_code_list>15861008</qds:standard_code_list>
+<qds:standard_code_list>186723002</qds:standard_code_list>
+<qds:standard_code_list>188487008</qds:standard_code_list>
+<qds:standard_code_list>188488003</qds:standard_code_list>
+<qds:standard_code_list>188489006</qds:standard_code_list>
+<qds:standard_code_list>188492005</qds:standard_code_list>
+<qds:standard_code_list>188493000</qds:standard_code_list>
+<qds:standard_code_list>188498009</qds:standard_code_list>
+<qds:standard_code_list>188499001</qds:standard_code_list>
+<qds:standard_code_list>188500005</qds:standard_code_list>
+<qds:standard_code_list>188501009</qds:standard_code_list>
+<qds:standard_code_list>188502002</qds:standard_code_list>
+<qds:standard_code_list>188503007</qds:standard_code_list>
+<qds:standard_code_list>188504001</qds:standard_code_list>
+<qds:standard_code_list>188505000</qds:standard_code_list>
+<qds:standard_code_list>188506004</qds:standard_code_list>
+<qds:standard_code_list>188507008</qds:standard_code_list>
+<qds:standard_code_list>188509006</qds:standard_code_list>
+<qds:standard_code_list>188510001</qds:standard_code_list>
+<qds:standard_code_list>188511002</qds:standard_code_list>
+<qds:standard_code_list>188512009</qds:standard_code_list>
+<qds:standard_code_list>188513004</qds:standard_code_list>
+<qds:standard_code_list>188514005</qds:standard_code_list>
+<qds:standard_code_list>188515006</qds:standard_code_list>
+<qds:standard_code_list>188516007</qds:standard_code_list>
+<qds:standard_code_list>188517003</qds:standard_code_list>
+<qds:standard_code_list>188524002</qds:standard_code_list>
+<qds:standard_code_list>188526000</qds:standard_code_list>
+<qds:standard_code_list>188529007</qds:standard_code_list>
+<qds:standard_code_list>188531003</qds:standard_code_list>
+<qds:standard_code_list>188533000</qds:standard_code_list>
+<qds:standard_code_list>188534006</qds:standard_code_list>
+<qds:standard_code_list>188536008</qds:standard_code_list>
+<qds:standard_code_list>188537004</qds:standard_code_list>
+<qds:standard_code_list>188538009</qds:standard_code_list>
+<qds:standard_code_list>188541000</qds:standard_code_list>
+<qds:standard_code_list>188543002</qds:standard_code_list>
+<qds:standard_code_list>188547001</qds:standard_code_list>
+<qds:standard_code_list>188548006</qds:standard_code_list>
+<qds:standard_code_list>188551004</qds:standard_code_list>
+<qds:standard_code_list>188554007</qds:standard_code_list>
+<qds:standard_code_list>188558005</qds:standard_code_list>
+<qds:standard_code_list>188559002</qds:standard_code_list>
+<qds:standard_code_list>188561006</qds:standard_code_list>
+<qds:standard_code_list>188562004</qds:standard_code_list>
+<qds:standard_code_list>188565002</qds:standard_code_list>
+<qds:standard_code_list>188566001</qds:standard_code_list>
+<qds:standard_code_list>188567005</qds:standard_code_list>
+<qds:standard_code_list>188568000</qds:standard_code_list>
+<qds:standard_code_list>188569008</qds:standard_code_list>
+<qds:standard_code_list>188570009</qds:standard_code_list>
+<qds:standard_code_list>188572001</qds:standard_code_list>
+<qds:standard_code_list>188575004</qds:standard_code_list>
+<qds:standard_code_list>188576003</qds:standard_code_list>
+<qds:standard_code_list>188577007</qds:standard_code_list>
+<qds:standard_code_list>188578002</qds:standard_code_list>
+<qds:standard_code_list>188579005</qds:standard_code_list>
+<qds:standard_code_list>188580008</qds:standard_code_list>
+<qds:standard_code_list>188582000</qds:standard_code_list>
+<qds:standard_code_list>188585003</qds:standard_code_list>
+<qds:standard_code_list>188586002</qds:standard_code_list>
+<qds:standard_code_list>188587006</qds:standard_code_list>
+<qds:standard_code_list>188589009</qds:standard_code_list>
+<qds:standard_code_list>188590000</qds:standard_code_list>
+<qds:standard_code_list>188591001</qds:standard_code_list>
+<qds:standard_code_list>188592008</qds:standard_code_list>
+<qds:standard_code_list>188593003</qds:standard_code_list>
+<qds:standard_code_list>188606007</qds:standard_code_list>
+<qds:standard_code_list>188608008</qds:standard_code_list>
+<qds:standard_code_list>188609000</qds:standard_code_list>
+<qds:standard_code_list>188612002</qds:standard_code_list>
+<qds:standard_code_list>188613007</qds:standard_code_list>
+<qds:standard_code_list>188627002</qds:standard_code_list>
+<qds:standard_code_list>188630009</qds:standard_code_list>
+<qds:standard_code_list>188631008</qds:standard_code_list>
+<qds:standard_code_list>188632001</qds:standard_code_list>
+<qds:standard_code_list>188633006</qds:standard_code_list>
+<qds:standard_code_list>188634000</qds:standard_code_list>
+<qds:standard_code_list>188635004</qds:standard_code_list>
+<qds:standard_code_list>188637007</qds:standard_code_list>
+<qds:standard_code_list>188672005</qds:standard_code_list>
+<qds:standard_code_list>188674006</qds:standard_code_list>
+<qds:standard_code_list>188675007</qds:standard_code_list>
+<qds:standard_code_list>188676008</qds:standard_code_list>
+<qds:standard_code_list>188679001</qds:standard_code_list>
+<qds:standard_code_list>188680003</qds:standard_code_list>
+<qds:standard_code_list>188685008</qds:standard_code_list>
+<qds:standard_code_list>188718006</qds:standard_code_list>
+<qds:standard_code_list>188727007</qds:standard_code_list>
+<qds:standard_code_list>20224008</qds:standard_code_list>
+<qds:standard_code_list>20447006</qds:standard_code_list>
+<qds:standard_code_list>232075002</qds:standard_code_list>
+<qds:standard_code_list>236513009</qds:standard_code_list>
+<qds:standard_code_list>237865009</qds:standard_code_list>
+<qds:standard_code_list>240531002</qds:standard_code_list>
+<qds:standard_code_list>25050002</qds:standard_code_list>
+<qds:standard_code_list>254792006</qds:standard_code_list>
+<qds:standard_code_list>255101006</qds:standard_code_list>
+<qds:standard_code_list>255102004</qds:standard_code_list>
+<qds:standard_code_list>269476000</qds:standard_code_list>
+<qds:standard_code_list>274905008</qds:standard_code_list>
+<qds:standard_code_list>276811008</qds:standard_code_list>
+<qds:standard_code_list>276815004</qds:standard_code_list>
+<qds:standard_code_list>276836002</qds:standard_code_list>
+<qds:standard_code_list>277577000</qds:standard_code_list>
+<qds:standard_code_list>277579002</qds:standard_code_list>
+<qds:standard_code_list>277580004</qds:standard_code_list>
+<qds:standard_code_list>277606000</qds:standard_code_list>
+<qds:standard_code_list>277608004</qds:standard_code_list>
+<qds:standard_code_list>277609007</qds:standard_code_list>
+<qds:standard_code_list>277610002</qds:standard_code_list>
+<qds:standard_code_list>277611003</qds:standard_code_list>
+<qds:standard_code_list>277612005</qds:standard_code_list>
+<qds:standard_code_list>277613000</qds:standard_code_list>
+<qds:standard_code_list>277614006</qds:standard_code_list>
+<qds:standard_code_list>277615007</qds:standard_code_list>
+<qds:standard_code_list>277616008</qds:standard_code_list>
+<qds:standard_code_list>277617004</qds:standard_code_list>
+<qds:standard_code_list>277618009</qds:standard_code_list>
+<qds:standard_code_list>277622004</qds:standard_code_list>
+<qds:standard_code_list>277623009</qds:standard_code_list>
+<qds:standard_code_list>277624003</qds:standard_code_list>
+<qds:standard_code_list>277625002</qds:standard_code_list>
+<qds:standard_code_list>277626001</qds:standard_code_list>
+<qds:standard_code_list>277627005</qds:standard_code_list>
+<qds:standard_code_list>277628000</qds:standard_code_list>
+<qds:standard_code_list>277629008</qds:standard_code_list>
+<qds:standard_code_list>277632006</qds:standard_code_list>
+<qds:standard_code_list>277637000</qds:standard_code_list>
+<qds:standard_code_list>277641001</qds:standard_code_list>
+<qds:standard_code_list>277642008</qds:standard_code_list>
+<qds:standard_code_list>277643003</qds:standard_code_list>
+<qds:standard_code_list>277651000</qds:standard_code_list>
+<qds:standard_code_list>277653002</qds:standard_code_list>
+<qds:standard_code_list>277654008</qds:standard_code_list>
+<qds:standard_code_list>277664004</qds:standard_code_list>
+<qds:standard_code_list>278051002</qds:standard_code_list>
+<qds:standard_code_list>278052009</qds:standard_code_list>
+<qds:standard_code_list>285420006</qds:standard_code_list>
+<qds:standard_code_list>285421005</qds:standard_code_list>
+<qds:standard_code_list>285422003</qds:standard_code_list>
+<qds:standard_code_list>285423008</qds:standard_code_list>
+<qds:standard_code_list>285424002</qds:standard_code_list>
+<qds:standard_code_list>285426000</qds:standard_code_list>
+<qds:standard_code_list>285428004</qds:standard_code_list>
+<qds:standard_code_list>285430002</qds:standard_code_list>
+<qds:standard_code_list>285776004</qds:standard_code_list>
+<qds:standard_code_list>302841002</qds:standard_code_list>
+<qds:standard_code_list>302842009</qds:standard_code_list>
+<qds:standard_code_list>302845006</qds:standard_code_list>
+<qds:standard_code_list>302848008</qds:standard_code_list>
+<qds:standard_code_list>303017006</qds:standard_code_list>
+<qds:standard_code_list>303055001</qds:standard_code_list>
+<qds:standard_code_list>303056000</qds:standard_code_list>
+<qds:standard_code_list>303057009</qds:standard_code_list>
+<qds:standard_code_list>307622006</qds:standard_code_list>
+<qds:standard_code_list>307623001</qds:standard_code_list>
+<qds:standard_code_list>307624007</qds:standard_code_list>
+<qds:standard_code_list>307625008</qds:standard_code_list>
+<qds:standard_code_list>307633009</qds:standard_code_list>
+<qds:standard_code_list>307634003</qds:standard_code_list>
+<qds:standard_code_list>307635002</qds:standard_code_list>
+<qds:standard_code_list>307636001</qds:standard_code_list>
+<qds:standard_code_list>307637005</qds:standard_code_list>
+<qds:standard_code_list>307646004</qds:standard_code_list>
+<qds:standard_code_list>307647008</qds:standard_code_list>
+<qds:standard_code_list>307649006</qds:standard_code_list>
+<qds:standard_code_list>308121000</qds:standard_code_list>
+<qds:standard_code_list>31047003</qds:standard_code_list>
+<qds:standard_code_list>313427003</qds:standard_code_list>
+<qds:standard_code_list>371134001</qds:standard_code_list>
+<qds:standard_code_list>373168002</qds:standard_code_list>
+<qds:standard_code_list>400001003</qds:standard_code_list>
+<qds:standard_code_list>400122007</qds:standard_code_list>
+<qds:standard_code_list>402881008</qds:standard_code_list>
+<qds:standard_code_list>402882001</qds:standard_code_list>
+<qds:standard_code_list>404103007</qds:standard_code_list>
+<qds:standard_code_list>404104001</qds:standard_code_list>
+<qds:standard_code_list>404105000</qds:standard_code_list>
+<qds:standard_code_list>404106004</qds:standard_code_list>
+<qds:standard_code_list>404107008</qds:standard_code_list>
+<qds:standard_code_list>404108003</qds:standard_code_list>
+<qds:standard_code_list>404109006</qds:standard_code_list>
+<qds:standard_code_list>404111002</qds:standard_code_list>
+<qds:standard_code_list>404112009</qds:standard_code_list>
+<qds:standard_code_list>404113004</qds:standard_code_list>
+<qds:standard_code_list>404114005</qds:standard_code_list>
+<qds:standard_code_list>404115006</qds:standard_code_list>
+<qds:standard_code_list>404116007</qds:standard_code_list>
+<qds:standard_code_list>404117003</qds:standard_code_list>
+<qds:standard_code_list>404119000</qds:standard_code_list>
+<qds:standard_code_list>404120006</qds:standard_code_list>
+<qds:standard_code_list>404125001</qds:standard_code_list>
+<qds:standard_code_list>404126000</qds:standard_code_list>
+<qds:standard_code_list>404128004</qds:standard_code_list>
+<qds:standard_code_list>404130002</qds:standard_code_list>
+<qds:standard_code_list>404131003</qds:standard_code_list>
+<qds:standard_code_list>404132005</qds:standard_code_list>
+<qds:standard_code_list>404133000</qds:standard_code_list>
+<qds:standard_code_list>404134006</qds:standard_code_list>
+<qds:standard_code_list>404135007</qds:standard_code_list>
+<qds:standard_code_list>404136008</qds:standard_code_list>
+<qds:standard_code_list>404137004</qds:standard_code_list>
+<qds:standard_code_list>404138009</qds:standard_code_list>
+<qds:standard_code_list>404140004</qds:standard_code_list>
+<qds:standard_code_list>404141000</qds:standard_code_list>
+<qds:standard_code_list>404142007</qds:standard_code_list>
+<qds:standard_code_list>404143002</qds:standard_code_list>
+<qds:standard_code_list>404144008</qds:standard_code_list>
+<qds:standard_code_list>404145009</qds:standard_code_list>
+<qds:standard_code_list>404146005</qds:standard_code_list>
+<qds:standard_code_list>404147001</qds:standard_code_list>
+<qds:standard_code_list>404148006</qds:standard_code_list>
+<qds:standard_code_list>404150003</qds:standard_code_list>
+<qds:standard_code_list>404157000</qds:standard_code_list>
+<qds:standard_code_list>413537009</qds:standard_code_list>
+<qds:standard_code_list>413587002</qds:standard_code_list>
+<qds:standard_code_list>414166008</qds:standard_code_list>
+<qds:standard_code_list>414553000</qds:standard_code_list>
+<qds:standard_code_list>414780005</qds:standard_code_list>
+<qds:standard_code_list>414785000</qds:standard_code_list>
+<qds:standard_code_list>415110002</qds:standard_code_list>
+<qds:standard_code_list>415111003</qds:standard_code_list>
+<qds:standard_code_list>415112005</qds:standard_code_list>
+<qds:standard_code_list>41615007</qds:standard_code_list>
+<qds:standard_code_list>420302007</qds:standard_code_list>
+<qds:standard_code_list>420519005</qds:standard_code_list>
+<qds:standard_code_list>420788006</qds:standard_code_list>
+<qds:standard_code_list>421283008</qds:standard_code_list>
+<qds:standard_code_list>421418009</qds:standard_code_list>
+<qds:standard_code_list>421696004</qds:standard_code_list>
+<qds:standard_code_list>421835000</qds:standard_code_list>
+<qds:standard_code_list>422052002</qds:standard_code_list>
+<qds:standard_code_list>422172005</qds:standard_code_list>
+<qds:standard_code_list>422853008</qds:standard_code_list>
+<qds:standard_code_list>425657001</qds:standard_code_list>
+<qds:standard_code_list>426071002</qds:standard_code_list>
+<qds:standard_code_list>426248008</qds:standard_code_list>
+<qds:standard_code_list>426336007</qds:standard_code_list>
+<qds:standard_code_list>426370008</qds:standard_code_list>
+<qds:standard_code_list>426885008</qds:standard_code_list>
+<qds:standard_code_list>427141003</qds:standard_code_list>
+<qds:standard_code_list>440422002</qds:standard_code_list>
+<qds:standard_code_list>441313008</qds:standard_code_list>
+<qds:standard_code_list>441559006</qds:standard_code_list>
+<qds:standard_code_list>441962003</qds:standard_code_list>
+<qds:standard_code_list>442537007</qds:standard_code_list>
+<qds:standard_code_list>51056004</qds:standard_code_list>
+<qds:standard_code_list>58961005</qds:standard_code_list>
+<qds:standard_code_list>60620005</qds:standard_code_list>
+<qds:standard_code_list>61493004</qds:standard_code_list>
+<qds:standard_code_list>68979007</qds:standard_code_list>
+<qds:standard_code_list>92508006</qds:standard_code_list>
+<qds:standard_code_list>92512000</qds:standard_code_list>
+<qds:standard_code_list>92514004</qds:standard_code_list>
+<qds:standard_code_list>92515003</qds:standard_code_list>
+<qds:standard_code_list>92516002</qds:standard_code_list>
+<qds:standard_code_list>93191005</qds:standard_code_list>
+<qds:standard_code_list>93192003</qds:standard_code_list>
+<qds:standard_code_list>93193008</qds:standard_code_list>
+<qds:standard_code_list>93194002</qds:standard_code_list>
+<qds:standard_code_list>93195001</qds:standard_code_list>
+<qds:standard_code_list>93196000</qds:standard_code_list>
+<qds:standard_code_list>93197009</qds:standard_code_list>
+<qds:standard_code_list>93198004</qds:standard_code_list>
+<qds:standard_code_list>93199007</qds:standard_code_list>
+<qds:standard_code_list>93487009</qds:standard_code_list>
+<qds:standard_code_list>93488004</qds:standard_code_list>
+<qds:standard_code_list>93489007</qds:standard_code_list>
+<qds:standard_code_list>93492006</qds:standard_code_list>
+<qds:standard_code_list>93493001</qds:standard_code_list>
+<qds:standard_code_list>93494007</qds:standard_code_list>
+<qds:standard_code_list>93495008</qds:standard_code_list>
+<qds:standard_code_list>93496009</qds:standard_code_list>
+<qds:standard_code_list>93497000</qds:standard_code_list>
+<qds:standard_code_list>93498005</qds:standard_code_list>
+<qds:standard_code_list>93500006</qds:standard_code_list>
+<qds:standard_code_list>93501005</qds:standard_code_list>
+<qds:standard_code_list>93505001</qds:standard_code_list>
+<qds:standard_code_list>93506000</qds:standard_code_list>
+<qds:standard_code_list>93507009</qds:standard_code_list>
+<qds:standard_code_list>93509007</qds:standard_code_list>
+<qds:standard_code_list>93510002</qds:standard_code_list>
+<qds:standard_code_list>93514006</qds:standard_code_list>
+<qds:standard_code_list>93515007</qds:standard_code_list>
+<qds:standard_code_list>93516008</qds:standard_code_list>
+<qds:standard_code_list>93518009</qds:standard_code_list>
+<qds:standard_code_list>93519001</qds:standard_code_list>
+<qds:standard_code_list>93520007</qds:standard_code_list>
+<qds:standard_code_list>93521006</qds:standard_code_list>
+<qds:standard_code_list>93522004</qds:standard_code_list>
+<qds:standard_code_list>93523009</qds:standard_code_list>
+<qds:standard_code_list>93524003</qds:standard_code_list>
+<qds:standard_code_list>93525002</qds:standard_code_list>
+<qds:standard_code_list>93526001</qds:standard_code_list>
+<qds:standard_code_list>93527005</qds:standard_code_list>
+<qds:standard_code_list>93528000</qds:standard_code_list>
+<qds:standard_code_list>93530003</qds:standard_code_list>
+<qds:standard_code_list>93531004</qds:standard_code_list>
+<qds:standard_code_list>93532006</qds:standard_code_list>
+<qds:standard_code_list>93533001</qds:standard_code_list>
+<qds:standard_code_list>93534007</qds:standard_code_list>
+<qds:standard_code_list>93536009</qds:standard_code_list>
+<qds:standard_code_list>93537000</qds:standard_code_list>
+<qds:standard_code_list>93541001</qds:standard_code_list>
+<qds:standard_code_list>93542008</qds:standard_code_list>
+<qds:standard_code_list>93543003</qds:standard_code_list>
+<qds:standard_code_list>93545005</qds:standard_code_list>
+<qds:standard_code_list>93546006</qds:standard_code_list>
+<qds:standard_code_list>93547002</qds:standard_code_list>
+<qds:standard_code_list>93548007</qds:standard_code_list>
+<qds:standard_code_list>93549004</qds:standard_code_list>
+<qds:standard_code_list>93550004</qds:standard_code_list>
+<qds:standard_code_list>93551000</qds:standard_code_list>
+<qds:standard_code_list>93552007</qds:standard_code_list>
+<qds:standard_code_list>93554008</qds:standard_code_list>
+<qds:standard_code_list>93555009</qds:standard_code_list>
+<qds:standard_code_list>94686001</qds:standard_code_list>
+<qds:standard_code_list>94687005</qds:standard_code_list>
+<qds:standard_code_list>94688000</qds:standard_code_list>
+<qds:standard_code_list>94690004</qds:standard_code_list>
+<qds:standard_code_list>94704006</qds:standard_code_list>
+<qds:standard_code_list>94707004</qds:standard_code_list>
+<qds:standard_code_list>94708009</qds:standard_code_list>
+<qds:standard_code_list>94709001</qds:standard_code_list>
+<qds:standard_code_list>94710006</qds:standard_code_list>
+<qds:standard_code_list>94711005</qds:standard_code_list>
+<qds:standard_code_list>94712003</qds:standard_code_list>
+<qds:standard_code_list>94714002</qds:standard_code_list>
+<qds:standard_code_list>94715001</qds:standard_code_list>
+<qds:standard_code_list>95186006</qds:standard_code_list>
+<qds:standard_code_list>95187002</qds:standard_code_list>
+<qds:standard_code_list>95188007</qds:standard_code_list>
+<qds:standard_code_list>95192000</qds:standard_code_list>
+<qds:standard_code_list>95193005</qds:standard_code_list>
+<qds:standard_code_list>95194004</qds:standard_code_list>
+<qds:standard_code_list>95224004</qds:standard_code_list>
+<qds:standard_code_list>95225003</qds:standard_code_list>
+<qds:standard_code_list>95226002</qds:standard_code_list>
+<qds:standard_code_list>95230004</qds:standard_code_list>
+<qds:standard_code_list>95231000</qds:standard_code_list>
+<qds:standard_code_list>95260009</qds:standard_code_list>
+<qds:standard_code_list>95261008</qds:standard_code_list>
+<qds:standard_code_list>95263006</qds:standard_code_list>
+<qds:standard_code_list>95264000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1851">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1851</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c596</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C96</qds:standard_code_list>
+<qds:standard_code_list>C96.1</qds:standard_code_list>
+<qds:standard_code_list>C96.3</qds:standard_code_list>
+<qds:standard_code_list>C96.7</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1852">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1852</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c252</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>201</qds:standard_code_list>
+<qds:standard_code_list>202</qds:standard_code_list>
+<qds:standard_code_list>203</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1853">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1853</qds:QDS_id>
+<qds:standard_concept>cancer of lymphoreticular or histiocytic tissue</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis inactive</qds:QDS_data_type>
+<qds:standard_concept_id>N_c340</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109962001</qds:standard_code_list>
+<qds:standard_code_list>109964000</qds:standard_code_list>
+<qds:standard_code_list>109965004</qds:standard_code_list>
+<qds:standard_code_list>109966003</qds:standard_code_list>
+<qds:standard_code_list>109967007</qds:standard_code_list>
+<qds:standard_code_list>109968002</qds:standard_code_list>
+<qds:standard_code_list>109969005</qds:standard_code_list>
+<qds:standard_code_list>109970006</qds:standard_code_list>
+<qds:standard_code_list>109971005</qds:standard_code_list>
+<qds:standard_code_list>109972003</qds:standard_code_list>
+<qds:standard_code_list>109975001</qds:standard_code_list>
+<qds:standard_code_list>109976000</qds:standard_code_list>
+<qds:standard_code_list>109977009</qds:standard_code_list>
+<qds:standard_code_list>109978004</qds:standard_code_list>
+<qds:standard_code_list>109979007</qds:standard_code_list>
+<qds:standard_code_list>109982002</qds:standard_code_list>
+<qds:standard_code_list>109984001</qds:standard_code_list>
+<qds:standard_code_list>109989006</qds:standard_code_list>
+<qds:standard_code_list>110006004</qds:standard_code_list>
+<qds:standard_code_list>110007008</qds:standard_code_list>
+<qds:standard_code_list>118599009</qds:standard_code_list>
+<qds:standard_code_list>118600007</qds:standard_code_list>
+<qds:standard_code_list>118601006</qds:standard_code_list>
+<qds:standard_code_list>118602004</qds:standard_code_list>
+<qds:standard_code_list>118605002</qds:standard_code_list>
+<qds:standard_code_list>118606001</qds:standard_code_list>
+<qds:standard_code_list>118607005</qds:standard_code_list>
+<qds:standard_code_list>118608000</qds:standard_code_list>
+<qds:standard_code_list>118609008</qds:standard_code_list>
+<qds:standard_code_list>118610003</qds:standard_code_list>
+<qds:standard_code_list>118611004</qds:standard_code_list>
+<qds:standard_code_list>118617000</qds:standard_code_list>
+<qds:standard_code_list>118618005</qds:standard_code_list>
+<qds:standard_code_list>123313007</qds:standard_code_list>
+<qds:standard_code_list>127220001</qds:standard_code_list>
+<qds:standard_code_list>128874001</qds:standard_code_list>
+<qds:standard_code_list>128875000</qds:standard_code_list>
+<qds:standard_code_list>13048006</qds:standard_code_list>
+<qds:standard_code_list>15861008</qds:standard_code_list>
+<qds:standard_code_list>186723002</qds:standard_code_list>
+<qds:standard_code_list>188487008</qds:standard_code_list>
+<qds:standard_code_list>188488003</qds:standard_code_list>
+<qds:standard_code_list>188489006</qds:standard_code_list>
+<qds:standard_code_list>188492005</qds:standard_code_list>
+<qds:standard_code_list>188493000</qds:standard_code_list>
+<qds:standard_code_list>188498009</qds:standard_code_list>
+<qds:standard_code_list>188499001</qds:standard_code_list>
+<qds:standard_code_list>188500005</qds:standard_code_list>
+<qds:standard_code_list>188501009</qds:standard_code_list>
+<qds:standard_code_list>188502002</qds:standard_code_list>
+<qds:standard_code_list>188503007</qds:standard_code_list>
+<qds:standard_code_list>188504001</qds:standard_code_list>
+<qds:standard_code_list>188505000</qds:standard_code_list>
+<qds:standard_code_list>188506004</qds:standard_code_list>
+<qds:standard_code_list>188507008</qds:standard_code_list>
+<qds:standard_code_list>188509006</qds:standard_code_list>
+<qds:standard_code_list>188510001</qds:standard_code_list>
+<qds:standard_code_list>188511002</qds:standard_code_list>
+<qds:standard_code_list>188512009</qds:standard_code_list>
+<qds:standard_code_list>188513004</qds:standard_code_list>
+<qds:standard_code_list>188514005</qds:standard_code_list>
+<qds:standard_code_list>188515006</qds:standard_code_list>
+<qds:standard_code_list>188516007</qds:standard_code_list>
+<qds:standard_code_list>188517003</qds:standard_code_list>
+<qds:standard_code_list>188524002</qds:standard_code_list>
+<qds:standard_code_list>188526000</qds:standard_code_list>
+<qds:standard_code_list>188529007</qds:standard_code_list>
+<qds:standard_code_list>188531003</qds:standard_code_list>
+<qds:standard_code_list>188533000</qds:standard_code_list>
+<qds:standard_code_list>188534006</qds:standard_code_list>
+<qds:standard_code_list>188536008</qds:standard_code_list>
+<qds:standard_code_list>188537004</qds:standard_code_list>
+<qds:standard_code_list>188538009</qds:standard_code_list>
+<qds:standard_code_list>188541000</qds:standard_code_list>
+<qds:standard_code_list>188543002</qds:standard_code_list>
+<qds:standard_code_list>188547001</qds:standard_code_list>
+<qds:standard_code_list>188548006</qds:standard_code_list>
+<qds:standard_code_list>188551004</qds:standard_code_list>
+<qds:standard_code_list>188554007</qds:standard_code_list>
+<qds:standard_code_list>188558005</qds:standard_code_list>
+<qds:standard_code_list>188559002</qds:standard_code_list>
+<qds:standard_code_list>188561006</qds:standard_code_list>
+<qds:standard_code_list>188562004</qds:standard_code_list>
+<qds:standard_code_list>188565002</qds:standard_code_list>
+<qds:standard_code_list>188566001</qds:standard_code_list>
+<qds:standard_code_list>188567005</qds:standard_code_list>
+<qds:standard_code_list>188568000</qds:standard_code_list>
+<qds:standard_code_list>188569008</qds:standard_code_list>
+<qds:standard_code_list>188570009</qds:standard_code_list>
+<qds:standard_code_list>188572001</qds:standard_code_list>
+<qds:standard_code_list>188575004</qds:standard_code_list>
+<qds:standard_code_list>188576003</qds:standard_code_list>
+<qds:standard_code_list>188577007</qds:standard_code_list>
+<qds:standard_code_list>188578002</qds:standard_code_list>
+<qds:standard_code_list>188579005</qds:standard_code_list>
+<qds:standard_code_list>188580008</qds:standard_code_list>
+<qds:standard_code_list>188582000</qds:standard_code_list>
+<qds:standard_code_list>188585003</qds:standard_code_list>
+<qds:standard_code_list>188586002</qds:standard_code_list>
+<qds:standard_code_list>188587006</qds:standard_code_list>
+<qds:standard_code_list>188589009</qds:standard_code_list>
+<qds:standard_code_list>188590000</qds:standard_code_list>
+<qds:standard_code_list>188591001</qds:standard_code_list>
+<qds:standard_code_list>188592008</qds:standard_code_list>
+<qds:standard_code_list>188593003</qds:standard_code_list>
+<qds:standard_code_list>188606007</qds:standard_code_list>
+<qds:standard_code_list>188608008</qds:standard_code_list>
+<qds:standard_code_list>188609000</qds:standard_code_list>
+<qds:standard_code_list>188612002</qds:standard_code_list>
+<qds:standard_code_list>188613007</qds:standard_code_list>
+<qds:standard_code_list>188627002</qds:standard_code_list>
+<qds:standard_code_list>188630009</qds:standard_code_list>
+<qds:standard_code_list>188631008</qds:standard_code_list>
+<qds:standard_code_list>188632001</qds:standard_code_list>
+<qds:standard_code_list>188633006</qds:standard_code_list>
+<qds:standard_code_list>188634000</qds:standard_code_list>
+<qds:standard_code_list>188635004</qds:standard_code_list>
+<qds:standard_code_list>188637007</qds:standard_code_list>
+<qds:standard_code_list>188672005</qds:standard_code_list>
+<qds:standard_code_list>188674006</qds:standard_code_list>
+<qds:standard_code_list>188675007</qds:standard_code_list>
+<qds:standard_code_list>188676008</qds:standard_code_list>
+<qds:standard_code_list>188679001</qds:standard_code_list>
+<qds:standard_code_list>188680003</qds:standard_code_list>
+<qds:standard_code_list>188685008</qds:standard_code_list>
+<qds:standard_code_list>188718006</qds:standard_code_list>
+<qds:standard_code_list>188727007</qds:standard_code_list>
+<qds:standard_code_list>20224008</qds:standard_code_list>
+<qds:standard_code_list>20447006</qds:standard_code_list>
+<qds:standard_code_list>232075002</qds:standard_code_list>
+<qds:standard_code_list>236513009</qds:standard_code_list>
+<qds:standard_code_list>237865009</qds:standard_code_list>
+<qds:standard_code_list>240531002</qds:standard_code_list>
+<qds:standard_code_list>25050002</qds:standard_code_list>
+<qds:standard_code_list>254792006</qds:standard_code_list>
+<qds:standard_code_list>255101006</qds:standard_code_list>
+<qds:standard_code_list>255102004</qds:standard_code_list>
+<qds:standard_code_list>269476000</qds:standard_code_list>
+<qds:standard_code_list>274905008</qds:standard_code_list>
+<qds:standard_code_list>276811008</qds:standard_code_list>
+<qds:standard_code_list>276815004</qds:standard_code_list>
+<qds:standard_code_list>276836002</qds:standard_code_list>
+<qds:standard_code_list>277577000</qds:standard_code_list>
+<qds:standard_code_list>277579002</qds:standard_code_list>
+<qds:standard_code_list>277580004</qds:standard_code_list>
+<qds:standard_code_list>277606000</qds:standard_code_list>
+<qds:standard_code_list>277608004</qds:standard_code_list>
+<qds:standard_code_list>277609007</qds:standard_code_list>
+<qds:standard_code_list>277610002</qds:standard_code_list>
+<qds:standard_code_list>277611003</qds:standard_code_list>
+<qds:standard_code_list>277612005</qds:standard_code_list>
+<qds:standard_code_list>277613000</qds:standard_code_list>
+<qds:standard_code_list>277614006</qds:standard_code_list>
+<qds:standard_code_list>277615007</qds:standard_code_list>
+<qds:standard_code_list>277616008</qds:standard_code_list>
+<qds:standard_code_list>277617004</qds:standard_code_list>
+<qds:standard_code_list>277618009</qds:standard_code_list>
+<qds:standard_code_list>277622004</qds:standard_code_list>
+<qds:standard_code_list>277623009</qds:standard_code_list>
+<qds:standard_code_list>277624003</qds:standard_code_list>
+<qds:standard_code_list>277625002</qds:standard_code_list>
+<qds:standard_code_list>277626001</qds:standard_code_list>
+<qds:standard_code_list>277627005</qds:standard_code_list>
+<qds:standard_code_list>277628000</qds:standard_code_list>
+<qds:standard_code_list>277629008</qds:standard_code_list>
+<qds:standard_code_list>277632006</qds:standard_code_list>
+<qds:standard_code_list>277637000</qds:standard_code_list>
+<qds:standard_code_list>277641001</qds:standard_code_list>
+<qds:standard_code_list>277642008</qds:standard_code_list>
+<qds:standard_code_list>277643003</qds:standard_code_list>
+<qds:standard_code_list>277651000</qds:standard_code_list>
+<qds:standard_code_list>277653002</qds:standard_code_list>
+<qds:standard_code_list>277654008</qds:standard_code_list>
+<qds:standard_code_list>277664004</qds:standard_code_list>
+<qds:standard_code_list>278051002</qds:standard_code_list>
+<qds:standard_code_list>278052009</qds:standard_code_list>
+<qds:standard_code_list>285420006</qds:standard_code_list>
+<qds:standard_code_list>285421005</qds:standard_code_list>
+<qds:standard_code_list>285422003</qds:standard_code_list>
+<qds:standard_code_list>285423008</qds:standard_code_list>
+<qds:standard_code_list>285424002</qds:standard_code_list>
+<qds:standard_code_list>285426000</qds:standard_code_list>
+<qds:standard_code_list>285428004</qds:standard_code_list>
+<qds:standard_code_list>285430002</qds:standard_code_list>
+<qds:standard_code_list>285776004</qds:standard_code_list>
+<qds:standard_code_list>302841002</qds:standard_code_list>
+<qds:standard_code_list>302842009</qds:standard_code_list>
+<qds:standard_code_list>302845006</qds:standard_code_list>
+<qds:standard_code_list>302848008</qds:standard_code_list>
+<qds:standard_code_list>303017006</qds:standard_code_list>
+<qds:standard_code_list>303055001</qds:standard_code_list>
+<qds:standard_code_list>303056000</qds:standard_code_list>
+<qds:standard_code_list>303057009</qds:standard_code_list>
+<qds:standard_code_list>307622006</qds:standard_code_list>
+<qds:standard_code_list>307623001</qds:standard_code_list>
+<qds:standard_code_list>307624007</qds:standard_code_list>
+<qds:standard_code_list>307625008</qds:standard_code_list>
+<qds:standard_code_list>307633009</qds:standard_code_list>
+<qds:standard_code_list>307634003</qds:standard_code_list>
+<qds:standard_code_list>307635002</qds:standard_code_list>
+<qds:standard_code_list>307636001</qds:standard_code_list>
+<qds:standard_code_list>307637005</qds:standard_code_list>
+<qds:standard_code_list>307646004</qds:standard_code_list>
+<qds:standard_code_list>307647008</qds:standard_code_list>
+<qds:standard_code_list>307649006</qds:standard_code_list>
+<qds:standard_code_list>308121000</qds:standard_code_list>
+<qds:standard_code_list>31047003</qds:standard_code_list>
+<qds:standard_code_list>313427003</qds:standard_code_list>
+<qds:standard_code_list>371134001</qds:standard_code_list>
+<qds:standard_code_list>373168002</qds:standard_code_list>
+<qds:standard_code_list>400001003</qds:standard_code_list>
+<qds:standard_code_list>400122007</qds:standard_code_list>
+<qds:standard_code_list>402881008</qds:standard_code_list>
+<qds:standard_code_list>402882001</qds:standard_code_list>
+<qds:standard_code_list>404103007</qds:standard_code_list>
+<qds:standard_code_list>404104001</qds:standard_code_list>
+<qds:standard_code_list>404105000</qds:standard_code_list>
+<qds:standard_code_list>404106004</qds:standard_code_list>
+<qds:standard_code_list>404107008</qds:standard_code_list>
+<qds:standard_code_list>404108003</qds:standard_code_list>
+<qds:standard_code_list>404109006</qds:standard_code_list>
+<qds:standard_code_list>404111002</qds:standard_code_list>
+<qds:standard_code_list>404112009</qds:standard_code_list>
+<qds:standard_code_list>404113004</qds:standard_code_list>
+<qds:standard_code_list>404114005</qds:standard_code_list>
+<qds:standard_code_list>404115006</qds:standard_code_list>
+<qds:standard_code_list>404116007</qds:standard_code_list>
+<qds:standard_code_list>404117003</qds:standard_code_list>
+<qds:standard_code_list>404119000</qds:standard_code_list>
+<qds:standard_code_list>404120006</qds:standard_code_list>
+<qds:standard_code_list>404125001</qds:standard_code_list>
+<qds:standard_code_list>404126000</qds:standard_code_list>
+<qds:standard_code_list>404128004</qds:standard_code_list>
+<qds:standard_code_list>404130002</qds:standard_code_list>
+<qds:standard_code_list>404131003</qds:standard_code_list>
+<qds:standard_code_list>404132005</qds:standard_code_list>
+<qds:standard_code_list>404133000</qds:standard_code_list>
+<qds:standard_code_list>404134006</qds:standard_code_list>
+<qds:standard_code_list>404135007</qds:standard_code_list>
+<qds:standard_code_list>404136008</qds:standard_code_list>
+<qds:standard_code_list>404137004</qds:standard_code_list>
+<qds:standard_code_list>404138009</qds:standard_code_list>
+<qds:standard_code_list>404140004</qds:standard_code_list>
+<qds:standard_code_list>404141000</qds:standard_code_list>
+<qds:standard_code_list>404142007</qds:standard_code_list>
+<qds:standard_code_list>404143002</qds:standard_code_list>
+<qds:standard_code_list>404144008</qds:standard_code_list>
+<qds:standard_code_list>404145009</qds:standard_code_list>
+<qds:standard_code_list>404146005</qds:standard_code_list>
+<qds:standard_code_list>404147001</qds:standard_code_list>
+<qds:standard_code_list>404148006</qds:standard_code_list>
+<qds:standard_code_list>404150003</qds:standard_code_list>
+<qds:standard_code_list>404157000</qds:standard_code_list>
+<qds:standard_code_list>413537009</qds:standard_code_list>
+<qds:standard_code_list>413587002</qds:standard_code_list>
+<qds:standard_code_list>414166008</qds:standard_code_list>
+<qds:standard_code_list>414553000</qds:standard_code_list>
+<qds:standard_code_list>414780005</qds:standard_code_list>
+<qds:standard_code_list>414785000</qds:standard_code_list>
+<qds:standard_code_list>415110002</qds:standard_code_list>
+<qds:standard_code_list>415111003</qds:standard_code_list>
+<qds:standard_code_list>415112005</qds:standard_code_list>
+<qds:standard_code_list>41615007</qds:standard_code_list>
+<qds:standard_code_list>420302007</qds:standard_code_list>
+<qds:standard_code_list>420519005</qds:standard_code_list>
+<qds:standard_code_list>420788006</qds:standard_code_list>
+<qds:standard_code_list>421283008</qds:standard_code_list>
+<qds:standard_code_list>421418009</qds:standard_code_list>
+<qds:standard_code_list>421696004</qds:standard_code_list>
+<qds:standard_code_list>421835000</qds:standard_code_list>
+<qds:standard_code_list>422052002</qds:standard_code_list>
+<qds:standard_code_list>422172005</qds:standard_code_list>
+<qds:standard_code_list>422853008</qds:standard_code_list>
+<qds:standard_code_list>425657001</qds:standard_code_list>
+<qds:standard_code_list>426071002</qds:standard_code_list>
+<qds:standard_code_list>426248008</qds:standard_code_list>
+<qds:standard_code_list>426336007</qds:standard_code_list>
+<qds:standard_code_list>426370008</qds:standard_code_list>
+<qds:standard_code_list>426885008</qds:standard_code_list>
+<qds:standard_code_list>427141003</qds:standard_code_list>
+<qds:standard_code_list>440422002</qds:standard_code_list>
+<qds:standard_code_list>441313008</qds:standard_code_list>
+<qds:standard_code_list>441559006</qds:standard_code_list>
+<qds:standard_code_list>441962003</qds:standard_code_list>
+<qds:standard_code_list>442537007</qds:standard_code_list>
+<qds:standard_code_list>51056004</qds:standard_code_list>
+<qds:standard_code_list>58961005</qds:standard_code_list>
+<qds:standard_code_list>60620005</qds:standard_code_list>
+<qds:standard_code_list>61493004</qds:standard_code_list>
+<qds:standard_code_list>68979007</qds:standard_code_list>
+<qds:standard_code_list>92508006</qds:standard_code_list>
+<qds:standard_code_list>92512000</qds:standard_code_list>
+<qds:standard_code_list>92514004</qds:standard_code_list>
+<qds:standard_code_list>92515003</qds:standard_code_list>
+<qds:standard_code_list>92516002</qds:standard_code_list>
+<qds:standard_code_list>93191005</qds:standard_code_list>
+<qds:standard_code_list>93192003</qds:standard_code_list>
+<qds:standard_code_list>93193008</qds:standard_code_list>
+<qds:standard_code_list>93194002</qds:standard_code_list>
+<qds:standard_code_list>93195001</qds:standard_code_list>
+<qds:standard_code_list>93196000</qds:standard_code_list>
+<qds:standard_code_list>93197009</qds:standard_code_list>
+<qds:standard_code_list>93198004</qds:standard_code_list>
+<qds:standard_code_list>93199007</qds:standard_code_list>
+<qds:standard_code_list>93487009</qds:standard_code_list>
+<qds:standard_code_list>93488004</qds:standard_code_list>
+<qds:standard_code_list>93489007</qds:standard_code_list>
+<qds:standard_code_list>93492006</qds:standard_code_list>
+<qds:standard_code_list>93493001</qds:standard_code_list>
+<qds:standard_code_list>93494007</qds:standard_code_list>
+<qds:standard_code_list>93495008</qds:standard_code_list>
+<qds:standard_code_list>93496009</qds:standard_code_list>
+<qds:standard_code_list>93497000</qds:standard_code_list>
+<qds:standard_code_list>93498005</qds:standard_code_list>
+<qds:standard_code_list>93500006</qds:standard_code_list>
+<qds:standard_code_list>93501005</qds:standard_code_list>
+<qds:standard_code_list>93505001</qds:standard_code_list>
+<qds:standard_code_list>93506000</qds:standard_code_list>
+<qds:standard_code_list>93507009</qds:standard_code_list>
+<qds:standard_code_list>93509007</qds:standard_code_list>
+<qds:standard_code_list>93510002</qds:standard_code_list>
+<qds:standard_code_list>93514006</qds:standard_code_list>
+<qds:standard_code_list>93515007</qds:standard_code_list>
+<qds:standard_code_list>93516008</qds:standard_code_list>
+<qds:standard_code_list>93518009</qds:standard_code_list>
+<qds:standard_code_list>93519001</qds:standard_code_list>
+<qds:standard_code_list>93520007</qds:standard_code_list>
+<qds:standard_code_list>93521006</qds:standard_code_list>
+<qds:standard_code_list>93522004</qds:standard_code_list>
+<qds:standard_code_list>93523009</qds:standard_code_list>
+<qds:standard_code_list>93524003</qds:standard_code_list>
+<qds:standard_code_list>93525002</qds:standard_code_list>
+<qds:standard_code_list>93526001</qds:standard_code_list>
+<qds:standard_code_list>93527005</qds:standard_code_list>
+<qds:standard_code_list>93528000</qds:standard_code_list>
+<qds:standard_code_list>93530003</qds:standard_code_list>
+<qds:standard_code_list>93531004</qds:standard_code_list>
+<qds:standard_code_list>93532006</qds:standard_code_list>
+<qds:standard_code_list>93533001</qds:standard_code_list>
+<qds:standard_code_list>93534007</qds:standard_code_list>
+<qds:standard_code_list>93536009</qds:standard_code_list>
+<qds:standard_code_list>93537000</qds:standard_code_list>
+<qds:standard_code_list>93541001</qds:standard_code_list>
+<qds:standard_code_list>93542008</qds:standard_code_list>
+<qds:standard_code_list>93543003</qds:standard_code_list>
+<qds:standard_code_list>93545005</qds:standard_code_list>
+<qds:standard_code_list>93546006</qds:standard_code_list>
+<qds:standard_code_list>93547002</qds:standard_code_list>
+<qds:standard_code_list>93548007</qds:standard_code_list>
+<qds:standard_code_list>93549004</qds:standard_code_list>
+<qds:standard_code_list>93550004</qds:standard_code_list>
+<qds:standard_code_list>93551000</qds:standard_code_list>
+<qds:standard_code_list>93552007</qds:standard_code_list>
+<qds:standard_code_list>93554008</qds:standard_code_list>
+<qds:standard_code_list>93555009</qds:standard_code_list>
+<qds:standard_code_list>94686001</qds:standard_code_list>
+<qds:standard_code_list>94687005</qds:standard_code_list>
+<qds:standard_code_list>94688000</qds:standard_code_list>
+<qds:standard_code_list>94690004</qds:standard_code_list>
+<qds:standard_code_list>94704006</qds:standard_code_list>
+<qds:standard_code_list>94707004</qds:standard_code_list>
+<qds:standard_code_list>94708009</qds:standard_code_list>
+<qds:standard_code_list>94709001</qds:standard_code_list>
+<qds:standard_code_list>94710006</qds:standard_code_list>
+<qds:standard_code_list>94711005</qds:standard_code_list>
+<qds:standard_code_list>94712003</qds:standard_code_list>
+<qds:standard_code_list>94714002</qds:standard_code_list>
+<qds:standard_code_list>94715001</qds:standard_code_list>
+<qds:standard_code_list>95186006</qds:standard_code_list>
+<qds:standard_code_list>95187002</qds:standard_code_list>
+<qds:standard_code_list>95188007</qds:standard_code_list>
+<qds:standard_code_list>95192000</qds:standard_code_list>
+<qds:standard_code_list>95193005</qds:standard_code_list>
+<qds:standard_code_list>95194004</qds:standard_code_list>
+<qds:standard_code_list>95224004</qds:standard_code_list>
+<qds:standard_code_list>95225003</qds:standard_code_list>
+<qds:standard_code_list>95226002</qds:standard_code_list>
+<qds:standard_code_list>95230004</qds:standard_code_list>
+<qds:standard_code_list>95231000</qds:standard_code_list>
+<qds:standard_code_list>95260009</qds:standard_code_list>
+<qds:standard_code_list>95261008</qds:standard_code_list>
+<qds:standard_code_list>95263006</qds:standard_code_list>
+<qds:standard_code_list>95264000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1625">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1625</qds:QDS_id>
+<qds:standard_concept>Dtap Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c406</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>204525</qds:standard_code_list>
+<qds:standard_code_list>205257</qds:standard_code_list>
+<qds:standard_code_list>205259</qds:standard_code_list>
+<qds:standard_code_list>260122</qds:standard_code_list>
+<qds:standard_code_list>359454</qds:standard_code_list>
+<qds:standard_code_list>562372</qds:standard_code_list>
+<qds:standard_code_list>795926</qds:standard_code_list>
+<qds:standard_code_list>795930</qds:standard_code_list>
+<qds:standard_code_list>795938</qds:standard_code_list>
+<qds:standard_code_list>795939</qds:standard_code_list>
+<qds:standard_code_list>795942</qds:standard_code_list>
+<qds:standard_code_list>798309</qds:standard_code_list>
+<qds:standard_code_list>798347</qds:standard_code_list>
+<qds:standard_code_list>802049</qds:standard_code_list>
+<qds:standard_code_list>805375</qds:standard_code_list>
+<qds:standard_code_list>805379</qds:standard_code_list>
+<qds:standard_code_list>806587</qds:standard_code_list>
+<qds:standard_code_list>806593</qds:standard_code_list>
+<qds:standard_code_list>807277</qds:standard_code_list>
+<qds:standard_code_list>807415</qds:standard_code_list>
+<qds:standard_code_list>824542</qds:standard_code_list>
+<qds:standard_code_list>829894</qds:standard_code_list>
+<qds:standard_code_list>829971</qds:standard_code_list>
+<qds:standard_code_list>829987</qds:standard_code_list>
+<qds:standard_code_list>830518</qds:standard_code_list>
+<qds:standard_code_list>830549</qds:standard_code_list>
+<qds:standard_code_list>830555</qds:standard_code_list>
+<qds:standard_code_list>830893</qds:standard_code_list>
+<qds:standard_code_list>835879</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1701">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1701</qds:QDS_id>
+<qds:standard_concept>Dtap Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c406</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>204525</qds:standard_code_list>
+<qds:standard_code_list>205257</qds:standard_code_list>
+<qds:standard_code_list>205259</qds:standard_code_list>
+<qds:standard_code_list>260122</qds:standard_code_list>
+<qds:standard_code_list>359454</qds:standard_code_list>
+<qds:standard_code_list>562372</qds:standard_code_list>
+<qds:standard_code_list>795926</qds:standard_code_list>
+<qds:standard_code_list>795930</qds:standard_code_list>
+<qds:standard_code_list>795938</qds:standard_code_list>
+<qds:standard_code_list>795939</qds:standard_code_list>
+<qds:standard_code_list>795942</qds:standard_code_list>
+<qds:standard_code_list>798309</qds:standard_code_list>
+<qds:standard_code_list>798347</qds:standard_code_list>
+<qds:standard_code_list>802049</qds:standard_code_list>
+<qds:standard_code_list>805375</qds:standard_code_list>
+<qds:standard_code_list>805379</qds:standard_code_list>
+<qds:standard_code_list>806587</qds:standard_code_list>
+<qds:standard_code_list>806593</qds:standard_code_list>
+<qds:standard_code_list>807277</qds:standard_code_list>
+<qds:standard_code_list>807415</qds:standard_code_list>
+<qds:standard_code_list>824542</qds:standard_code_list>
+<qds:standard_code_list>829894</qds:standard_code_list>
+<qds:standard_code_list>829971</qds:standard_code_list>
+<qds:standard_code_list>829987</qds:standard_code_list>
+<qds:standard_code_list>830518</qds:standard_code_list>
+<qds:standard_code_list>830549</qds:standard_code_list>
+<qds:standard_code_list>830555</qds:standard_code_list>
+<qds:standard_code_list>830893</qds:standard_code_list>
+<qds:standard_code_list>835879</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1655">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1655</qds:QDS_id>
+<qds:standard_concept>encephalopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c492</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c246</qds:standard_code_list>
+<qds:standard_code_list>c247</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1854">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1854</qds:QDS_id>
+<qds:standard_concept>encephalopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c247</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>G04.01</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1855">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1855</qds:QDS_id>
+<qds:standard_concept>encephalopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c246</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>323.51</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1856">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1856</qds:QDS_id>
+<qds:standard_concept>encephalopathy</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c502</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>230354009</qds:standard_code_list>
+<qds:standard_code_list>81308009</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1860">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1860</qds:QDS_id>
+<qds:standard_concept>encounter ob/gyn</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c417</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V24</qds:standard_code_list>
+<qds:standard_code_list>V25</qds:standard_code_list>
+<qds:standard_code_list>V26</qds:standard_code_list>
+<qds:standard_code_list>V27</qds:standard_code_list>
+<qds:standard_code_list>V28</qds:standard_code_list>
+<qds:standard_code_list>V45.5</qds:standard_code_list>
+<qds:standard_code_list>V61.5</qds:standard_code_list>
+<qds:standard_code_list>V61.6</qds:standard_code_list>
+<qds:standard_code_list>V61.7</qds:standard_code_list>
+<qds:standard_code_list>V69.2</qds:standard_code_list>
+<qds:standard_code_list>V72.3</qds:standard_code_list>
+<qds:standard_code_list>V72.4</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1857">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1857</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c27</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99211</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99217</qds:standard_code_list>
+<qds:standard_code_list>99218</qds:standard_code_list>
+<qds:standard_code_list>99219</qds:standard_code_list>
+<qds:standard_code_list>99220</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347-99350</qds:standard_code_list>
+<qds:standard_code_list>99384</qds:standard_code_list>
+<qds:standard_code_list>99385</qds:standard_code_list>
+<qds:standard_code_list>99386</qds:standard_code_list>
+<qds:standard_code_list>99387</qds:standard_code_list>
+<qds:standard_code_list>99394</qds:standard_code_list>
+<qds:standard_code_list>99395</qds:standard_code_list>
+<qds:standard_code_list>99396</qds:standard_code_list>
+<qds:standard_code_list>99397</qds:standard_code_list>
+<qds:standard_code_list>99401</qds:standard_code_list>
+<qds:standard_code_list>99402</qds:standard_code_list>
+<qds:standard_code_list>99403</qds:standard_code_list>
+<qds:standard_code_list>99404</qds:standard_code_list>
+<qds:standard_code_list>99411</qds:standard_code_list>
+<qds:standard_code_list>99412</qds:standard_code_list>
+<qds:standard_code_list>99420</qds:standard_code_list>
+<qds:standard_code_list>99429</qds:standard_code_list>
+<qds:standard_code_list>99455</qds:standard_code_list>
+<qds:standard_code_list>99456</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1858">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1858</qds:QDS_id>
+<qds:standard_concept>encounter outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c159</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>V70.0</qds:standard_code_list>
+<qds:standard_code_list>V70.3</qds:standard_code_list>
+<qds:standard_code_list>V70.5</qds:standard_code_list>
+<qds:standard_code_list>V70.6</qds:standard_code_list>
+<qds:standard_code_list>V70.8</qds:standard_code_list>
+<qds:standard_code_list>V70.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1657">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1657</qds:QDS_id>
+<qds:standard_concept>encounter outpatient w/ PCP &amp; obgyn</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c442</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c159</qds:standard_code_list>
+<qds:standard_code_list>c205</qds:standard_code_list>
+<qds:standard_code_list>c27</qds:standard_code_list>
+<qds:standard_code_list>c417</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1859">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1859</qds:QDS_id>
+<qds:standard_concept>encounter outpatient-children</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>N_c205</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>Z00.1</qds:standard_code_list>
+<qds:standard_code_list>Z00.10</qds:standard_code_list>
+<qds:standard_code_list>Z00.11</qds:standard_code_list>
+<qds:standard_code_list>Z00.2</qds:standard_code_list>
+<qds:standard_code_list>Z00.3</qds:standard_code_list>
+<qds:standard_code_list>Z00.7</qds:standard_code_list>
+<qds:standard_code_list>Z00.70</qds:standard_code_list>
+<qds:standard_code_list>Z00.71</qds:standard_code_list>
+<qds:standard_code_list>Z00.8</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1707">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1707</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c531</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c359</qds:standard_code_list>
+<qds:standard_code_list>c360</qds:standard_code_list>
+<qds:standard_code_list>c561</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1861">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1861</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c360</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>B15</qds:standard_code_list>
+<qds:standard_code_list>B15.0</qds:standard_code_list>
+<qds:standard_code_list>B15.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1862">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1862</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c359</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>070.0</qds:standard_code_list>
+<qds:standard_code_list>070.1</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1863">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1863</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c561</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111879004</qds:standard_code_list>
+<qds:standard_code_list>16060001</qds:standard_code_list>
+<qds:standard_code_list>186621007</qds:standard_code_list>
+<qds:standard_code_list>18917003</qds:standard_code_list>
+<qds:standard_code_list>206373002</qds:standard_code_list>
+<qds:standard_code_list>25102003</qds:standard_code_list>
+<qds:standard_code_list>40468003</qds:standard_code_list>
+<qds:standard_code_list>424758008</qds:standard_code_list>
+<qds:standard_code_list>43634002</qds:standard_code_list>
+<qds:standard_code_list>79031007</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1631">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1631</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c419</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798364</qds:standard_code_list>
+<qds:standard_code_list>798477</qds:standard_code_list>
+<qds:standard_code_list>798481</qds:standard_code_list>
+<qds:standard_code_list>803364</qds:standard_code_list>
+<qds:standard_code_list>803369</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1708">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1708</qds:QDS_id>
+<qds:standard_concept>Hepatitis A Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c419</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798364</qds:standard_code_list>
+<qds:standard_code_list>798477</qds:standard_code_list>
+<qds:standard_code_list>798481</qds:standard_code_list>
+<qds:standard_code_list>803364</qds:standard_code_list>
+<qds:standard_code_list>803369</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1710">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1710</qds:QDS_id>
+<qds:standard_concept>Hepatitis B Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c532</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c351</qds:standard_code_list>
+<qds:standard_code_list>c353</qds:standard_code_list>
+<qds:standard_code_list>c562</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1864">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1864</qds:QDS_id>
+<qds:standard_concept>Hepatitis B Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c353</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>B16</qds:standard_code_list>
+<qds:standard_code_list>B16.0</qds:standard_code_list>
+<qds:standard_code_list>B16.1</qds:standard_code_list>
+<qds:standard_code_list>B16.2</qds:standard_code_list>
+<qds:standard_code_list>B16.9</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1865">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1865</qds:QDS_id>
+<qds:standard_concept>Hepatitis B Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c352</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>070.2</qds:standard_code_list>
+<qds:standard_code_list>070.3</qds:standard_code_list>
+<qds:standard_code_list>V02.61</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1866">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1866</qds:QDS_id>
+<qds:standard_concept>Hepatitis B Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c562</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>1116000</qds:standard_code_list>
+<qds:standard_code_list>111891008</qds:standard_code_list>
+<qds:standard_code_list>13265006</qds:standard_code_list>
+<qds:standard_code_list>186623005</qds:standard_code_list>
+<qds:standard_code_list>186624004</qds:standard_code_list>
+<qds:standard_code_list>186626002</qds:standard_code_list>
+<qds:standard_code_list>186639003</qds:standard_code_list>
+<qds:standard_code_list>235864009</qds:standard_code_list>
+<qds:standard_code_list>235869004</qds:standard_code_list>
+<qds:standard_code_list>26206000</qds:standard_code_list>
+<qds:standard_code_list>29062009</qds:standard_code_list>
+<qds:standard_code_list>3738000</qds:standard_code_list>
+<qds:standard_code_list>38662009</qds:standard_code_list>
+<qds:standard_code_list>424099008</qds:standard_code_list>
+<qds:standard_code_list>424340000</qds:standard_code_list>
+<qds:standard_code_list>424460009</qds:standard_code_list>
+<qds:standard_code_list>442134007</qds:standard_code_list>
+<qds:standard_code_list>442374005</qds:standard_code_list>
+<qds:standard_code_list>50167007</qds:standard_code_list>
+<qds:standard_code_list>53425008</qds:standard_code_list>
+<qds:standard_code_list>60498001</qds:standard_code_list>
+<qds:standard_code_list>61977001</qds:standard_code_list>
+<qds:standard_code_list>66071002</qds:standard_code_list>
+<qds:standard_code_list>76795007</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2219">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_2219</qds:QDS_id>
+<qds:standard_concept>Hepatitis B Diagnosis</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c532</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c351</qds:standard_code_list>
+<qds:standard_code_list>c353</qds:standard_code_list>
+<qds:standard_code_list>c562</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1709">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1709</qds:QDS_id>
+<qds:standard_concept>Hepatitis B vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c418</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>310752</qds:standard_code_list>
+<qds:standard_code_list>310753</qds:standard_code_list>
+<qds:standard_code_list>310756</qds:standard_code_list>
+<qds:standard_code_list>606375</qds:standard_code_list>
+<qds:standard_code_list>763313</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1743">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1743</qds:QDS_id>
+<qds:standard_concept>Hepatitis B vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c418</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>310752</qds:standard_code_list>
+<qds:standard_code_list>310753</qds:standard_code_list>
+<qds:standard_code_list>310756</qds:standard_code_list>
+<qds:standard_code_list>606375</qds:standard_code_list>
+<qds:standard_code_list>763313</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1663">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1663</qds:QDS_id>
+<qds:standard_concept>HIB</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c409</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>260123</qds:standard_code_list>
+<qds:standard_code_list>798282</qds:standard_code_list>
+<qds:standard_code_list>798348</qds:standard_code_list>
+<qds:standard_code_list>798440</qds:standard_code_list>
+<qds:standard_code_list>798447</qds:standard_code_list>
+<qds:standard_code_list>860904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1718">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1718</qds:QDS_id>
+<qds:standard_concept>HIB</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c409</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>260123</qds:standard_code_list>
+<qds:standard_code_list>798282</qds:standard_code_list>
+<qds:standard_code_list>798348</qds:standard_code_list>
+<qds:standard_code_list>798440</qds:standard_code_list>
+<qds:standard_code_list>798447</qds:standard_code_list>
+<qds:standard_code_list>860904</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1654">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1654</qds:QDS_id>
+<qds:standard_concept>immunodeficiency</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c493</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c248</qds:standard_code_list>
+<qds:standard_code_list>c249</qds:standard_code_list>
+<qds:standard_code_list>c563</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1867">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1867</qds:QDS_id>
+<qds:standard_concept>immunodeficiency</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c249</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>E88.32</qds:standard_code_list>
+<qds:standard_code_list>E88.8</qds:standard_code_list>
+<qds:standard_code_list>G40.3</qds:standard_code_list>
+<qds:standard_code_list>H49.81</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1868">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1868</qds:QDS_id>
+<qds:standard_concept>immunodeficiency</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c248</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>279</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1869">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1869</qds:QDS_id>
+<qds:standard_concept>immunodeficiency</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c563</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>103077004</qds:standard_code_list>
+<qds:standard_code_list>103078009</qds:standard_code_list>
+<qds:standard_code_list>103079001</qds:standard_code_list>
+<qds:standard_code_list>103080003</qds:standard_code_list>
+<qds:standard_code_list>103081004</qds:standard_code_list>
+<qds:standard_code_list>105601003</qds:standard_code_list>
+<qds:standard_code_list>105602005</qds:standard_code_list>
+<qds:standard_code_list>111396008</qds:standard_code_list>
+<qds:standard_code_list>111584000</qds:standard_code_list>
+<qds:standard_code_list>111585004</qds:standard_code_list>
+<qds:standard_code_list>111587007</qds:standard_code_list>
+<qds:standard_code_list>116133005</qds:standard_code_list>
+<qds:standard_code_list>127067009</qds:standard_code_list>
+<qds:standard_code_list>129639005</qds:standard_code_list>
+<qds:standard_code_list>129641006</qds:standard_code_list>
+<qds:standard_code_list>129642004</qds:standard_code_list>
+<qds:standard_code_list>129643009</qds:standard_code_list>
+<qds:standard_code_list>13263004</qds:standard_code_list>
+<qds:standard_code_list>14333004</qds:standard_code_list>
+<qds:standard_code_list>17182001</qds:standard_code_list>
+<qds:standard_code_list>18827005</qds:standard_code_list>
+<qds:standard_code_list>190979003</qds:standard_code_list>
+<qds:standard_code_list>190980000</qds:standard_code_list>
+<qds:standard_code_list>190981001</qds:standard_code_list>
+<qds:standard_code_list>190993005</qds:standard_code_list>
+<qds:standard_code_list>190995003</qds:standard_code_list>
+<qds:standard_code_list>190996002</qds:standard_code_list>
+<qds:standard_code_list>190997006</qds:standard_code_list>
+<qds:standard_code_list>190998001</qds:standard_code_list>
+<qds:standard_code_list>191001007</qds:standard_code_list>
+<qds:standard_code_list>191002000</qds:standard_code_list>
+<qds:standard_code_list>191008001</qds:standard_code_list>
+<qds:standard_code_list>191018006</qds:standard_code_list>
+<qds:standard_code_list>191338000</qds:standard_code_list>
+<qds:standard_code_list>191345000</qds:standard_code_list>
+<qds:standard_code_list>191347008</qds:standard_code_list>
+<qds:standard_code_list>191352003</qds:standard_code_list>
+<qds:standard_code_list>203592006</qds:standard_code_list>
+<qds:standard_code_list>21527007</qds:standard_code_list>
+<qds:standard_code_list>22406001</qds:standard_code_list>
+<qds:standard_code_list>23238000</qds:standard_code_list>
+<qds:standard_code_list>234416002</qds:standard_code_list>
+<qds:standard_code_list>234423001</qds:standard_code_list>
+<qds:standard_code_list>234424007</qds:standard_code_list>
+<qds:standard_code_list>234425008</qds:standard_code_list>
+<qds:standard_code_list>234426009</qds:standard_code_list>
+<qds:standard_code_list>234433009</qds:standard_code_list>
+<qds:standard_code_list>234436001</qds:standard_code_list>
+<qds:standard_code_list>234437005</qds:standard_code_list>
+<qds:standard_code_list>234532001</qds:standard_code_list>
+<qds:standard_code_list>234533006</qds:standard_code_list>
+<qds:standard_code_list>234534000</qds:standard_code_list>
+<qds:standard_code_list>234539005</qds:standard_code_list>
+<qds:standard_code_list>234540007</qds:standard_code_list>
+<qds:standard_code_list>234541006</qds:standard_code_list>
+<qds:standard_code_list>234542004</qds:standard_code_list>
+<qds:standard_code_list>234543009</qds:standard_code_list>
+<qds:standard_code_list>234544003</qds:standard_code_list>
+<qds:standard_code_list>234546001</qds:standard_code_list>
+<qds:standard_code_list>234547005</qds:standard_code_list>
+<qds:standard_code_list>234548000</qds:standard_code_list>
+<qds:standard_code_list>234549008</qds:standard_code_list>
+<qds:standard_code_list>234550008</qds:standard_code_list>
+<qds:standard_code_list>234551007</qds:standard_code_list>
+<qds:standard_code_list>234552000</qds:standard_code_list>
+<qds:standard_code_list>234553005</qds:standard_code_list>
+<qds:standard_code_list>234554004</qds:standard_code_list>
+<qds:standard_code_list>234555003</qds:standard_code_list>
+<qds:standard_code_list>234556002</qds:standard_code_list>
+<qds:standard_code_list>234557006</qds:standard_code_list>
+<qds:standard_code_list>234558001</qds:standard_code_list>
+<qds:standard_code_list>234559009</qds:standard_code_list>
+<qds:standard_code_list>234560004</qds:standard_code_list>
+<qds:standard_code_list>234561000</qds:standard_code_list>
+<qds:standard_code_list>234562007</qds:standard_code_list>
+<qds:standard_code_list>234563002</qds:standard_code_list>
+<qds:standard_code_list>234564008</qds:standard_code_list>
+<qds:standard_code_list>234565009</qds:standard_code_list>
+<qds:standard_code_list>234566005</qds:standard_code_list>
+<qds:standard_code_list>234570002</qds:standard_code_list>
+<qds:standard_code_list>234571003</qds:standard_code_list>
+<qds:standard_code_list>234572005</qds:standard_code_list>
+<qds:standard_code_list>234573000</qds:standard_code_list>
+<qds:standard_code_list>234574006</qds:standard_code_list>
+<qds:standard_code_list>234576008</qds:standard_code_list>
+<qds:standard_code_list>234577004</qds:standard_code_list>
+<qds:standard_code_list>234578009</qds:standard_code_list>
+<qds:standard_code_list>234579001</qds:standard_code_list>
+<qds:standard_code_list>234580003</qds:standard_code_list>
+<qds:standard_code_list>234581004</qds:standard_code_list>
+<qds:standard_code_list>234582006</qds:standard_code_list>
+<qds:standard_code_list>234583001</qds:standard_code_list>
+<qds:standard_code_list>234584007</qds:standard_code_list>
+<qds:standard_code_list>234585008</qds:standard_code_list>
+<qds:standard_code_list>234586009</qds:standard_code_list>
+<qds:standard_code_list>234587000</qds:standard_code_list>
+<qds:standard_code_list>234588005</qds:standard_code_list>
+<qds:standard_code_list>234589002</qds:standard_code_list>
+<qds:standard_code_list>234590006</qds:standard_code_list>
+<qds:standard_code_list>234591005</qds:standard_code_list>
+<qds:standard_code_list>234593008</qds:standard_code_list>
+<qds:standard_code_list>234594002</qds:standard_code_list>
+<qds:standard_code_list>234595001</qds:standard_code_list>
+<qds:standard_code_list>234596000</qds:standard_code_list>
+<qds:standard_code_list>234597009</qds:standard_code_list>
+<qds:standard_code_list>234598004</qds:standard_code_list>
+<qds:standard_code_list>234599007</qds:standard_code_list>
+<qds:standard_code_list>234600005</qds:standard_code_list>
+<qds:standard_code_list>234601009</qds:standard_code_list>
+<qds:standard_code_list>234602002</qds:standard_code_list>
+<qds:standard_code_list>234603007</qds:standard_code_list>
+<qds:standard_code_list>234604001</qds:standard_code_list>
+<qds:standard_code_list>234605000</qds:standard_code_list>
+<qds:standard_code_list>234607008</qds:standard_code_list>
+<qds:standard_code_list>234608003</qds:standard_code_list>
+<qds:standard_code_list>234609006</qds:standard_code_list>
+<qds:standard_code_list>234611002</qds:standard_code_list>
+<qds:standard_code_list>234612009</qds:standard_code_list>
+<qds:standard_code_list>234613004</qds:standard_code_list>
+<qds:standard_code_list>234614005</qds:standard_code_list>
+<qds:standard_code_list>234615006</qds:standard_code_list>
+<qds:standard_code_list>234616007</qds:standard_code_list>
+<qds:standard_code_list>234617003</qds:standard_code_list>
+<qds:standard_code_list>234618008</qds:standard_code_list>
+<qds:standard_code_list>234619000</qds:standard_code_list>
+<qds:standard_code_list>234620006</qds:standard_code_list>
+<qds:standard_code_list>234621005</qds:standard_code_list>
+<qds:standard_code_list>234622003</qds:standard_code_list>
+<qds:standard_code_list>234623008</qds:standard_code_list>
+<qds:standard_code_list>234624002</qds:standard_code_list>
+<qds:standard_code_list>234625001</qds:standard_code_list>
+<qds:standard_code_list>234626000</qds:standard_code_list>
+<qds:standard_code_list>234627009</qds:standard_code_list>
+<qds:standard_code_list>234628004</qds:standard_code_list>
+<qds:standard_code_list>234629007</qds:standard_code_list>
+<qds:standard_code_list>234630002</qds:standard_code_list>
+<qds:standard_code_list>234631003</qds:standard_code_list>
+<qds:standard_code_list>234632005</qds:standard_code_list>
+<qds:standard_code_list>234633000</qds:standard_code_list>
+<qds:standard_code_list>234634006</qds:standard_code_list>
+<qds:standard_code_list>234635007</qds:standard_code_list>
+<qds:standard_code_list>234636008</qds:standard_code_list>
+<qds:standard_code_list>234637004</qds:standard_code_list>
+<qds:standard_code_list>234638009</qds:standard_code_list>
+<qds:standard_code_list>234639001</qds:standard_code_list>
+<qds:standard_code_list>234640004</qds:standard_code_list>
+<qds:standard_code_list>234641000</qds:standard_code_list>
+<qds:standard_code_list>234642007</qds:standard_code_list>
+<qds:standard_code_list>234643002</qds:standard_code_list>
+<qds:standard_code_list>234645009</qds:standard_code_list>
+<qds:standard_code_list>24181002</qds:standard_code_list>
+<qds:standard_code_list>241955009</qds:standard_code_list>
+<qds:standard_code_list>24419001</qds:standard_code_list>
+<qds:standard_code_list>24743004</qds:standard_code_list>
+<qds:standard_code_list>247860002</qds:standard_code_list>
+<qds:standard_code_list>248693006</qds:standard_code_list>
+<qds:standard_code_list>24974008</qds:standard_code_list>
+<qds:standard_code_list>25109007</qds:standard_code_list>
+<qds:standard_code_list>26252007</qds:standard_code_list>
+<qds:standard_code_list>263661007</qds:standard_code_list>
+<qds:standard_code_list>267538002</qds:standard_code_list>
+<qds:standard_code_list>267540007</qds:standard_code_list>
+<qds:standard_code_list>267543009</qds:standard_code_list>
+<qds:standard_code_list>276628009</qds:standard_code_list>
+<qds:standard_code_list>29260007</qds:standard_code_list>
+<qds:standard_code_list>29272001</qds:standard_code_list>
+<qds:standard_code_list>302874002</qds:standard_code_list>
+<qds:standard_code_list>303011007</qds:standard_code_list>
+<qds:standard_code_list>31323000</qds:standard_code_list>
+<qds:standard_code_list>32092008</qds:standard_code_list>
+<qds:standard_code_list>33286000</qds:standard_code_list>
+<qds:standard_code_list>3439009</qds:standard_code_list>
+<qds:standard_code_list>350353007</qds:standard_code_list>
+<qds:standard_code_list>351287008</qds:standard_code_list>
+<qds:standard_code_list>359791000</qds:standard_code_list>
+<qds:standard_code_list>36070007</qds:standard_code_list>
+<qds:standard_code_list>36138009</qds:standard_code_list>
+<qds:standard_code_list>362993009</qds:standard_code_list>
+<qds:standard_code_list>363009005</qds:standard_code_list>
+<qds:standard_code_list>363040003</qds:standard_code_list>
+<qds:standard_code_list>36980009</qds:standard_code_list>
+<qds:standard_code_list>37548006</qds:standard_code_list>
+<qds:standard_code_list>387759001</qds:standard_code_list>
+<qds:standard_code_list>3902000</qds:standard_code_list>
+<qds:standard_code_list>39674000</qds:standard_code_list>
+<qds:standard_code_list>398250003</qds:standard_code_list>
+<qds:standard_code_list>40197009</qds:standard_code_list>
+<qds:standard_code_list>402483002</qds:standard_code_list>
+<qds:standard_code_list>402791005</qds:standard_code_list>
+<qds:standard_code_list>402792003</qds:standard_code_list>
+<qds:standard_code_list>403837005</qds:standard_code_list>
+<qds:standard_code_list>409089005</qds:standard_code_list>
+<qds:standard_code_list>414850009</qds:standard_code_list>
+<qds:standard_code_list>416729007</qds:standard_code_list>
+<qds:standard_code_list>417167007</qds:standard_code_list>
+<qds:standard_code_list>41814009</qds:standard_code_list>
+<qds:standard_code_list>421312009</qds:standard_code_list>
+<qds:standard_code_list>425229001</qds:standard_code_list>
+<qds:standard_code_list>442459007</qds:standard_code_list>
+<qds:standard_code_list>4434006</qds:standard_code_list>
+<qds:standard_code_list>44940001</qds:standard_code_list>
+<qds:standard_code_list>45390000</qds:standard_code_list>
+<qds:standard_code_list>45841007</qds:standard_code_list>
+<qds:standard_code_list>46359005</qds:standard_code_list>
+<qds:standard_code_list>47144000</qds:standard_code_list>
+<qds:standard_code_list>47318007</qds:standard_code_list>
+<qds:standard_code_list>48119005</qds:standard_code_list>
+<qds:standard_code_list>49555001</qds:standard_code_list>
+<qds:standard_code_list>50926003</qds:standard_code_list>
+<qds:standard_code_list>55444004</qds:standard_code_list>
+<qds:standard_code_list>55602000</qds:standard_code_list>
+<qds:standard_code_list>56918001</qds:standard_code_list>
+<qds:standard_code_list>58034007</qds:standard_code_list>
+<qds:standard_code_list>58606001</qds:standard_code_list>
+<qds:standard_code_list>60743005</qds:standard_code_list>
+<qds:standard_code_list>62479008</qds:standard_code_list>
+<qds:standard_code_list>63484008</qds:standard_code_list>
+<qds:standard_code_list>65623009</qds:standard_code_list>
+<qds:standard_code_list>65880007</qds:standard_code_list>
+<qds:standard_code_list>66876008</qds:standard_code_list>
+<qds:standard_code_list>68504005</qds:standard_code_list>
+<qds:standard_code_list>69624006</qds:standard_code_list>
+<qds:standard_code_list>70349007</qds:standard_code_list>
+<qds:standard_code_list>71436005</qds:standard_code_list>
+<qds:standard_code_list>71610005</qds:standard_code_list>
+<qds:standard_code_list>71904008</qds:standard_code_list>
+<qds:standard_code_list>72050006</qds:standard_code_list>
+<qds:standard_code_list>76243000</qds:standard_code_list>
+<qds:standard_code_list>77070006</qds:standard_code_list>
+<qds:standard_code_list>77121009</qds:standard_code_list>
+<qds:standard_code_list>77330006</qds:standard_code_list>
+<qds:standard_code_list>77358003</qds:standard_code_list>
+<qds:standard_code_list>78378009</qds:standard_code_list>
+<qds:standard_code_list>7990002</qds:standard_code_list>
+<qds:standard_code_list>80369006</qds:standard_code_list>
+<qds:standard_code_list>81166004</qds:standard_code_list>
+<qds:standard_code_list>82286005</qds:standard_code_list>
+<qds:standard_code_list>82317007</qds:standard_code_list>
+<qds:standard_code_list>82966003</qds:standard_code_list>
+<qds:standard_code_list>88714009</qds:standard_code_list>
+<qds:standard_code_list>89454001</qds:standard_code_list>
+<qds:standard_code_list>89655007</qds:standard_code_list>
+<qds:standard_code_list>9893005</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1706">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1706</qds:QDS_id>
+<qds:standard_concept>influenza vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c423</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>805527</qds:standard_code_list>
+<qds:standard_code_list>805533</qds:standard_code_list>
+<qds:standard_code_list>805544</qds:standard_code_list>
+<qds:standard_code_list>805571</qds:standard_code_list>
+<qds:standard_code_list>857924</qds:standard_code_list>
+<qds:standard_code_list>857942</qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+<qds:standard_code_list>864781</qds:standard_code_list>
+<qds:standard_code_list>864797</qds:standard_code_list>
+<qds:standard_code_list>864814</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1745">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1745</qds:QDS_id>
+<qds:standard_concept>influenza vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c423</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>805527</qds:standard_code_list>
+<qds:standard_code_list>805533</qds:standard_code_list>
+<qds:standard_code_list>805544</qds:standard_code_list>
+<qds:standard_code_list>805571</qds:standard_code_list>
+<qds:standard_code_list>857924</qds:standard_code_list>
+<qds:standard_code_list>857942</qds:standard_code_list>
+<qds:standard_code_list>857965</qds:standard_code_list>
+<qds:standard_code_list>864781</qds:standard_code_list>
+<qds:standard_code_list>864797</qds:standard_code_list>
+<qds:standard_code_list>864814</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1626">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1626</qds:QDS_id>
+<qds:standard_concept>IPV</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c407</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>763103</qds:standard_code_list>
+<qds:standard_code_list>866820</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1702">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1702</qds:QDS_id>
+<qds:standard_concept>IPV</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c407</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>763103</qds:standard_code_list>
+<qds:standard_code_list>866820</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1648">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1648</qds:QDS_id>
+<qds:standard_concept>leukemia</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c494</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c255</qds:standard_code_list>
+<qds:standard_code_list>c256</qds:standard_code_list>
+<qds:standard_code_list>c341</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1870">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1870</qds:QDS_id>
+<qds:standard_concept>leukemia</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c256</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C91</qds:standard_code_list>
+<qds:standard_code_list>C92</qds:standard_code_list>
+<qds:standard_code_list>C92.5</qds:standard_code_list>
+<qds:standard_code_list>C93.91</qds:standard_code_list>
+<qds:standard_code_list>C94</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1871">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1871</qds:QDS_id>
+<qds:standard_concept>leukemia</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c255</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>200</qds:standard_code_list>
+<qds:standard_code_list>202</qds:standard_code_list>
+<qds:standard_code_list>204</qds:standard_code_list>
+<qds:standard_code_list>205</qds:standard_code_list>
+<qds:standard_code_list>206</qds:standard_code_list>
+<qds:standard_code_list>207</qds:standard_code_list>
+<qds:standard_code_list>208</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1872">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1872</qds:QDS_id>
+<qds:standard_concept>leukemia</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c341</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109991003</qds:standard_code_list>
+<qds:standard_code_list>110002002</qds:standard_code_list>
+<qds:standard_code_list>110004001</qds:standard_code_list>
+<qds:standard_code_list>110005000</qds:standard_code_list>
+<qds:standard_code_list>118613001</qds:standard_code_list>
+<qds:standard_code_list>127225006</qds:standard_code_list>
+<qds:standard_code_list>188645002</qds:standard_code_list>
+<qds:standard_code_list>188648000</qds:standard_code_list>
+<qds:standard_code_list>188649008</qds:standard_code_list>
+<qds:standard_code_list>188651007</qds:standard_code_list>
+<qds:standard_code_list>188725004</qds:standard_code_list>
+<qds:standard_code_list>188726003</qds:standard_code_list>
+<qds:standard_code_list>188728002</qds:standard_code_list>
+<qds:standard_code_list>188729005</qds:standard_code_list>
+<qds:standard_code_list>188732008</qds:standard_code_list>
+<qds:standard_code_list>188733003</qds:standard_code_list>
+<qds:standard_code_list>188734009</qds:standard_code_list>
+<qds:standard_code_list>188736006</qds:standard_code_list>
+<qds:standard_code_list>188737002</qds:standard_code_list>
+<qds:standard_code_list>188738007</qds:standard_code_list>
+<qds:standard_code_list>188740002</qds:standard_code_list>
+<qds:standard_code_list>188741003</qds:standard_code_list>
+<qds:standard_code_list>188744006</qds:standard_code_list>
+<qds:standard_code_list>188745007</qds:standard_code_list>
+<qds:standard_code_list>188746008</qds:standard_code_list>
+<qds:standard_code_list>188748009</qds:standard_code_list>
+<qds:standard_code_list>188754005</qds:standard_code_list>
+<qds:standard_code_list>188762002</qds:standard_code_list>
+<qds:standard_code_list>188768003</qds:standard_code_list>
+<qds:standard_code_list>188770007</qds:standard_code_list>
+<qds:standard_code_list>190030009</qds:standard_code_list>
+<qds:standard_code_list>269475001</qds:standard_code_list>
+<qds:standard_code_list>277473004</qds:standard_code_list>
+<qds:standard_code_list>277474005</qds:standard_code_list>
+<qds:standard_code_list>277545003</qds:standard_code_list>
+<qds:standard_code_list>277549009</qds:standard_code_list>
+<qds:standard_code_list>277550009</qds:standard_code_list>
+<qds:standard_code_list>277551008</qds:standard_code_list>
+<qds:standard_code_list>277567002</qds:standard_code_list>
+<qds:standard_code_list>277568007</qds:standard_code_list>
+<qds:standard_code_list>277569004</qds:standard_code_list>
+<qds:standard_code_list>277570003</qds:standard_code_list>
+<qds:standard_code_list>277571004</qds:standard_code_list>
+<qds:standard_code_list>277572006</qds:standard_code_list>
+<qds:standard_code_list>277573001</qds:standard_code_list>
+<qds:standard_code_list>277574007</qds:standard_code_list>
+<qds:standard_code_list>277575008</qds:standard_code_list>
+<qds:standard_code_list>277587001</qds:standard_code_list>
+<qds:standard_code_list>277589003</qds:standard_code_list>
+<qds:standard_code_list>277601005</qds:standard_code_list>
+<qds:standard_code_list>277602003</qds:standard_code_list>
+<qds:standard_code_list>277604002</qds:standard_code_list>
+<qds:standard_code_list>277619001</qds:standard_code_list>
+<qds:standard_code_list>278189009</qds:standard_code_list>
+<qds:standard_code_list>278453007</qds:standard_code_list>
+<qds:standard_code_list>285769009</qds:standard_code_list>
+<qds:standard_code_list>285839005</qds:standard_code_list>
+<qds:standard_code_list>302855005</qds:standard_code_list>
+<qds:standard_code_list>302856006</qds:standard_code_list>
+<qds:standard_code_list>307341004</qds:standard_code_list>
+<qds:standard_code_list>307592006</qds:standard_code_list>
+<qds:standard_code_list>307617006</qds:standard_code_list>
+<qds:standard_code_list>359631009</qds:standard_code_list>
+<qds:standard_code_list>359640008</qds:standard_code_list>
+<qds:standard_code_list>359648001</qds:standard_code_list>
+<qds:standard_code_list>371012000</qds:standard_code_list>
+<qds:standard_code_list>372087000</qds:standard_code_list>
+<qds:standard_code_list>404122003</qds:standard_code_list>
+<qds:standard_code_list>404123008</qds:standard_code_list>
+<qds:standard_code_list>404124002</qds:standard_code_list>
+<qds:standard_code_list>404139001</qds:standard_code_list>
+<qds:standard_code_list>404151004</qds:standard_code_list>
+<qds:standard_code_list>404152006</qds:standard_code_list>
+<qds:standard_code_list>404153001</qds:standard_code_list>
+<qds:standard_code_list>404154007</qds:standard_code_list>
+<qds:standard_code_list>404155008</qds:standard_code_list>
+<qds:standard_code_list>413389003</qds:standard_code_list>
+<qds:standard_code_list>413441006</qds:standard_code_list>
+<qds:standard_code_list>413442004</qds:standard_code_list>
+<qds:standard_code_list>413656006</qds:standard_code_list>
+<qds:standard_code_list>413842007</qds:standard_code_list>
+<qds:standard_code_list>413843002</qds:standard_code_list>
+<qds:standard_code_list>415287001</qds:standard_code_list>
+<qds:standard_code_list>425688002</qds:standard_code_list>
+<qds:standard_code_list>425749006</qds:standard_code_list>
+<qds:standard_code_list>425869007</qds:standard_code_list>
+<qds:standard_code_list>425941003</qds:standard_code_list>
+<qds:standard_code_list>426124006</qds:standard_code_list>
+<qds:standard_code_list>426217000</qds:standard_code_list>
+<qds:standard_code_list>426642002</qds:standard_code_list>
+<qds:standard_code_list>427056005</qds:standard_code_list>
+<qds:standard_code_list>427642009</qds:standard_code_list>
+<qds:standard_code_list>427658007</qds:standard_code_list>
+<qds:standard_code_list>430338009</qds:standard_code_list>
+<qds:standard_code_list>91854005</qds:standard_code_list>
+<qds:standard_code_list>91855006</qds:standard_code_list>
+<qds:standard_code_list>91856007</qds:standard_code_list>
+<qds:standard_code_list>91857003</qds:standard_code_list>
+<qds:standard_code_list>91858008</qds:standard_code_list>
+<qds:standard_code_list>91860005</qds:standard_code_list>
+<qds:standard_code_list>91861009</qds:standard_code_list>
+<qds:standard_code_list>92811003</qds:standard_code_list>
+<qds:standard_code_list>92812005</qds:standard_code_list>
+<qds:standard_code_list>92813000</qds:standard_code_list>
+<qds:standard_code_list>92814006</qds:standard_code_list>
+<qds:standard_code_list>92817004</qds:standard_code_list>
+<qds:standard_code_list>92818009</qds:standard_code_list>
+<qds:standard_code_list>93142004</qds:standard_code_list>
+<qds:standard_code_list>93143009</qds:standard_code_list>
+<qds:standard_code_list>93144003</qds:standard_code_list>
+<qds:standard_code_list>93145002</qds:standard_code_list>
+<qds:standard_code_list>93146001</qds:standard_code_list>
+<qds:standard_code_list>93147005</qds:standard_code_list>
+<qds:standard_code_list>93148000</qds:standard_code_list>
+<qds:standard_code_list>93149008</qds:standard_code_list>
+<qds:standard_code_list>93150008</qds:standard_code_list>
+<qds:standard_code_list>93151007</qds:standard_code_list>
+<qds:standard_code_list>93152000</qds:standard_code_list>
+<qds:standard_code_list>93169003</qds:standard_code_list>
+<qds:standard_code_list>93451002</qds:standard_code_list>
+<qds:standard_code_list>94148006</qds:standard_code_list>
+<qds:standard_code_list>94716000</qds:standard_code_list>
+<qds:standard_code_list>94718004</qds:standard_code_list>
+<qds:standard_code_list>94719007</qds:standard_code_list>
+<qds:standard_code_list>95209008</qds:standard_code_list>
+<qds:standard_code_list>95210003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1650">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1650</qds:QDS_id>
+<qds:standard_concept>Measles</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c508</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c568</qds:standard_code_list>
+<qds:standard_code_list>c569</qds:standard_code_list>
+<qds:standard_code_list>c595</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1873">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1873</qds:QDS_id>
+<qds:standard_concept>Measles</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c595</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>B05</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1874">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1874</qds:QDS_id>
+<qds:standard_concept>Measles</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c569</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>055</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1875">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1875</qds:QDS_id>
+<qds:standard_concept>measles</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c568</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>111873003</qds:standard_code_list>
+<qds:standard_code_list>14189004</qds:standard_code_list>
+<qds:standard_code_list>186561002</qds:standard_code_list>
+<qds:standard_code_list>186562009</qds:standard_code_list>
+<qds:standard_code_list>192685000</qds:standard_code_list>
+<qds:standard_code_list>195900001</qds:standard_code_list>
+<qds:standard_code_list>233625007</qds:standard_code_list>
+<qds:standard_code_list>240483006</qds:standard_code_list>
+<qds:standard_code_list>240484000</qds:standard_code_list>
+<qds:standard_code_list>28463004</qds:standard_code_list>
+<qds:standard_code_list>38921001</qds:standard_code_list>
+<qds:standard_code_list>406592004</qds:standard_code_list>
+<qds:standard_code_list>60013002</qds:standard_code_list>
+<qds:standard_code_list>74918002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1652">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1652</qds:QDS_id>
+<qds:standard_concept>Measles vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c317</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>346512</qds:standard_code_list>
+<qds:standard_code_list>547240</qds:standard_code_list>
+<qds:standard_code_list>804183</qds:standard_code_list>
+<qds:standard_code_list>805494</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1823">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1823</qds:QDS_id>
+<qds:standard_concept>Measles vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c317</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>346512</qds:standard_code_list>
+<qds:standard_code_list>547240</qds:standard_code_list>
+<qds:standard_code_list>804183</qds:standard_code_list>
+<qds:standard_code_list>805494</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_644">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_644</qds:QDS_id>
+<qds:standard_concept>measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>N_c1</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1182">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1182</qds:QDS_id>
+<qds:standard_concept>measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>N_c2</qds:standard_concept_id>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1627">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1627</qds:QDS_id>
+<qds:standard_concept>MMR Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c408</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>762820</qds:standard_code_list>
+<qds:standard_code_list>805077</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1703">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1703</qds:QDS_id>
+<qds:standard_concept>MMR Vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c408</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>762820</qds:standard_code_list>
+<qds:standard_code_list>805077</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1647">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1647</qds:QDS_id>
+<qds:standard_concept>multiple myeloma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c495</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c253</qds:standard_code_list>
+<qds:standard_code_list>c254</qds:standard_code_list>
+<qds:standard_code_list>c570</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1876">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1876</qds:QDS_id>
+<qds:standard_concept>multiple myeloma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c254</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C90</qds:standard_code_list>
+<qds:standard_code_list>C90.0</qds:standard_code_list>
+<qds:standard_code_list>C90.00</qds:standard_code_list>
+<qds:standard_code_list>C90.01</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1877">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1877</qds:QDS_id>
+<qds:standard_concept>multiple myeloma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c253</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>203</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1878">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1878</qds:QDS_id>
+<qds:standard_concept>multiple myeloma</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c570</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>109989006</qds:standard_code_list>
+<qds:standard_code_list>277579002</qds:standard_code_list>
+<qds:standard_code_list>277580004</qds:standard_code_list>
+<qds:standard_code_list>285420006</qds:standard_code_list>
+<qds:standard_code_list>285421005</qds:standard_code_list>
+<qds:standard_code_list>285422003</qds:standard_code_list>
+<qds:standard_code_list>313427003</qds:standard_code_list>
+<qds:standard_code_list>413587002</qds:standard_code_list>
+<qds:standard_code_list>414553000</qds:standard_code_list>
+<qds:standard_code_list>425657001</qds:standard_code_list>
+<qds:standard_code_list>440422002</qds:standard_code_list>
+<qds:standard_code_list>441313008</qds:standard_code_list>
+<qds:standard_code_list>94704006</qds:standard_code_list>
+<qds:standard_code_list>95209008</qds:standard_code_list>
+<qds:standard_code_list>95210003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2218">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_2218</qds:QDS_id>
+<qds:standard_concept>mumps</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c272</qds:standard_concept_id>
+<qds:standard_taxonomy>Grouping</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c571</qds:standard_code_list>
+<qds:standard_code_list>c572</qds:standard_code_list>
+<qds:standard_code_list>c598</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1704">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1704</qds:QDS_id>
+<qds:standard_concept>mumps vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c530</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798375 </qds:standard_code_list>
+<qds:standard_code_list>805077</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1705">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1705</qds:QDS_id>
+<qds:standard_concept>mumps vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c530</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798375 </qds:standard_code_list>
+<qds:standard_code_list>805077</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1641">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1641</qds:QDS_id>
+<qds:standard_concept>Neomycin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c510</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C0988018</qds:standard_code_list>
+<qds:standard_code_list>C1123055</qds:standard_code_list>
+<qds:standard_code_list>C1123343</qds:standard_code_list>
+<qds:standard_code_list>C1123363</qds:standard_code_list>
+<qds:standard_code_list>C1124224</qds:standard_code_list>
+<qds:standard_code_list>C1127589</qds:standard_code_list>
+<qds:standard_code_list>C1134215</qds:standard_code_list>
+<qds:standard_code_list>C1140030</qds:standard_code_list>
+<qds:standard_code_list>C1140542</qds:standard_code_list>
+<qds:standard_code_list>C1186980</qds:standard_code_list>
+<qds:standard_code_list>C1704126</qds:standard_code_list>
+<qds:standard_code_list>C272305</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1635">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1635</qds:QDS_id>
+<qds:standard_concept>pneumococcal vaccination</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c421</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>854931</qds:standard_code_list>
+<qds:standard_code_list>854933</qds:standard_code_list>
+<qds:standard_code_list>854935</qds:standard_code_list>
+<qds:standard_code_list>854937</qds:standard_code_list>
+<qds:standard_code_list>854939</qds:standard_code_list>
+<qds:standard_code_list>854941</qds:standard_code_list>
+<qds:standard_code_list>854943</qds:standard_code_list>
+<qds:standard_code_list>854945</qds:standard_code_list>
+<qds:standard_code_list>854947</qds:standard_code_list>
+<qds:standard_code_list>854949</qds:standard_code_list>
+<qds:standard_code_list>854951</qds:standard_code_list>
+<qds:standard_code_list>854953</qds:standard_code_list>
+<qds:standard_code_list>854955</qds:standard_code_list>
+<qds:standard_code_list>854957</qds:standard_code_list>
+<qds:standard_code_list>854959</qds:standard_code_list>
+<qds:standard_code_list>854961</qds:standard_code_list>
+<qds:standard_code_list>854963</qds:standard_code_list>
+<qds:standard_code_list>854965</qds:standard_code_list>
+<qds:standard_code_list>854967</qds:standard_code_list>
+<qds:standard_code_list>854969</qds:standard_code_list>
+<qds:standard_code_list>854971</qds:standard_code_list>
+<qds:standard_code_list>854973</qds:standard_code_list>
+<qds:standard_code_list>854975</qds:standard_code_list>
+<qds:standard_code_list>854977</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1717">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1717</qds:QDS_id>
+<qds:standard_concept>pneumococcal vaccination</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c421</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>854931</qds:standard_code_list>
+<qds:standard_code_list>854933</qds:standard_code_list>
+<qds:standard_code_list>854935</qds:standard_code_list>
+<qds:standard_code_list>854937</qds:standard_code_list>
+<qds:standard_code_list>854939</qds:standard_code_list>
+<qds:standard_code_list>854941</qds:standard_code_list>
+<qds:standard_code_list>854943</qds:standard_code_list>
+<qds:standard_code_list>854945</qds:standard_code_list>
+<qds:standard_code_list>854947</qds:standard_code_list>
+<qds:standard_code_list>854949</qds:standard_code_list>
+<qds:standard_code_list>854951</qds:standard_code_list>
+<qds:standard_code_list>854953</qds:standard_code_list>
+<qds:standard_code_list>854955</qds:standard_code_list>
+<qds:standard_code_list>854957</qds:standard_code_list>
+<qds:standard_code_list>854959</qds:standard_code_list>
+<qds:standard_code_list>854961</qds:standard_code_list>
+<qds:standard_code_list>854963</qds:standard_code_list>
+<qds:standard_code_list>854965</qds:standard_code_list>
+<qds:standard_code_list>854967</qds:standard_code_list>
+<qds:standard_code_list>854969</qds:standard_code_list>
+<qds:standard_code_list>854971</qds:standard_code_list>
+<qds:standard_code_list>854973</qds:standard_code_list>
+<qds:standard_code_list>854975</qds:standard_code_list>
+<qds:standard_code_list>854977</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1643">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1643</qds:QDS_id>
+<qds:standard_concept>Polymyxin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c511</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C0988924</qds:standard_code_list>
+<qds:standard_code_list>C1123393</qds:standard_code_list>
+<qds:standard_code_list>C1125567</qds:standard_code_list>
+<qds:standard_code_list>C1133048</qds:standard_code_list>
+<qds:standard_code_list>C2729553</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1829">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1829</qds:QDS_id>
+<qds:standard_concept>progressive neurologic disorder</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c336</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>230363006</qds:standard_code_list>
+<qds:standard_code_list>292925004</qds:standard_code_list>
+<qds:standard_code_list>292927007</qds:standard_code_list>
+<qds:standard_code_list>292992006</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1714">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1714</qds:QDS_id>
+<qds:standard_concept>Rotavirus vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c314</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798297</qds:standard_code_list>
+<qds:standard_code_list>805576</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1739">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1739</qds:QDS_id>
+<qds:standard_concept>Rotavirus vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c314</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>798297</qds:standard_code_list>
+<qds:standard_code_list>805576</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2221">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_2221</qds:QDS_id>
+<qds:standard_concept>Rubella</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c512</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c577</qds:standard_code_list>
+<qds:standard_code_list>c579</qds:standard_code_list>
+<qds:standard_code_list>c597</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2222">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_2222</qds:QDS_id>
+<qds:standard_concept>rubella vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c346</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>762820</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_2223">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_2223</qds:QDS_id>
+<qds:standard_concept>rubella vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c346</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>762820</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1642">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1642</qds:QDS_id>
+<qds:standard_concept>Streptomycin</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c513</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>C1134151</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1661">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1661</qds:QDS_id>
+<qds:standard_concept>VZV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c514</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>c583</qds:standard_code_list>
+<qds:standard_code_list>c585</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1839">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1839</qds:QDS_id>
+<qds:standard_concept>VZV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis resolved</qds:QDS_data_type>
+<qds:standard_concept_id>N_c583</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>06/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>052</qds:standard_code_list>
+<qds:standard_code_list>053</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1840">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1840</qds:QDS_id>
+<qds:standard_concept>VZV</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>N_c585</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10491005</qds:standard_code_list>
+<qds:standard_code_list>10698009</qds:standard_code_list>
+<qds:standard_code_list>111859007</qds:standard_code_list>
+<qds:standard_code_list>111861003</qds:standard_code_list>
+<qds:standard_code_list>186524006</qds:standard_code_list>
+<qds:standard_code_list>186525007</qds:standard_code_list>
+<qds:standard_code_list>195911009</qds:standard_code_list>
+<qds:standard_code_list>21954000</qds:standard_code_list>
+<qds:standard_code_list>230176008</qds:standard_code_list>
+<qds:standard_code_list>230198004</qds:standard_code_list>
+<qds:standard_code_list>230262004</qds:standard_code_list>
+<qds:standard_code_list>230536009</qds:standard_code_list>
+<qds:standard_code_list>232400003</qds:standard_code_list>
+<qds:standard_code_list>235059009</qds:standard_code_list>
+<qds:standard_code_list>23737006</qds:standard_code_list>
+<qds:standard_code_list>240468001</qds:standard_code_list>
+<qds:standard_code_list>240469009</qds:standard_code_list>
+<qds:standard_code_list>240470005</qds:standard_code_list>
+<qds:standard_code_list>240471009</qds:standard_code_list>
+<qds:standard_code_list>240472002</qds:standard_code_list>
+<qds:standard_code_list>240473007</qds:standard_code_list>
+<qds:standard_code_list>240474001</qds:standard_code_list>
+<qds:standard_code_list>24059009</qds:standard_code_list>
+<qds:standard_code_list>277644009</qds:standard_code_list>
+<qds:standard_code_list>309465005</qds:standard_code_list>
+<qds:standard_code_list>36292003</qds:standard_code_list>
+<qds:standard_code_list>38907003</qds:standard_code_list>
+<qds:standard_code_list>397573005</qds:standard_code_list>
+<qds:standard_code_list>400020001</qds:standard_code_list>
+<qds:standard_code_list>402897003</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1659">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1659</qds:QDS_id>
+<qds:standard_concept>VZV vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication administered</qds:QDS_data_type>
+<qds:standard_concept_id>N_c420</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>106483</qds:standard_code_list>
+<qds:standard_code_list>252016</qds:standard_code_list>
+<qds:standard_code_list>646808</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/N_1671">
+<qds:NQF_id>0038</qds:NQF_id>
+<qds:measure_name>Childhood immunization Status</qds:measure_name>
+<qds:QDS_id>N_1671</qds:QDS_id>
+<qds:standard_concept>VZV vaccine</qds:standard_concept>
+<qds:standard_category>Medication</qds:standard_category>
+<qds:QDS_data_type>medication allergy</qds:QDS_data_type>
+<qds:standard_concept_id>N_c420</qds:standard_concept_id>
+<qds:standard_taxonomy>RxNorm</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>07/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>106483</qds:standard_code_list>
+<qds:standard_code_list>252016</qds:standard_code_list>
+<qds:standard_code_list>646808</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>

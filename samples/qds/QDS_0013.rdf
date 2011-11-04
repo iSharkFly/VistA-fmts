@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:qds="http://cms.gov/pqri/qds/">
+<rdf:Description rdf:about="/A_172">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_172</qds:QDS_id>
+<qds:standard_concept>birthdate</qds:standard_concept>
+<qds:standard_category>Individual characteristic</qds:standard_category>
+<qds:QDS_data_type>patient characteristic</qds:QDS_data_type>
+<qds:standard_concept_id>A_c8</qds:standard_concept_id>
+<qds:standard_taxonomy>HL7</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>3.0</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>00110</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_364">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_364</qds:QDS_id>
+<qds:standard_concept>Diastolic Blood Pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>A_c138</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>163031004</qds:standard_code_list>
+<qds:standard_code_list>174255007</qds:standard_code_list>
+<qds:standard_code_list>23154005</qds:standard_code_list>
+<qds:standard_code_list>251073000</qds:standard_code_list>
+<qds:standard_code_list>271650006</qds:standard_code_list>
+<qds:standard_code_list>314451001</qds:standard_code_list>
+<qds:standard_code_list>314452008</qds:standard_code_list>
+<qds:standard_code_list>314453003</qds:standard_code_list>
+<qds:standard_code_list>314454009</qds:standard_code_list>
+<qds:standard_code_list>314455005</qds:standard_code_list>
+<qds:standard_code_list>314456006</qds:standard_code_list>
+<qds:standard_code_list>314457002</qds:standard_code_list>
+<qds:standard_code_list>314458007</qds:standard_code_list>
+<qds:standard_code_list>314459004</qds:standard_code_list>
+<qds:standard_code_list>314460009</qds:standard_code_list>
+<qds:standard_code_list>314461008</qds:standard_code_list>
+<qds:standard_code_list>314462001</qds:standard_code_list>
+<qds:standard_code_list>314465004</qds:standard_code_list>
+<qds:standard_code_list>315613000</qds:standard_code_list>
+<qds:standard_code_list>400975005</qds:standard_code_list>
+<qds:standard_code_list>407555005</qds:standard_code_list>
+<qds:standard_code_list>407557002</qds:standard_code_list>
+<qds:standard_code_list>42689008</qds:standard_code_list>
+<qds:standard_code_list>53813002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_365">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_365</qds:QDS_id>
+<qds:standard_concept>Diastolic Blood Pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>A_c138</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>163031004</qds:standard_code_list>
+<qds:standard_code_list>174255007</qds:standard_code_list>
+<qds:standard_code_list>23154005</qds:standard_code_list>
+<qds:standard_code_list>251073000</qds:standard_code_list>
+<qds:standard_code_list>271650006</qds:standard_code_list>
+<qds:standard_code_list>314451001</qds:standard_code_list>
+<qds:standard_code_list>314452008</qds:standard_code_list>
+<qds:standard_code_list>314453003</qds:standard_code_list>
+<qds:standard_code_list>314454009</qds:standard_code_list>
+<qds:standard_code_list>314455005</qds:standard_code_list>
+<qds:standard_code_list>314456006</qds:standard_code_list>
+<qds:standard_code_list>314457002</qds:standard_code_list>
+<qds:standard_code_list>314458007</qds:standard_code_list>
+<qds:standard_code_list>314459004</qds:standard_code_list>
+<qds:standard_code_list>314460009</qds:standard_code_list>
+<qds:standard_code_list>314461008</qds:standard_code_list>
+<qds:standard_code_list>314462001</qds:standard_code_list>
+<qds:standard_code_list>314465004</qds:standard_code_list>
+<qds:standard_code_list>315613000</qds:standard_code_list>
+<qds:standard_code_list>400975005</qds:standard_code_list>
+<qds:standard_code_list>407555005</qds:standard_code_list>
+<qds:standard_code_list>407557002</qds:standard_code_list>
+<qds:standard_code_list>42689008</qds:standard_code_list>
+<qds:standard_code_list>53813002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_249">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_249</qds:QDS_id>
+<qds:standard_concept>Encounter Nursing Facility</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c28</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99304</qds:standard_code_list>
+<qds:standard_code_list>99305</qds:standard_code_list>
+<qds:standard_code_list>99306</qds:standard_code_list>
+<qds:standard_code_list>99307</qds:standard_code_list>
+<qds:standard_code_list>99308</qds:standard_code_list>
+<qds:standard_code_list>99309</qds:standard_code_list>
+<qds:standard_code_list>99310</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_250">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_250</qds:QDS_id>
+<qds:standard_concept>Encounter Outpatient</qds:standard_concept>
+<qds:standard_category>Encounter</qds:standard_category>
+<qds:QDS_data_type>encounter</qds:QDS_data_type>
+<qds:standard_concept_id>A_c26</qds:standard_concept_id>
+<qds:standard_taxonomy>CPT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>99201</qds:standard_code_list>
+<qds:standard_code_list>99202</qds:standard_code_list>
+<qds:standard_code_list>99203</qds:standard_code_list>
+<qds:standard_code_list>99204</qds:standard_code_list>
+<qds:standard_code_list>99205</qds:standard_code_list>
+<qds:standard_code_list>99212</qds:standard_code_list>
+<qds:standard_code_list>99213</qds:standard_code_list>
+<qds:standard_code_list>99214</qds:standard_code_list>
+<qds:standard_code_list>99215</qds:standard_code_list>
+<qds:standard_code_list>99241</qds:standard_code_list>
+<qds:standard_code_list>99242</qds:standard_code_list>
+<qds:standard_code_list>99243</qds:standard_code_list>
+<qds:standard_code_list>99244</qds:standard_code_list>
+<qds:standard_code_list>99245</qds:standard_code_list>
+<qds:standard_code_list>99324</qds:standard_code_list>
+<qds:standard_code_list>99325</qds:standard_code_list>
+<qds:standard_code_list>99326</qds:standard_code_list>
+<qds:standard_code_list>99327</qds:standard_code_list>
+<qds:standard_code_list>99328</qds:standard_code_list>
+<qds:standard_code_list>99334</qds:standard_code_list>
+<qds:standard_code_list>99335</qds:standard_code_list>
+<qds:standard_code_list>99336</qds:standard_code_list>
+<qds:standard_code_list>99337</qds:standard_code_list>
+<qds:standard_code_list>99341</qds:standard_code_list>
+<qds:standard_code_list>99342</qds:standard_code_list>
+<qds:standard_code_list>99343</qds:standard_code_list>
+<qds:standard_code_list>99344</qds:standard_code_list>
+<qds:standard_code_list>99345</qds:standard_code_list>
+<qds:standard_code_list>99347</qds:standard_code_list>
+<qds:standard_code_list>99348</qds:standard_code_list>
+<qds:standard_code_list>99349</qds:standard_code_list>
+<qds:standard_code_list>99350</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_1321">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_1321</qds:QDS_id>
+<qds:standard_concept>Hypertension</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c388</qds:standard_concept_id>
+<qds:standard_taxonomy>GROUPING</qds:standard_taxonomy>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>A_c69</qds:standard_code_list>
+<qds:standard_code_list>A_c70</qds:standard_code_list>
+<qds:standard_code_list>A_c71</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_179">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_179</qds:QDS_id>
+<qds:standard_concept>Hypertension</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c70</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-10-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2010</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>I10</qds:standard_code_list>
+<qds:standard_code_list>I11</qds:standard_code_list>
+<qds:standard_code_list>I13</qds:standard_code_list>
+<qds:standard_code_list>I13.0</qds:standard_code_list>
+<qds:standard_code_list>I13.10</qds:standard_code_list>
+<qds:standard_code_list>I13.2</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_173">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_173</qds:QDS_id>
+<qds:standard_concept>Hypertension</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c69</qds:standard_concept_id>
+<qds:standard_taxonomy>ICD-9-CM</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>401.0</qds:standard_code_list>
+<qds:standard_code_list>401.1</qds:standard_code_list>
+<qds:standard_code_list>401.9</qds:standard_code_list>
+<qds:standard_code_list>402.00</qds:standard_code_list>
+<qds:standard_code_list>402.01</qds:standard_code_list>
+<qds:standard_code_list>402.10</qds:standard_code_list>
+<qds:standard_code_list>402.11</qds:standard_code_list>
+<qds:standard_code_list>402.90</qds:standard_code_list>
+<qds:standard_code_list>402.91</qds:standard_code_list>
+<qds:standard_code_list>403.00</qds:standard_code_list>
+<qds:standard_code_list>403.01</qds:standard_code_list>
+<qds:standard_code_list>403.10</qds:standard_code_list>
+<qds:standard_code_list>403.11</qds:standard_code_list>
+<qds:standard_code_list>403.90</qds:standard_code_list>
+<qds:standard_code_list>403.91</qds:standard_code_list>
+<qds:standard_code_list>404.00</qds:standard_code_list>
+<qds:standard_code_list>404.01</qds:standard_code_list>
+<qds:standard_code_list>404.02</qds:standard_code_list>
+<qds:standard_code_list>404.03</qds:standard_code_list>
+<qds:standard_code_list>404.10</qds:standard_code_list>
+<qds:standard_code_list>404.11</qds:standard_code_list>
+<qds:standard_code_list>404.12</qds:standard_code_list>
+<qds:standard_code_list>404.13</qds:standard_code_list>
+<qds:standard_code_list>404.90</qds:standard_code_list>
+<qds:standard_code_list>404.91</qds:standard_code_list>
+<qds:standard_code_list>404.92</qds:standard_code_list>
+<qds:standard_code_list>404.93</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_180">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_180</qds:QDS_id>
+<qds:standard_concept>Hypertension</qds:standard_concept>
+<qds:standard_category>Diagnosis / Condition / Problem</qds:standard_category>
+<qds:QDS_data_type>diagnosis active</qds:QDS_data_type>
+<qds:standard_concept_id>A_c71</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>7/2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>10562009</qds:standard_code_list>
+<qds:standard_code_list>10725009</qds:standard_code_list>
+<qds:standard_code_list>111438007</qds:standard_code_list>
+<qds:standard_code_list>1201005</qds:standard_code_list>
+<qds:standard_code_list>123799005</qds:standard_code_list>
+<qds:standard_code_list>123800009</qds:standard_code_list>
+<qds:standard_code_list>14973001</qds:standard_code_list>
+<qds:standard_code_list>15394000</qds:standard_code_list>
+<qds:standard_code_list>15938005</qds:standard_code_list>
+<qds:standard_code_list>16147005</qds:standard_code_list>
+<qds:standard_code_list>169465000</qds:standard_code_list>
+<qds:standard_code_list>18416000</qds:standard_code_list>
+<qds:standard_code_list>193003</qds:standard_code_list>
+<qds:standard_code_list>194774006</qds:standard_code_list>
+<qds:standard_code_list>194783001</qds:standard_code_list>
+<qds:standard_code_list>194785008</qds:standard_code_list>
+<qds:standard_code_list>194788005</qds:standard_code_list>
+<qds:standard_code_list>194791005</qds:standard_code_list>
+<qds:standard_code_list>194793008</qds:standard_code_list>
+<qds:standard_code_list>19769006</qds:standard_code_list>
+<qds:standard_code_list>198941007</qds:standard_code_list>
+<qds:standard_code_list>198942000</qds:standard_code_list>
+<qds:standard_code_list>198944004</qds:standard_code_list>
+<qds:standard_code_list>198945003</qds:standard_code_list>
+<qds:standard_code_list>198946002</qds:standard_code_list>
+<qds:standard_code_list>198947006</qds:standard_code_list>
+<qds:standard_code_list>198949009</qds:standard_code_list>
+<qds:standard_code_list>198951008</qds:standard_code_list>
+<qds:standard_code_list>198952001</qds:standard_code_list>
+<qds:standard_code_list>198953006</qds:standard_code_list>
+<qds:standard_code_list>198954000</qds:standard_code_list>
+<qds:standard_code_list>198956003</qds:standard_code_list>
+<qds:standard_code_list>198958002</qds:standard_code_list>
+<qds:standard_code_list>198959005</qds:standard_code_list>
+<qds:standard_code_list>198965005</qds:standard_code_list>
+<qds:standard_code_list>198966006</qds:standard_code_list>
+<qds:standard_code_list>198967002</qds:standard_code_list>
+<qds:standard_code_list>198968007</qds:standard_code_list>
+<qds:standard_code_list>198997005</qds:standard_code_list>
+<qds:standard_code_list>198999008</qds:standard_code_list>
+<qds:standard_code_list>199000005</qds:standard_code_list>
+<qds:standard_code_list>199002002</qds:standard_code_list>
+<qds:standard_code_list>199003007</qds:standard_code_list>
+<qds:standard_code_list>199005000</qds:standard_code_list>
+<qds:standard_code_list>199007008</qds:standard_code_list>
+<qds:standard_code_list>199008003</qds:standard_code_list>
+<qds:standard_code_list>206596003</qds:standard_code_list>
+<qds:standard_code_list>23130000</qds:standard_code_list>
+<qds:standard_code_list>23717007</qds:standard_code_list>
+<qds:standard_code_list>237279007</qds:standard_code_list>
+<qds:standard_code_list>237281009</qds:standard_code_list>
+<qds:standard_code_list>237282002</qds:standard_code_list>
+<qds:standard_code_list>23786008</qds:standard_code_list>
+<qds:standard_code_list>24042004</qds:standard_code_list>
+<qds:standard_code_list>26078007</qds:standard_code_list>
+<qds:standard_code_list>276789009</qds:standard_code_list>
+<qds:standard_code_list>28119000</qds:standard_code_list>
+<qds:standard_code_list>288250001</qds:standard_code_list>
+<qds:standard_code_list>29259002</qds:standard_code_list>
+<qds:standard_code_list>307632004</qds:standard_code_list>
+<qds:standard_code_list>308551004</qds:standard_code_list>
+<qds:standard_code_list>31407004</qds:standard_code_list>
+<qds:standard_code_list>31992008</qds:standard_code_list>
+<qds:standard_code_list>32916005</qds:standard_code_list>
+<qds:standard_code_list>34694006</qds:standard_code_list>
+<qds:standard_code_list>35303009</qds:standard_code_list>
+<qds:standard_code_list>367390009</qds:standard_code_list>
+<qds:standard_code_list>371125006</qds:standard_code_list>
+<qds:standard_code_list>37618003</qds:standard_code_list>
+<qds:standard_code_list>38481006</qds:standard_code_list>
+<qds:standard_code_list>39018007</qds:standard_code_list>
+<qds:standard_code_list>39727004</qds:standard_code_list>
+<qds:standard_code_list>397748008</qds:standard_code_list>
+<qds:standard_code_list>398254007</qds:standard_code_list>
+<qds:standard_code_list>41114007</qds:standard_code_list>
+<qds:standard_code_list>427889009</qds:standard_code_list>
+<qds:standard_code_list>428575007</qds:standard_code_list>
+<qds:standard_code_list>429198000</qds:standard_code_list>
+<qds:standard_code_list>429457004</qds:standard_code_list>
+<qds:standard_code_list>46481004</qds:standard_code_list>
+<qds:standard_code_list>46764007</qds:standard_code_list>
+<qds:standard_code_list>48146000</qds:standard_code_list>
+<qds:standard_code_list>48194001</qds:standard_code_list>
+<qds:standard_code_list>48552006</qds:standard_code_list>
+<qds:standard_code_list>49220004</qds:standard_code_list>
+<qds:standard_code_list>50490005</qds:standard_code_list>
+<qds:standard_code_list>52698002</qds:standard_code_list>
+<qds:standard_code_list>56218007</qds:standard_code_list>
+<qds:standard_code_list>57684003</qds:standard_code_list>
+<qds:standard_code_list>59621000</qds:standard_code_list>
+<qds:standard_code_list>59720008</qds:standard_code_list>
+<qds:standard_code_list>59997006</qds:standard_code_list>
+<qds:standard_code_list>62275004</qds:standard_code_list>
+<qds:standard_code_list>63287004</qds:standard_code_list>
+<qds:standard_code_list>65402008</qds:standard_code_list>
+<qds:standard_code_list>65443008</qds:standard_code_list>
+<qds:standard_code_list>65518004</qds:standard_code_list>
+<qds:standard_code_list>67359005</qds:standard_code_list>
+<qds:standard_code_list>70272006</qds:standard_code_list>
+<qds:standard_code_list>71874008</qds:standard_code_list>
+<qds:standard_code_list>72022006</qds:standard_code_list>
+<qds:standard_code_list>73030000</qds:standard_code_list>
+<qds:standard_code_list>73410007</qds:standard_code_list>
+<qds:standard_code_list>74451002</qds:standard_code_list>
+<qds:standard_code_list>78544004</qds:standard_code_list>
+<qds:standard_code_list>78808002</qds:standard_code_list>
+<qds:standard_code_list>78975002</qds:standard_code_list>
+<qds:standard_code_list>81626002</qds:standard_code_list>
+<qds:standard_code_list>8218002</qds:standard_code_list>
+<qds:standard_code_list>84094009</qds:standard_code_list>
+<qds:standard_code_list>86041002</qds:standard_code_list>
+<qds:standard_code_list>86234004</qds:standard_code_list>
+<qds:standard_code_list>8762007</qds:standard_code_list>
+<qds:standard_code_list>89242004</qds:standard_code_list>
+<qds:standard_code_list>9901000</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_334">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_334</qds:QDS_id>
+<qds:standard_concept>Measurement enddate</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>end: 12/31/yyyy 23:59:59 (prompt for year)</qds:QDS_data_type>
+<qds:standard_concept_id>A_c130</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_335">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_335</qds:QDS_id>
+<qds:standard_concept>Measurement period</qds:standard_concept>
+<qds:standard_category>Measure timing</qds:standard_category>
+<qds:QDS_data_type>start of timing window</qds:QDS_data_type>
+<qds:standard_concept_id>A_c131</qds:standard_concept_id>
+</rdf:Description>
+<rdf:Description rdf:about="/A_361">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_361</qds:QDS_id>
+<qds:standard_concept>Systolic Blood Pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>A_c137</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12929001</qds:standard_code_list>
+<qds:standard_code_list>163030003</qds:standard_code_list>
+<qds:standard_code_list>251070002</qds:standard_code_list>
+<qds:standard_code_list>251071003</qds:standard_code_list>
+<qds:standard_code_list>271649006</qds:standard_code_list>
+<qds:standard_code_list>314438006</qds:standard_code_list>
+<qds:standard_code_list>314439003</qds:standard_code_list>
+<qds:standard_code_list>314440001</qds:standard_code_list>
+<qds:standard_code_list>314441002</qds:standard_code_list>
+<qds:standard_code_list>314442009</qds:standard_code_list>
+<qds:standard_code_list>314443004</qds:standard_code_list>
+<qds:standard_code_list>314444005</qds:standard_code_list>
+<qds:standard_code_list>314445006</qds:standard_code_list>
+<qds:standard_code_list>314446007</qds:standard_code_list>
+<qds:standard_code_list>314447003</qds:standard_code_list>
+<qds:standard_code_list>314448008</qds:standard_code_list>
+<qds:standard_code_list>314449000</qds:standard_code_list>
+<qds:standard_code_list>314464000</qds:standard_code_list>
+<qds:standard_code_list>315612005</qds:standard_code_list>
+<qds:standard_code_list>399304008</qds:standard_code_list>
+<qds:standard_code_list>400974009</qds:standard_code_list>
+<qds:standard_code_list>407554009</qds:standard_code_list>
+<qds:standard_code_list>407556006</qds:standard_code_list>
+<qds:standard_code_list>72313002</qds:standard_code_list>
+<qds:standard_code_list>81010002</qds:standard_code_list>
+</rdf:Description>
+<rdf:Description rdf:about="/A_362">
+<qds:NQF_id>0013</qds:NQF_id>
+<qds:measure_name>Hypertension: Blood Pressure Measurement</qds:measure_name>
+<qds:QDS_id>A_362</qds:QDS_id>
+<qds:standard_concept>Systolic Blood Pressure</qds:standard_concept>
+<qds:standard_category>Physical exam</qds:standard_category>
+<qds:QDS_data_type>physical exam finding</qds:QDS_data_type>
+<qds:standard_concept_id>A_c137</qds:standard_concept_id>
+<qds:standard_taxonomy>SNOMED-CT</qds:standard_taxonomy>
+<qds:standard_taxonomy_version>July 2009</qds:standard_taxonomy_version>
+<qds:QDS_datatype_specific_attributes>datetime</qds:QDS_datatype_specific_attributes>
+<qds:standard_code_list>12929001</qds:standard_code_list>
+<qds:standard_code_list>163030003</qds:standard_code_list>
+<qds:standard_code_list>251070002</qds:standard_code_list>
+<qds:standard_code_list>251071003</qds:standard_code_list>
+<qds:standard_code_list>271649006</qds:standard_code_list>
+<qds:standard_code_list>314438006</qds:standard_code_list>
+<qds:standard_code_list>314439003</qds:standard_code_list>
+<qds:standard_code_list>314440001</qds:standard_code_list>
+<qds:standard_code_list>314441002</qds:standard_code_list>
+<qds:standard_code_list>314442009</qds:standard_code_list>
+<qds:standard_code_list>314443004</qds:standard_code_list>
+<qds:standard_code_list>314444005</qds:standard_code_list>
+<qds:standard_code_list>314445006</qds:standard_code_list>
+<qds:standard_code_list>314446007</qds:standard_code_list>
+<qds:standard_code_list>314447003</qds:standard_code_list>
+<qds:standard_code_list>314448008</qds:standard_code_list>
+<qds:standard_code_list>314449000</qds:standard_code_list>
+<qds:standard_code_list>314464000</qds:standard_code_list>
+<qds:standard_code_list>315612005</qds:standard_code_list>
+<qds:standard_code_list>399304008</qds:standard_code_list>
+<qds:standard_code_list>400974009</qds:standard_code_list>
+<qds:standard_code_list>407554009</qds:standard_code_list>
+<qds:standard_code_list>407556006</qds:standard_code_list>
+<qds:standard_code_list>72313002</qds:standard_code_list>
+<qds:standard_code_list>81010002</qds:standard_code_list>
+</rdf:Description>
+</rdf:RDF>
