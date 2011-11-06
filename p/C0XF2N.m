@@ -36,7 +36,9 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XSFN")=172.201 ; TRIPLES STRINGS FILE NUMBER
  S @ZFARY@("C0XTN")=$NA(^C0X(101)) ; TRIPLES GLOBAL NAME
  S @ZFARY@("C0XSN")=$NA(^C0X(201)) ; STRING FILE GLOBAL NAME
- S @ZFARY@("C0XDIR")="/home/glilly/rdf/"
+ S @ZFARY@("C0XDIR")="/home/glilly/fmts/trunk/samples/qds/"
+ S @ZFARY@("BLKLOAD")=1 ; this file supports block load
+ S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
  D USEFARY(ZFARY)
  Q
  ;
@@ -406,7 +408,11 @@ PROCESS2(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  I C0XDIFF'=0 D  ;
  . W !," APPROXIMATELY ",$P(C0XCNT/C0XDIFF,".")," TRIPLES PER SECOND"
  W !,"INSERTING ",C0XCNT," TRIPLES"
- I $D(C0XFDA) D UPDIE(.C0XFDA) ; commit the updates to the file
+ I $D(C0XFDA) D  ;
+ . I $G(BLKLOAD) D  ;
+ . . D BULKLOAD(.C0XFDA)
+ . E  D  ;
+ . . D UPDIE(.C0XFDA) ; commit the updates to the file
  ; next, mark the graph as finished
  S C0XINS=$$NOW^XLFDT ; PARSE COMPLETE
  W !,"INSERTION COMPLETE AT ",C0XPRS
@@ -485,13 +491,23 @@ ADD2(ZG,ZS,ZP,ZO,FARY) ; ADD A TRIPLE TO THE TRIPLESTORE. ALL VALUES ARE TEXT
  ;I $D(C0XFDA) D UPDIE ; ADD THE STRINGS IF NEEDED
  S BATCNT=BATCNT+1
  S C0XCNT=C0XCNT+1
- S C0XFDA(C0XTFN,"?+"_BATCNT_",",.01)=ZNODE
- S C0XFDA(C0XTFN,"?+"_BATCNT_",",.02)=$O(ZIENS("IEN","ZG",""))
- S C0XFDA(C0XTFN,"?+"_BATCNT_",",.03)=$O(ZIENS("IEN","ZS",""))
- S C0XFDA(C0XTFN,"?+"_BATCNT_",",.04)=$O(ZIENS("IEN","ZP",""))
- S C0XFDA(C0XTFN,"?+"_BATCNT_",",.05)=$O(ZIENS("IEN","ZO",""))
+ I $G(BLKLOAD)=1 D  ; we are using bulk load
+ . S C0XFDA(C0XTFN,BATCNT,.01)=ZNODE
+ . S C0XFDA(C0XTFN,BATCNT,.02)=$O(ZIENS("IEN","ZG",""))
+ . S C0XFDA(C0XTFN,BATCNT,.03)=$O(ZIENS("IEN","ZS",""))
+ . S C0XFDA(C0XTFN,BATCNT,.04)=$O(ZIENS("IEN","ZP",""))
+ . S C0XFDA(C0XTFN,BATCNT,.05)=$O(ZIENS("IEN","ZO",""))
+ E  D  ;
+ . S C0XFDA(C0XTFN,"?+"_BATCNT_",",.01)=ZNODE
+ . S C0XFDA(C0XTFN,"?+"_BATCNT_",",.02)=$O(ZIENS("IEN","ZG",""))
+ . S C0XFDA(C0XTFN,"?+"_BATCNT_",",.03)=$O(ZIENS("IEN","ZS",""))
+ . S C0XFDA(C0XTFN,"?+"_BATCNT_",",.04)=$O(ZIENS("IEN","ZP",""))
+ . S C0XFDA(C0XTFN,"?+"_BATCNT_",",.05)=$O(ZIENS("IEN","ZO",""))
  I BATCNT=BATMAX D  ; BATCH IS DONE
- . D UPDIE(.C0XFDA)
+ . I $G(BLKLOAD) D  ; bulk load
+ . . D BULKLOAD(.C0XFDA) ; bulk load the batch
+ . E  D  ; no bulk load
+ . . D UPDIE(.C0XFDA)
  . K C0XFDA
  . S BATCNT=0 ; RESET COUNTER
  ; REMEMBER TO CALL UPDIE WHEN YOU'RE DONE
@@ -554,6 +570,70 @@ IENOFA(ZOUTARY,ZINARY,FARY) ; RESOLVE STRINGS TO IEN IN STRINGS FILE
  . . W !,"ERROR ADDING STRING: ",ZV
  . . B
  . S ZOUTARY("IEN",ZI,ZIEN)=""
+ Q
+ ;
+BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
+ ; USING GLOBAL SETS INSTEAD OF UPDATE^DIE
+ ; QUITS IF FILE IS NOT 172.101
+ ; EXPECTS AN FDA WITHOUT STRINGS FOR THE IENS, STARTING AT 1
+ ; QUITS IF FIRST ENTRY IS NOT IENS 1
+ ; ASSUMES THAT THE LAST IENS IS THE COUNT OF ENTRIES
+ ; ZBFDA IS PASSED BY REFERENCE
+ ;
+ ; -- reserves a block of iens from file 172.101 by locking the zero node
+ ; -- ^C0X(101,0) and adding the count of entries to piece 2 and 3
+ ; -- then unlocking to minimize the duration of the lock
+ ;
+ W !,"USING BULKLOAD"
+ I '$D(ZBFDA) Q  ; EMPTY FDA
+ I $O(ZBFDA(""))'=172.101 Q  ; WRONG FILE
+ N ZCNT,ZP3,ZP4
+ ; -- find the number of nodes to insert
+ S ZCNT=$O(ZBFDA(172.101,""),-1)
+ I ZCNT="" D  Q  ;
+ . W !,"ERROR IN BULK LOAD - INVALID NODE COUNT"
+ . B
+ ; -- lock the zero node and reserve a block of iens to insert
+ W !,"LOCKING ZERO NODE"
+ LOCK +^C0X(101,0)
+ S ZP3=$P(^C0X(101,0),U,3)
+ S ZP4=$P(^C0X(101,0),U,4)
+ S $P(^C0X(101,0),U,3)=ZP3+ZCNT+1
+ S $P(^C0X(101,0),U,4)=ZP4+ZCNT+1
+ LOCK -^C0X(101,0)
+ N ZI,ZN,ZG,ZS,ZP,ZO,ZIEN,ZBASE
+ S ZBASE=ZP3 ; the last ien in the file
+ W !,"ZERO NODE UNLOCKED, IENS RESERVED=",ZCNT
+ W !,$$NOW^XLFDT
+ S ZI=""
+ F  S ZI=$O(ZBFDA(172.101,ZI)) Q:ZI=""  D  ;
+ . S ZN=$G(ZBFDA(172.101,ZI,.01)) ; node name
+ . I ZN="" D BLKERR Q  ; 
+ . S ZG=$G(ZBFDA(172.101,ZI,.02)) ; graph pointer
+ . I ZG="" D BLKERR Q  ; 
+ . S ZS=$G(ZBFDA(172.101,ZI,.03)) ; subject pointer
+ . I ZS="" D BLKERR Q  ; 
+ . S ZP=$G(ZBFDA(172.101,ZI,.04)) ; predicate pointer
+ . I ZP="" D BLKERR Q  ; 
+ . S ZO=$G(ZBFDA(172.101,ZI,.05)) ; object pointer
+ . I ZO="" D BLKERR Q  ; 
+ . S ZIEN=ZI+ZBASE ; the new ien
+ . S ^C0X(101,ZIEN,0)=ZN_U_ZG_U_ZS_U_ZP_U_ZO ; set the zero node
+ . S ^C0X(101,"B",ZN,ZIEN)="" ; the B index
+ . S ^C0X(101,"G",ZG,ZIEN)="" ; the G for Graph index
+ . S ^C0X(101,"SPO",ZS,ZP,ZO)=""
+ . S ^C0X(101,"SOP",ZS,ZO,ZP)=""
+ . S ^C0X(101,"OPS",ZO,ZP,ZS)=""
+ . S ^C0X(101,"OSP",ZO,ZS,ZP)=""
+ . S ^C0X(101,"GOPS",ZG,ZO,ZP,ZS)=""
+ . S ^C0X(101,"GOSP",ZG,ZO,ZS,ZP)=""
+ . S ^C0X(101,"GPSO",ZG,ZP,ZS,ZO)=""
+ . S ^C0X(101,"GSPO",ZG,ZS,ZP,ZO)=""
+ Q
+ ;
+BLKERR ; 
+ W !,"ERROR IN BULK LOAD",! ZWR ZBFDA(ZI)
+ B
  Q
  ;
 UPDIE(ZFDA) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
