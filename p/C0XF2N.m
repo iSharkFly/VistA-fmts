@@ -37,7 +37,7 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XSFN")=172.201 ; TRIPLES STRINGS FILE NUMBER
  S @ZFARY@("C0XTN")=$NA(^C0X(101)) ; TRIPLES GLOBAL NAME
  S @ZFARY@("C0XSN")=$NA(^C0X(201)) ; STRING FILE GLOBAL NAME
- S @ZFARY@("C0XDIR")="/home/glilly/fmts/trunk/samples/"
+ S @ZFARY@("C0XDIR")="/home/glilly/snomed/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
  D USEFARY(ZFARY)
@@ -103,7 +103,7 @@ IMPORT(FNAME,INDIR,INURL,FARY) ; EXTRINSIC THAT READS A FILE FROM THE STANDARD
  D INSRDF(ZRDF,INURL,FARY) ; IMPORT AND PROCESS THE RDF
  K INURL
  K C0XFDA
- K ^TMP("MXMLDOM",$J)
+ ;K ^TMP("MXMLDOM",$J)
  Q
  ;
 WGET(ZURL,FARY) ; GET FROM THE INTERNET AN RDF FILE AND INSERT IT
@@ -220,6 +220,7 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  ;S C0XDOCID=$$PARSE^C0CNHIN(ZRDF,"C0XARRAY") ; PARSE WITH MXML
  S C0XDLC2=$$NOW^XLFDT ; START OF PARSE
  S C0XDOCID=$$EN^MXMLDOM(ZRDF,"W")
+ ;B
  K @ZRDF ; DON'T NEED INPUT BUFFER ANYMORE
  ; -- assign the MXLM dom global name to ZDOM
  S ZDOM=$NA(^TMP("MXMLDOM",$J,C0XDOCID))
@@ -251,13 +252,16 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  F  S ZI=$O(@ZDOM@(1,"A",ZI)) Q:ZI=""  D  ; FOR EACH xmlns
  . S ZVOC=$P(ZI,"xmlns:",2)
  . I ZVOC'="" S C0XVOC(ZVOC)=$G(@ZDOM@(1,"A",ZI))
- ;W !,"VOCABS:" ZWR C0XVOC
+ W !,"VOCABS:" ZWR C0XVOC
  ;
  ; -- look for children called rdf:Description. quit if none. not an rdf file
  ;
+ S C0XTYPE("rdf:Description")=1
+ S C0XTYPE("owl:ObjectProperty")=1
  S ZI=$O(@ZDOM@(1,"C",""))
- I $G(@ZDOM@(1,"C",ZI))'="rdf:Description" D  Q  ; not an rdf file
+ I '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  Q  ; not an rdf file
  . W !,"Error. Not an RDF file. Cannot process."
+ . zwr ^TMP("MXMLDOM",$J,*)
  ;
  ; -- now process the rdf description children
  ;
@@ -267,7 +271,7 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  . ; -- we are skipping any child that is not rdf:Description
  . ; -- TODO: check to see if this is right in general
  . ;
- . IF $G(@ZDOM@(1,"C",ZI))'="rdf:Description" D  Q  ;
+ . IF '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  Q  ;
  . . W !,"SKIPPING NODE: ",ZI
  . ; -- now looking for the subject for the triples
  . S ZX=$G(@ZDOM@(ZI,"A","rdf:about"))
