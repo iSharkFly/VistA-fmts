@@ -1,5 +1,5 @@
 C0XTESTKSB ; GPL - Fileman Triples bulk load tester ;11/6/11  17:05
- ; KSB - modified to fix a minor bug and to use
+ ; KSB - modified to fix a minor bug and to use;;;;;Build 7
  ;       high resolution time if routines available ; 11/19/11 1410 EST
  ;;0.1;C0X;nopatch;noreleasedate;Build 1
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
@@ -127,5 +127,5 @@ BLKERR ;
  B
  Q
  ;
-H()
+H() 
  quit:$length($ztrnlnm("GTMXC_posix"))&$length($text(zhorolog^%POSIX)) $$zhorolog^%POSIX quit $horolog

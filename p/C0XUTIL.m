@@ -1,5 +1,5 @@
 C0XUTIL ; GPL - Fileman Triples utilities ;11/07/11  17:05
- ;;0.1;C0X;nopatch;noreleasedate;Build 5
+ ;;0.1;C0X;nopatch;noreleasedate;Build 7
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
  ;General Public License See attached copy of the License.
  ;
