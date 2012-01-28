@@ -68,6 +68,37 @@ SING(ZRTN,ZG) ; SUBJECTS IN GRAPH
  . S ZRTN($$NXT(.ZRTN),"S")=$$STR(ZI)
  Q
  ;
+qparse(qrtn,zquery) ; parses the query
+ ; want this to be able to handle the WHERE clause of SPARQL eventually
+ ;
+ n q1,q2,q3,qq
+ ;s qq=$tr(zquery,"  ","^")
+ s qq=query ; really want to remove whitespace here
+ s q1=$p(qq," ",1)
+ i q1["?" s q1=""
+ s q2=$p(qq," ",2)
+ i q2["?" s q2=""
+ s q3=$p(qq," ",3)
+ i q3["?" s q3=""
+ s qrtn(1)=q1_"^"_q2_"^"_q3 ; more lines to come later
+ q
+ ;
+rpctrip(rtn,query,limit,offset) ; rpc to access triples with a query
+ ;
+ n zoff,zlim,zcount,zq
+ i '$d(limit) s limit=250
+ i '$d(offset) s offset=0
+ d qparse(.zq,query) ; parse the query
+ n qsub,qpred,qobj,qtmp
+ W !,zq(1)
+ s qsub=$p(zq(1),"^",1)
+ s qpred=$p(zq(1),"^",2)
+ s qobj=$p(zq(1),"^",3)
+ d triples(.qtmp,qsub,qpred,qobj)
+ f zcount=offset+1:1:offset+limit q:'$d(qtmp(zcount))  d  ;
+ . s rtn(zcount)=qtmp(zcount)
+ q
+ ;
 triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  I '$D(fary) D  ;
  . D INITFARY^C0XF2N("C0XFARY")
@@ -81,14 +112,16 @@ triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
  W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
- n zzz,zrsub,zrpred,zrobj,zgraph
+ n zzz,zrsub,zrpred,zrobj,zgraph,zcnt
+ s zcnt=1
  s zzz=""
  f  s zzz=$o(tmprtn(zzz)) q:zzz=""  d  ;
  . s zrsub=$$GET1^DIQ(C0XTFN,zzz_",",.03,"E")
  . s zrpred=$$GET1^DIQ(C0XTFN,zzz_",",.04,"E")
  . s zrobj=$$GET1^DIQ(C0XTFN,zzz_",",.05,"E")
  . s zrgraph=$$GET1^DIQ(C0XTFN,zzz_",",.02,"E")
- . s triplertn(zzz)=zrsub_"^"_zrpred_"^"_zrobj ; _"^"_zrgraph
+ . s triplertn(zcnt)=zrsub_"^"_zrpred_"^"_zrobj ; _"^"_zrgraph
+ . s zcnt=zcnt+1
  q
  ;
 trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
