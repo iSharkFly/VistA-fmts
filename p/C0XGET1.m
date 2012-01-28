@@ -86,6 +86,7 @@ qparse(qrtn,zquery) ; parses the query
 rpctrip(rtn,query,limit,offset) ; rpc to access triples with a query
  ;
  n zoff,zlim,zcount,zq
+ k rtn
  i '$d(limit) s limit=250
  i '$d(offset) s offset=0
  d qparse(.zq,query) ; parse the query
