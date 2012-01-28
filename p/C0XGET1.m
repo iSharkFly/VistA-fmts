@@ -25,7 +25,7 @@ LSSUBJ(RTN,ZSUBJ,C0XFARY) ; LIST NODES WITH SUBJECT ZSUBJ
  D USEFARY^C0XF2N("C0XFARY")
  Q
  ;
-LSGRFS(RTN,C0XFARY) ; LIST ALL GRAPHS
+GRAPHS(RTN,C0XFARY) ; LIST ALL GRAPHS
  ;
  I '$D(C0XFARY) D INITFARY^C0XF2N("C0XFARY")
  D USEFARY^C0XF2N("C0XFARY")
@@ -56,13 +56,99 @@ O(ZNODE,C0XFARY) ; EXTRINSIC RETURNING THE OBJECT
  Q $$STR($$GET1^DIQ(C0XTFN,ZNODE,.05,"I")) ;
  ;
 NXT(ZRTN) ;EXTRINSIC FOR THE NEXT NODE IN ARRAY ZRTN, PASSED BY REF
+ I '$D(ZRTN) S ZRTN=""
  Q $O(ZRTN(""),-1)+1
  ;
 SING(ZRTN,ZG) ; SUBJECTS IN GRAPH
  ;
  I '$D(C0XFARY) D INITFARY^C0XF2N("C0XFARY")
+ I '$D(ZRTN) S ZRTN=""
  N ZI,ZN S ZI=""
- F  S ZI=$O(@C0XTN@("GSO",ZG,ZI)) Q:ZI=""  D  ;
- . S ZRTN($$NXT(ZRTN),"S")=$$STR(ZI)
+ F  S ZI=$O(@C0XTN@("GSPO",ZG,ZI)) Q:ZI=""  D  ;
+ . S ZRTN($$NXT(.ZRTN),"S")=$$STR(ZI)
  Q
+ ;
+triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
+ I '$D(fary) D  ;
+ . D INITFARY^C0XF2N("C0XFARY")
+ . S fary="C0XFARY"
+ D USEFARY^C0XF2N(fary)
+ k triplertn ; start with a clean return
+ n zsub,zpred,zobj,zgraph,tmprtn
+ s zsub=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
+ s zpred=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
+ s zobj=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
+ s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
+ W !,"s:",zsub," p:",zpred," o:",zobj
+ d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
+ n zzz,zrsub,zrpred,zrobj,zgraph
+ s zzz=""
+ f  s zzz=$o(tmprtn(zzz)) q:zzz=""  d  ;
+ . s zrsub=$$GET1^DIQ(C0XTFN,zzz_",",.03,"E")
+ . s zrpred=$$GET1^DIQ(C0XTFN,zzz_",",.04,"E")
+ . s zrobj=$$GET1^DIQ(C0XTFN,zzz_",",.05,"E")
+ . s zrgraph=$$GET1^DIQ(C0XTFN,zzz_",",.02,"E")
+ . s triplertn(zzz)=zrsub_"^"_zrpred_"^"_zrobj ; _"^"_zrgraph
+ q
+ ;
+trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
+ ; nsub,npred,nobj are all optional
+ ; graf is also optional, and will limit the search to a particular ngraph
+ ; fary is which triple store (not implemented yet)
+ n c0xflag,zi,zx,zt
+ s zt=$na(^C0X(101)) ; 
+ n zf1,zf2,zf3
+ s zf1=$s($g(nsub)="":0,1:1)
+ s zf2=$s($g(npred)="":0,1:1)
+ s zf3=$s($g(nobj)="":0,1:1)
+ s c0xflag="I"_zf1_zf2_zf3
+ n itbl
+ s itbl("I000","SPO")="d do3(.triprtn,zt,zi)"
+ s itbl("I001","OSP")="d do2(.triprtn,zt,zi,nobj)"
+ s itbl("I010","PSO")="d do2(.triprtn,zt,zi,npred)"
+ s itbl("I011","POS")="d do1(.triprtn,zt,zi,npred,nobj)"
+ s itbl("I100","SPO")="d do2(.triprtn,zt,zi,nsub)"
+ s itbl("I101","SOP")="d do1(.triprtn,zt,zi,nsub,nobj)"
+ s itbl("I110","SPO")="d do1(.triprtn,zt,zi,nsub,npred)"
+ s itbl("I111","SPO")="d do0(.triprtn,zt,zi,nsub,npred,nobj)"
+ s zi=$o(itbl(c0xflag,""))
+ s zx=itbl(c0xflag,zi) ; executable instruction to run
+ i $g(ngraph)'="" s zi="G"_zi
+ w !,zx
+ x zx
+ q
+ ;
+do0(dortn,zt,zi,z1,z2,z3)
+ ; looking for only one triple
+ n zz
+ s zz=$o(@zt@(zi,z1,z2,z3,""))
+ i zz'="" s dortn(zz)=""
+ q
+ ;
+do1(dortn,zt,zi,z1,z2) ; have 2, looking for one
+ n zr,zx1
+ s zx1=""
+ f  s zx1=$o(@zt@(zi,z1,z2,zx1)) q:zx1=""  d  ;
+ . s zr=$o(@zt@(zi,z1,z2,zx1,""))
+ . s dortn(zr)=""
+ q
+ ;
+do2(dortn,zt,zi,z1) ; have one, looking for 2
+ n zr,zx1,zx2
+ s (zx1,zx2)=""
+ f  s zx1=$o(@zt@(zi,z1,zx1)) q:zx1=""  d  ;
+ . f  s zx2=$o(@zt@(zi,z1,zx1,zx2)) q:zx2=""  d  ;
+ . . s zr=$o(@zt@(zi,z1,zx1,zx2,""))
+ . . s dortn(zr)=""
+ q
+ ;
+do3(dortn,zt,zi) ; have none, looking for three
+ n zr,zx1,zx2,zx3
+ s (zx1,zx2,zx3)=""
+ f  s zx1=$o(@zt@(zi,zx1)) q:zx1=""  d  ;
+ . f  s zx2=$o(@zt@(zi,zx1,zx2)) q:zx2=""  d  ;
+ . . f  s zx3=$o(@zt@(zi,zx1,zx2,zx3)) q:zx3=""  d  ;
+ . . . s zr=$o(@zt@(zi,zx1,zx2,zx3,""))
+ . . . s dortn(zr)=""
+ q
  ;

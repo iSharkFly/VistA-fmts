@@ -51,5 +51,21 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("loinc")="http://loinc.org/codes/"
  S C0XVOC("file")="/home/glilly/fmts/trunk/samples/"
  S C0XVOC("foaf")="http://xmlns.com/foaf/0.1/"
+ S C0XVOC("skos")="http://www.w3.org/2004/02/skos/core#"
+ S C0XVOC("gpl")="http://georgetriples.org/"
+ S C0XVOC("cg")="http://datasets.caregraf.org/"
  Q
+ ;
+EXT(C0XIN) ; EXTRINSIC WHICH EXPANDS NAMESPACES
+ ; SO skos:xxx would return http://www.w3.org/2004/02/skos/core#xxx
+ N C0XPRE
+ S C0XPRE=C0XIN
+ I '$D(C0XVOC) D VOCINIT ; INITIALIZE NAME SPACE TABLE
+ I C0XPRE[":" D  ; expand using vocabulary
+ . N ZB,ZA
+ . S ZB=$P(C0XPRE,":",1)
+ . S ZA=$P(C0XPRE,":",2)
+ . I $G(C0XVOC(ZB))'="" D  ;
+ . . S C0XPRE=C0XVOC(ZB)_ZA ; expanded 
+ Q C0XPRE
  ;
