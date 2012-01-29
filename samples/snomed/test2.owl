@@ -1,0 +1,1846 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns="http://www.ihtsdo.org/"
+         xml:base="http://www.ihtsdo.org/">
+<owl:ObjectProperty rdf:about="RoleGroup">
+    <rdfs:label xml:lang="en">RoleGroup</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_116676008">
+    <rdfs:label xml:lang="en">Associated morphology (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_116686009">
+    <rdfs:label xml:lang="en">Has specimen (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_118168003">
+    <rdfs:label xml:lang="en">Specimen source morphology (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_118169006">
+    <rdfs:label xml:lang="en">Specimen source topography (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_118170007">
+    <rdfs:label xml:lang="en">Specimen source identity (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_118171006">
+    <rdfs:label xml:lang="en">Specimen procedure (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_123005000">
+    <rdfs:label xml:lang="en">Part of (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_127489000">
+    <rdfs:label xml:lang="en">Has active ingredient (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_131195008">
+    <rdfs:label xml:lang="en">Subject of information (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246075003">
+    <rdfs:label xml:lang="en">Causative agent (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_47429007"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246090004">
+    <rdfs:label xml:lang="en">Associated finding (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246093002">
+    <rdfs:label xml:lang="en">Component (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246112005">
+    <rdfs:label xml:lang="en">Severity (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246454002">
+    <rdfs:label xml:lang="en">Occurrence (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246456000">
+    <rdfs:label xml:lang="en">Episodicity (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_246513007">
+    <rdfs:label xml:lang="en">Revision status (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_255234002">
+    <rdfs:label xml:lang="en">After (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_47429007"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_260507000">
+    <rdfs:label xml:lang="en">Access (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_260686004">
+    <rdfs:label xml:lang="en">Method (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_260870009">
+    <rdfs:label xml:lang="en">Priority (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_263502005">
+    <rdfs:label xml:lang="en">Clinical course (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_272741003">
+    <rdfs:label xml:lang="en">Laterality (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363589002">
+    <rdfs:label xml:lang="en">Associated procedure (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363698007">
+    <rdfs:label xml:lang="en">Finding site (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363699004">
+    <rdfs:label xml:lang="en">Direct device (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_405815000"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363700003">
+    <rdfs:label xml:lang="en">Direct morphology (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_405816004"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363701004">
+    <rdfs:label xml:lang="en">Direct substance (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<rdf:Description>
+   <rdfs:subPropertyOf rdf:resource="SCT_363701004"/>
+   <owl:propertyChain rdf:parseType="Collection">
+      <rdf:Description rdf:about="SCT_363701004"/>
+      <rdf:Description rdf:about="SCT_127489000"/>
+   </owl:propertyChain>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="SCT_363702006">
+    <rdfs:label xml:lang="en">Has focus (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363703001">
+    <rdfs:label xml:lang="en">Has intent (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363704007">
+    <rdfs:label xml:lang="en">Procedure site (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363705008">
+    <rdfs:label xml:lang="en">Has definitional manifestation (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363709002">
+    <rdfs:label xml:lang="en">Indirect morphology (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_405816004"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363710007">
+    <rdfs:label xml:lang="en">Indirect device (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_405815000"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363713009">
+    <rdfs:label xml:lang="en">Has interpretation (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_363714003">
+    <rdfs:label xml:lang="en">Interprets (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370129005">
+    <rdfs:label xml:lang="en">Measurement method (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370130000">
+    <rdfs:label xml:lang="en">Property (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370131001">
+    <rdfs:label xml:lang="en">Recipient category (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370132008">
+    <rdfs:label xml:lang="en">Scale type (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370133003">
+    <rdfs:label xml:lang="en">Specimen substance (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370134009">
+    <rdfs:label xml:lang="en">Time aspect (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_370135005">
+    <rdfs:label xml:lang="en">Pathological process (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_405813007">
+    <rdfs:label xml:lang="en">Procedure site - Direct (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_363704007"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_405814001">
+    <rdfs:label xml:lang="en">Procedure site - Indirect (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_363704007"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_405815000">
+    <rdfs:label xml:lang="en">Procedure device (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_405816004">
+    <rdfs:label xml:lang="en">Procedure morphology (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_408729009">
+    <rdfs:label xml:lang="en">Finding context (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_408730004">
+    <rdfs:label xml:lang="en">Procedure context (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_408731000">
+    <rdfs:label xml:lang="en">Temporal context (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_408732007">
+    <rdfs:label xml:lang="en">Subject relationship context (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_410675002">
+    <rdfs:label xml:lang="en">Route of administration (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_411116001">
+    <rdfs:label xml:lang="en">Has dose form (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_418775008">
+    <rdfs:label xml:lang="en">Finding method (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_419066007">
+    <rdfs:label xml:lang="en">Finding informer (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_424226004">
+    <rdfs:label xml:lang="en">Using device (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_405815000"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_424244007">
+    <rdfs:label xml:lang="en">Using energy (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_424361007">
+    <rdfs:label xml:lang="en">Using substance (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_424876005">
+    <rdfs:label xml:lang="en">Surgical approach (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_425391005">
+    <rdfs:label xml:lang="en">Using access device (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_424226004"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_42752001">
+    <rdfs:label xml:lang="en">Due to (attribute)</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="SCT_47429007"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="SCT_47429007">
+    <rdfs:label xml:lang="en">Associated with (attribute)</rdfs:label>
+</owl:ObjectProperty>
+<owl:Class rdf:about="SCT_10000006">
+   <rdfs:label xml:lang="en">Radiating chest pain (finding)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_29857009"/>
+       <owl:Class rdf:about="SCT_9972008"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10001005">
+   <rdfs:label xml:lang="en">Bacterial septicemia (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_105592009"/>
+       <owl:Class rdf:about="SCT_87628006"/>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10002003">
+   <rdfs:label xml:lang="en">Resection of stomach fundus (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_116175006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129304002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_414003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10003008">
+   <rdfs:label xml:lang="en">Non-specific (qualifier value)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106234000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10004002">
+   <rdfs:label xml:lang="en">Moxostoma carinatum (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107375000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10005001">
+   <rdfs:label xml:lang="en">Common redpoll (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107213003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10006000">
+   <rdfs:label xml:lang="en">Repair of retinal detachment with xenon arc photocoagulation (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_78917001"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_424226004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_367561004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_257903006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_5665001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10007009">
+   <rdfs:label xml:lang="en">Coffin-Siris syndrome (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_82354003"/>
+       <owl:Class rdf:about="SCT_88425004"/>
+       <owl:Class rdf:about="SCT_91138005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_112635002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_12738006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246454002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_255399007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10008004">
+   <rdfs:label xml:lang="en">Ewe (ethnic group)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_18167009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1001000">
+   <rdfs:label xml:lang="en">Cauterization of Bartholin's gland (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_2742009"/>
+       <owl:Class rdf:about="SCT_58985002"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_87176006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129392009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10011003">
+   <rdfs:label xml:lang="en">Absolute refractory period of nerve cell and nerve fiber, function (observable entity)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_72796006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10012005">
+   <rdfs:label xml:lang="en">Expression (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_118636005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_260686004"/>
+                    <owl:someValuesFrom rdf:resource="SCT_129418005"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10013000">
+   <rdfs:label xml:lang="en">Lateral meniscus structure (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_372192001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10014006">
+   <rdfs:label xml:lang="en">Other blacksmith/toolmaker/machine-tool operator (occupation)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106464005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10015007">
+   <rdfs:label xml:lang="en">Eimeria arkhari (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_16157006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10016008">
+   <rdfs:label xml:lang="en">Bithionol (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_372802005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10017004">
+   <rdfs:label xml:lang="en">Occlusal wear of teeth (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_234977009"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363698007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_38199008"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10018009">
+   <rdfs:label xml:lang="en">Henneguya (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106645008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10019001">
+   <rdfs:label xml:lang="en">Incision and drainage of infected bursa of wrist (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_281750005"/>
+       <owl:Class rdf:about="SCT_128986002"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129287005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_423972001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363702006"/>
+                    <owl:someValuesFrom rdf:resource="SCT_122482001"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363701004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_11311000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405814001"/>
+                        <owl:someValuesFrom rdf:resource="SCT_423972001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129289008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10020007">
+   <rdfs:label xml:lang="en">Biperiden hydrochloride (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_387359004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1002007">
+   <rdfs:label xml:lang="en">Mannotetraose 2-alpha-N-acetylglucosaminyltransferase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_130090009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10021006">
+   <rdfs:label xml:lang="en">Rahnella aquatilis (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_48569008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10023009">
+   <rdfs:label xml:lang="en">Cotylurus flabelliformis (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_74572002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10024003">
+   <rdfs:label xml:lang="en">Structure of base of lung (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_34922002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10025002">
+   <rdfs:label xml:lang="en">Structure of base of phalanx of index finger (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_26060002"/>
+       <owl:Class rdf:about="SCT_73913000"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10026001">
+   <rdfs:label xml:lang="en">Structure of ventral spinocerebellar tract of pons (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_360439009"/>
+       <owl:Class rdf:about="SCT_5538001"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10027005">
+   <rdfs:label xml:lang="en">Patchy (qualifier value)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_106234000"/>
+       <owl:Class rdf:about="SCT_255464007"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10028000">
+   <rdfs:label xml:lang="en">Uncomplicated sedative, hypnotic AND/OR anxiolytic withdrawal (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_363101005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10029008">
+   <rdfs:label xml:lang="en">Suicide precautions (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_389099004"/>
+       <owl:Class rdf:about="SCT_415665002"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363702006"/>
+                    <owl:someValuesFrom rdf:resource="SCT_225444004"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10030003">
+   <rdfs:label xml:lang="en">Genus Echium (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107622008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1003002">
+   <rdfs:label xml:lang="en">Religious discrimination (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_108329005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10031004">
+   <rdfs:label xml:lang="en">Vulvar secretions (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_50473004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10033001">
+   <rdfs:label xml:lang="en">Ehlers-Danlos syndrome, non hydroxylysine deficient ocular type (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_398114001"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_25283002"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_272673000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246454002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_255399007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10034007">
+   <rdfs:label xml:lang="en">Formyltetrahydrofolate deformylase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_74628008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10035008">
+   <rdfs:label xml:lang="en">Low altitude (physical force)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_76661004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10036009">
+   <rdfs:label xml:lang="en">Structure of nucleus pulposus of intervertebral disc of eighth thoracic vertebra (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_55524007"/>
+       <owl:Class rdf:about="SCT_9188009"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10037000">
+   <rdfs:label xml:lang="en">Akatonoesis (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_64270008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10038005">
+   <rdfs:label xml:lang="en">Collared aracari (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107140006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10039002">
+   <rdfs:label xml:lang="en">^210m^Bismuth (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_61429008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10040000">
+   <rdfs:label xml:lang="en">Pomeranian dog (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_68014009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1004008">
+   <rdfs:label xml:lang="en">Annealer (occupation)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106413009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10041001">
+   <rdfs:label xml:lang="en">Tracheal stenosis following tracheostomy (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_11296007"/>
+       <owl:Class rdf:about="SCT_68033004"/>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10042008">
+   <rdfs:label xml:lang="en">Structure of intervertebral foramen of fifth thoracic vertebra (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_17094008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10043003">
+   <rdfs:label xml:lang="en">D-Alanine-alanyl-poly(glycerolphosphate) ligase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_1672007"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10046006">
+   <rdfs:label xml:lang="en">Cystoureterolithotomy (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_56807000"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405814001"/>
+                        <owl:someValuesFrom rdf:resource="SCT_87953007"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363700003"/>
+                        <owl:someValuesFrom rdf:resource="SCT_56381008"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129306000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129306000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405814001"/>
+                        <owl:someValuesFrom rdf:resource="SCT_89837001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363700003"/>
+                        <owl:someValuesFrom rdf:resource="SCT_56381008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10047002">
+   <rdfs:label xml:lang="en">Structure of transplanted lung (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_39607008"/>
+       <owl:Class rdf:about="SCT_24486003"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10048007">
+   <rdfs:label xml:lang="en">Bombyx (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106815008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10049004">
+   <rdfs:label xml:lang="en">Streptococcus ferus (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_214001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10050004">
+   <rdfs:label xml:lang="en">Contusion of chest (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_65978000"/>
+       <owl:Class rdf:about="SCT_36787001"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_78904004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_308492005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_1005009">
+   <rdfs:label xml:lang="en">Entire diaphragmatic lymph node (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_196751009"/>
+       <owl:Class rdf:about="SCT_196374005"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10051000">
+   <rdfs:label xml:lang="en">Mitral facies (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_248196002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10052007">
+   <rdfs:label xml:lang="en">Male structure (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_57312000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10053002">
+   <rdfs:label xml:lang="en">Irrigation of tendon sheath (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_67889009"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129332006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_424361007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_373772008"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_15434002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10054008">
+   <rdfs:label xml:lang="en">Other fishermen, hunter/related worker (occupation)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106399005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10056005">
+   <rdfs:label xml:lang="en">Structure of ophthalmic nerve (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_280209005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10057001">
+   <rdfs:label xml:lang="en">Chronic lichenoid pityriasis (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_200983001"/>
+       <owl:Class rdf:about="SCT_128236002"/>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10058006">
+   <rdfs:label xml:lang="en">Spontaneous abortion with amniotic fluid embolism (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_43306002"/>
+       <owl:Class rdf:about="SCT_46533008"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_55584005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_128260003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10059003">
+   <rdfs:label xml:lang="en">Hybopsis crameri (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107374001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10060008">
+   <rdfs:label xml:lang="en">Eccrine papillary adenoma (morphologic abnormality)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_399909007"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1006005">
+   <rdfs:label xml:lang="en">Percheron horse (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_35354009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10061007">
+   <rdfs:label xml:lang="en">Brain stem contusion without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_29807001"/>
+       <owl:Class rdf:about="SCT_55885004"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10062000">
+   <rdfs:label xml:lang="en">Structure of levator labii superioris muscle (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_22688005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10063005">
+   <rdfs:label xml:lang="en">Inorganic pyrophosphatase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_74628008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10065003">
+   <rdfs:label xml:lang="en">Excoriated acne (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_11381005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_116676008"/>
+                    <owl:someValuesFrom rdf:resource="SCT_400048001"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10066002">
+   <rdfs:label xml:lang="en">Salmo clarki (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107353002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10067006">
+   <rdfs:label xml:lang="en">Phosphatidylethanolamine methyltransferase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_130055001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10068001">
+   <rdfs:label xml:lang="en">Sensory somatic cortical disorder (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106165002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10069009">
+   <rdfs:label xml:lang="en">Giant cell tumor of bone, malignant (morphologic abnormality)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_115238001"/>
+       <owl:Class rdf:about="SCT_86049000"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10070005">
+   <rdfs:label xml:lang="en">Poisoning by quinoline AND/OR hydroxyquinoline derivative (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_7895008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1007001">
+   <rdfs:label xml:lang="en">Brassica oleracea (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_20640002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10071009">
+   <rdfs:label xml:lang="en">Anti-streptokinase assay (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_19838004"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246093002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_120797008"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10072002">
+   <rdfs:label xml:lang="en">Fluorescent antibody measurement (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_3527003"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246093002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_68498002"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10074001">
+   <rdfs:label xml:lang="en">Bordetella avium vaccine (product)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_21602007"/>
+       <owl:Restriction>
+           <owl:onProperty rdf:resource="SCT_127489000"/>
+           <owl:someValuesFrom rdf:resource="SCT_398856000"/>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10075000">
+   <rdfs:label xml:lang="en">Photochemotherapy with tar and ultraviolet B (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_82350007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_424244007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_41355003"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10076004">
+   <rdfs:label xml:lang="en">Ischemic muscular atrophy (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_88092000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10077008">
+   <rdfs:label xml:lang="en">Endoscopic biopsy of stomach (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_363687006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_425391005"/>
+                        <owl:someValuesFrom rdf:resource="SCT_13219008"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_69695003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129314006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10078003">
+   <rdfs:label xml:lang="en">Turner's tooth (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_422977003"/>
+       <owl:Class rdf:about="SCT_234956006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_76993005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_38146002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246454002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_255399007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10079006">
+   <rdfs:label xml:lang="en">Infection by Cysticercus cellulosae (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_59051007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246075003"/>
+                    <owl:someValuesFrom rdf:resource="SCT_17894007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_1008006">
+   <rdfs:label xml:lang="en">Operation on nerve ganglion (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_273987005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363704007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_64274004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129284003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10082001">
+   <rdfs:label xml:lang="en">Progressive rubella panencephalitis (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_36653000"/>
+       <owl:Class rdf:about="SCT_34476008"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10083006">
+   <rdfs:label xml:lang="en">Cannabis sativa (organism)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_22924007"/>
+       <owl:Class rdf:about="SCT_272601002"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10085004">
+   <rdfs:label xml:lang="en">Metatarsalgia (finding)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_279001004"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363698007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_53884002"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10087007">
+   <rdfs:label xml:lang="en">Infection by Schistosoma (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_105661001"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246075003"/>
+                    <owl:someValuesFrom rdf:resource="SCT_53583001"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10088002">
+   <rdfs:label xml:lang="en">Revision of jejunoileal bypass (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_118635009"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_246513007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_255231005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129284003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_119213002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10089005">
+   <rdfs:label xml:lang="en">Clostridium haemolyticum - novyi - perfringens types C &amp; D bacterin - toxoid (product)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_75201000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10090001">
+   <rdfs:label xml:lang="en">Periosteotomy of facial bone (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_181021005"/>
+       <owl:Class rdf:about="SCT_67484007"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_1009003">
+   <rdfs:label xml:lang="en">Salmonella Oakland (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_398542008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10091002">
+   <rdfs:label xml:lang="en">High output heart failure (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_84114007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363698007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_80891009"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10093004">
+   <rdfs:label xml:lang="en">Anisakiasis due to Anisakis simplex (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_442652006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246075003"/>
+                    <owl:someValuesFrom rdf:resource="SCT_3706005"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10094005">
+   <rdfs:label xml:lang="en">Entamoeba apis (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_38324000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10096007">
+   <rdfs:label xml:lang="en">Salmonella Leoben (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_404334003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10097003">
+   <rdfs:label xml:lang="en">Ribose-5-phosphate-ammonia ligase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_1672007"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10098008">
+   <rdfs:label xml:lang="en">Medical procedure on rectum (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_43154000"/>
+       <owl:Class rdf:about="SCT_118842007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_363704007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_34402009"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10099000">
+   <rdfs:label xml:lang="en">Ketoprofen (product)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_16403005"/>
+       <owl:Restriction>
+           <owl:onProperty rdf:resource="SCT_127489000"/>
+           <owl:someValuesFrom rdf:resource="SCT_386832008"/>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10100008">
+   <rdfs:label xml:lang="en">Malignant glaucoma (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_232090003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1010008">
+   <rdfs:label xml:lang="en">N-Acetylneuraminate monooxygenase (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_68101005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_101009">
+   <rdfs:label xml:lang="en">Quilonia ethiopica (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_44577004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10101007">
+   <rdfs:label xml:lang="en">Cooperia punctata (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_62646002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10102000">
+   <rdfs:label xml:lang="en">Plant enzyme (substance)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_62873003"/>
+       <owl:Class rdf:about="SCT_90668006"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10104004">
+   <rdfs:label xml:lang="en">Flow cytometric crossmatch, two colors (procedure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_56638002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10105003">
+   <rdfs:label xml:lang="en">Active C3bBbC3b (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_116644003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10106002">
+   <rdfs:label xml:lang="en">Core needle biopsy of kidney (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_7246002"/>
+       <owl:Class rdf:about="SCT_9911007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_64033007"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_424226004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129248005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_129314006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10107006">
+   <rdfs:label xml:lang="en">Duodenoduodenostomy (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_235279008"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_38848004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_257741005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10108001">
+   <rdfs:label xml:lang="en">Giardia cati (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_61419001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10109009">
+   <rdfs:label xml:lang="en">Fibrinogen London III (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_20771003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10110004">
+   <rdfs:label xml:lang="en">Platelet adhesiveness test (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_80329005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246093002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_42406009"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10111000">
+   <rdfs:label xml:lang="en">Vibrio aestuarianus (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_398367007"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10112007">
+   <rdfs:label xml:lang="en">Salmonella Alamo (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_398542008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10113002">
+   <rdfs:label xml:lang="en">Leishmania aethiopica (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_79357004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10114008">
+   <rdfs:label xml:lang="en">Female sterility (finding)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_106104001"/>
+       <owl:Class rdf:about="SCT_15296000"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10115009">
+   <rdfs:label xml:lang="en">Congenital partial hypoplasia (morphologic abnormality)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_38146002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10116005">
+   <rdfs:label xml:lang="en">Simple repair of superficial wounds of scalp and neck (procedure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_118950002"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363700003"/>
+                        <owl:someValuesFrom rdf:resource="SCT_37205004"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_45048000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_257903006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_260686004"/>
+                        <owl:someValuesFrom rdf:resource="SCT_257903006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_405813007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_41695006"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363700003"/>
+                        <owl:someValuesFrom rdf:resource="SCT_37205004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10117001">
+   <rdfs:label xml:lang="en">Finns (ethnic group)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_372148003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10119003">
+   <rdfs:label xml:lang="en">Structure of deep volar arch of radial artery (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_360550009"/>
+       <owl:Class rdf:about="SCT_21547004"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_1012000">
+   <rdfs:label xml:lang="en">Structure of fibrous portion of pericardium (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_123862003"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10121008">
+   <rdfs:label xml:lang="en">Open wound of nape of neck without complication (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_210398003"/>
+       <owl:Class rdf:about="SCT_51411000"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_415645009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_59091005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10122001">
+   <rdfs:label xml:lang="en">Accretion (morphologic abnormality)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_19227008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10123006">
+   <rdfs:label xml:lang="en">Abortion complicated by renal failure (disorder)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_42399005"/>
+       <owl:Class rdf:about="SCT_371332008"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10124000">
+   <rdfs:label xml:lang="en">Structure of deep dorsal sacrococcygeal ligament (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_360916005"/>
+       <owl:Class rdf:about="SCT_77208007"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10125004">
+   <rdfs:label xml:lang="en">No diagnosis on Axis II (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_116367006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10126003">
+   <rdfs:label xml:lang="en">Awn (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_228656006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10128002">
+   <rdfs:label xml:lang="en">Rosacea conjunctivitis (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_9826008"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_29445007"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_23583003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_47429007"/>
+                    <owl:someValuesFrom rdf:resource="SCT_398909004"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10129005">
+   <rdfs:label xml:lang="en">Injury of brachial artery (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_285711003"/>
+       <owl:Class rdf:about="SCT_210823006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_17137000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_19130008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10130000">
+   <rdfs:label xml:lang="en">Demonstrator (occupation)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_106366008"/>
+       <owl:Class rdf:about="SCT_158898006"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_1013005">
+   <rdfs:label xml:lang="en">Micropolyspora faeni (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_54473005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10131001">
+   <rdfs:label xml:lang="en">White-headed mousebird (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107121000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10132008">
+   <rdfs:label xml:lang="en">Burns of multiple sites (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_125666000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10133003">
+   <rdfs:label xml:lang="en">Cyclizine lactate (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_387491004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10134009">
+   <rdfs:label xml:lang="en">Structure of medial surface of third toe (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_2372001"/>
+       <owl:Class rdf:about="SCT_78132007"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10135005">
+   <rdfs:label xml:lang="en">Cinchona alkaloid (product)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_350224008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10136006">
+   <rdfs:label xml:lang="en">Singapura cat (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_33384004"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10137002">
+   <rdfs:label xml:lang="en">Burn erythema of chin (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_81116005"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_77140003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_23747009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10138007">
+   <rdfs:label xml:lang="en">Bone marrow hyperplasia (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_127035006"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_14016003"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_76197007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_10139004">
+   <rdfs:label xml:lang="en">Difficulty adjusting to work situation (finding)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_160905000"/>
+       <owl:Class rdf:about="SCT_56098000"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10140002">
+   <rdfs:label xml:lang="en">Qualitative measurement of opiate agonist (procedure)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_442007007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_260686004"/>
+                    <owl:someValuesFrom rdf:resource="SCT_129266000"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246093002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_404642006"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_370132008"/>
+                    <owl:someValuesFrom rdf:resource="SCT_26716007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+<owl:Class rdf:about="SCT_1014004">
+   <rdfs:label xml:lang="en">Bembrops gobioides (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107473008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10141003">
+   <rdfs:label xml:lang="en">Structure of zygomatic nerve (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_280231002"/>
+       <owl:Class rdf:about="SCT_89545001"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10142005">
+   <rdfs:label xml:lang="en">Chronobiologic state (observable entity)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_363788007"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10143000">
+   <rdfs:label xml:lang="en">Touch-pressure threshold of spinal nerve (observable entity)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_5748001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10144006">
+   <rdfs:label xml:lang="en">Toe of hoof (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_119182009"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10145007">
+   <rdfs:label xml:lang="en">Structure of vagus nerve pharyngeal plexus (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_122455009"/>
+       <owl:Class rdf:about="SCT_54066008"/>
+       <owl:Class rdf:about="SCT_88882009"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10146008">
+   <rdfs:label xml:lang="en">Chief cell adenocarcinoma (morphologic abnormality)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_107721008"/>
+       <owl:Class rdf:about="SCT_86049000"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10147004">
+   <rdfs:label xml:lang="en">Fly (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_106762008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10148009">
+   <rdfs:label xml:lang="en">Entire costal groove of fifth rib (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_367967006"/>
+       <owl:Class rdf:about="SCT_367972002"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10149001">
+   <rdfs:label xml:lang="en">Merkel's cell (cell)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_314819008"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10150001">
+   <rdfs:label xml:lang="en">Uraninite (substance)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_40584000"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_1015003">
+   <rdfs:label xml:lang="en">Structure of peritonsillar tissue (body structure)</rdfs:label>
+    <rdfs:subClassOf><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_19120004"/>
+       <owl:Class rdf:about="SCT_85756007"/>
+   </owl:intersectionOf>
+   </owl:Class></rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:about="SCT_10151002">
+   <rdfs:label xml:lang="en">Structure of middle part of cartilaginous portion of auditory canal (body structure)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_40691006"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10152009">
+   <rdfs:label xml:lang="en">Postpartum state, 4 weeks (finding)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_86569001"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10153004">
+   <rdfs:label xml:lang="en">Systemic fibrinogenolysis (disorder)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_95839005"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10154005">
+   <rdfs:label xml:lang="en">Salvelinus namaycush (organism)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="SCT_107353002"/>
+</owl:Class>
+<owl:Class rdf:about="SCT_10155006">
+   <rdfs:label xml:lang="en">Bilateral congenital dislocation of hip (disorder)</rdfs:label>
+    <owl:equivalentClass><owl:Class>
+   <owl:intersectionOf rdf:parseType="Collection">
+       <owl:Class rdf:about="SCT_48334007"/>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_13810000"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_362907004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Restriction>
+                    <owl:onProperty rdf:resource="SCT_246454002"/>
+                    <owl:someValuesFrom rdf:resource="SCT_255399007"/>
+                </owl:Restriction>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+       <owl:Restriction>
+            <owl:onProperty rdf:resource="RoleGroup"/>
+            <owl:someValuesFrom>
+                <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_363698007"/>
+                        <owl:someValuesFrom rdf:resource="SCT_362908009"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="SCT_116676008"/>
+                        <owl:someValuesFrom rdf:resource="SCT_13810000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+                </owl:Class>
+            </owl:someValuesFrom>
+       </owl:Restriction>
+   </owl:intersectionOf>
+   </owl:Class></owl:equivalentClass>
+</owl:Class>
+</rdf:RDF>
