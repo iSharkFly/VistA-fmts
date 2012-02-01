@@ -149,7 +149,7 @@ configfmt(zfmtary) ; configure output routine table
  ;
 output(jout,zary) ; 
  n zformat
- d configfmt(.zformat
+ d configfmt(.zformat)
  ;d REPLYSTART^FMQLJSON("jout")
  d @REPLYSTART@("jout")
  ;d LISTSTART^FMQLJSON("jout","results")
