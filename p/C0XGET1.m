@@ -113,16 +113,41 @@ triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
  W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
- n zzz,zrsub,zrpred,zrobj,zgraph,zcnt
- s zcnt=1
+ n zzz,zrsub,zrpred,zrobj,zgraph,zcnt,zrary
  s zzz=""
  f  s zzz=$o(tmprtn(zzz)) q:zzz=""  d  ;
  . s zrsub=$$GET1^DIQ(C0XTFN,zzz_",",.03,"E")
  . s zrpred=$$GET1^DIQ(C0XTFN,zzz_",",.04,"E")
  . s zrobj=$$GET1^DIQ(C0XTFN,zzz_",",.05,"E")
  . s zrgraph=$$GET1^DIQ(C0XTFN,zzz_",",.02,"E")
- . s triplertn(zcnt)=zrsub_"^"_zrpred_"^"_zrobj ; _"^"_zrgraph
- . s zcnt=zcnt+1
+ . s zrary(zrsub,zrpred_"^"_zrobj)=""
+ ;b
+ ;
+ i REPLYFMT="JSON" d jsonout(.triplertn,.zrary) q  ; what follows is 'else'
+ ;
+ ; if no reply format is found we just output an array of triples
+ ;
+ s zrsub=""
+ s zcnt=1
+ f  s zrsub=$o(zrary(zrsub)) q:zrsub=""  d  ; organized by subject
+ . s zzz=""
+ . f  s zzz=$o(zrary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
+ . . s triplertn(zcnt)=zrsub_"^"_zzz
+ . . s zcnt=zcnt+1
+ q
+ ;
+jsonout(jout,zary) ; 
+ d REPLYSTART^FMQLJSON("jout")
+ d LISTSTART^FMQLJSON("jout","results")
+ n zi s zi=""
+ f  s zi=$o(zary(zi)) q:zi=""  d  ; for each subject
+ . n zii s zii=""
+ . D DICTSTART^FMQLJSON("jout",zi)
+ . f  s zii=$o(zary(zi,zii)) q:zii=""  d  ; for each pred^obj pair
+ . . d DASSERT^FMQLJSON("jout",$p(zii,"^",1),$p(zii,"^",2))
+ . D DICTEND^FMQLJSON("jout")
+ d LISTEND^FMQLJSON("jout")
+ d REPLYEND^FMQLJSON("jout")
  q
  ;
 trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens

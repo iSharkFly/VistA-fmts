@@ -40,6 +40,7 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XDIR")="/home/glilly/snomed/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
+ S @ZFARY@("REPLYFMT")="JSON"
  D USEFARY(ZFARY)
  Q
  ;
