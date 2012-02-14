@@ -54,6 +54,9 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("skos")="http://www.w3.org/2004/02/skos/core#"
  S C0XVOC("gpl")="http://georgetriples.org/"
  S C0XVOC("cg")="http://datasets.caregraf.org/"
+ S C0XVOC("mv")="http://metavista.name/foundation#"
+ S C0XVOC("rdfs")="http://www.w3.org/2000/01/rdf-schema#"
+ S C0XVOC("os")="http://osehra.org/ns#"
  Q
  ;
 EXT(C0XIN) ; EXTRINSIC WHICH EXPANDS NAMESPACES
