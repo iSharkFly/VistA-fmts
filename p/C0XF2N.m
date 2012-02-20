@@ -37,10 +37,10 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XSFN")=172.201 ; TRIPLES STRINGS FILE NUMBER
  S @ZFARY@("C0XTN")=$NA(^C0X(101)) ; TRIPLES GLOBAL NAME
  S @ZFARY@("C0XSN")=$NA(^C0X(201)) ; STRING FILE GLOBAL NAME
- S @ZFARY@("C0XDIR")="/home/glilly/snomed/"
+ S @ZFARY@("C0XDIR")="/home/vista/gpl/C0Q/trunk/rdf/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
- S @ZFARY@("REPLYFMT")="JSON"
+ S @ZFARY@("REPLYFMT")=""
  D USEFARY(ZFARY)
  Q
  ;
@@ -273,6 +273,8 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  S C0XTYPE("rdf:Description")=1
  S C0XTYPE("owl:ObjectProperty")=1
  S C0XTYPE("owl:Ontology")=1
+ S C0XTYPE("owl:Class")=1
+ S C0XTYPE("rdfs:subClassOf")=1
  S ZI=$O(@ZDOM@(1,"C",""))
  I '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  Q  ; not an rdf file
  . W !,"Error. Not an RDF file. Cannot process."
@@ -314,7 +316,7 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  . . . . S C0XPRE=C0XVOC(ZB)_ZA ; expanded 
  . . S ZY=$G(@ZDOM@(ZJ,"A","rdf:resource")) ; potential object
  . . I ZY'="" D  Q ; 
- . . . S C0XOBJ=ZY ; object
+ . . . S C0XOBJ=$$EXT^C0XUTIL(ZY) ; object
  . . . D ADD(ZGRF,C0XSUB,C0XPRE,C0XOBJ) ; finally. our first real triple
  . . ; -- this is an else because of the quit above
  . . S ZX=$G(@ZDOM@(ZJ,"A","rdf:nodeID")) ; fishing for nodeId object
@@ -325,6 +327,7 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  . . S C0XOBJ=$G(@ZDOM@(ZJ,"T",1)) ; hopefully an object is here
  . . I C0XOBJ="" D  Q  ; not a happy situation
  . . . W !,"ERROR, NO OBJECT FOUND FOR NODE: ",ZJ
+ . . S C0XOBJ=$$EXT^C0XUTIL(C0XOBJ) ; might be namespaced
  . . D ADD(ZGRF,C0XSUB,C0XPRE,C0XOBJ) ; go for it and add a node
  S C0XTRP=$$NOW^XLFDT ; PARSE COMPLETE
  W !,"TRIPLES COMPLETE AT ",C0XTRP

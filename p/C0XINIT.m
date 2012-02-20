@@ -35,7 +35,7 @@ INIT ; INITIALIZE THE TRIPLE STORE - THIS DELETES THE GLOBALS AND
  ;
  ; -- we are assuming that FARY is set up properly in C0XF2N
  ; -- with repect to the default directory and the defaut fileman files
- ; -- here's what it is now: "/home/glilly/fmts/trunk/samples/"
+ ; -- here's what it is now: "/home/vista/gpl/fmts/trunk/samples/"
  ; -- that means that all the sample files will look like:
  ; --- qds/QDS_0001.rdf
  ; --- smart-rdf-in/small.rdf
@@ -43,7 +43,7 @@ INIT ; INITIALIZE THE TRIPLE STORE - THIS DELETES THE GLOBALS AND
  S FARY="C0XFARY"
  D INITFARY^C0XF2N(FARY)
  D USEFARY^C0XF2N(FARY)
- S C0XFARY("C0XDIR")="/home/glilly/fmts/trunk/samples/smart-rdf-in/" ; 
+ S C0XFARY("C0XDIR")="/home/vista/gpl/fmts/trunk/samples/smart-rdf-in/" ; 
  D USEFARY^C0XF2N(FARY)
  S SMART(1)="cole-susan.rdf"
  S SMART(2)="jones-cynthia.rdf"
@@ -64,7 +64,7 @@ INIT ; INITIALIZE THE TRIPLE STORE - THIS DELETES THE GLOBALS AND
  F  S ZI=$O(SMART(ZI)) Q:ZI=""  D  ; for each smart file
  . D IMPORT^C0XF2N(SMART(ZI),C0XDIR,,FARY) ; import to the triplestore
  S FARY="C0XFARY"
- S C0XFARY("C0XDIR")="/home/glilly/fmts/trunk/samples/qds/"
+ S C0XFARY("C0XDIR")="/home/vista/gpl/fmts/trunk/samples/qds/"
  D USEFARY^C0XF2N(FARY)
  D IMPORT^C0XF2N("QDS_0001.rdf",C0XDIR,,FARY)
  D IMPORT^C0XF2N("QDS_0028b.rdf",C0XDIR,,FARY)
