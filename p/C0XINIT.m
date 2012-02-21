@@ -20,7 +20,8 @@ C0XINIT ; GPL - Fileman Triples initialization routine ;10/13/11  17:05
  Q
  ;
 CLEAR ; DELETE THE FILESTORE
- K ^C0X
+ K ^C0X(101)
+ K ^C0X(201)
  S ^C0X(101,0)="C0X TRIPLE^172.101I^^"
  S ^C0X(201,0)="C0X STRING^172.201I^^"
  Q
