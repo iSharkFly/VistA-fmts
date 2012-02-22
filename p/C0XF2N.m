@@ -40,7 +40,7 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XDIR")="/home/vista/gpl/C0Q/trunk/rdf/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
- S @ZFARY@("REPLYFMT")=""
+ S @ZFARY@("REPLYFMT")="JSON"
  D USEFARY(ZFARY)
  Q
  ;
@@ -165,8 +165,10 @@ STORETXT(ZTXT,ZNAME,FARY) ; STORE TEXT IN THE TRIPLESTORE AT ZNAME
  D CLEAN^DILF
  K ZERR
  D WP^DIE(C0XSFN,ZIEN_",",1,,ZTXT,"ZERR")
- I $D(ZERR) D  ;
- . ZWR ZERR
+ I $D(ZERR) D  Q  ;
+ . W !,"ERROR CREATING WORD PROCESSING FIELD"
+ . S C0XERR="ERROR CREATING WORD PROCESSING FIELD"
+ . D ^%ZTER ; error trap
  Q
  ; 
 GETTXT(ZRTN,ZNAME,FARY) ; RETURNS RDF SOURCE OR OTHER TEXT
@@ -266,7 +268,9 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  F  S ZI=$O(@ZDOM@(1,"A",ZI)) Q:ZI=""  D  ; FOR EACH xmlns
  . S ZVOC=$P(ZI,"xmlns:",2)
  . I ZVOC'="" S C0XVOC(ZVOC)=$G(@ZDOM@(1,"A",ZI))
- W !,"VOCABS:" ZWR C0XVOC
+ W !,"VOCABS:"
+ N ZZ S ZZ=""
+ F  S ZZ=$O(C0XVOC(ZZ)) Q:ZZ=""  W !,ZZ,":",C0CVOC(ZZ)
  ;
  ; -- look for children called rdf:Description. quit if none. not an rdf file
  ;
@@ -278,7 +282,7 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  S ZI=$O(@ZDOM@(1,"C",""))
  I '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  Q  ; not an rdf file
  . W !,"Error. Not an RDF file. Cannot process."
- . ;zwr ^TMP("MXMLDOM",$J,*)
+ . D SHOW(1)
  ;
  ; -- now process the rdf description children
  ;
@@ -356,8 +360,11 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  ;
 SHOW(ZN) ;
  I '$D(C0XJOB) S C0XJOB=$J
- ZWR ^TMP("MXMLDOM",C0XJOB,1,ZN,*)
- ;ZWR ^TMP("MXMLDOM",16850,1,ZN,*)
+ N ZD
+ S ZD=$NA(^TMP("MXMLDOM",C0XJOB,1,ZN))
+ W ZD,"=",@ZD
+ F  S ZD=$Q(@ZD) Q:$QS(ZD,4)'=ZN  W !,ZD,"=",@ZD
+ ;ZWR ^TMP("MXMLDOM",C0XJOB,1,ZN,*)
  Q
  ;
 ANONS() ; RETURNS AN ANONOMOUS SUBJECT
@@ -573,7 +580,10 @@ REINDEX ; REINDEX THE ^C0X(101, TRIPLE STORE
  Q
  ;
 BLKERR ; 
- W !,"ERROR IN BULK LOAD",! ZWR ZBFDA(ZI)
+ W !,"ERROR IN BULK LOAD"
+ S C0XERR="ERROR IN BULK LOAD"
+ S C0XLOC=ZBFDA(ZI)
+ D ^%ZTER ; report the error
  B
  Q
  ;
