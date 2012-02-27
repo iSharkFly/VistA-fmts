@@ -113,16 +113,9 @@ triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
  W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
- n zzz,zrsub,zrpred,zrobj,zgraph,zcnt,zrary
- s zzz=""
- f  s zzz=$o(tmprtn(zzz)) q:zzz=""  d  ;
- . s zrsub=$$GET1^DIQ(C0XTFN,zzz_",",.03,"E")
- . s zrpred=$$GET1^DIQ(C0XTFN,zzz_",",.04,"E")
- . s zrobj=$$GET1^DIQ(C0XTFN,zzz_",",.05,"E")
- . s zrgraph=$$GET1^DIQ(C0XTFN,zzz_",",.02,"E")
- . s zrary(zrsub,zrpred_"^"_zrobj)=""
- ;b
+ d ien2tary(.zrary,"tmprtn") ; convert to triples
  ;
+ d rdfout^C0XRDF(.triplertn,.zrary) q  ;
  i REPLYFMT="JSON" d jsonout(.triplertn,.zrary) q  ; what follows is 'else'
  ;
  ; if no reply format is found we just output an array of triples
@@ -134,6 +127,20 @@ triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  . f  s zzz=$o(zrary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
  . . s triplertn(zcnt)=zrsub_"^"_zzz
  . . s zcnt=zcnt+1
+ q
+ ;
+ien2tary(zrary,zinary) ; zinary is an array of iens passed by name
+ ; zrary is passed by reference and is return array of triples
+ ; format zrary(zsub,"zpred^zobj")=""
+ ;
+ n zzz,zrsub,zrpred,zrobj,zgraph,zcnt
+ s zzz=""
+ f  s zzz=$o(@zinary@(zzz)) q:zzz=""  d  ;
+ . s zrsub=$$GET1^DIQ(C0XTFN,zzz_",",.03,"E")
+ . s zrpred=$$GET1^DIQ(C0XTFN,zzz_",",.04,"E")
+ . s zrobj=$$GET1^DIQ(C0XTFN,zzz_",",.05,"E")
+ . s zrgraph=$$GET1^DIQ(C0XTFN,zzz_",",.02,"E")
+ . s zrary(zrsub,zrpred_"^"_zrobj)=""
  q
  ;
 jsonout(jout,zary) ; 
