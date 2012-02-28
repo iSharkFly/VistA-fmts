@@ -595,6 +595,40 @@ BLKERR ;
  B
  Q
  ;
+DELGRAPH(ZGRF,FARY) ; delete a graph from the triplestore
+ ; (doesn't delete strings)
+ ;
+ I '$D(FARY) D  ;
+ . D INITFARY("C0XFARY")
+ . S FARY="C0XFARY"
+ D USEFARY(FARY)
+ N ZGRAPH
+ D TING(.ZGRAPH,ZGRF,FARY)
+ I '$D(ZGRAPH) D  Q  ;
+ . W !,"NO TRIPLES IN GRAPH"
+ K C0XFDA
+ N ZI S ZI=""
+ F  S ZI=$O(ZGRAPH(ZI)) Q:ZI=""  D  ;
+ . S C0XFDA(C0XTFN,ZI_",",.01)="@"
+ D UPDIE(.C0XFDA)
+ Q
+ ;
+TING(ZRTN,ZGRF,FARY) ; return the iens for graph ZGRF
+ ; ZRTN is passed by reference
+ I '$D(FARY) D  ;
+ . D INITFARY("C0XFARY")
+ . S FARY="C0XFARY"
+ D USEFARY(FARY)
+ K ZRTN
+ N ZI,ZG S ZI=""
+ S ZG=$$IENOF(ZGRF)
+ I ZG="" D  Q  ;
+ . W !,"ERROR GRAPH NOT FOUND"
+ I '$D(@C0XTN@("G",ZG)) Q  ;
+ F  S ZI=$O(@C0XTN@("G",ZG,ZI)) Q:ZI=""  D  ;
+ . S ZRTN(ZI)=""
+ Q
+ ;  
 SWUPDIE(ZFDA) ; SWITCH BETWEEN UPDIE AND BULKLOAD
  . I $G(BLKLOAD) D  ; bulk load
  . . D BULKLOAD(.ZFDA) ; bulk load the batch

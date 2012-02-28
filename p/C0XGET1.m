@@ -83,6 +83,20 @@ qparse(qrtn,zquery) ; parses the query
  s qrtn(1)=q1_"^"_q2_"^"_q3 ; more lines to come later
  q
  ;
+getGraph(zrtn,zgrf,form) ; get all triples in graph zgrf
+ ; forms planned: "rdf" "json" "array" "turtle" "triples"
+ ; forms supported: "rdf" "json" "array"
+ I '$D(form) S form="rdf"
+ N ZIENS,ZTRIP
+ D TING^C0XF2N(.ZIENS,zgrf)
+ I '$D(ZIENS) Q  ;
+ D ien2tary(.ZTRIP,"ZIENS")
+ I form="json" d jsonout(.zrtn,.ZTRIP) q  ; what follows is else
+ i form="rdf" d rdfout^C0XRDF(.zrtn,.ZTRIP) q  ;
+ i form="array" d arrayout^C0XGET1(.zrtn,.ZTRIP) q  ;
+ W !,"Form not supported: ",form
+ Q
+ ;
 rpctrip(rtn,query,limit,offset) ; rpc to access triples with a query
  ;
  n zoff,zlim,zcount,zq
@@ -100,11 +114,12 @@ rpctrip(rtn,query,limit,offset) ; rpc to access triples with a query
  . s rtn(zcount)=qtmp(zcount)
  q
  ;
-triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
+triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  I '$D(fary) D  ;
  . D INITFARY^C0XF2N("C0XFARY")
  . S fary="C0XFARY"
  D USEFARY^C0XF2N(fary)
+ I '$D(form) S form="json"
  k triplertn ; start with a clean return
  n zsub,zpred,zobj,zgraph,tmprtn
  s zsub=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
@@ -115,17 +130,20 @@ triples(triplertn,sub,pred,obj,graph,fary) ; returns triples
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
  d ien2tary(.zrary,"tmprtn") ; convert to triples
  ;
- d rdfout^C0XRDF(.triplertn,.zrary) q  ;
- i REPLYFMT="JSON" d jsonout(.triplertn,.zrary) q  ; what follows is 'else'
+ i form="json" d jsonout(.triplertn,.zrary) q  ; what follows is 'else'
+ i form="rdf" d rdfout^C0XRDF(.triplertn,.zrary) q  ;
+ i form="array" d arrayout(.triplertn,.zrary) q ;
+ w !,"form not supported: ",form 
+ q
  ;
- ; if no reply format is found we just output an array of triples
+arrayout(rtn,zary) ; output an array of triples
  ;
  s zrsub=""
  s zcnt=1
- f  s zrsub=$o(zrary(zrsub)) q:zrsub=""  d  ; organized by subject
+ f  s zrsub=$o(zary(zrsub)) q:zrsub=""  d  ; organized by subject
  . s zzz=""
- . f  s zzz=$o(zrary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
- . . s triplertn(zcnt)=zrsub_"^"_zzz
+ . f  s zzz=$o(zary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
+ . . s rtn(zcnt)=zrsub_"^"_zzz
  . . s zcnt=zcnt+1
  q
  ;

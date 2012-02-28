@@ -38,11 +38,12 @@ DICTSTART(ZARY,ZSUB)
 DASSERT(ZARY,ZPRED,ZOBJ)
  I ZPRED[":" D  Q  ;
  . I ZPRED="rdf:type" D  Q  ;
- . . D ADD(ZARY,"rdf:type rdf:Resource="""_ZOBJ_"""/>")
- . N ZA,ZB
+ . . D ADD(ZARY,"rdf:type rdf:Resource="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
+ . N ZA,ZB,ZC
  . S ZA=$P(ZPRED,":",1)
  . S ZB=$P(ZPRED,":",2)
- . D ADD(ZARY,"<"_ZA_" xmlns="""_ZB_""">"_ZOBJ_"</"_ZA_">")
+ . S ZC=C0XVOC(ZA)
+ . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""">"_$$EXT^C0XUTIL(ZOBJ)_"</"_ZB_">")
  Q
  ;
 DICTEND(ZARY)
@@ -69,7 +70,7 @@ rdfout(rdfout,zary) ;
  n zi s zi=""
  f  s zi=$o(zary(zi)) q:zi=""  d  ; for each subject
  . n zii s zii=""
- . D DICTSTART("rdfout",zi)
+ . D DICTSTART("rdfout",$$EXT^C0XUTIL(zi))
  . f  s zii=$o(zary(zi,zii)) q:zii=""  d  ; for each pred^obj pair
  . . d DASSERT("rdfout",$p(zii,"^",1),$p(zii,"^",2))
  . D DICTEND("rdfout")
