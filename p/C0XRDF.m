@@ -47,7 +47,7 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  Q
  ;
 DICTEND(ZARY)
- D ADD(ZARY,"</rdf:Description")
+ D ADD(ZARY,"</rdf:Description>")
  Q
  ;
 LISTEND(ZARY)
