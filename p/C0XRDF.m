@@ -38,7 +38,7 @@ DICTSTART(ZARY,ZSUB)
 DASSERT(ZARY,ZPRED,ZOBJ)
  I ZPRED[":" D  Q  ;
  . I ZPRED="rdf:type" D  Q  ;
- . . D ADD(ZARY,"rdf:type rdf:Resource="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
+ . . D ADD(ZARY,"<rdf:type rdf:Resource="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
  . N ZA,ZB,ZC
  . S ZA=$P(ZPRED,":",1)
  . S ZB=$P(ZPRED,":",2)
