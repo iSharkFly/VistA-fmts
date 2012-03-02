@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/4a2e8a0e-faf1-4b6c-9985-b44d649094da">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25605"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25605">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/858869"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/858869">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">858869</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25605">
+	<title xmlns="http://purl.org/dc/terms/">carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/4a2e8a0e-faf1-4b6c-9985-b44d649094da">
+	<instructions xmlns="http://smartplatforms.org/terms#"></instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2006-09-01</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/858869">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/31e3911a-ceae-474b-a219-e73b235ef114"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/31e3911a-ceae-474b-a219-e73b235ef114">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<medication xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1"/>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">30</dispenseDaysSupply>
+	<date xmlns="http://purl.org/dc/terms/">2005-10-17</date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25632"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25632">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25631"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25631">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25624"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25624">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/285004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/285004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Etodolac 400 MG Extended Release Tablet</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">285004</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25624">
+	<title xmlns="http://purl.org/dc/terms/">Etodolac 400 MG Extended Release Tablet</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/5495e373-58ce-417f-96ec-fa7ddff1f4a1">
+	<instructions xmlns="http://smartplatforms.org/terms#">1 daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2005-10-17</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/285004">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/b0d1ec9d-aa6e-4a55-817e-934fd8a35451"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/b0d1ec9d-aa6e-4a55-817e-934fd8a35451">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<medication xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407"/>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">3</dispenseDaysSupply>
+	<date xmlns="http://purl.org/dc/terms/">2005-05-17</date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25599"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25599">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25628"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25628">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25616"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25616">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/856903"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/856903">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">856903</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25616">
+	<title xmlns="http://purl.org/dc/terms/">Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/01d89f4b-3a29-4d5e-8eda-75372c683407">
+	<instructions xmlns="http://smartplatforms.org/terms#">1 q6h prn pain</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2005-05-17</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/856903">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/366beb59-4da8-4f66-b758-bb82778aaeea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/366beb59-4da8-4f66-b758-bb82778aaeea">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<medication xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364"/>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">10</dispenseDaysSupply>
+	<date xmlns="http://purl.org/dc/terms/">2008-07-10</date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25598"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25598">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25592"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25592">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25596"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25596">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/309114"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/309114">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Cephalexin 500 MG Oral Capsule</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">309114</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25596">
+	<title xmlns="http://purl.org/dc/terms/">Cephalexin 500 MG Oral Capsule</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/be6f0e9d-fbc6-45da-bdbb-e140993d6364">
+	<instructions xmlns="http://smartplatforms.org/terms#">1 qid</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-07-10</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/309114">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/b52bd7b7-ac0e-450c-b944-420df230ab32">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25581"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25581">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{puff}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/b52bd7b7-ac0e-450c-b944-420df230ab32">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25580"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25580">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/b52bd7b7-ac0e-450c-b944-420df230ab32">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25578"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25578">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/745752"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745752">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">745752</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25578">
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/b52bd7b7-ac0e-450c-b944-420df230ab32">
+	<instructions xmlns="http://smartplatforms.org/terms#">2 puffs qid prn SOB</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2006-09-01</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745752">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/0ee29f0b-3cc5-4215-b867-089bcd975d51">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25589"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25589">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">2</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{puff}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/0ee29f0b-3cc5-4215-b867-089bcd975d51">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25588"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25588">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">4</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/0ee29f0b-3cc5-4215-b867-089bcd975d51">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25587"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25587">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/745679"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745679">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">745679</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25587">
+	<title xmlns="http://purl.org/dc/terms/">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/0ee29f0b-3cc5-4215-b867-089bcd975d51">
+	<instructions xmlns="http://smartplatforms.org/terms#">2 puffs qid prn SOB</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2004-10-27</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/745679">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<fulfillment xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/caaa4213-e345-4310-907f-1ea9dbf6391b"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/fulfillments/caaa4213-e345-4310-907f-1ea9dbf6391b">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Fulfillment"/>
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<medication xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee"/>
+	<dispenseDaysSupply xmlns="http://smartplatforms.org/terms#">10</dispenseDaysSupply>
+	<date xmlns="http://purl.org/dc/terms/">2005-05-17</date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee">
+	<quantity xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25585"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25585">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">{tablet}</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee">
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25576"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25576">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">3</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25635"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25635">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/828348"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/828348">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Cyclobenzaprine hydrochloride 10 MG Oral Tablet</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">828348</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25635">
+	<title xmlns="http://purl.org/dc/terms/">Cyclobenzaprine hydrochloride 10 MG Oral Tablet</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/cea7e764-3481-4f6d-9528-26c3a39694ee">
+	<instructions xmlns="http://smartplatforms.org/terms#">1 tid prn</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2005-05-17</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/828348">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/beac8c81-9fda-41da-b6d5-4fc87ec56e4e">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Medication"/>
+	<frequency xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25627"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25627">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#ValueAndUnit"/>
+	<value xmlns="http://smartplatforms.org/terms#">1</value>
+	<unit xmlns="http://smartplatforms.org/terms#">/d</unit>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/beac8c81-9fda-41da-b6d5-4fc87ec56e4e">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/981968"/>
+	<drugName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="iDPsDPss25646"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25646">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/311753"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/311753">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">mometasone furoate 1 MG/ML Topical Cream</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://rxnav.nlm.nih.gov/REST/rxcui/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">311753</identifier>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="iDPsDPss25646">
+	<title xmlns="http://purl.org/dc/terms/">mometasone furoate 1 MG/ML Topical Cream</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/981968/medications/beac8c81-9fda-41da-b6d5-4fc87ec56e4e">
+	<instructions xmlns="http://smartplatforms.org/terms#">apply daily</instructions>
+	<startDate xmlns="http://smartplatforms.org/terms#">2008-06-22</startDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/311753">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
+</rdf:Description>
+
+</rdf:RDF>

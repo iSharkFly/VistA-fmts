@@ -236,3 +236,25 @@ do3(dortn,zt,zi) ; have none, looking for three
  . . . s dortn(zr)=""
  q
  ;
+output(zwhat,zfname,zdir) ; function to write an array to a host file
+ ; if zdir is ommitted, will output to the CCR directory
+ ; ^TMP("C0CCCR","ODIR")
+ ; if fname is ommitted, will output yyyy-mm-dd-hh-mm-ss-C0XOUT.out
+ ; zwhat is passed by name
+ ;
+ i '$d(zdir) s zdir=$G(^TMP("C0CCCR","ODIR"))
+ i '$d(zfname) d  ;
+ . s zfname=$$FMTE^XLFDT($$NOW^XLFDT,7)
+ . s zfname=$tr(zfname,"/","-")
+ . s zfname=$tr(zfname,"@","-")
+ . s zfname=$tr(zfname,":","-")
+ . s zfname=zfname_".out"
+ i $e(zwhat,1,1)'="^" d  ; not a global
+ . k ^TMP("C0XOUT",$J)
+ . m ^TMP("C0XOUT",$J)=@zwhat
+ . s zwhat=$na(^TMP("C0XOUT",$J,1))
+ n zout s zout=""
+ s zout=$$OUTPUT^C0CXPATH(zwhat,zfname,zdir)
+ K ^TMP("C0XOUT",$J)
+ Q zout
+ ;
