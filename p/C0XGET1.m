@@ -151,6 +151,7 @@ ien2tary(zrary,zinary) ; zinary is an array of iens passed by name
  ; zrary is passed by reference and is return array of triples
  ; format zrary(zsub,"zpred^zobj")=""
  ;
+ k zrary ; start out clean
  n zzz,zrsub,zrpred,zrobj,zgraph,zcnt
  s zzz=""
  f  s zzz=$o(@zinary@(zzz)) q:zzz=""  d  ;
