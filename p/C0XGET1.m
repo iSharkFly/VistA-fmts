@@ -136,6 +136,78 @@ triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  w !,"form not supported: ",form 
  q
  ;
+subjects(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
+ d onelist("S") ;subjects
+ q
+ ;
+preds(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
+ d onelist("P") ;subjects
+ q
+ ;
+objects(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
+ d onelist("O") ;subjects
+ q
+ ;
+onelist(zw) ; returns list
+ ; zw is S P or O depending on what should be returned
+ I '$D(fary) D  ;
+ . D INITFARY^C0XF2N("C0XFARY")
+ . S fary="C0XFARY"
+ D USEFARY^C0XF2N(fary)
+ I '$D(form) S form="json"
+ k listrtn ; start with a clean return
+ n zsub,zpred,zobj,zgraph,tmprtn
+ s zsub=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
+ s zpred=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
+ s zobj=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
+ s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
+ W !,"s:",zsub," p:",zpred," o:",zobj
+ n c0xflag,zi,zx,zt
+ s zt=$na(^C0X(101)) ; 
+ s c0xflag=$$meta(zsub,zpred,zobj) ; get meta flags
+ k tmprtn
+ n itbl,ii,ix
+ s ii=$s(zw="S":"SPO",zw="P":"POS",zw="O":"OSP") ; no constraint
+ s itbl("I000",ii)="d zip(.tmprtn,zt,zi)"
+ s ii=$s(zw="S":"OSP",zw="P":"OPS",zw="O":"OSP") ; obj constraint
+ s ix=$s(zw="O":"s tmprtn(zobj)=""""",1:"d zip1(.tmprtn,zt,zi,zobj)")
+ s itbl("I001",ii)=ix
+ s itbl("I010","PSO")="d zip1(.tmprtn,zt,zi,zpred)"
+ s itbl("I011","POS")="d zip2(.tmprtn,zt,zi,zpred,zobj)"
+ s itbl("I100","SPO")="d zip(.tmprtn,zt,zi)"
+ s itbl("I101","OSP")="d zip1(.tmprtn,zt,zi,zobj)"
+ s itbl("I110","PSO")="d zip1(.tmprtn,zt,zi,zpred)"
+ s itbl("I111","POS")="d zip2(.tmprtn,zt,zi,zpred,zobj)"
+ s zi=$o(itbl(c0xflag,""))
+ s zx=itbl(c0xflag,zi) ; executable instruction to run
+ i $g(ngraph)'="" s zi="G"_zi
+ w !,zx
+ x zx
+ k listrtn
+ d strings(.listrtn,"tmprtn") ; convert pointer to strings
+ q
+ ;
+zip(zrtn,zt,zi) ; pull out just the first element of the index
+ ;
+ n zii s zii=""
+ f  s zii=$o(@zt@(zi,zii)) q:zii=""  d  ;
+ . s zrtn(zii)=""
+ q
+ ;
+zip1(zrtn,zt,zi,zn) ; pull out just the first element of the index
+ ;
+ n zii s zii=""
+ f  s zii=$o(@zt@(zi,zn,zii)) q:zii=""  d  ;
+ . s zrtn(zii)=""
+ q
+ ;
+zip2(zrtn,zt,zi,zn,zn1) ; pull out just the first element of the index
+ ;
+ n zii s zii=""
+ f  s zii=$o(@zt@(zi,zn,zn1,zii)) q:zii=""  d  ;
+ . s zrtn(zii)=""
+ q
+ ;
 arrayout(rtn,zary) ; output an array of triples
  ;
  s zrsub=""
@@ -145,6 +217,17 @@ arrayout(rtn,zary) ; output an array of triples
  . f  s zzz=$o(zary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
  . . s rtn(zcnt)=zrsub_"^"_zzz
  . . s zcnt=zcnt+1
+ q
+ ;
+strings(zrary,zinary) ; convert pointers to strings
+ ;
+ k zrary
+ n zzz s zzz=""
+ f  s zzz=$o(@zinary@(zzz)) q:zzz=""  d  ;
+ . n zs
+ . s zs=$$GET1^DIQ(C0XSFN,zzz_",",.01)
+ . q:zs=""
+ . s zrary(zs)=""
  q
  ;
 ien2tary(zrary,zinary) ; zinary is an array of iens passed by name
@@ -176,17 +259,22 @@ jsonout(jout,zary) ;
  d REPLYEND^FMQLJSON("jout")
  q
  ;
+meta(zsub,zpred,zobj) ; function to return meta information
+ ; about the inputs ie I100 for just a subject and no pred or obj
+ n zf1,zf2,zf3,zflag
+ s zf1=$s($g(zsub)="":0,1:1)
+ s zf2=$s($g(zpred)="":0,1:1)
+ s zf3=$s($g(zobj)="":0,1:1)
+ s zflag="I"_zf1_zf2_zf3
+ q zflag
+ ;
 trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
  ; nsub,npred,nobj are all optional
  ; graf is also optional, and will limit the search to a particular ngraph
  ; fary is which triple store (not implemented yet)
  n c0xflag,zi,zx,zt
  s zt=$na(^C0X(101)) ; 
- n zf1,zf2,zf3
- s zf1=$s($g(nsub)="":0,1:1)
- s zf2=$s($g(npred)="":0,1:1)
- s zf3=$s($g(nobj)="":0,1:1)
- s c0xflag="I"_zf1_zf2_zf3
+ s c0xflag=$$meta(nsub,npred,nobj) ; get meta flags
  n itbl
  s itbl("I000","SPO")="d do3(.triprtn,zt,zi)"
  s itbl("I001","OSP")="d do2(.triprtn,zt,zi,nobj)"
