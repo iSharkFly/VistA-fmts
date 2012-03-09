@@ -170,10 +170,14 @@ onelist(zw) ; returns list
  s ii=$s(zw="S":"SPO",zw="P":"POS",zw="O":"OSP") ; no constraint
  s itbl("I000",ii)="d zip(.tmprtn,zt,zi)"
  s ii=$s(zw="S":"OSP",zw="P":"OPS",zw="O":"OSP") ; obj constraint
- s ix=$s(zw="O":"s tmprtn(zobj)=""""",1:"d zip1(.tmprtn,zt,zi,zobj)")
+ s ix=$s(zw="O":"d just(zobj)",1:"d zip1(.tmprtn,zt,zi,zobj)")
  s itbl("I001",ii)=ix
- s itbl("I010","PSO")="d zip1(.tmprtn,zt,zi,zpred)"
- s itbl("I011","POS")="d zip2(.tmprtn,zt,zi,zpred,zobj)"
+ s ii=$s(zw="S":"PSO",zw="P":"POS",zw="O":"OPS") ; pred constraint
+ s ix=$s(zw="O":"d just(zpred)",1:"d zip1(.tmprtn,zt,zi,zpred)")
+ s itbl("I010","PSO")=ix
+ s ii=$s(zw="S":"POS",zw="P":"OPS",zw="O":"OSP") ; pred + obj constraint
+ s ix=$s(zw="S":"d zip2(.tmprtn,zt,zi,zpred,zobj)",zw="P":"d just(zpred)",zw="O":"d just(zobj)",1:"d just(zobj)")
+ s itbl("I011","POS")=ix
  s itbl("I100","SPO")="d zip(.tmprtn,zt,zi)"
  s itbl("I101","OSP")="d zip1(.tmprtn,zt,zi,zobj)"
  s itbl("I110","PSO")="d zip1(.tmprtn,zt,zi,zpred)"
@@ -185,6 +189,10 @@ onelist(zw) ; returns list
  x zx
  k listrtn
  d strings(.listrtn,"tmprtn") ; convert pointer to strings
+ q
+ ;
+just(zin) ; add one element to tmprtn
+ s tmprtn(zin)=""
  q
  ;
 zip(zrtn,zt,zi) ; pull out just the first element of the index
