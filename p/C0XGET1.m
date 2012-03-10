@@ -122,10 +122,10 @@ triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  I '$D(form) S form="json"
  k triplertn ; start with a clean return
  n zsub,zpred,zobj,zgraph,tmprtn
- s zsub=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
- s zpred=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
- s zobj=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
- s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
+ s zsub=$$IENOF($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
+ s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
+ s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
+ s zgraph=$$IENOF($g(graph),fary) ; ien of graph
  W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
  d ien2tary(.zrary,"tmprtn") ; convert to triples
@@ -145,26 +145,26 @@ preds(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
  q
  ;
 objects(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
- d onelist("O") ;subjects
+ d onelist("O",$g(sub),$g(pred),"",$g(fary)) ;subjects
  q
  ;
-onelist(zw) ; returns list
+onelist(zw,sub,pred,obj,fary) ; returns list
  ; zw is S P or O depending on what should be returned
- I '$D(fary) D  ;
+ I $g(fary)="" D  ;
  . D INITFARY^C0XF2N("C0XFARY")
  . S fary="C0XFARY"
  D USEFARY^C0XF2N(fary)
  I '$D(form) S form="json"
  k listrtn ; start with a clean return
  n zsub,zpred,zobj,zgraph,tmprtn
- s zsub=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
- s zpred=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
- s zobj=$$IENOF^C0XF2N($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
- s zgraph=$$IENOF^C0XF2N($g(graph),fary) ; ien of graph
+ s zsub=$$IENOF($$EXT^C0XUTIL($g(sub)),fary) ; ien of sub
+ s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of pred
+ s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of obj
+ s zgraph=$$IENOF($g(graph),fary) ; ien of graph
  W !,"s:",zsub," p:",zpred," o:",zobj
  n c0xflag,zi,zx,zt
  s zt=$na(^C0X(101)) ; 
- s c0xflag=$$meta(zsub,zpred,zobj) ; get meta flags
+ s c0xflag=$$mask(zsub,zpred,zobj) ; get mask flags
  k tmprtn
  n itbl,ii,ix
  s ii=$s(zw="S":"SPO",zw="P":"POS",zw="O":"OSP") ; no constraint
@@ -172,20 +172,31 @@ onelist(zw) ; returns list
  s ii=$s(zw="S":"OSP",zw="P":"OPS",zw="O":"OSP") ; obj constraint
  s ix=$s(zw="O":"d just(zobj)",1:"d zip1(.tmprtn,zt,zi,zobj)")
  s itbl("I001",ii)=ix
- s ii=$s(zw="S":"PSO",zw="P":"POS",zw="O":"OPS") ; pred constraint
- s ix=$s(zw="O":"d just(zpred)",1:"d zip1(.tmprtn,zt,zi,zpred)")
- s itbl("I010","PSO")=ix
+ s ii=$s(zw="S":"PSO",zw="P":"POS",zw="O":"POS") ; pred constraint
+ s ix=$s(zw="P":"d just(zpred)",1:"d zip1(.tmprtn,zt,zi,zpred)")
+ s itbl("I010",ii)=ix
  s ii=$s(zw="S":"POS",zw="P":"OPS",zw="O":"OSP") ; pred + obj constraint
  s ix=$s(zw="S":"d zip2(.tmprtn,zt,zi,zpred,zobj)",zw="P":"d just(zpred)",zw="O":"d just(zobj)",1:"d just(zobj)")
- s itbl("I011","POS")=ix
- s itbl("I100","SPO")="d zip(.tmprtn,zt,zi)"
- s itbl("I101","OSP")="d zip1(.tmprtn,zt,zi,zobj)"
- s itbl("I110","PSO")="d zip1(.tmprtn,zt,zi,zpred)"
- s itbl("I111","POS")="d zip2(.tmprtn,zt,zi,zpred,zobj)"
- s zi=$o(itbl(c0xflag,""))
+ s itbl("I011",ii)=ix
+ s ii=$s(zw="S":"SPO",zw="P":"SPO",zw="O":"SOP") ; sub constraint
+ s ix=$s(zw="S":"d just(zsub)",1:"d zip1(.tmprtn,zt,zi,zsub)")
+ s itbl("I100",ii)=ix
+ s ii=$s(zw="S":"SPO",zw="P":"SOP",zw="O":"OSP") ; sub + obj constraint
+ s ix=$s(zw="P":"d zip2(.tmprtn,zt,zi,zsub,zobj)",zw="S":"d just(zsub)",zw="O":"d just(zobj)",1:"d just(zobj)")
+ s itbl("I101",ii)=ix
+ s ii=$s(zw="S":"SPO",zw="P":"POS",zw="O":"SPO") ; sub + pred constraint
+ s ix=$s(zw="O":"d zip2(.tmprtn,zt,zi,zsub,zpred)",zw="S":"d just(zsub)",zw="P":"d just(zpred)",1:"d just(zsub)")
+ s itbl("I110",ii)=ix
+ s ii=$s(zw="S":"SPO",zw="P":"POS",zw="O":"OSP") ; sub + pred + obj constraint
+ s ix=$s(zw="O":"d just(zobj)",zw="S":"d just(zsub)",zw="P":"d just(zpred)",1:"d just(zsub)")
+ s itbl("I111",ii)=ix
+ ; end itbl definition
+ ;
+ s zi=$o(itbl(c0xflag,"")) ; find index to use
  s zx=itbl(c0xflag,zi) ; executable instruction to run
- i $g(ngraph)'="" s zi="G"_zi
- w !,zx
+ ;i $g(ngraph)'="" s zi="G"_zi ; this is wrong.. don't do graphs yet
+ w !,c0xflag," ",zw," ",zt," ",zi," ",zx,!
+ ;zwr itbl
  x zx
  k listrtn
  d strings(.listrtn,"tmprtn") ; convert pointer to strings
@@ -267,7 +278,7 @@ jsonout(jout,zary) ;
  d REPLYEND^FMQLJSON("jout")
  q
  ;
-meta(zsub,zpred,zobj) ; function to return meta information
+mask(zsub,zpred,zobj) ; function to return mask information
  ; about the inputs ie I100 for just a subject and no pred or obj
  n zf1,zf2,zf3,zflag
  s zf1=$s($g(zsub)="":0,1:1)
@@ -282,7 +293,7 @@ trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
  ; fary is which triple store (not implemented yet)
  n c0xflag,zi,zx,zt
  s zt=$na(^C0X(101)) ; 
- s c0xflag=$$meta(nsub,npred,nobj) ; get meta flags
+ s c0xflag=$$mask(nsub,npred,nobj) ; get mask flags
  n itbl
  s itbl("I000","SPO")="d do3(.triprtn,zt,zi)"
  s itbl("I001","OSP")="d do2(.triprtn,zt,zi,nobj)"
@@ -332,6 +343,42 @@ do3(dortn,zt,zi) ; have none, looking for three
  . . . s zr=$o(@zt@(zi,zx1,zx2,zx3,""))
  . . . s dortn(zr)=""
  q
+ ;
+IENOF(ZSTRING,FARY) ; EXTRINSIC WHICH RETURNS THE IEN OF ZS IN THE STRINGS FILE
+ I '$D(FARY) D  ;
+ . D INITFARY^C0XF2N("C0XFARY")
+ . S FARY="C0XFARY"
+ N ZIEN
+ I $G(ZSTRING)="" Q "" ; NO STRING
+ S ZIEN=$O(@C0XSN@("B",ZSTRING,""))
+ Q ZIEN
+ ;
+IENOFA(ZOUTARY,INARY,FARY) ; RESOLVE STRINGS TO IEN IN STRINGS FILE 
+ ; RETURNS IN ZOUTARY OF THE FORM ZOUTARY("IEN","VAR",IEN)=""
+ I '$D(FARY) D  ;
+ . D INITFARY^C0XF2N("C0XFARY")
+ . S FARY="C0XFARY"
+ K ZOUTARY ; START WITH CLEAN RESULTS
+ K C0XFDA2 ; USE A SEPARATE FDA FOR THIS
+ I '$D(C0XVOC) D VOCINIT^C0XUTIL
+ N ZINARY 
+ N ZI S ZI=""
+ F  S ZI=$O(INARY(ZI)) Q:ZI=""  D  ;
+ . N ZK
+ . S ZK=$O(INARY(ZI,""))
+ . S ZINARY($$EXT^C0XUTIL(ZI),$$EXT^C0XUTIL(ZK))=""
+ N ZV,ZIEN
+ N ZCNT S ZCNT=0
+ F  S ZI=$O(ZINARY(ZI)) Q:ZI=""  D  ; LOOK FOR MISSING STRINGS
+ . S ZV=$O(ZINARY(ZI,""))
+ . I ZV["^" S ZV=$TR(ZV,"^","|")
+ F  S ZI=$O(ZINARY(ZI)) Q:ZI=""  D  ; NOW GET ALL IENS
+ . S ZV=$O(ZINARY(ZI,""))
+ . I ZV["^" S ZV=$TR(ZV,"^","|")
+ . S ZIEN=$O(@C0XSN@("B",ZV,"")) ; THEY SHOULD BE THERE NOW
+ . I ZIEN="" S ZOUTARY("IEN",ZI)=""
+ . E  S ZOUTARY("IEN",ZI,ZIEN)=""
+ Q
  ;
 output(zwhat,zfname,zdir) ; function to write an array to a host file
  ; if zdir is ommitted, will output to the CCR directory
