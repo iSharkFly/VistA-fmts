@@ -136,15 +136,15 @@ triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  w !,"form not supported: ",form 
  q
  ;
-subjects(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
- d onelist("S") ;subjects
+subjects(listrtn,pred,obj,graph,form,fary) ; return list of subjects
+ d onelist("S",,$g(pred),$g(obj),$g(fary)) ;subjects
  q
  ;
-preds(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
- d onelist("P") ;subjects
+preds(listrtn,sub,obj,graph,form,fary) ; return list of subjects
+ d onelist("P",$g(sub),,$g(obj),$g(fary)) ;subjects
  q
  ;
-objects(listrtn,sub,pred,obj,graph,form,fary) ; return list of subjects
+objects(listrtn,sub,pred,graph,form,fary) ; return list of subjects
  d onelist("O",$g(sub),$g(pred),"",$g(fary)) ;subjects
  q
  ;
