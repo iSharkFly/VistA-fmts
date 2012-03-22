@@ -37,7 +37,7 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XSFN")=172.201 ; TRIPLES STRINGS FILE NUMBER
  S @ZFARY@("C0XTN")=$NA(^C0X(101)) ; TRIPLES GLOBAL NAME
  S @ZFARY@("C0XSN")=$NA(^C0X(201)) ; STRING FILE GLOBAL NAME
- S @ZFARY@("C0XDIR")="/home/glilly/fmts/trunk/samples/smart-rdf-in/"
+ S @ZFARY@("C0XDIR")="/home/glilly/sage/test/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
  S @ZFARY@("REPLYFMT")="JSON"
@@ -234,6 +234,8 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  ; -- first parse the rdf file with the MXML parser
  ;S C0XDOCID=$$PARSE^C0CNHIN(ZRDF,"C0XARRAY") ; PARSE WITH MXML
  S C0XDLC2=$$NOW^XLFDT ; START OF PARSE
+ I @ZRDF@(1)'["<?xml" D  Q  ;
+ . W !,"Not an XML file"
  S C0XDOCID=$$EN^MXMLDOM(ZRDF,"W") ; 
  ;B
  K @ZRDF ; DON'T NEED INPUT BUFFER ANYMORE
@@ -632,11 +634,11 @@ TING(ZRTN,ZGRF,FARY) ; return the iens for graph ZGRF
  Q
  ;  
 SWUPDIE(ZFDA) ; SWITCH BETWEEN UPDIE AND BULKLOAD
- . I $G(BLKLOAD) D  ; bulk load
- . . D BULKLOAD(.ZFDA) ; bulk load the batch
- . E  D  ; no bulk load
- . . D UPDIE(.ZFDA)
- . K ZFDA
+ I $G(BLKLOAD)=1 D  ; bulk load
+ . D BULKLOAD(.ZFDA) ; bulk load the batch
+ E  D  ; no bulk load
+ . D UPDIE(.ZFDA)
+ K ZFDA
  Q
  ; 
 UPDIE(ZFDA) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
