@@ -59,6 +59,7 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("vista")="http://osehra.org/"
  S C0XVOC("vmu")="http://vista.org/mu/"
  S C0XVOC("vq")="http://vista.org/quality/"
+ S C0XVOC("nodeID")="iDPsDPss"
  Q
  ;
 EXT(C0XIN) ; EXTRINSIC WHICH EXPANDS NAMESPACES
