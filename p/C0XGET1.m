@@ -140,6 +140,16 @@ subjects(listrtn,pred,obj,graph,form,fary) ; return list of subjects
  d onelist("S",,$g(pred),$g(obj),$g(fary)) ;subjects
  q
  ;
+subject(pred,obj,graph,form,fary) ; extrinsic which returns the first
+ ; multiple of return from subjects - returns null if more than one
+ ; subjects(.G,sub,pred)
+ ; G("nodeID:1234") ==> "nodeID:1234"
+ n zin,zrtn
+ d subjects(.zin,$g(pred),$g(obj),$g(form),$g(fary))
+ s zrtn=$o(zin(""))
+ i $o(zin(zrtn))'="" s zrtn=""
+ q zrtn
+ ;
 preds(listrtn,sub,obj,graph,form,fary) ; return list of subjects
  d onelist("P",$g(sub),,$g(obj),$g(fary)) ;subjects
  q
@@ -147,6 +157,16 @@ preds(listrtn,sub,obj,graph,form,fary) ; return list of subjects
 objects(listrtn,sub,pred,graph,form,fary) ; return list of subjects
  d onelist("O",$g(sub),$g(pred),"",$g(fary)) ;subjects
  q
+ ;
+object(sub,pred,graph,form,fary) ; extrinsic which returns the first
+ ; multiple of return from objects - returns null if more than one
+ ; objects(.G,sub,pred)
+ ; G("location") ==> "location"
+ n zin,zrtn
+ d objects(.zin,$g(sub),$g(pred),$g(form),$g(fary))
+ s zrtn=$o(zin(""))
+ i $o(zin(zrtn))'="" s zrtn=""
+ q zrtn
  ;
 onelist(zw,sub,pred,obj,fary) ; returns list
  ; zw is S P or O depending on what should be returned
