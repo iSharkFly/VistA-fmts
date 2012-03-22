@@ -450,10 +450,10 @@ output(zwhat,zfname,zdir) ; function to write an array to a host file
 tagText(ztag) ; extrinsic which returns the location of the text
  ; associated with ztag
  n zs,zo
- s zs=$$subject("fmts:tag",ztag)
+ s zs=$$subject("fmts:fileTag",ztag)
  i zs="" d  q  ;
  . w !,"error, tag is either missing or there are more than one ",ztag
- s zo=$$object(zs,"fmts:rdfSource")
+ s zo=$$object(zs,"fmts:fileSource")
  i zo="" d  q  ;
  . w !,"error, tag source not found ",zs
  w !,zo
