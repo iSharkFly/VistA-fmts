@@ -25,6 +25,30 @@ LSSUBJ(RTN,ZSUBJ,C0XFARY) ; LIST NODES WITH SUBJECT ZSUBJ
  D USEFARY^C0XF2N("C0XFARY")
  Q
  ;
+graph(sub,pred,obj,form,fary) ; extrinsic which returns a graph name
+ I '$D(fary) D  ;
+ . S fary="C0XFARY"
+ . D INITFARY^C0XF2N(fary)
+ D USEFARY^C0XF2N(fary)
+ k triplertn ; start with a clean return
+ n zsub,zpred,zobj,zgraph,tmprtn
+ s zsub=$$IENOF($$EXT^C0XUTIL($g(sub)),fary) ; ien of subject
+ s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
+ s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
+ s zgraph=$$IENOF($g(graph),fary) ; ien of graph
+ W !,"s:",zsub," p:",zpred," o:",zobj
+ d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
+ n ztmp
+ d trip(.ztmp,$g(sub),$g(pred),$g(obj),"",$g(fary))
+ n zi,zg,zrtn
+ s zi=$o(tmprtn(""))
+ s zg=$$GET1^DIQ(C0XTFN,zi,.02,"E") ;
+ i zg="" q ""
+ s zrtn=zg
+ i $o(tmprtn(zi))'="" d  
+ . s zrtn=""
+ q zrtn
+ ;
 GRAPHS(RTN,C0XFARY) ; LIST ALL GRAPHS
  ;
  I '$D(C0XFARY) D INITFARY^C0XF2N("C0XFARY")
@@ -264,9 +288,10 @@ strings(zrary,zinary) ; convert pointers to strings
  n zzz s zzz=""
  f  s zzz=$o(@zinary@(zzz)) q:zzz=""  d  ;
  . n zs
- . s zs=$$GET1^DIQ(C0XSFN,zzz_",",.01)
+ . ;s zs=$$GET1^DIQ(C0XSFN,zzz_",",.01)
+ . s zs=$$NSP^C0XUTIL(zzz) ; get namespaced string
  . q:zs=""
- . s zrary(zs)=""
+ . s zrary(zs)="" ; 
  q
  ;
 ien2tary(zrary,zinary) ; zinary is an array of iens passed by name
@@ -421,4 +446,16 @@ output(zwhat,zfname,zdir) ; function to write an array to a host file
  s zout=$$OUTPUT^C0CXPATH(zwhat,zfname,zdir)
  K ^TMP("C0XOUT",$J)
  Q zout
+ ;
+tagText(ztag) ; extrinsic which returns the location of the text
+ ; associated with ztag
+ n zs,zo
+ s zs=$$subject("fmts:tag",ztag)
+ i zs="" d  q  ;
+ . w !,"error, tag is either missing or there are more than one ",ztag
+ s zo=$$object(zs,"fmts:rdfSource")
+ i zo="" d  q  ;
+ . w !,"error, tag source not found ",zs
+ w !,zo
+ q $$WHERETXT^C0XF2N(zo)
  ;
