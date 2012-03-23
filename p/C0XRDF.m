@@ -43,6 +43,8 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  . S ZA=$P(ZPRED,":",1)
  . S ZB=$P(ZPRED,":",2)
  . S ZC=C0XVOC(ZA)
+ . I ZOBJ["nodeID:" D  Q  ;
+ . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:nodeID="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
  . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""">"_$$EXT^C0XUTIL(ZOBJ)_"</"_ZB_">")
  Q
  ;
