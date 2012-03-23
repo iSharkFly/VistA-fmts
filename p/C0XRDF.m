@@ -45,6 +45,11 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  . S ZC=C0XVOC(ZA)
  . I ZOBJ["nodeID:" D  Q  ;
  . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:nodeID="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
+ . S ZOBJ=$$EXT^C0XUTIL(ZOBJ)
+ . I ZOBJ["http" D  Q  ;
+ . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:resource="""_ZOBJ_"""/>")
+ . I $E(ZOBJ,1,1)="/" D  Q  ;
+ . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:resource="""_ZOBJ_"""/>")
  . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""">"_$$EXT^C0XUTIL(ZOBJ)_"</"_ZB_">")
  Q
  ;
