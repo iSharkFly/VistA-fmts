@@ -644,7 +644,7 @@ TING(ZRTN,ZGRF,FARY) ; return the iens for graph ZGRF
  D USEFARY(FARY)
  K ZRTN
  N ZI,ZG S ZI=""
- S ZG=$$IENOF(ZGRF)
+ S ZG=$$IENOF^C0XGET1(ZGRF)
  I ZG="" D  Q  ;
  . W !,"ERROR GRAPH NOT FOUND"
  I '$D(@C0XTN@("G",ZG)) Q  ;
