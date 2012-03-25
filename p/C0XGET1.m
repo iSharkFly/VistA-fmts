@@ -451,10 +451,10 @@ tagText(ztag) ; extrinsic which returns the location of the text
  ; associated with ztag
  n zs,zo
  s zs=$$subject("fmts:fileTag",ztag)
- i zs="" d  q  ;
+ i zs="" d  q "" ;
  . w !,"error, tag is either missing or there are more than one ",ztag
  s zo=$$object(zs,"fmts:fileSource")
- i zo="" d  q  ;
+ i zo="" d  q "" ;
  . w !,"error, tag source not found ",zs
  w !,zo
  q $$WHERETXT^C0XF2N(zo)
