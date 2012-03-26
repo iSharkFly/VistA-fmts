@@ -36,7 +36,7 @@ graph(sub,pred,obj,form,fary) ; extrinsic which returns a graph name
  s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
  s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
  s zgraph=$$IENOF($g(graph),fary) ; ien of graph
- W !,"s:",zsub," p:",zpred," o:",zobj
+ I $G(DEBUG) W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
  n ztmp
  d trip(.ztmp,$g(sub),$g(pred),$g(obj),"",$g(fary))
@@ -150,7 +150,7 @@ triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of predicate
  s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of object
  s zgraph=$$IENOF($g(graph),fary) ; ien of graph
- W !,"s:",zsub," p:",zpred," o:",zobj
+ I $G(DEBUG) W !,"s:",zsub," p:",zpred," o:",zobj
  d trip(.tmprtn,zsub,zpred,zobj,zgraph,fary)
  d ien2tary(.zrary,"tmprtn") ; convert to triples
  ;
@@ -205,7 +205,7 @@ onelist(zw,sub,pred,obj,fary) ; returns list
  s zpred=$$IENOF($$EXT^C0XUTIL($g(pred)),fary) ; ien of pred
  s zobj=$$IENOF($$EXT^C0XUTIL($g(obj)),fary) ; ien of obj
  s zgraph=$$IENOF($g(graph),fary) ; ien of graph
- W !,"s:",zsub," p:",zpred," o:",zobj
+ I $G(DEBUG) W !,"s:",zsub," p:",zpred," o:",zobj
  n c0xflag,zi,zx,zt
  s zt=$na(^C0X(101)) ; 
  s c0xflag=$$mask(zsub,zpred,zobj) ; get mask flags
@@ -239,7 +239,7 @@ onelist(zw,sub,pred,obj,fary) ; returns list
  s zi=$o(itbl(c0xflag,"")) ; find index to use
  s zx=itbl(c0xflag,zi) ; executable instruction to run
  ;i $g(ngraph)'="" s zi="G"_zi ; this is wrong.. don't do graphs yet
- w !,c0xflag," ",zw," ",zt," ",zi," ",zx,!
+ i $g(DEBUG) w !,c0xflag," ",zw," ",zt," ",zi," ",zx,!
  ;zwr itbl
  x zx
  k listrtn
@@ -351,7 +351,7 @@ trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
  s zi=$o(itbl(c0xflag,""))
  s zx=itbl(c0xflag,zi) ; executable instruction to run
  i $g(ngraph)'="" s zi="G"_zi
- w !,zx
+ i $g(DEBUG) w !,zx
  x zx
  q
  ;
@@ -458,4 +458,16 @@ tagText(ztag) ; extrinsic which returns the location of the text
  . w !,"error, tag source not found ",zs
  w !,zo
  q $$WHERETXT^C0XF2N(zo)
+ ;
+tagRoot(ztag) ; extrinsic which returns the root for graphs and subjects
+ ; associated with ztag
+ n zs,zo
+ s zs=$$subject("fmts:fileTag",ztag)
+ i zs="" d  q "" ;
+ . w !,"error, tag is either missing or there are more than one ",ztag
+ s zo=$$object(zs,"fmts:root")
+ i zo="" d  q "" ;
+ . w !,"error, root not found ",zs
+ ;w !,zo
+ q zo
  ;
