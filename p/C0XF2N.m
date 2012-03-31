@@ -37,7 +37,7 @@ INITFARY(ZFARY) ; INITIALIZE FILE NUMBERS AND OTHER USEFUL THINGS
  S @ZFARY@("C0XSFN")=172.201 ; TRIPLES STRINGS FILE NUMBER
  S @ZFARY@("C0XTN")=$NA(^C0X(101)) ; TRIPLES GLOBAL NAME
  S @ZFARY@("C0XSN")=$NA(^C0X(201)) ; STRING FILE GLOBAL NAME
- S @ZFARY@("C0XDIR")="/home/glilly/sage/test/"
+ S @ZFARY@("C0XDIR")="/home/glilly/fmts/trunk/samples/smart-new/"
  S @ZFARY@("BLKLOAD")=1 ; this file supports block load
  S @ZFARY@("FMTSSTYLE")="F2N" ; fileman style
  S @ZFARY@("REPLYFMT")="JSON"
@@ -287,9 +287,11 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  S C0XTYPE("owl:Ontology")=1
  S C0XTYPE("owl:Class")=1
  S C0XTYPE("rdfs:subClassOf")=1
+ S C0XTYPE("rdf:RDF")=1
  S ZI=$O(@ZDOM@(1,"C",""))
- I '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  Q  ; not an rdf file
- . W !,"Error. Not an RDF file. Cannot process."
+ I '$G(C0XTYPE(@ZDOM@(1,"C",ZI))) D  ;Q  ; not an rdf file
+ . W !,"Unusual RDF file ",@ZDOM@(1,"C",ZI)
+ . ;W !,"Error. Not an RDF file. Cannot process."
  . D SHOW(1)
  ;
  ; -- now process the rdf description children

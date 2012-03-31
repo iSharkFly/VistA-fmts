@@ -63,6 +63,7 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("fmts")="http://glilly.net/fmts#"
  S C0XVOC("oro")="http://oro.com/vista/sage" ;change to get URL from system
  S C0XVOC("sage")="http://oro.com/sage/schema#"
+ S C0XVOC("v")="http://www.w3.org/2006/vcard/ns#"
  Q
  ;
 EXT(C0XIN) ; EXTRINSIC WHICH EXPANDS NAMESPACES
