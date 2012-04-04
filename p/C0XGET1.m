@@ -108,8 +108,8 @@ qparse(qrtn,zquery) ; parses the query
  q
  ;
 getGraph(zrtn,zgrf,form) ; get all triples in graph zgrf
- ; forms planned: "rdf" "json" "array" "turtle" "triples"
- ; forms supported: "rdf" "json" "array"
+ ; forms planned: "rdf" "json" "array" "turtle" "triples" "raw"
+ ; forms supported: "rdf" "json" "array" "raw"
  I '$D(form) S form="rdf"
  N ZIENS,ZTRIP
  D TING^C0XF2N(.ZIENS,zgrf)
@@ -118,6 +118,7 @@ getGraph(zrtn,zgrf,form) ; get all triples in graph zgrf
  I form="json" d jsonout(.zrtn,.ZTRIP) q  ; what follows is else
  i form="rdf" d rdfout^C0XRDF(.zrtn,.ZTRIP) q  ;
  i form="array" d arrayout^C0XGET1(.zrtn,.ZTRIP) q  ;
+ i form="raw" d rawout^C0XGET1(.zrtn,.ZTRIP) q  ;
  W !,"Form not supported: ",form
  Q
  ;
@@ -156,7 +157,8 @@ triples(triplertn,sub,pred,obj,graph,form,fary) ; returns triples
  ;
  i form="json" d jsonout(.triplertn,.zrary) q  ; what follows is 'else'
  i form="rdf" d rdfout^C0XRDF(.triplertn,.zrary) q  ;
- i form="array" d arrayout(.triplertn,.zrary) q ;
+ i form="array" d arrayout(.triplertn,.zrary) q  ;
+ i form="raw" d rawout(.triplertn,.zrary) q  ;
  w !,"form not supported: ",form 
  q
  ;
@@ -280,6 +282,17 @@ arrayout(rtn,zary) ; output an array of triples
  . f  s zzz=$o(zary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
  . . s rtn(zcnt)=zrsub_"^"_zzz
  . . s zcnt=zcnt+1
+ q
+ ;
+rawout(rtn,zary) ; output a mumps array of triples
+ ;
+ s zrsub=""
+ ;s zcnt=1
+ f  s zrsub=$o(zary(zrsub)) q:zrsub=""  d  ; organized by subject
+ . s zzz=""
+ . f  s zzz=$o(zary(zrsub,zzz)) q:zzz=""  d  ; pred and obj
+ . . s rtn(zrsub,$p(zzz,"^",1))=$p(zzz,"^",2)
+ . . ;s zcnt=zcnt+1
  q
  ;
 strings(zrary,zinary) ; convert pointers to strings

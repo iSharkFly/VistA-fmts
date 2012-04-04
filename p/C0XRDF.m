@@ -42,6 +42,8 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  . N ZA,ZB,ZC
  . S ZA=$P(ZPRED,":",1)
  . S ZB=$P(ZPRED,":",2)
+ . I $E(ZB,1,1)="/" D  ;
+ . . S ZB=$P(ZB,"/",2) ; handling gpltest:/note situations
  . S ZC=C0XVOC(ZA)
  . I ZOBJ["nodeID:" D  Q  ;
  . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:nodeID="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
