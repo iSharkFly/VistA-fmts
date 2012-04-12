@@ -276,9 +276,10 @@ PROCESS(ZRTN,ZRDF,ZGRF,ZMETA,FARY) ; PROCESS AN INCOMING RDF FILE
  F  S ZI=$O(@ZDOM@(1,"A",ZI)) Q:ZI=""  D  ; FOR EACH xmlns
  . S ZVOC=$P(ZI,"xmlns:",2)
  . I ZVOC'="" S C0XVOC(ZVOC)=$G(@ZDOM@(1,"A",ZI))
- W !,"VOCABS:"
- N ZZ S ZZ=""
- F  S ZZ=$O(C0XVOC(ZZ)) Q:ZZ=""  W !,ZZ,":",C0XVOC(ZZ)
+ I $D(DEBUG) D  ;
+ . W !,"VOCABS:"
+ . N ZZ S ZZ=""
+ . F  S ZZ=$O(C0XVOC(ZZ)) Q:ZZ=""  W !,ZZ,":",C0XVOC(ZZ)
  ;
  ; -- look for children called rdf:Description. quit if none. not an rdf file
  ;
@@ -541,7 +542,7 @@ BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
  ; -- ^C0X(101,0) and adding the count of entries to piece 2 and 3
  ; -- then unlocking to minimize the duration of the lock
  ;
- W !,"USING BULKLOAD"
+ I $D(DEBUG) W !,"USING BULKLOAD"
  I '$D(ZBFDA) Q  ; EMPTY FDA
  I $O(ZBFDA(""))'=172.101 Q  ; WRONG FILE
  N ZCNT,ZP3,ZP4
@@ -551,7 +552,7 @@ BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
  . W !,"ERROR IN BULK LOAD - INVALID NODE COUNT"
  . B
  ; -- lock the zero node and reserve a block of iens to insert
- W !,"LOCKING ZERO NODE"
+ I $D(DEBUG) W !,"LOCKING ZERO NODE"
  LOCK +^C0X(101,0)
  S ZP3=$P(^C0X(101,0),U,3)
  S ZP4=$P(^C0X(101,0),U,4)
@@ -560,8 +561,8 @@ BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
  LOCK -^C0X(101,0)
  N ZI,ZN,ZG,ZS,ZP,ZO,ZIEN,ZBASE
  S ZBASE=ZP3 ; the last ien in the file
- W !,"ZERO NODE UNLOCKED, IENS RESERVED=",ZCNT
- W !,$$NOW^XLFDT
+ I $D(DEBUG) W !,"ZERO NODE UNLOCKED, IENS RESERVED=",ZCNT
+ I $D(DEBUG) W !,$$NOW^XLFDT
  S ZI=""
  F  S ZI=$O(ZBFDA(172.101,ZI)) Q:ZI=""  D  ;
  . S ZN=$G(ZBFDA(172.101,ZI,.01)) ; node name
