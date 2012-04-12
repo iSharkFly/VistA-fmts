@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/31a17799-766e-4a95-91ea-3d9b39249193">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew993"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew993">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startDate xmlns="http://smartplatforms.org/terms#">2007-04-21</startDate>
+</rdf:Description>
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/31a17799-766e-4a95-91ea-3d9b39249193">
+	<narrativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew994"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew994">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#NarrativeResult"/>
+	<value xmlns="http://smartplatforms.org/terms#">Normal</value>
+</rdf:Description>
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/31a17799-766e-4a95-91ea-3d9b39249193">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345"/>
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew995"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew995">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/38478-4"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://loinc.org/codes/38478-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Biotinidase DBS Ql</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://loinc.org/codes/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">38478-4</identifier>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew995">
+	<title xmlns="http://purl.org/dc/terms/">Biotinidase DBS Ql</title>
+</rdf:Description>
+<rdf:Description rdf:about="http://loinc.org/codes/38478-4">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/LOINC"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/4b1481c8-cd9a-45db-abb5-426c7adc4f54">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#LabResult"/>
+	<specimenCollected xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew997"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew997">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Attribution"/>
+	<startDate xmlns="http://smartplatforms.org/terms#">2007-09-08</startDate>
+</rdf:Description>
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/4b1481c8-cd9a-45db-abb5-426c7adc4f54">
+	<narrativeResult xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew998"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew998">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#NarrativeResult"/>
+	<value xmlns="http://smartplatforms.org/terms#">Normal</value>
+</rdf:Description>
+<rdf:Description rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/lab_results/4b1481c8-cd9a-45db-abb5-426c7adc4f54">
+	<belongsTo xmlns="http://smartplatforms.org/terms#" rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345"/>
+	<labName xmlns="http://smartplatforms.org/terms#" rdf:nodeID="qqWZZIew999"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew999">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#CodedValue"/>
+	<code xmlns="http://smartplatforms.org/terms#" rdf:resource="http://loinc.org/codes/29571-7"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://loinc.org/codes/29571-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
+	<title xmlns="http://purl.org/dc/terms/">Phe DBS Ql</title>
+	<system xmlns="http://smartplatforms.org/terms#">http://loinc.org/codes/</system>
+	<identifier xmlns="http://purl.org/dc/terms/">29571-7</identifier>
+</rdf:Description>
+<rdf:Description rdf:nodeID="qqWZZIew999">
+	<title xmlns="http://purl.org/dc/terms/">Phe DBS Ql</title>
+</rdf:Description>
+<rdf:Description rdf:about="http://loinc.org/codes/29571-7">
+	<rdf:type rdf:resource="http://smartplatforms.org/terms/codes/LOINC"/>
+</rdf:Description>
+
+</rdf:RDF>
