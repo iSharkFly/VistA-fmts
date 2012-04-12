@@ -526,7 +526,7 @@ ADDINN(ZG,ZS,ZARY) ; ADD IF NOT NULL
  F  S ZI=$O(ZARY(ZI)) Q:ZI=""  D  ;
  . I ZARY(ZI)'="" D  ;
  . . D ADD^C0XF2N(ZG,ZS,ZI,ZARY(ZI))
- . . W !,"ADDING",ZI," ",ZARY(ZI)
+ . . I $D(DEBUG) W !,"ADDING",ZI," ",ZARY(ZI)
  ;ZWR ZARY
  Q
  ;
