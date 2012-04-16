@@ -644,7 +644,7 @@ DELGRAPH(ZGRF,FARY) ; delete a graph from the triplestore
  N ZGRAPH
  D TING(.ZGRAPH,ZGRF,FARY)
  I '$D(ZGRAPH) D  Q  ;
- . W !,"NO TRIPLES IN GRAPH"
+ . I $D(DEBUG) W !,"NO TRIPLES IN GRAPH"
  K C0XFDA
  N ZI S ZI=""
  F  S ZI=$O(ZGRAPH(ZI)) Q:ZI=""  D  ;
@@ -662,7 +662,7 @@ TING(ZRTN,ZGRF,FARY) ; return the iens for graph ZGRF
  N ZI,ZG S ZI=""
  S ZG=$$IENOF^C0XGET1(ZGRF)
  I ZG="" D  Q  ;
- . W !,"ERROR GRAPH NOT FOUND"
+ . I $D(DEBUG) W !,"ERROR GRAPH NOT FOUND"
  I '$D(@C0XTN@("G",ZG)) Q  ;
  F  S ZI=$O(@C0XTN@("G",ZG,ZI)) Q:ZI=""  D  ;
  . S ZRTN(ZI)=""
