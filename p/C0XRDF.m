@@ -44,8 +44,7 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  . S ZB=$P(ZPRED,":",2)
  . I $E(ZB,1,1)="/" D  ;
  . . S ZB=$P(ZB,"/",2) ; handling gpltest:/note situations
- . S ZC=$G(C0XVOC(ZA))
- . I ZC="" S ZC=ZA
+ . S ZC=C0XVOC(ZA)
  . I ZOBJ["nodeID:" D  Q  ;
  . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:nodeID="""_$$EXT^C0XUTIL(ZOBJ)_"""/>")
  . S ZOBJ=$$EXT^C0XUTIL(ZOBJ)
@@ -54,10 +53,6 @@ DASSERT(ZARY,ZPRED,ZOBJ)
  . I $E(ZOBJ,1,1)="/" D  Q  ;
  . . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""" rdf:resource="""_ZOBJ_"""/>")
  . D ADD(ZARY,"<"_ZB_" xmlns="""_ZC_""">"_$$EXT^C0XUTIL(ZOBJ)_"</"_ZB_">")
- I ZPRED'[":" D  Q  ;
- . I ZPRED["." S ZPRED=$TR(ZPRED,".","-")
- . I ZPRED["@" S ZPRED=$TR(ZPRED,"@","_")
- . D ADD(ZARY,"<"_ZPRED_">"_$$EXT^C0XUTIL(ZOBJ)_"</"_ZPRED_">")
  Q
  ;
 DICTEND(ZARY)

@@ -56,7 +56,7 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("cg")="http://datasets.caregraf.org/"
  S C0XVOC("mv")="http://metavista.name/foundation#"
  S C0XVOC("rdfs")="http://www.w3.org/2000/01/rdf-schema#"
- S C0XVOC("vista")="http://osehra.org/"
+ S C0XVOC("vistaSmart")="https://smart2.vistaewd.net/vista/smart/records/"
  S C0XVOC("vmu")="http://vista.org/mu/"
  S C0XVOC("vq")="http://vista.org/quality/"
  S C0XVOC("nodeID")="iDPsDPss"
