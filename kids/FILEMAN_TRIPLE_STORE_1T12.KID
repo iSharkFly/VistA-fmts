@@ -1,149 +1,159 @@
-KIDS Distribution saved on Sep 26, 2012@04:22:32
-fixes for smart snomed lookup
-**KIDS**:C0X*1.0*0^
+KIDS Distribution saved on Sep 26, 2012@11:18:36
+Fileman Triple Store
+**KIDS**:FILEMAN TRIPLE STORE 1.0^
 
 **INSTALL NAME**
-C0X*1.0*0
-"BLD",7921,0)
-C0X*1.0*0^^0^3120926^n
-"BLD",7921,4,0)
+FILEMAN TRIPLE STORE 1.0
+"BLD",8490,0)
+FILEMAN TRIPLE STORE 1.0^FILEMAN TRIPLE STORE^0^3120926^y
+"BLD",8490,1,0)
+^^1^1^3120926^
+"BLD",8490,1,1,0)
+Version 1.0
+"BLD",8490,4,0)
 ^9.64PA^172.201^2
-"BLD",7921,4,172.101,0)
+"BLD",8490,4,172.101,0)
 172.101
-"BLD",7921,4,172.101,222)
+"BLD",8490,4,172.101,222)
 y^y^f^^^^n
-"BLD",7921,4,172.201,0)
+"BLD",8490,4,172.201,0)
 172.201
-"BLD",7921,4,172.201,222)
+"BLD",8490,4,172.201,222)
 y^y^f^^^^n
-"BLD",7921,4,"B",172.101,172.101)
+"BLD",8490,4,"B",172.101,172.101)
 
-"BLD",7921,4,"B",172.201,172.201)
+"BLD",8490,4,"B",172.201,172.201)
 
-"BLD",7921,6.3)
-10
-"BLD",7921,"KRN",0)
+"BLD",8490,6.3)
+11
+"BLD",8490,"ABPKG")
+n
+"BLD",8490,"KRN",0)
 ^9.67PA^779.2^20
-"BLD",7921,"KRN",.4,0)
+"BLD",8490,"KRN",.4,0)
 .4
-"BLD",7921,"KRN",.4,"NM",0)
+"BLD",8490,"KRN",.4,"NM",0)
 ^9.68A^1^1
-"BLD",7921,"KRN",.4,"NM",1,0)
+"BLD",8490,"KRN",.4,"NM",1,0)
 C0X PRINT GRAPH    FILE #172.101^172.101^0
-"BLD",7921,"KRN",.4,"NM","B","C0X PRINT GRAPH    FILE #172.101",1)
+"BLD",8490,"KRN",.4,"NM","B","C0X PRINT GRAPH    FILE #172.101",1)
 
-"BLD",7921,"KRN",.401,0)
+"BLD",8490,"KRN",.401,0)
 .401
-"BLD",7921,"KRN",.402,0)
+"BLD",8490,"KRN",.402,0)
 .402
-"BLD",7921,"KRN",.403,0)
+"BLD",8490,"KRN",.403,0)
 .403
-"BLD",7921,"KRN",.5,0)
+"BLD",8490,"KRN",.5,0)
 .5
-"BLD",7921,"KRN",.84,0)
+"BLD",8490,"KRN",.84,0)
 .84
-"BLD",7921,"KRN",3.6,0)
+"BLD",8490,"KRN",3.6,0)
 3.6
-"BLD",7921,"KRN",3.8,0)
+"BLD",8490,"KRN",3.8,0)
 3.8
-"BLD",7921,"KRN",9.2,0)
+"BLD",8490,"KRN",9.2,0)
 9.2
-"BLD",7921,"KRN",9.8,0)
+"BLD",8490,"KRN",9.8,0)
 9.8
-"BLD",7921,"KRN",9.8,"NM",0)
+"BLD",8490,"KRN",9.8,"NM",0)
 ^9.68A^8^8
-"BLD",7921,"KRN",9.8,"NM",1,0)
+"BLD",8490,"KRN",9.8,"NM",1,0)
 C0XMAIN^^0^B115393527
-"BLD",7921,"KRN",9.8,"NM",2,0)
+"BLD",8490,"KRN",9.8,"NM",2,0)
 C0XF2N^^0^B367797666
-"BLD",7921,"KRN",9.8,"NM",3,0)
+"BLD",8490,"KRN",9.8,"NM",3,0)
 C0XTEST^^0^B14490662
-"BLD",7921,"KRN",9.8,"NM",4,0)
+"BLD",8490,"KRN",9.8,"NM",4,0)
 C0XINIT^^0^B21176787
-"BLD",7921,"KRN",9.8,"NM",5,0)
+"BLD",8490,"KRN",9.8,"NM",5,0)
 C0XUTIL^^0^B11676522
-"BLD",7921,"KRN",9.8,"NM",6,0)
-C0XTKSB^^0^B17580555
-"BLD",7921,"KRN",9.8,"NM",7,0)
-C0XRDF^^0^B4392
-"BLD",7921,"KRN",9.8,"NM",8,0)
-C0XGET1^^0^B4808799
-"BLD",7921,"KRN",9.8,"NM","B","C0XF2N",2)
+"BLD",8490,"KRN",9.8,"NM",6,0)
+C0XTKSB^^0^B17753558
+"BLD",8490,"KRN",9.8,"NM",7,0)
+C0XRDF^^0^B9306574
+"BLD",8490,"KRN",9.8,"NM",8,0)
+C0XGET1^^0^B237497267
+"BLD",8490,"KRN",9.8,"NM","B","C0XF2N",2)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XGET1",8)
+"BLD",8490,"KRN",9.8,"NM","B","C0XGET1",8)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XINIT",4)
+"BLD",8490,"KRN",9.8,"NM","B","C0XINIT",4)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XMAIN",1)
+"BLD",8490,"KRN",9.8,"NM","B","C0XMAIN",1)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XRDF",7)
+"BLD",8490,"KRN",9.8,"NM","B","C0XRDF",7)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XTEST",3)
+"BLD",8490,"KRN",9.8,"NM","B","C0XTEST",3)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XTKSB",6)
+"BLD",8490,"KRN",9.8,"NM","B","C0XTKSB",6)
 
-"BLD",7921,"KRN",9.8,"NM","B","C0XUTIL",5)
+"BLD",8490,"KRN",9.8,"NM","B","C0XUTIL",5)
 
-"BLD",7921,"KRN",19,0)
+"BLD",8490,"KRN",19,0)
 19
-"BLD",7921,"KRN",19.1,0)
+"BLD",8490,"KRN",19.1,0)
 19.1
-"BLD",7921,"KRN",101,0)
+"BLD",8490,"KRN",101,0)
 101
-"BLD",7921,"KRN",409.61,0)
+"BLD",8490,"KRN",409.61,0)
 409.61
-"BLD",7921,"KRN",771,0)
+"BLD",8490,"KRN",771,0)
 771
-"BLD",7921,"KRN",779.2,0)
+"BLD",8490,"KRN",779.2,0)
 779.2
-"BLD",7921,"KRN",870,0)
+"BLD",8490,"KRN",870,0)
 870
-"BLD",7921,"KRN",8989.51,0)
+"BLD",8490,"KRN",8989.51,0)
 8989.51
-"BLD",7921,"KRN",8989.52,0)
+"BLD",8490,"KRN",8989.52,0)
 8989.52
-"BLD",7921,"KRN",8994,0)
+"BLD",8490,"KRN",8994,0)
 8994
-"BLD",7921,"KRN","B",.4,.4)
+"BLD",8490,"KRN","B",.4,.4)
 
-"BLD",7921,"KRN","B",.401,.401)
+"BLD",8490,"KRN","B",.401,.401)
 
-"BLD",7921,"KRN","B",.402,.402)
+"BLD",8490,"KRN","B",.402,.402)
 
-"BLD",7921,"KRN","B",.403,.403)
+"BLD",8490,"KRN","B",.403,.403)
 
-"BLD",7921,"KRN","B",.5,.5)
+"BLD",8490,"KRN","B",.5,.5)
 
-"BLD",7921,"KRN","B",.84,.84)
+"BLD",8490,"KRN","B",.84,.84)
 
-"BLD",7921,"KRN","B",3.6,3.6)
+"BLD",8490,"KRN","B",3.6,3.6)
 
-"BLD",7921,"KRN","B",3.8,3.8)
+"BLD",8490,"KRN","B",3.8,3.8)
 
-"BLD",7921,"KRN","B",9.2,9.2)
+"BLD",8490,"KRN","B",9.2,9.2)
 
-"BLD",7921,"KRN","B",9.8,9.8)
+"BLD",8490,"KRN","B",9.8,9.8)
 
-"BLD",7921,"KRN","B",19,19)
+"BLD",8490,"KRN","B",19,19)
 
-"BLD",7921,"KRN","B",19.1,19.1)
+"BLD",8490,"KRN","B",19.1,19.1)
 
-"BLD",7921,"KRN","B",101,101)
+"BLD",8490,"KRN","B",101,101)
 
-"BLD",7921,"KRN","B",409.61,409.61)
+"BLD",8490,"KRN","B",409.61,409.61)
 
-"BLD",7921,"KRN","B",771,771)
+"BLD",8490,"KRN","B",771,771)
 
-"BLD",7921,"KRN","B",779.2,779.2)
+"BLD",8490,"KRN","B",779.2,779.2)
 
-"BLD",7921,"KRN","B",870,870)
+"BLD",8490,"KRN","B",870,870)
 
-"BLD",7921,"KRN","B",8989.51,8989.51)
+"BLD",8490,"KRN","B",8989.51,8989.51)
 
-"BLD",7921,"KRN","B",8989.52,8989.52)
+"BLD",8490,"KRN","B",8989.52,8989.52)
 
-"BLD",7921,"KRN","B",8994,8994)
+"BLD",8490,"KRN","B",8994,8994)
 
+"BLD",8490,"QUES",0)
+^9.62^^
+"BLD",8490,"REQB",0)
+^9.611^^
 "FIA",172.101)
 C0X TRIPLE
 "FIA",172.101,0)
@@ -158,6 +168,8 @@ y^y^f^^^^n
 
 "FIA",172.101,0,"RLRO")
 
+"FIA",172.101,0,"VR")
+1.0^FILEMAN TRIPLE STORE
 "FIA",172.101,172.101)
 0
 "FIA",172.101,172.1011)
@@ -176,6 +188,8 @@ y^y^f^^^^n
 
 "FIA",172.201,0,"RLRO")
 
+"FIA",172.201,0,"VR")
+1.0^FILEMAN TRIPLE STORE
 "FIA",172.201,172.201)
 0
 "FIA",172.201,172.2011)
@@ -398,13 +412,13 @@ K ^C0X(201,"B")
 ^.114IA^1^1
 "IX",172.201,172.201,"B",11.1,1,0)
 1^F^172.201^.01^240^1^F
-"KRN",.4,1511,-1)
+"KRN",.4,1513,-1)
 0^1
-"KRN",.4,1511,0)
+"KRN",.4,1513,0)
 C0X PRINT GRAPH^3111207.1727^@^172.101^^@^3120605
-"KRN",.4,1511,"F",1)
+"KRN",.4,1513,"F",1)
 .03;W25;S~.04;C28;W25~.05;C54;W24~
-"KRN",.4,1511,"H")
+"KRN",.4,1513,"H")
 C0X TRIPLE LIST
 "MBREQ")
 0
@@ -412,6 +426,24 @@ C0X TRIPLE LIST
 .4;5;;;EDEOUT^DIFROMSO(.4,DA,"",XPDA);FPRE^DIFROMSI(.4,"",XPDA);EPRE^DIFROMSI(.4,DA,$E("N",$G(XPDNEW)),XPDA,"",OLDA);;EPOST^DIFROMSI(.4,DA,"",XPDA);DEL^DIFROMSK(.4,"",%)
 "ORD",5,.4,0)
 PRINT TEMPLATE
+"PKG",219,-1)
+1^1
+"PKG",219,0)
+FILEMAN TRIPLE STORE^C0X^Triple Store based on Fileman
+"PKG",219,20,0)
+^9.402P^^
+"PKG",219,22,0)
+^9.49I^1^1
+"PKG",219,22,1,0)
+1.0^3120926
+"PKG",219,22,1,1,0)
+^^1^1^3120926
+"PKG",219,22,1,1,1,0)
+Version 1.0
+"PKG",219,"DEV")
+GPL/WV
+"PKG",219,"VERSION")
+1.0
 "QUES","XPF1",0)
 Y
 "QUES","XPF1","??")
@@ -489,7 +521,7 @@ D XPZ2^XPDIQ
 "RTN","C0XF2N",1,0)
 C0XF2N ; GPL - Fileman Triples entry point routine ;10/13/11  17:05
 "RTN","C0XF2N",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XF2N",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XF2N",4,0)
@@ -1885,11 +1917,11 @@ UPDIE(ZFDA) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
 "RTN","C0XF2N",699,0)
  ;
 "RTN","C0XGET1")
-0^8^B4808799
+0^8^B237497267
 "RTN","C0XGET1",1,0)
 C0XGET1 ; GPL - Fileman Triples entry point routine ;1/12/12  17:05
 "RTN","C0XGET1",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XGET1",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XGET1",4,0)
@@ -2015,7 +2047,7 @@ STR(ZIN,C0XFARY) ; EXTRINSIC RETURNS A STRING
 "RTN","C0XGET1",64,0)
  ;
 "RTN","C0XGET1",65,0)
-SPO(ZRTN,ZNODE,C0XFARY)
+SPO(ZRTN,ZNODE,C0XFARY) 
 "RTN","C0XGET1",66,0)
  I '$D(C0XFARY) D INITFARY^C0XF2N("C0XFARY")
 "RTN","C0XGET1",67,0)
@@ -2627,7 +2659,7 @@ trip(triprtn,nsub,npred,nobj,ngraph,fary) ; returns triples iens
 "RTN","C0XGET1",370,0)
  ;
 "RTN","C0XGET1",371,0)
-do0(dortn,zt,zi,z1,z2,z3)
+do0(dortn,zt,zi,z1,z2,z3) 
 "RTN","C0XGET1",372,0)
  ; looking for only one triple
 "RTN","C0XGET1",373,0)
@@ -2865,7 +2897,7 @@ tagRoot(ztag) ; extrinsic which returns the root for graphs and subjects
 "RTN","C0XINIT",1,0)
 C0XINIT ; GPL - Fileman Triples initialization routine ;10/13/11  17:05
 "RTN","C0XINIT",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XINIT",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XINIT",4,0)
@@ -3101,7 +3133,7 @@ INIT ; INITIALIZE THE TRIPLE STORE - THIS DELETES THE GLOBALS AND
 "RTN","C0XMAIN",1,0)
 C0XMAIN ; GPL - Fileman Triples entry point routine ;10/13/11  17:05
 "RTN","C0XMAIN",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XMAIN",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XMAIN",4,0)
@@ -3853,11 +3885,11 @@ UPDIE(ZFDA) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
 "RTN","C0XMAIN",377,0)
  ;
 "RTN","C0XRDF")
-0^7^B4392
+0^7^B9306574
 "RTN","C0XRDF",1,0)
 C0XRDF ; GPL - Fileman Triples RDF out  ;11/07/11  17:05
 "RTN","C0XRDF",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XRDF",3,0)
  ;Copyright 2012 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XRDF",4,0)
@@ -3897,7 +3929,7 @@ C0XRDF ; GPL - Fileman Triples RDF out  ;11/07/11  17:05
 "RTN","C0XRDF",21,0)
  ;
 "RTN","C0XRDF",22,0)
-REPLYSTART(ZARY);
+REPLYSTART(ZARY); 
 "RTN","C0XRDF",23,0)
  D ADD(ZARY,"<?xml version=""1.0"" encoding=""UTF-8""?>")
 "RTN","C0XRDF",24,0)
@@ -3907,13 +3939,13 @@ REPLYSTART(ZARY);
 "RTN","C0XRDF",26,0)
  ;
 "RTN","C0XRDF",27,0)
-LISTSTART(ZARY,ZNAM)
+LISTSTART(ZARY,ZNAM) 
 "RTN","C0XRDF",28,0)
  Q
 "RTN","C0XRDF",29,0)
  ;
 "RTN","C0XRDF",30,0)
-DICTSTART(ZARY,ZSUB)
+DICTSTART(ZARY,ZSUB) 
 "RTN","C0XRDF",31,0)
  I ZSUB["http" D  Q  ;
 "RTN","C0XRDF",32,0)
@@ -3929,7 +3961,7 @@ DICTSTART(ZARY,ZSUB)
 "RTN","C0XRDF",37,0)
  ;
 "RTN","C0XRDF",38,0)
-DASSERT(ZARY,ZPRED,ZOBJ)
+DASSERT(ZARY,ZPRED,ZOBJ) 
 "RTN","C0XRDF",39,0)
  I ZPRED[":" D  Q  ;
 "RTN","C0XRDF",40,0)
@@ -3969,7 +4001,7 @@ DASSERT(ZARY,ZPRED,ZOBJ)
 "RTN","C0XRDF",57,0)
  ;
 "RTN","C0XRDF",58,0)
-DICTEND(ZARY)
+DICTEND(ZARY) 
 "RTN","C0XRDF",59,0)
  D ADD(ZARY,"</rdf:Description>")
 "RTN","C0XRDF",60,0)
@@ -3977,13 +4009,13 @@ DICTEND(ZARY)
 "RTN","C0XRDF",61,0)
  ;
 "RTN","C0XRDF",62,0)
-LISTEND(ZARY)
+LISTEND(ZARY) 
 "RTN","C0XRDF",63,0)
  Q
 "RTN","C0XRDF",64,0)
  ;
 "RTN","C0XRDF",65,0)
-REPLYEND(ZARY)
+REPLYEND(ZARY) 
 "RTN","C0XRDF",66,0)
  D ADD(ZARY,"</rdf:RDF>")
 "RTN","C0XRDF",67,0)
@@ -3991,7 +4023,7 @@ REPLYEND(ZARY)
 "RTN","C0XRDF",68,0)
  ;
 "RTN","C0XRDF",69,0)
-ADD(ZARY,ZELE)
+ADD(ZARY,ZELE) 
 "RTN","C0XRDF",70,0)
  N ZI
 "RTN","C0XRDF",71,0)
@@ -4037,7 +4069,7 @@ rdfout(rdfout,zary) ;
 "RTN","C0XTEST",1,0)
 C0XTEST ; GPL - Fileman Triples bulk load tester ;11/6/11  17:05
 "RTN","C0XTEST",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XTEST",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XTEST",4,0)
@@ -4285,275 +4317,277 @@ BLKERR ;
 "RTN","C0XTEST",125,0)
  ;
 "RTN","C0XTKSB")
-0^6^B17580555
+0^6^B17753558
 "RTN","C0XTKSB",1,0)
 C0XTESTKSB ; GPL - Fileman Triples bulk load tester ;11/6/11  17:05
 "RTN","C0XTKSB",2,0)
- ; KSB - modified to fix a minor bug and to use;;;;;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XTKSB",3,0)
- ;       high resolution time if routines available ; 11/19/11 1410 EST
+ ; KSB - modified to fix a minor bug and to use;;;;;Build 10
 "RTN","C0XTKSB",4,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 1
+ ;       high resolution time if routines available ; 11/19/11 1410 EST
 "RTN","C0XTKSB",5,0)
- ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
+ ;;0.1;C0X;nopatch;noreleasedate;Build 1
 "RTN","C0XTKSB",6,0)
- ;General Public License See attached copy of the License.
+ ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XTKSB",7,0)
- ;
+ ;General Public License See attached copy of the License.
 "RTN","C0XTKSB",8,0)
- ;This program is free software; you can redistribute it and/or modify
+ ;
 "RTN","C0XTKSB",9,0)
- ;it under the terms of the GNU General Public License as published by
+ ;This program is free software; you can redistribute it and/or modify
 "RTN","C0XTKSB",10,0)
- ;the Free Software Foundation; either version 2 of the License, or
+ ;it under the terms of the GNU General Public License as published by
 "RTN","C0XTKSB",11,0)
- ;(at your option) any later version.
+ ;the Free Software Foundation; either version 2 of the License, or
 "RTN","C0XTKSB",12,0)
- ;
+ ;(at your option) any later version.
 "RTN","C0XTKSB",13,0)
- ;This program is distributed in the hope that it will be useful,
+ ;
 "RTN","C0XTKSB",14,0)
- ;but WITHOUT ANY WARRANTY; without even the implied warranty of
+ ;This program is distributed in the hope that it will be useful,
 "RTN","C0XTKSB",15,0)
- ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ ;but WITHOUT ANY WARRANTY; without even the implied warranty of
 "RTN","C0XTKSB",16,0)
- ;GNU General Public License for more details.
+ ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 "RTN","C0XTKSB",17,0)
- ;
+ ;GNU General Public License for more details.
 "RTN","C0XTKSB",18,0)
- ;You should have received a copy of the GNU General Public License along
+ ;
 "RTN","C0XTKSB",19,0)
- ;with this program; if not, write to the Free Software Foundation, Inc.,
+ ;You should have received a copy of the GNU General Public License along
 "RTN","C0XTKSB",20,0)
- ;51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ ;with this program; if not, write to the Free Software Foundation, Inc.,
 "RTN","C0XTKSB",21,0)
- ;
+ ;51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 "RTN","C0XTKSB",22,0)
- Q
+ ;
 "RTN","C0XTKSB",23,0)
- ;
+ Q
 "RTN","C0XTKSB",24,0)
-EN ; run the test
+ ;
 "RTN","C0XTKSB",25,0)
- ;
+EN ; run the test
 "RTN","C0XTKSB",26,0)
- k C0XFDA ; clear the node variable
+ ;
 "RTN","C0XTKSB",27,0)
- s U="^"  ; initialization - Bhaskar 20111119
+ k C0XFDA ; clear the node variable
 "RTN","C0XTKSB",28,0)
- i '$d(^C0X(101,0)) d  ; global doesn't exist
+ s U="^"  ; initialization - Bhaskar 20111119
 "RTN","C0XTKSB",29,0)
- . s ^C0X(101,0)="C0X TRIPLE^172.101^1^1"
+ i '$d(^C0X(101,0)) d  ; global doesn't exist
 "RTN","C0XTKSB",30,0)
- n zg
+ . s ^C0X(101,0)="C0X TRIPLE^172.101^1^1"
 "RTN","C0XTKSB",31,0)
- S zg="_:G"_$$LKY9 ; all nodes are in the same graph
+ n zg
 "RTN","C0XTKSB",32,0)
- n zi
+ S zg="_:G"_$$LKY9 ; all nodes are in the same graph
 "RTN","C0XTKSB",33,0)
- f zi=1:1:10000 d  ; try a test of 10000 nodes
+ n zi
 "RTN","C0XTKSB",34,0)
- . s C0XFDA(172.101,zi,.01)="N"_$$LKY17 ; node name
+ f zi=1:1:10000 d  ; try a test of 10000 nodes
 "RTN","C0XTKSB",35,0)
- . s C0XFDA(172.101,zi,.02)=zg
+ . s C0XFDA(172.101,zi,.01)="N"_$$LKY17 ; node name
 "RTN","C0XTKSB",36,0)
- . s C0XFDA(172.101,zi,.03)=$R(100000)
+ . s C0XFDA(172.101,zi,.02)=zg
 "RTN","C0XTKSB",37,0)
- . s C0XFDA(172.101,zi,.04)=$R(100000)
+ . s C0XFDA(172.101,zi,.03)=$R(100000)
 "RTN","C0XTKSB",38,0)
- . s C0XFDA(172.101,zi,.05)=$R(100000)
+ . s C0XFDA(172.101,zi,.04)=$R(100000)
 "RTN","C0XTKSB",39,0)
- S C0XST=$$H    ; start of the insertion test
+ . s C0XFDA(172.101,zi,.05)=$R(100000)
 "RTN","C0XTKSB",40,0)
- W !,"INSERTION STARTS AT ",$ZDATE(C0XST,"YEAR-MM-DD:24:60:SS"),!
+ S C0XST=$$H    ; start of the insertion test
 "RTN","C0XTKSB",41,0)
- d BULKLOAD(.C0XFDA)
+ W !,"INSERTION STARTS AT ",$ZDATE(C0XST,"YEAR-MM-DD:24:60:SS"),!
 "RTN","C0XTKSB",42,0)
- s C0XEND=$$H    ; end of the insertion test
+ d BULKLOAD(.C0XFDA)
 "RTN","C0XTKSB",43,0)
- W !,"INSERTION ENDS AT ",$ZDATE(C0XEND,"YEAR-MM-DD:24:60:SS")
+ s C0XEND=$$H    ; end of the insertion test
 "RTN","C0XTKSB",44,0)
- S C0XDIFF=(86400*($P(C0XEND,",",1)-$P(C0XST,",",1)))+$P(C0XEND,",",2)-$P(C0XST,",",2)
+ W !,"INSERTION ENDS AT ",$ZDATE(C0XEND,"YEAR-MM-DD:24:60:SS")
 "RTN","C0XTKSB",45,0)
- W !," ELAPSED TIME: ",C0XDIFF," SECONDS"
+ S C0XDIFF=(86400*($P(C0XEND,",",1)-$P(C0XST,",",1)))+$P(C0XEND,",",2)-$P(C0XST,",",2)
 "RTN","C0XTKSB",46,0)
- W !
+ W !," ELAPSED TIME: ",C0XDIFF," SECONDS"
 "RTN","C0XTKSB",47,0)
- W:C0XDIFF>0 " APPROXIMATELY ",$FN(10000/C0XDIFF,",",0)," NODES PER SECOND",!
+ W !
 "RTN","C0XTKSB",48,0)
- q
+ W:C0XDIFF>0 " APPROXIMATELY ",$FN(10000/C0XDIFF,",",0)," NODES PER SECOND",!
 "RTN","C0XTKSB",49,0)
- ;
+ q
 "RTN","C0XTKSB",50,0)
-LKY9() ;EXTRINIC THAT RETURNS A RANDOM 9 DIGIT NUMBER. USED FOR GENERATING
+ ;
 "RTN","C0XTKSB",51,0)
- ; UNIQUE NODE AND GRAPH NAMES
+LKY9() ;EXTRINIC THAT RETURNS A RANDOM 9 DIGIT NUMBER. USED FOR GENERATING
 "RTN","C0XTKSB",52,0)
- N ZN,ZI
-"RTN","C0XTKSB",53,0)
- S ZN=""
-"RTN","C0XTKSB",54,0)
- F ZI=1:1:9 D  ;
-"RTN","C0XTKSB",55,0)
- . S ZN=ZN_$R(10)
-"RTN","C0XTKSB",56,0)
- Q ZN
-"RTN","C0XTKSB",57,0)
- ;
-"RTN","C0XTKSB",58,0)
-LKY17() ;EXTRINIC THAT RETURNS A RANDOM 9 DIGIT NUMBER. USED FOR GENERATING
-"RTN","C0XTKSB",59,0)
  ; UNIQUE NODE AND GRAPH NAMES
-"RTN","C0XTKSB",60,0)
+"RTN","C0XTKSB",53,0)
  N ZN,ZI
-"RTN","C0XTKSB",61,0)
+"RTN","C0XTKSB",54,0)
  S ZN=""
-"RTN","C0XTKSB",62,0)
- F ZI=1:1:17 D  ;
-"RTN","C0XTKSB",63,0)
+"RTN","C0XTKSB",55,0)
+ F ZI=1:1:9 D  ;
+"RTN","C0XTKSB",56,0)
  . S ZN=ZN_$R(10)
-"RTN","C0XTKSB",64,0)
+"RTN","C0XTKSB",57,0)
  Q ZN
+"RTN","C0XTKSB",58,0)
+ ;
+"RTN","C0XTKSB",59,0)
+LKY17() ;EXTRINIC THAT RETURNS A RANDOM 9 DIGIT NUMBER. USED FOR GENERATING
+"RTN","C0XTKSB",60,0)
+ ; UNIQUE NODE AND GRAPH NAMES
+"RTN","C0XTKSB",61,0)
+ N ZN,ZI
+"RTN","C0XTKSB",62,0)
+ S ZN=""
+"RTN","C0XTKSB",63,0)
+ F ZI=1:1:17 D  ;
+"RTN","C0XTKSB",64,0)
+ . S ZN=ZN_$R(10)
 "RTN","C0XTKSB",65,0)
- ;
+ Q ZN
 "RTN","C0XTKSB",66,0)
-BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
+ ;
 "RTN","C0XTKSB",67,0)
- ; USING GLOBAL SETS INSTEAD OF UPDATE^DIE
+BULKLOAD(ZBFDA) ; BULK LOADER FOR LOADING TRIPLES INTO FILE 172.101
 "RTN","C0XTKSB",68,0)
- ; QUITS IF FILE IS NOT 172.101
+ ; USING GLOBAL SETS INSTEAD OF UPDATE^DIE
 "RTN","C0XTKSB",69,0)
- ; EXPECTS AN FDA WITHOUT STRINGS FOR THE IENS, STARTING AT 1
+ ; QUITS IF FILE IS NOT 172.101
 "RTN","C0XTKSB",70,0)
- ; QUITS IF FIRST ENTRY IS NOT IENS 1
+ ; EXPECTS AN FDA WITHOUT STRINGS FOR THE IENS, STARTING AT 1
 "RTN","C0XTKSB",71,0)
- ; ASSUMES THAT THE LAST IENS IS THE COUNT OF ENTRIES
+ ; QUITS IF FIRST ENTRY IS NOT IENS 1
 "RTN","C0XTKSB",72,0)
- ; ZBFDA IS PASSED BY REFERENCE
+ ; ASSUMES THAT THE LAST IENS IS THE COUNT OF ENTRIES
 "RTN","C0XTKSB",73,0)
- ;
+ ; ZBFDA IS PASSED BY REFERENCE
 "RTN","C0XTKSB",74,0)
- ; -- reserves a block of iens from file 172.101 by locking the zero node
+ ;
 "RTN","C0XTKSB",75,0)
- ; -- ^C0X(101,0) and adding the count of entries to piece 2 and 3
+ ; -- reserves a block of iens from file 172.101 by locking the zero node
 "RTN","C0XTKSB",76,0)
- ; -- then unlocking to minimize the duration of the lock
+ ; -- ^C0X(101,0) and adding the count of entries to piece 2 and 3
 "RTN","C0XTKSB",77,0)
- ;
+ ; -- then unlocking to minimize the duration of the lock
 "RTN","C0XTKSB",78,0)
- W !,"USING BULKLOAD"
+ ;
 "RTN","C0XTKSB",79,0)
- I '$D(ZBFDA) Q  ; EMPTY FDA
+ W !,"USING BULKLOAD"
 "RTN","C0XTKSB",80,0)
- I $O(ZBFDA(""))'=172.101 Q  ; WRONG FILE
+ I '$D(ZBFDA) Q  ; EMPTY FDA
 "RTN","C0XTKSB",81,0)
- N ZCNT,ZP3,ZP4
+ I $O(ZBFDA(""))'=172.101 Q  ; WRONG FILE
 "RTN","C0XTKSB",82,0)
- ; -- find the number of nodes to insert
+ N ZCNT,ZP3,ZP4
 "RTN","C0XTKSB",83,0)
- S ZCNT=$O(ZBFDA(172.101,""),-1)
+ ; -- find the number of nodes to insert
 "RTN","C0XTKSB",84,0)
- I ZCNT="" D  Q  ;
+ S ZCNT=$O(ZBFDA(172.101,""),-1)
 "RTN","C0XTKSB",85,0)
- . W !,"ERROR IN BULK LOAD - INVALID NODE COUNT"
+ I ZCNT="" D  Q  ;
 "RTN","C0XTKSB",86,0)
- . B
+ . W !,"ERROR IN BULK LOAD - INVALID NODE COUNT"
 "RTN","C0XTKSB",87,0)
- ; -- lock the zero node and reserve a block of iens to insert
+ . B
 "RTN","C0XTKSB",88,0)
- W !,"LOCKING ZERO NODE"
+ ; -- lock the zero node and reserve a block of iens to insert
 "RTN","C0XTKSB",89,0)
- LOCK +^C0X(101,0)
+ W !,"LOCKING ZERO NODE"
 "RTN","C0XTKSB",90,0)
- S ZP3=$P(^C0X(101,0),U,3)
+ LOCK +^C0X(101,0)
 "RTN","C0XTKSB",91,0)
- S ZP4=$P(^C0X(101,0),U,4)
+ S ZP3=$P(^C0X(101,0),U,3)
 "RTN","C0XTKSB",92,0)
- S $P(^C0X(101,0),U,3)=ZP3+ZCNT+1
+ S ZP4=$P(^C0X(101,0),U,4)
 "RTN","C0XTKSB",93,0)
- S $P(^C0X(101,0),U,4)=ZP4+ZCNT+1
+ S $P(^C0X(101,0),U,3)=ZP3+ZCNT+1
 "RTN","C0XTKSB",94,0)
- LOCK -^C0X(101,0)
+ S $P(^C0X(101,0),U,4)=ZP4+ZCNT+1
 "RTN","C0XTKSB",95,0)
- N ZI,ZN,ZG,ZS,ZP,ZO,ZIEN,ZBASE
+ LOCK -^C0X(101,0)
 "RTN","C0XTKSB",96,0)
- S ZBASE=ZP3 ; the last ien in the file
+ N ZI,ZN,ZG,ZS,ZP,ZO,ZIEN,ZBASE
 "RTN","C0XTKSB",97,0)
- W !,"ZERO NODE UNLOCKED, IENS RESERVED=",ZCNT
+ S ZBASE=ZP3 ; the last ien in the file
 "RTN","C0XTKSB",98,0)
- W !,$ZDATE($$H,"YEAR-MM-DD:24:60:SS")
+ W !,"ZERO NODE UNLOCKED, IENS RESERVED=",ZCNT
 "RTN","C0XTKSB",99,0)
- S ZI=""
+ W !,$ZDATE($$H,"YEAR-MM-DD:24:60:SS")
 "RTN","C0XTKSB",100,0)
- F  S ZI=$O(ZBFDA(172.101,ZI)) Q:ZI=""  D  ;
+ S ZI=""
 "RTN","C0XTKSB",101,0)
- . S ZN=$G(ZBFDA(172.101,ZI,.01)) ; node name
+ F  S ZI=$O(ZBFDA(172.101,ZI)) Q:ZI=""  D  ;
 "RTN","C0XTKSB",102,0)
- . I ZN="" D BLKERR Q  ; 
+ . S ZN=$G(ZBFDA(172.101,ZI,.01)) ; node name
 "RTN","C0XTKSB",103,0)
- . S ZG=$G(ZBFDA(172.101,ZI,.02)) ; graph pointer
+ . I ZN="" D BLKERR Q  ; 
 "RTN","C0XTKSB",104,0)
- . I ZG="" D BLKERR Q  ; 
+ . S ZG=$G(ZBFDA(172.101,ZI,.02)) ; graph pointer
 "RTN","C0XTKSB",105,0)
- . S ZS=$G(ZBFDA(172.101,ZI,.03)) ; subject pointer
+ . I ZG="" D BLKERR Q  ; 
 "RTN","C0XTKSB",106,0)
- . I ZS="" D BLKERR Q  ; 
+ . S ZS=$G(ZBFDA(172.101,ZI,.03)) ; subject pointer
 "RTN","C0XTKSB",107,0)
- . S ZP=$G(ZBFDA(172.101,ZI,.04)) ; predicate pointer
+ . I ZS="" D BLKERR Q  ; 
 "RTN","C0XTKSB",108,0)
- . I ZP="" D BLKERR Q  ; 
+ . S ZP=$G(ZBFDA(172.101,ZI,.04)) ; predicate pointer
 "RTN","C0XTKSB",109,0)
- . S ZO=$G(ZBFDA(172.101,ZI,.05)) ; object pointer
+ . I ZP="" D BLKERR Q  ; 
 "RTN","C0XTKSB",110,0)
- . I ZO="" D BLKERR Q  ; 
+ . S ZO=$G(ZBFDA(172.101,ZI,.05)) ; object pointer
 "RTN","C0XTKSB",111,0)
- . S ZIEN=ZI+ZBASE ; the new ien
+ . I ZO="" D BLKERR Q  ; 
 "RTN","C0XTKSB",112,0)
- . S ^C0X(101,ZIEN,0)=ZN_U_ZG_U_ZS_U_ZP_U_ZO ; set the zero node
+ . S ZIEN=ZI+ZBASE ; the new ien
 "RTN","C0XTKSB",113,0)
- . S ^C0X(101,"B",ZN,ZIEN)="" ; the B index
+ . S ^C0X(101,ZIEN,0)=ZN_U_ZG_U_ZS_U_ZP_U_ZO ; set the zero node
 "RTN","C0XTKSB",114,0)
- . S ^C0X(101,"G",ZG,ZIEN)="" ; the G for Graph index
+ . S ^C0X(101,"B",ZN,ZIEN)="" ; the B index
 "RTN","C0XTKSB",115,0)
- . S ^C0X(101,"SPO",ZS,ZP,ZO)=""
+ . S ^C0X(101,"G",ZG,ZIEN)="" ; the G for Graph index
 "RTN","C0XTKSB",116,0)
- . S ^C0X(101,"SOP",ZS,ZO,ZP)=""
+ . S ^C0X(101,"SPO",ZS,ZP,ZO)=""
 "RTN","C0XTKSB",117,0)
- . S ^C0X(101,"OPS",ZO,ZP,ZS)=""
+ . S ^C0X(101,"SOP",ZS,ZO,ZP)=""
 "RTN","C0XTKSB",118,0)
- . S ^C0X(101,"OSP",ZO,ZS,ZP)=""
+ . S ^C0X(101,"OPS",ZO,ZP,ZS)=""
 "RTN","C0XTKSB",119,0)
- . S ^C0X(101,"GOPS",ZG,ZO,ZP,ZS)=""
+ . S ^C0X(101,"OSP",ZO,ZS,ZP)=""
 "RTN","C0XTKSB",120,0)
- . S ^C0X(101,"GOSP",ZG,ZO,ZS,ZP)=""
+ . S ^C0X(101,"GOPS",ZG,ZO,ZP,ZS)=""
 "RTN","C0XTKSB",121,0)
- . S ^C0X(101,"GPSO",ZG,ZP,ZS,ZO)=""
+ . S ^C0X(101,"GOSP",ZG,ZO,ZS,ZP)=""
 "RTN","C0XTKSB",122,0)
- . S ^C0X(101,"GSPO",ZG,ZS,ZP,ZO)=""
+ . S ^C0X(101,"GPSO",ZG,ZP,ZS,ZO)=""
 "RTN","C0XTKSB",123,0)
- Q
+ . S ^C0X(101,"GSPO",ZG,ZS,ZP,ZO)=""
 "RTN","C0XTKSB",124,0)
- ;
-"RTN","C0XTKSB",125,0)
-BLKERR ; 
-"RTN","C0XTKSB",126,0)
- W !,"ERROR IN BULK LOAD",! ZWR ZBFDA(ZI)
-"RTN","C0XTKSB",127,0)
- B
-"RTN","C0XTKSB",128,0)
  Q
-"RTN","C0XTKSB",129,0)
+"RTN","C0XTKSB",125,0)
  ;
+"RTN","C0XTKSB",126,0)
+BLKERR ; 
+"RTN","C0XTKSB",127,0)
+ W !,"ERROR IN BULK LOAD",! ZWR ZBFDA(ZI)
+"RTN","C0XTKSB",128,0)
+ B
+"RTN","C0XTKSB",129,0)
+ Q
 "RTN","C0XTKSB",130,0)
-H() 
+ ;
 "RTN","C0XTKSB",131,0)
+H() 
+"RTN","C0XTKSB",132,0)
  quit:$length($ztrnlnm("GTMXC_posix"))&$length($text(zhorolog^%POSIX)) $$zhorolog^%POSIX quit $horolog
 "RTN","C0XUTIL")
 0^5^B11676522
 "RTN","C0XUTIL",1,0)
 C0XUTIL ; GPL - Fileman Triples utilities ;11/07/11  17:05
 "RTN","C0XUTIL",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 10
+ ;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 "RTN","C0XUTIL",3,0)
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 "RTN","C0XUTIL",4,0)
