@@ -47,6 +47,7 @@ VOCINIT ; INITIALIZE VOCABULARIES
  S C0XVOC("qds")="http://cms.gov/pqri/qds/"
  S C0XVOC("smart")="http://sandbox-api.smartplatforms.org/records/"
  S C0XVOC("snomed")="http://purl.bioontology.org/ontology/SNOMEDCT/"
+ S C0XVOC("icd9")="http://purl.bioontology.org/ontology/ICD9/"
  S C0XVOC("rxnorm")="http://purl.bioontology.org/ontology/RXNORM/"
  S C0XVOC("loinc")="http://purl.bioontology.org/ontology/LNC/"
  S C0XVOC("file")="/home/glilly/fmts/trunk/samples/"
