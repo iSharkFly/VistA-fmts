@@ -1,5 +1,5 @@
-JJOHMMP5 ;GPL/NVN - Oroville Sage Database import project ;3/22/12  17:05
- ;;0.1;JJOH;nopatch;noreleasedate;Build 7
+C0XMULTI ;GPL - Multi tasking with the triplestore ;3/22/12  17:05
+ ;;0.1;C0X;nopatch;noreleasedate;Build 7
  ;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
  ;General Public License See attached copy of the License.
  ;
