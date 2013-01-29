@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-01-25  5:00 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-01-28  4:24 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
@@ -122,8 +122,8 @@ ADDPT(RETURN,PARAM) ; Private Proc; Add Patient to VISTA.
  ;  PARAM("VET")=VETERAN (Y/N)?
  ;  PARAM("FULLICN")=INTEGRATION CONTROL NUMBER AND CHECKSUM
  ;
- ;TODO: CHECK THAT PATCH DG*5.3*800 is installed for routine VAFCPTAD to add pt.
- ;I '$$PATCH^XPDUTL("DG*5.3*800") D EN^DDIOL("You need to have patch DG*5.3*800 to add patients")
+ ;CHECK THAT PATCH DG*5.3*800 is installed for routine VAFCPTAD to add pt.
+ I '$$PATCH^XPDUTL("DG*5.3*800") D EN^DDIOL("You need to have patch DG*5.3*800 to add patients") S $EC=",U1,"
  ;
  ; Crash if required params aren't present
  N X F X="NAME","GENDER","DOB","MRN" S:'$D(PARAM(X)) $EC=",U1,"
@@ -182,6 +182,14 @@ VITALS(G,DFN) ; Private EP; Process Vitals for a patient graph.
  QUIT
  ;
 PROBLEMS(G,DFN) ; Private EP; Process Problems for a patient graph
+ ; Delete existing problems if they are present
+ ; PS: This is a risky operation if somebody points to the original data.
+ ; PS2: Another idea is just to quit here if Patient has problems already.
+ I $D(^AUPNPROB("AC",DFN)) DO  ; Patient already has problems.
+ . N DIK S DIK="^AUPNPROB("  ; Global to kill
+ . N DA F DA=0:0 S DA=$O(^AUPNPROB("AC",DFN,DA)) Q:'DA  D ^DIK  ; Kill each entry
+ ;
+ ; Process incoming problems
  N RETURN ; Local return variable. I don't expect a patient to have more than 50 problems.
  D ONETYPE^C0XGET3($NA(RETURN),G,"sp:Problem") ; Get all problems for patient
  N S F S=0:0 S S=$O(RETURN(S)) Q:'S  D  ; For each problem
@@ -194,20 +202,25 @@ PROBLEMS(G,DFN) ; Private EP; Process Problems for a patient graph
  . N EXPIEN ; IEN in the EXPESSION file
  . N LEXS ; Return from Lex call
  . D EN^LEXCODE(CODE) ; Lex API
- . ;S EXPIEN=$P(LEXS("SCT",1),U) ; First match on Snomed CT. Crash if isn't present.
+ . S EXPIEN=$P(LEXS("SCT",1),U) ; First match on Snomed CT. Crash if isn't present.
  . ;
  . N STARTDT S STARTDT=$$GSPO1^C0XGET3(G,RETURN(S),"sp:startDate") ; Start Date
  . N X,Y,%DT S X=STARTDT D ^%DT S STARTDT=Y ; Convert STARTDT to internal format
- . ZWRITE CODE
- . ZWRITE TEXT
- . ZWRITE STARTDT
+ . D PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add problem to VISTA.
  QUIT
 PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
-	; Input - DFN from Symbol Table
+	; Input 
+	; DFN - you know what that is
+	; CODE - SNOMED code; not used alas; for the future.
+	; TEXT - SNOMED Text
+	; EXPIEN - IEN of Snomed CT Expression in the Expressions File (757.01)
+	; STARTDT - Internal Date of when the problem was first noted.
 	;
-	; Output - ISIRC [return code]
-	;          ISIRESUL(0)=1
-	;          ISIRESUL(1)=IEN
+	; Output:
+	; NONE
+	; Crash expectd if code fails to add a problem.
+	;
+	;
 	;
 	N GMPDFN S GMPDFN=DFN ; patient dfn
 	;
@@ -216,23 +229,26 @@ PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
 	S C0XFDA(200,"?+1,",.01)="PROVIDER,UNKNOWN SMART" ; Name
 	S C0XFDA(200,"?+1,",1)="USP" ; Initials
 	S C0XFDA(200,"?+1,",28)="SMART" ; Mail Code
-	D UPDATE^DIE("E",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR))
+	;
+	N DIC S DIC(0)="" ; An XREF in File 200 requires this.
+	D UPDATE^DIE("E",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR)) ; Typical UPDATE
 	N GMPPROV S GMPPROV=C0XIEN(1) ;Provider IEN
 	;
-	N GMPVAMC S GMPVAMC=$$KSP^XUPARAM("INST")
+	N GMPVAMC S GMPVAMC=$$KSP^XUPARAM("INST") ; Problem Institution. Ideally, the external one. But we are taking a shortcut here.
 	;
-	N GMPFLD
-	S GMPFLD(".01")=ISIMISC("ICDIEN") ;Code IEN
-	S GMPFLD(".03")=0 ;hard set
-	S GMPFLD(".05")="^"_ISIMISC("EXPNM") ;Expression text
+	N GMPFLD ; Input array
+	S GMPFLD(".01")="" ;Code IEN - API will assign 799.9.
+	; .02 field (Patient IEN) not used. Pass variable GMPDFN instead.
+	S GMPFLD(".03")=DT ;Date Last Modified
+	S GMPFLD(".05")="^"_TEXT ;Expression text
 	S GMPFLD(".08")=DT ; today's date (entry?)
-	S GMPFLD(".12")=ISIMISC("STATUS") ;Active/Inactive
-	S GMPFLD(".13")=ISIMISC("ONSET") ;Onset date
-	S GMPFLD("1.01")=ISIMISC("EXPIEN")_"^"_ISIMISC("EXPNM") ;^LEX(757.01 ien,descip
-	S GMPFLD("1.03")=ISIMISC("PROVIDER") ;Entered by
-	S GMPFLD("1.04")=ISIMISC("PROVIDER") ;Recording provider
-	S GMPFLD("1.05")=ISIMISC("PROVIDER") ;Responsible provider
-	S GMPFLD("1.06")=1018 ;MEDICAL SERVICE (#49)
+	S GMPFLD(".12")="A" ;Active/Inactive
+	S GMPFLD(".13")=STARTDT ;Onset date
+	S GMPFLD("1.01")=EXPIEN_U_TEXT ;^LEX(757.01 ien,descip
+	S GMPFLD("1.03")=GMPPROV ;Entered by
+	S GMPFLD("1.04")=GMPPROV ;Recording provider
+	S GMPFLD("1.05")=GMPPROV ;Responsible provider
+	S GMPFLD("1.06")="" ; SERVICE FILE - LEAVE BLANK(#49)
 	S GMPFLD("1.07")="" ; Date resolved
 	S GMPFLD("1.08")="" ; Clinic (#44)
 	S GMPFLD("1.09")=DT ;entry date
@@ -240,41 +256,13 @@ PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
 	S GMPFLD("1.11")=0 ;Agent Orange exposure
 	S GMPFLD("1.12")=0 ;Ionizing radiation exposure
 	S GMPFLD("1.13")=0 ;Persian Gulf exposure
-	S GMPFLD("1.14")=ISIMISC("TYPE") ;Accute/Chronic (A,C)
+	S GMPFLD("1.14")="C" ;Accute/Chronic (A,C)
 	S GMPFLD("1.15")="" ;Head/neck cancer
 	S GMPFLD("1.16")="" ;Military sexual trauma
-	S GMPFLD("10",0)=0 ;auto set ""
-	D NEW^GMPLSAVE
-	I '$D(DA) Q "-1^Error creating problem"
-	S ISIRESUL(0)=1
-	S ISIRESUL(1)=DA
-	Q 1
- ; Example FDA
- ; SAM(9000011,"88,",.01)="410.90"
- ; SAM(9000011,"88,",.02)="RODGERS,RONALD"
- ; SAM(9000011,"88,",.03)="JUN 13,2011"
- ; SAM(9000011,"88,",.04)=""
- ; SAM(9000011,"88,",.05)="Acute myocardial infarction, unspecified site, episode of care unspecified"
- ; SAM(9000011,"88,",.06)="VOE OFFICE INSTITUTION"
- ; SAM(9000011,"88,",.07)=2
- ; SAM(9000011,"88,",.08)="MAY 29,2011"
- ; SAM(9000011,"88,",.12)="INACTIVE"
- ; SAM(9000011,"88,",.13)="MAY 29,2011"
- ; SAM(9000011,"88,",1.01)="Acute myocardial infarction, unspecified site, episode of care unspecified"
- ; SAM(9000011,"88,",1.02)="PERMANENT"
- ; SAM(9000011,"88,",1.03)="COORDINATOR,ONE"
- ; SAM(9000011,"88,",1.04)="COORDINATOR,ONE"
- ; SAM(9000011,"88,",1.05)="COORDINATOR,ONE"
- ; SAM(9000011,"88,",1.06)="MEDICINE"
- ; SAM(9000011,"88,",1.07)="JUN 13,2011"
- ; SAM(9000011,"88,",1.08)=""
- ; SAM(9000011,"88,",1.09)="MAY 29,2011"
- ; SAM(9000011,"88,",1.1)="NO"
- ; SAM(9000011,"88,",1.11)="NO"
- ; SAM(9000011,"88,",1.12)="NO"
- ; SAM(9000011,"88,",1.13)="NO"
- ; SAM(9000011,"88,",1.14)="CHRONIC"
- ; SAM(9000011,"88,",1.15)=""
- ; SAM(9000011,"88,",1.16)=""
- ; SAM(9000011,"88,",1.17)=""
- ; SAM(9000011,"88,",1.18)=""
+	S GMPFLD("10",0)=0 ; Note. No note.
+	;
+	;
+	N DA ; Return variable
+	D NEW^GMPLSAVE ; API call
+	I '$D(DA) S $EC=",U1," ; Fail here if API fails.
+	QUIT
