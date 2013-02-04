@@ -1,7 +1,8 @@
-C0XGET3 ; VEN/SMH - Sam's Getters... let's try to make them simple ;2013-01-25  4:59 PM
+C0XGET3 ; VEN/SMH - Sam's Getters... let's try to make them simple ;2013-02-04  12:00 PM
  ;;1.1;FILEMAN TRIPLE STORE;
  ;
 IEN(N) ; Public $$; Resolved IEN of a stored string such as "rdf:type" in Strings File
+ I +N=N Q N ; We are given the IEN, just return it back
  Q $$IENOF^C0XGET1($$EXT^C0XUTIL(N))
  ;
  ;
@@ -24,6 +25,10 @@ ONETYPE(R,G,O) ; Public Proc; Get Subjects for Graph/Object of a specific type
  D GOPS(R,G,O,"rdf:type")
  QUIT
 GSPO1(G,S,P) ; Public $$; Get Object for A Graph/Subject/Predicate combination
+ ; Supports forward relational navigation for predicates using "." as separator
+ N EP S EP=$P(P,".",2,99) ; Extended Predicate
+ S P=$P(P,".") ; Predicate becomes the first piece
  N O S O=$O(^C0X(101,"GSPO",$$IEN(G),$$IEN(S),$$IEN(P),""))
- Q:O="" ""
- Q ^C0X(201,O,0)
+ Q:O="" "" ; Another end point for recursion
+ Q:$L(EP) $$GSPO1(G,O,EP) ; if we have an extended predicate, recurse
+ Q ^C0X(201,O,0) ; this is the end point of the recursion.

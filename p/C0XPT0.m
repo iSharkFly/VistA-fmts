@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-01-28  4:24 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-04  3:41 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
@@ -26,10 +26,11 @@ PROGRAPH(G) ; Process Graph (i.e. Patient)
  SET PARAM("MRN")=$$MRN(DEM)
  NEW RETURN
  D ADDPT(.RETURN,.PARAM)
- ZWRITE RETURN
  N DFN S DFN=$P(RETURN(1),U,2)
- D VITALS(G,DFN)
+ I DFN<1 S $EC=",U1," ; Debug.Assert that patient is added.
+ ; D VITALS(G,DFN)
  D PROBLEMS(G,DFN)
+ D ADR(G,DFN) ; Adverse Drug Reactions
  ;
  QUIT
  ;
@@ -176,7 +177,6 @@ VITALS(G,DFN) ; Private EP; Process Vitals for a patient graph.
  ; For each Vital Sign Set, grab encounter
  N S F S=0:0 S S=$O(^TMP($J,"VS",S)) Q:S=""  D
  . N ENC S ENC=$$GSPO1^C0XGET3(G,^TMP($J,"VS",S),"sp:encounter")
- . ZWRITE ENC
  ;
  ; D EN1^GMVDCSAV(.RESULT,DATA)
  QUIT
@@ -266,3 +266,68 @@ PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
 	D NEW^GMPLSAVE ; API call
 	I '$D(DA) S $EC=",U1," ; Fail here if API fails.
 	QUIT
+	;
+	;
+ADR(G,DFN) ;  Private Proc; Extract Allergies and ADRs from Graph and add to Patient's Record
+	; Input: G, Patient Graph, DFN, you should know that that is; Both by value.
+	;
+	; Try No known allergies first.
+	N NKA S NKA=$$ONETYPE1^C0XGET3(G,"sp:AllergyExclusion") ; Get NKA node
+	;
+	; Add allergies to record.
+	; We don't really care about the return value. If patient already has
+	; allergies, we just keep them.
+	I $L(NKA) N % S %=$$NKA^C0XPT0(DFN) QUIT  ; If it exists, let's try to file it into VISTA
+	;
+	; If we are here, it means that the patient has allergies. Fun!
+	; Process incoming allergies
+	N RETURN ; Local return variable. I don't expect a patient to have more than 50 allergies.
+	D ONETYPE^C0XGET3($NA(RETURN),G,"sp:Allergy") ; Get all allergies for patient
+	;
+	N S F S=0:0 S S=$O(RETURN(S)) Q:'S  D  ; For each allergy
+	. ; Get the SNOMED code for the category
+	. N ALLERGYTYPE
+	. N SNOCAT S SNOCAT=$$GSPO1^C0XGET3(G,RETURN(S),"sp:category.sp:code"),SNOCAT=$P(SNOCAT,"/",$L(SNOCAT,"/"))
+	. I SNOCAT=414285001 S ALLERGYTYPE="F" ; Food
+	. E  I SNOCAT=416098002 S ALLERGYTYPE="D" ; Drug
+	. I '$D(ALLERGYTYPE) S $EC=",U1," ; Crash if neither of these is true.
+	. ;
+	. N ALLERGEN,ALLERGENI ; Allergen, Internal Allergen
+	. I ALLERGYTYPE="F" D  ; Food
+	. . S ALLERGEN=$$UP^XLFSTR($$GSPO1^C0XGET3(G,RETURN(S),"sp:otherAllergen.dcterms:title")) ; uppercase the allergen
+	. . I ALLERGEN="PEANUT" S ALLERGEN="PEANUTS" ; temporary fix
+	. . S ALLERGENI=$$GMRA^C0XPT0(ALLERGEN) ; Get internal representation for GMRA call
+	. ;
+	. ; Otherwise, it's a drug. But we need to find out if it's a class,
+	. ; ingredient, canonical drug, etc. Unfortunately, Smart examples don't
+	. ; show such variety. The only one specified is a drug class.
+	. ; Therefore
+	. ; TODO: Handle other drug items besides drug class
+	. ;
+	. E  D  ; Drug
+	. . N DC S DC=$$GSPO1^C0XGET3(G,RETURN(S),"sp:drugClassAllergen.sp:code") ; drug class
+	. . I '$L(DC) QUIT  ; edit this line out when handling other items
+	. . S ALLERGEN=$P(DC,"/",$L(DC,"/")) ; Get last piece
+	. . ; TODO: Resolve drug class properly. Need all of RxNorm for that.
+	. . I ALLERGEN="N0000175503"
+	QUIT
+	;
+NKA(DFN) ; Public $$; Add no known allergies to patient record
+	N ORDFN S ORDFN=DFN ; CPRS API requires this one
+	N ORY ; Return value: 0 - Everything is okay; -1^msg: Patient already has allergies
+	D NKA^GMRAGUI1 ; API
+	QUIT $G(ORY) ; Not always returned
+	;
+GMRA(NAME)	; $$ Private - Retrieve GMRAGNT for food allergy from 120.82
+	; Input: Brand Name, By Value
+	; Output: Entry Name^IEN;File Root for IEN
+	N C0PIEN S C0PIEN=$$FIND1^DIC(120.82,"","O",NAME,"B")
+	Q:C0PIEN $$GET1^DIQ(120.82,C0PIEN,.01)_"^"_C0PIEN_";GMRD(120.82,"
+	QUIT "" ; no match otherwise
+	;
+TYPE(GMRAGNT)	; $$ Private - Get allergy Type (Drug, food, or other)
+	; Input: Allergen, formatted as Allergen^IEN;File Root
+	; Output: Type (internal)^Type (external) e.g. D^Drug
+	N C0PIEN S C0PIEN=+$P(GMRAGNT,U,2)
+	I GMRAGNT["GMRD(120.82," Q $$GET1^DIQ(120.82,C0PIEN,"ALLERGY TYPE","I")_U_$$GET1^DIQ(120.82,C0PIEN,"ALLERGY TYPE","E")
+	Q "D^Drug" ; otherwise, it's a drug
