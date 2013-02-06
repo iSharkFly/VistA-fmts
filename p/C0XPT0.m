@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-04  3:41 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-06  3:08 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
@@ -54,7 +54,7 @@ NAME(DEMID) ; Public $$; Return VISTA name given the Demographics node ID.
  NEW MIDDLE SET MIDDLE=$$object^C0XGET1(NAMENODE,"v:additional-name")
  ; This is optional of course
  ;
- QUIT $$UP^DILIBF(FAMILY_","_GIVEN_" "_MIDDLE)
+ QUIT $$UP^XLFSTR(FAMILY_","_GIVEN_" "_MIDDLE)
  ;
  ;
 DOB(DEMID) ; Public $$; Return Timson Date for DOB given the Dem node ID.
@@ -208,6 +208,17 @@ PROBLEMS(G,DFN) ; Private EP; Process Problems for a patient graph
  . N X,Y,%DT S X=STARTDT D ^%DT S STARTDT=Y ; Convert STARTDT to internal format
  . D PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add problem to VISTA.
  QUIT
+ ;
+NP() ; New Person Entry
+	N C0XFDA,C0XIEN,C0XERR
+	S C0XFDA(200,"?+1,",.01)="PROVIDER,UNKNOWN SMART" ; Name
+	S C0XFDA(200,"?+1,",1)="USP" ; Initials
+	S C0XFDA(200,"?+1,",28)="SMART" ; Mail Code
+	;
+	N DIC S DIC(0)="" ; An XREF in File 200 requires this.
+	D UPDATE^DIE("E",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR)) ; Typical UPDATE
+	Q C0XIEN(1) ;Provider IEN
+	;
 PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
 	; Input 
 	; DFN - you know what that is
@@ -218,21 +229,14 @@ PROBADD(DFN,CODE,TEXT,EXPIEN,STARTDT) ; Add a problem to a patient's record.
 	;
 	; Output:
 	; NONE
-	; Crash expectd if code fails to add a problem.
+	; Crash expected if code fails to add a problem.
 	;
 	;
 	;
 	N GMPDFN S GMPDFN=DFN ; patient dfn
 	;
 	; Add unknown provider to database
-	N C0XFDA,C0XIEN,C0XERR
-	S C0XFDA(200,"?+1,",.01)="PROVIDER,UNKNOWN SMART" ; Name
-	S C0XFDA(200,"?+1,",1)="USP" ; Initials
-	S C0XFDA(200,"?+1,",28)="SMART" ; Mail Code
-	;
-	N DIC S DIC(0)="" ; An XREF in File 200 requires this.
-	D UPDATE^DIE("E",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR)) ; Typical UPDATE
-	N GMPPROV S GMPPROV=C0XIEN(1) ;Provider IEN
+	N GMPPROV S GMPPROV=$$NP^C0XPT0() ;Smart Provider IEN
 	;
 	N GMPVAMC S GMPVAMC=$$KSP^XUPARAM("INST") ; Problem Institution. Ideally, the external one. But we are taking a shortcut here.
 	;
@@ -295,7 +299,7 @@ ADR(G,DFN) ;  Private Proc; Extract Allergies and ADRs from Graph and add to Pat
 	. N ALLERGEN,ALLERGENI ; Allergen, Internal Allergen
 	. I ALLERGYTYPE="F" D  ; Food
 	. . S ALLERGEN=$$UP^XLFSTR($$GSPO1^C0XGET3(G,RETURN(S),"sp:otherAllergen.dcterms:title")) ; uppercase the allergen
-	. . I ALLERGEN="PEANUT" S ALLERGEN="PEANUTS" ; temporary fix
+	. . I ALLERGEN="PEANUT" S ALLERGEN="PEANUTS" ; TODO: temporary fix
 	. . S ALLERGENI=$$GMRA^C0XPT0(ALLERGEN) ; Get internal representation for GMRA call
 	. ;
 	. ; Otherwise, it's a drug. But we need to find out if it's a class,
@@ -309,7 +313,22 @@ ADR(G,DFN) ;  Private Proc; Extract Allergies and ADRs from Graph and add to Pat
 	. . I '$L(DC) QUIT  ; edit this line out when handling other items
 	. . S ALLERGEN=$P(DC,"/",$L(DC,"/")) ; Get last piece
 	. . ; TODO: Resolve drug class properly. Need all of RxNorm for that.
-	. . I ALLERGEN="N0000175503"
+	. . N STR S STR=$$UP^XLFSTR($$GSPO1^C0XGET3(G,RETURN(S),"sp:drugClassAllergen.dcterms:title"))
+	. . I ALLERGEN="N0000175503" S ALLERGENI=STR_U_"23;PS(50.605," ; hard codeded for sulfonamides
+	. . ;
+	. ; DEBUG.ASSERT THAT allergen Internal isn't empty
+	. I '$L(ALLERGENI) S $EC=",U1,"
+	. ;
+	. ; Get Severity (Mild or Severe) - We get free text rather than SNOMED
+	. N SEVERITY S SEVERITY=$$UP^XLFSTR($$GSPO1^C0XGET3(G,RETURN(S),"sp:severity.dcterms:title"))
+	. I '$L(SEVERITY) S $EC=",U1,"
+	. ;
+	. ; Get Reaction - We get free text rather than SNOMED
+	. N REACTION S REACTION=$$UP^XLFSTR($$GSPO1^C0XGET3(G,RETURN(S),"sp:allergicReaction.dcterms:title"))
+	. I '$L(REACTION) S $EC=",U1,"
+	. ;
+	. ; Now that we have determined the allergy, add it
+	. D FILEADR^C0XPT0(DFN,ALLERGENI,REACTION,SEVERITY,ALLERGYTYPE) ; Internal API
 	QUIT
 	;
 NKA(DFN) ; Public $$; Add no known allergies to patient record
@@ -331,3 +350,19 @@ TYPE(GMRAGNT)	; $$ Private - Get allergy Type (Drug, food, or other)
 	N C0PIEN S C0PIEN=+$P(GMRAGNT,U,2)
 	I GMRAGNT["GMRD(120.82," Q $$GET1^DIQ(120.82,C0PIEN,"ALLERGY TYPE","I")_U_$$GET1^DIQ(120.82,C0PIEN,"ALLERGY TYPE","E")
 	Q "D^Drug" ; otherwise, it's a drug
+	;
+FILEADR(DFN,AGENT,REACTION,SEVERITY,TYPE)	; Private Proc - File Drug Reaction
+	N C0XRXN
+	S C0XRXN("GMRAGNT")=AGENT ; Agent^Agent in variable pointer format
+	S C0XRXN("GMRATYPE")=TYPE ; F(ood), D(rug), or O(ther) or combination.
+	S C0XRXN("GMRANATR")="U^Unknown" ; Allergic, Pharmacologic, or Unknown
+	S C0XRXN("GMRAORIG")=$$NP^C0XPT0 ; New Person generated for SMART
+	; S C0XRXN("GMRACHT",0)=1 ; Mark Chart as allergy document - commented out b/c depends on Paper Docs
+	; S C0XRXN("GMRACHT",1)=$$NOW^XLFDT ; Chart documentation date - commented out depends on Paper Docs
+	S C0XRXN("GMRAORDT")=$$NOW^XLFDT
+	S C0XRXN("GMRAOBHX")="h^HISTORICAL"
+	S C0XRXN("GMRACMTS",0)=1 ; Comments
+	S C0XRXN("GMRACMTS",1)=SEVERITY ; Store severity in the comments
+	N ORY ; Return value 0: success; -1: failure; discarded.
+	D UPDATE^GMRAGUI1("",DFN,$NA(C0XRXN))
+	QUIT
