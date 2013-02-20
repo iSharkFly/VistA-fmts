@@ -1,5 +1,5 @@
-C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT;2013-02-19  5:01 PM
-	;;FILEMAN TRIPLE STORE;1.0;;;Jun 26,2012;Build 29
+C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT;2013-02-20  3:15 PM
+	;;1.0;FILEMAN TRIPLE STORE;;Jun 26,2012;Build 29
 	;
 MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
 	; G - Patient Graph, DFN - you should know this
@@ -7,16 +7,18 @@ MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
 	D ONETYPE^C0XGET3($NA(^TMP($J,"MEDS")),G,"sp:Medication")
 	;
 	; For each medication (I = COUNTER; S = Medication Node as Subject)
-	N I,S F I=0:0 S I=$O(^TMP($J,"MEDS",I)) Q:'I  S S=^(I) DO MED1(G,S) 
+	N I,S F I=0:0 S I=$O(^TMP($J,"MEDS",I)) Q:'I  S S=^(I) DO MED1(G,S)
 	;
 	K ^TMP($J,"MEDS")
 	QUIT
+	;
 MED1(G,S) ; Private Procedure; Process each medication in Graph.
 	; G = Graph; S = Medication Description ID as subject.
 	;
 	; 1. Start Date; obtain and then conv to fileman format
 	N STARTDT S STARTDT=$$GSPO1^C0XGET3(G,S,"sp:startDate") ; Duh! Start Date.
-	X "N %DT,X,Y S X=STARTDT D ^%DT S STARTDT=Y" ; New stack level for variables.
+	D 
+	. N %DT,X,Y S X=STARTDT D ^%DT S STARTDT=Y ; New stack level for variables.
 	;
 	;DEBUG.ASSERT that STARTDT is greater than 1900
 	I STARTDT'>2000000 S $EC=",U1,"
@@ -34,15 +36,34 @@ MED1(G,S) ; Private Procedure; Process each medication in Graph.
 	N INST S INST=$$GSPO1^C0XGET3(G,S,"sp:instructions")
 	;
 	; 5. Drug Name and Code
-	N RXN S RXN=$$GSPO1^C0XGET3(G,S,"sp:drugName.sp:code") ; RxNorm Code
+	N RXN S RXN=$$GSPO1^C0XGET3(G,S,"sp:drugName.sp:code"),RXN=$P(RXN,"/",$L(RXN,"/")) ; RxNorm Code
 	N DN S DN=$$GSPO1^C0XGET3(G,S,"sp:drugName.dcterms:title") ; Drug Name
 	;
 	W S," ",FVALUE_FUNIT," ",DOSE," ",DUNIT," ",INST," ",DN,!
 	;
 	; 6. Get Fill Dates
-	;TODO.
+	N FULF ; Fulfillments
+	D GSPO^C0XGET3($NA(FULF),G,S,"sp:fulfillment")
+	;
+	N FILLS ; Fills array. Contains every time a drug was dispensed.
+	N FILL S FILL="" F  S FILL=$O(FULF(FILL)) Q:FILL=""  D
+	. N S S S=FULF(FILL) ; New subject; subsumes above one in this loop
+	. ;
+	. ; Dispense Date
+	. N FILLDATE S FILLDATE=$$GSPO1^C0XGET3(G,S,"dcterms:date")
+	. D
+	. . N %DT,X,Y S X=FILLDATE D ^%DT S FILLDATE=Y
+	. I FILLDATE<2000000 W $EC=",U1," ; Converstion error
+	. ;
+	. S FILLS(RXN,FILLDATE,"sp:dispenseDaysSupply")=$$GSPO1^C0XGET3(G,S,"sp:dispenseDaysSupply") ; Self Explanatory?
+	. ;
+	. ; Get quantity value and unit
+	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:value")=$$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:value")
+	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:unit")=$TR($$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:unit"),"{}")
+	;
+	ZWRITE:$D(FILLS) FILLS
 	QUIT
-
+	;
 MED(ISIMISC)	;Create med order entry
 	; Input - ISIMISC(ARRAY)
 	; Format:  ISIMISC(PARAM)=VALUE
@@ -66,7 +87,7 @@ MED(ISIMISC)	;Create med order entry
 	S ISIRESUL(1)=PSOIEN
 	Q ISIRC
 	;
-PREP	
+PREP ;
 	;
 	N EXIT
 	S ORZPT=ISIMISC("DFN") ;"" ;POINTER TO PATIENT FILE (#2)
@@ -74,7 +95,7 @@ PREP
 	S PNTSTAT=20 ; NON-VA ;RX PATIENT STATUS FILE (#53)
 	S PROV=ISIMISC("PROV") ;NEW PERSON FILE (#200)
 	S PSODRUG=ISIMISC("DRUG") ;"" ;POINTER TO DRUG FILE (#50)
-	S PSODRUG("DEA")=$P($G(^PSDRUG(PSODRUG,0)),U,3) 
+	S PSODRUG("DEA")=$P($G(^PSDRUG(PSODRUG,0)),U,3)
 	S QTY=ISIMISC("QTY") ;NUMBER ;0;7 NUMBER (Required)
 	S DAYSUPLY=ISIMISC("SUPPLY") ;NUMBER ; 0;8 NUMBER (Required)
 	S REFIL=ISIMISC("REFILL") ;NUMBER ; 0;9 NUMBER (Required)
@@ -100,13 +121,13 @@ PREP
 	S SIG=ISIMISC("SIG") ;#51,.01
 	Q
 	;
-CREATE	
-	D AUTO^PSONRXN	;RX auto number
+CREATE ;
+	D AUTO^PSONRXN ;RX auto number
 	I $G(PSONEW("RX #"))="" S ISIRC="-1^RX Auto number error." Q
 	S RXNUM=PSONEW("RX #")
 	;
 	S PSOIEN=$P($G(^PSRX(0)),"^",3)+1
-	I $D(^PSRX(PSOIEN)) S ISIRC="-1^Problem with PSRX (#50) internal counter" Q ;pointer error
+	I $D(^PSRX(PSOIEN)) S ISIRC="-1^Problem with PSRX (#50) internal counter" Q  ;pointer error
 	S $P(^PSRX(0),U,3)=PSOIEN
 	;
 	S $P(^PSRX(PSOIEN,0),"^",1)=RXNUM ; 0;1 FREE TEXT (Required)
@@ -136,7 +157,7 @@ CREATE
 	S $P(^PSRX(PSOIEN,3),U,1)=DISPDT ;LAST DISPENSED DATE    3;1 DATE
 	;
 	S ^PSRX(PSOIEN,"A",0)="^52.3DA^1^1"
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",1)=LOGDT	;DATE
+	S $P(^PSRX(PSOIEN,"A",1,0),"^",1)=LOGDT ;DATE
 	S $P(^PSRX(PSOIEN,"A",1,0),"^",2)=REASON ;SET
 	S $P(^PSRX(PSOIEN,"A",1,0),"^",3)=INIT ;NEW PERSON FILE (#200)
 	S $P(^PSRX(PSOIEN,"A",1,0),"^",4)=0 ;NUMBER - RX REFERENCE
@@ -152,7 +173,7 @@ CREATE
 	S $P(^PSRX(PSOIEN,"STA"),"^",1)=STATUS ;STA;1 SET (Required) ; '0' FOR ACTIVE;
 	;
 	;S ^PSRX(PSOIEN,"IB")=TRNSTYP ;COPAY TRANSACTION TYPE   IB ACTION TYPE FILE (#350.1)
-	S ^PSRX(PSOIEN,"TYPE")=0	;TYPE OF RX             TYPE;1 NUMBER
+	S ^PSRX(PSOIEN,"TYPE")=0 ;TYPE OF RX             TYPE;1 NUMBER
 	D OERR,F55,F52,F525
 	Q
 	;
