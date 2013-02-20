@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-19  12:01 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-19  2:14 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
@@ -31,6 +31,7 @@ PROGRAPH(G) ; Process Graph (i.e. Patient)
  ; D VITALS(G,DFN)
  D PROBLEMS^C0XPT1(G,DFN) ; Extract Problems and File
  D ADR^C0XPT2(G,DFN) ; Extract Allergies and File
+ D MEDS^C0XPT3(G,DFN) ; Extract Medicaments and File
  ;
  QUIT
  ;
