@@ -1,4 +1,4 @@
-C0XGET3 ; VEN/SMH - Sam's Getters... let's try to make them simple ;2013-02-04  12:00 PM
+C0XGET3 ; VEN/SMH - Sam's Getters... let's try to make them simple ;2013-02-20  11:50 AM
  ;;1.1;FILEMAN TRIPLE STORE;
  ;
 IEN(N) ; Public $$; Resolved IEN of a stored string such as "rdf:type" in Strings File
@@ -32,3 +32,19 @@ GSPO1(G,S,P) ; Public $$; Get Object for A Graph/Subject/Predicate combination
  Q:O="" "" ; Another end point for recursion
  Q:$L(EP) $$GSPO1(G,O,EP) ; if we have an extended predicate, recurse
  Q ^C0X(201,O,0) ; this is the end point of the recursion.
+ ;
+GSPO(R,G,S,P) ; Public Proc; Get Objects for a Graph/Subject/Predicate combination
+ ; Supports forward relational navigation for predicates using "." as separator
+ ; R is global style RPC reference
+ ; Extended Predicates are assumed to have only one object
+ ; This routine doesn't process multiple objects for the extended predicate.
+ N EP S EP=$P(P,".",2,99) ; Extended Predicate
+ S P=$P(P,".") ; Predicate becomes the first piece
+ N O S O=""
+ F  S O=$O(^C0X(101,"GSPO",$$IEN(G),$$IEN(S),$$IEN(P),O)) Q:O=""  D  ; For each object
+ . I $L(EP) D  ; If we have an extended predicate...
+ . . I EP="*" N P S P="" F  S P=$O(^C0X(101,"GSPO",$$IEN(G),$$IEN(O),P)) Q:P=""  D  ; If all predicates (EP=*) for each predicate
+ . . . S @R@(O,$$NSP^C0XUTIL(P))=$$GSPO1(G,O,P) ; Return (Object, namespaced predicate)=value
+ . . E  S @R@(O)=$$GSPO1(G,O,EP)  ; If Extended Predicate, resolve the predicate to get ultimate object
+ . E  S @R@(O)=^C0X(201,O,0) ; Otherwise, just return the object
+ QUIT

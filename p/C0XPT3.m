@@ -1,4 +1,4 @@
-C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT;2013-02-20  3:15 PM
+C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT ;2013-02-21  5:05 PM
 	;;1.0;FILEMAN TRIPLE STORE;;Jun 26,2012;Build 29
 	;
 MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
@@ -7,12 +7,11 @@ MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
 	D ONETYPE^C0XGET3($NA(^TMP($J,"MEDS")),G,"sp:Medication")
 	;
 	; For each medication (I = COUNTER; S = Medication Node as Subject)
-	N I,S F I=0:0 S I=$O(^TMP($J,"MEDS",I)) Q:'I  S S=^(I) DO MED1(G,S)
-	;
+	N C0XI,S F C0XI=0:0 S C0XI=$O(^TMP($J,"MEDS",C0XI)) Q:'C0XI  S S=^(C0XI) DO MED1(G,S,DFN)
 	K ^TMP($J,"MEDS")
 	QUIT
 	;
-MED1(G,S) ; Private Procedure; Process each medication in Graph.
+MED1(G,S,DFN) ; Private Procedure; Process each medication in Graph.
 	; G = Graph; S = Medication Description ID as subject.
 	;
 	; 1. Start Date; obtain and then conv to fileman format
@@ -61,76 +60,63 @@ MED1(G,S) ; Private Procedure; Process each medication in Graph.
 	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:value")=$$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:value")
 	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:unit")=$TR($$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:unit"),"{}")
 	;
-	ZWRITE:$D(FILLS) FILLS
+	; ZWRITE:$D(FILLS) FILLS
+	;
+	D 
+	. N FILDT,FILQTY,FILDAYS
+	. S FILDT=$O(FILLS(RXN,""))
+	. I FILDT S FILQTY=FILLS(RXN,FILDT,"sp:quantityDispensed.sp:value"),FILDAYS=FILLS(RXN,FILDT,"sp:dispenseDaysSupply")
+	. E  S (FILQTY,FILDAYS)=""
+	. D PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS)
+	;
 	QUIT
-	;
-MED(ISIMISC)	;Create med order entry
-	; Input - ISIMISC(ARRAY)
-	; Format:  ISIMISC(PARAM)=VALUE
-	;     eg:  ISIMISC("DFN")=123455 
-	;
-	; Output - ISIRC [return code]
-	;          ISIRESUL(0)=1 [if successful]
-	;          ISIRESUL(1)=PSOIEN [if successful] 
-	;
-	N ORZPT,PNTSTAT,PROV,PSODRUG,QTY,DAYSUPLY,REFIL,ORDCONV,RXNUM,PSOIEN
-	N COPIES,MLWIND,ENTERBY,UNITPRICE,PSOSITE,LOGDT,DISPDT,ISSDT,SIG
-	N X1,X2,EXPIRDT,STATUS,TRNSTYP,LDISPDT,FILLDT,PORDITM,REASON
-	N INIT,COM
-	;
-	S ISIRC=1
-	D PREP
-	I +ISIRC<0 Q ISIRC
-	D CREATE
-	I +ISIRC<0 Q ISIRC
-	S ISIRESUL(0)=1
-	S ISIRESUL(1)=PSOIEN
-	Q ISIRC
-	;
-PREP ;
-	;
-	N EXIT
-	S ORZPT=ISIMISC("DFN") ;"" ;POINTER TO PATIENT FILE (#2)
-	S PSODFN=ORZPT
-	S PNTSTAT=20 ; NON-VA ;RX PATIENT STATUS FILE (#53)
-	S PROV=ISIMISC("PROV") ;NEW PERSON FILE (#200)
-	S PSODRUG=ISIMISC("DRUG") ;"" ;POINTER TO DRUG FILE (#50)
+PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS) ;
+	N ORZPT,PSODFN S (ORZPT,PSODFN)=DFN  ;"" ;POINTER TO PATIENT FILE (#2)
+	N PNTSTAT S PNTSTAT=20 ; NON-VA ;RX PATIENT STATUS FILE (#53)
+	N PROV S PROV=$$NP^C0XPT0() ;NEW PERSON FILE (#200)
+	N PSODRUG S PSODRUG=94558 ;POINTER TO DRUG FILE (#50) ; TODO: HARDCODED; RXN
 	S PSODRUG("DEA")=$P($G(^PSDRUG(PSODRUG,0)),U,3)
-	S QTY=ISIMISC("QTY") ;NUMBER ;0;7 NUMBER (Required)
-	S DAYSUPLY=ISIMISC("SUPPLY") ;NUMBER ; 0;8 NUMBER (Required)
-	S REFIL=ISIMISC("REFILL") ;NUMBER ; 0;9 NUMBER (Required)
-	S ORDCONV=1 ;'1' FOR ORDER CONVERTED;'2' FOR EXPIRATION TO CPRS;
-	S COPIES=1 ;NUMBER
-	S MLWIND="W" ;'M' or 'W'
-	S ENTERBY=DUZ ;NEW PERSON FILE (#200)
-	S UNITPRICE=$P(^PSDRUG(PSODRUG,660),U,6) ;0.009 ;"" ;NUMBER
-	S PSOSITE=ISIMISC("PSOSITE") ; OUTPATIENT SITE FILE (#59)
-	D NOW^%DTC S LOGDT=% ;LOGIN DATE ; 2;1 DATE (Required)
-	S FILLDT=ISIMISC("DATE") ;DATE
-	S ISSDT=FILLDT ;DATE
-	S DISPDT=ISSDT ;DATE
-	S X1=DISPDT,X2=180 D C^%DTC ;Default expiration of T+180
-	S EXPIRDT=X ;
-	S PORDITM=$P($G(^PSDRUG(PSODRUG,2)),U,1) ;PHARMACY ORDERABLE ITEM FILE (#50.7)
-	S STATUS=0 ;STA;1 SET (Required) ; '0' FOR ACTIVE;
-	S TRNSTYP=1 ; IB ACTION TYPE FILE (#350.1)
-	S LDISPDT=FILLDT ;    3;1 DATE
-	S REASON="E" ;Activity log ; SET ([E]dit)
-	S INIT=DUZ ;NEW PERSON FILE (#200)
-	S COM="Oupatient medication order." ;TEXT
-	S SIG=ISIMISC("SIG") ;#51,.01
-	Q
+	N QTY S QTY=FILQTY ; NUMBER ;0;7 NUMBER (Required)
+	N DAYSUPLY S DAYSUPLY=FILDAYS ;NUMBER ; 0;8 NUMBER (Required);
+	N REFIL S REFIL=0 ;NUMBER ; 0;9 NUMBER (Required)
+	N ORDCONV S ORDCONV=1 ;'1' FOR ORDER CONVERTED;'2' FOR EXPIRATION TO CPRS;
+	N COPIES S COPIES=1 ;NUMBER
+	N MLWIND S MLWIND="W" ; Mail/Window: 'M' or 'W'
+	N ENTERBY S ENTERBY=.5 ;NEW PERSON FILE (#200) - POSTMASTER
+	N UNITPRICE S UNITPRICE=$P(^PSDRUG(PSODRUG,660),U,6) ;0.009 ;"" ;NUMBER
+	N PSOSITE S PSOSITE=$O(^PS(59,0)) ; OUTPATIENT SITE FILE (#59); get first one
+	N %,LOGDT D NOW^%DTC S LOGDT=% ;LOGIN DATE ; 2;1 DATE (Required)
+	N FILLDT S FILLDT=FILDT ;DATE; First fill date from our data.
+	N ISSDT S ISSDT=FILLDT ;DATE
+	N DISPDT S DISPDT=ISSDT ;DATE
+	N X D
+	. N X1,X2
+	. S X1=DISPDT,X2=180 D C^%DTC ;Default expiration of T+180
+	N EXPIRDT S EXPIRDT=X ;
+	N PORDITM S PORDITM=$P($G(^PSDRUG(PSODRUG,2)),U,1) ;PHARMACY ORDERABLE ITEM FILE (#50.7)
+	N STATUS S STATUS=0 ;STA;1 SET (Required) ; '0' FOR ACTIVE;
+	N TRNSTYP S TRNSTYP=1 ; IB ACTION TYPE FILE (#350.1)
+	N LDISPDT S LDISPDT=FILLDT ;    3;1 DATE
+	N REASON S REASON="E" ;Activity log ; SET ([E]dit)
+	N INIT S INIT=DUZ ;NEW PERSON FILE (#200)
+	N COM S COM="Oupatient medication order." ;TEXT
+	N SIG S SIG=INST ;#51,.01
 	;
-CREATE ;
+CREATE ; fall through
+	;
+	N PSONEW
 	D AUTO^PSONRXN ;RX auto number
-	I $G(PSONEW("RX #"))="" S ISIRC="-1^RX Auto number error." Q
-	S RXNUM=PSONEW("RX #")
+	I $G(PSONEW("RX #"))="" S $EC=",U1," ; Auto-numbering not turned on!
+	N RXNUM S RXNUM=PSONEW("RX #") ; Rx Number, again...
 	;
-	S PSOIEN=$P($G(^PSRX(0)),"^",3)+1
-	I $D(^PSRX(PSOIEN)) S ISIRC="-1^Problem with PSRX (#50) internal counter" Q  ;pointer error
-	S $P(^PSRX(0),U,3)=PSOIEN
-	;
+	L +^PSRX(0):0 ; Lock zero node while we get the record.
+	N PSOIEN S PSOIEN=$P($G(^PSRX(0)),"^",3)+1 ; Next available IEN
+	I $D(^PSRX(PSOIEN)) S $EC=",U1," ; Next number not available. File issue.
+	S $P(^PSRX(0),U,3)=PSOIEN ; Reset next available number.
 	S $P(^PSRX(PSOIEN,0),"^",1)=RXNUM ; 0;1 FREE TEXT (Required)
+	L -^PSRX(0) ; Unlock zero node, we now got it
+	;
+	L +^PSRX(PSOIEN):0 ; Lock record node
 	S $P(^PSRX(PSOIEN,0),"^",13)=ISSDT ; 0;13 DATE (Required)
 	S $P(^PSRX(PSOIEN,0),"^",2)=ORZPT ;POINTER TO PATIENT FILE (#2)
 	S $P(^PSRX(PSOIEN,0),"^",3)=PNTSTAT ;RX PATIENT STATUS FILE (#53)
@@ -174,20 +160,23 @@ CREATE ;
 	;
 	;S ^PSRX(PSOIEN,"IB")=TRNSTYP ;COPAY TRANSACTION TYPE   IB ACTION TYPE FILE (#350.1)
 	S ^PSRX(PSOIEN,"TYPE")=0 ;TYPE OF RX             TYPE;1 NUMBER
-	D OERR,F55,F52,F525
+	D OERR(PSOIEN),F55,F52,F525
+	L -PSRX(PSOIEN) ; Unlock record
 	Q
 	;
-OERR	;UPDATES OR1 NODE
+OERR(PSOIEN)	;UPDATES OR1 NODE
 	;THE SECOND PIECE IS KILLED BEFORE MAKING THE CALL
 	S $P(^PSRX(PSOIEN,"OR1"),"^",2)=""
+	N PSXRXIEN,STAT,PSSTAT,COMM,PSNOO
 	S PSXRXIEN=PSOIEN,STAT="SN",PSSTAT="CM",COMM="",PSNOO="W"
 	D EN^PSOHLSN1(PSXRXIEN,STAT,PSSTAT,COMM,PSNOO)
+	QUIT
 F55	; - File data into ^PS(55)
 	;S PSODFN=DFN
 	S:'$D(^PS(55,PSODFN,"P",0)) ^(0)="^55.03PA^^"
 	F PSOX1=$P(^PS(55,PSODFN,"P",0),"^",3):1 Q:'$D(^PS(55,PSODFN,"P",PSOX1))
 	S ^PS(55,PSODFN,"P",PSOX1,0)=PSOIEN,$P(^PS(55,PSODFN,"P",0),"^",3,4)=PSOX1_"^"_($P(^PS(55,PSODFN,"P",0),"^",4)+1)
-	S ^PS(55,PSODFN,"P","A",$P($G(^PSRX(PSOIEN,2)),"^",6),PSOIEN)=""
+	S:$P($G(^PSRX(PSOIEN,2)),"^",6) ^PS(55,PSODFN,"P","A",$P($G(^PSRX(PSOIEN,2)),"^",6),PSOIEN)=""
 	K PSOX1
 	Q
 F52	;; - Re-indexing file 52 entry

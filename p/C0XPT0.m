@@ -1,11 +1,11 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-19  2:14 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-21  4:52 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
  NEW RETURN
  DO GRAPHS^C0XGET1(.RETURN) ; TODO: Return could be a global due to large data.
- N I S I="" F  S I=$O(RETURN(I)) Q:I=""  D  ; For each IEN
- . N G S G=""  F  S G=$O(RETURN(I,G)) Q:G=""  D  ; For each graph tied to IEN
+ N C0XI S C0XI="" F  S C0XI=$O(RETURN(C0XI)) Q:C0XI=""  D  ; For each IEN
+ . N G S G=""  F  S G=$O(RETURN(C0XI,G)) Q:G=""  D  ; For each graph tied to IEN
  . . D PROGRAPH(G) ; Process Graph
  QUIT
  ;
