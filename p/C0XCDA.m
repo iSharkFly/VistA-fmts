@@ -30,7 +30,7 @@ C0XCDA ; GPL - Fileman Triples CDA Processing ;2/20/13  17:05
  ;   for child in node:
  ;       tree(child,'|  '+prefix );
  ;
-tree(where,prefix) ; show a tree starting at a node in MXML. node is passed by name
+tree(where,prefix) ; show a tree starting at a node in MXML. where is passed by value
  ; 
  i $g(prefix)="" s prefix="|--" ; starting prefix
  i '$d(C0XJOB) s C0XJOB=$J
@@ -65,13 +65,21 @@ CLEAN(STR)	; extrinsic function; returns string - gpl borrowed from the CCR pack
  F I=0:1:31 S TR=$G(TR)_$C(I)
  S TR=TR_$C(127)
  N ZR S ZR=$TR(STR,TR)
- S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
+ S ZR=$$LTRIM(ZR) ; get rid of leading blanks
  QUIT ZR
  ;
-LDBLNKS(st) ; extrinsic which removes leading blanks from a string
+LDBLNKS(st) ; extrinsic which removes leading blanks from a string - deprecated see LTRIM
  n zr s zr=st
  f  q:$e(zr,1)'=" "  s zr=$e(zr,2,$l(zr))
  q zr
+ ;
+ ; copied from VPRJT - thanks.
+UP(X) ; return uppercase for X
+ Q $TR(X,"abcdefghijklmnopqrstuvwxyz","ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+ ;
+LTRIM(X) ; remove spaces from left side
+ N POS F POS=1:1:$L(X) Q:$E(X,POS)'=" "
+ Q $E(X,POS,$L(X))
  ;
 VACCD ; set C0XJOB to the VA CCD
  s C0XJOB=14921

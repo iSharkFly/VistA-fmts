@@ -113,9 +113,8 @@ CLEAN(STR)	; extrinsic function; returns string - gpl borrowed from the CCR pack
  QUIT ZR
  ;
 LDBLNKS(st) ; extrinsic which removes leading blanks from a string
- n zr s zr=st
- f  q:$e(zr,1)'=" "  s zr=$e(zr,2,$l(zr))
- q zr
+ n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
+ q $e(st,pos,$l(st))
  ;
 VACCD ; set C0XJOB to the VA CCD
  s C0XJOB=14921
