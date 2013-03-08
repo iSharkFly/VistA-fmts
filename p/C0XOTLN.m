@@ -94,6 +94,97 @@ show(what) ;
  d tree(what)
  q
  ; 
+tree2(where,prefix) ; show a tree starting at a node in MXML. node is passed by name
+ ; tree2 handles ConceptLists as tables
+ i $g(prefix)="" s prefix="|--" ; starting prefix
+ i '$d(C0XJOB) s C0XJOB=$J
+ n node s node=$na(^TMP("MXMLDOM",C0XJOB,1,where))
+ ;n txt s txt=$$CLEAN($$ALLTXT(node))
+ n txt d alltxt(.txt,node)
+ ;w !,prefix_@node_" "_txt
+ n zk s zk=""
+ f  s zk=$o(txt(zk)) q:zk=""  d  ;
+ . i zk=1 d out(prefix_@node_" "_txt(zk))  q  ;
+ . d out(prefix_txt(zk))
+ i @node["ns0:ConceptList" d  q  ;
+ . d clist(where,prefix)
+ n zi s zi=""
+ f  s zi=$o(@node@("A",zi)) q:zi=""  d  ;
+ . ;w !,prefix_"  : "_zi_"^"_$g(@node@("A",zi))
+ . d out(prefix_"  : "_zi_"^"_$g(@node@("A",zi)))
+ n grpstart s grpstart=0
+ f  s zi=$o(@node@("C",zi)) q:zi=""  d  ;
+ . i @node@("C",zi)="ns0:RevisionDate" d newgrp
+ . i @node@("C",zi)="ns0:Group" d group(zi)  q  ;
+ . d tree2(zi,"|  "_prefix)
+ d:grpstart grpout
+ q
+ ;
+newgrp ; kill the group array for a new group
+ ;W !,"NEW GROUP"
+ k ^TMP("C0XNLMVS",$J,"GROUP")
+ q
+ ;
+group(where) ; add a group node to the group array
+ s grpstart=1
+ n gn s gn=$na(^TMP("C0XNLMVS",$J,"GROUP"))
+ n node s node=$na(^TMP("MXMLDOM",C0XJOB,1))
+ n gnum s gnum=$g(@node@(where,"A","ID"))
+ i gnum="" d  q  ;
+ . w !,"error finding group number ",where
+ n var s var=@node@(where,"A","displayName")
+ n valref s valref=$o(@node@(where,"C",""))
+ i valref="" d  q  ;
+ . w !,"error finding value reference ",where
+ n val s val=@node@(valref,"T",1)
+ s @gn@(gnum,var)=val
+ q
+ ;
+grpout ; output the group array
+ ;zwr ^TMP("C0XNLMVS",$J,*)
+ ;b
+ n gn s gn=$na(^TMP("C0XNLMVS",$J,"GROUP"))
+ n grp s grp=""
+ f  s grp=$o(@gn@(grp)) q:grp=""  d  ;
+ . d out("--------------------------------------------------------------")
+ . n attr s attr=""
+ . f  s attr=$o(@gn@(grp,attr)) q:attr=""  d  ;
+ . . d out(attr_": "_@gn@(grp,attr))
+ q
+ ;
+out(txt) ; add line to output array
+ s c0xout=$na(^TMP("C0XOUT",$J))
+ n cnt
+ s cnt=$o(@c0xout@(""),-1)
+ i cnt="" s cnt=0
+ s @c0xout@(cnt+1)=txt
+ q
+ ;
+clist(where,prefix,nohead)
+ n nd s nd=$na(^TMP("MXMLDOM",C0XJOB,1))
+ ;i '$d(nohead) s nohead=0
+ ;i 'nohead d  ;
+ d out($j("Code",20)_$j("System",10)_$j("Description",20))
+ n zzi s zzi=""
+ f  s zzi=$o(@nd@(where,"C",zzi)) q:zzi=""  d  ;
+ . n code,system,desc
+ . s code=$g(@nd@(zzi,"A","code"))
+ . s system=$g(@nd@(zzi,"A","codeSystemName"))
+ . s desc=$g(@nd@(zzi,"A","displayName"))
+ . d out($j(code,20)_$j(system,10)_"  "_desc)
+ ;w @nd,":",@nd@("T",1)  
+ q
+ ;
+alltxt(rtn,node) ; handle arrays of text
+ m rtn=@node@("T")
+ n zj s zj=""
+ f  s zj=$o(rtn(zj)) q:zj=""  d  ;
+ . s rtn(zj)=$$CLEAN(rtn(zj))
+ . s rtn(zj)=$$LDBLNKS(rtn(zj))
+ . i rtn(zj)="" k rtn(zj)
+ . i (rtn(zj)=" ")&(zj>1) k rtn(zj)
+ q
+ ;
 ALLTXT(where) ; extrinsic which returns all text lines from the node .. concatinated 
  ; together
  n zti s zti=""
@@ -124,19 +215,58 @@ NLMVS ; set C0XJOB to the NLM Values Set xml
  s C0XJOB=26295
  Q
  ;
-agenda(zrtn,docId) ; produce an agenda for the docId in the MXML dom
+contents(zrtn,ids) ; produce an agenda for the docId 1 in the MXML dom
  ; generally, a first level index to the document
  ; set C0XJOB if you want to use a different $J to locate the dom
  ; zrtn passed by name
- ;
+ ; ids=1 names them by number ids=0 or null names them by displayname
  ;s C0XJOB=26295
+ D NLMVS
  n zi s zi=""
  i '$d(docId) s docId=1
  i '$D(C0XJOB) s C0XJOB=$J
  n dom s dom=$na(^TMP("MXMLDOM",C0XJOB,docId))
  f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
- . n zn s zn=@dom@(1,"C",zi)
- . s zn=zn_" "_$g(@dom@(zi,"A","displayName"))
- . s @zrtn@(zn,zi)=""
+ . n zn ;
+ . d:$g(ids)  ;
+ . . s zn=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
+ . . s @zrtn@(zn,zi)=""
+ . d:'$g(ids)  ;
+ . . s zn=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
+ . . s zn=$tr(zn,"()","") ; get rid of parens for valid filename
+ . . s zn=$tr(zn,"/","-") ; get rid of slash for valid filename
+ . . s @zrtn@(zn,zi)=""
+ q
+ ;
+export ; exports separate files for each value set
+ ; one copy in a file with a text name based on the displayName
+ n g,zi,fname,where,dirname,gn
+ s gn=$na(^TMP("C0XOUT",$J))
+ s dirname="/home/wvehr2/valuesets/by-name/"
+ s zi=""
+ d contents("g") ; first with text names
+ f  s zi=$o(g(zi)) q:zi=""  d  ;
+ . s fname=zi
+ . s where=$o(g(zi,""))
+ . k @gn
+ . d tree2(where,"| ")
+ . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
+ . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
+ q
+ ;
+export2 ; exports separate files for each value set
+ ; one copy in a file with a numeric file name based on ID
+ n g,zi,fname,where,dirname,gn
+ s gn=$na(^TMP("C0XOUT",$J))
+ s dirname="/home/wvehr2/valuesets/by-id/"
+ s zi=""
+ d contents("g",1) ; with id names
+ f  s zi=$o(g(zi)) q:zi=""  d  ;
+ . s fname=zi
+ . s where=$o(g(zi,""))
+ . k @gn
+ . d tree2(where,"| ")
+ . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
+ . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
  q
  ;
