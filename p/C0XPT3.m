@@ -1,4 +1,4 @@
-C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT ;2013-02-21  5:05 PM
+C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT ;2013-02-22  3:38 PM
 	;;1.0;FILEMAN TRIPLE STORE;;Jun 26,2012;Build 29
 	;
 MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
@@ -6,7 +6,7 @@ MEDS(G,DFN) ; Private Proc; Extract Medication Data from a Patient's Graph
 	K ^TMP($J,"MEDS")
 	D ONETYPE^C0XGET3($NA(^TMP($J,"MEDS")),G,"sp:Medication")
 	;
-	; For each medication (I = COUNTER; S = Medication Node as Subject)
+	; For each medication (C0XI = COUNTER; S = Medication Node as Subject)
 	N C0XI,S F C0XI=0:0 S C0XI=$O(^TMP($J,"MEDS",C0XI)) Q:'C0XI  S S=^(C0XI) DO MED1(G,S,DFN)
 	K ^TMP($J,"MEDS")
 	QUIT
@@ -67,10 +67,19 @@ MED1(G,S,DFN) ; Private Procedure; Process each medication in Graph.
 	. S FILDT=$O(FILLS(RXN,""))
 	. I FILDT S FILQTY=FILLS(RXN,FILDT,"sp:quantityDispensed.sp:value"),FILDAYS=FILLS(RXN,FILDT,"sp:dispenseDaysSupply")
 	. E  S (FILQTY,FILDAYS)=""
-	. D PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS)
+	. D PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,.FILLS)
 	;
 	QUIT
-PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS) ;
+	;
+PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,FILLS) ;
+	; TODO: 
+	; 1. Resolve medication
+	; 2. Figure out what to do with meds that have no fill history (omit?)
+	; 3. Don't file a med twice! Check ^PXRMINDX to make sure it aint there first
+	; 4. Compute the number of refills for original number so that remaining refills aren't displayed as negative
+	; 5. Original fill doesn't have a dispense comment
+	; 6. Coded sig (FVALUE, FUNIT, DOSE, DUNIT)
+	; 7. Fill label log section of Rx? Maybe not.
 	N ORZPT,PSODFN S (ORZPT,PSODFN)=DFN  ;"" ;POINTER TO PATIENT FILE (#2)
 	N PNTSTAT S PNTSTAT=20 ; NON-VA ;RX PATIENT STATUS FILE (#53)
 	N PROV S PROV=$$NP^C0XPT0() ;NEW PERSON FILE (#200)
@@ -98,7 +107,7 @@ PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS) ;
 	N TRNSTYP S TRNSTYP=1 ; IB ACTION TYPE FILE (#350.1)
 	N LDISPDT S LDISPDT=FILLDT ;    3;1 DATE
 	N REASON S REASON="E" ;Activity log ; SET ([E]dit)
-	N INIT S INIT=DUZ ;NEW PERSON FILE (#200)
+	N INIT S INIT=.5 ;NEW PERSON FILE (#200)
 	N COM S COM="Oupatient medication order." ;TEXT
 	N SIG S SIG=INST ;#51,.01
 	;
@@ -114,9 +123,9 @@ CREATE ; fall through
 	I $D(^PSRX(PSOIEN)) S $EC=",U1," ; Next number not available. File issue.
 	S $P(^PSRX(0),U,3)=PSOIEN ; Reset next available number.
 	S $P(^PSRX(PSOIEN,0),"^",1)=RXNUM ; 0;1 FREE TEXT (Required)
+	L +^PSRX(PSOIEN):0 ; Lock record node
 	L -^PSRX(0) ; Unlock zero node, we now got it
 	;
-	L +^PSRX(PSOIEN):0 ; Lock record node
 	S $P(^PSRX(PSOIEN,0),"^",13)=ISSDT ; 0;13 DATE (Required)
 	S $P(^PSRX(PSOIEN,0),"^",2)=ORZPT ;POINTER TO PATIENT FILE (#2)
 	S $P(^PSRX(PSOIEN,0),"^",3)=PNTSTAT ;RX PATIENT STATUS FILE (#53)
@@ -142,12 +151,33 @@ CREATE ; fall through
 	;
 	S $P(^PSRX(PSOIEN,3),U,1)=DISPDT ;LAST DISPENSED DATE    3;1 DATE
 	;
-	S ^PSRX(PSOIEN,"A",0)="^52.3DA^1^1"
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",1)=LOGDT ;DATE
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",2)=REASON ;SET
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",3)=INIT ;NEW PERSON FILE (#200)
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",4)=0 ;NUMBER - RX REFERENCE
-	S $P(^PSRX(PSOIEN,"A",1,0),"^",5)="ISI automated entry." ;TEXT
+	N C0XFILL S C0XFILL=""
+	N C0XREFCT S C0XREFCT=0
+	F  S C0XFILL=$O(FILLS(RXN,C0XFILL)) Q:C0XFILL=""  D
+	. S ^PSRX(PSOIEN,"A",0)="^52.3DA"_U_(C0XREFCT+1)_U_(C0XREFCT+1)
+	. S $P(^PSRX(PSOIEN,"A",C0XREFCT+1,0),"^",1)=LOGDT ;DATE
+	. S $P(^PSRX(PSOIEN,"A",C0XREFCT+1,0),"^",2)="N" ;SET ; Dispensed using external interface
+	. S $P(^PSRX(PSOIEN,"A",C0XREFCT+1,0),"^",3)=INIT ;NEW PERSON FILE (#200)
+	. S $P(^PSRX(PSOIEN,"A",C0XREFCT+1,0),"^",4)=0 ;NUMBER - RX REFERENCE
+	. S $P(^PSRX(PSOIEN,"A",C0XREFCT+1,0),"^",5)="Imported from Smart" ;TEXT
+	. ;
+	. Q:C0XFILL=FILDT  ; Don't add refill data for first fill!
+	. ;
+	. ; Increment counter
+	. S C0XREFCT=C0XREFCT+1
+	. ;
+	. S ^PSRX(PSOIEN,1,0)="^52.1DA"_U_(C0XREFCT)_U_(C0XREFCT)
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",1)=C0XFILL ; REFILL DATE [D]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",2)=MLWIND  ; MAIL/WINDOW [RS]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",3)="Imported from Smart" ; REMARKS [F]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",4)=FILLS(RXN,C0XFILL,"sp:quantityDispensed.sp:value") ; QTY [RNJ12,2X]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",5)=.5 ; PHARMACIST NAME [*P200']
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",6)="" ; LOT [F]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",7)=.5 ; CLERK CODE [RP200']
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",8)="" ; LOGIN DATE [D]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",9)="" ; DIVISION [RP59']
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",17)=PROV ; PROVIDER [R*P200X'I]
+	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",19)=C0XFILL ; DISPENSED DATE [RD]
 	;
 	S ^PSRX(PSOIEN,"OR1")=PORDITM ;PHARMACY ORDERABLE ITEM FILE (#50.7)
 	;
@@ -160,7 +190,7 @@ CREATE ; fall through
 	;
 	;S ^PSRX(PSOIEN,"IB")=TRNSTYP ;COPAY TRANSACTION TYPE   IB ACTION TYPE FILE (#350.1)
 	S ^PSRX(PSOIEN,"TYPE")=0 ;TYPE OF RX             TYPE;1 NUMBER
-	D OERR(PSOIEN),F55,F52,F525
+	D OERR(PSOIEN),F55,F52(PSOIEN),F525
 	L -PSRX(PSOIEN) ; Unlock record
 	Q
 	;
@@ -179,8 +209,8 @@ F55	; - File data into ^PS(55)
 	S:$P($G(^PSRX(PSOIEN,2)),"^",6) ^PS(55,PSODFN,"P","A",$P($G(^PSRX(PSOIEN,2)),"^",6),PSOIEN)=""
 	K PSOX1
 	Q
-F52	;; - Re-indexing file 52 entry
-	K DIK,DA S DIK="^PSRX(",DA=PSOIEN D IX1^DIK K DIK
+F52(PSOIEN)	;; - Re-indexing file 52 entry
+	N DIK,DA S DIK="^PSRX(",DA=PSOIEN D IX1^DIK K DIK
 	Q
 	;
 F525	;UPDATE SUSPENSE FILE
