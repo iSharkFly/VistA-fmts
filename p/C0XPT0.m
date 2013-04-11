@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-02-21  4:52 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-04-10  4:23 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ;
  ; Get all graphs
@@ -25,6 +25,7 @@ PROGRAPH(G) ; Process Graph (i.e. Patient)
  SET PARAM("DOB")=$$DOB(DEM)
  SET PARAM("MRN")=$$MRN(DEM)
  NEW RETURN
+ WRITE !!,PARAM("NAME"),!
  D ADDPT(.RETURN,.PARAM)
  N DFN S DFN=$P(RETURN(1),U,2)
  I DFN<1 S $EC=",U1," ; Debug.Assert that patient is added.
