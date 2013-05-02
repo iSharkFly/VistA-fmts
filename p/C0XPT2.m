@@ -1,5 +1,7 @@
-C0XPT2 ; VEN/SMH - Get and Store Allergies/ADRs ;2013-02-19  12:03 PM
+C0XPT2 ; VEN/SMH - Get and Store Allergies/ADRs ;2013-05-01  9:54 AM
  ;;1.1;FILEMAN TRIPLE STORE;;
+	; (C) Sam Habiel 2013
+	; Proprietary code. Stay out!
  ;
 ADR(G,DFN) ;  Private Proc; Extract Allergies and ADRs from Graph and add to Patient's Record
 	; Input: G, Patient Graph, DFN, you should know that that is; Both by value.

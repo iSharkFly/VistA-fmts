@@ -1,5 +1,7 @@
-C0XPT1 ; VEN/SMH - Obtain and Store Problems ;2013-02-19  11:55 AM
+C0XPT1 ; VEN/SMH - Obtain and Store Problems ;2013-05-01  9:54 AM
  ;;1.1;FILEMAN TRIPLE STORE;;
+	; (C) Sam Habiel 2013
+	; Proprietary code. Stay out!
  ;
 PROBLEMS(G,DFN) ; Private EP; Process Problems for a patient graph
  ; Delete existing problems if they are present
