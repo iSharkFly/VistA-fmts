@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-05-01  9:54 AM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-05-03  6:09 PM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ; (C) Sam Habiel 2013
  ; Proprietary code. Stay out!
@@ -187,12 +187,29 @@ VITALS(G,DFN) ; Private EP; Process Vitals for a patient graph.
  QUIT
  ;
 NP() ; New Person Entry
-	N C0XFDA,C0XIEN,C0XERR
+	Q:$O(^VA(200,"B","PROVIDER,UNKNOWN SMART",0)) $O(^(0)) ; Quit if the entry exists
+	;
+	N C0XFDA,C0XIEN,C0XERR,DIERR
 	S C0XFDA(200,"?+1,",.01)="PROVIDER,UNKNOWN SMART" ; Name
 	S C0XFDA(200,"?+1,",1)="USP" ; Initials
 	S C0XFDA(200,"?+1,",28)="SMART" ; Mail Code
+	S C0XFDA(200.05,"?+2,?+1,",.01)="`144" ; Person Class - Allopathic docs.
+	S C0XFDA(200.05,"?+2,?+1,",2)=2700101 ; Date active
 	;
 	N DIC S DIC(0)="" ; An XREF in File 200 requires this.
 	D UPDATE^DIE("E",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR)) ; Typical UPDATE
+	I $D(DIERR) S $EC=",U1,"
 	Q C0XIEN(1) ;Provider IEN
 	;
+HL() ; Hospital Location Entry
+	N C0XFDA,C0XIEN,C0XERR,DIERR
+	S C0XFDA(44,"?+1,",.01)="SMART PATIENT LOCATION" ; Name
+	S C0XFDA(44,"?+1,",2)="C" ; Type - Clinic
+	S C0XFDA(44,"?+1,",2.1)=1 ; Type Extension - Clinic
+	S C0XFDA(44,"?+1,",3)=+$$SITE^VASITE() ; Institution - Default institution
+	S C0XFDA(44,"?+1,",8)=295 ; STOP CODE NUMBER - Primary Care
+	S C0XFDA(44,"?+1,",9)="M" ; SERVICE
+	S C0XFDA(44,"?+1,",2502)="Y" ; NON-COUNT CLINIC
+	D UPDATE^DIE("",$NA(C0XFDA),$NA(C0XIEN),$NA(C0XERR))
+	I $D(DIERR) S $EC=",U1,"
+	Q C0XIEN(1) ; HL IEN
