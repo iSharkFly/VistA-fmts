@@ -1,4 +1,4 @@
-C0XPT4 ; VEN/SMH - Encounter Processing;2013-05-03  5:11 PM
+C0XPT4 ; VEN/SMH - Encounter Processing;2013-05-06  9:42 AM
  ;;1.0;FILEMAN TRIPLE STORE;
  ; (c) 2013 Sam Habiel
  ; Currently proprietary code. Stay out!!!
@@ -16,7 +16,7 @@ ENC(G,DFN) ; Extract and then process encounters; PEP
 	. N STARTDATE S STARTDATE=$$GSPO1^C0XGET3(G,S,"sp:startDate")
 	. S STARTDATE=$$FMDATE(STARTDATE)
 	. W " ",STARTDATE
-	. D HISTENC(STARTDATE,DFN) ; Historical Encounter Private API
+	. D ONEENC(STARTDATE,DFN) ; File One Encounter Private API
 	K ^TMP($J,"ENC") ; data location
 	QUIT
 	;
@@ -34,14 +34,14 @@ FMDATE(STARTDATE) ; Internal to fix start date
 	Q STARTDATE
 	;
 	;
-HISTENC(DATE,DFN,FTLOC,COMMENT) ; Private Proc; Historical Encounter Filing into the VISIT file
+ONEENC(DATE,DFN,FTLOC,COMMENT) ; Private Proc; One Encounter Filing into the VISIT file
 	; Input:
 	; - DATE: FM DATE of VISIT (Scalar) - Required
 	; - DFN (Scalar) - Required
-	; - FTLOC: Free Text Location - Optional. Defaults to SMART LOCATION
-	; - COMMENT: Free Text Comment - Optional. Defaults to Imported from Smart
+	; - FTLOC: (Scalar) Free Text Location - Optional. Defaults to SMART LOCATION
+	; - COMMENT: (Scalar) Free Text Comment - Optional. Defaults to Imported from Smart
 	; Output:
-	; - Creates V file entries for the historical encounter
+	; - Creates V file entries for encounter
 	;
 	; Handle required and optional variables...
 	N X F X="DATE","DFN" I '$D(@X) S $EC=",U1," ; Check for the present of required input variables
@@ -60,25 +60,27 @@ HISTENC(DATE,DFN,FTLOC,COMMENT) ; Private Proc; Historical Encounter Filing into
 	S C0XDATA("ENCOUNTER",1,"PATIENT")=DFN
 	S C0XDATA("ENCOUNTER",1,"HOS LOC")=$$HL^C0XPT0()
 	S C0XDATA("ENCOUNTER",1,"SERVICE CATEGORY")="A" ; Ambulatory
-	S C0XDATA("ENCOUNTER",1,"OUTSIDE LOCATION")="FROM THE WIDE WORLD"
+	S C0XDATA("ENCOUNTER",1,"OUTSIDE LOCATION")=FTLOC
 	S C0XDATA("ENCOUNTER",1,"ENCOUNTER TYPE")="P" ; Primary
+	S C0XDATA("ENCOUNTER",1,"COMMENT")=COMMENT
 	S C0XDATA("PROVIDER",1,"NAME")=$$NP^C0XPT0()
 	; Diangosis and procedure necessary so visit will show up in ^SDE.
+	; We invent them here.
 	S C0XDATA("DX/PL",1,"DIAGNOSIS")=$O(^ICD9("BA","V70.3 ",0))
-	S C0XDATA("PROCEDURE",1,"PROCEDURE")=$O(^ICPT("B","99201",0))
+	S C0XDATA("PROCEDURE",1,"PROCEDURE")=$O(^ICPT("B","99212",0))
 	S C0XDATA("PROCEDURE",1,"QTY")=1
 	;
 	N C0XVISIT,C0XERR ; Visit, Error
 	N XQORMUTE S XQORMUTE=1 ; Unwinder: Shut the hell up. Don't execute disabled protocols rather than whining about them.
 	N OK S OK=$$DATA2PCE^PXAPI($NA(C0XDATA),PKG,SRC,.C0XVISIT,,,.C0XERR)
-	I OK<1 S $EC=",U1,"
+	I OK<1 S $EC=",U1," ; Invalid value is -1
 	QUIT
 	;
 	;
 DELALL(DFN) ; Private Proc; Delete ALL ALL ALL encounter information for the patient.
 	; BE VERY CAREFUL USING THIS...
 	; Walk through the C X-Ref for this patient
-	N I S I=9000010  ; Hit the VISIT file LAST as some xrefs in other files point to it!
+	N I S I=9000010  ; Hit the VISIT file LAST as V files point to it!
 	N DIK,DA
 	F  S I=$O(^DIC(I)) Q:I'<9000011  D  ; For each V File...
 	. N OR S OR=$$ROOT^DILFD(I,"",0)  ; Open Root for ^DIK

@@ -1,4 +1,4 @@
-C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-05-03  6:09 PM
+C0XPT0 ; VEN/SMH - Get patient data and do something about it ;2013-05-06  9:47 AM
  ;;1.1;FILEMAN TRIPLE STORE;;
  ; (C) Sam Habiel 2013
  ; Proprietary code. Stay out!
@@ -186,8 +186,9 @@ VITALS(G,DFN) ; Private EP; Process Vitals for a patient graph.
  ; D EN1^GMVDCSAV(.RESULT,DATA)
  QUIT
  ;
-NP() ; New Person Entry
-	Q:$O(^VA(200,"B","PROVIDER,UNKNOWN SMART",0)) $O(^(0)) ; Quit if the entry exists
+NP() ; Private ; New Person Entry
+	N NAME S NAME="PROVIDER,UNKNOWN SMART" ; Constant
+	Q:$O(^VA(200,"B",NAME,0)) $O(^(0)) ; Quit if the entry exists with entry
 	;
 	N C0XFDA,C0XIEN,C0XERR,DIERR
 	S C0XFDA(200,"?+1,",.01)="PROVIDER,UNKNOWN SMART" ; Name
@@ -201,7 +202,10 @@ NP() ; New Person Entry
 	I $D(DIERR) S $EC=",U1,"
 	Q C0XIEN(1) ;Provider IEN
 	;
-HL() ; Hospital Location Entry
+HL() ; Private; Hospital Location Entry
+	N NAME S NAME="SMART PATIENT LOCATION" ; Constant
+	Q:$O(^SC("B",NAME,0)) $O(^(0)) ; Quit if the entry exists with the entry
+	;
 	N C0XFDA,C0XIEN,C0XERR,DIERR
 	S C0XFDA(44,"?+1,",.01)="SMART PATIENT LOCATION" ; Name
 	S C0XFDA(44,"?+1,",2)="C" ; Type - Clinic
