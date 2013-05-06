@@ -1,4 +1,4 @@
-C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT ;2013-05-06  10:21 AM
+C0XPT3	;ISI/MLS,VEN/SMH -- MEDS IMPORT ;2013-05-06  4:35 PM
 	;;1.0;FILEMAN TRIPLE STORE;;Jun 26,2012;Build 29
 	; (C) Sam Habiel 2013
 	; Proprietary code. Stay out!
@@ -64,32 +64,39 @@ MED1(G,S,DFN) ; Private Procedure; Process each medication in Graph.
 	. . N %DT,X,Y S X=FILLDATE D ^%DT S FILLDATE=Y
 	. I FILLDATE<2000000 W $EC=",U1," ; Converstion error
 	. ;
+	. S FILLS=$G(FILLS)+1 ; Counter for number of dispenses
 	. S FILLS(RXN,FILLDATE,"sp:dispenseDaysSupply")=$$GSPO1^C0XGET3(G,S,"sp:dispenseDaysSupply") ; Self Explanatory?
 	. ;
 	. ; Get quantity value and unit
 	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:value")=$$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:value")
 	. S FILLS(RXN,FILLDATE,"sp:quantityDispensed.sp:unit")=$TR($$GSPO1^C0XGET3(G,S,"sp:quantityDispensed.sp:unit"),"{}")
 	;
-	ZWRITE:$D(FILLS) FILLS
+	; ZWRITE:$D(FILLS) FILLS
 	;
+	; Prepare to add drug to patient record
 	D 
 	. N FILDT,FILQTY,FILDAYS
-	. S FILDT=$O(FILLS(RXN,""))
-	. I FILDT S FILQTY=FILLS(RXN,FILDT,"sp:quantityDispensed.sp:value"),FILDAYS=FILLS(RXN,FILDT,"sp:dispenseDaysSupply")
-	. E  S (FILQTY,FILDAYS)=""
-	. D PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,.FILLS)
+	. S FILDT=$O(FILLS(RXN,"")) ; Get first fill.
+	. I FILDT S FILQTY=FILLS(RXN,FILDT,"sp:quantityDispensed.sp:value"),FILDAYS=FILLS(RXN,FILDT,"sp:dispenseDaysSupply") ; extract fill data
+	. E  S (FILQTY,FILDAYS)="",FILDT=STARTDT ; Technically, the drug is invalid since there is no fill. But this is a kludge.
+	. D PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,.FILLS) ; Add drug to patient record
 	;
 	QUIT
 	;
-PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,FILLS) ;
+PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,FILLS) ; Private EP to add drug to patient record
+	; - DFN
+	; - RXN - RxNorm CUI
+	; - INST - Instructions (1 tablet daily etc)
+	; - FILDT - Earliest Fill Date
+	; - FILQTY - Fill quantity of earliest fill date, used as default
+	; - FILDAYS - Days Supply
+	; - FILLS - Array specificed above - ByRef
+	;
 	; TODO: 
-	; 1. Resolve medication
-	; 2. Figure out what to do with meds that have no fill history (omit?)
 	; 3. Don't file a med twice! Check ^PXRMINDX to make sure it aint there first
-	; 4. Compute the number of refills for original number so that remaining refills aren't displayed as negative
-	; 5. Original fill doesn't have a dispense comment
-	; 6. Coded sig (FVALUE, FUNIT, DOSE, DUNIT)
-	; 7. Fill label log section of Rx? Maybe not.
+	; 6. Coded sig (FVALUE, FUNIT, DOSE, DUNIT) - goes into SIG1 multiple and Med Instructions multiple
+	; 7. Fill label log section of Rx? Maybe not - goes into Label Date/Time multiple
+	; 8. ICD Diangosis multiple if we have the data
 	;
 	I '$$EXIST^C0CRXNLK(RXN) S $EC=",U1," ; Invalid RxNorm code passed.
 	;
@@ -106,7 +113,7 @@ PREP(DFN,RXN,INST,FILDT,FILQTY,FILDAYS,FILLS) ;
 	S PSODRUG("DEA")=$P($G(^PSDRUG(PSODRUG,0)),U,3)
 	N QTY S QTY=FILQTY ; NUMBER ;0;7 NUMBER (Required)
 	N DAYSUPLY S DAYSUPLY=FILDAYS ;NUMBER ; 0;8 NUMBER (Required);
-	N REFIL S REFIL=0 ;NUMBER ; 0;9 NUMBER (Required)
+	N REFIL S REFIL=$S($G(FILLS):FILLS-1,1:0) ;NUMBER ; 0;9 NUMBER (Required) ; # of dispenses - 1, if there are any
 	N ORDCONV S ORDCONV=1 ;'1' FOR ORDER CONVERTED;'2' FOR EXPIRATION TO CPRS;
 	N COPIES S COPIES=1 ;NUMBER
 	N MLWIND S MLWIND="W" ; Mail/Window: 'M' or 'W'
@@ -148,7 +155,7 @@ CREATE ; fall through
 	S $P(^PSRX(PSOIEN,0),"^",2)=ORZPT ;POINTER TO PATIENT FILE (#2)
 	S $P(^PSRX(PSOIEN,0),"^",3)=PNTSTAT ;RX PATIENT STATUS FILE (#53)
 	S $P(^PSRX(PSOIEN,0),"^",4)=PROV ;NEW PERSON FILE (#200)
-	S $P(^PSRX(PSOIEN,0),"^",5)="" ; Outpatient ; LOC ;HOSPITAL LOCATION FILE (#44)
+	S $P(^PSRX(PSOIEN,0),"^",5)=$$HL^C0XPT0() ; Outpatient ; LOC ;HOSPITAL LOCATION FILE (#44); Default smart location
 	S $P(^PSRX(PSOIEN,0),"^",6)=PSODRUG ;POINTER TO DRUG FILE (#50) 
 	S $P(^PSRX(PSOIEN,0),"^",7)=QTY ;NUMBER ;0;7 NUMBER (Required)
 	S $P(^PSRX(PSOIEN,0),"^",8)=DAYSUPLY ;NUMBER ; 0;8 NUMBER (Required)
@@ -157,7 +164,6 @@ CREATE ; fall through
 	S $P(^PSRX(PSOIEN,0),"^",16)=ENTERBY ;NEW PERSON FILE (#200)
 	S $P(^PSRX(PSOIEN,0),"^",17)=UNITPRICE ;NUMBER
 	S $P(^PSRX(PSOIEN,0),"^",18)=COPIES ;COPIES
-	S $P(^PSRX(PSOIEN,0),"^",19)=ORDCONV ;ORDER CONVERTED        0;19 SET ['1' FOR ORDER CONVERTED;'2' FOR EXPIRATION TO CPRS;]
 	;
 	S $P(^PSRX(PSOIEN,2),"^",1)=LOGDT ;LOGIN DATE ; 2;1 DATE (Required)
 	S $P(^PSRX(PSOIEN,2),"^",2)=FILLDT ;FILL DATE
@@ -168,6 +174,9 @@ CREATE ; fall through
 	S $P(^PSRX(PSOIEN,2),"^",9)=PSOSITE ;2;9 POINTER TO OUTPATIENT SITE FILE (#59)
 	;
 	S $P(^PSRX(PSOIEN,3),U,1)=DISPDT ;LAST DISPENSED DATE    3;1 DATE
+	S $P(^PSRX(PSOIEN,3),U,7)="Imported from Smart" ; REMARKS FT
+	;
+	S $P(^PSRX(PSOIEN,"EPH"),U,1)=0 ; DAW Code
 	;
 	N C0XFILL S C0XFILL=""
 	N C0XREFCT S C0XREFCT=0
@@ -198,8 +207,9 @@ CREATE ; fall through
 	. S $P(^PSRX(PSOIEN,1,C0XREFCT,0),"^",19)=C0XFILL ; DISPENSED DATE [RD]
 	;
 	S ^PSRX(PSOIEN,"OR1")=PORDITM ;PHARMACY ORDERABLE ITEM FILE (#50.7)
+	S $P(^PSRX(PSOIEN,"OR1"),U,5)=.5 ; Finishing Person
+	S $P(^PSRX(PSOIEN,"OR1"),U,8)=$$NOW^XLFDT() ; Finish Date/Time; seconds required.
 	;
-	S $P(^PSRX(PSOIEN,"POE"),"^",1)=1 ; POE RX                 POE;1 SET ['1' FOR YES;]
 	;
 	S $P(^PSRX(PSOIEN,"SIG"),"^",1)=SIG ;SIG;1 FREE TEXT (Required)  medication instruction DIC(51)
 	S $P(^PSRX(PSOIEN,"SIG"),"^",2)=0 ;OERR SIG (SET: 0 for NO; 1 for YES)
@@ -208,7 +218,9 @@ CREATE ; fall through
 	;
 	;S ^PSRX(PSOIEN,"IB")=TRNSTYP ;COPAY TRANSACTION TYPE   IB ACTION TYPE FILE (#350.1)
 	S ^PSRX(PSOIEN,"TYPE")=0 ;TYPE OF RX             TYPE;1 NUMBER
+	;
 	D OERR(PSOIEN),F55,F52(PSOIEN),F525
+	;
 	L -PSRX(PSOIEN) ; Unlock record
 	Q
 	;
