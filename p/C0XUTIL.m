@@ -1,5 +1,5 @@
 C0XUTIL	; GPL - Fileman Triples utilities ;11/07/11  17:05
-	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 10
+	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 	;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 	;General Public License See attached copy of the License.
 	;
@@ -41,6 +41,7 @@ NSP(ZX)	; OUTPUT TRANSFORM EXTRINSIC
 	Q ZR
 	;
 VOCINIT	; INITIALIZE VOCABULARIES
+	S C0XVOC("xmlns")="http://www.w3.org/2001/XMLSchema-instance"
 	S C0XVOC("dcterms")="http://purl.org/dc/terms/"
 	S C0XVOC("rdf")="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	S C0XVOC("sp")="http://smartplatforms.org/terms#"
@@ -65,9 +66,10 @@ VOCINIT	; INITIALIZE VOCABULARIES
 	S C0XVOC("oro")="http://oro.com/vista/sage" ;change to get URL from system
 	S C0XVOC("sage")="http://oro.com/sage/schema#"
 	S C0XVOC("v")="http://www.w3.org/2006/vcard/ns#"
-	S C0XVOC("cadrug")="http://drugbank.ca"
-	S C0XVOC("xmlns")="http://www.w3.org/"
-	S C0XVOC("xs")="http://www.w3.org/xs#"
+	S C0XVOC("sdtc")="urn:hl7-org:v3/sdtc"
+	S C0XVOC("voc")="urn:hl7-org:v3/voc"
+	S C0XVOC("xsi")="http://www.w3.org/2001/XMLSchema-instance"
+	S C0XVOC("qrda")="urn:hl7-org:v3/qrda#"
 	Q
 	;
 EXT(C0XIN)	; EXTRINSIC WHICH EXPANDS NAMESPACES

@@ -1,5 +1,5 @@
 C0XGET1	; GPL - Fileman Triples entry point routine ;1/12/12  17:05
-	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 10
+	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 	;Copyright 2011 George Lilly.  Licensed under the terms of the GNU
 	;General Public License See attached copy of the License.
 	;
@@ -402,6 +402,15 @@ do3(dortn,zt,zi)	; have none, looking for three
 	. . . s dortn(zr)=""
 	q
 	;
+ISSUB(STR) ; returns true if STR is a subject of some triples
+ N ZZIEN
+ S ZZIEN=$$IENOF(STR) ; string pointer value
+ N ZTN S ZTN=C0XFARY("C0XTN") ; location of triples
+ ;N ZTN S ZTN=$NA(^C0X(101)) ; location of triples -- change this to use FARY --- gpl
+ I $O(@ZTN@("SPO",ZZIEN,""))'="" Q 1
+ E  Q ""
+ Q
+ ;
 IENOF(ZSTRING,FARY)	; EXTRINSIC WHICH RETURNS THE IEN OF ZS IN THE STRINGS FILE
 	I '$D(FARY) D  ;
 	. D INITFARY^C0XF2N("C0XFARY")

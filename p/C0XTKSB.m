@@ -1,5 +1,5 @@
 C0XTESTKSB	; GPL - Fileman Triples bulk load tester ;11/6/11  17:05
-	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012
+	;;1.0;FILEMAN TRIPLE STORE;;Sep 26, 2012;Build 11
 	; KSB - modified to fix a minor bug and to use;;;;;Build 10
 	;       high resolution time if routines available ; 11/19/11 1410 EST
 	;;0.1;C0X;nopatch;noreleasedate;Build 1
