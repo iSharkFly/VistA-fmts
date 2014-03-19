@@ -73,7 +73,7 @@ qparse(qrtn,zquery) ; parses the query
  ;
  n q1,q2,q3,qq
  ;s qq=$tr(zquery,"  ","^")
- s qq=query ; really want to remove whitespace here
+ s qq=zquery ; really want to remove whitespace here
  s q1=$p(qq," ",1)
  i q1["?" s q1=""
  s q2=$p(qq," ",2)
